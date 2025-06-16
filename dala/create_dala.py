@@ -16,7 +16,7 @@ from dala_utils import join_tokens
 MIN_NUM_CHARS_IN_DOCUMENT = 2
 MAX_NUM_CHARS_IN_DOCUMENT = 5000
 
-USE_SPLIT_PROPORTIONS = True
+USE_SPLIT_PROPORTIONS = False
 TRAIN_PROPORTION = 0.8
 TEST_PROPORTION = 0.15
 
@@ -134,6 +134,13 @@ def main(use_split_proportions: bool) -> DatasetDict[str, Dataset] | None:
             train=train, val=val, test=test
         )
 
+    # Save the dataset to CSV files
+    train.to_csv(f"../la_output/dala_{lang}_train.csv")
+    val.to_csv(f"../la_output/dala_{lang}_val.csv")
+    test.to_csv(f"../la_output/dala_{lang}_test.csv")
+    if not use_split_proportions:
+        full_train.to_csv(f"../la_output/dala_{lang}_full_train.csv")
+
     # Create dataset ID
     dataset_id = DATASET_ID
 
@@ -148,12 +155,7 @@ def main(use_split_proportions: bool) -> DatasetDict[str, Dataset] | None:
     print(f"DaLA: pushing dataset to HuggingFace ({dataset_id})...")
     dataset.push_to_hub(dataset_id, private=True)
 
-    # Save the dataset to CSV files
-    train.to_csv(f"../la_output/dala_{lang}_train.csv")
-    val.to_csv(f"../la_output/dala_{lang}_val.csv")
-    test.to_csv(f"../la_output/dala_{lang}_test.csv")
-    if not use_split_proportions:
-        full_train.to_csv(f"../la_output/dala_{lang}_full_train.csv")
+
 
 
 def prepare_df(df: pd.DataFrame, split: str) -> Dataset:

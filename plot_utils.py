@@ -6,28 +6,12 @@ import hashlib
 import colorsys
 
 def get_unique_color(label):
-    """
-    Returns a consistent hex color code based on a SHA-1 hash of `label`.
-    Two different labels *will almost never* share the same color,
-    barring a cryptographic hash collision.
-
-    Parameters
-    ----------
-    label : str (or something convertible to str)
-        The label to map into a color.
-
-    Returns
-    -------
-    color_hex : str
-        A hex color string (e.g. '#7f3a65').
-    """
     # Ensure we're dealing with a string
     label_str = str(label)
 
     # Compute SHA-1 hash of the label
     label_hash = hashlib.sha1(label_str.encode('utf-8')).hexdigest()
 
-    # Convert the hex digest into an integer
     hash_int = int(label_hash, 16)
 
     # Use part of that integer to define our hue in [0,1]
@@ -57,29 +41,6 @@ def plot_value_counts(
     palette=None,
     save_filename: str = "proportions"
 ):
-    """
-    Plot a bar chart from a pandas Series of value counts (or proportions),
-    placing the legend outside, removing x-axis labels, and keeping y-axis labels.
-
-    Uses a hash-based method to assign the same color to identical labels
-    without storing them in a dictionary.
-
-    Parameters
-    ----------
-    value_counts : pd.Series
-        Series containing counts (or proportions) indexed by category.
-    legend_title : str, optional
-        Title of the legend.
-    y_label : str, optional
-        Label for the y-axis.
-    figsize : tuple of (float, float), optional
-        Figure size in inches (width, height).
-
-    Returns
-    -------
-    None
-    """
-
     fig, ax = plt.subplots(figsize=figsize)
 
     # Dynamically compute colors for each label
@@ -110,10 +71,7 @@ def plot_value_counts(
     plt.tight_layout()
 
     # Save the figure
-
-    # Create the output directory if it doesn't exist
     os.makedirs("la_output/plots", exist_ok=True)
-
     plt.savefig(f"la_output/plots/{save_filename}.png", bbox_inches='tight', dpi=300)
 
     plt.show()
