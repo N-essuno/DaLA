@@ -54,6 +54,8 @@ The evaluation notebook (regarding the automatic evaluation part) is located in 
 - Number of sentences flagged as acceptable (False Positives)
 - Precision
 
+We consider only precision because we are only interested in evaluating the corruption quality. This means that we consider and evaluate only the corrupted (positives) sentences.
+
 
 ### Models evaluation on DaLA
 The model evaluation is not included in this repository as it is based on the original [EuroEval](https://euroeval.com/) evaluation framework. However, since this dataset matches the linguistic acceptability dataset format expected by EuroEval the process to replicate the evaluation is straightforward:
