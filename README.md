@@ -69,7 +69,7 @@ from euroeval import Benchmarker
 hf_token = your_huggingface_token
 model = huggingface_model_id_or_path
 
-benchmark = Benchmarker()
+benchmark = Benchmarker(force=True)
 
-benchmark(model=model, api_key=hf_token, verbose=True, raise_errors=True, language="da")
+benchmark(model=model, task=la_task, api_key=hf_token, verbose=True, raise_errors=True, language="da")
 ```
