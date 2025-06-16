@@ -1,0 +1,22 @@
+# venv
+.venv/
+
+# JetBrains
+.idea/
+.ipynb_checkpoints/
+
+# HF token
+envs.env
+
+# WriteAssistant tokens
+evaluation/tokens.yml
+
+# output
+la_output/
+evaluation/not_detected/
+
+# other
+evaluation/notes.sh
+evaluation/test_write_assistant_api.ipynb
+data_proportion_2.ipynb
+
