@@ -61,7 +61,7 @@ We consider only precision because we are only interested in evaluating the corr
 The model evaluation is not included in this repository as it is based on the original [EuroEval](https://euroeval.com/) evaluation framework. However, since this dataset matches the linguistic acceptability dataset format expected by EuroEval the process to replicate the evaluation is straightforward:
 
 - Clone the [EuroEval repository](https://github.com/EuroEval/EuroEval)
-- Go to `euroeval/dataset_configs.py`
+- Go to `euroeval/dataset_configs/danish.py`
 - In `SCALA_DA_CONFIG` replace the `huggingface_id` value with the Hugging Face dataset ID you set in the `create_dala.py` script (or `giannor/dala` to use the existing DaLA dataset on Hugging Face).
 - After that you can run the evaluation using the EuroEval framework from the code as you would normally do, for example (for evaluating a model only on linguistic acceptability):
 
