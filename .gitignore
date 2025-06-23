@@ -12,8 +12,10 @@ envs.env
 evaluation/tokens.yml
 
 # output
+output/
 la_output/
 evaluation/not_detected/
+evaluation/detected/
 
 # other
 evaluation/notes.sh
