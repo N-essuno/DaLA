@@ -84,7 +84,7 @@ def corrupt_dala(df: pd.DataFrame) -> List[Tuple[str, str]]:
     return corrupted_sentences
 
 
-def flip_indefinite_article(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (bool, str):
+def flip_indefinite_article(dk_model: Language, sentence: str, flip_prob: float = 1.0, token_comparison: bool = False) -> (bool, str):
     """
     Flip the indefinite article (en <-> et).
     Looks for a determiner child of a NOUN that is "en" or "et" and flips it.
@@ -92,11 +92,14 @@ def flip_indefinite_article(dk_model: Language, sentence: str, flip_prob: float 
     :param dk_model: A Danish SpaCy model.
     :param sentence: A Danish sentence (string).
     :param flip_prob: Probability of corrupting each eligible sentence.
+    :param token_comparison: If True, returns also the original and corrupted tokens.
     :return: A tuple with a boolean indicating if a corruption was done and the corrupted (or not) sentence.
     """
     doc = dk_model(sentence)
     tokens_out = list(doc)
     single_corruption_done = False
+    original_token = None
+    corrupted_token = None
 
     for token in doc:
         # Skip if we already did a single corruption
@@ -118,6 +121,9 @@ def flip_indefinite_article(dk_model: Language, sentence: str, flip_prob: float 
                         tokens_out[child.i] = flipped
                         single_corruption_done = True
 
+                        original_token = token.text
+                        corrupted_token = tokens_out[child.i]
+
     # Rebuild the sentence
     corrupted_tokens = []
     for orig_token, new_token in zip(doc, tokens_out):
@@ -127,9 +133,12 @@ def flip_indefinite_article(dk_model: Language, sentence: str, flip_prob: float 
             corrupted_tokens.append(new_token.text)
 
     final_sentence = join_tokens(corrupted_tokens)
-    return single_corruption_done, final_sentence
+    if token_comparison:
+        return single_corruption_done, final_sentence, original_token, corrupted_token
+    else:
+        return single_corruption_done, final_sentence
 
-def flip_en_et_suffix(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (bool, str):
+def flip_en_et_suffix(dk_model: Language, sentence: str, flip_prob: float = 1.0, token_comparison: bool = False) -> (bool, str):
     """
     Flip the singular-definite suffix on Danish nouns (-en <-> -et).
 
@@ -142,11 +151,14 @@ def flip_en_et_suffix(dk_model: Language, sentence: str, flip_prob: float = 1.0)
     :param dk_model: A Danish SpaCy model.
     :param sentence: A Danish sentence (string).
     :param flip_prob: Probability of corrupting each eligible sentence.
+    :param token_comparison: If True, returns also the original and corrupted tokens.
     :return: A tuple with a boolean indicating if a corruption was done and the corrupted (or not) sentence.
     """
     doc = dk_model(sentence)
     tokens_out = list(doc)
     single_corruption_done = False
+    original_token = None
+    corrupted_token = None
 
     for i, token in enumerate(doc):
         # Stop after the first successful corruption
@@ -169,6 +181,8 @@ def flip_en_et_suffix(dk_model: Language, sentence: str, flip_prob: float = 1.0)
 
                     tokens_out[i] = flipped
                     single_corruption_done = True
+                    original_token = token.text
+                    corrupted_token = tokens_out[i]
 
     # Rebuild the sentence
     corrupted_words = [
@@ -176,10 +190,13 @@ def flip_en_et_suffix(dk_model: Language, sentence: str, flip_prob: float = 1.0)
     ]
 
     final_sentence = join_tokens(corrupted_words)
-    return single_corruption_done, final_sentence
+    if token_comparison:
+        return single_corruption_done, final_sentence, original_token, corrupted_token
+    else:
+        return single_corruption_done, final_sentence
 
 
-def flip_nogle_nogen(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (bool, str):
+def flip_nogle_nogen(dk_model: Language, sentence: str, flip_prob: float = 1.0, token_comparison: bool = False) -> (bool, str):
     """
     Flip 'nogle' <-> 'nogen'
     Check the next NOUN and type of sentence to determine if the flip is valid:
@@ -189,11 +206,14 @@ def flip_nogle_nogen(dk_model: Language, sentence: str, flip_prob: float = 1.0) 
     :param dk_model: A Danish spaCy model.
     :param sentence: A Danish sentence (string).
     :param flip_prob: Probability of corrupting each eligible sentence.
+    :param token_comparison: If True, returns also the original and corrupted tokens.
     :return: A tuple with a boolean indicating if a corruption was done and the corrupted (or not) sentence.
     """
     doc = dk_model(sentence)
     tokens_out = list(doc)
     single_corruption_done = False
+    original_token = None
+    corrupted_token = None
 
     # Check negation/question
     found_negation = is_negative(doc)
@@ -225,11 +245,15 @@ def flip_nogle_nogen(dk_model: Language, sentence: str, flip_prob: float = 1.0) 
                     if not found_negation and not found_question:
                         tokens_out[i] = flip_preserving_caps(token.text, flip_to="nogen")
                         single_corruption_done = True
+                        original_token = token.text
+                        corrupted_token = tokens_out[i]
 
                 # Rule: 'nogen' -> 'nogle' if next noun is singular
                 if lower_t == "nogen" and "Sing" in noun_number:
                     tokens_out[i] = flip_preserving_caps(token.text, flip_to="nogle")
                     single_corruption_done = True
+                    original_token = token.text
+                    corrupted_token = tokens_out[i]
 
     # Rebuild the sentence
     corrupted_words = [
@@ -237,9 +261,12 @@ def flip_nogle_nogen(dk_model: Language, sentence: str, flip_prob: float = 1.0) 
     ]
 
     final_sentence = join_tokens(corrupted_words)
-    return single_corruption_done, final_sentence
+    if token_comparison:
+        return single_corruption_done, final_sentence, original_token, corrupted_token
+    else:
+        return single_corruption_done, final_sentence
 
-def corrupt_ende_ene(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (bool, str):
+def corrupt_ende_ene(dk_model: Language, sentence: str, flip_prob: float = 1.0, token_comparison: bool = False) -> (bool, str):
     """
     Introduce the common "silent d mistake" in Danish
 
@@ -248,11 +275,14 @@ def corrupt_ende_ene(dk_model: Language, sentence: str, flip_prob: float = 1.0) 
     :param dk_model: A Danish spaCy model.
     :param sentence: A Danish sentence (string).
     :param flip_prob: Probability of corrupting each eligible sentence.
+    :param token_comparison: If True, returns also the original and corrupted tokens.
     :return: A tuple with a boolean indicating if a corruption was done and the corrupted (or not) sentence.
     """
     doc = dk_model(sentence)
     tokens_out = list(doc)
     single_corruption_done = False
+    original_token = None
+    corrupted_token = None
 
     for i, token in enumerate(doc):
         # Skip if we already did a single corruption
@@ -271,6 +301,8 @@ def corrupt_ende_ene(dk_model: Language, sentence: str, flip_prob: float = 1.0) 
                 else:
                     tokens_out[i] = stem + "ende"
                 single_corruption_done = True
+                original_token = token.text
+                corrupted_token = tokens_out[i]
 
             # ADJ/VERB that ends with -ende --> flip to -ene
             elif token.pos_ in ("ADJ", "VERB") and lower_word.endswith("ende") and len(word) >= 4:
@@ -280,6 +312,8 @@ def corrupt_ende_ene(dk_model: Language, sentence: str, flip_prob: float = 1.0) 
                 else:
                     tokens_out[i] = stem + "ene"
                 single_corruption_done = True
+                original_token = token.text
+                corrupted_token = tokens_out[i]
 
     # Rebuild the sentence
     corrupted_words = [
@@ -287,10 +321,13 @@ def corrupt_ende_ene(dk_model: Language, sentence: str, flip_prob: float = 1.0) 
     ]
 
     final_sentence = join_tokens(corrupted_words)
-    return single_corruption_done, final_sentence
+    if token_comparison:
+        return single_corruption_done, final_sentence, original_token, corrupted_token
+    else:
+        return single_corruption_done, final_sentence
 
 
-def flip_pronouns(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (bool, str):
+def flip_pronouns(dk_model: Language, sentence: str, flip_prob: float = 1.0, token_comparison: bool = False) -> (bool, str):
     """
     Inject subject/object-pronoun errors in a sentence.
 
@@ -300,6 +337,7 @@ def flip_pronouns(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> 
     :param dk_model: A Danish spaCy model.
     :param sentence: A Danish sentence (string).
     :param flip_prob: Probability of corrupting each eligible sentence.
+    :param token_comparison: If True, returns also the original and corrupted tokens.
     :return: A tuple with a boolean indicating if a corruption was done and the corrupted (or not) sentence.
     """
 
@@ -317,6 +355,8 @@ def flip_pronouns(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> 
     doc = dk_model(sentence)
     tokens_out = list(doc)
     single_corruption_done = False
+    original_token = None
+    corrupted_token = None
 
     for i, token in enumerate(doc):
         if single_corruption_done:
@@ -331,21 +371,30 @@ def flip_pronouns(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> 
                 flip_to = SUBJECT_TO_OBJECT[tok_lower]
                 tokens_out[i] = flip_preserving_caps(token.text, flip_to)
                 single_corruption_done = True
+                original_token = token.text
+                corrupted_token = tokens_out[i]
         # Flip object pronoun to subject pronoun
         elif tok_lower in OBJECT_TO_SUBJECT and dep in ("obj", "iobj", "obl"):
             if random.random() < flip_prob:
                 flip_to = OBJECT_TO_SUBJECT[tok_lower]
                 tokens_out[i] = flip_preserving_caps(token.text, flip_to)
                 single_corruption_done = True
+                original_token = token.text
+                corrupted_token = tokens_out[i]
 
     # Rebuild the sentence
     corrupted_words = [
         token if isinstance(token, str) else token.text for token in tokens_out
     ]
-    return single_corruption_done, join_tokens(corrupted_words)
+
+    final_sentence = join_tokens(corrupted_words)
+    if token_comparison:
+        return single_corruption_done, final_sentence, original_token, corrupted_token
+    else:
+        return single_corruption_done, final_sentence
 
 
-def flip_som_der(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (bool, str):
+def flip_som_der(dk_model: Language, sentence: str, flip_prob: float = 1.0, token_comparison: bool = False) -> (bool, str):
     """
     Inject the error of using 'der' where 'som' is required.
 
@@ -356,11 +405,14 @@ def flip_som_der(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (
     :param dk_model: A Danish spaCy model.
     :param sentence: A Danish sentence (string).
     :param flip_prob: Probability of corrupting each eligible sentence.
+    :param token_comparison: If True, returns also the original and corrupted tokens.
     :return: A tuple with a boolean indicating if a corruption was done and the corrupted (or not) sentence.
     """
     doc = dk_model(sentence)
     tokens_out = list(doc)
     single_corruption_done = False
+    original_token = None
+    corrupted_token = None
 
     for i, token in enumerate(doc):
         if single_corruption_done:
@@ -371,6 +423,8 @@ def flip_som_der(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (
             if token.dep_ in ("obj", "iobj", "obl"):
                 tokens_out[i] = flip_preserving_caps(token.text, flip_to="der")
                 single_corruption_done = True
+                original_token = token.text
+                corrupted_token = tokens_out[i]
 
     # Rebuild the sentence
     corrupted_words = [
@@ -378,15 +432,19 @@ def flip_som_der(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (
     ]
 
     final_sentence = join_tokens(corrupted_words)
-    return single_corruption_done, final_sentence
+    if token_comparison:
+        return single_corruption_done, final_sentence, original_token, corrupted_token
+    else:
+        return single_corruption_done, final_sentence
 
-def flip_han_hun_to_det(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (bool, str):
+def flip_han_hun_to_det(dk_model: Language, sentence: str, flip_prob: float = 1.0, token_comparison: bool = False) -> (bool, str):
     """
     Flip 'han'/'hun' to 'det' if it's a standard personal pronoun usage.
 
     :param dk_model: A Danish spaCy model.
     :param sentence: A Danish sentence (string).
     :param flip_prob: Probability of corrupting each eligible sentence.
+    :param token_comparison: If True, returns also the original and corrupted tokens.
     :return: A tuple with a boolean indicating if a corruption was done and the corrupted (or not) sentence.
     """
     doc = dk_model(sentence)
@@ -401,24 +459,34 @@ def flip_han_hun_to_det(dk_model: Language, sentence: str, flip_prob: float = 1.
             pronoun_token = tokens_out[pronoun_index]
             tokens_out[pronoun_index] = flip_preserving_caps(pronoun_token.text, flip_to="det")
 
+        original_token = pronoun_token.text
+        corrupted_token = tokens_out[pronoun_index]
+
         # Rebuild the sentence
         corrupted_words = [
             token if isinstance(token, str) else token.text for token in tokens_out
         ]
 
         final_sentence = join_tokens(corrupted_words)
-        return True, final_sentence
+        if token_comparison:
+            return True, final_sentence, original_token, corrupted_token
+        else:
+            return True, final_sentence
     else:
-        return False, ""
+        if token_comparison:
+            return False, "", None, None
+        else:
+            return False, ""
 
 
-def corrupt_spelling(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (bool, str):
+def corrupt_spelling(dk_model: Language, sentence: str, flip_prob: float = 1.0, token_comparison: bool = False) -> (bool, str):
     """
     Detect words which are commonly misspelled and flip them to its common misspelled version.
 
     :param dk_model: A Danish spaCy model.
     :param sentence: A Danish sentence (string).
     :param flip_prob: Probability of corrupting each eligible sentence.
+    :param token_comparison: If True, returns also the original and corrupted tokens.
     :return: A tuple with a boolean indicating if a corruption was done and the corrupted (or not) sentence.
     """
     correct_words = [
@@ -445,6 +513,9 @@ def corrupt_spelling(dk_model: Language, sentence: str, flip_prob: float = 1.0) 
     doc = dk_model(sentence)
     tokens_out = list(doc)
     single_corruption_done = False
+    original_token = None
+    corrupted_token = None
+
     for i, token in enumerate(doc):
         if single_corruption_done:
             break
@@ -458,6 +529,8 @@ def corrupt_spelling(dk_model: Language, sentence: str, flip_prob: float = 1.0) 
             # Replace in tokens_out
             tokens_out[i] = flip_preserving_caps(token.text, flip_to=misspelled_word)
             single_corruption_done = True
+            original_token = token.text
+            corrupted_token = tokens_out[i]
 
     # Rebuild the sentence
     corrupted_words = [
@@ -465,9 +538,12 @@ def corrupt_spelling(dk_model: Language, sentence: str, flip_prob: float = 1.0) 
     ]
 
     final_sentence = join_tokens(corrupted_words)
-    return single_corruption_done, final_sentence
+    if token_comparison:
+        return single_corruption_done, final_sentence, original_token, corrupted_token
+    else:
+        return single_corruption_done, final_sentence
 
-def flip_ligge_laegge(dk_model: Language, sentence: str, flip_prob: float = 1) -> (bool, str):
+def flip_ligge_laegge(dk_model: Language, sentence: str, flip_prob: float = 1.0, token_comparison: bool = False) -> (bool, str):
     """
     Corrupt different 'ligge' forms with 'lægge' forms and vice versa.
 
@@ -481,6 +557,7 @@ def flip_ligge_laegge(dk_model: Language, sentence: str, flip_prob: float = 1) -
     :param dk_model: A Danish spaCy model.
     :param sentence: A Danish sentence (string).
     :param flip_prob: Probability of corrupting each eligible sentence.
+    :param token_comparison: If True, returns also the original and corrupted tokens.
     :return: A tuple with a boolean indicating if a corruption was done and the corrupted (or not) sentence.
     """
     ligge_laegge_map = {
@@ -495,6 +572,8 @@ def flip_ligge_laegge(dk_model: Language, sentence: str, flip_prob: float = 1) -
     doc = dk_model(sentence)
     tokens_out = list(doc)
     single_corruption_done = False
+    original_token = None
+    corrupted_token = None
 
     for i, token in enumerate(doc):
         if single_corruption_done:
@@ -504,6 +583,8 @@ def flip_ligge_laegge(dk_model: Language, sentence: str, flip_prob: float = 1) -
         if lower_t in ligge_laegge_map and random.random() < flip_prob:
             tokens_out[i] = flip_preserving_caps(token.text, flip_to=ligge_laegge_map[lower_t])
             single_corruption_done = True
+            original_token = token.text
+            corrupted_token = tokens_out[i]
 
     # Rebuild the sentence
     corrupted_words = [
@@ -511,9 +592,12 @@ def flip_ligge_laegge(dk_model: Language, sentence: str, flip_prob: float = 1) -
     ]
 
     final_sentence = join_tokens(corrupted_words)
-    return single_corruption_done, final_sentence
+    if token_comparison:
+        return single_corruption_done, final_sentence, original_token, corrupted_token
+    else:
+        return single_corruption_done, final_sentence
 
-def corrupt_verb_r(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (bool, str):
+def corrupt_verb_r(dk_model: Language, sentence: str, flip_prob: float = 1.0, token_comparison: bool = False) -> (bool, str):
     """
     Introduces classic Danish 'r-problems' in verbs.
 
@@ -528,12 +612,15 @@ def corrupt_verb_r(dk_model: Language, sentence: str, flip_prob: float = 1.0) ->
     :param dk_model: A Danish spaCy model.
     :param sentence: A Danish sentence (string).
     :param flip_prob: Probability of corrupting each eligible sentence.
+    :param token_comparison: If True, returns also the original and corrupted tokens.
     :return: A tuple with a boolean indicating if a corruption was done and the corrupted (or not) sentence.
     """
     exclude_verbs = ["gøre", "være", "have", "kunne", "skulle", "ville"]
     doc = dk_model(sentence)
     tokens_out = list(doc)
     single_corruption_done = False
+    original_token = None
+    corrupted_token = None
 
     for i, token in enumerate(doc):
         if single_corruption_done:
@@ -552,6 +639,8 @@ def corrupt_verb_r(dk_model: Language, sentence: str, flip_prob: float = 1.0) ->
                 else:
                     tokens_out[i] = stem + "re"
                 single_corruption_done = True
+                original_token = token.text
+                corrupted_token = tokens_out[i]
 
             # Infinitive verb ending with '-re' -> flip to '-rer'
             elif "VerbForm=Inf" in morph and lower_word.endswith("re") and len(word) >= 3:
@@ -561,6 +650,8 @@ def corrupt_verb_r(dk_model: Language, sentence: str, flip_prob: float = 1.0) ->
                 else:
                     tokens_out[i] = stem + "rer"
                 single_corruption_done = True
+                original_token = token.text
+                corrupted_token = tokens_out[i]
 
     # Rebuild the sentence
     corrupted_words = [
@@ -568,26 +659,32 @@ def corrupt_verb_r(dk_model: Language, sentence: str, flip_prob: float = 1.0) ->
     ]
 
     final_sentence = join_tokens(corrupted_words)
-    return single_corruption_done, final_sentence
+    if token_comparison:
+        return single_corruption_done, final_sentence, original_token, corrupted_token
+    else:
+        return single_corruption_done, final_sentence
 
 
-def corrupt_noun_r(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (bool, str):
+def corrupt_noun_r(dk_model: Language, sentence: str, flip_prob: float = 1.0, token_comparison: bool = False) -> (bool, str):
     """
     Introduces classic Danish 'r-problems' in nouns.
 
     Applied rules:
         - Plural definite (-erne) -> missing 'r' (-ene)
         - Plural indefinite (-ere) -> drop 'e' (-er)
-        - Singular definite (-eren) -> pluralize incorrectly (-erne)
+        - Singular definite (-eren) -> pluralize incorrectly (-ern)
 
     :param dk_model: A Danish spaCy model.
     :param sentence: A Danish sentence (string).
     :param flip_prob: Probability of corrupting each eligible sentence.
+    :param token_comparison: If True, returns also the original and corrupted tokens.
     :return: A tuple with a boolean indicating if a corruption was done and the corrupted (or not) sentence.
     """
     doc = dk_model(sentence)
     tokens_out = list(doc)
     single_corruption_done = False
+    original_token = None
+    corrupted_token = None
 
     for i, token in enumerate(doc):
         if single_corruption_done:
@@ -603,7 +700,7 @@ def corrupt_noun_r(dk_model: Language, sentence: str, flip_prob: float = 1.0) ->
             if "Number=Plur" in morph and "Definite=Def" in morph and lower_word.endswith("erne"):
                 stem = word[:-4]  # remove "erne"
                 if word[0].isupper():
-                    tokens_out[i] = stem.capitalize() + "ene"  # corrupt: missing 'r'
+                    tokens_out[i] = stem.capitalize() + "ene"
                 else:
                     tokens_out[i] = stem + "ene"
                 single_corruption_done = True
@@ -612,7 +709,7 @@ def corrupt_noun_r(dk_model: Language, sentence: str, flip_prob: float = 1.0) ->
             elif "Number=Plur" in morph and "Definite=Ind" in morph and lower_word.endswith("ere"):
                 stem = word[:-3]  # remove "ere"
                 if word[0].isupper():
-                    tokens_out[i] = stem.capitalize() + "er"  # corrupt: drop 'e'
+                    tokens_out[i] = stem.capitalize() + "er"
                 else:
                     tokens_out[i] = stem + "er"
                 single_corruption_done = True
@@ -621,10 +718,14 @@ def corrupt_noun_r(dk_model: Language, sentence: str, flip_prob: float = 1.0) ->
             elif "Number=Sing" in morph and "Definite=Def" in morph and lower_word.endswith("eren"):
                 stem = word[:-4]  # remove "eren"
                 if word[0].isupper():
-                    tokens_out[i] = stem.capitalize() + "erne"  # corrupt: wrong plural form
+                    tokens_out[i] = stem.capitalize() + "ern"
                 else:
-                    tokens_out[i] = stem + "erne"
+                    tokens_out[i] = stem + "ern"
                 single_corruption_done = True
+
+            if single_corruption_done:
+                original_token = token.text
+                corrupted_token = tokens_out[i]
 
     # Rebuild the sentence
     corrupted_words = [
@@ -632,10 +733,14 @@ def corrupt_noun_r(dk_model: Language, sentence: str, flip_prob: float = 1.0) ->
     ]
 
     final_sentence = join_tokens(corrupted_words)
-    return single_corruption_done, final_sentence
+
+    if token_comparison:
+        return single_corruption_done, final_sentence, original_token, corrupted_token
+    else:
+        return single_corruption_done, final_sentence
 
 
-def corrupt_adjective_r(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (bool, str):
+def corrupt_adjective_r(dk_model: Language, sentence: str, flip_prob: float = 1.0, token_comparison: bool = False) -> (bool, str):
     """
     Introduce classic Danish 'r-problems' in adjectives.
 
@@ -644,11 +749,14 @@ def corrupt_adjective_r(dk_model: Language, sentence: str, flip_prob: float = 1.
     :param dk_model: A Danish spaCy model.
     :param sentence: A Danish sentence (string).
     :param flip_prob: Probability of corrupting each eligible sentence.
+    :param token_comparison: If True, returns also the original and corrupted tokens.
     :return: A tuple with a boolean indicating if a corruption was done and the corrupted (or not) sentence.
     """
     doc = dk_model(sentence)
     tokens_out = list(doc)
     single_corruption_done = False
+    original_token = None
+    corrupted_token = None
 
     for i, token in enumerate(doc):
         if single_corruption_done:
@@ -679,16 +787,23 @@ def corrupt_adjective_r(dk_model: Language, sentence: str, flip_prob: float = 1.
                     tokens_out[i] = stem + "ere"
                 single_corruption_done = True
 
+            if single_corruption_done:
+                original_token = token.text
+                corrupted_token = tokens_out[i]
+
     # Rebuild the sentence
     corrupted_words = [
         token if isinstance(token, str) else token.text for token in tokens_out
     ]
 
     final_sentence = join_tokens(corrupted_words)
-    return single_corruption_done, final_sentence
+    if token_comparison:
+        return single_corruption_done, final_sentence, original_token, corrupted_token
+    else:
+        return single_corruption_done, final_sentence
 
 
-def corrupt_genitive(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (bool, str):
+def corrupt_genitive(dk_model: Language, sentence: str, flip_prob: float = 1.0, token_comparison: bool = False) -> (bool, str):
     """
     Corrupt genitives passing from a type to another.
 
@@ -699,11 +814,14 @@ def corrupt_genitive(dk_model: Language, sentence: str, flip_prob: float = 1.0) 
     :param dk_model: A Danish spaCy model.
     :param sentence: A Danish sentence (string).
     :param flip_prob: Probability of corrupting each eligible sentence.
+    :param token_comparison: If True, returns also the original and corrupted tokens.
     :return: A tuple with a boolean indicating if a corruption was done and the corrupted (or not) sentence.
     """
     doc = dk_model(sentence)
     tokens_out = list(doc)
     single_corruption_done = False
+    original_token = None
+    corrupted_token = None
 
     for i, token in enumerate(doc):
         if single_corruption_done:
@@ -731,6 +849,8 @@ def corrupt_genitive(dk_model: Language, sentence: str, flip_prob: float = 1.0) 
             tokens_out[i] = stem + new_type.value
 
             single_corruption_done = True
+            original_token = token.text
+            corrupted_token = tokens_out[i]
 
 
     # Rebuild the sentence
@@ -739,10 +859,13 @@ def corrupt_genitive(dk_model: Language, sentence: str, flip_prob: float = 1.0) 
     ]
 
     final_sentence = join_tokens(corrupted_words)
-    return single_corruption_done, final_sentence
+    if token_comparison:
+        return single_corruption_done, final_sentence, original_token, corrupted_token
+    else:
+        return single_corruption_done, final_sentence
 
 
-def flip_far_for(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (bool, str):
+def flip_far_for(dk_model: Language, sentence: str, flip_prob: float = 1.0, token_comparison: bool = False) -> (bool, str):
     """
     Introduce "får"/"for" confusion errors in a Danish sentence.
 
@@ -751,11 +874,14 @@ def flip_far_for(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (
     :param dk_model: A Danish spaCy model.
     :param sentence: A Danish sentence (string).
     :param flip_prob: Probability of corrupting each eligible sentence.
+    :param token_comparison: If True, returns also the original and corrupted tokens.
     :return: A tuple with a boolean indicating if a corruption was done and the corrupted (or not) sentence.
     """
     doc = dk_model(sentence)
     tokens_out = list(doc)
     single_corruption_done = False
+    original_token = None
+    corrupted_token = None
 
     for i, token in enumerate(doc):
         if single_corruption_done:  # only one corruption per call
@@ -774,11 +900,20 @@ def flip_far_for(dk_model: Language, sentence: str, flip_prob: float = 1.0) -> (
                 tokens_out[i] = flip_preserving_caps(token.text, "får")
                 single_corruption_done = True
 
+        if single_corruption_done:
+            original_token = token.text
+            corrupted_token = tokens_out[i]
+
     # Rebuild the sentence
     corrupted_words = [
         token if isinstance(token, str) else token.text for token in tokens_out
     ]
-    return single_corruption_done, join_tokens(corrupted_words)
+
+    final_sentence = join_tokens(corrupted_words)
+    if token_comparison:
+        return single_corruption_done, final_sentence, original_token, corrupted_token
+    else:
+        return single_corruption_done, final_sentence
 
 
 
