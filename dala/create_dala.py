@@ -16,11 +16,22 @@ from dala_utils import join_tokens
 MIN_NUM_CHARS_IN_DOCUMENT = 2
 MAX_NUM_CHARS_IN_DOCUMENT = 5000
 
-USE_SPLIT_PROPORTIONS = False
-TRAIN_PROPORTION = 0.8
-TEST_PROPORTION = 0.15
+# ScaLA proportions (USE_SPLIT_PROPORTIONS = False)
+# train = 512*2 = 1024 samples
+# test = 1024*2 = 2048 samples
+# validation = 128*2 = 256 samples
 
-DATASET_ID = "giannor/dala_large"
+USE_SPLIT_PROPORTIONS = False
+
+# DaLA medium proportions
+TRAIN_PROPORTION = 0.6
+TEST_PROPORTION = 0.35
+
+# DaLA large proportions
+# TRAIN_PROPORTION = 0.8
+# TEST_PROPORTION = 0.15
+
+DATASET_ID = "giannor/dala_medium"
 
 
 def main(use_split_proportions: bool) -> DatasetDict[str, Dataset] | None:
