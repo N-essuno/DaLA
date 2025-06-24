@@ -681,7 +681,7 @@ def corrupt_noun_r(dk_model: Language, sentence: str, flip_prob: float = 1.0, to
     :return: A tuple with a boolean indicating if a corruption was done and the corrupted (or not) sentence.
     """
     doc = dk_model(sentence)
-    tokens_out = list(doc)
+    tokens_out = list()
     single_corruption_done = False
     original_token = None
     corrupted_token = None
@@ -724,6 +724,9 @@ def corrupt_noun_r(dk_model: Language, sentence: str, flip_prob: float = 1.0, to
                 single_corruption_done = True
 
             if single_corruption_done:
+                if token.text.isupper() and isinstance(tokens_out[i], str):
+                    tokens_out[i] = tokens_out[i].upper()
+
                 original_token = token.text
                 corrupted_token = tokens_out[i]
 
