@@ -20,5 +20,6 @@ evaluation/detected/
 # other
 evaluation/notes.sh
 evaluation/test_write_assistant_api.ipynb
+evaluation/ignore
 data_proportion_2.ipynb
 
