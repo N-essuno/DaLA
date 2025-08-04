@@ -63,7 +63,7 @@ The model evaluation is not included in this repository as it is based on the or
 - Clone the [EuroEval repository](https://github.com/EuroEval/EuroEval)
 - Go to `euroeval/dataset_configs/danish.py`
 - In `SCALA_DA_CONFIG` replace the `huggingface_id` value with the Hugging Face dataset ID you set in the `create_dala.py` script (or `giannor/dala` to use the existing DaLA dataset on Hugging Face).
-- After that you can run the evaluation using the EuroEval framework from the code as you would normally do, for example (for evaluating a model only on linguistic acceptability):
+- After that you can run the evaluation using the EuroEval framework from the code as you would normally do, for example (for evaluating a model only on Danish linguistic acceptability):
 
 ```python
 from euroeval import Benchmarker
