@@ -1,7 +1,34 @@
-# DaLA: Danish Corpus of Linguistic Acceptability
+# DaLA: Danish Linguistic Acceptability Evaluation Guided by Real World Errors
 
 ## Overview
-This repository contains the code for creating the Danish Corpus of Linguistic Acceptability (DaLA). The corpus is designed to evaluate linguistic acceptability in Danish. Part of this code matches or has been adapted from [EuroEval](https://aclanthology.org/2023.nodalida-1.20/) (Nielsen, 2023) in order for this dataset to be easily used via the [EuroEval evaluation framework](https://euroeval.com/). The DaLA dataset and its variants are available on Hugging Face (in parentheses the number of sentences for train, validation and test splits):
+This repository contains the source code for creating the Danish Corpus of Linguistic Acceptability (DaLA). Related paper: TBD.
+The corpus is designed to evaluate linguistic acceptability in Danish. Part of this code matches or has been adapted from [EuroEval](https://aclanthology.org/2023.nodalida-1.20/) (Nielsen, 2023) in order for this dataset to be easily used via the [EuroEval evaluation framework](https://euroeval.com/). 
+
+## Citation
+WIP
+
+[//]: # (```)
+
+[//]: # (@inproceedings{)
+
+[//]: # (barmina2026dala,)
+
+[//]: # (title={DaLA: Danish Linguistic Acceptability Evaluation Guided by Real World Errors},)
+
+[//]: # (author={Gianluca Barmina and Nathalie Hau Norman and Peter Schneider-Kamp and Lukas Galke Poech},)
+
+[//]: # (booktitle={The Fifteenth biennial Language Resources and Evaluation Conference &#40;LREC&#41;},)
+
+[//]: # (year={2026},)
+
+[//]: # (url={https://openreview.net/forum?id=MPJ3oXtTZl})
+
+[//]: # (})
+
+[//]: # (```)
+
+## Dataset(s)
+The DaLA dataset and its variants are available on Hugging Face (in parentheses the number of sentences for train, validation and test splits):
 - [DaLA](https://huggingface.co/datasets/giannor/dala) (1024, 256, 2048)
 - [DaLA Medium](https://huggingface.co/datasets/giannor/dala_medium) (4952, 386, 2678)
 - [DaLA Large](https://huggingface.co/datasets/giannor/dala_large) (6124, 384, 1148)
@@ -81,3 +108,4 @@ benchmark = Benchmarker(force=True)
 
 benchmark(model=model, task=la_task, api_key=hf_token, verbose=True, raise_errors=True, language="da")
 ```
+
