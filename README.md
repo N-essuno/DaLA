@@ -1,7 +1,10 @@
 # DaLA: Danish Corpus of Linguistic Acceptability
 
 ## Overview
-This repository contains the code for creating the Danish Corpus of Linguistic Acceptability (DaLA). The corpus is designed to evaluate linguistic acceptability in Danish. Part of this code matches or has been adapted from [EuroEval](https://aclanthology.org/2023.nodalida-1.20/) (Nielsen, 2023) in order for this dataset to be easily used via the [EuroEval evaluation framework](https://euroeval.com/).
+This repository contains the code for creating the Danish Corpus of Linguistic Acceptability (DaLA). The corpus is designed to evaluate linguistic acceptability in Danish. Part of this code matches or has been adapted from [EuroEval](https://aclanthology.org/2023.nodalida-1.20/) (Nielsen, 2023) in order for this dataset to be easily used via the [EuroEval evaluation framework](https://euroeval.com/). The DaLA dataset and its variants are available on Hugging Face (in parentheses the number of sentences for train, validation and test splits):
+- [DaLA](https://huggingface.co/datasets/giannor/dala) (1024, 256, 2048)
+- [DaLA Medium](https://huggingface.co/datasets/giannor/dala_medium) (4952, 386, 2678)
+- [DaLA Large](https://huggingface.co/datasets/giannor/dala_large) (6124, 384, 1148)
 
 ## Methodology
 This method starts from existing original Danish sentences (from [Universal Dependencies Danish](https://github.com/UniversalDependencies/UD_Danish-DDT)) and corrupts them in various ways to create minimal pairs. For each sentence exactly one error is introduced, and the resulting sentence is labeled as either acceptable or unacceptable. This method can be easily extended to apply more than one error to a sentence, but in this first version we only apply one, as done by many previous works (e.g. BLiMP, ScaLA), in order to be comparable with them.
@@ -34,6 +37,7 @@ At the top of the script, you can set some parameters for the dataset creation:
   - `TEST_PROPORTION`
   - Validation set will be the remaining proportion.
   - If set to `False`, the dataset will be split according to original ScaLA proportions from EuroEval.
+  - For DaLA Medium and DaLA Large, the proportions used (train, test) are respectively (0.6, 0.35) and (0.8, 0.15).
 - `DATASET_ID`: The id of the Hugging Face dataset to be created. This will be used to upload the dataset to the Hugging Face Hub.
   - Note: for the dataset to be uploaded, you need to have a Hugging Face account and be logged in. You can log in using the `huggingface-cli login` command.
 
@@ -47,7 +51,7 @@ In `data_proportion.ipynb`, you can find the code that calculates the proportion
 
 
 ### DaLA Dataset Evaluation
-The evaluation notebook (regarding the automatic evaluation part) is located in `evaluation/write_assistant_evaluation.ipynb`. The evaluation is done at error level, meaning that each error is evaluated separately on the whole original dataset (UD Danish). For each corrupted sentence, the Write Assistant tool is used to check if the sentence is flagged as acceptable or not and we output:
+The evaluation notebook (regarding the automatic evaluation part) is located in `evaluation/write_assistant_evaluation.ipynb`. The evaluation is done at error level, meaning that each error is evaluated separately on the whole original dataset (UD Danish). For each corrupted sentence, the [Write Assistant](https://www.writeassistant.com/) tool is used to check if the sentence is flagged as acceptable or not and we output:
 
 - Number of corrupted sentences
 - Number of sentences flagged as unacceptable (True Positives)
@@ -60,9 +64,10 @@ We consider only precision because we are only interested in evaluating the corr
 ### Models evaluation on DaLA
 The model evaluation is not included in this repository as it is based on the original [EuroEval](https://euroeval.com/) evaluation framework. However, since this dataset matches the linguistic acceptability dataset format expected by EuroEval the process to replicate the evaluation is straightforward:
 
-- Clone the [EuroEval repository](https://github.com/EuroEval/EuroEval)
-- Go to `euroeval/dataset_configs/danish.py`
-- In `SCALA_DA_CONFIG` replace the `huggingface_id` value with the Hugging Face dataset ID you set in the `create_dala.py` script (or `giannor/dala` to use the existing DaLA dataset on Hugging Face).
+- Install [EuroEval](https://github.com/EuroEval/EuroEval)
+- Go to EuroEval's folder in your virtual environment (e.g. miniconda3/envs/,your_env>/lib/python3.x/site-packages/euroeval/) 
+- Go to `dataset_configs/danish.py`
+- In `SCALA_DA_CONFIG` replace the `huggingface_id` value with the Hugging Face dataset ID you set in the `create_dala.py` script (or `giannor/dala` (or one of the variants) to use the existing DaLA dataset on Hugging Face).
 - After that you can run the evaluation using the EuroEval framework from the code as you would normally do, for example (for evaluating a model only on Danish linguistic acceptability):
 
 ```python
