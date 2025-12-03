@@ -2,6 +2,7 @@
 
 ## Overview
 This repository contains the source code for creating the Danish Corpus of Linguistic Acceptability (DaLA). Related paper: TBD.
+
 The corpus is designed to evaluate linguistic acceptability in Danish. Part of this code matches or has been adapted from [EuroEval](https://aclanthology.org/2023.nodalida-1.20/) (Nielsen, 2023) in order for this dataset to be easily used via the [EuroEval evaluation framework](https://euroeval.com/). 
 
 ## Citation
@@ -41,7 +42,7 @@ The evaluation of the DaLA corpus aims to ensure that the corruptions injected m
 
 ## Running the Code
 
-We suggest using Python 3.12 or later. You can install all the required packeges using the `requirements.txt` file:
+We suggest using Python $\geq$ 3.12. You can install all the required packeges using the `requirements.txt` file:
 
 ```bash
 pip install -r requirements.txt
