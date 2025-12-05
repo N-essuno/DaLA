@@ -1,12 +1,23 @@
 # DaLA: Danish Linguistic Acceptability Evaluation Guided by Real World Errors
 
 ## Overview
-This repository contains the source code for creating the Danish Corpus of Linguistic Acceptability (DaLA). Related paper: TBD.
+This repository contains the source code for creating the Danish Corpus of Linguistic Acceptability (DaLA). Related paper: [DaLA: Danish Linguistic Acceptability Evaluation Guided by Real World Errors](https://arxiv.org/abs/2512.04799).
 
 The corpus is designed to evaluate linguistic acceptability in Danish. Part of this code matches or has been adapted from [EuroEval](https://aclanthology.org/2023.nodalida-1.20/) (Nielsen, 2023) in order for this dataset to be easily used via the [EuroEval evaluation framework](https://euroeval.com/). 
 
 ## Citation
-WIP
+
+```
+@misc{barmina2025daladanishlinguisticacceptability,
+      title={DaLA: Danish Linguistic Acceptability Evaluation Guided by Real World Errors}, 
+      author={Gianluca Barmina and Nathalie Carmen Hau Norman and Peter Schneider-Kamp and Lukas Galke},
+      year={2025},
+      eprint={2512.04799},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2512.04799}, 
+}
+```
 
 [//]: # (```)
 
