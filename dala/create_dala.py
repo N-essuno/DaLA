@@ -4,10 +4,10 @@ import warnings
 import pandas as pd
 from datasets.arrow_dataset import Dataset
 from datasets.dataset_dict import DatasetDict
+from huggingface_hub.errors import RepositoryNotFoundError
 from huggingface_hub.hf_api import HfApi
 
 from pandas.errors import SettingWithCopyWarning
-from requests.exceptions import HTTPError
 
 from dala_corrupt import corrupt_dala
 from load_ud import load_dadt_pos
@@ -31,13 +31,27 @@ TEST_PROPORTION = 0.35
 # TRAIN_PROPORTION = 0.8
 # TEST_PROPORTION = 0.15
 
-DATASET_ID = "giannor/dala_medium"
+DATASET_ID = "giannor/dala_gen"
+
+CREATE_GENERATIVE = False
 
 
-def main(use_split_proportions: bool) -> DatasetDict[str, Dataset] | None:
+def main(use_split_proportions: bool, create_generative_version = False) -> DatasetDict[str, Dataset] | None:
     """Create the DaLA dataset and upload it to the HF Hub."""
     lang = "da"
-    print(f"Creating DaLA dataset...")
+
+    if create_generative_version:
+        print(f"Creating DaLA dataset (generative version)...")
+        train_out_file = f"../la_output/dala_{lang}_gen_train.csv"
+        val_out_file = f"../la_output/dala_{lang}_gen_val.csv"
+        test_out_file = f"../la_output/dala_{lang}_gen_test.csv"
+        full_train_out_file = f"../la_output/dala_{lang}_gen_full_train.csv"
+    else:
+        print(f"Creating DaLA dataset...")
+        train_out_file = f"../la_output/dala_{lang}_train.csv"
+        val_out_file = f"../la_output/dala_{lang}_val.csv"
+        test_out_file = f"../la_output/dala_{lang}_test.csv"
+        full_train_out_file = f"../la_output/dala_{lang}_full_train.csv"
 
     # Load the POS dataset
     pos_dataset = load_dadt_pos()
@@ -132,11 +146,11 @@ def main(use_split_proportions: bool) -> DatasetDict[str, Dataset] | None:
                          )
 
     # Add the corrupted data and turn the dataframes into Hugging Face Dataset objects
-    train = prepare_df(new_train_df, split="train")
-    val = prepare_df(new_val_df, split="val")
-    test = prepare_df(new_test_df, split="test")
+    train = prepare_df(new_train_df, split="train", create_generative_version=create_generative_version)
+    val = prepare_df(new_val_df, split="val", create_generative_version=create_generative_version)
+    test = prepare_df(new_test_df, split="test", create_generative_version=create_generative_version)
     if not use_split_proportions:
-        full_train = prepare_df(new_full_train_df, split="train")
+        full_train = prepare_df(new_full_train_df, split="train", create_generative_version=create_generative_version)
         dataset = DatasetDict(
             train=train, val=val, test=test, full_train=full_train
         )
@@ -146,42 +160,40 @@ def main(use_split_proportions: bool) -> DatasetDict[str, Dataset] | None:
         )
 
     # Save the dataset to CSV files
-    train.to_csv(f"../la_output/dala_{lang}_train.csv")
-    val.to_csv(f"../la_output/dala_{lang}_val.csv")
-    test.to_csv(f"../la_output/dala_{lang}_test.csv")
+    train.to_csv(train_out_file)
+    val.to_csv(val_out_file)
+    test.to_csv(test_out_file)
     if not use_split_proportions:
-        full_train.to_csv(f"../la_output/dala_{lang}_full_train.csv")
-
-    # Create dataset ID
-    dataset_id = DATASET_ID
+        full_train.to_csv(full_train_out_file)
 
     # Remove the dataset from Hugging Face Hub if it already exists
     try:
         api = HfApi()
-        api.delete_repo(dataset_id, repo_type="dataset")
-    except HTTPError:
+        api.delete_repo(DATASET_ID, repo_type="dataset")
+    except RepositoryNotFoundError:
         pass
 
     # Push the dataset to the Hugging Face Hub
-    print(f"DaLA: pushing dataset to HuggingFace ({dataset_id})...")
-    dataset.push_to_hub(dataset_id, private=True)
+    print(f"DaLA: pushing dataset to HuggingFace ({DATASET_ID})...")
+    dataset.push_to_hub(DATASET_ID, private=True)
 
 
-
-
-def prepare_df(df: pd.DataFrame, split: str) -> Dataset:
+def prepare_df(df: pd.DataFrame, split: str, create_generative_version: bool, is_full_train = False) -> Dataset:
     """Prepare a dataframe by adding an equal number of corruptions to it.
 
     :param df: The dataframe to prepare.
     :param split: The split to prepare the dataframe for.
     :return: The prepared dataset.
     """
-    print(f"DaLA: Creating {split} split...")
+    if create_generative_version:
+        print(f"DaLA: Creating generative {split} split...")
+    else:
+        print(f"DaLA: Creating {split} split...")
 
     # Reset the index of the dataframe
     df.reset_index(drop=True, inplace=True)
 
-    # Get the corrupted strings
+    # Get the corrupted strings (corrupted, corruption_type, original)
     corrupted_list = corrupt_dala(df)
 
     # Add the corrupted strings to the dataframe
@@ -189,26 +201,37 @@ def prepare_df(df: pd.DataFrame, split: str) -> Dataset:
         warnings.simplefilter("ignore", category=SettingWithCopyWarning)
         df["corrupted"] = [tup[0] for tup in corrupted_list]
         df["corruption_type"] = [tup[1] for tup in corrupted_list]
+        df["original"] = [tup[2] for tup in corrupted_list]
 
-    # Restructure the dataframe to have columns 'text', 'corruption_type' and 'label', with one sample per row
-    df = pd.concat(
-        [
-            pd.DataFrame(
-                dict(
-                    text=df.tokens.map(join_tokens).tolist(),
-                    corruption_type=[None for _ in range(len(df))],
-                    label=["correct" for _ in range(len(df))],
-                )
-            ),
-            pd.DataFrame(
-                dict(
-                    text=df.corrupted.explode().tolist(),
-                    corruption_type=df.corruption_type.explode().tolist(),
-                    label=["incorrect" for _ in range(len(df))],
-                )
-            ),
-        ]
-    )
+    if create_generative_version:
+        # Restructure the dataframe to have columns 'original', 'corrupted', 'corruption_type', with one sample per row
+        df = pd.DataFrame(
+            dict(
+                original=df.original.tolist(),
+                corrupted=df.corrupted.explode().tolist(),
+                corruption_type=df.corruption_type.explode().tolist(),
+            )
+        )
+    else:
+        # Restructure the dataframe to have columns 'text', 'corruption_type' and 'label', with one sample per row
+        df = pd.concat(
+            [
+                pd.DataFrame(
+                    dict(
+                        text=df.tokens.map(join_tokens).tolist(),
+                        corruption_type=[None for _ in range(len(df))],
+                        label=["correct" for _ in range(len(df))],
+                    )
+                ),
+                pd.DataFrame(
+                    dict(
+                        text=df.corrupted.explode().tolist(),
+                        corruption_type=df.corruption_type.explode().tolist(),
+                        label=["incorrect" for _ in range(len(df))],
+                    )
+                ),
+            ]
+        )
 
     # Shuffle the dataframe
     df = df.sample(frac=1.0, random_state=4242).reset_index(drop=True)
@@ -220,4 +243,4 @@ def prepare_df(df: pd.DataFrame, split: str) -> Dataset:
 
 
 if __name__ == "__main__":
-    main(use_split_proportions=USE_SPLIT_PROPORTIONS)
+    main(use_split_proportions=USE_SPLIT_PROPORTIONS, create_generative_version=CREATE_GENERATIVE)

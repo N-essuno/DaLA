@@ -41,19 +41,21 @@ class SpacyModelSingleton:
         return cls._instance
 
 
-def corrupt_dala(df: pd.DataFrame) -> List[Tuple[str, str]]:
+def corrupt_dala(df: pd.DataFrame) -> List[Tuple[str, str, str]]:
     """
     Corrupt the sentence dataframe passed as input with various types of errors.
     For now the dataframe format expected is Universal Dependencies (UD) Danish sentences.
 
     :param df: A DataFrame in Danish Universal Dependencies format.
-    :return: The list of (corrupted_string, corruption_type)
+    :return: A Tuple containing the list of (corrupted_string, corruption_type, original_sentence)
     """
     # Corruption function callables sorted by the proportion of sentences corruptible in UD Danish (by each function).
     # This is done to ensure that the lower-proportion corruptions are applied first in order for them to be represented.
     # Otherwise, it can happen that higher-proportion corruptions corrupt all sentences that are corruptible
     # by the lower-proportion corruptions, leading to a lack of diversity in the corrupted dataset.
     df = df.copy()
+
+    paired_orig_corrupt_rows = []
 
     # Load the Danish spaCy model
     dk_model = SpacyModelSingleton("da_core_news_md")
@@ -69,13 +71,15 @@ def corrupt_dala(df: pd.DataFrame) -> List[Tuple[str, str]]:
                     tokens = row["tokens"]
                     pos_tags = row["pos_tags"]
                     tuple_result = func(tokens=tokens, pos_tags=pos_tags, num_corruptions=1)[0]
-                    corrupted_sentences.append(tuple_result)
+                    # add doc to tuple_result for reference
+                    tuple_result_new = (tuple_result[0], tuple_result[1], row["doc"])
+                    corrupted_sentences.append(tuple_result_new)
                     df.at[i, "doc"] = None
                     corruption_done = True
                 else:
                     corruption_done, result = func(dk_model, row["doc"])
                     if corruption_done:
-                        corrupted_sentences.append((result, func.__name__))
+                        corrupted_sentences.append((result, func.__name__, row["doc"]))
                         df.at[i, "doc"] = None
                 # Corruption expected to be done, break the loop to avoid multiple corruptions and switch to the next sentence
                 if corruption_done:
@@ -681,7 +685,7 @@ def corrupt_noun_r(dk_model: Language, sentence: str, flip_prob: float = 1.0, to
     :return: A tuple with a boolean indicating if a corruption was done and the corrupted (or not) sentence.
     """
     doc = dk_model(sentence)
-    tokens_out = list()
+    tokens_out = list(doc)
     single_corruption_done = False
     original_token = None
     corrupted_token = None
