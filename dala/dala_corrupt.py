@@ -45,9 +45,14 @@ def corrupt_dala(df: pd.DataFrame) -> List[Tuple[str, str, str]]:
     """
     Corrupt the sentence dataframe passed as input with various types of errors.
     For now the dataframe format expected is Universal Dependencies (UD) Danish sentences.
+    The affected tokens returned have to be interpreted based on the corruption type. e.g.:
+
+    - for delete, one token will be the deleted token and the other will be "<deleted>".
+    - for flip_neighbours, each token will be one of the swapped tokens.
+    - for all other corruption types, the first token will be the original token and the second the corrupted one.
 
     :param df: A DataFrame in Danish Universal Dependencies format.
-    :return: A Tuple containing the list of (corrupted_string, corruption_type, original_sentence)
+    :return: A Tuple containing the list of (corrupted_string, corruption_type, original_sentence, affected_token_1, affected_token_2).
     """
     # Corruption function callables sorted by the proportion of sentences corruptible in UD Danish (by each function).
     # This is done to ensure that the lower-proportion corruptions are applied first in order for them to be represented.
@@ -70,16 +75,18 @@ def corrupt_dala(df: pd.DataFrame) -> List[Tuple[str, str, str]]:
                 if func.__name__ == "corrupt_basic":
                     tokens = row["tokens"]
                     pos_tags = row["pos_tags"]
-                    tuple_result = func(tokens=tokens, pos_tags=pos_tags, num_corruptions=1)[0]
-                    # add doc to tuple_result for reference
-                    tuple_result_new = (tuple_result[0], tuple_result[1], row["doc"])
+                    tuple_result = func(tokens=tokens, pos_tags=pos_tags, num_corruptions=1, token_comparison=True)[0]
+                    token_1 = tuple_result[2]
+                    token_2 = tuple_result[3]
+                    # add doc and affected tokens to tuple_result for reference
+                    tuple_result_new = (tuple_result[0], tuple_result[1], row["doc"], token_1, token_2)
                     corrupted_sentences.append(tuple_result_new)
                     df.at[i, "doc"] = None
                     corruption_done = True
                 else:
-                    corruption_done, result = func(dk_model, row["doc"])
+                    corruption_done, result, original_token, corrupted_token = func(dk_model, row["doc"], token_comparison=True)
                     if corruption_done:
-                        corrupted_sentences.append((result, func.__name__, row["doc"]))
+                        corrupted_sentences.append((result, func.__name__, row["doc"], original_token, corrupted_token))
                         df.at[i, "doc"] = None
                 # Corruption expected to be done, break the loop to avoid multiple corruptions and switch to the next sentence
                 if corruption_done:
@@ -125,8 +132,8 @@ def flip_indefinite_article(dk_model: Language, sentence: str, flip_prob: float 
                         tokens_out[child.i] = flipped
                         single_corruption_done = True
 
-                        original_token = token.text
-                        corrupted_token = tokens_out[child.i]
+                        original_token = child.text
+                        corrupted_token = flipped
 
     # Rebuild the sentence
     corrupted_tokens = []
@@ -926,7 +933,8 @@ def flip_far_for(dk_model: Language, sentence: str, flip_prob: float = 1.0, toke
 
 # Basic corruptions from original ScaLA
 
-def delete(tokens: List[str], pos_tags: List[str]) -> Union[str, None]:
+def delete(tokens: List[str], pos_tags: List[str], token_comparison = False) -> None | tuple[
+    str, str | list[str], str] | str:
     """Delete a random token from a list of tokens.
 
     The POS tags are used to prevent deletion of a token which does not make the
@@ -973,14 +981,20 @@ def delete(tokens: List[str], pos_tags: List[str]) -> Union[str, None]:
     # Get the random index
     rnd_idx = random.choice(indices)
 
+    original_token = new_tokens[rnd_idx]
+
     # Delete the token at the index
     new_tokens.pop(rnd_idx)
 
     # Join up the new tokens and return the string
-    return join_tokens(new_tokens)
+    if token_comparison:
+        return join_tokens(new_tokens), original_token, "<deleted>"
+    else:
+        return join_tokens(new_tokens)
 
 
-def flip_neighbours(tokens: List[str], pos_tags: List[str]) -> Union[str, None]:
+def flip_neighbours(tokens: List[str], pos_tags: List[str], token_comparison = False) -> None | tuple[
+    str, str, str] | str:
     """Flip a pair of neighbouring tokens.
 
     The POS tags are used to prevent flipping of tokens which does not make the
@@ -1039,6 +1053,9 @@ def flip_neighbours(tokens: List[str], pos_tags: List[str]) -> Union[str, None]:
     else:
         rnd_snd_idx = rnd_fst_idx + 1
 
+    flipped_1 = new_tokens[rnd_fst_idx]
+    flipped_2 = new_tokens[rnd_snd_idx]
+
     # Flip the two indices
     new_tokens[rnd_fst_idx] = tokens[rnd_snd_idx]
     new_tokens[rnd_snd_idx] = tokens[rnd_fst_idx]
@@ -1053,12 +1070,13 @@ def flip_neighbours(tokens: List[str], pos_tags: List[str]) -> Union[str, None]:
             new_tokens[1] = new_tokens[1].lower()
 
     # Join up the new tokens and return the string
-    return join_tokens(new_tokens)
+    if token_comparison:
+        return join_tokens(new_tokens), flipped_1, flipped_2
+    else:
+        return join_tokens(new_tokens)
 
 
-def corrupt_basic(
-    tokens: List[str], pos_tags: List[str], num_corruptions: int = 1
-) -> List[Tuple[str, str]]:
+def corrupt_basic(tokens: List[str], pos_tags: List[str], num_corruptions: int = 1, token_comparison = False) -> List[Tuple[str, str]]:
     """Corrupt a list of tokens.
 
     This randomly either flips two neighbouring tokens or deletes a random token.
@@ -1082,8 +1100,13 @@ def corrupt_basic(
         # Choose which corruption to perform, at random
         corruption_fn = random.choice([flip_neighbours, delete])
 
-        # Corrupt the tokens
-        corruption = corruption_fn(tokens, pos_tags)
+        # Corrupt the tokens. If token comparison is requested, then get also the affected tokens
+        # if deletete is used one will be the deleted token and the other will be "<deleted>"
+        # if flip_neighbours each will be one of the flipped tokens
+        if token_comparison:
+            corruption, token_1, token_2 = corruption_fn(tokens, pos_tags, token_comparison=token_comparison)
+        else:
+            corruption = corruption_fn(tokens, pos_tags)
 
         # If the corruption succeeded, and that we haven't already performed the same
         # corruption, then add the corruption to the list of corruptions
@@ -1091,7 +1114,10 @@ def corrupt_basic(
             corruptions.append((corruption, corruption_fn.__name__))
 
     # Return the list of corruptions
-    return corruptions
+    if token_comparison:
+        return [(corrupted_string, corruption_type, token_1, token_2) for corrupted_string, corruption_type in corruptions]
+    else:
+        return corruptions
 
 
 # Excluded corruptions

@@ -21,37 +21,46 @@ MAX_NUM_CHARS_IN_DOCUMENT = 5000
 # test = 1024*2 = 2048 samples
 # validation = 128*2 = 256 samples
 
-USE_SPLIT_PROPORTIONS = False
-
 # DaLA medium proportions
-TRAIN_PROPORTION = 0.6
-TEST_PROPORTION = 0.35
+# TRAIN_PROPORTION = 0.6
+# TEST_PROPORTION = 0.35
+# SIZE_NAME = "medium_"
 
 # DaLA large proportions
-# TRAIN_PROPORTION = 0.8
-# TEST_PROPORTION = 0.15
+TRAIN_PROPORTION = 0.8
+TEST_PROPORTION = 0.15
+SIZE_NAME = "large_"
 
-DATASET_ID = "giannor/dala_gen"
+USE_SPLIT_PROPORTIONS = True
 
-CREATE_GENERATIVE = False
+CREATE_GENERATIVE = True
+GEN_STR = "gen_"
 
+VERSION = "v2"
 
-def main(use_split_proportions: bool, create_generative_version = False) -> DatasetDict[str, Dataset] | None:
+if not CREATE_GENERATIVE:
+    GEN_STR = ""
+
+if not USE_SPLIT_PROPORTIONS:
+    SIZE_NAME = ""
+
+DATASET_ID = f"giannor/dala_{GEN_STR}{SIZE_NAME}{VERSION}"
+
+def main(use_split_proportions: bool, create_generative_version = False, version = "test") -> DatasetDict[str, Dataset] | None:
     """Create the DaLA dataset and upload it to the HF Hub."""
     lang = "da"
 
     if create_generative_version:
         print(f"Creating DaLA dataset (generative version)...")
-        train_out_file = f"../la_output/dala_{lang}_gen_train.csv"
-        val_out_file = f"../la_output/dala_{lang}_gen_val.csv"
-        test_out_file = f"../la_output/dala_{lang}_gen_test.csv"
-        full_train_out_file = f"../la_output/dala_{lang}_gen_full_train.csv"
+        gen_str = "gen_"
     else:
         print(f"Creating DaLA dataset...")
-        train_out_file = f"../la_output/dala_{lang}_train.csv"
-        val_out_file = f"../la_output/dala_{lang}_val.csv"
-        test_out_file = f"../la_output/dala_{lang}_test.csv"
-        full_train_out_file = f"../la_output/dala_{lang}_full_train.csv"
+        gen_str = ""
+
+    train_out_file = f"../la_output/dala_{lang}_{gen_str}{SIZE_NAME}{version}_train.csv"
+    val_out_file = f"../la_output/dala_{lang}_{gen_str}{SIZE_NAME}{version}_val.csv"
+    test_out_file = f"../la_output/dala_{lang}_{gen_str}{SIZE_NAME}{version}_test.csv"
+    full_train_out_file = f"../la_output/dala_{lang}_{gen_str}{SIZE_NAME}{version}_full_train.csv"
 
     # Load the POS dataset
     pos_dataset = load_dadt_pos()
@@ -150,7 +159,7 @@ def main(use_split_proportions: bool, create_generative_version = False) -> Data
     val = prepare_df(new_val_df, split="val", create_generative_version=create_generative_version)
     test = prepare_df(new_test_df, split="test", create_generative_version=create_generative_version)
     if not use_split_proportions:
-        full_train = prepare_df(new_full_train_df, split="train", create_generative_version=create_generative_version)
+        full_train = prepare_df(new_full_train_df, split="train", create_generative_version=create_generative_version, is_full_train=True)
         dataset = DatasetDict(
             train=train, val=val, test=test, full_train=full_train
         )
@@ -185,15 +194,27 @@ def prepare_df(df: pd.DataFrame, split: str, create_generative_version: bool, is
     :param split: The split to prepare the dataframe for.
     :return: The prepared dataset.
     """
-    if create_generative_version:
-        print(f"DaLA: Creating generative {split} split...")
+    if is_full_train:
+        temp_split_name = "full_train"
     else:
-        print(f"DaLA: Creating {split} split...")
+        temp_split_name = split
+
+    if create_generative_version:
+        print(f"DaLA: Creating {temp_split_name} split...")
+    else:
+        print(f"DaLA: Creating {temp_split_name} split...")
+
+    if is_full_train:
+        print(f"\tINFO: Standard proportions do not include all possible samples train/val/test splits. This split contains all of them.")
+
+    if create_generative_version:
+        print(f"\tINFO: Creating generative version of the split.")
+
 
     # Reset the index of the dataframe
     df.reset_index(drop=True, inplace=True)
 
-    # Get the corrupted strings (corrupted, corruption_type, original)
+    # Get the corrupted strings (corrupted, corruption_type, original, affected_token_1, affected_token_2)
     corrupted_list = corrupt_dala(df)
 
     # Add the corrupted strings to the dataframe
@@ -202,6 +223,8 @@ def prepare_df(df: pd.DataFrame, split: str, create_generative_version: bool, is
         df["corrupted"] = [tup[0] for tup in corrupted_list]
         df["corruption_type"] = [tup[1] for tup in corrupted_list]
         df["original"] = [tup[2] for tup in corrupted_list]
+        df["affected_token_1"] = [tup[3] for tup in corrupted_list]
+        df["affected_token_2"] = [tup[4] for tup in corrupted_list]
 
     if create_generative_version:
         # Restructure the dataframe to have columns 'original', 'corrupted', 'corruption_type', with one sample per row
@@ -210,6 +233,8 @@ def prepare_df(df: pd.DataFrame, split: str, create_generative_version: bool, is
                 original=df.original.tolist(),
                 corrupted=df.corrupted.explode().tolist(),
                 corruption_type=df.corruption_type.explode().tolist(),
+                affected_token_1=df.affected_token_1.tolist(),
+                affected_token_2=df.affected_token_2.tolist(),
             )
         )
     else:
@@ -236,11 +261,15 @@ def prepare_df(df: pd.DataFrame, split: str, create_generative_version: bool, is
     # Shuffle the dataframe
     df = df.sample(frac=1.0, random_state=4242).reset_index(drop=True)
 
-    print(f"DaLA: {split} created")
+    if is_full_train:
+        print(f"DaLA: full_train split created (including all samples)")
+    else:
+        print(f"DaLA: {split} created")
+
 
     # Convert the dataframe to a Hugging Face Dataset and return it
     return Dataset.from_pandas(df, split=split)
 
 
 if __name__ == "__main__":
-    main(use_split_proportions=USE_SPLIT_PROPORTIONS, create_generative_version=CREATE_GENERATIVE)
+    main(use_split_proportions=USE_SPLIT_PROPORTIONS, create_generative_version=CREATE_GENERATIVE, version=VERSION)
