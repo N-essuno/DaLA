@@ -1,0 +1,768 @@
+Gold: I bidende kulde og sne har omkring hundrede fotografer og journalister fra en lang række lande i flere dage formeligt besat Glienicke broen i Vest-Berlins sydvestlige hjørne.
+Pred: I bidende kulde og sne har omkring hundrede fotografer og journalister fra en lang række lande i flere dage formelt besat Glienicke broen i Vest-Berlins sydvestlige hjørne.
+Corr: I bidende kulde og sne har omkring hundrede fotografer og journalister fra en lang række lande i fler dage formeligt besat Glienicke broen i Vest-Berlins sydvestlige hjørne.
+Type: corrupt_adjective_r
+tok1: flere, tok2: fler
+
+Gold: Regningen for FN-operationen ventes at overstige 13 mia. kroner.
+Pred: Regningen får FN-operationen at ventes over at stige til 13 mia. kroner.
+Corr: Regningen får FN-operationen ventes at overstige 13 mia. kroner.
+Type: flip_far_for
+tok1: for, tok2: får
+
+Gold: Føde- og drikkevarer udgør ca. 40 pct. af Danisco-koncernens omsætning.
+Pred: Føde-drikkevarer udgør ca. 40 pct. af Danisco-koncernens omsætning.
+Corr: Føde- drikkevarer og udgør ca. 40 pct. af Danisco-koncernens omsætning.
+Type: flip_neighbours
+tok1: og, tok2: drikkevarer
+
+Gold: I Brugge tjente jeg 8.000 franc om måneden, i Marseille pludselig det tyve-dobbelte.
+Pred: I Brugge tjente mig 8.000 franc om måneden, i Marseille pludselig det tyve-dobbelte. (Originale sætning)
+Corr: I Brugge tjente mig 8.000 franc om måneden, i Marseille pludselig det tyve-dobbelte.
+Type: flip_pronouns
+tok1: jeg, tok2: mig
+
+Gold: I håbet om hurtigt at vende tilbage til regeringsbænkene når firkløverregeringen var kørt fast.
+Pred: I håbet om hurtigt at vende tilbage til regeringsbænkene, når Venstre-regeringen var kørt fast.
+Corr: I håbet om hurtigt at vene tilbage til regeringsbænkene når firkløverregeringen var kørt fast.
+Type: corrupt_ende_ene
+tok1: vende, tok2: vene
+
+Gold: Der blev afprøvet en masse ting.
+Pred: Der blev afprøvet et massivt antal ting.
+Corr: Der blev afprøvet et masse ting.
+Type: flip_indefinite_article
+tok1: en, tok2: et
+
+Gold: Den manglende information og desinformationen er faktorer, der dels passiviserer, dels giver anledning til myter om Vesten, dels endelig har en tilbøjelighed til simpelt hen at få folk til at tro det modsatte af det, de læser i partipressen.
+Pred: Den sætning er korrekt.
+Corr: Den manglende information og desinformationen er faktorer, der dels passivisere, dels giver anledning til myter om Vesten, dels endelig har en tilbøjelighed til simpelt hen at få folk til at tro det modsatte af det, de læser i partipressen.
+Type: corrupt_verb_r
+tok1: passiviserer, tok2: passivisere
+
+Gold: Marco van Basten, af mange udråbt til verdens bedste og mest komplette angriber, ved, hvad der venter.
+Pred: Marco van Basten, af mange udråbt til verdens bedste og mest komplette angriber, ved, der venter. (Korrekt)
+Corr: Marco van Basten, af mange udråbt til verdens bedste og mest komplette angriber, ved, der venter.
+Type: delete
+tok1: hvad, tok2: <deleted>
+
+Gold: Hun har gode holdninger, er flittig og ordholdende.
+Pred: Hende har godt holdninger, er flittig og ordholdende.
+Corr: Hende har gode holdninger, er flittig og ordholdende.
+Type: flip_pronouns
+tok1: Hun, tok2: Hende
+
+Gold: Uden dog at opnå meget mere end æren, fordi DM-guldet mod sædvane ikke vil give adgang til Europa Cup turneringerne.
+Pred: Uden dog at opnå meget mere end æren, fordi DM-guldet mod sædvane ikke vil gibe adgang til Europa Cup turneringerne.
+Corr: Uden dog at opnå meget mer end æren, fordi DM-guldet mod sædvane ikke vil give adgang til Europa Cup turneringerne.
+Type: corrupt_adjective_r
+tok1: mere, tok2: mer
+
+Gold: Tiden og dens menneskeskæbner - kvindeskæbner - kan ikke skilles ad.
+Pred: Tidet og dens menneskeskæbner - kvindeskæbner - kan ikke skilles ad.
+Corr: Tidet og dens menneskeskæbner - kvindeskæbner - kan ikke skilles ad.
+Type: flip_en_et_suffix
+tok1: Tiden, tok2: Tidet
+
+Gold: De fleste i Danmark, nemlig 100.000 eksemplarer, mens resten er fordelt pænt verden over med Japan og Australien som de største aftagere af D.A.Ds kontante rock.
+Pred: De fleste i Danmark, nemlig 100.000 eksemplarer, mens resten er fordelt pænt verden over med Japan og Australien som de største aftager af D.A.D's kontante rock.
+Corr: De fleste i Danmark, nemlig 100.000 eksemplarer, mens resten er fordelt pænt verden over med Japan og Australien som de største aftager af D.A.Ds kontante rock.
+Type: corrupt_noun_r
+tok1: aftagere, tok2: aftager
+
+Gold: Et forhandlingstaktisk synspunkt, som deles af regeringspartierne.
+Pred: Et forhandlingstaktisk synspunkt, som deles af regeringspartierne.
+Corr: Et forhandlingstaktisk synspunkt, som deles af regeringspartiene.
+Type: corrupt_noun_r
+tok1: regeringspartierne, tok2: regeringspartiene
+
+Gold: Og de var formidable til at hjælpe de unge spillere i modgang.
+Pred: Og de var formidable til at hjælpe de unge spillere i modkamp.
+Corr: Og de var formidable til at hjælpe de unge spiller i modgang.
+Type: corrupt_noun_r
+tok1: spillere, tok2: spiller
+
+Gold: Ikke alene synger hun i Bakkens Hvile.
+Pred: Ikke alene synger hun i Bakkens Hvile.
+Corr: Ikke alene synger hende i Bakkens Hvile.
+Type: flip_pronouns
+tok1: hun, tok2: hende
+
+Gold: Det var provinsens "statens kunstfond", Canadian Council, der gav hende opgaven, idet de kendte hendes arbejder, hendes industrielle designerfaringer, hidtil løste indretningsopgaver og fornemmelse for lokale håndværkstraditioner.
+Pred: Det var provinsens "Statens kunstfond", Canadian Council, der gav hende opgaven, idet de kendte hendes arbejder, hendes industrielle designerfaringer, hidtil løste indretningsopgaver og fornemmelse får lokale håndværkstraditioner. (Korrekt)
+Corr: Det var provinsens "statens kunstfond", Canadian Council, der gav hende opgaven, idet de kendte hendes arbejder, hendes industrielle designerfaringer, hidtil løste indretningsopgaver og fornemmelse får lokale håndværkstraditioner.
+Type: flip_far_for
+tok1: for, tok2: får
+
+Gold: Faktisk - efter at Jennifer Tilly, der er et år yngre end sin storesøster Meg, også er begyndt at gå efter de lidt tungere roller - har de nærmest stødt hovederne sammen, når der skulle besættes roller.
+Pred: Faktisk - efter at Jennifer Tilly, der er et år yngre end sin storesøster Meg, også er begyndt at gå efter de lidt tungere roller - har de nærmest stødt hovederne sammen, når der skulle besættes roller.
+Corr: Faktisk - efter at Jennifer Tilly, der er et år yngre end sin storesøster Meg, også er begyndt at gå efter de lidt tunger roller - har de nærmest stødt hovederne sammen, når der skulle besættes roller.
+Type: corrupt_adjective_r
+tok1: tungere, tok2: tunger
+
+Gold: Kurset, som kombinerer tre sanser: syns-, høre- og følesansen, udbydes normalt på Tasteskolen i København, og her har 24 dansklærere fra gymnasiet fået undervisning siden foråret.
+Pred: Kurset, som kombinere tre sanser: syns-, høre- og følesansen, udbydes normalt på Tasteskolen i København, og her har 24 dansklærere fra gymnasiet fået undervisning siden foråret. (Sætningen er korrekt)
+Corr: Kurset, som kombinere tre sanser: syns-, høre- og følesansen, udbydes normalt på Tasteskolen i København, og her har 24 dansklærere fra gymnasiet fået undervisning siden foråret.
+Type: corrupt_verb_r
+tok1: kombinerer, tok2: kombinere
+
+Gold: Så vidt vi kan se fra hotellet, har ødelæggelserne hidtil været begrænsede og meget målrettede.
+Pred: Så vidt vi kan se fra hotellet, har ødelæggelsene hidtil været begrænsede og meget målrettede. (Originale sætning)
+Corr: Så vidt vi kan se fra hotellet, har ødelæggelsene hidtil været begrænsede og meget målrettede.
+Type: corrupt_noun_r
+tok1: ødelæggelserne, tok2: ødelæggelsene
+
+Gold: Han føjer til, at prisforskellen på spiritus og cigaretter også vil mindskes de kommende år, fordi prisen i Danmark fastholdes uanset inflationen.
+Pred: Han føjer til, at prisforskellen på spiritus og cigaretter også vil mindskes de kommende år, fordi prisen i Danmark fastholdes uanset inflationen. (Originale sætning)
+Corr: Han føjer til, at prisforskellen på spiritus og cigaretter også vil mindskes de kommene år, fordi prisen i Danmark fastholdes uanset inflationen.
+Type: corrupt_ende_ene
+tok1: kommende, tok2: kommene
+
+Gold: Texaco, der for tre uger siden sendte et nyt benzinprodukt på gaden med ændrede additiver, fjernede også 25 procent af den blyholdige benzin i 98 oktan benzinen.
+Pred: Texaco fjernede 25 procent af den blyholdige benzin i 98 oktan benzinen, der for fire uger siden blev sendt på gaden med nye additiver.
+Corr: Texaco, der får tre uger siden sendte et nyt benzinprodukt på gaden med ændrede additiver, fjernede også 25 procent af den blyholdige benzin i 98 oktan benzinen.
+Type: flip_far_for
+tok1: for, tok2: får
+
+Gold: Måske er det derfor, han ikke kan få sine ting til at ligge rigtigt.
+Pred: Måske er det derfor, at han ikke kan få sine ting til at ligge rigtigt.
+Corr: Måske er det derfor, han ikke kan få sine ting til at lægge rigtigt.
+Type: flip_ligge_laegge
+tok1: ligge, tok2: lægge
+
+Gold: Da han bliver spurgt hvorfor, tøver han ikke med svaret: "Der bor for mange indvandrere."
+Pred: Da han bliver spurgt hvorfor, tøver han ikke med svaret: 'Der bor mange indvandrere.'
+Corr: Da han bliver spurgt hvorfor, tøver han ikke med svaret: "Der bor for mange indvandrer."
+Type: corrupt_noun_r
+tok1: indvandrere, tok2: indvandrer
+
+Gold: Og for at forpurre datterens ægteskab angiver Eddie de to flygtninge til politiet.
+Pred: Og for at forpurre datterens ægteskab angiver Eddie de to flygtninge politiet.
+Corr: Og for at forpurrer datterens ægteskab angiver Eddie de to flygtninge til politiet.
+Type: corrupt_verb_r
+tok1: forpurre, tok2: forpurrer
+
+Gold: Tynde gummisko er altså ikke velegnede til formålet.
+Pred: Tynde gummisko er altså ikke velegnede til formålet. (Korrekt)
+Corr: Tynde gummisko er altså ikke velegnede til formålen.
+Type: flip_en_et_suffix
+tok1: formålet, tok2: formålen
+
+Gold: I morgen aften kan du være hjemme.
+Pred: I morgen aften kan du være hjemme.
+Corr: I morgen aften kan dig være hjemme.
+Type: flip_pronouns
+tok1: du, tok2: dig
+
+Gold: Følelser, som han ikke kan beherske, og som derfor driver ham ud i en situation, hvor han optræder som forræder, angiver, stikker.
+Pred: Følelser, der han ikke kan beherske, og som derfor fører ham ind i en situation, hvor han optræder som forræder, angiver, stikker.
+Corr: Følelser, der han ikke kan beherske, og som derfor driver ham ud i en situation, hvor han optræder som forræder, angiver, stikker.
+Type: flip_som_der
+tok1: som, tok2: der
+
+Gold: Peter Elmegaard med nogle af sine hæslige sko.
+Pred: Peter Elmegaard med nogle af sine hæslige sko.
+Corr: Peter Elmegaard med nogen af sine hæslige sko.
+Type: flip_nogle_nogen
+tok1: nogle, tok2: nogen
+
+Gold: Fredsbevægelserne (styret af venstrefløjen), hvor mange velmenende men bange mennesker deltager, kan gøre deres demonstrationer mere troværdige, hvis de overbeviser os andre om, at de vil skrive om og demonstrere imod østmagternes oprustning på samme måde, som de daglig prøver at presse Vesteuropa til ikke at opstille de 572 rakketter.
+Pred: Fredsbevægelserne (styret af venstrefløjen), hvor mange velmenende men bange mennesker deltager, kan gøre deres demonstrationer mere troværdige, hvis de overbeviser os andre om, at de vil skrive om og demonstrere imod østmagternes oprustning på samme måde, som de daglig prøver at pres
+Corr: Fredsbevægelserne (styret af venstrefløjen), hvor mange velmenende men bange mennesker deltager, kan gøre deres demonstrationer mere troværdige, hvis de overbeviser os andre om, at de vil skrive om og demonstrere imod østmagternes oprustning på samme måde, der de daglig prøver at presse Vesteuropa til ikke at opstille de 572 rakketter.
+Type: flip_som_der
+tok1: som, tok2: der
+
+Gold: Nu sidder han så i bestyrelsen for det nye Hafnia - Hafnia Holding af 1992 A/S.
+Pred: Nu sidder han så i bestyrelsen for det nye Hafnia - Hafnia Holding af 1992 A/S.
+Corr: Nu sidder han så i bestyrelsen får det nye Hafnia - Hafnia Holding af 1992 A / S.
+Type: flip_far_for
+tok1: for, tok2: får
+
+Gold: Dommeren, Villy Nielsen, måtte have beskyttelse af kontrollører for at slippe fri af truende OB-fans ved pausen og efter kampen.
+Pred: Dommeren, Villy Nielsen, måtte have beskyttelse af kontrollørerne for at slippe fri af truende OB-fans ved pausen og efter kampen.
+Corr: Dommeren, Villy Nielsen, måtte have beskyttelse af kontrollører for at slippe fri af truene OB-fans ved pausen og efter kampen.
+Type: corrupt_ende_ene
+tok1: truende, tok2: truene
+
+Gold: ABBA "Gold" har været massivt annonceret på tv, ligesom AC/DC og andre "greatest hits" bliver det.
+Pred: ABBA "Gold" er massivt annonceret på tv, ligesom AC/DC og andre "greatest hits" bliver det.
+Corr: ABBA "Gold" har været massivt annonceret på tv, ligsom AC / DC og andre "greatest hits" bliver det.
+Type: corrupt_spelling
+tok1: ligesom, tok2: ligsom
+
+Gold: S arbejder på at følgende forslag skal gøres til lov eller krav fra Fondsbørsen: Ny revisor hvert femte år.
+Pred: S arbejder på at følge forslaget om, at der skal indføres en ny revisor hver femte år til lov eller krav fra Fondsbørsen.
+Corr: S arbejder på at følgene forslag skal gøres til lov eller krav fra Fondsbørsen: Ny revisor hvert femte år.
+Type: corrupt_ende_ene
+tok1: følgende, tok2: følgene
+
+Gold: Ikke noget med åndenød, og ikke noget med at hoste.
+Pred: Ikke noget med åndenød, og ikke noget at hoste. (Korrekt)
+Corr: Ikke noget med åndenød, og ikke med noget at hoste.
+Type: flip_neighbours
+tok1: noget, tok2: med
+
+Gold: Alle de øvrige politiske partier betragter uden undtagelse Sinn Fein som den politiske fløj af IRA - Den irske republikanske Hær, og de anser det ikke for usandsynligt, at partiets formand og underhusmedlem Gerry Adams også er IRAs øverste chef.
+Pred: Alle de øvrige politiske partier betragter uden undtagelse Sinn Fein som den politiske fløj af IRA - Den irske republikanske Hær, og de anser det ikke får usandsynligt, at partiets formand og underhusmedlem Gerry Adams også er IRAs øverste chef. (Svaret er korrekt)
+Corr: Alle de øvrige politiske partier betragter uden undtagelse Sinn Fein som den politiske fløj af IRA - Den irske republikanske Hær, og de anser det ikke får usandsynligt, at partiets formand og underhusmedlem Gerry Adams også er IRAs øverste chef.
+Type: flip_far_for
+tok1: for, tok2: får
+
+Gold: Tydeligvis et orkester, der besidder en blind tro på sin egenart.
+Pred: Tydeligvis en orkester, der besidder en blind tro på sin egen art.
+Corr: Tydeligvis en orkester, der besidder en blind tro på sin egenart.
+Type: flip_indefinite_article
+tok1: et, tok2: en
+
+Gold: En af mine veninder lagde ikke skjul på, at hun ville have en intelligent og velhavende mand, da hun var til samtale hos Jette Dreyer.
+Pred: En af mine veninder lå ikke skjult på, at hun ville have en intelligent og velhavende mand, da hun var til samtale hos Jette Dreyer.
+Corr: En af mine veninder lå ikke skjul på, at hun ville have en intelligent og velhavende mand, da hun var til samtale hos Jette Dreyer.
+Type: flip_ligge_laegge
+tok1: lagde, tok2: lå
+
+Gold: Så ankommer hans nye assistent, og selvfølgelig er assistenten en pige, også hun en genial forsker, og nu skændes de så og diskuterer den nye opdagelse, idet der selvsagt også bliver tid til ekskursioner i det overvældende flotte landskab.
+Pred: Så ankommer hans nye assistent, og selvfølgelig er den en pige, også hun en genial forsker, og nu skændes de så og diskutere den nye opdagelse, idet der selvsagt også bliver tid til ekskursioner i det overvældende flotte landskab.
+Corr: Så ankommer hans nye assistent, og selvfølgelig er assistenten en pige, også hun en genial forsker, og nu skændes de så og diskutere den nye opdagelse, idet der selvsagt også bliver tid til ekskursioner i det overvældende flotte landskab.
+Type: corrupt_verb_r
+tok1: diskuterer, tok2: diskutere
+
+Gold: Køerne er så lange, at mange er gået igen.
+Pred: Køene er så lange, at mange har gået igen.
+Corr: Køene er så lange, at mange er gået igen.
+Type: corrupt_noun_r
+tok1: Køerne, tok2: Køene
+
+Gold: Det er alt for tit, vi er ude til sådanne sager.
+Pred: Det er alt far tit, vi er ude til sådanne sager.
+Corr: Det er alt får tit, vi er ude til sådanne sager.
+Type: flip_far_for
+tok1: for, tok2: får
+
+Gold: Vi har fået en utrolig opbakning fra både læger, politi, kommunalfolk, familie og bekendte, så vi skal nok komme igennem denne forfærdelige oplevelse.
+Pred: Vi har fået en utrolig opbakning fra både læger, politi, kommunalfolk, familien og bekendte, så vi skal nok komme igennem denne forfærdelige oplevelse.
+Corr: Vi har fået en utrolig opbakning fra både læger, politi, kommunalfolk, famillie og bekendte, så vi skal nok komme igennem denne forfærdelige oplevelse.
+Type: corrupt_spelling
+tok1: familie, tok2: famillie
+
+Gold: Under de seks-syv villaindbrud blev der tilsammen stjålet for et stort sekscifret beløb.
+Pred: Under de seks-syv villaindbrud blev der tilsammen stjålet får et stort sekscifret beløb. (korrekt)
+Corr: Under de seks-syv villaindbrud blev der tilsammen stjålet får et stort sekscifret beløb.
+Type: flip_far_for
+tok1: for, tok2: får
+
+Gold: Den er indstiftet af fagbladet Aktuel Grafisk Information i 1984 og består af en statuette støbt af gammelt håndsætterbly og belagt med sølv fra grafiske film.
+Pred: Den originale sætning er korrekt.
+Corr: Den er indstiftet af fagbladet Aktuel Grafisk Information i 1984 og består af et statuette støbt af gammelt håndsætterbly og belagt med sølv fra grafiske film.
+Type: flip_indefinite_article
+tok1: en, tok2: et
+
+Gold: Siden 1984 har han ikke drukket så meget som en chokoladeflaske fra Galle & Jessen.
+Pred: Siden 1984 har han ikke drukket så meget som et chokoladeflaske fra Galle & Jessen. (Originale sætning)
+Corr: Siden 1984 har han ikke drukket så meget som et chokoladeflaske fra Galle & Jessen.
+Type: flip_indefinite_article
+tok1: en, tok2: et
+
+Gold: Harremoës er inkarneret sejlsportsmand, der hvert år sejler Sjælland Rundt med sin søn.
+Pred: Harremoës er inkarneret sejlsportsmand, der hvert år sejler Sjælland Rundt med sin søn.
+Corr: Harremoës er inkarneret sejlsportsmand, der hvert sejler år Sjælland Rundt med sin søn.
+Type: flip_neighbours
+tok1: år, tok2: sejler
+
+Gold: Fra terrassen kan jeg se ud på parkeringspladsen, hvor der ikke sker et klap.
+Pred: Fra terrassen kan jeg se ud på parkeringspladsen, hvor der ikke sker en klap. (Originale sætning)
+Corr: Fra terrassen kan jeg se ud på parkeringspladsen, hvor der ikke sker en klap.
+Type: flip_indefinite_article
+tok1: et, tok2: en
+
+Gold: Resten er en stor udstilling om Anden Verdenskrig på Jersey.
+Pred: Resten er et stor Udstilling om Anden Verdenskrig på Jersey.
+Corr: Resten er et stor udstilling om Anden Verdenskrig på Jersey.
+Type: flip_indefinite_article
+tok1: en, tok2: et
+
+Gold: I øvrigt må ingen i SAS udtale sig om en eventuel årsag, før havarikommissionen er færdig med dens undersøgelser.
+Pred: I øvrigt må ingen i SAS udtale sig om et eventuelt årsag, før havarikommissionen er færdig med dens undersøgelser.
+Corr: I øvrigt må ingen i SAS udtale sig om et eventuel årsag, før havarikommissionen er færdig med dens undersøgelser.
+Type: flip_indefinite_article
+tok1: en, tok2: et
+
+Gold: Tekstmængden i Gyldendals encyklopædi bliver, ifølge Gyldendal selv, næsten tre gange så stor som i Lademanns leksikon - bl.a. fordi én gennemsnits-side i encyklopædien vil indeholde en tekstmængde svarende til tre-fire såkaldte normalsider.
+Pred: Tekstmængden i Gyldendals encyklopædi bliver, ifølge Gyldendal selv, næsten tre gange så stor som i Lademanns leksikon - bl.a. fordi en gennemsnits-side i encyklopædien vil indeholde en tekstmængde svarene til tre-fire såkaldte normalsider.
+Corr: Tekstmængden i Gyldendals encyklopædi bliver, ifølge Gyldendal selv, næsten tre gange så stor som i Lademanns leksikon - bl.a. fordi én gennemsnits-side i encyklopædien vil indeholde en tekstmængde svarene til tre-fire såkaldte normalsider.
+Type: corrupt_ende_ene
+tok1: svarende, tok2: svarene
+
+Gold: Det gjorde man med stort held i en periode i slutningen af 1985.
+Pred: Det gjorde man med stort held i et periode i slutningen af 1985. (korrekt)
+Corr: Det gjorde man med stort held i et periode i slutningen af 1985.
+Type: flip_indefinite_article
+tok1: en, tok2: et
+
+Gold: I finalen var Jesper Bank urørlig.
+Pred: I finalet var Jesper Bank urolig.
+Corr: I finalet var Jesper Bank urørlig.
+Type: flip_en_et_suffix
+tok1: finalen, tok2: finalet
+
+Gold: Forskellen på de to biler er, bortset fra det skrækkelige "hollandske udtræk" bag på Cosworth'en, transmissionen og visse udstyrsdetaljer, at RS 2000 har en fladere momentkurve end rallyraketten, der skal sparkes op i omdrejninger for få alle 227 hestekræfter i arbejde.
+Pred: Forskellen mellem de to biler er, bortset fra det skrækkelige "hollandske udtræk" bag på Cosworth'en, transmissionen og visse udstyrsdetaljer, at RS 2000 har en flader momentkurve end rallyraketten, der skal sparkes op i omdrejninger for at få alle 227 hest
+Corr: Forskellen på de to biler er, bortset fra det skrækkelige "hollandske udtræk" bag på Cosworth'en, transmissionen og visse udstyrsdetaljer, at RS 2000 har en flader momentkurve end rallyraketten, der skal sparkes op i omdrejninger for få alle 227 hestekræfter i arbejde.
+Type: corrupt_adjective_r
+tok1: fladere, tok2: flader
+
+Gold: Det viste sig, at en avis mente at vide, at franske Lyon, som vi slog i den anden Europa-Cup-runde sidste efterår, skulle være interesseret i mig.
+Pred: Det viste sig, at en avis mente at vide, at franske Lyon, der vi slog i den anden Europa-Cup-runde sidste efterår, var interesseret i dig.
+Corr: Det viste sig, at en avis mente at vide, at franske Lyon, der vi slog i den anden Europa-Cup-runde sidste efterår, skulle være interesseret i mig.
+Type: flip_som_der
+tok1: som, tok2: der
+
+Gold: Omvendt vil jeg spørge: Hvad skal vi bruge den økonomiske vækst til?
+Pred: Omvendt vil jeg spørge: Hvad skal vi bruge den økonomiske vækst til?
+Corr: Omvendt vil mig spørge: Hvad skal vi bruge den økonomiske vækst til?
+Type: flip_pronouns
+tok1: jeg, tok2: mig
+
+Gold: På lidt længere sigt ser de Europa rejse sig som en politisk rival og økonomisk konkurrent, og det bekommer ikke alle lige vel.
+Pred: På lidt længere sigt ser de Europa op som en politisk rival og økonomisk konkurrent, og det bekommer ikke alle lige godt.
+Corr: På lidt længer sigt ser de Europa rejse sig som en politisk rival og økonomisk konkurrent, og det bekommer ikke alle lige vel.
+Type: corrupt_adjective_r
+tok1: længere, tok2: længer
+
+Gold: Udspillet er for det første kommet meget sent.
+Pred: Udspillet er fået det første kommet meget sent.
+Corr: Udspillet er får det første kommet meget sent.
+Type: flip_far_for
+tok1: for, tok2: får
+
+Gold: Han vil kun arbejde og have flere og flere ting.
+Pred: Han vil kun arbejde og have flere og flere ting.
+Corr: Han vil kun arbejde og have fler og flere ting.
+Type: corrupt_adjective_r
+tok1: flere, tok2: fler
+
+Gold: Pjuske vejer omkring de 250 kg..
+Pred: Pjuske vejer omkring 250 kg.
+Corr: Pjuske vejer omkring de kg. 250.
+Type: flip_neighbours
+tok1: kg., tok2: 250
+
+Gold: Museet ligger i Caroline-Amalie-lunden, en stor park med statelige, gamle træer.
+Pred: Museet ligger i Caroline-Amalie-lunden, en stor park med statelige, gamle træer.
+Corr: Museet lægger i Caroline-Amalie-lunden, en stor park med statelige, gamle træer.
+Type: flip_ligge_laegge
+tok1: ligger, tok2: lægger
+
+Gold: Den chokerede chauffør nåede lige at se pistolmanden forsvinde gennem et hul i hegnet og løbe ind på det øde, grønne område.
+Pred: Den chokerede chauffør nåede lige at se pistolmanden forsvinde gennem en hul i hegnet og løbe ind på det øde, grønne område. (Originale sætning)
+Corr: Den chokerede chauffør nåede lige at se pistolmanden forsvinde gennem en hul i hegnet og løbe ind på det øde, grønne område.
+Type: flip_indefinite_article
+tok1: et, tok2: en
+
+Gold: Der skal hentes 60 mill. kroner ved aktieudvidelser.
+Pred: Der skal hentes 60 mill. kroner ved aktieudvidelser.
+Corr: Der skal 60 hentes mill. kroner ved aktieudvidelser.
+Type: flip_neighbours
+tok1: 60, tok2: hentes
+
+Gold: Hun skal nu leve i adskillige måneder med frygten for at være blevet smittet med AIDS.
+Pred: Hun skal nu leve i adskillige måneder med frygt for at blive smittet af AIDS.
+Corr: Hun skal nu leve i adskillige måneder med frygten får at være blevet smittet med AIDS.
+Type: flip_far_for
+tok1: for, tok2: får
+
+Gold: En spændende aften i Paris' natteliv kan med stor fordel indledes med en middag på en af Place Clichys mange fremragende restauranter.
+Pred: En spændende aften i Paris' natteliv kan med stor fordel indledes med en middag på en af Place Cliché's mange fremragende restauranter.
+Corr: En spændende aften i Paris's natteliv kan med stor fordel indledes med en middag på en af Place Clichys mange fremragende restauranter.
+Type: corrupt_genitive
+tok1: Paris', tok2: Paris's
+
+Gold: Det er absolut nødvendigt med en diskussion om hovedstadsregionens styre, men foreløbig har bidragene næsten til det ulidelige været domineret af uopfindsomhed og manglende vilje til fornyelse.
+Pred: Det er absolut nødvendigt med en diskussion om hovedstadsregionens styre, men foreløbig har bidragene næsten til det ulidelige været domineret af uopfindsomhed og manglende vilje til fornyelse.
+Corr: Det er abselut nødvendigt med en diskussion om hovedstadsregionens styre, men foreløbig har bidragene næsten til det ulidelige været domineret af uopfindsomhed og manglende vilje til fornyelse.
+Type: corrupt_spelling
+tok1: absolut, tok2: abselut
+
+Gold: I dag er hun ovenpå og arbejder frivilligt hos Lænken som kontaktperson for andre alkoholikere.
+Pred: I dag er hun over og arbejder frivilligt hos Lænken som kontaktperson for andre alkoholikere.
+Corr: I dag er hun ovenpå og arbejder frivilligt hos Lænken som kontaktperson for andre alkoholiker.
+Type: corrupt_noun_r
+tok1: alkoholikere, tok2: alkoholiker
+
+Gold: Det er jo en lettelse at ingen af børnene i Valby begynder at tale finsk som er så svært.
+Pred: Det er jo en lettelse at ingen af børnende i Valby begynder at tale finsk, fordi det er så svært.
+Corr: Det er jo en lettelse at ingen af børnende i Valby begynder at tale finsk som er så svært.
+Type: corrupt_ende_ene
+tok1: børnene, tok2: børnende
+
+Gold: Brandvæsenet kørte natten til i går i fast rutefart til havet for at hente ekstra vand.
+Pred: Brandvæsenet kørte natten til i går i fast rutefart til havet for at hente extra vand. (Originale sætning)
+Corr: Brandvæsenet kørte natten til i går i fast rutefart til havet for at hente extra vand.
+Type: corrupt_spelling
+tok1: ekstra, tok2: extra
+
+Gold: Protein forekommer hovedsageligt i protein, fisk og fjerkræ.
+Pred: Protein hovedsageligt forekommer i protein, fisk og fjerkræ. (Korrekt)
+Corr: Protein hovedsageligt forekommer i protein, fisk og fjerkræ.
+Type: flip_neighbours
+tok1: hovedsageligt, tok2: forekommer
+
+Gold: Han har boet mange år i Sharjeh og fik et pas til De Forenede Arabiske Emirater i 1986, hvilket giver ham nationalt tilhørsforhold til både Irak og De Forenede Arabiske Emirater.
+Pred: Han har boet mange år i Sharjeh og fik et pas til De Forenede Arabiske Emirater i 1986, hvilket giver ham nationalt tilhørsforhold til både Irak og De Forenede Arabiske Emirater.
+Corr: Han har boet mange år i Sharjeh og fik en pas til De Forenede Arabiske Emirater i 1986, hvilket giver ham nationalt tilhørsforhold til både Irak og De Forenede Arabiske Emirater.
+Type: flip_indefinite_article
+tok1: et, tok2: en
+
+Gold: Jeg kender eksempler på grillbarer og blomsterhandlere, der har et par sole i baglokalet.
+Pred: Jeg kender eksempler på grillbarer og blomsterhandler, der har et par soler i baglokalet.
+Corr: Jeg kender eksempler på grillbarer og blomsterhandler, der har et par sole i baglokalet.
+Type: corrupt_noun_r
+tok1: blomsterhandlere, tok2: blomsterhandler
+
+Gold: Men det har intet med Unionstraktaten at gøre.
+Pred: Men det har intet med Unionstraktatet at gøre. (Originale sætning)
+Corr: Men det har intet med Unionstraktatet at gøre.
+Type: flip_en_et_suffix
+tok1: Unionstraktaten, tok2: Unionstraktatet
+
+Gold: Der kan være tale om brok eller vandsvulst.
+Pred: Der er tale om brok eller vandsvulster.
+Corr: Der være tale om brok eller vandsvulst.
+Type: delete
+tok1: kan, tok2: <deleted>
+
+Gold: Maja tvinger sig selv til at nikke.
+Pred: tvinger sig selv til at knibe
+Corr: tvinger sig selv til at nikke.
+Type: delete
+tok1: Maja, tok2: <deleted>
+
+Gold: Ruskindssko med smalle remme koster 499 kr..
+Pred: Ruskindssko med smalle remme koster 499 kr.
+Corr: Ruskindssko med smalle remme 499 koster kr..
+Type: flip_neighbours
+tok1: 499, tok2: koster
+
+Gold: Ifølge den politisk korrekte hånd- og ordbog kan det ikke diskuteres, om en hvid mand i et racistisk, sexistisk klassesamfund er en undertrykker, for det er han.
+Pred: Ifølge den politisk korrekte hånd- og ordbog kan det ikke diskuteres, om en hvid mand i et racistisk, sexistisk klassesamfund er en undertrykker, er det ham.
+Corr: Ifølge den politisk korrekte hånd- og ordbog kan det ikke diskuteres, om en hvid mand i et racistisk, sexistisk klassesamfund er en undertrykker, får det er han.
+Type: flip_far_for
+tok1: for, tok2: får
+
+Gold: Magneten skal stå langs ledningen før strømmen sluttes.
+Pred: Magnetet skal stå langs med ledningen før strømmen sluttes.
+Corr: Magnetet skal stå langs ledningen før strømmen sluttes.
+Type: flip_en_et_suffix
+tok1: Magneten, tok2: Magnetet
+
+Gold: Kampangpetch, hvor dansetruppen kommer fra, kaldes også "bananlandet".
+Pred: Kampangpetch, hvor dansetruppet kommer fra, kaldes også "Bananlandet".
+Corr: Kampangpetch, hvor dansetruppet kommer fra, kaldes også "bananlandet".
+Type: flip_en_et_suffix
+tok1: dansetruppen, tok2: dansetruppet
+
+Gold: Øens nyeste turistattraktion får for alvor historie-ballonen til at stige til vejrs.
+Pred: Øens nyeste turistattraktion er for alvor historie-ballonen til at stige til vejrs.
+Corr: Øens nyeste turistattraktion for for alvor historie-ballonen til at stige til vejrs.
+Type: flip_far_for
+tok1: får, tok2: for
+
+Gold: Men for den, der har bivånet to verdenskrige, og som nu oplever en verden i angst for den tredje og sidste.
+Pred: Men får den, der har bivånet to verdenskrige, og som nu oplever en verden i angst for den tredje og sidste. (Originale sætning)
+Corr: Men får den, der har bivånet to verdenskrige, og som nu oplever en verden i angst for den tredje og sidste.
+Type: flip_far_for
+tok1: for, tok2: får
+
+Gold: Alligevel skal der kæmpes med næb og kløer, for at få meningsdannerne til at tage "det lette" alvorligt og behandle det som en fuldgyldig del af vort programudbud.
+Pred: Aligevel skal der kæmpes med næb og kløer, for at få meningsdannerne til at tage "det lette" alvorligt og behandle det som en fuldgyldig del af vort programudbud. (Svaret er korrekt)
+Corr: Aligevel skal der kæmpes med næb og kløer, for at få meningsdannerne til at tage "det lette" alvorligt og behandle det som en fuldgyldig del af vort programudbud.
+Type: corrupt_spelling
+tok1: Alligevel, tok2: Aligevel
+
+Gold: Hendes hjerte brister, da han siger, han vil væk fra det jødiske familiesammenhold, men hun puffer ham selv ud af døren og vinker efter ham.
+Pred: Hendes hjerte brister, da han siger, at han vil væk fra det jødiske familiesammenhold, men det puffer ham selv ud af døren og vinker efter ham.
+Corr: Hendes hjerte brister, da han siger, han vil væk fra det jødiske familiesammenhold, men det puffer ham selv ud af døren og vinker efter ham.
+Type: flip_han_hun_to_det
+tok1: hun, tok2: det
+
+Gold: Det var europæerne, da de første gang stiftede bekendtskab med fænomenet, og ikke anede, at "i morgen" kunne betyde et hvilket som helst tidspunkt ud i fremtiden!
+Pred: Det var europæerne, da de første gang stiftede bekendtskab med fænomenet, og ikke anede, at "i morgen" kunne betyde et hvilket som helst tidspunkt ud i fremtiden!
+Corr: Det var europæene, da de første gang stiftede bekendtskab med fænomenet, og ikke anede, at "i morgen" kunne betyde et hvilket som helst tidspunkt ud i fremtiden!
+Type: corrupt_noun_r
+tok1: europæerne, tok2: europæene
+
+Gold: Det psykologiske aspekt bliver berørt i alle kapitler.
+Pred: Det psykologiske aspekt bliver berørt alle i kapitlernes løb.
+Corr: Det psykologiske aspekt bliver berørt alle i kapitler.
+Type: flip_neighbours
+tok1: i, tok2: alle
+
+Gold: Ikke én i Torinos rejseselskab tror på, de kan tabe i København.
+Pred: Ikke en i det rejsefirma fra Torino tror på, at de kan tabe i København.
+Corr: Ikke én i Torinos rejseselskab tror på, dem kan tabe i København.
+Type: flip_pronouns
+tok1: de, tok2: dem
+
+Gold: Svenske og norske aviser mente i går også at vide, at Stefan Rasmussens dage som helte-pilot var tæt på at være forbi.
+Pred: Svenske og norske aviser mente i går også at vide, at Stefan Rasmussen's dage som helte-pilot var tæt på at være forbi.
+Corr: Svenske og norske aviser mente i går også at vide, at Stefan Rasmussens dage som helte-pilot var tæt at på være forbi.
+Type: flip_neighbours
+tok1: på, tok2: at
+
+Gold: Det er rigtigt, at børnetilskud og børnefamilieydelse falder bort.
+Pred: Det rigtige, at børnetilskud og børnefamilieydelse falder bort.
+Corr: Det rigtigt, at børnetilskud og børnefamilieydelse falder bort.
+Type: delete
+tok1: er, tok2: <deleted>
+
+Gold: Og i Danmark, ja, her spøger stadig spørgsmålet om den bebudede rationalisering af de to københavnske bryggerier.
+Pred: Og i Danmark, ja, her spørger stadig spørgsmålet om den bebudede rationalisering af de to københavnske bryggerier. (Sætningen er korrekt)
+Corr: Og i Danmark, ja, her spøger stadig spørgsmålen om den bebudede rationalisering af de to københavnske bryggerier.
+Type: flip_en_et_suffix
+tok1: spørgsmålet, tok2: spørgsmålen
+
+Gold: Den 8. november gik plejefaderen - ifølge tiltalen - amok.
+Pred: Den 8. november gik plejefadern, ifølge tiltalen, amok.
+Corr: Den 8. november gik plejefadern - ifølge tiltalen - amok.
+Type: corrupt_noun_r
+tok1: plejefaderen, tok2: plejefadern
+
+Gold: Isprængt oplevelsesstærke kommentarer til den politiske situation i hans hjemlande Indien, Pakistan og Storbritannien og essays om religion, specielt islam, der kan give de lidt for skråsikre stof til eftertanke.
+Pred: Isprængt oplevelsesstærke kommentarer til den politiske situation i hans hjemlande Indien, Pakistan og Storbritannien, samt essays om religion, især islam, der kan give de lidt får skråsikre stof til eftertanke.
+Corr: Isprængt oplevelsesstærke kommentarer til den politiske situation i hans hjemlande Indien, Pakistan og Storbritannien og essays om religion, specielt islam, der kan give de lidt får skråsikre stof til eftertanke.
+Type: flip_far_for
+tok1: for, tok2: får
+
+Gold: Men hvorfor skal jeg som politiker få dem fra pressen, sagde ophavskvinden til den seneste tids debat om værdien af hjerte-transplantationer, da Berlingske Tidende i går læste en ny opgørelse op for hende.
+Pred: Men hvorfor skal jeg som politiker få dem fra pressen, sagde ophavskvinden til den seneste tids debat om værdien af hjerte-transplantationer, da Berlingske Tidende i går læste en ny opgørelse op får hende. (Svaret er korrekt)
+Corr: Men hvorfor skal jeg som politiker få dem fra pressen, sagde ophavskvinden til den seneste tids debat om værdien af hjerte-transplantationer, da Berlingske Tidende i går læste en ny opgørelse op får hende.
+Type: flip_far_for
+tok1: for, tok2: får
+
+Gold: Så oprettede han Team Hokspeed til Nordic Cup, og midt i det hele skiftede han over til Prodrive's BMW-fabriksteam i det engelske mesterskab.
+Pred: Så oprettete han Team Hokspeed til Nordic Cup, og midt i det hele skiftede han over til Prodrives BMW-fabriksteam i det engelske mesterskab.
+Corr: Så oprettede han Team Hokspeed til Nordic Cup, og midt i det hele skiftede han over til Prodrives BMW-fabriksteam i det engelske mesterskab.
+Type: corrupt_genitive
+tok1: Prodrive's, tok2: Prodrives
+
+Gold: Selv om den danske rente og valutakurs har klaret sig relativt godt under valutakrisen, så vil den internationale økonomiske afmatning, som nok bliver et resultat af uroen, have store konsekvenser for dansk eksport.
+Pred: Selv om den danske rente og valutakurs har klaret sig relativt godt under valutakrisen, så vil den internationale økonomiske afmattning, som nok bliver et resultat af uroen, have store konsekvenser for dansk eksport.
+Corr: Selv om den danske rente og valutakurs har klaret sig relativt godt under valutakrisen, så vil den internationale økonomiske afmatning, som nok bliver et resultat af uroen, have store konsekvenser får dansk eksport.
+Type: flip_far_for
+tok1: for, tok2: får
+
+Gold: Rør peberfrugt i og steg igen et par minutter.
+Pred: Rør peberfrugten i og steg igen en par minutter.
+Corr: Rør peberfrugt i og steg igen en par minutter.
+Type: flip_indefinite_article
+tok1: et, tok2: en
+
+Gold: I januar 1993 åbner Danmarks første "grønne kollegium" i Aalborg, som på optimal vis udnytter energien fra solens stråler, skriver Aalborg Stiftstidende.
+Pred: I januar 1993 åbner Danmarks første "grønne kollegium" i Aalborg, som på optimal vis udnytter energiet fra solens stråler, skriver Aalborg Stiftstidende. (Sætningen er korrekt)
+Corr: I januar 1993 åbner Danmarks første "grønne kollegium" i Aalborg, som på optimal vis udnytter energiet fra solens stråler, skriver Aalborg Stiftstidende.
+Type: flip_en_et_suffix
+tok1: energien, tok2: energiet
+
+Gold: Det vil i TEBA's tilfælde sige, at de fra at være 45 børn i 1991 vil være 55 børn i 1992
+Pred: Det vil i TEBA's tilfælde sige, at de fra at være 45 børn i 1991 vil være 46 børn i 1992 (korrekt)
+Corr: Det vil i TEBA's tilfælde sige, at dem fra at være 45 børn i 1991 vil være 55 børn i 1992
+Type: flip_pronouns
+tok1: de, tok2: dem
+
+Gold: Samtidig med spillet i Heimdal trænede Lars på livet løs hjemme i gården, hvor højreskøjten i timevis blev affyret, så sparket efterhånden blev et af de hårdeste og mest præcise i Superligaen.
+Pred: Samtidig med spillen i Heimdal trænede Lars på livet løs hjemme i gården, hvor højreskøjten i timevis blev affyret, så sparket efterhånden blev et af de hårdeste og mest præcise i Superligaen. (Svaret er korrekt)
+Corr: Samtidig med spillen i Heimdal trænede Lars på livet løs hjemme i gården, hvor højreskøjten i timevis blev affyret, så sparket efterhånden blev et af de hårdeste og mest præcise i Superligaen.
+Type: flip_en_et_suffix
+tok1: spillet, tok2: spillen
+
+Gold: Pisk 2 hvider stive og vend dem i dejen.
+Pred: Pisk 2 hvide stive og vend dem i dejen.
+Corr: Pisk 2 hvider stive og vend de i dejen.
+Type: flip_pronouns
+tok1: dem, tok2: de
+
+Gold: For 20-årige Jonas Brix handler det om at tjene nogle penge og opleve resten af verden, "inden det bliver for sent."
+Pred: For 20-årige Jonas Brix handler det om at tjene nogen penge og opleve resten af verden, "inden det bliver for sent." (korrekt)
+Corr: For 20-årige Jonas Brix handler det om at tjene nogen penge og opleve resten af verden, "inden det bliver for sent."
+Type: flip_nogle_nogen
+tok1: nogle, tok2: nogen
+
+Gold: Men uanset, at metoden er tilladt i visse producentlande, så er den strengt forbudt i Danmark.
+Pred: Men uanset, at metodet er tilladt i visse producentlande, så er den strengt forbudt i Danmark. (Originale sætning)
+Corr: Men uanset, at metodet er tilladt i visse producentlande, så er den strengt forbudt i Danmark.
+Type: flip_en_et_suffix
+tok1: metoden, tok2: metodet
+
+Gold: Jeg ville bare ikke snakke med ham, hvis der var andre i nærheden.
+Pred: Mig ville bare ikke snakke med ham, hvis andre var i nærheden.
+Corr: Mig ville bare ikke snakke med ham, hvis der var andre i nærheden.
+Type: flip_pronouns
+tok1: Jeg, tok2: Mig
+
+Gold: Server den i tynde skiver med frisk salvie.
+Pred: Server den tynde skive med friske salater.
+Corr: Server den tynde skiver med frisk salvie.
+Type: delete
+tok1: i, tok2: <deleted>
+
+Gold: Indspilningen dukkede først op i 1988 hos en af Elvis' klassekammerater.
+Pred: Indspilningen dukkede først op i 1988 hos en af Elvis' klassekammerater.
+Corr: Indspilningen dukkede først op i 1988 hos en af Elvis's klassekammerater.
+Type: corrupt_genitive
+tok1: Elvis', tok2: Elvis's
+
+Gold: I sin beretning sagde han, at Finansforbundet vil lægge op til "kontakter og diskussioner" både lokalt og mellem forbundet og Finanssektorens Arbejdsgiverforening.
+Pred: I sin beretning sagde han, at Finansforbundet vil ligge op til "kontakter og diskussioner" begge lokalt og mellem forbundet og Finanssektorens Arbejdsgiverforening.
+Corr: I sin beretning sagde han, at Finansforbundet vil ligge op til "kontakter og diskussioner" både lokalt og mellem forbundet og Finanssektorens Arbejdsgiverforening.
+Type: flip_ligge_laegge
+tok1: lægge, tok2: ligge
+
+Gold: Realiteten bag livsforsikringsselskabernes anvendelse af gennemsnitsprincippet er, at der spares op i "fede år" til brug i "magre år", men ikke omvendt!
+Pred: Realitetet bag livsforsikringsselskabernes anvendelse af gennemsnitsprincippet er, at der spares op i "fede år" til brug i "magre år", men ikke omvendt!
+Corr: Realitetet bag livsforsikringsselskabernes anvendelse af gennemsnitsprincippet er, at der spares op i "fede år" til brug i "magre år", men ikke omvendt!
+Type: flip_en_et_suffix
+tok1: Realiteten, tok2: Realitetet
+
+Gold: Artiklen blev sidst i maj sendt til Jyllands-Posten, Berlingske Tidende og Århus Stiftstidende.
+Pred: Artiklen blev sidst i maj sendt til Jyllands-Posten, Berlingske Tidende og Århus Stiftstidende. (Originale sætning)
+Corr: Artiklet blev sidst i maj sendt til Jyllands-Posten, Berlingske Tidende og Århus Stiftstidende.
+Type: flip_en_et_suffix
+tok1: Artiklen, tok2: Artiklet
+
+Gold: Der skal anlægges to baner.
+Pred: Skal der anlægges to baner. (Korrekt)
+Corr: Skal der anlægges to baner.
+Type: flip_neighbours
+tok1: skal, tok2: Der
+
+Gold: Han kiggede på Elias, der havde stillet sine tomme øldåser op til det daglige bilvæddeløb på det ru betongulv, på mor, der med spredte ben, den ene hånd på toppen af maven og den anden slapt hængende ud over armlænet, langsomt rystede på hovedet.
+Pred: Han kiggede på Elias, der havde stillet sine tomme øldåser op til det daglige bilvæddeløb på det ru betongulv, på mor, der med spredte ben, den ene hånd på toppen af maven og den anden slapt hængende over armlænet, langsomt rystede på hovedet.
+Corr: Han kiggede på Elias, der havde stillet sine tomme øldåser op til det daglige bilvæddeløb på det ru betongulv, på mor, der med spredte ben, den ene hånd på toppen af maven og den anden slapt hængene ud over armlænet, langsomt rystede på hovedet.
+Type: corrupt_ende_ene
+tok1: hængende, tok2: hængene
+
+Gold: Selv om det må betyde forandring.
+Pred: Selv det om må betyde selvom, derfor svaret er: Selvom det om må betyde forandring.
+Corr: Selv det om må betyde forandring.
+Type: flip_neighbours
+tok1: om, tok2: det
+
+Gold: Skulle et flertal i Divisionsforeningen mod forventning imidlertid ønske at bibeholde turneringen forår/efterår rykker to hold ud af Superligaen.
+Pred: Skulle en flertal i Divisionsforeningen mod forventning imidlertid ønske at bibeholde turneringen forår/efterår rykker to hold ud af Superligaen.
+Corr: Skulle en flertal i Divisionsforeningen mod forventning imidlertid ønske at bibeholde turneringen forår / efterår rykker to hold ud af Superligaen.
+Type: flip_indefinite_article
+tok1: et, tok2: en
+
+Gold: Efter en weekend hos familien på Fanø har han mandag været i Bruxelles til EF-fiskeriministermøde.
+Pred: Efter en weekend hos familien på Fanø har det mandag været i Bruxelles til EF-fiskeriministermødet.
+Corr: Efter en weekend hos familien på Fanø har det mandag været i Bruxelles til EF-fiskeriministermøde.
+Type: flip_han_hun_to_det
+tok1: han, tok2: det
+
+Gold: ODENSE: De er begge fædre, 31 år gamle og med begyndende tendens til "høj pande".
+Pred: Odense: De er begge farer, 31 år gamle og med begyndende tendens til "høj pande".
+Corr: ODENSE: De er begge fædre, 31 år gamle og med begyndene tendens til "høj pande".
+Type: corrupt_ende_ene
+tok1: begyndende, tok2: begyndene
+
+Gold: En linie 6 er tætpakket som en bus i myldretiden - men alle passagererne står oven på bussen.
+Pred: En linje 6 er tætpakket som en bus i myldretiden – men alle passagererne står overfor bussen.
+Corr: En linie 6 er tætpakket som en bus i myldretiden - men alle passagerene står oven på bussen.
+Type: corrupt_noun_r
+tok1: passagererne, tok2: passagerene
+
+Gold: Uden at ane hvorfor, er hun i livsfare.
+Pred: Uden at ane hvorfor, er hun i livsfare.
+Corr: Uden at ane hvorfor, er hende i livsfare.
+Type: flip_pronouns
+tok1: hun, tok2: hende
+
+Gold: Han vipper med den store gadelampe og dirigerer.
+Pred: Han vipper med den store gadelampe og han dirigere.
+Corr: Han vipper med den store gadelampe og dirigere.
+Type: corrupt_verb_r
+tok1: dirigerer, tok2: dirigere
+
+Gold: Også derfor er det vigtigt at træne alle aspekter af hjernen, konkluderer han.
+Pred: Også derfor er det vigtigt at træne alle aspekter af hjernen, konkluderer han.
+Corr: Også derfor er det vigtigt at træne alle aspekter af hjernen, konkludere han.
+Type: corrupt_verb_r
+tok1: konkluderer, tok2: konkludere
+
+Gold: Jeg holdt den gående med en cigaret.
+Pred: Jeg holdt den gående med en cigaret.
+Corr: Jeg holdt den gåene med en cigaret.
+Type: corrupt_ende_ene
+tok1: gående, tok2: gåene
+
+Gold: Men som oftest vil kar-kirurgerne dog erstatte den gamle, ødelagte åre med en kunstig.
+Pred: Men som oftest vil kar-kirurgene dog erstatte den gamle, ødelagte åre med en kunstig åre.
+Corr: Men som oftest vil kar-kirurgene dog erstatte den gamle, ødelagte åre med en kunstig.
+Type: corrupt_noun_r
+tok1: kar-kirurgerne, tok2: kar-kirurgene
+
+Gold: Han hjalp med råd og dåd, også økonomisk, og han satte aldrig sig selv i første række.
+Pred: Ham hjälp med råd og dåd, også økonomisk, og han satte aldrig sig selv i første række. (Korrekt)
+Corr: Ham hjalp med råd og dåd, også økonomisk, og han satte aldrig sig selv i første række.
+Type: flip_pronouns
+tok1: Han, tok2: Ham
+
+Gold: Da jeg blev arbejdsløs, gik jeg i gang med forskellige kurser og gennemførte disse med arbejdsformidlingens velsignelse.
+Pred: Da mig blev arbejdsløs, gik jeg i gang med forskellige kurser og gennemførte disse med arbejdsformidlingens velsignelse. (Originale sætning)
+Corr: Da mig blev arbejdsløs, gik jeg i gang med forskellige kurser og gennemførte disse med arbejdsformidlingens velsignelse.
+Type: flip_pronouns
+tok1: jeg, tok2: mig
+
+Gold: Hele det smukt restaurerede hus vrimler med børn - Elise Gug har selv tre - og andelsforeningen er så glad for selskabeligt samvær, at den har egen café og festlokale.
+Pred: Hele det smukt restaurerede hus vrimler med børn – Elise Gug har selv tre – og andelsforeningen er så glad for selskabeligt samvær, at den har egen café og festlokale.
+Corr: Hele det smukt restaurerede hus vrimler med børn - Elise Gug har selv tre - og andelsforeningen er så glad får selskabeligt samvær, at den har egen café og festlokale.
+Type: flip_far_for
+tok1: for, tok2: får
+
+Gold: Og til et show, der skal multiplicere mystikken omkring sangeren og dyrke hans urørlighed.
+Pred: Og til et show, der skal multiplicerer mystikken omkring sangeren og dyrke hans urørlighed. (korrekt)
+Corr: Og til et show, der skal multiplicerer mystikken omkring sangeren og dyrke hans urørlighed.
+Type: corrupt_verb_r
+tok1: multiplicere, tok2: multiplicerer
+
+Gold: På vej ud fra Wimpy passer jeg på ikke at betale med danske kroner.
+Pred: På vej ud fra Wimpy passer mig ikke på at betale med andet end danske kroner.
+Corr: På vej ud fra Wimpy passer mig på ikke at betale med danske kroner.
+Type: flip_pronouns
+tok1: jeg, tok2: mig
+
+Gold: Storkøkkenerne er underkastet levnedsmiddelkontrollens tilsyn, og der er krav om køkkenernes indretning og udrustning og til personalets uddannelse.
+Pred: Storkøkkenerne er underkastet levnedsmiddelkontrollens tilsyn, og der er krav om køkkenernes indretning og udrustning samt til personalets uddannelse.
+Corr: Storkøkkenerne er underkastet levnedsmiddelkontrollens tilsyn, og der er krav om køkkenernes indretning og udrustning og til personalets uddanelse.
+Type: corrupt_spelling
+tok1: uddannelse, tok2: uddanelse
+
+Gold: Men Stenbjerre valgte den helt kommercielle løsning uden skelen til nationalitet, og resultatet blev, at Brüel & Kjær i dag ejes af tyskere.
+Pred: Men Stenbjerre valgte den helt kommercielle løsning uden hensyn til nationalitet, og resultatet blev, at Brüel & Kjær i dag ejes af tyskere.
+Corr: Men Stenbjerre valgte den helt kommercielle løsning uden skelen til nationalitet, og resultatet blev, at Brüel & Kjær i dag ejes af tysker.
+Type: corrupt_noun_r
+tok1: tyskere, tok2: tysker
+
+Gold: Det helt store skub i karrieren fik Joe Cocker egentlig først i 1982, hvor han modtog en Grammy for medvirken i "bedste duet".
+Pred: Det helt store skub i karrieren fik Joe Cocker egentlig først i 1982, hvor det modtog en Grammy for bedste duet.
+Corr: Det helt store skub i karrieren fik Joe Cocker egentlig først i 1982, hvor det modtog en Grammy for medvirken i "bedste duet".
+Type: flip_han_hun_to_det
+tok1: han, tok2: det
+
+Gold: Flere af dem havde tårer i øjnene.
+Pred: Flere af dem havde tårer i øjnene.
+Corr: Flere af dem havde tårer i øjenene.
+Type: corrupt_spelling
+tok1: øjnene, tok2: øjenene
+
+Gold: Han fortæller, at udviklingen i Sydkina kører så hurtigt, at man taber pusten.
+Pred: Han fortæller, at udviklingen i Sydkina kører så hurtigt, at man taber pusten.
+Corr: Han fortæller, at udviklingen i Sydkina køre så hurtigt, at man taber pusten.
+Type: corrupt_verb_r
+tok1: kører, tok2: køre
+
+Gold: Uden for teltet sidder en lille pige med et spædbarn på skødet.
+Pred: Udenfor får teltet sidde en lille pige med et spædbarn på skødet.
+Corr: Uden får teltet sidder en lille pige med et spædbarn på skødet.
+Type: flip_far_for
+tok1: for, tok2: får
+
