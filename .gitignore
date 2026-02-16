@@ -23,3 +23,5 @@ evaluation/test_write_assistant_api.ipynb
 evaluation/ignore
 data_proportion_2.ipynb
 
+dala/upload_to_hf.py
+requirements_2.txt
