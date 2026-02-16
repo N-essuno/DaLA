@@ -58,8 +58,60 @@ def set_match_score(prediction: str, ground_truth: str) -> float:
     f1 = 2 * precision * recall / (precision + recall) if common else 0.0
     return em, f1
 
+def qa_score_single(pred: str, gold: str, args: dict, set_based=False) -> tuple[float, float] | float:
+    """Return (EM, F1) for a single QA pair."""
+    if not set_based:
+        return exact_match_score(pred, gold), f1_score(pred, gold)
+    else:
+        return set_match_score(pred, gold)
 
-def error_spot_score(prediction: str, ground_truth: str, args: dict) -> float:
+
+def bleu_score(prediction: str, ground_truth: str) -> float:
+    """Compute BLEU score for single prediction and ground truth."""
+    from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
+    pred_tokens = normalize_text(prediction).split()
+    gold_tokens = normalize_text(ground_truth).split()
+    smoothie = SmoothingFunction().method4
+    return sentence_bleu([gold_tokens], pred_tokens, smoothing_function=smoothie)
+
+def sacrebleu_score(prediction: str, ground_truth: str) -> float:
+    """Compute SacreBLEU score for single prediction and ground truth."""
+    import sacrebleu
+    return sacrebleu.sentence_bleu(prediction, [ground_truth]).score / 100.0
+
+def rouge_l_score(prediction: str, ground_truth: str) -> float:
+    """Compute ROUGE-L score for single prediction and ground truth."""
+    from rouge_score import rouge_scorer
+    scorer = rouge_scorer.RougeScorer(['rougeL'])
+    scores = scorer.score(ground_truth, prediction)
+    return scores['rougeL'].fmeasure
+
+def meteor_score_hf(prediction: str, ground_truth: str) -> float:
+    """Compute METEOR score for single prediction and ground truth. Use HuggingFace's implementation."""
+    import evaluate
+    meteor = evaluate.load("meteor")
+    return meteor.compute(predictions=[prediction], references=[ground_truth])["meteor"]
+
+def meteor_score(prediction: str, ground_truth: str) -> float:
+    """Compute METEOR score for single prediction and ground truth."""
+    from nltk.translate.meteor_score import meteor_score
+    return meteor_score([ground_truth], prediction)
+
+def bert_score(prediction: str, ground_truth: str) -> float:
+    """Compute BERTScore for single prediction and ground truth."""
+    from bert_score import score
+    P, R, F1 = score([prediction], [ground_truth], lang="da")
+    return F1.item()
+
+def bert_score_hf(prediction: str, ground_truth: str) -> float:
+    """Compute BERTScore for single prediction and ground truth."""
+    import evaluate
+    bertscore = evaluate.load("bertscore")
+    results = bertscore.compute(predictions=[prediction], references=[ground_truth], lang="da")
+    return results["f1"][0]
+
+
+def error_spot_score(prediction: str, ground_truth: str, args: dict, thr: float = 0.6) -> float:
     # from ..dala.dala_corrupt import SpacyModelSingleton
     # dk_model = SpacyModelSingleton("da_core_news_md")
     #
@@ -70,6 +122,11 @@ def error_spot_score(prediction: str, ground_truth: str, args: dict) -> float:
     affected_token_1 = args.get("affected_token_1")
     affected_token_2 = args.get("affected_token_2")
     corrupted_sentence = args.get("corrupted_sentence")
+
+    base_score = sacrebleu_score(prediction, ground_truth)
+
+    if base_score < thr:
+        return base_score
 
     # check if in the gold answer, the affected tokens appear in the same order as ground truth
     if corruption_type == 'flip_neighbours':
@@ -106,53 +163,25 @@ def error_spot_score(prediction: str, ground_truth: str, args: dict) -> float:
         same_order = gold_idx1 < gold_idx2 and pred_idx1 < pred_idx2
         same_index = (gold_idx1 == pred_idx1 and gold_idx2 == pred_idx2)
         return 0.7 * float(same_order) + 0.3 * float(same_index)
-
-def qa_score_single(pred: str, gold: str, args: dict, set_based=False) -> tuple[float, float] | float:
-    """Return (EM, F1) for a single QA pair."""
-    if not set_based:
-        return exact_match_score(pred, gold), f1_score(pred, gold)
+    elif corruption_type == 'delete':
+        pass
     else:
-        return set_match_score(pred, gold)
+        # assume affected_token_1 is the correct token in gold
+        #   and affected_token_2 is the incorrect token that replaced the original in the corrupted sentence
+
+        gold_tokens = normalize_text(ground_truth).split()
+        pred_tokens = normalize_text(prediction).split()
+
+        # get first index of affected_token_1 in gold
+        gold_idx = gold_tokens.index(affected_token_1)
+
+        # check if affected_token_1 appears in pred at the same index
+        if gold_idx < len(pred_tokens) and pred_tokens[gold_idx] == affected_token_1:
+            return 1.0
 
 
-def bleu_score(prediction: str, ground_truth: str) -> float:
-    """Compute BLEU score for single prediction and ground truth."""
-    from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
-    pred_tokens = normalize_text(prediction).split()
-    gold_tokens = normalize_text(ground_truth).split()
-    smoothie = SmoothingFunction().method4
-    return sentence_bleu([gold_tokens], pred_tokens, smoothing_function=smoothie)
 
-def rouge_l_score(prediction: str, ground_truth: str) -> float:
-    """Compute ROUGE-L score for single prediction and ground truth."""
-    from rouge_score import rouge_scorer
-    scorer = rouge_scorer.RougeScorer(['rougeL'])
-    scores = scorer.score(ground_truth, prediction)
-    return scores['rougeL'].fmeasure
 
-def meteor_score_hf(prediction: str, ground_truth: str) -> float:
-    """Compute METEOR score for single prediction and ground truth. Use HuggingFace's implementation."""
-    import evaluate
-    meteor = evaluate.load("meteor")
-    return meteor.compute(predictions=[prediction], references=[ground_truth])["meteor"]
-
-def meteor_score(prediction: str, ground_truth: str) -> float:
-    """Compute METEOR score for single prediction and ground truth."""
-    from nltk.translate.meteor_score import meteor_score
-    return meteor_score([ground_truth], prediction)
-
-def bert_score(prediction: str, ground_truth: str) -> float:
-    """Compute BERTScore for single prediction and ground truth."""
-    from bert_score import score
-    P, R, F1 = score([prediction], [ground_truth], lang="da")
-    return F1.item()
-
-def bert_score_hf(prediction: str, ground_truth: str) -> float:
-    """Compute BERTScore for single prediction and ground truth."""
-    import evaluate
-    bertscore = evaluate.load("bertscore")
-    results = bertscore.compute(predictions=[prediction], references=[ground_truth], lang="da")
-    return results["f1"][0]
 
 def evaluate_dataset(path: str, gold_path: str, pred_col: str = "Answer", verbose: str = False,
                      meteor_metric=None, bertscore_hf_metric=None, bertscore_scorer=None) -> dict:
