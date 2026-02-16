@@ -1,5 +1,5 @@
 import random
-from typing import List, Tuple, Union
+from typing import List, Tuple, Union, Any, Literal
 
 import pandas as pd
 
@@ -111,6 +111,7 @@ def flip_indefinite_article(dk_model: Language, sentence: str, flip_prob: float 
     single_corruption_done = False
     original_token = None
     corrupted_token = None
+    token_index = None
 
     for token in doc:
         # Skip if we already did a single corruption
@@ -131,6 +132,7 @@ def flip_indefinite_article(dk_model: Language, sentence: str, flip_prob: float 
                         # Replace in tokens_out
                         tokens_out[child.i] = flipped
                         single_corruption_done = True
+                        token_index = child.i
 
                         original_token = child.text
                         corrupted_token = flipped
@@ -145,7 +147,7 @@ def flip_indefinite_article(dk_model: Language, sentence: str, flip_prob: float 
 
     final_sentence = join_tokens(corrupted_tokens)
     if token_comparison:
-        return single_corruption_done, final_sentence, original_token, corrupted_token
+        return single_corruption_done, final_sentence, original_token, corrupted_token, token_index
     else:
         return single_corruption_done, final_sentence
 
@@ -170,6 +172,7 @@ def flip_en_et_suffix(dk_model: Language, sentence: str, flip_prob: float = 1.0,
     single_corruption_done = False
     original_token = None
     corrupted_token = None
+    token_index = None
 
     for i, token in enumerate(doc):
         # Stop after the first successful corruption
@@ -192,8 +195,10 @@ def flip_en_et_suffix(dk_model: Language, sentence: str, flip_prob: float = 1.0,
 
                     tokens_out[i] = flipped
                     single_corruption_done = True
+                    token_index = i
                     original_token = token.text
                     corrupted_token = tokens_out[i]
+
 
     # Rebuild the sentence
     corrupted_words = [
@@ -202,7 +207,7 @@ def flip_en_et_suffix(dk_model: Language, sentence: str, flip_prob: float = 1.0,
 
     final_sentence = join_tokens(corrupted_words)
     if token_comparison:
-        return single_corruption_done, final_sentence, original_token, corrupted_token
+        return single_corruption_done, final_sentence, original_token, corrupted_token, token_index
     else:
         return single_corruption_done, final_sentence
 
@@ -225,6 +230,7 @@ def flip_nogle_nogen(dk_model: Language, sentence: str, flip_prob: float = 1.0, 
     single_corruption_done = False
     original_token = None
     corrupted_token = None
+    token_index = None
 
     # Check negation/question
     found_negation = is_negative(doc)
@@ -258,6 +264,7 @@ def flip_nogle_nogen(dk_model: Language, sentence: str, flip_prob: float = 1.0, 
                         single_corruption_done = True
                         original_token = token.text
                         corrupted_token = tokens_out[i]
+                        token_index = i
 
                 # Rule: 'nogen' -> 'nogle' if next noun is singular
                 if lower_t == "nogen" and "Sing" in noun_number:
@@ -265,6 +272,7 @@ def flip_nogle_nogen(dk_model: Language, sentence: str, flip_prob: float = 1.0, 
                     single_corruption_done = True
                     original_token = token.text
                     corrupted_token = tokens_out[i]
+                    token_index = i
 
     # Rebuild the sentence
     corrupted_words = [
@@ -273,7 +281,7 @@ def flip_nogle_nogen(dk_model: Language, sentence: str, flip_prob: float = 1.0, 
 
     final_sentence = join_tokens(corrupted_words)
     if token_comparison:
-        return single_corruption_done, final_sentence, original_token, corrupted_token
+        return single_corruption_done, final_sentence, original_token, corrupted_token, token_index
     else:
         return single_corruption_done, final_sentence
 
@@ -294,6 +302,7 @@ def corrupt_ende_ene(dk_model: Language, sentence: str, flip_prob: float = 1.0, 
     single_corruption_done = False
     original_token = None
     corrupted_token = None
+    token_index = None
 
     for i, token in enumerate(doc):
         # Skip if we already did a single corruption
@@ -314,6 +323,7 @@ def corrupt_ende_ene(dk_model: Language, sentence: str, flip_prob: float = 1.0, 
                 single_corruption_done = True
                 original_token = token.text
                 corrupted_token = tokens_out[i]
+                token_index = i
 
             # ADJ/VERB that ends with -ende --> flip to -ene
             elif token.pos_ in ("ADJ", "VERB") and lower_word.endswith("ende") and len(word) >= 4:
@@ -325,6 +335,7 @@ def corrupt_ende_ene(dk_model: Language, sentence: str, flip_prob: float = 1.0, 
                 single_corruption_done = True
                 original_token = token.text
                 corrupted_token = tokens_out[i]
+                token_index = i
 
     # Rebuild the sentence
     corrupted_words = [
@@ -333,7 +344,7 @@ def corrupt_ende_ene(dk_model: Language, sentence: str, flip_prob: float = 1.0, 
 
     final_sentence = join_tokens(corrupted_words)
     if token_comparison:
-        return single_corruption_done, final_sentence, original_token, corrupted_token
+        return single_corruption_done, final_sentence, original_token, corrupted_token, token_index
     else:
         return single_corruption_done, final_sentence
 
@@ -368,6 +379,7 @@ def flip_pronouns(dk_model: Language, sentence: str, flip_prob: float = 1.0, tok
     single_corruption_done = False
     original_token = None
     corrupted_token = None
+    token_index = None
 
     for i, token in enumerate(doc):
         if single_corruption_done:
@@ -384,6 +396,7 @@ def flip_pronouns(dk_model: Language, sentence: str, flip_prob: float = 1.0, tok
                 single_corruption_done = True
                 original_token = token.text
                 corrupted_token = tokens_out[i]
+                token_index = i
         # Flip object pronoun to subject pronoun
         elif tok_lower in OBJECT_TO_SUBJECT and dep in ("obj", "iobj", "obl"):
             if random.random() < flip_prob:
@@ -392,6 +405,7 @@ def flip_pronouns(dk_model: Language, sentence: str, flip_prob: float = 1.0, tok
                 single_corruption_done = True
                 original_token = token.text
                 corrupted_token = tokens_out[i]
+                token_index = i
 
     # Rebuild the sentence
     corrupted_words = [
@@ -400,7 +414,7 @@ def flip_pronouns(dk_model: Language, sentence: str, flip_prob: float = 1.0, tok
 
     final_sentence = join_tokens(corrupted_words)
     if token_comparison:
-        return single_corruption_done, final_sentence, original_token, corrupted_token
+        return single_corruption_done, final_sentence, original_token, corrupted_token, token_index
     else:
         return single_corruption_done, final_sentence
 
@@ -424,6 +438,7 @@ def flip_som_der(dk_model: Language, sentence: str, flip_prob: float = 1.0, toke
     single_corruption_done = False
     original_token = None
     corrupted_token = None
+    token_index = None
 
     for i, token in enumerate(doc):
         if single_corruption_done:
@@ -436,6 +451,7 @@ def flip_som_der(dk_model: Language, sentence: str, flip_prob: float = 1.0, toke
                 single_corruption_done = True
                 original_token = token.text
                 corrupted_token = tokens_out[i]
+                token_index = i
 
     # Rebuild the sentence
     corrupted_words = [
@@ -444,7 +460,7 @@ def flip_som_der(dk_model: Language, sentence: str, flip_prob: float = 1.0, toke
 
     final_sentence = join_tokens(corrupted_words)
     if token_comparison:
-        return single_corruption_done, final_sentence, original_token, corrupted_token
+        return single_corruption_done, final_sentence, original_token, corrupted_token, token_index
     else:
         return single_corruption_done, final_sentence
 
@@ -460,6 +476,7 @@ def flip_han_hun_to_det(dk_model: Language, sentence: str, flip_prob: float = 1.
     """
     doc = dk_model(sentence)
     tokens_out = list(doc)
+    token_index = None
 
     has_antecedent, res_dict = has_antecedent_before(doc)
     pronoun_index = res_dict.get("pronoun_position", None)
@@ -472,6 +489,7 @@ def flip_han_hun_to_det(dk_model: Language, sentence: str, flip_prob: float = 1.
 
         original_token = pronoun_token.text
         corrupted_token = tokens_out[pronoun_index]
+        token_index = pronoun_index
 
         # Rebuild the sentence
         corrupted_words = [
@@ -480,12 +498,12 @@ def flip_han_hun_to_det(dk_model: Language, sentence: str, flip_prob: float = 1.
 
         final_sentence = join_tokens(corrupted_words)
         if token_comparison:
-            return True, final_sentence, original_token, corrupted_token
+            return True, final_sentence, original_token, corrupted_token, token_index
         else:
             return True, final_sentence
     else:
         if token_comparison:
-            return False, "", None, None
+            return False, "", None, None, None
         else:
             return False, ""
 
@@ -526,6 +544,7 @@ def corrupt_spelling(dk_model: Language, sentence: str, flip_prob: float = 1.0, 
     single_corruption_done = False
     original_token = None
     corrupted_token = None
+    token_index = None
 
     for i, token in enumerate(doc):
         if single_corruption_done:
@@ -542,6 +561,8 @@ def corrupt_spelling(dk_model: Language, sentence: str, flip_prob: float = 1.0, 
             single_corruption_done = True
             original_token = token.text
             corrupted_token = tokens_out[i]
+            token_index = i
+
 
     # Rebuild the sentence
     corrupted_words = [
@@ -550,7 +571,7 @@ def corrupt_spelling(dk_model: Language, sentence: str, flip_prob: float = 1.0, 
 
     final_sentence = join_tokens(corrupted_words)
     if token_comparison:
-        return single_corruption_done, final_sentence, original_token, corrupted_token
+        return single_corruption_done, final_sentence, original_token, corrupted_token, token_index
     else:
         return single_corruption_done, final_sentence
 
@@ -585,6 +606,7 @@ def flip_ligge_laegge(dk_model: Language, sentence: str, flip_prob: float = 1.0,
     single_corruption_done = False
     original_token = None
     corrupted_token = None
+    token_index = None
 
     for i, token in enumerate(doc):
         if single_corruption_done:
@@ -596,6 +618,7 @@ def flip_ligge_laegge(dk_model: Language, sentence: str, flip_prob: float = 1.0,
             single_corruption_done = True
             original_token = token.text
             corrupted_token = tokens_out[i]
+            token_index = i
 
     # Rebuild the sentence
     corrupted_words = [
@@ -604,7 +627,7 @@ def flip_ligge_laegge(dk_model: Language, sentence: str, flip_prob: float = 1.0,
 
     final_sentence = join_tokens(corrupted_words)
     if token_comparison:
-        return single_corruption_done, final_sentence, original_token, corrupted_token
+        return single_corruption_done, final_sentence, original_token, corrupted_token, token_index
     else:
         return single_corruption_done, final_sentence
 
@@ -632,6 +655,7 @@ def corrupt_verb_r(dk_model: Language, sentence: str, flip_prob: float = 1.0, to
     single_corruption_done = False
     original_token = None
     corrupted_token = None
+    token_index = None
 
     for i, token in enumerate(doc):
         if single_corruption_done:
@@ -652,6 +676,7 @@ def corrupt_verb_r(dk_model: Language, sentence: str, flip_prob: float = 1.0, to
                 single_corruption_done = True
                 original_token = token.text
                 corrupted_token = tokens_out[i]
+                token_index = i
 
             # Infinitive verb ending with '-re' -> flip to '-rer'
             elif "VerbForm=Inf" in morph and lower_word.endswith("re") and len(word) >= 3:
@@ -663,6 +688,7 @@ def corrupt_verb_r(dk_model: Language, sentence: str, flip_prob: float = 1.0, to
                 single_corruption_done = True
                 original_token = token.text
                 corrupted_token = tokens_out[i]
+                token_index = i
 
     # Rebuild the sentence
     corrupted_words = [
@@ -671,7 +697,7 @@ def corrupt_verb_r(dk_model: Language, sentence: str, flip_prob: float = 1.0, to
 
     final_sentence = join_tokens(corrupted_words)
     if token_comparison:
-        return single_corruption_done, final_sentence, original_token, corrupted_token
+        return single_corruption_done, final_sentence, original_token, corrupted_token, token_index
     else:
         return single_corruption_done, final_sentence
 
@@ -696,6 +722,7 @@ def corrupt_noun_r(dk_model: Language, sentence: str, flip_prob: float = 1.0, to
     single_corruption_done = False
     original_token = None
     corrupted_token = None
+    token_index = None
 
     for i, token in enumerate(doc):
         if single_corruption_done:
@@ -740,6 +767,7 @@ def corrupt_noun_r(dk_model: Language, sentence: str, flip_prob: float = 1.0, to
 
                 original_token = token.text
                 corrupted_token = tokens_out[i]
+                token_index = i
 
     # Rebuild the sentence
     corrupted_words = [
@@ -749,7 +777,7 @@ def corrupt_noun_r(dk_model: Language, sentence: str, flip_prob: float = 1.0, to
     final_sentence = join_tokens(corrupted_words)
 
     if token_comparison:
-        return single_corruption_done, final_sentence, original_token, corrupted_token
+        return single_corruption_done, final_sentence, original_token, corrupted_token, token_index
     else:
         return single_corruption_done, final_sentence
 
@@ -771,6 +799,7 @@ def corrupt_adjective_r(dk_model: Language, sentence: str, flip_prob: float = 1.
     single_corruption_done = False
     original_token = None
     corrupted_token = None
+    token_index = None
 
     for i, token in enumerate(doc):
         if single_corruption_done:
@@ -804,6 +833,7 @@ def corrupt_adjective_r(dk_model: Language, sentence: str, flip_prob: float = 1.
             if single_corruption_done:
                 original_token = token.text
                 corrupted_token = tokens_out[i]
+                token_index = i
 
     # Rebuild the sentence
     corrupted_words = [
@@ -812,7 +842,7 @@ def corrupt_adjective_r(dk_model: Language, sentence: str, flip_prob: float = 1.
 
     final_sentence = join_tokens(corrupted_words)
     if token_comparison:
-        return single_corruption_done, final_sentence, original_token, corrupted_token
+        return single_corruption_done, final_sentence, original_token, corrupted_token, token_index
     else:
         return single_corruption_done, final_sentence
 
@@ -836,6 +866,7 @@ def corrupt_genitive(dk_model: Language, sentence: str, flip_prob: float = 1.0, 
     single_corruption_done = False
     original_token = None
     corrupted_token = None
+    token_index = None
 
     for i, token in enumerate(doc):
         if single_corruption_done:
@@ -865,6 +896,7 @@ def corrupt_genitive(dk_model: Language, sentence: str, flip_prob: float = 1.0, 
             single_corruption_done = True
             original_token = token.text
             corrupted_token = tokens_out[i]
+            token_index = i
 
 
     # Rebuild the sentence
@@ -874,7 +906,7 @@ def corrupt_genitive(dk_model: Language, sentence: str, flip_prob: float = 1.0, 
 
     final_sentence = join_tokens(corrupted_words)
     if token_comparison:
-        return single_corruption_done, final_sentence, original_token, corrupted_token
+        return single_corruption_done, final_sentence, original_token, corrupted_token, token_index
     else:
         return single_corruption_done, final_sentence
 
@@ -896,6 +928,7 @@ def flip_far_for(dk_model: Language, sentence: str, flip_prob: float = 1.0, toke
     single_corruption_done = False
     original_token = None
     corrupted_token = None
+    token_index = None
 
     for i, token in enumerate(doc):
         if single_corruption_done:  # only one corruption per call
@@ -915,6 +948,7 @@ def flip_far_for(dk_model: Language, sentence: str, flip_prob: float = 1.0, toke
                 single_corruption_done = True
 
         if single_corruption_done:
+            token_index = i
             original_token = token.text
             corrupted_token = tokens_out[i]
 
@@ -925,7 +959,7 @@ def flip_far_for(dk_model: Language, sentence: str, flip_prob: float = 1.0, toke
 
     final_sentence = join_tokens(corrupted_words)
     if token_comparison:
-        return single_corruption_done, final_sentence, original_token, corrupted_token
+        return single_corruption_done, final_sentence, original_token, corrupted_token, token_index
     else:
         return single_corruption_done, final_sentence
 
@@ -934,7 +968,7 @@ def flip_far_for(dk_model: Language, sentence: str, flip_prob: float = 1.0, toke
 # Basic corruptions from original ScaLA
 
 def delete(tokens: List[str], pos_tags: List[str], token_comparison = False) -> None | tuple[
-    str, str | list[str], str] | str:
+    str, str | list[str], str, Any] | str:
     """Delete a random token from a list of tokens.
 
     The POS tags are used to prevent deletion of a token which does not make the
@@ -952,6 +986,7 @@ def delete(tokens: List[str], pos_tags: List[str], token_comparison = False) -> 
     """
     # Copy the token list
     new_tokens = tokens.copy()
+    token_index = None
 
     # Get candidate indices to remove. We do not remove adjectives, adverbs,
     # punctuation, determiners or numbers, as the resulting sentence will probably
@@ -988,13 +1023,13 @@ def delete(tokens: List[str], pos_tags: List[str], token_comparison = False) -> 
 
     # Join up the new tokens and return the string
     if token_comparison:
-        return join_tokens(new_tokens), original_token, "<deleted>"
+        return join_tokens(new_tokens), original_token, "<deleted>", rnd_idx
     else:
         return join_tokens(new_tokens)
 
 
 def flip_neighbours(tokens: List[str], pos_tags: List[str], token_comparison = False) -> None | tuple[
-    str, str, str] | str:
+    str, str, str, Literal[0]] | str:
     """Flip a pair of neighbouring tokens.
 
     The POS tags are used to prevent flipping of tokens which does not make the
@@ -1071,7 +1106,7 @@ def flip_neighbours(tokens: List[str], pos_tags: List[str], token_comparison = F
 
     # Join up the new tokens and return the string
     if token_comparison:
-        return join_tokens(new_tokens), flipped_1, flipped_2
+        return join_tokens(new_tokens), flipped_1, flipped_2, rnd_fst_idx
     else:
         return join_tokens(new_tokens)
 
@@ -1104,7 +1139,7 @@ def corrupt_basic(tokens: List[str], pos_tags: List[str], num_corruptions: int =
         # if deletete is used one will be the deleted token and the other will be "<deleted>"
         # if flip_neighbours each will be one of the flipped tokens
         if token_comparison:
-            corruption, token_1, token_2 = corruption_fn(tokens, pos_tags, token_comparison=token_comparison)
+            corruption, token_1, token_2, token_index = corruption_fn(tokens, pos_tags, token_comparison=token_comparison)
         else:
             corruption = corruption_fn(tokens, pos_tags)
 
@@ -1113,9 +1148,9 @@ def corrupt_basic(tokens: List[str], pos_tags: List[str], num_corruptions: int =
         if corruption not in corruptions and corruption is not None:
             corruptions.append((corruption, corruption_fn.__name__))
 
-    # Return the list of corruptions
+    # Return the list of corruptions. NOTE: the corruption is assumed to be only 1 for now, so token_1, token_2, token_index will be valid
     if token_comparison:
-        return [(corrupted_string, corruption_type, token_1, token_2) for corrupted_string, corruption_type in corruptions]
+        return [(corrupted_string, corruption_type, token_1, token_2, token_index) for corrupted_string, corruption_type in corruptions]
     else:
         return corruptions
 
