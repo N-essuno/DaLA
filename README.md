@@ -1,8 +1,8 @@
 # DaLA: Danish Linguistic Acceptability Evaluation Guided by Real World Errors
 
-<div style="text-align: center;">
+<p align="center">
   <img src="assets/dala_logo.jpeg" width="300">
-</div>
+</p>
 
 ## Overview
 This repository contains the source code for creating the Danish Corpus of Linguistic Acceptability (DaLA). Related paper: [DaLA: Danish Linguistic Acceptability Evaluation Guided by Real World Errors](https://arxiv.org/abs/2512.04799).
