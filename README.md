@@ -1,7 +1,7 @@
 # DaLA: Danish Linguistic Acceptability Evaluation Guided by Real World Errors
 
 <p align="center">
-  <img src="assets/dala_logo.jpeg" width="300">
+  <img src="assets/dala_logo.jpeg" width="400">
 </p>
 
 ## Overview
