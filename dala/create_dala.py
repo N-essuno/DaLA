@@ -16,7 +16,7 @@ from dala_utils import join_tokens
 MIN_NUM_CHARS_IN_DOCUMENT = 2
 MAX_NUM_CHARS_IN_DOCUMENT = 5000
 
-# ScaLA proportions (USE_SPLIT_PROPORTIONS = False)
+# ScaLA proportions (set USE_SPLIT_PROPORTIONS = False)
 # train = 512*2 = 1024 samples
 # test = 1024*2 = 2048 samples
 # validation = 128*2 = 256 samples
@@ -34,9 +34,20 @@ SIZE_NAME = "large_"
 USE_SPLIT_PROPORTIONS = True
 
 CREATE_GENERATIVE = True
+
+# If creating generative version force proportions and fix split sizes to sample later
+if CREATE_GENERATIVE:
+    GEN_TRAIN_SIZE = 512
+    GEN_TEST_SIZE = 1024
+    GEN_VAL_SIZE = 128
+    USE_SPLIT_PROPORTIONS = True
+    TRAIN_PROPORTION = 0.6
+    TEST_PROPORTION = 0.35
+    SIZE_NAME = ""
+
 GEN_STR = "gen_"
 
-VERSION = "v2"
+VERSION = "v3"
 
 if not CREATE_GENERATIVE:
     GEN_STR = ""
@@ -45,6 +56,22 @@ if not USE_SPLIT_PROPORTIONS:
     SIZE_NAME = ""
 
 DATASET_ID = f"giannor/dala_{GEN_STR}{SIZE_NAME}{VERSION}"
+
+EXCLUDED_GENERATIVE_CORRUPTIONS = {"delete", "flip_neighbours"}
+
+def filter_and_sample_split(dataset_split: Dataset, sample_size: int, split_name: str) -> Dataset:
+    """Filter disallowed corruption types and sample a fixed-size split."""
+    filtered = dataset_split.filter(
+        lambda example: example.get("corruption_type") not in EXCLUDED_GENERATIVE_CORRUPTIONS
+    )
+
+    if len(filtered) < sample_size:
+        raise ValueError(
+            f"Not enough samples in {split_name} after filtering "
+            f"({len(filtered)} < {sample_size})."
+        )
+
+    return filtered.shuffle(seed=4242).select(range(sample_size))
 
 def main(use_split_proportions: bool, create_generative_version = False, version = "test") -> DatasetDict[str, Dataset] | None:
     """Create the DaLA dataset and upload it to the HF Hub."""
@@ -158,6 +185,13 @@ def main(use_split_proportions: bool, create_generative_version = False, version
     train = prepare_df(new_train_df, split="train", create_generative_version=create_generative_version)
     val = prepare_df(new_val_df, split="val", create_generative_version=create_generative_version)
     test = prepare_df(new_test_df, split="test", create_generative_version=create_generative_version)
+
+    # Generative V3: If generative sample splits using fixed sizes excluding basic corruptions
+    if create_generative_version:
+        train = filter_and_sample_split(train, GEN_TRAIN_SIZE, "train")
+        val = filter_and_sample_split(val, GEN_VAL_SIZE, "val")
+        test = filter_and_sample_split(test, GEN_TEST_SIZE, "test")
+
     if not use_split_proportions:
         full_train = prepare_df(new_full_train_df, split="train", create_generative_version=create_generative_version, is_full_train=True)
         dataset = DatasetDict(
@@ -199,10 +233,7 @@ def prepare_df(df: pd.DataFrame, split: str, create_generative_version: bool, is
     else:
         temp_split_name = split
 
-    if create_generative_version:
-        print(f"DaLA: Creating {temp_split_name} split...")
-    else:
-        print(f"DaLA: Creating {temp_split_name} split...")
+    print(f"DaLA: Creating {temp_split_name} split...")
 
     if is_full_train:
         print(f"\tINFO: Standard proportions do not include all possible samples train/val/test splits. This split contains all of them.")
@@ -215,7 +246,7 @@ def prepare_df(df: pd.DataFrame, split: str, create_generative_version: bool, is
     df.reset_index(drop=True, inplace=True)
 
     # Get the corrupted strings (corrupted, corruption_type, original, affected_token_1, affected_token_2)
-    corrupted_list = corrupt_dala(df)
+    corrupted_list = corrupt_dala(df, create_generative_version)
 
     # Add the corrupted strings to the dataframe
     with warnings.catch_warnings():
@@ -265,7 +296,6 @@ def prepare_df(df: pd.DataFrame, split: str, create_generative_version: bool, is
         print(f"DaLA: full_train split created (including all samples)")
     else:
         print(f"DaLA: {split} created")
-
 
     # Convert the dataframe to a Hugging Face Dataset and return it
     return Dataset.from_pandas(df, split=split)

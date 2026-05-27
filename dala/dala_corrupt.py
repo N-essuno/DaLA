@@ -41,7 +41,7 @@ class SpacyModelSingleton:
         return cls._instance
 
 
-def corrupt_dala(df: pd.DataFrame) -> List[Tuple[str, str, str]]:
+def corrupt_dala(df: pd.DataFrame, generative_version = False) -> List[Tuple[str, str, str]]:
     """
     Corrupt the sentence dataframe passed as input with various types of errors.
     For now the dataframe format expected is Universal Dependencies (UD) Danish sentences.
@@ -69,6 +69,11 @@ def corrupt_dala(df: pd.DataFrame) -> List[Tuple[str, str, str]]:
     # so to avoid corruption of the same sentence multiple times
     corrupted_sentences = []
     corruption_functions = get_corruption_functions()
+
+    # # For generative version do not include basic corruptions
+    # if generative_version:
+    #     corruption_functions = [func for func in corruption_functions if func.__name__ != "corrupt_basic"]
+
     for i, row in tqdm(df.iterrows(), total=df.shape[0], desc="Corrupting sentences"):
         if row["doc"] is not None:
             for func in corruption_functions:
@@ -84,7 +89,7 @@ def corrupt_dala(df: pd.DataFrame) -> List[Tuple[str, str, str]]:
                     df.at[i, "doc"] = None
                     corruption_done = True
                 else:
-                    corruption_done, result, original_token, corrupted_token = func(dk_model, row["doc"], token_comparison=True)
+                    corruption_done, result, original_token, corrupted_token, token_index = func(dk_model, row["doc"], token_comparison=True)
                     if corruption_done:
                         corrupted_sentences.append((result, func.__name__, row["doc"], original_token, corrupted_token))
                         df.at[i, "doc"] = None
