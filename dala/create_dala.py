@@ -34,20 +34,23 @@ SIZE_NAME = "large_"
 USE_SPLIT_PROPORTIONS = True
 
 CREATE_GENERATIVE = True
+INCLUDE_CORRECT = True # If True and CREATE_GENERATIVE is True, the non corrupted sentences as included as samples
 
-# If creating generative version force proportions and fix split sizes to sample later
+# If creating generative version, keep split proportions and optionally
+# sample fixed split sizes after filtering.
+GEN_TRAIN_SIZE = None
+GEN_TEST_SIZE = None
+GEN_VAL_SIZE = None
+
 if CREATE_GENERATIVE:
-    GEN_TRAIN_SIZE = 512
-    GEN_TEST_SIZE = 1024
-    GEN_VAL_SIZE = 128
     USE_SPLIT_PROPORTIONS = True
-    TRAIN_PROPORTION = 0.6
-    TEST_PROPORTION = 0.35
-    SIZE_NAME = ""
+    TRAIN_PROPORTION = 0.8
+    TEST_PROPORTION = 0.15
+    SIZE_NAME = "large_"
 
 GEN_STR = "gen_"
 
-VERSION = "v3"
+VERSION = "v3_ci"
 
 if not CREATE_GENERATIVE:
     GEN_STR = ""
@@ -59,11 +62,14 @@ DATASET_ID = f"giannor/dala_{GEN_STR}{SIZE_NAME}{VERSION}"
 
 EXCLUDED_GENERATIVE_CORRUPTIONS = {"delete", "flip_neighbours"}
 
-def filter_and_sample_split(dataset_split: Dataset, sample_size: int, split_name: str) -> Dataset:
-    """Filter disallowed corruption types and sample a fixed-size split."""
+def filter_and_sample_split(dataset_split: Dataset, split_name: str, sample_size: int | None = None) -> Dataset:
+    """Filter disallowed corruption types and optionally sample a fixed-size split."""
     filtered = dataset_split.filter(
         lambda example: example.get("corruption_type") not in EXCLUDED_GENERATIVE_CORRUPTIONS
     )
+
+    if sample_size is None:
+        return filtered
 
     if len(filtered) < sample_size:
         raise ValueError(
@@ -186,11 +192,11 @@ def main(use_split_proportions: bool, create_generative_version = False, version
     val = prepare_df(new_val_df, split="val", create_generative_version=create_generative_version)
     test = prepare_df(new_test_df, split="test", create_generative_version=create_generative_version)
 
-    # Generative V3: If generative sample splits using fixed sizes excluding basic corruptions
+    # Generative V3: exclude basic corruptions and optionally sample fixed split sizes
     if create_generative_version:
-        train = filter_and_sample_split(train, GEN_TRAIN_SIZE, "train")
-        val = filter_and_sample_split(val, GEN_VAL_SIZE, "val")
-        test = filter_and_sample_split(test, GEN_TEST_SIZE, "test")
+        train = filter_and_sample_split(train, "train", GEN_TRAIN_SIZE)
+        val = filter_and_sample_split(val, "val", GEN_VAL_SIZE)
+        test = filter_and_sample_split(test, "test", GEN_TEST_SIZE)
 
     if not use_split_proportions:
         full_train = prepare_df(new_full_train_df, split="train", create_generative_version=create_generative_version, is_full_train=True)
@@ -240,6 +246,8 @@ def prepare_df(df: pd.DataFrame, split: str, create_generative_version: bool, is
 
     if create_generative_version:
         print(f"\tINFO: Creating generative version of the split.")
+        if INCLUDE_CORRECT:
+            print(f"\tINFO: Including correct sentences in the generative split.")
 
 
     # Reset the index of the dataframe
@@ -268,6 +276,17 @@ def prepare_df(df: pd.DataFrame, split: str, create_generative_version: bool, is
                 affected_token_2=df.affected_token_2.tolist(),
             )
         )
+        if INCLUDE_CORRECT:
+            correct_df = pd.DataFrame(
+                dict(
+                    original=df.original.tolist(),
+                    corrupted=df.original.tolist(),
+                    corruption_type=[None for _ in range(len(df))],
+                    affected_token_1=[None for _ in range(len(df))],
+                    affected_token_2=[None for _ in range(len(df))],
+                )
+            )
+            df = pd.concat([df, correct_df], ignore_index=True)
     else:
         # Restructure the dataframe to have columns 'text', 'corruption_type' and 'label', with one sample per row
         df = pd.concat(
