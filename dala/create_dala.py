@@ -192,7 +192,7 @@ def main(use_split_proportions: bool, create_generative_version = False, version
     val = prepare_df(new_val_df, split="val", create_generative_version=create_generative_version)
     test = prepare_df(new_test_df, split="test", create_generative_version=create_generative_version)
 
-    # Generative V3: exclude basic corruptions and optionally sample fixed split sizes
+    # Generative: exclude basic corruptions and optionally sample fixed split sizes
     if create_generative_version:
         train = filter_and_sample_split(train, "train", GEN_TRAIN_SIZE)
         val = filter_and_sample_split(val, "val", GEN_VAL_SIZE)
