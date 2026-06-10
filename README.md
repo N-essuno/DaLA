@@ -12,14 +12,17 @@ The corpus is designed to evaluate linguistic acceptability in Danish. Part of t
 ## Citation
 
 ```
-@misc{barmina2025daladanishlinguisticacceptability,
-      title={DaLA: Danish Linguistic Acceptability Evaluation Guided by Real World Errors}, 
-      author={Gianluca Barmina and Nathalie Carmen Hau Norman and Peter Schneider-Kamp and Lukas Galke},
-      year={2025},
-      eprint={2512.04799},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2512.04799}, 
+@inproceedings{barmina-etal-2026-dala,
+  title = {DaLA: Danish Linguistic Acceptability Evaluation Guided by Real World Errors},
+  author = {Barmina, Gianluca and Norman, Nathalie Carmen Hau and Schneider-Kamp, Peter and Poech, Lukas Galke},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  month = {May},
+  year = {2026},
+  pages = {4312--4326},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  doi = {10.63317/4kcbotaa3zgo},
 }
 ```
 
