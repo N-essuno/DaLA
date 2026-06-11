@@ -28,7 +28,7 @@ MAX_NUM_CHARS_IN_DOCUMENT = 5000
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DATASET = "tv2r"  # Options: "ud", "tv2r"
 TV2R_DALA_INPUT_PATH = PROJECT_ROOT / "it_version" / "data" / "tv2r_dala_input.parquet"
-CORRUPTION_NUM_WORKERS = min(7, max(1, (os.cpu_count() or 2) - 1))
+CORRUPTION_NUM_WORKERS = min(30, max(1, (os.cpu_count() or 2) - 1))
 CORRUPTION_CHUNK_SIZE = 500
 CORRUPTION_RANDOM_SEED = 4242
 
@@ -49,7 +49,7 @@ SIZE_NAME = ""
 
 USE_SPLIT_PROPORTIONS = True
 
-CREATE_GENERATIVE = True
+CREATE_GENERATIVE = False
 INCLUDE_CORRECT = True # If True and CREATE_GENERATIVE is True, the non corrupted sentences as included as samples
 
 # If creating generative version, keep split proportions and optionally
@@ -66,7 +66,7 @@ if CREATE_GENERATIVE:
 
 GEN_STR = "gen_"
 
-VERSION = "tv2r"
+VERSION = "tv2r_default"
 
 if not CREATE_GENERATIVE:
     GEN_STR = ""
