@@ -8,12 +8,19 @@ from datasets.arrow_dataset import Dataset
 from datasets.dataset_dict import DatasetDict
 from huggingface_hub.errors import RepositoryNotFoundError
 from huggingface_hub.hf_api import HfApi
+from dotenv import load_dotenv
 
 from pandas.errors import SettingWithCopyWarning
 
 from dala_corrupt import corrupt_dala
 from load_ud import load_dadt_pos
 from dala_utils import join_tokens
+
+load_dotenv('envs.env')
+hf_token = os.getenv("HF_TOKEN")
+
+if hf_token is None or hf_token == "":
+    raise ValueError("HF_TOKEN not found in environment variables. Please set it in envs.env.")
 
 MIN_NUM_CHARS_IN_DOCUMENT = 2
 MAX_NUM_CHARS_IN_DOCUMENT = 5000
@@ -314,7 +321,7 @@ def main(
 
     # Push the dataset to the Hugging Face Hub
     print(f"DaLA: pushing dataset to HuggingFace ({DATASET_ID})...")
-    dataset.push_to_hub(DATASET_ID, private=True)
+    dataset.push_to_hub(DATASET_ID, private=True, token=hf_token)
 
 
 def prepare_df(

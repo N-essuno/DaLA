@@ -72,6 +72,9 @@ def corrupt_dala(
     num_workers = max(1, int(num_workers))
     chunk_size = max(1, int(chunk_size))
 
+    # Pre-download module if necessary so parallel workers don't clash downloading at the same time.
+    _ = SpacyModelSingleton(SPACY_MODEL_NAME)
+
     if num_workers == 1:
         return corrupt_dala_serial(df, random_seed=random_seed)
 
@@ -203,12 +206,15 @@ def corrupt_row_payload(payload: tuple, dk_model: Language) -> tuple[int, tuple 
     # corruptible in UD Danish, so lower-proportion corruptions get priority.
     for func in get_corruption_functions():
         if func.__name__ == "corrupt_basic":
-            tuple_result = func(
+            tuple_results = func(
                 tokens=tokens,
                 pos_tags=pos_tags,
                 num_corruptions=1,
                 token_comparison=True,
-            )[0]
+            )
+            if not tuple_results:
+                continue
+            tuple_result = tuple_results[0]
             token_1 = tuple_result[2]
             token_2 = tuple_result[3]
             return position, (tuple_result[0], tuple_result[1], doc, token_1, token_2)
@@ -1257,31 +1263,44 @@ def corrupt_basic(tokens: List[str], pos_tags: List[str], num_corruptions: int =
         The list of (corrupted_string, corruption_type)
     """
     # Define the list of corruptions
-    corruptions: List[Tuple[str, str]] = list()
+    corruptions: List[Tuple[str, ...]] = list()
+    corruption_functions = [flip_neighbours, delete]
 
     # Continue until we have achieved the desired number of corruptions
     while len(corruptions) < num_corruptions:
-        # Choose which corruption to perform, at random
-        corruption_fn = random.choice([flip_neighbours, delete])
+        corruption_added = False
 
-        # Corrupt the tokens. If token comparison is requested, then get also the affected tokens
-        # if deletete is used one will be the deleted token and the other will be "<deleted>"
-        # if flip_neighbours each will be one of the flipped tokens
-        if token_comparison:
-            corruption, token_1, token_2, token_index = corruption_fn(tokens, pos_tags, token_comparison=token_comparison)
-        else:
-            corruption = corruption_fn(tokens, pos_tags)
+        # Try both basic corruption strategies in random order. Some sentences
+        # cannot be neighbor-flipped, but can still be corrupted by deletion.
+        for corruption_fn in random.sample(corruption_functions, k=len(corruption_functions)):
+            # Corrupt the tokens. If token comparison is requested, then get also the affected tokens.
+            # if delete is used one will be the deleted token and the other will be "<deleted>"
+            # if flip_neighbours each will be one of the flipped tokens
+            if token_comparison:
+                corruption_result = corruption_fn(tokens, pos_tags, token_comparison=token_comparison)
+                if corruption_result is None:
+                    continue
+                corruption, token_1, token_2, token_index = corruption_result
+            else:
+                corruption = corruption_fn(tokens, pos_tags)
+                if corruption is None:
+                    continue
 
-        # If the corruption succeeded, and that we haven't already performed the same
-        # corruption, then add the corruption to the list of corruptions
-        if corruption not in corruptions and corruption is not None:
-            corruptions.append((corruption, corruption_fn.__name__))
+            # If the corruption succeeded, and that we haven't already performed the same
+            # corruption, then add the corruption to the list of corruptions
+            if corruption in [corruption_tuple[0] for corruption_tuple in corruptions]:
+                continue
+            if token_comparison:
+                corruptions.append((corruption, corruption_fn.__name__, token_1, token_2, token_index))
+            else:
+                corruptions.append((corruption, corruption_fn.__name__))
+            corruption_added = True
+            break
 
-    # Return the list of corruptions. NOTE: the corruption is assumed to be only 1 for now, so token_1, token_2, token_index will be valid
-    if token_comparison:
-        return [(corrupted_string, corruption_type, token_1, token_2, token_index) for corrupted_string, corruption_type in corruptions]
-    else:
-        return corruptions
+        if not corruption_added:
+            break
+
+    return corruptions
 
 
 # Excluded corruptions
