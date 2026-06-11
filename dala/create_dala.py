@@ -1,4 +1,5 @@
 """Create the DaLA datasets and upload them to the HF Hub."""
+import os
 import warnings
 from pathlib import Path
 
@@ -20,6 +21,9 @@ MAX_NUM_CHARS_IN_DOCUMENT = 5000
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DATASET = "tv2r"  # Options: "ud", "tv2r"
 TV2R_DALA_INPUT_PATH = PROJECT_ROOT / "it_version" / "data" / "tv2r_dala_input.parquet"
+CORRUPTION_NUM_WORKERS = min(7, max(1, (os.cpu_count() or 2) - 1))
+CORRUPTION_CHUNK_SIZE = 500
+CORRUPTION_RANDOM_SEED = 4242
 
 # ScaLA proportions (set USE_SPLIT_PROPORTIONS = False)
 # train = 512*2 = 1024 samples
@@ -138,6 +142,9 @@ def main(
     version="test",
     source_dataset: str = SOURCE_DATASET,
     source_path: str | Path | None = None,
+    corruption_num_workers: int = CORRUPTION_NUM_WORKERS,
+    corruption_chunk_size: int = CORRUPTION_CHUNK_SIZE,
+    corruption_random_seed: int = CORRUPTION_RANDOM_SEED,
 ) -> DatasetDict[str, Dataset] | None:
     """Create the DaLA dataset and upload it to the HF Hub."""
     lang = "da"
@@ -242,9 +249,30 @@ def main(
                          )
 
     # Add the corrupted data and turn the dataframes into Hugging Face Dataset objects
-    train = prepare_df(new_train_df, split="train", create_generative_version=create_generative_version)
-    val = prepare_df(new_val_df, split="val", create_generative_version=create_generative_version)
-    test = prepare_df(new_test_df, split="test", create_generative_version=create_generative_version)
+    train = prepare_df(
+        new_train_df,
+        split="train",
+        create_generative_version=create_generative_version,
+        corruption_num_workers=corruption_num_workers,
+        corruption_chunk_size=corruption_chunk_size,
+        corruption_random_seed=corruption_random_seed,
+    )
+    val = prepare_df(
+        new_val_df,
+        split="val",
+        create_generative_version=create_generative_version,
+        corruption_num_workers=corruption_num_workers,
+        corruption_chunk_size=corruption_chunk_size,
+        corruption_random_seed=corruption_random_seed,
+    )
+    test = prepare_df(
+        new_test_df,
+        split="test",
+        create_generative_version=create_generative_version,
+        corruption_num_workers=corruption_num_workers,
+        corruption_chunk_size=corruption_chunk_size,
+        corruption_random_seed=corruption_random_seed,
+    )
 
     # Generative: exclude basic corruptions and optionally sample fixed split sizes
     if create_generative_version:
@@ -253,7 +281,15 @@ def main(
         test = filter_and_sample_split(test, "test", GEN_TEST_SIZE)
 
     if not use_split_proportions:
-        full_train = prepare_df(new_full_train_df, split="train", create_generative_version=create_generative_version, is_full_train=True)
+        full_train = prepare_df(
+            new_full_train_df,
+            split="train",
+            create_generative_version=create_generative_version,
+            is_full_train=True,
+            corruption_num_workers=corruption_num_workers,
+            corruption_chunk_size=corruption_chunk_size,
+            corruption_random_seed=corruption_random_seed,
+        )
         dataset = DatasetDict(
             train=train, val=val, test=test, full_train=full_train
         )
@@ -281,7 +317,15 @@ def main(
     dataset.push_to_hub(DATASET_ID, private=True)
 
 
-def prepare_df(df: pd.DataFrame, split: str, create_generative_version: bool, is_full_train = False) -> Dataset:
+def prepare_df(
+    df: pd.DataFrame,
+    split: str,
+    create_generative_version: bool,
+    is_full_train=False,
+    corruption_num_workers: int = CORRUPTION_NUM_WORKERS,
+    corruption_chunk_size: int = CORRUPTION_CHUNK_SIZE,
+    corruption_random_seed: int = CORRUPTION_RANDOM_SEED,
+) -> Dataset:
     """Prepare a dataframe by adding an equal number of corruptions to it.
 
     :param df: The dataframe to prepare.
@@ -303,12 +347,22 @@ def prepare_df(df: pd.DataFrame, split: str, create_generative_version: bool, is
         if INCLUDE_CORRECT:
             print(f"\tINFO: Including correct sentences in the generative split.")
 
+    print(
+        f"\tINFO: Corrupting with {corruption_num_workers} worker(s) "
+        f"(chunk size: {corruption_chunk_size})."
+    )
 
     # Reset the index of the dataframe
     df.reset_index(drop=True, inplace=True)
 
     # Get the corrupted strings (corrupted, corruption_type, original, affected_token_1, affected_token_2)
-    corrupted_list = corrupt_dala(df, create_generative_version)
+    corrupted_list = corrupt_dala(
+        df,
+        create_generative_version,
+        num_workers=corruption_num_workers,
+        chunk_size=corruption_chunk_size,
+        random_seed=corruption_random_seed,
+    )
 
     # Add the corrupted strings to the dataframe
     with warnings.catch_warnings():
@@ -380,4 +434,7 @@ if __name__ == "__main__":
         create_generative_version=CREATE_GENERATIVE,
         version=VERSION,
         source_dataset=SOURCE_DATASET,
+        corruption_num_workers=CORRUPTION_NUM_WORKERS,
+        corruption_chunk_size=CORRUPTION_CHUNK_SIZE,
+        corruption_random_seed=CORRUPTION_RANDOM_SEED,
     )

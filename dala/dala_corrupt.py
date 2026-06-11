@@ -1,5 +1,6 @@
 import random
-from typing import List, Tuple, Union, Any, Literal
+from concurrent.futures import FIRST_COMPLETED, ProcessPoolExecutor, wait
+from typing import List, Tuple, Union, Any, Literal, Iterable, Iterator
 
 import pandas as pd
 
@@ -9,6 +10,13 @@ from tqdm import tqdm
 
 from dala_utils import flip_preserving_caps, is_negative, is_question, is_genitive, has_antecedent_before, join_tokens
 from dala_enums import GenitiveTypeEnum
+
+DEFAULT_CORRUPTION_NUM_WORKERS = 1
+DEFAULT_CORRUPTION_CHUNK_SIZE = 500
+DEFAULT_CORRUPTION_RANDOM_SEED = 4242
+SPACY_MODEL_NAME = "da_core_news_md"
+
+_WORKER_DK_MODEL = None
 
 
 def get_corruption_functions():
@@ -36,12 +44,19 @@ class SpacyModelSingleton:
                     raise ValueError(f"Failed to download the spaCy model '{model_name}': {e}")
             try:
                 cls._instance = spacy.load(model_name)
+                cls._name = model_name
             except Exception as e:
                 raise ValueError(f"Failed to load the spaCy model '{model_name}': {e}")
         return cls._instance
 
 
-def corrupt_dala(df: pd.DataFrame, generative_version = False) -> List[Tuple[str, str, str]]:
+def corrupt_dala(
+    df: pd.DataFrame,
+    generative_version=False,
+    num_workers: int = DEFAULT_CORRUPTION_NUM_WORKERS,
+    chunk_size: int = DEFAULT_CORRUPTION_CHUNK_SIZE,
+    random_seed: int = DEFAULT_CORRUPTION_RANDOM_SEED,
+) -> List[Tuple[str, str, str]]:
     """
     Corrupt the sentence dataframe passed as input with various types of errors.
     For now the dataframe format expected is Universal Dependencies (UD) Danish sentences.
@@ -54,50 +69,159 @@ def corrupt_dala(df: pd.DataFrame, generative_version = False) -> List[Tuple[str
     :param df: A DataFrame in Danish Universal Dependencies format.
     :return: A Tuple containing the list of (corrupted_string, corruption_type, original_sentence, affected_token_1, affected_token_2).
     """
-    # Corruption function callables sorted by the proportion of sentences corruptible in UD Danish (by each function).
-    # This is done to ensure that the lower-proportion corruptions are applied first in order for them to be represented.
-    # Otherwise, it can happen that higher-proportion corruptions corrupt all sentences that are corruptible
-    # by the lower-proportion corruptions, leading to a lack of diversity in the corrupted dataset.
-    df = df.copy()
+    num_workers = max(1, int(num_workers))
+    chunk_size = max(1, int(chunk_size))
 
-    paired_orig_corrupt_rows = []
+    if num_workers == 1:
+        return corrupt_dala_serial(df, random_seed=random_seed)
 
-    # Load the Danish spaCy model
-    dk_model = SpacyModelSingleton("da_core_news_md")
+    return corrupt_dala_parallel(
+        df,
+        num_workers=num_workers,
+        chunk_size=chunk_size,
+        random_seed=random_seed,
+    )
 
-    # Apply the corruptions to the DataFrame and remove the sentences from the original DataFrame if they are corrupted
-    # so to avoid corruption of the same sentence multiple times
+
+def corrupt_dala_serial(
+    df: pd.DataFrame,
+    random_seed: int = DEFAULT_CORRUPTION_RANDOM_SEED,
+) -> List[Tuple[str, str, str]]:
+    dk_model = SpacyModelSingleton(SPACY_MODEL_NAME)
     corrupted_sentences = []
-    corruption_functions = get_corruption_functions()
+    row_payloads = iter_corruption_payloads(df, random_seed=random_seed)
 
-    # # For generative version do not include basic corruptions
-    # if generative_version:
-    #     corruption_functions = [func for func in corruption_functions if func.__name__ != "corrupt_basic"]
-
-    for i, row in tqdm(df.iterrows(), total=df.shape[0], desc="Corrupting sentences"):
-        if row["doc"] is not None:
-            for func in corruption_functions:
-                if func.__name__ == "corrupt_basic":
-                    tokens = row["tokens"]
-                    pos_tags = row["pos_tags"]
-                    tuple_result = func(tokens=tokens, pos_tags=pos_tags, num_corruptions=1, token_comparison=True)[0]
-                    token_1 = tuple_result[2]
-                    token_2 = tuple_result[3]
-                    # add doc and affected tokens to tuple_result for reference
-                    tuple_result_new = (tuple_result[0], tuple_result[1], row["doc"], token_1, token_2)
-                    corrupted_sentences.append(tuple_result_new)
-                    df.at[i, "doc"] = None
-                    corruption_done = True
-                else:
-                    corruption_done, result, original_token, corrupted_token, token_index = func(dk_model, row["doc"], token_comparison=True)
-                    if corruption_done:
-                        corrupted_sentences.append((result, func.__name__, row["doc"], original_token, corrupted_token))
-                        df.at[i, "doc"] = None
-                # Corruption expected to be done, break the loop to avoid multiple corruptions and switch to the next sentence
-                if corruption_done:
-                    break
+    for payload in tqdm(row_payloads, total=df.shape[0], desc="Corrupting sentences"):
+        _, corruption = corrupt_row_payload(payload, dk_model)
+        if corruption is not None:
+            corrupted_sentences.append(corruption)
 
     return corrupted_sentences
+
+
+def corrupt_dala_parallel(
+    df: pd.DataFrame,
+    num_workers: int,
+    chunk_size: int,
+    random_seed: int,
+) -> List[Tuple[str, str, str]]:
+    rows = iter_corruption_payloads(df, random_seed=random_seed)
+    chunks = chunked(rows, chunk_size)
+    max_pending = max(num_workers * 2, 1)
+    result_pairs = []
+
+    with ProcessPoolExecutor(
+        max_workers=num_workers,
+        initializer=init_corruption_worker,
+        initargs=(SPACY_MODEL_NAME,),
+    ) as executor:
+        pending = set()
+
+        with tqdm(total=df.shape[0], desc=f"Corrupting sentences ({num_workers} workers)") as progress:
+            for _ in range(max_pending):
+                if not submit_next_chunk(executor, pending, chunks):
+                    break
+
+            while pending:
+                done, pending = wait(pending, return_when=FIRST_COMPLETED)
+                for future in done:
+                    chunk_len, chunk_results = future.result()
+                    progress.update(chunk_len)
+                    result_pairs.extend(chunk_results)
+                    submit_next_chunk(executor, pending, chunks)
+
+    return [
+        corruption
+        for _, corruption in sorted(result_pairs, key=lambda pair: pair[0])
+        if corruption is not None
+    ]
+
+
+def init_corruption_worker(model_name: str) -> None:
+    global _WORKER_DK_MODEL
+    _WORKER_DK_MODEL = SpacyModelSingleton(model_name)
+
+
+def submit_next_chunk(executor, pending: set, chunks: Iterator[list[tuple]]) -> bool:
+    try:
+        chunk = next(chunks)
+    except StopIteration:
+        return False
+
+    pending.add(executor.submit(corrupt_chunk, chunk))
+    return True
+
+
+def iter_corruption_payloads(
+    df: pd.DataFrame,
+    random_seed: int,
+) -> Iterator[tuple[int, str, list[str], list[str], int]]:
+    for position, (doc, tokens, pos_tags) in enumerate(
+        df[["doc", "tokens", "pos_tags"]].itertuples(index=False, name=None)
+    ):
+        yield (
+            position,
+            doc,
+            as_python_list(tokens),
+            as_python_list(pos_tags),
+            random_seed + position,
+        )
+
+
+def chunked(rows: Iterable[tuple], chunk_size: int) -> Iterator[list[tuple]]:
+    chunk = []
+    for row in rows:
+        chunk.append(row)
+        if len(chunk) >= chunk_size:
+            yield chunk
+            chunk = []
+    if chunk:
+        yield chunk
+
+
+def as_python_list(value):
+    if isinstance(value, list):
+        return value
+    if hasattr(value, "tolist"):
+        return value.tolist()
+    return list(value)
+
+
+def corrupt_chunk(chunk: list[tuple]) -> tuple[int, list[tuple[int, tuple | None]]]:
+    dk_model = _WORKER_DK_MODEL or SpacyModelSingleton(SPACY_MODEL_NAME)
+    return len(chunk), [corrupt_row_payload(payload, dk_model) for payload in chunk]
+
+
+def corrupt_row_payload(payload: tuple, dk_model: Language) -> tuple[int, tuple | None]:
+    position, doc, tokens, pos_tags, row_seed = payload
+    if doc is None:
+        return position, None
+
+    random.seed(row_seed)
+
+    # Corruption function callables sorted by the proportion of sentences
+    # corruptible in UD Danish, so lower-proportion corruptions get priority.
+    for func in get_corruption_functions():
+        if func.__name__ == "corrupt_basic":
+            tuple_result = func(
+                tokens=tokens,
+                pos_tags=pos_tags,
+                num_corruptions=1,
+                token_comparison=True,
+            )[0]
+            token_1 = tuple_result[2]
+            token_2 = tuple_result[3]
+            return position, (tuple_result[0], tuple_result[1], doc, token_1, token_2)
+
+        corruption_done, result, original_token, corrupted_token, token_index = func(
+            dk_model,
+            doc,
+            token_comparison=True,
+        )
+        if corruption_done:
+            return position, (result, func.__name__, doc, original_token, corrupted_token)
+
+    return position, None
 
 
 def flip_indefinite_article(dk_model: Language, sentence: str, flip_prob: float = 1.0, token_comparison: bool = False) -> (bool, str):
