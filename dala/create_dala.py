@@ -1,5 +1,6 @@
 """Create the DaLA datasets and upload them to the HF Hub."""
 import warnings
+from pathlib import Path
 
 import pandas as pd
 from datasets.arrow_dataset import Dataset
@@ -16,6 +17,10 @@ from dala_utils import join_tokens
 MIN_NUM_CHARS_IN_DOCUMENT = 2
 MAX_NUM_CHARS_IN_DOCUMENT = 5000
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+SOURCE_DATASET = "tv2r"  # Options: "ud", "tv2r"
+TV2R_DALA_INPUT_PATH = PROJECT_ROOT / "it_version" / "data" / "tv2r_dala_input.parquet"
+
 # ScaLA proportions (set USE_SPLIT_PROPORTIONS = False)
 # train = 512*2 = 1024 samples
 # test = 1024*2 = 2048 samples
@@ -29,7 +34,7 @@ MAX_NUM_CHARS_IN_DOCUMENT = 5000
 # DaLA large proportions
 TRAIN_PROPORTION = 0.8
 TEST_PROPORTION = 0.15
-SIZE_NAME = "large_"
+SIZE_NAME = ""
 
 USE_SPLIT_PROPORTIONS = True
 
@@ -46,11 +51,11 @@ if CREATE_GENERATIVE:
     USE_SPLIT_PROPORTIONS = True
     TRAIN_PROPORTION = 0.8
     TEST_PROPORTION = 0.15
-    SIZE_NAME = "large_"
+    SIZE_NAME = ""
 
 GEN_STR = "gen_"
 
-VERSION = "v3_ci"
+VERSION = "tv2r"
 
 if not CREATE_GENERATIVE:
     GEN_STR = ""
@@ -62,7 +67,11 @@ DATASET_ID = f"giannor/dala_{GEN_STR}{SIZE_NAME}{VERSION}"
 
 EXCLUDED_GENERATIVE_CORRUPTIONS = {"delete", "flip_neighbours"}
 
-def filter_and_sample_split(dataset_split: Dataset, split_name: str, sample_size: int | None = None) -> Dataset:
+def filter_and_sample_split(
+    dataset_split: Dataset,
+    split_name: str,
+    sample_size: int | None = None,
+) -> Dataset:
     """Filter disallowed corruption types and optionally sample a fixed-size split."""
     filtered = dataset_split.filter(
         lambda example: example.get("corruption_type") not in EXCLUDED_GENERATIVE_CORRUPTIONS
@@ -79,7 +88,57 @@ def filter_and_sample_split(dataset_split: Dataset, split_name: str, sample_size
 
     return filtered.shuffle(seed=4242).select(range(sample_size))
 
-def main(use_split_proportions: bool, create_generative_version = False, version = "test") -> DatasetDict[str, Dataset] | None:
+def load_source_dataframe(
+    source_dataset: str,
+    source_path: str | Path | None = None,
+) -> pd.DataFrame:
+    """Load a sentence dataframe in the format expected by the corruption pipeline."""
+    if source_dataset == "ud":
+        # Load the POS dataset
+        pos_dataset = load_dadt_pos()
+
+        # Merge the DDT POS dataframes to a single dataframe, with columns `ids`,
+        # `tokens`, `doc` and `pos_tags`
+        return pd.concat(pos_dataset.values(), ignore_index=True)
+
+    if source_dataset == "tv2r":
+        path = Path(source_path) if source_path is not None else TV2R_DALA_INPUT_PATH
+        if not path.exists():
+            raise FileNotFoundError(
+                f"TV2R DALA input file not found: {path}. "
+                "Create it with: python it_version/preprocess.py --write-dala-input"
+            )
+
+        df = pd.read_parquet(path)
+        required_columns = {"tokens", "doc", "pos_tags"}
+        missing_columns = required_columns - set(df.columns)
+        if missing_columns:
+            missing = ", ".join(sorted(missing_columns))
+            raise ValueError(f"Missing required TV2R DALA input column(s): {missing}")
+        for column in ["ids", "tokens", "pos_tags"]:
+            if column in df.columns:
+                df[column] = df[column].map(as_python_list)
+        return df
+
+    raise ValueError("source_dataset must be either 'ud' or 'tv2r'.")
+
+
+def as_python_list(value):
+    """Normalize parquet nested values to lists expected by corruption code."""
+    if isinstance(value, list):
+        return value
+    if hasattr(value, "tolist"):
+        return value.tolist()
+    return list(value)
+
+
+def main(
+    use_split_proportions: bool,
+    create_generative_version=False,
+    version="test",
+    source_dataset: str = SOURCE_DATASET,
+    source_path: str | Path | None = None,
+) -> DatasetDict[str, Dataset] | None:
     """Create the DaLA dataset and upload it to the HF Hub."""
     lang = "da"
 
@@ -95,12 +154,7 @@ def main(use_split_proportions: bool, create_generative_version = False, version
     test_out_file = f"../la_output/dala_{lang}_{gen_str}{SIZE_NAME}{version}_test.csv"
     full_train_out_file = f"../la_output/dala_{lang}_{gen_str}{SIZE_NAME}{version}_full_train.csv"
 
-    # Load the POS dataset
-    pos_dataset = load_dadt_pos()
-
-    # Merge the DDT POS dataframes to a single dataframe, with columns `ids`,
-    # `tokens`, `doc` and `pos_tags`
-    df = pd.concat(pos_dataset.values(), ignore_index=True)
+    df = load_source_dataframe(source_dataset=source_dataset, source_path=source_path)
 
     # Drop the duplicates
     df = df.drop_duplicates(subset="doc").reset_index(drop=True)
@@ -321,4 +375,9 @@ def prepare_df(df: pd.DataFrame, split: str, create_generative_version: bool, is
 
 
 if __name__ == "__main__":
-    main(use_split_proportions=USE_SPLIT_PROPORTIONS, create_generative_version=CREATE_GENERATIVE, version=VERSION)
+    main(
+        use_split_proportions=USE_SPLIT_PROPORTIONS,
+        create_generative_version=CREATE_GENERATIVE,
+        version=VERSION,
+        source_dataset=SOURCE_DATASET,
+    )

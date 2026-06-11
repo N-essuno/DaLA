@@ -8,5 +8,6 @@ PyYAML~=6.0.2
 matplotlib~=3.10.3
 numpy~=2.3.0
 scipy~=1.15.3
+nltk~=3.9.2
 notebook
 openpyxl
