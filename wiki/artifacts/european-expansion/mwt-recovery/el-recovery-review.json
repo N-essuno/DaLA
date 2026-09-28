@@ -1,0 +1,65 @@
+[
+  {
+    "original": "Έτσι, ο Βενιζέλος περιορίστηκε στην επανάληψη πλήρων διπλωματικών σχέσεων με τη γείτονα χώρα.",
+    "edits": [
+      {
+        "rule_id": "el_determiner_gender_ud",
+        "corruption_type": "determiner_gender",
+        "start": 77,
+        "end": 79,
+        "original": "τη",
+        "replacement": "το",
+        "protected_tokens": [
+          12,
+          14
+        ]
+      }
+    ],
+    "corrupted": "Έτσι, ο Βενιζέλος περιορίστηκε στην επανάληψη πλήρων διπλωματικών σχέσεων με το γείτονα χώρα.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "Ο Ελευθέριος Βενιζέλος απεικονίζεται και στο ελληνικό κέρμα των 50 λεπτών του ευρώ, το οποίο πρωτοκυκλοφόρησε το 2002.",
+    "edits": [
+      {
+        "rule_id": "el_determiner_case_ud",
+        "corruption_type": "determiner_case",
+        "start": 74,
+        "end": 77,
+        "original": "του",
+        "replacement": "το",
+        "protected_tokens": [
+          12,
+          13
+        ]
+      }
+    ],
+    "corrupted": "Ο Ελευθέριος Βενιζέλος απεικονίζεται και στο ελληνικό κέρμα των 50 λεπτών το ευρώ, το οποίο πρωτοκυκλοφόρησε το 2002.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "Γεωγραφικά η Κύπρος ανήκει στη Μέση Ανατολή.",
+    "edits": [
+      {
+        "rule_id": "el_spelling_delete_internal",
+        "corruption_type": "spelling",
+        "start": 0,
+        "end": 10,
+        "original": "Γεωγραφικά",
+        "replacement": "Γεωγαφικά",
+        "protected_tokens": [
+          0,
+          3
+        ]
+      }
+    ],
+    "corrupted": "Γεωγαφικά η Κύπρος ανήκει στη Μέση Ανατολή.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  }
+]

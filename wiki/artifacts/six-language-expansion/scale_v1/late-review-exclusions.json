@@ -1,0 +1,64 @@
+{
+  "pl": [
+    {
+      "original_sha256": "7e3e501d044ada6ed3c10d7eea9b9740fa31c16c706323d862e05f74f4cfe80d",
+      "pair_id": "86367f2db6f76b4b8fbf875d",
+      "reason": "Potential correct-to-correct: native SGJP admits singular genitive słodyczy; missing from seed-limited compiled lexicon. Rebuild with surface-analysis closure."
+    }
+  ],
+  "sv": [
+    {
+      "original_sha256": "00cf3a417727f6402eb2cf44421e37a4c3cd21712cca3edd4dfdb5eda123d4b7",
+      "pair_id": "3811448af520255cc5d9e227",
+      "reason": "Source appears to omit att before principen om likabehandling upprätthålls; not a reliable clean control."
+    }
+  ],
+  "nb": [
+    {
+      "original_sha256": "f7da1a89638326bdb8d0d9cc924719e246d3b08f9a98e2e9a7fb96286e110717",
+      "pair_id": "23501b8b2360332fd688981e",
+      "reason": "Source: på hver på sin måte kunne appears to be a damaged modal construction."
+    },
+    {
+      "original_sha256": "cf8751ba86e3a699107163c3fe82150d72b98cba12da9e6cc375a968b361bc54",
+      "pair_id": "afac0cf3a371fb0ee3bbe0cf",
+      "reason": "Source: Tilsammen and idag are joined spellings unsuitable for a modern clean control."
+    }
+  ],
+  "nn": [
+    {
+      "original_sha256": "9572d4f48129d40e5b77323a54022aca067cc90a7675be6c9ffa631235802764",
+      "pair_id": "0a48552338767ac35e30cc00",
+      "reason": "Source standard/wording around sektoren samla dekker requires normative review."
+    }
+  ],
+  "fo": [
+    {
+      "original_sha256": "da6dc09371c71c453262107f4522e84ef3cf04d695f569e3fa04184e0f7488d4",
+      "pair_id": "8f9a562b75099494c892edd1",
+      "reason": "Source extraction splits Starvs- mannafelagnum without a coordinating conjunction."
+    },
+    {
+      "original_sha256": "67d796b62dec641dd5c9a63a028b9d42972cdb1f512d4a9df656c36f71ef799b",
+      "pair_id": "048dc868a5a3c86910b9dde8",
+      "reason": "Source contains apparent Endamálinini typo; not a reliable clean control."
+    },
+    {
+      "original_sha256": "039717a012c32cd8c76fa596259509c3d21b69feadee653044a189f847cd0b65",
+      "pair_id": "6205ebc16b0aee36561c2fc8",
+      "reason": "Source list after av appears to mix cases (fulltrúar, stjórar); exclude pending native review."
+    },
+    {
+      "original_sha256": "dd7e5ca7e0efbf77dbe752a75b64c37d2cce38c12536e58ea77c82ca42d1ebab",
+      "pair_id": "752f7a64ad93ebf19ab3ba60",
+      "reason": "Source phrase eitt av allar bestu kórum needs native review of superlative/definiteness; excluded conservatively."
+    }
+  ],
+  "is": [
+    {
+      "original_sha256": "f3900f7d53a6f6cc13cba7c90123a98f209a97c59ee73e7f9fbb002035db3fe2",
+      "pair_id": "c4bda32465fcd715226486d4",
+      "reason": "Edit is ungrammatical but family is misclassified: einfalda is infinitival here, not an attributive adjective."
+    }
+  ]
+}

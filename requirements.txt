@@ -10,3 +10,4 @@ numpy~=2.3.0
 scipy~=1.15.3
 notebook
 openpyxl
+lemminflect==0.2.3

@@ -1,0 +1,9 @@
+{
+  "language": "fi",
+  "unlocked_parallel_replay_exit_code": 139,
+  "unlocked_parallel_replay_result": "native segmentation fault",
+  "sequential_replay_samples": 12,
+  "sequential_replay_rejections": 0,
+  "affected_run": "coverage_cpu_v5/fi",
+  "action": "retain diagnostic outputs; serialize each Voikko instance; rebuild Finnish"
+}

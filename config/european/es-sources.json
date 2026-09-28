@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "pilot_max_sentences": 3000,
+      "name": "UD_Spanish-AnCora",
+      "language": "es",
+      "path": "/work/mimir/DaLA/la_output/resources/european/es/es_ancora-ud-train.conllu",
+      "revision": "f503b2dfb4bca0a4224668ca31a24f5b9092bd63",
+      "sha256": "f235c5dcad8a2c48e71459d66433bbab9e867d13c25c32cd5bc20e7c57f34bca",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Spanish-AnCora/f503b2dfb4bca0a4224668ca31a24f5b9092bd63/es_ancora-ud-train.conllu",
+      "license": "CC BY 4.0"
+    }
+  ]
+}

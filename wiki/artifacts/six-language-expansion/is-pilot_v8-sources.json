@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "name": "igc-adjud",
+      "source_value": "igc-adjud",
+      "repo_id": "danish-foundation-models/icelandic-dynaword",
+      "revision": "0bb26f027648c465d8bdcf6262c6ebab97f2d1ee",
+      "data_file": "data/igc-adjud/data.parquet",
+      "metadata_file": "data/igc-adjud/metadata.parquet",
+      "license": "CC-BY 4.0",
+      "license_evidence_url": "https://huggingface.co/datasets/danish-foundation-models/icelandic-dynaword/blob/0bb26f027648c465d8bdcf6262c6ebab97f2d1ee/data/igc-adjud/igc-adjud.md",
+      "min_document_chars": 35,
+      "annotation_filters": {
+        "content_integrity": [
+          "complete"
+        ],
+        "content_quality": [
+          "excellent",
+          "good"
+        ]
+      },
+      "quality_policy": "source_and_sentence_screening",
+      "language": "is",
+      "annotation_exclusions": {
+        "content_type": [
+          "conversational"
+        ]
+      }
+    }
+  ]
+}

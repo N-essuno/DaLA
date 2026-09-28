@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "language": "is",
+  "name": "DaLA Icelandic — DynaWord",
+  "mode": "pairs",
+  "parser": "stanza",
+  "parser_backend": "stanza",
+  "parser_settings": {
+    "directory": "la_output/resources/multilingual/stanza",
+    "processors": {
+      "tokenize": "icepahc",
+      "pos": "icepahc_nocharlm",
+      "depparse": "icepahc_nocharlm",
+      "lemma": "icepahc_nocharlm",
+      "mwt": "icepahc"
+    },
+    "model_sha256": {
+      "is/depparse/icepahc_nocharlm.pt": "a1c0dac42101648dd298c4d192e161bfccc97e45f89b7c25cba8807478a1a0ad",
+      "is/lemma/icepahc_nocharlm.pt": "94c127c35eec7b1880890bf5cbebe5836aa85015a76804624a9d490acae1d99a",
+      "is/mwt/icepahc.pt": "0bc90a8af42a00cae220753306dce86b901ecefd8a35f375fc3a211728e1bb43",
+      "is/pos/icepahc_nocharlm.pt": "bafe2f56ef6b4f6061824d99655c2a1c289408c169779190be28a552f9f07269",
+      "is/pretrain/fasttext157.pt": "12575b233da0fdb248e787339351fdc33e2c6733bbe67db9cc1a165a17f49586",
+      "is/tokenize/icepahc.pt": "83fc68e5ddb8b5de036d6415b8b3c6f31d87e11e6edda3b95769239fa46c9379"
+    },
+    "stanza_version": "1.11.0"
+  },
+  "parser_threads": 2,
+  "sources": {
+    "adapter": "dynaword"
+  },
+  "sources_config": "../is_sources.json",
+  "rulebook": "../../la_output/resources/multilingual/is/rules.json.gz",
+  "exclusions": "../is_source_exclusions.json",
+  "resource_directory": "../../la_output/resources/multilingual/is",
+  "adapter": "dala.language_packs.morphology:MorphologyPack",
+  "selection": {
+    "strategy": "hash_rotate_grammar_then_spelling",
+    "max_errors": 1,
+    "priority": [
+      "adjective_gender",
+      "adjective_number",
+      "adjective_case",
+      "adjective_definite",
+      "determiner_gender",
+      "determiner_number",
+      "determiner_case",
+      "verb_number_agreement",
+      "verb_person_agreement",
+      "governed_infinitive",
+      "perfect_verb_form",
+      "preposition_case",
+      "spelling"
+    ]
+  },
+  "checker": {
+    "mode": "morphology",
+    "workers": 8
+  },
+  "prompts": {
+    "acceptability": "Er þessi setning málfræðilega rétt og rétt stafsett á íslensku? Svaraðu aðeins með yes eða no.",
+    "correction": "Leiðréttu málfræði- og stafsetningarvillur í þessari íslensku setningu. Ef setningin er þegar rétt skaltu skila henni óbreyttri. Varðveittu íslenskuna, merkinguna og stílinn. Skilaðu aðeins setningunni."
+  },
+  "standard_exclusions": [],
+  "curation": {
+    "min_words": 7,
+    "max_words": 35,
+    "max_sentence_chars": 320,
+    "max_paragraph_chars": 6000,
+    "source_risk_patterns": [
+      "(?i)\\b[A-Z]-(?:kk|kvk|hk)-(?:nf|þf|þgf|ef)\\b",
+      "(?i)\\b[A-Z]-x-x\\b",
+      "(?i)\\b(?:dags|nr|gr|mgr|sbr)\\.$",
+      "^(?:[IVXLCDM]+|[A-Z])[.)]\\s"
+    ]
+  },
+  "description": "Pinned DynaWord prose. Candidate dataset: dictionary and syntactic-rule screening; independent linguistic audit required.",
+  "dependencies": [
+    "requests",
+    "pyarrow",
+    "huggingface-hub",
+    "stanza",
+    "spylls"
+  ],
+  "source_sampling": "round_robin",
+  "export_used_rule_mappings": true,
+  "release_policy": {
+    "status": "candidate_only",
+    "require_audit_per_family": true,
+    "target": {
+      "name": "Icelandic",
+      "dataset_id": "dala-icelandic-dynaword",
+      "target_pairs": 478930,
+      "size_policy": "target_without_relaxing_quality"
+    }
+  },
+  "indefinite_articles": [],
+  "morphology_options": {
+    "lemma_strategy": "parsed",
+    "source_pronoun_agreement": true,
+    "complete_verb_agreement_from_subject": false,
+    "gender_equivalences": []
+  },
+  "build": {
+    "parser_processes": 128,
+    "document_batch_size": 2,
+    "max_task_chars": 30000,
+    "checkpoint_dir": "la_output/is_scaled128_v1_checkpoints",
+    "allow_shortfall": true,
+    "prestart_parser_workers": true,
+    "worker_pool_sha256": "b4987c1b544f964f3015691623e46d57dfa0cbcf9d2a66b7b88724ee1f9c5d1f",
+    "target_pairs": 478930,
+    "split_targets": {
+      "train": 383144,
+      "validation": 47893,
+      "test": 47893
+    }
+  }
+}

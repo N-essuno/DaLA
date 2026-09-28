@@ -1,0 +1,20 @@
+[
+  {
+    "language": "nn",
+    "pair_id": "5b2abeeb60770360251d13ed",
+    "original": "Kommunane har i mange tilfelle jobba for å løyse akutte problem eller som svar på initiativ til andre aktørar, og i liten grad sjølv lagt premissar for den kommunal bustadpolitikken.",
+    "sha256": "fd2fff9bce77c83bbb4d55802da00a2c07ada1327a02d1c4f87edf062c5cc33b",
+    "reason": "Source has den kommunal bustadpolitikken; expected agreeing adjective.",
+    "reviewer": "agent",
+    "human_review": false
+  },
+  {
+    "language": "fo",
+    "pair_id": "a0f487173e77a4f9ca7ff1af",
+    "original": "Hugburðurin innan føroysku handverksvinnuna er broyttur nógv hetta tíðarskeiðið, um hvussu tøkniligu ~útbúgvingarnar skulu/kunnu skipast.",
+    "sha256": "6977217d18e5178628ca0e695ea016f56e85305afb1a3c5dc451f21ebf828fb7",
+    "reason": "Extraction artifact: literal tilde before útbúgvingarnar.",
+    "reviewer": "agent",
+    "human_review": false
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "status": "waiting_for_builds",
+  "run_id": "recovery_v1",
+  "language_runs": {
+    "nn": "recovery_v1",
+    "fo": "recovery_v1",
+    "is": "recovery_v1",
+    "pl": "recovery_v1",
+    "sv": "recovery_v1",
+    "nb": "recovery_v1"
+  },
+  "pair_caps": [
+    "nn=478930"
+  ],
+  "human_linguistic_validation": false,
+  "uploaded": false
+}

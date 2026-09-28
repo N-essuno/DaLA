@@ -1,0 +1,18 @@
+{
+  "repo_id": "schneiderkamplab/dala-dutch-dynaword",
+  "url": "https://huggingface.co/datasets/schneiderkamplab/dala-dutch-dynaword",
+  "revision": "a09dffe55c9db956f3ae39ed1916cb2d5dfaff73",
+  "private": false,
+  "files": 44,
+  "bytes": 454890545,
+  "pairs": 478916,
+  "rows_per_configuration": 957832,
+  "configurations": [
+    "acceptability",
+    "correction"
+  ],
+  "manifest_sha256": "45ec3f00dd3202db5e8c7c8dc81001d69d4f0dda134f1f14fe8ae6b4b7945c1a",
+  "remote_file_set_and_hashes_verified": true,
+  "remote_streaming_load_verified": true,
+  "completed_at": "2026-09-22T07:51:22.287298+00:00"
+}

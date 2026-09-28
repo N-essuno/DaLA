@@ -1,0 +1,14 @@
+{
+  "language": "fr",
+  "source_sha256": [
+    "cd6843b2e804125233d8bb4ac087ab371d2d63892e51d236586d2787a2737671"
+  ],
+  "review_type": "agent inspection, not native validation",
+  "judgments": [
+    {
+      "original": "Il a fait ses études à collège de Beauvais.",
+      "judgment": "reject",
+      "reason": "Malformed French source à collège instead of au collège."
+    }
+  ]
+}

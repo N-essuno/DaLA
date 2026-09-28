@@ -1,0 +1,2319 @@
+{
+  "language": "da",
+  "seed": "dala-quality-comparison-20260921-v1",
+  "population": 492063,
+  "n": 100,
+  "method": "Uniform reservoir sample of corrupted pairs/incorrect rows across all published splits; before judgments",
+  "rows": [
+    {
+      "pair_id": "val:39073",
+      "split": "val",
+      "corrupted": "Du kan her hører Signe Fogh og Signe Nielsen fra elevrådet på Vejrup Skole fortælle, hvad landsbyskolen betyder, og hvad der vil ske, hvis skolen lukker (Varighed: 01:29 min.).",
+      "types": [
+        "corrupt_verb_r"
+      ],
+      "source": "tv2r",
+      "original": "Du kan her høre Signe Fogh og Signe Nielsen fra elevrådet på Vejrup Skole fortælle, hvad landsbyskolen betyder, og hvad der vil ske, hvis skolen lukker (Varighed: 01:29 min. ).",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-000",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": true,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:691608",
+      "split": "train",
+      "corrupted": "Søndag drev den i Vesterhaven med kurs mod Fanø.",
+      "types": [
+        "flip_en_et_suffix"
+      ],
+      "source": "tv2r",
+      "original": "Søndag drev den i Vesterhavet med kurs mod Fanø.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-001",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:548411",
+      "split": "train",
+      "corrupted": "Porsche bragede ud i kryds, nedlagde en el-skab og en lysmast, før den blev stoppet.",
+      "types": [
+        "flip_indefinite_article"
+      ],
+      "source": "tv2r",
+      "original": "Porsche bragede ud i kryds, nedlagde et el-skab og en lysmast, før den blev stoppet.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-002",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "test:46567",
+      "split": "test",
+      "corrupted": "Politien ankom først til stedet, fortalte vagtchefen til TV SYD.",
+      "types": [
+        "flip_en_et_suffix"
+      ],
+      "source": "tv2r",
+      "original": "Politiet ankom først til stedet, fortalte vagtchefen til TV SYD.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-003",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "test:110719",
+      "split": "test",
+      "corrupted": "Ekstrem løbetur: Thure gennemføre ni maratonløb i træk",
+      "types": [
+        "corrupt_verb_r"
+      ],
+      "source": "tv2r",
+      "original": "Ekstrem løbetur: Thure gennemfører ni maratonløb i træk",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-004",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "headline_or_fragment",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "test:133800",
+      "split": "test",
+      "corrupted": "Et projekt, der kunne blive til virkelighed, da Envotherm får få år siden fik 1,6 millioner kroner fra MUDP-puljen.",
+      "types": [
+        "flip_far_for"
+      ],
+      "source": "tv2r",
+      "original": "Et projekt, der kunne blive til virkelighed, da Envotherm for få år siden fik 1,6 millioner kroner fra MUDP-puljen.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-005",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "headline_or_fragment",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:233690",
+      "split": "train",
+      "corrupted": "Det sker som en led i kommunens klimaplan, hvor affald skal hentes på en miljøvenlig måde.",
+      "types": [
+        "flip_indefinite_article"
+      ],
+      "source": "tv2r",
+      "original": "Det sker som et led i kommunens klimaplan, hvor affald skal hentes på en miljøvenlig måde.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-006",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:169602",
+      "split": "train",
+      "corrupted": "Det er den seneste tids fund af to rådyr nedlagt af ulv i Marienlund Skoven tæt på Kolding centrum, som har skabt debat om ulvet.",
+      "types": [
+        "flip_en_et_suffix"
+      ],
+      "source": "tv2r",
+      "original": "Det er den seneste tids fund af to rådyr nedlagt af ulv i Marienlund Skoven tæt på Kolding centrum, som har skabt debat om ulven.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-007",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:153530",
+      "split": "train",
+      "corrupted": "Men ham er allerede på fri fod.",
+      "types": [
+        "flip_pronouns"
+      ],
+      "source": "tv2r",
+      "original": "Men han er allerede på fri fod.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-008",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:446849",
+      "split": "train",
+      "corrupted": "TV SYD har besøgt to borgere, som fra nytår skal vælge, hvem der skal leverer deres hjemmehjælp.",
+      "types": [
+        "corrupt_verb_r"
+      ],
+      "source": "tv2r",
+      "original": "TV SYD har besøgt to borgere, som fra nytår skal vælge, hvem der skal levere deres hjemmehjælp.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-009",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:699152",
+      "split": "train",
+      "corrupted": "Det er, hvad der er fundet i de godt 20.000 kubikmeter fyld, der udgør banegravsdepotet i Grindsted, hvor det daværene Grindstedværk i perioden 1934-1962 deponerede affald fra virksomheden.",
+      "types": [
+        "corrupt_ende_ene"
+      ],
+      "source": "tv2r",
+      "original": "Det er, hvad der er fundet i de godt 20.000 kubikmeter fyld, der udgør banegravsdepotet i Grindsted, hvor det daværende Grindstedværk i perioden 1934-1962 deponerede affald fra virksomheden.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-010",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:517746",
+      "split": "train",
+      "corrupted": "De fleste nøjes med et halv marathon eller 10 km.",
+      "types": [
+        "flip_indefinite_article"
+      ],
+      "source": "tv2r",
+      "original": "De fleste nøjes med en halv marathon eller 10 km.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-011",
+      "source_judgment": "uncertain",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Marathon spelling rather than Danish maraton; loan spelling requires native adjudication."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:170333",
+      "split": "train",
+      "corrupted": "Men i 2011 var tallen på 46.000.",
+      "types": [
+        "flip_en_et_suffix"
+      ],
+      "source": "tv2r",
+      "original": "Men i 2011 var tallet på 46.000.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-012",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:477733",
+      "split": "train",
+      "corrupted": "Vejers FamilieCamping, Vejers Havvej 15, Vejers Strand Fiskeauktion får turisterKom og byd!",
+      "types": [
+        "flip_far_for"
+      ],
+      "source": "tv2r",
+      "original": "Vejers FamilieCamping, Vejers Havvej 15, Vejers Strand Fiskeauktion for turisterKom og byd!",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-013",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Merged turisterKom and concatenated address/event listing."
+      ],
+      "source_form": "extraction_damage",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:225176",
+      "split": "train",
+      "corrupted": "Fans af Randers FC og Esbjerg burde have lov at komme ind og se kampende mod Brøndby, skriver danske fanklubber i et åbent brev til DBU.",
+      "types": [
+        "corrupt_ende_ene"
+      ],
+      "source": "tv2r",
+      "original": "Fans af Randers FC og Esbjerg burde have lov at komme ind og se kampene mod Brøndby, skriver danske fanklubber i et åbent brev til DBU.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-014",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "test:41540",
+      "split": "test",
+      "corrupted": "aktuelt er på 1.329.000 kr., mod 1.315.000 kr. 2009 i.",
+      "types": [
+        "flip_neighbours"
+      ],
+      "source": "tv2r",
+      "original": "aktuelt er på 1.329.000 kr., mod 1.315.000 kr. i 2009.",
+      "pair_recovery": "nearest published clean sentence; explicitly agent-checked deletion/swap alignment against candidate list",
+      "sample_id": "da-015",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Truncated clause: aktuelt er på ... has no subject; lower-case start."
+      ],
+      "source_form": "extraction_damage",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:198194",
+      "split": "train",
+      "corrupted": "Deloitte peger på, at sagene skal dokumenteres bedre, og der skal hurtigere følges op med handleplaner med en konkrete vurderinger af behov, mål og indsats.",
+      "types": [
+        "corrupt_noun_r"
+      ],
+      "source": "tv2r",
+      "original": "Deloitte peger på, at sagerne skal dokumenteres bedre, og der skal hurtigere følges op med handleplaner med en konkrete vurderinger af behov, mål og indsats.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-016",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Singular en before plural konkrete vurderinger."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:753061",
+      "split": "train",
+      "corrupted": "Søndag kulminere det med temperaturer op til 15 grader.",
+      "types": [
+        "corrupt_verb_r"
+      ],
+      "source": "tv2r",
+      "original": "Søndag kulminerer det med temperaturer op til 15 grader.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-017",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:770931",
+      "split": "train",
+      "corrupted": "Balletskolen ligger ud med tre hold til september.",
+      "types": [
+        "flip_ligge_laegge"
+      ],
+      "source": "tv2r",
+      "original": "Balletskolen lægger ud med tre hold til september.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-018",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:241858",
+      "split": "train",
+      "corrupted": "Busset blev første gang indregistreret i 2004 og har kørt 600.000 kilometer.",
+      "types": [
+        "flip_en_et_suffix"
+      ],
+      "source": "tv2r",
+      "original": "Bussen blev første gang indregistreret i 2004 og har kørt 600.000 kilometer.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-019",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:101875",
+      "split": "train",
+      "corrupted": "Hvis vi ser solopgangen samtidig, må vi klippe et trekant, så det ligner et hus.",
+      "types": [
+        "flip_indefinite_article"
+      ],
+      "source": "tv2r",
+      "original": "Hvis vi ser solopgangen samtidig, må vi klippe en trekant, så det ligner et hus.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-020",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:187510",
+      "split": "train",
+      "corrupted": "I dag går der 335 elever på skolet.",
+      "types": [
+        "flip_en_et_suffix"
+      ],
+      "source": "tv2r",
+      "original": "I dag går der 335 elever på skolen.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-021",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:657762",
+      "split": "train",
+      "corrupted": "Ved indvielsen kunne borgene deltage i en række forskellige aktiviteter eller se veteranbiludstilling, gymnastikopvisninger o.s.v.",
+      "types": [
+        "corrupt_noun_r"
+      ],
+      "source": "tv2r",
+      "original": "Ved indvielsen kunne borgerne deltage i en række forskellige aktiviteter eller se veteranbiludstilling, gymnastikopvisninger o.s.v.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-022",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "still_acceptable",
+      "intended_edits_judgment": "at_least_one_remains_acceptable",
+      "formatting_damage": false,
+      "notes": [
+        "Borgerne → borgene changes citizens to castles. Syntactic form remains valid; castles participating is semantically implausible/personification, not an unambiguous grammar error."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:246060",
+      "split": "train",
+      "corrupted": "Sønderjyder betalte en høj pris får at være underlagt Tyskland fra 1864 og frem til Første Verdenskrigs afslutning.",
+      "types": [
+        "flip_far_for"
+      ],
+      "source": "tv2r",
+      "original": "Sønderjyder betalte en høj pris for at være underlagt Tyskland fra 1864 og frem til Første Verdenskrigs afslutning.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-023",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:86835",
+      "split": "train",
+      "corrupted": "Det er ganske enkelt ikke sikkert for børnende at opholde sig på pladsen.",
+      "types": [
+        "corrupt_ende_ene"
+      ],
+      "source": "tv2r",
+      "original": "Det er ganske enkelt ikke sikkert for børnene at opholde sig på pladsen.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-024",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:280448",
+      "split": "train",
+      "corrupted": "Peter Kofod Poulsen, retsordfører, Dansk Folkeparti: \"Regeringen fik et halvt år, og nu står vi snart et år efter, og de har stadig ikke truffet nogle beslutning\"",
+      "types": [
+        "flip_nogle_nogen"
+      ],
+      "source": "tv2r",
+      "original": "Peter Kofod Poulsen, retsordfører, Dansk Folkeparti: \"Regeringen fik et halvt år, og nu står vi snart et år efter, og de har stadig ikke truffet nogen beslutning\"",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-025",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:520348",
+      "split": "train",
+      "corrupted": "Og vi for også skældud, når vi slår stillinger op til højtuddannede, siger regionsformand Carl Holst (V).",
+      "types": [
+        "flip_far_for"
+      ],
+      "source": "tv2r",
+      "original": "Og vi får også skældud, når vi slår stillinger op til højtuddannede, siger regionsformand Carl Holst (V).",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-026",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:705686",
+      "split": "train",
+      "corrupted": "Tønder Kommune kan til gengæld glæde sig over at være den kommune hvor der er mindst forskel på mænds og kvinders gennemsnitsløn, 12,79 nemlig procent forskel.",
+      "types": [
+        "flip_neighbours"
+      ],
+      "source": "tv2r",
+      "original": "Tønder Kommune kan til gengæld glæde sig over at være den kommune hvor der er mindst forskel på mænds og kvinders gennemsnitsløn, nemlig 12,79 procent forskel.",
+      "pair_recovery": "nearest published clean sentence; explicitly agent-checked deletion/swap alignment against candidate list",
+      "sample_id": "da-027",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:611435",
+      "split": "train",
+      "corrupted": "Mens Politiken giver fem ud af seks hjerter, så er Berlingske noget mer karrig og giver tre ud af seks stjerner.",
+      "types": [
+        "corrupt_adjective_r"
+      ],
+      "source": "tv2r",
+      "original": "Mens Politiken giver fem ud af seks hjerter, så er Berlingske noget mere karrig og giver tre ud af seks stjerner.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-028",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "uncertain",
+      "intended_edits_judgment": "uncertain",
+      "formatting_damage": false,
+      "notes": [
+        "Mere → mer is a common unofficial spelling according to DDO; standard-writing error but register-dependent, so conservatively uncertain."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:565838",
+      "split": "train",
+      "corrupted": "Derfor skal projekten nu på de politiske dagsordener i kommunen.",
+      "types": [
+        "flip_en_et_suffix"
+      ],
+      "source": "tv2r",
+      "original": "Derfor skal projektet nu på de politiske dagsordener i kommunen.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-029",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:656605",
+      "split": "train",
+      "corrupted": "Seriet kan følges hver søndag frem til jul.",
+      "types": [
+        "flip_en_et_suffix"
+      ],
+      "source": "tv2r",
+      "original": "Serien kan følges hver søndag frem til jul.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-030",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:674931",
+      "split": "train",
+      "corrupted": "Noget, der en række firmaer har specialiseret sig i, blandt andre Mayday Cars.",
+      "types": [
+        "flip_som_der"
+      ],
+      "source": "tv2r",
+      "original": "Noget, som en række firmaer har specialiseret sig i, blandt andre Mayday Cars.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-031",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "headline_or_fragment",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:357840",
+      "split": "train",
+      "corrupted": "Det er blevet en sand trend at lade geværet lægge hjemme når dagens står på jagt.",
+      "types": [
+        "flip_ligge_laegge"
+      ],
+      "source": "tv2r",
+      "original": "Det er blevet en sand trend at lade geværet ligge hjemme når dagens står på jagt.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-032",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Når dagens står på jagt: dagens appears to be a typo for dagen."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "val:46453",
+      "split": "val",
+      "corrupted": "Man skal forvente rigtig mange biler på vejende de dage, men erfaringsmæssigt fordeler hjemrejsetrafikken sig mere jævnt end trafikken på udrejsedagene, så trods periodevis tæt trafik forventer Vejdirektoratet ikke store forsinkelser på vejene.",
+      "types": [
+        "corrupt_ende_ene"
+      ],
+      "source": "tv2r",
+      "original": "Man skal forvente rigtig mange biler på vejene de dage, men erfaringsmæssigt fordeler hjemrejsetrafikken sig mere jævnt end trafikken på udrejsedagene, så trods periodevis tæt trafik forventer Vejdirektoratet ikke store forsinkelser på vejene.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-033",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:186962",
+      "split": "train",
+      "corrupted": "I forlængelse af det har bestyrelsen besluttet at fremrykke det kommene møde i repræsentantskabet til den 15. august, så repræsentantskabet kan blive orienteret om baggrunden og oplæg til justering af strategien for Ewii.",
+      "types": [
+        "corrupt_ende_ene"
+      ],
+      "source": "tv2r",
+      "original": "I forlængelse af det har bestyrelsen besluttet at fremrykke det kommende møde i repræsentantskabet til den 15. august, så repræsentantskabet kan blive orienteret om baggrunden og oplæg til justering af strategien for Ewii.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-034",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:121672",
+      "split": "train",
+      "corrupted": "Så jeg håber, det kan være med til at skabe et bedre syn på Danmark, når jeg i denne sammenhæng for mulighed for at fortælle, hvordan er det reelt er at bo i Danmark set fra en indvandrers øjne.",
+      "types": [
+        "flip_far_for"
+      ],
+      "source": "tv2r",
+      "original": "Så jeg håber, det kan være med til at skabe et bedre syn på Danmark, når jeg i denne sammenhæng får mulighed for at fortælle, hvordan er det reelt er at bo i Danmark set fra en indvandrers øjne.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-035",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Duplicate/misplaced er in hvordan er det reelt er."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:196202",
+      "split": "train",
+      "corrupted": "Uroen om skolelukningene i Fredericia Kommune fortsatte i dag med en stor elev-demonstration foran rådhuset.",
+      "types": [
+        "corrupt_noun_r"
+      ],
+      "source": "tv2r",
+      "original": "Uroen om skolelukningerne i Fredericia Kommune fortsatte i dag med en stor elev-demonstration foran rådhuset.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-036",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:774641",
+      "split": "train",
+      "corrupted": "Desuden er den 31-årige fundet skyldig i besiddelse af nogen stoffer.",
+      "types": [
+        "flip_nogle_nogen"
+      ],
+      "source": "tv2r",
+      "original": "Desuden er den 31-årige fundet skyldig i besiddelse af nogle stoffer.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-037",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:784050",
+      "split": "train",
+      "corrupted": "Vi har mulighed får at konflikte på dem igennem vores organisationer og simpelthen sørge for, at de ikke kan få tanket, få forsyninger og håndteret bagage, siger formanden til Politiken og peger på, at andre danske lufthavne vil bakke op omkring blokaden.",
+      "types": [
+        "flip_far_for"
+      ],
+      "source": "tv2r",
+      "original": "Vi har mulighed for at konflikte på dem igennem vores organisationer og simpelthen sørge for, at de ikke kan få tanket, få forsyninger og håndteret bagage, siger formanden til Politiken og peger på, at andre danske lufthavne vil bakke op omkring blokaden.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-038",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:509528",
+      "split": "train",
+      "corrupted": "Så er der nemlig en god chance får, den vil blive.",
+      "types": [
+        "flip_far_for"
+      ],
+      "source": "tv2r",
+      "original": "Så er der nemlig en god chance for, den vil blive.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-039",
+      "source_judgment": "uncertain",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Chance for, den vil blive omits at after for; uncertain spoken quotation versus standard written syntax."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:443831",
+      "split": "train",
+      "corrupted": "Hvis vi derimod kan besætte 40-50 stillinger i dag, så er det et succes, siger kommunaldirektør i Varde Kommune, Mogens Pedersen, mandag morgen.",
+      "types": [
+        "flip_indefinite_article"
+      ],
+      "source": "tv2r",
+      "original": "Hvis vi derimod kan besætte 40-50 stillinger i dag, så er det en succes, siger kommunaldirektør i Varde Kommune, Mogens Pedersen, mandag morgen.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-040",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:676666",
+      "split": "train",
+      "corrupted": "Ildebrand tvang beboer ud af deres lejligheder.",
+      "types": [
+        "corrupt_noun_r"
+      ],
+      "source": "tv2r",
+      "original": "Ildebrand tvang beboere ud af deres lejligheder.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-041",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "uncertain",
+      "intended_edits_judgment": "uncertain",
+      "formatting_damage": false,
+      "notes": [
+        "Beboere → beboer leaves a bare singular noun; normal prose needs an article, but headline-style omission is possible."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:327651",
+      "split": "train",
+      "corrupted": "Region Syddanmark forventer ikke på nuværende tidspunkt, at psykiatribyggeriet bliver dyrer end planlagt.",
+      "types": [
+        "corrupt_adjective_r"
+      ],
+      "source": "tv2r",
+      "original": "Region Syddanmark forventer ikke på nuværende tidspunkt, at psykiatribyggeriet bliver dyrere end planlagt.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-042",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "test:88136",
+      "split": "test",
+      "corrupted": "Så nu er det slut med at lave en lille lager i sit garderobeskab...",
+      "types": [
+        "flip_indefinite_article"
+      ],
+      "source": "tv2r",
+      "original": "Så nu er det slut med at lave et lille lager i sit garderobeskab...",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-043",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:566880",
+      "split": "train",
+      "corrupted": "Bornholms politikreds er den politikreds i Danmark, hvor størstedelen af borgene føler sig trygge.",
+      "types": [
+        "corrupt_noun_r"
+      ],
+      "source": "tv2r",
+      "original": "Bornholms politikreds er den politikreds i Danmark, hvor størstedelen af borgerne føler sig trygge.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-044",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "still_acceptable",
+      "intended_edits_judgment": "at_least_one_remains_acceptable",
+      "formatting_damage": false,
+      "notes": [
+        "Borgerne → borgene changes citizens to castles. Castles feeling safe is personification/semantic oddity, not malformed agreement or spelling."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:687591",
+      "split": "train",
+      "corrupted": "Vagtchefen ved Esbjerg politi betegner det som en mirakel, at der ikke skete ulykker i forbindelsde med spøgelsesbilistens vanvidskørserl.",
+      "types": [
+        "flip_indefinite_article"
+      ],
+      "source": "tv2r",
+      "original": "Vagtchefen ved Esbjerg politi betegner det som et mirakel, at der ikke skete ulykker i forbindelsde med spøgelsesbilistens vanvidskørserl.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-045",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Existing typos forbindelsde and vanvidskørserl."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "test:118569",
+      "split": "test",
+      "corrupted": "Jeg håber virkelig ikke, at en kommene statsminister giver efter for det her krav, slutter direktøren.",
+      "types": [
+        "corrupt_ende_ene"
+      ],
+      "source": "tv2r",
+      "original": "Jeg håber virkelig ikke, at en kommende statsminister giver efter for det her krav, slutter direktøren.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-046",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:259658",
+      "split": "train",
+      "corrupted": "Derudover bliver uniformene også opdateret, så de er mere praktiske, for eksempel nu hvor personalet har en smartphone med sig som arbejdsredskab.",
+      "types": [
+        "corrupt_noun_r"
+      ],
+      "source": "tv2r",
+      "original": "Derudover bliver uniformerne også opdateret, så de er mere praktiske, for eksempel nu hvor personalet har en smartphone med sig som arbejdsredskab.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-047",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:243146",
+      "split": "train",
+      "corrupted": "12 blev anholdt, men politien fandt ikke skydevåben.",
+      "types": [
+        "flip_en_et_suffix"
+      ],
+      "source": "tv2r",
+      "original": "12 blev anholdt, men politiet fandt ikke skydevåben.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-048",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:711735",
+      "split": "train",
+      "corrupted": "Grand Prix-vindene går hver til sit",
+      "types": [
+        "corrupt_noun_r"
+      ],
+      "source": "tv2r",
+      "original": "Grand Prix-vinderne går hver til sit",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-049",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "headline_or_fragment",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:217267",
+      "split": "train",
+      "corrupted": "I dag har 79 procent af de unge mellem 25-34 år i Region Syddanmark gennemført et ungdomsuddannelse.",
+      "types": [
+        "flip_indefinite_article"
+      ],
+      "source": "tv2r",
+      "original": "I dag har 79 procent af de unge mellem 25-34 år i Region Syddanmark gennemført en ungdomsuddannelse.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-050",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "test:120465",
+      "split": "test",
+      "corrupted": "Men han erkendte grov vold med kniv og fler knytnæveslag.",
+      "types": [
+        "corrupt_adjective_r"
+      ],
+      "source": "tv2r",
+      "original": "Men han erkendte grov vold med kniv og flere knytnæveslag.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-051",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "uncertain",
+      "intended_edits_judgment": "uncertain",
+      "formatting_damage": false,
+      "notes": [
+        "Flere → fler can read as informal shortening; not a robust register-independent corruption."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:752094",
+      "split": "train",
+      "corrupted": "Natten til lørdag udviklede en bilbrand i Stenderup – Krogager sig så voldsomt, så ilden nær havde bredt sig til et nærliggene parcelhus.",
+      "types": [
+        "corrupt_ende_ene"
+      ],
+      "source": "tv2r",
+      "original": "Natten til lørdag udviklede en bilbrand i Stenderup –Krogager sig så voldsomt, så ilden nær havde bredt sig til et nærliggende parcelhus.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-052",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": true,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:460443",
+      "split": "train",
+      "corrupted": "Og så der 3-5-8 års sagsbehandlingstider.",
+      "types": [
+        "delete"
+      ],
+      "source": "tv2r",
+      "original": "Og så var der 3-5-8 års sagsbehandlingstider.",
+      "pair_recovery": "nearest published clean sentence; explicitly agent-checked deletion/swap alignment against candidate list",
+      "sample_id": "da-053",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "test:96498",
+      "split": "test",
+      "corrupted": "Ole P. Johnsen, adm. direktør, Billund Vand: \"Det skal selvfølgelig fejres med alle vore medarbejder, der har en ydet en stor indsats.\"",
+      "types": [
+        "corrupt_noun_r"
+      ],
+      "source": "tv2r",
+      "original": "Ole P. Johnsen, adm. direktør, Billund Vand: \"Det skal selvfølgelig fejres med alle vore medarbejdere, der har en ydet en stor indsats.\"",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-054",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Extraneous en in har en ydet en stor indsats."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:760682",
+      "split": "train",
+      "corrupted": "Ligeledes møder Boldklub Vejle og FC Fredericia hinanden i fodboldens første division.",
+      "types": [
+        "flip_neighbours"
+      ],
+      "source": "tv2r",
+      "original": "Ligeledes møder Vejle Boldklub og FC Fredericia hinanden i fodboldens første division.",
+      "pair_recovery": "nearest published clean sentence; explicitly agent-checked deletion/swap alignment against candidate list",
+      "sample_id": "da-055",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "still_acceptable",
+      "intended_edits_judgment": "at_least_one_remains_acceptable",
+      "formatting_damage": false,
+      "notes": [
+        "Vejle Boldklub → Boldklub Vejle changes a proper name but preserves a possible grammatical organization name."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:525514",
+      "split": "train",
+      "corrupted": "Mandet, der bor på Fanø, blev fundet skyldig i samtlige anklagepunkter.",
+      "types": [
+        "flip_en_et_suffix"
+      ],
+      "source": "tv2r",
+      "original": "Manden, der bor på Fanø, blev fundet skyldig i samtlige anklagepunkter.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-056",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:513804",
+      "split": "train",
+      "corrupted": "Hans-Jørgen Kruses 11-årige barnebarn spiller Counter Strike på computer og havde - som så mange andre unge - set sig varm på et halskniv.",
+      "types": [
+        "flip_indefinite_article"
+      ],
+      "source": "tv2r",
+      "original": "Hans-Jørgen Kruses 11-årige barnebarn spiller Counter Strike på computer og havde - som så mange andre unge - set sig varm på en halskniv.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-057",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:74107",
+      "split": "train",
+      "corrupted": "De massive vandmasser, der fulgte med stormen torsdag aften, fik Lotte Poulsens kælder til at flyde over får anden gang på to uger.",
+      "types": [
+        "flip_far_for"
+      ],
+      "source": "tv2r",
+      "original": "De massive vandmasser, der fulgte med stormen torsdag aften, fik Lotte Poulsens kælder til at flyde over for anden gang på to uger.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-058",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:455458",
+      "split": "train",
+      "corrupted": "Kunstværken indgår i den kunstakse, der er i Augustenborg med det internationale Galleri Nørballe i Augustiana, Det Røde Palæ, Danmarks smukkeste skulpturpark og kunstnersammenslutningen KunstPunkt.",
+      "types": [
+        "flip_en_et_suffix"
+      ],
+      "source": "tv2r",
+      "original": "Kunstværket indgår i den kunstakse, der er i Augustenborg med det internationale Galleri Nørballe i Augustiana, Det Røde Palæ, Danmarks smukkeste skulpturpark og kunstnersammenslutningen KunstPunkt.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-059",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "val:35746",
+      "split": "val",
+      "corrupted": "Det er lang tid siden og begge mandskaber er ændret et del siden vi slog dem.",
+      "types": [
+        "flip_indefinite_article"
+      ],
+      "source": "tv2r",
+      "original": "Det er lang tid siden og begge mandskaber er ændret en del siden vi slog dem.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-060",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:616683",
+      "split": "train",
+      "corrupted": "Det mærke viser, at producentet bag fyrværkeriet har fået det testet og godkendt, og at det dermed overholder sikkerhedskrav.",
+      "types": [
+        "flip_en_et_suffix"
+      ],
+      "source": "tv2r",
+      "original": "Det mærke viser, at producenten bag fyrværkeriet har fået det testet og godkendt, og at det dermed overholder sikkerhedskrav.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-061",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:277680",
+      "split": "train",
+      "corrupted": "I stedet henvender dem sig til endnu en lokal.",
+      "types": [
+        "flip_pronouns"
+      ],
+      "source": "tv2r",
+      "original": "I stedet henvender de sig til endnu en lokal.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-062",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:28819",
+      "split": "train",
+      "corrupted": "DenOffentlige.dk har talt med to af dem, der selv er klemt, følger projekten, og bakker initiativet op.",
+      "types": [
+        "flip_en_et_suffix"
+      ],
+      "source": "tv2r",
+      "original": "DenOffentlige.dk har talt med to af dem, der selv er klemt, følger projektet, og bakker initiativet op.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-063",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "test:39526",
+      "split": "test",
+      "corrupted": "Det kan frem til 27. september.",
+      "types": [
+        "delete"
+      ],
+      "source": "tv2r",
+      "original": "Det kan ses frem til 27. september.",
+      "pair_recovery": "nearest published clean sentence; explicitly agent-checked deletion/swap alignment against candidate list",
+      "sample_id": "da-064",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "uncertain",
+      "intended_edits_judgment": "uncertain",
+      "formatting_damage": false,
+      "notes": [
+        "Deleting ses leaves a modal whose complement might be supplied by discourse; usually incomplete in isolation, but uncertain."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:708596",
+      "split": "train",
+      "corrupted": "Da Thomas Frost var 12 år gammel i 1937, deltog det for første gang i sit liv i ringriderfesten i Sønderborg.",
+      "types": [
+        "flip_han_hun_to_det"
+      ],
+      "source": "tv2r",
+      "original": "Da Thomas Frost var 12 år gammel i 1937, deltog han for første gang i sit liv i ringriderfesten i Sønderborg.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-065",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "uncertain",
+      "intended_edits_judgment": "uncertain",
+      "formatting_damage": false,
+      "notes": [
+        "Han → det is anomalous if co-referential with Thomas; neuter reference to a child/another entity makes grammatical invalidity context-dependent."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "val:14634",
+      "split": "val",
+      "corrupted": "Men først skal hun nyde tilværelsen væk fra bøgerne og fejrer huen.",
+      "types": [
+        "corrupt_verb_r"
+      ],
+      "source": "tv2r",
+      "original": "Men først skal hun nyde tilværelsen væk fra bøgerne og fejre huen.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-066",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "test:46751",
+      "split": "test",
+      "corrupted": "Brug aldrig håndholdt mobiltelefon mens du køre Hold ind til siden, hvis en samtale kræver din fulde opmærksomhed.",
+      "types": [
+        "corrupt_verb_r"
+      ],
+      "source": "tv2r",
+      "original": "Brug aldrig håndholdt mobiltelefon mens du kører Hold ind til siden, hvis en samtale kræver din fulde opmærksomhed.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-067",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Two instructions merged without boundary at kører Hold."
+      ],
+      "source_form": "extraction_damage",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:353211",
+      "split": "train",
+      "corrupted": "Svend Brandt henviser til, at skatteminister Morten Østergaard (R) har skrottet en tilsvarene stikker-tjeneste hos Skat, og at Folketingets ombudsmand har påtalt, at Skat har modtaget anonyme anmeldelser pr. telefon.",
+      "types": [
+        "corrupt_ende_ene"
+      ],
+      "source": "tv2r",
+      "original": "Svend Brandt henviser til, at skatteminister Morten Østergaard (R) har skrottet en tilsvarende stikker-tjeneste hos Skat, og at Folketingets ombudsmand har påtalt, at Skat har modtaget anonyme anmeldelser pr. telefon.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-068",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:707192",
+      "split": "train",
+      "corrupted": "Opbakning til chauffører: Filippinske kvinder kom på med kage og tøj",
+      "types": [
+        "delete"
+      ],
+      "source": "tv2r",
+      "original": "Opbakning til chauffører: Filippinske kvinder kom på besøg med kage og tøj",
+      "pair_recovery": "nearest published clean sentence; explicitly agent-checked deletion/swap alignment against candidate list",
+      "sample_id": "da-069",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "headline_or_fragment",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:182416",
+      "split": "train",
+      "corrupted": "Faktisk er der 11 frivillige 18 børn.",
+      "types": [
+        "delete"
+      ],
+      "source": "tv2r",
+      "original": "Faktisk er der 11 frivillige til 18 børn.",
+      "pair_recovery": "nearest published clean sentence; explicitly agent-checked deletion/swap alignment against candidate list",
+      "sample_id": "da-070",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "val:47280",
+      "split": "val",
+      "corrupted": "Et af forslagende har gået på en Smiley-ordning, og Dyrenes Beskyttelse mener, at man skal tage skridtet endnu videre ved blandt andet at lade al hundeopdræt registere via en NemId-løsning, som kan kontrolleres af myndighederne.",
+      "types": [
+        "corrupt_ende_ene"
+      ],
+      "source": "tv2r",
+      "original": "Et af forslagene har gået på en Smiley-ordning, og Dyrenes Beskyttelse mener, at man skal tage skridtet endnu videre ved blandt andet at lade al hundeopdræt registere via en NemId-løsning, som kan kontrolleres af myndighederne.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-071",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Misspelling registere for registrere; also al hundeopdræt has gender disagreement."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:577459",
+      "split": "train",
+      "corrupted": "Eva Kjer Hansen sagde i TV SYD, at det har to bekymringer:",
+      "types": [
+        "flip_han_hun_to_det"
+      ],
+      "source": "tv2r",
+      "original": "Eva Kjer Hansen sagde i TV SYD, at hun har to bekymringer:",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-072",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "still_acceptable",
+      "intended_edits_judgment": "at_least_one_remains_acceptable",
+      "formatting_damage": false,
+      "notes": [
+        "Hun → det need not refer to Eva: a neuter entity can have two concerns. Standalone sentence is grammatical under another referent."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:222492",
+      "split": "train",
+      "corrupted": "Han havde et større kontant beløb på sig, der vi mener er udbyttet fra røveriet.",
+      "types": [
+        "flip_som_der"
+      ],
+      "source": "tv2r",
+      "original": "Han havde et større kontant beløb på sig, som vi mener er udbyttet fra røveriet.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-073",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "uncertain",
+      "intended_edits_judgment": "uncertain",
+      "formatting_damage": false,
+      "notes": [
+        "Som → der before vi mener er involves a clause-intertwining/parenthetical reading; needs native adjudication rather than assuming all such replacements invalid."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:168236",
+      "split": "train",
+      "corrupted": "Ham vil hellere tage én kamp ad gangen.",
+      "types": [
+        "flip_pronouns"
+      ],
+      "source": "tv2r",
+      "original": "Han vil hellere tage én kamp ad gangen.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-074",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:690252",
+      "split": "train",
+      "corrupted": "Vera Højmose fra Broager bruger engle i sin klinik til at mennesker med og det er populært.",
+      "types": [
+        "delete"
+      ],
+      "source": "tv2r",
+      "original": "Vera Højmose fra Broager bruger engle i sin klinik til at heale mennesker med og det er populært.",
+      "pair_recovery": "nearest published clean sentence; explicitly agent-checked deletion/swap alignment against candidate list",
+      "sample_id": "da-075",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:759514",
+      "split": "train",
+      "corrupted": "Når Gutenberglauget trykker julemænd og Julius ´ s stregtegninger, eller ilden buldre i essen i smedegården, så er det de traditionelle industrihåndværk, som nisser i det.",
+      "types": [
+        "corrupt_verb_r"
+      ],
+      "source": "tv2r",
+      "original": "Når Gutenberglauget trykker julemænd og Julius´s stregtegninger, eller ilden buldrer i essen i smedegården, så er det de traditionelle industrihåndværk, som nisser i det.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-076",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": true,
+      "notes": [
+        "Julius´s has an extra genitive s after a name already ending in s.",
+        "Detokenization adds spaces around apostrophe/quotation characters beyond intended corruption."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": true,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "test:56719",
+      "split": "test",
+      "corrupted": "Aabenraa Bibliotekene har åbent 7-22 alle ugens 7 dage (bortset fra 31/12 hvor der er helt lukket).",
+      "types": [
+        "corrupt_noun_r"
+      ],
+      "source": "tv2r",
+      "original": "Aabenraa Bibliotekerne har åbent 7-22 alle ugens 7 dage (bortset fra 31/12 hvor der er helt lukket).",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-077",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:310937",
+      "split": "train",
+      "corrupted": "Siden den skæbnesvangre junidag i 2015 har Anders Tesgaard befundet sig nu i en vegetativ tilstand på et rehabilitetingscenter, og det har kæmpet med flere lungebetændelser som følge af sin tilstand.",
+      "types": [
+        "flip_han_hun_to_det"
+      ],
+      "source": "tv2r",
+      "original": "Siden den skæbnesvangre junidag i 2015 har Anders Tesgaard befundet sig nu i en vegetativ tilstand på et rehabilitetingscenter, og han har kæmpet med flere lungebetændelser som følge af sin tilstand.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-078",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "uncertain",
+      "formatting_damage": false,
+      "notes": [
+        "Existing misspelling rehabilitetingscenter; also awkward placement of nu.",
+        "Han → det disrupts the intended human reference but grammatical failure depends on coreference; original is already misspelled."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:113667",
+      "split": "train",
+      "corrupted": "Så godt, at kroens køkken blevet kåret til nordens bedste.",
+      "types": [
+        "delete"
+      ],
+      "source": "tv2r",
+      "original": "Så godt, at kroens køkken er blevet kåret til nordens bedste.",
+      "pair_recovery": "nearest published clean sentence; explicitly agent-checked deletion/swap alignment against candidate list",
+      "sample_id": "da-079",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Nordens geographical proper name is lower-case; fragment is recorded separately, not itself rejected."
+      ],
+      "source_form": "headline_or_fragment",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:709958",
+      "split": "train",
+      "corrupted": "Prinsesse Marie er tilknyttet Beredskabsstyrelsen og har selv gennemgået en grundig uddanelse i brandslukning i forbindelse med sin introduktionsuddannelse i 2011.",
+      "types": [
+        "corrupt_spelling"
+      ],
+      "source": "tv2r",
+      "original": "Prinsesse Marie er tilknyttet Beredskabsstyrelsen og har selv gennemgået en grundig uddannelse i brandslukning i forbindelse med sin introduktionsuddannelse i 2011.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-080",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:619712",
+      "split": "train",
+      "corrupted": "I det seneste regnskabsår havde Merlin et omsætning på 1,7 milliarder pund og et overskud før skat på 285 millioner pund.",
+      "types": [
+        "flip_indefinite_article"
+      ],
+      "source": "tv2r",
+      "original": "I det seneste regnskabsår havde Merlin en omsætning på 1,7 milliarder pund og et overskud før skat på 285 millioner pund.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-081",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:489821",
+      "split": "train",
+      "corrupted": "Det kan komme til at ramme arrestet Møgelkær.",
+      "types": [
+        "flip_en_et_suffix"
+      ],
+      "source": "tv2r",
+      "original": "Det kan komme til at ramme arresten Møgelkær.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-082",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:590344",
+      "split": "train",
+      "corrupted": "Af sikring lette trafikanters rute mellem Allerup og Toftlund, Tønder Kommune",
+      "types": [
+        "flip_neighbours"
+      ],
+      "source": "tv2r",
+      "original": "Sikring af lette trafikanters rute mellem Allerup og Toftlund, Tønder Kommune",
+      "pair_recovery": "nearest published clean sentence; explicitly agent-checked deletion/swap alignment against candidate list",
+      "sample_id": "da-083",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "headline_or_fragment",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:313223",
+      "split": "train",
+      "corrupted": "Der er mangel på får eksempel kirurger og narkoselæger i alle fem regioner, det viser en ny rundspørge lavet af DR Nyheder.",
+      "types": [
+        "flip_far_for"
+      ],
+      "source": "tv2r",
+      "original": "Der er mangel på for eksempel kirurger og narkoselæger i alle fem regioner, det viser en ny rundspørge lavet af DR Nyheder.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-084",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:145985",
+      "split": "train",
+      "corrupted": "Dybbøl Mølle er ikke den eneste mølle i Syd- og Sønderjylland, som ære prins Henrik tirsdag.",
+      "types": [
+        "corrupt_verb_r"
+      ],
+      "source": "tv2r",
+      "original": "Dybbøl Mølle er ikke den eneste mølle i Syd- og Sønderjylland, som ærer prins Henrik tirsdag.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-085",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:675754",
+      "split": "train",
+      "corrupted": "Kort før jul gik de de syv kommuner langs Gudenåen - deriblandt Hedensted og Horsens - sammen om at skabe et podcastserie om Gudenåen - og nu er det første afsnit ' Åsteder - fortællinger fra Gudenåen ' netop udkommet, skriver websitet Turisme.nu.",
+      "types": [
+        "flip_indefinite_article"
+      ],
+      "source": "tv2r",
+      "original": "Kort før jul gik de de syv kommuner langs Gudenåen - deriblandt Hedensted og Horsens - sammen om at skabe en podcastserie om Gudenåen - og nu er det første afsnit 'Åsteder - fortællinger fra Gudenåen' netop udkommet, skriver websitet Turisme.nu.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-086",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": true,
+      "notes": [
+        "Duplicated de in gik de de syv kommuner.",
+        "Detokenization adds spaces around apostrophe/quotation characters beyond intended corruption."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": true,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "test:130705",
+      "split": "test",
+      "corrupted": "Thomas CookVerdens ældste grundlagt rejseselskab i 1841 af den britiske forretningsmand Thomas Cook.",
+      "types": [
+        "flip_neighbours"
+      ],
+      "source": "tv2r",
+      "original": "Thomas CookVerdens ældste rejseselskab grundlagt i 1841 af den britiske forretningsmand Thomas Cook.",
+      "pair_recovery": "nearest published clean sentence; explicitly agent-checked deletion/swap alignment against candidate list",
+      "sample_id": "da-087",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Merged heading Thomas CookVerdens and an incomplete extracted description."
+      ],
+      "source_form": "extraction_damage",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:93536",
+      "split": "train",
+      "corrupted": "162 togpassagerer blev indlogeret på Idrætscenter Fredericia på Fredericia kommunes foranstaltning.",
+      "types": [
+        "flip_neighbours"
+      ],
+      "source": "tv2r",
+      "original": "162 togpassagerer blev indlogeret på Fredericia Idrætscenter på Fredericia kommunes foranstaltning.",
+      "pair_recovery": "nearest published clean sentence; explicitly agent-checked deletion/swap alignment against candidate list",
+      "sample_id": "da-088",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "still_acceptable",
+      "intended_edits_judgment": "at_least_one_remains_acceptable",
+      "formatting_damage": false,
+      "notes": [
+        "Fredericia Idrætscenter → Idrætscenter Fredericia changes the name, not necessarily grammar."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "test:22122",
+      "split": "test",
+      "corrupted": "I øjeblikket er Banedanmark nemlig i gang med at erstatte signalanlæggende på hele det danske jernbanenet.",
+      "types": [
+        "corrupt_ende_ene"
+      ],
+      "source": "tv2r",
+      "original": "I øjeblikket er Banedanmark nemlig i gang med at erstatte signalanlæggene på hele det danske jernbanenet.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-089",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:326877",
+      "split": "train",
+      "corrupted": "I forbindelse med Mia Kjær Sørensens flotte indsats i årets udgave af X Factor hyldede Kommune Hedensted deres lokale helt.",
+      "types": [
+        "flip_neighbours"
+      ],
+      "source": "tv2r",
+      "original": "I forbindelse med Mia Kjær Sørensens flotte indsats i årets udgave af X Factor hyldede Hedensted Kommune deres lokale helt.",
+      "pair_recovery": "nearest published clean sentence; explicitly agent-checked deletion/swap alignment against candidate list",
+      "sample_id": "da-090",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "still_acceptable",
+      "intended_edits_judgment": "at_least_one_remains_acceptable",
+      "formatting_damage": false,
+      "notes": [
+        "Hedensted Kommune → Kommune Hedensted changes the name, not necessarily grammar."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:702363",
+      "split": "train",
+      "corrupted": "Der er nu ryddet op, men det tager lidt tid at afvikle den lange kø, så trafikken køre langsomt derudaf.",
+      "types": [
+        "corrupt_verb_r"
+      ],
+      "source": "tv2r",
+      "original": "Der er nu ryddet op, men det tager lidt tid at afvikle den lange kø, så trafikken kører langsomt derudaf.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-091",
+      "source_judgment": "uncertain",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Derudaf in the description of moving traffic may need derudad; lexical convention requires adjudication."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "train:358264",
+      "split": "train",
+      "corrupted": "-I år har os forsøgt at komme bredere ud ved at bruge de sociale medier mere, og det kan vi se har virket.",
+      "types": [
+        "flip_pronouns"
+      ],
+      "source": "tv2r",
+      "original": "-I år har vi forsøgt at komme bredere ud ved at bruge de sociale medier mere, og det kan vi se har virket.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-092",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:90488",
+      "split": "train",
+      "corrupted": "Med opkøbet for vi mulighed for at samle vores aktiviteter i Aarhus på én adresse og udvide og styrke vores markedsposition i Danmarks næststørste by.",
+      "types": [
+        "flip_far_for"
+      ],
+      "source": "tv2r",
+      "original": "Med opkøbet får vi mulighed for at samle vores aktiviteter i Aarhus på én adresse og udvide og styrke vores markedsposition i Danmarks næststørste by.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-093",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "test:51004",
+      "split": "test",
+      "corrupted": "Vi har brugt tyverne på at drikke farverige drinks i Bangkok og så bruger vi trediverne og forhåbenlig mere på at have en familie og hygge os med den her i Aabenraa, siger Anya Palm.",
+      "types": [
+        "corrupt_spelling"
+      ],
+      "source": "tv2r",
+      "original": "Vi har brugt tyverne på at drikke farverige drinks i Bangkok og så bruger vi trediverne og forhåbentlig mere på at have en familie og hygge os med den her i Aabenraa, siger Anya Palm.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-094",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:624794",
+      "split": "train",
+      "corrupted": "Det var en tydeligt rørt Søren Peschardt, der tirsdag aften modtog valgen som borgmesterkandidat i 3F's lokaler i Vejle.",
+      "types": [
+        "flip_en_et_suffix"
+      ],
+      "source": "tv2r",
+      "original": "Det var en tydeligt rørt Søren Peschardt, der tirsdag aften modtog valget som borgmesterkandidat i 3F's lokaler i Vejle.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-095",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:232529",
+      "split": "train",
+      "corrupted": "Drage-entusiastene kan også ses i morgen søndag.",
+      "types": [
+        "corrupt_noun_r"
+      ],
+      "source": "tv2r",
+      "original": "Drage-entusiasterne kan også ses i morgen søndag.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-096",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:591964",
+      "split": "train",
+      "corrupted": "Forsvarsminister Nicolai Wammen har ingen planer om at nedlægge de frivillige brandværn under strukturreformet.",
+      "types": [
+        "flip_en_et_suffix"
+      ],
+      "source": "tv2r",
+      "original": "Forsvarsminister Nicolai Wammen har ingen planer om at nedlægge de frivillige brandværn under strukturreformen.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-097",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "test:128181",
+      "split": "test",
+      "corrupted": "Noget tyder på, at kommunene har indsamlet og udvekslet oplysninger om priserne, og det er et samarbejde, som er en alvorlig konkurrence-overskridelse.",
+      "types": [
+        "corrupt_noun_r"
+      ],
+      "source": "tv2r",
+      "original": "Noget tyder på, at kommunerne har indsamlet og udvekslet oplysninger om priserne, og det er et samarbejde, som er en alvorlig konkurrence-overskridelse.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-098",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "train:584306",
+      "split": "train",
+      "corrupted": "Politiet i hele landet gennemførte i sidste uge en målrettet indsats mod trafikanter, der køre for stærkt.",
+      "types": [
+        "corrupt_verb_r"
+      ],
+      "source": "tv2r",
+      "original": "Politiet i hele landet gennemførte i sidste uge en målrettet indsats mod trafikanter, der kører for stærkt.",
+      "pair_recovery": "exact corrupted-text match in pinned paired export",
+      "sample_id": "da-099",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "pair_recovery_verified": true,
+      "strict_usable_pair": true
+    }
+  ],
+  "review": {
+    "reviewer": "codex/gpt-6",
+    "kind": "agent linguistic inspection",
+    "date": "2026-09-21",
+    "independent_human_validation": false,
+    "standard": "Grammar/spelling; uncertainty retained; ordinary headlines/fragments are not automatically errors; factual changes alone are not grammatical errors."
+  }
+}

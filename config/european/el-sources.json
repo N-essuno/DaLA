@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "pilot_max_sentences": 3000,
+      "name": "UD_Greek-GDT",
+      "language": "el",
+      "path": "/work/mimir/DaLA/la_output/resources/european/el/el_gdt-ud-train.conllu",
+      "revision": "2e81f159f5009b3f9727a3ada6bcc5c9d265f129",
+      "sha256": "892cd36cd47372ec0d7ccdbc874af9a6994651cdb0cf2cee6ba93bb01ee83794",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Greek-GDT/2e81f159f5009b3f9727a3ada6bcc5c9d265f129/el_gdt-ud-train.conllu",
+      "license": "CC BY-NC-SA 3.0"
+    }
+  ]
+}

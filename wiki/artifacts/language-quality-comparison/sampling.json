@@ -1,0 +1,25 @@
+{
+  "seed": "dala-quality-comparison-20260921-v1",
+  "n_per_language": 100,
+  "english_population": 478930,
+  "danish_population": 492063,
+  "english_manifest_sha256": "e4d1454deb470cb8114eb859aa8287053e0af096bc626246e4df099c72a28013",
+  "danish_raw": {
+    "repo": "giannor/dala_tv2r",
+    "revision": "b2deeb25200996ccedf61858df9d4620ecb3a039"
+  },
+  "danish_pairs": {
+    "repo": "giannor/dala_gen_tv2r",
+    "revision": "75a61fd90fd929a5859dd5caccde02300e5b5036"
+  },
+  "danish_exact_paired_matches": 87,
+  "danish_needing_alignment_review": 13,
+  "file_sha256": {
+    "la_output/cache/danish_tv2r_comparison/data/train-00000-of-00001.parquet": "6ec1ac5c608d8217319324567af89e26bb17fb407b0afbb61ee766476921a69f",
+    "la_output/cache/danish_tv2r_comparison/data/test-00000-of-00001.parquet": "e886d187aa972a1a70b83629b26f1c246d6379a1564a19a7317d4c15656031ee",
+    "la_output/cache/danish_tv2r_comparison/data/val-00000-of-00001.parquet": "214f86614a4d79fa9e8a3a58087e5b0406ee54dbf2727017ea293aee89690f4c",
+    "la_output/cache/danish_tv2r_raw_comparison/data/test-00000-of-00001.parquet": "25617d3c1137c626453555a204acfa4acce3d74d281b4e41f791d755b233d977",
+    "la_output/cache/danish_tv2r_raw_comparison/data/train-00000-of-00001.parquet": "ebce1d97961145dab0ee1e95b00d5771ee565509363f6c5e3fb24e55d47b98ff",
+    "la_output/cache/danish_tv2r_raw_comparison/data/val-00000-of-00001.parquet": "0832989913b6a6e99f8db6d83df5d4d7ddb7e8a9caeb29a9ce4fc9e0bb73b2b9"
+  }
+}

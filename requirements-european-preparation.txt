@@ -1,0 +1,3 @@
+# Additional dependency only for pinned local checker XML fixture extraction.
+# Dataset generation uses requirements-multilingual.txt.
+lxml==6.1.3

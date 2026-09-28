@@ -1,0 +1,324 @@
+--- a/dala/parsing.py
++++ b/dala/parsing.py
+@@ -53,6 +53,7 @@
+         self.max_sentence_tokens = profile.get('parser_max_sentence_tokens', 80)
+         self.expand_mwt = profile.get('parser_expand_mwt', False)
+         self.skip_unalignable_sentences = profile.get('parser_skip_unalignable_sentences', False)
++        self.recover_mwt = profile.get('parser_recover_mwt', False)
+ 
+     def __call__(self, text):
+         from spacy.tokens import Doc
+@@ -60,7 +61,7 @@
+         if self.expand_mwt and 'mwt' in self.nlp.processors:
+             processors.append('mwt')
+         parsed = self.nlp(text, processors=processors)
+-        if self.expand_mwt and not self.skip_unalignable_sentences and any(len(t.words) != 1 for s in parsed.sentences for t in s.tokens):
++        if self.expand_mwt and not self.skip_unalignable_sentences and not getattr(self, 'recover_mwt', False) and any(len(t.words) != 1 for s in parsed.sentences for t in s.tokens):
+             self.rejections['parser_unalignable_paragraph'] = self.rejections.get('parser_unalignable_paragraph', 0) + 1
+             return None
+         kept = [s for s in parsed.sentences if len(s.words) <= self.max_sentence_tokens]
+@@ -71,6 +72,13 @@
+             parsed = stanza.Document([sentence.to_dict() for sentence in kept], text=text)
+         if not kept: return None
+         parsed = self.nlp(parsed, processors=['pos','lemma','depparse'])
++        if getattr(self, 'recover_mwt', False) and any(len(t.words) != 1 for s in parsed.sentences for t in s.tokens):
++            from .surface_syntax import SurfaceDocument
++            try:
++                return SurfaceDocument(text, parsed.sentences, self.vocab)
++            except (ValueError, KeyError):
++                self.rejections['parser_invalid_surface_graph'] = self.rejections.get('parser_invalid_surface_graph', 0) + 1
++                return None
+         entries = []
+         cursor = 0
+         for sentence in parsed.sentences:
+--- /dev/null
++++ b/dala/surface_syntax.py
+@@ -0,0 +1,74 @@
++"""Exact source spans with a separate expanded syntactic graph.
++
++Expanded words are never editable. No artificial tokenization is exported.
++"""
++from types import SimpleNamespace
++from spacy.tokens import Doc
++
++
++class SurfaceToken:
++    def __init__(self, token, owner, span, protected):
++        self.token, self.owner = token, owner
++        self.idx, self.end = span
++        self.surface_protected = protected
++
++    def __getattr__(self, key):
++        return getattr(self.token, key)
++
++    @property
++    def lemma_(self): return self.token.lemma_
++
++    @lemma_.setter
++    def lemma_(self, value): self.token.lemma_ = value
++
++    @property
++    def head(self): return self.owner.tokens[self.token.head.i]
++
++    @property
++    def children(self): return (self.owner.tokens[t.i] for t in self.token.children)
++
++
++class SurfaceSentence:
++    def __init__(self, text, sentence, vocab, token_base):
++        self.start_char = sentence.tokens[0].start_char
++        self.end_char = sentence.tokens[-1].end_char
++        self.text = text[self.start_char:self.end_char]
++        records = []
++        previous = self.start_char
++        for surface in sentence.tokens:
++            a, b = surface.start_char, surface.end_char
++            if a is None or b is None or a < previous or b <= a or text[a:b] != surface.text:
++                raise ValueError('Invalid source token offsets')
++            previous = b
++            protected = len(surface.words) != 1
++            for word in surface.words:
++                if not protected and word.text != surface.text:
++                    raise ValueError('Single word differs from source token')
++                records.append((word, (a, b), protected))
++        indices = {w.id: i for i, (w, _, _) in enumerate(records)}
++        if len(indices) != len(records): raise ValueError('Duplicate syntactic word ID')
++        syntax = Doc(vocab, words=[w.text for w, _, _ in records],
++                     heads=[indices[w.head] if w.head else i for i, (w, _, _) in enumerate(records)],
++                     deps=[w.deprel if w.head else 'ROOT' for w, _, _ in records],
++                     pos=[w.upos or 'X' for w, _, _ in records],
++                     lemmas=[w.lemma or w.text for w, _, _ in records],
++                     morphs=[w.feats or '' for w, _, _ in records])
++        self.tokens = [SurfaceToken(syntax[i], self, span, protected)
++                       for i, (_, span, protected) in enumerate(records)]
++        self.start, self.end = token_base, token_base + len(records)
++        self.doc = SimpleNamespace(ents=())
++
++    def __iter__(self): return iter(self.tokens)
++    def __len__(self): return len(self.tokens)
++    def __getitem__(self, key): return self.tokens[key]
++
++
++class SurfaceDocument:
++    def __init__(self, text, sentences, vocab):
++        self.doc = SimpleNamespace(text=text)
++        self.sents = []
++        base = 0
++        for sentence in sentences:
++            span = SurfaceSentence(text, sentence, vocab, base)
++            self.sents.append(span)
++            base = span.end
+--- a/dala/language_packs/morphology.py
++++ b/dala/language_packs/morphology.py
+@@ -219,6 +219,14 @@
+         return reason is None
+ 
+     def context_rejection(self, token, rule, pair):
++        # Fail closed when the edited token or its local syntactic context
++        # depends on a contracted surface span.
++        context = [token]
++        for _ in range(2):
++            context = [*context, *(t.head for t in context),
++                       *(c for t in context for c in t.children)]
++        if any(getattr(t, 'surface_protected', False) for t in context):
++            return 'protected_surface_context'
+         feature = rule.get('feature')
+         before = pair.get('before', {})
+         after = pair.get('after', {})
+@@ -291,6 +299,7 @@
+     def candidates(self, sent, book):
+         out = []
+         for token in sent:
++            if getattr(token, 'surface_protected', False): continue
+             if not token.is_alpha or token.pos_ in {'PROPN', 'X'} or token.ent_type_: continue
+             if self.options.get('protect_capitalized_lemmas') and token.lemma_[:1].isupper(): continue
+             if token.text[0].isupper() and token.idx != sent.start_char and token.pos_ not in self.profile.get('capitalized_corruption_pos', []): continue
+--- a/dala/morphology_check.py
++++ b/dala/morphology_check.py
+@@ -17,10 +17,18 @@
+         self.stack = ExitStack()
+         self.source_checker = None
+         if profile['checker'].get('source_languagetool'):
+-            from .language_check import LanguageCheck, local_server
+-            url = self.stack.enter_context(local_server(directory=profile['checker'].get('tools_dir','la_output/tools'),
+-                                                       instance='six-'+profile['language']))
+-            self.source_checker = LanguageCheck(url, Path('la_output/cache') / ('source-'+profile['language']+'.sqlite3'),
++            from .language_check import LanguageCheck, local_server, local_servers
++            instances = profile['checker'].get('instances', 1)
++            if not isinstance(instances, int) or instances < 1:
++                raise ValueError('Positive integer checker instances required')
++            if instances == 1:
++                servers = local_server(directory=profile['checker'].get('tools_dir','la_output/tools'),
++                                       instance='six-'+profile['language'])
++            else:
++                servers = local_servers(directory=profile['checker'].get('tools_dir','la_output/tools'),
++                                        instances=instances, threads=profile['checker'].get('workers', 8))
++            url = self.stack.enter_context(servers)
++            self.source_checker = LanguageCheck(url, Path(profile['checker'].get('cache_path', Path('la_output/cache') / ('source-'+profile['language']+'.sqlite3'))),
+                                                dialects=[profile['language']], commit_batch_size=100)
+             self.stack.callback(self.source_checker.close)
+             self.software['original_sentence_checker'] = self.source_checker.software
+--- /dev/null
++++ b/tests/test_surface_syntax.py
+@@ -0,0 +1,70 @@
++from types import SimpleNamespace as N
++import unittest
++import spacy
++from dala.surface_syntax import SurfaceDocument
++from dala.language_packs.morphology import MorphologyPack
++
++class SurfaceTests(unittest.TestCase):
++    def make(self):
++        text='Les enfants parlent du grand jardin.'
++        forms=[('Les','DET',2,'det'),('enfants','NOUN',3,'nsubj'),('parlent','VERB',0,'root'),('de','ADP',7,'case'),('le','DET',7,'det'),('grand','ADJ',7,'amod'),('jardin','NOUN',3,'obl'),('.','PUNCT',3,'punct')]
++        words=[N(id=i+1,text=t,upos=p,head=h,deprel=d,lemma=t.lower(),feats='') for i,(t,p,h,d) in enumerate(forms)]
++        tokens=[]
++        cursor=0
++        for surface,ids in [('Les',[0]),('enfants',[1]),('parlent',[2]),('du',[3,4]),('grand',[5]),('jardin',[6]),('.',[7])]:
++            a=text.index(surface,cursor);b=a+len(surface);cursor=b
++            tokens.append(N(text=surface,start_char=a,end_char=b,words=[words[i] for i in ids]))
++        return text,N(tokens=tokens,words=words)
++
++    def test_source_spans_and_expanded_dependencies(self):
++        text,s=self.make();doc=SurfaceDocument(text,[s],spacy.blank('xx').vocab);span=doc.sents[0]
++        self.assertEqual(doc.doc.text,text);self.assertEqual(span.text,text)
++        self.assertEqual(span[3].head.text,'jardin');self.assertEqual(span[4].head.text,'jardin')
++        self.assertTrue(span[3].surface_protected);self.assertTrue(span[4].surface_protected)
++        for t in span:
++            if not t.surface_protected:self.assertEqual(text[t.idx:t.end],t.text)
++        self.assertEqual(span[5].head.text,'jardin')
++
++    def test_grammar_context_touching_expansion_is_blocked(self):
++        text,s=self.make();span=SurfaceDocument(text,[s],spacy.blank('xx').vocab).sents[0]
++        pack=MorphologyPack.__new__(MorphologyPack);pack.profile={}
++        self.assertEqual(pack.context_rejection(span[5],{},{}),'protected_surface_context')
++
++    def test_spelling_edits_only_exact_unprotected_spans(self):
++        text,s=self.make();span=SurfaceDocument(text,[s],spacy.blank('xx').vocab).sents[0]
++        pack=MorphologyPack.__new__(MorphologyPack);pack.profile={};pack.recognized=lambda w:w in {'les','enfants','parlent','de','le','grand','jardin'}
++        rules=[dict(id='fr_'+w,family='spelling',operator='observed_nonword',pos=[p],mappings={w:[w+'x']}) for w,p in [('de','ADP'),('le','DET'),('jardin','NOUN')]]
++        pack.by_word={w:[r] for w,r in zip(['de','le','jardin'],rules)}
++        edits=pack.candidates(span,{'rules':rules})
++        self.assertEqual([e.original for e in edits],['jardin'])
++        for e in edits:self.assertEqual(text[e.start:e.end],e.original)
++        from dala.pair_pipeline import prepare_sentence
++        pack.sentence_rejection=lambda sentence,misspellings:None
++        pack.profile={'selection':{'priority':['spelling']}}
++        pack.rule_priority={}
++        document={'document_id':'fixture','text':'Prefix\n'+text}
++        prepared,reason,_=prepare_sentence(span,document,7,pack,{'rules':rules},
++            {'language':'fr'},42,1,set(),{r['id']:r for r in rules})
++        self.assertIsNone(reason)
++        pair,_=prepared
++        self.assertEqual(document['text'][pair['sentence_start']:pair['sentence_end']],text)
++        self.assertEqual(pair['corrupted'],text.replace('jardin','jardinx'))
++
++    def test_bad_offsets_fail_closed(self):
++        text,s=self.make();s.tokens[3].start_char+=1
++        with self.assertRaises(ValueError):SurfaceDocument(text,[s],spacy.blank('xx').vocab)
++
++    def test_neighbor_sentence_offsets_and_dependencies(self):
++        import copy
++        text,first=self.make();second=copy.deepcopy(first)
++        offset=len(text)+2
++        for token in second.tokens:
++            token.start_char+=offset;token.end_char+=offset
++        combined=text+'\n\n'+text
++        doc=SurfaceDocument(combined,[first,second],spacy.blank('xx').vocab)
++        self.assertEqual(len(doc.sents),2)
++        later=doc.sents[1]
++        self.assertEqual(later.start_char,offset)
++        self.assertEqual(combined[later.start_char:later.end_char],text)
++        self.assertEqual(later[3].head.text,'jardin')
++        self.assertTrue(all(t.head.owner is later for t in later))
+--- /dev/null
++++ b/tests/test_morphology_checker_pool.py
+@@ -0,0 +1,23 @@
++import unittest
++from contextlib import nullcontext
++from unittest.mock import patch, MagicMock
++from dala.morphology_check import MorphologyCheck
++
++class CheckerPoolTests(unittest.TestCase):
++    def test_opt_in_pool_reuses_existing_client(self):
++        with patch('dala.morphology_check.load_adapter'), patch('dala.language_check.local_servers') as servers, patch('dala.language_check.LanguageCheck') as client:
++            urls=['http://localhost:1234','http://localhost:1235']
++            servers.return_value=nullcontext(urls)
++            profile={'language':'fr','checker':{'source_languagetool':True,'instances':2,'workers':16,'cache_path':'/tmp/diagnostic.sqlite3'}}
++            checker=MorphologyCheck(profile)
++            self.assertEqual(client.call_args.args[0],urls)
++            self.assertEqual(str(client.call_args.args[1]),'/tmp/diagnostic.sqlite3')
++            self.assertEqual(servers.call_args.kwargs['instances'],2)
++            checker.close();client.return_value.close.assert_called_once()
++
++    def test_default_single_server_behavior_preserved(self):
++        with patch('dala.morphology_check.load_adapter'), patch('dala.language_check.local_server') as server, patch('dala.language_check.local_servers') as servers, patch('dala.language_check.LanguageCheck') as client:
++            server.return_value=nullcontext('http://localhost:1234')
++            checker=MorphologyCheck({'language':'fr','checker':{'source_languagetool':True}})
++            self.assertEqual(client.call_args.args[0],'http://localhost:1234')
++            servers.assert_not_called();checker.close()
+--- /dev/null
++++ b/scripts/diagnose_mwt_recovery.py
+@@ -0,0 +1,62 @@
++"""Bounded paired CPU diagnostic; never modifies production checkpoints."""
++import json,time,argparse
++from pathlib import Path
++from collections import Counter
++from dala.profiles import load_profile,resource
++from dala.parsing import StanzaParser
++from dala.language_packs.morphology import MorphologyPack
++
++p=argparse.ArgumentParser();p.add_argument('language');p.add_argument('--paragraphs',type=int,default=30);a=p.parse_args()
++root=Path('/work/mimir/DaLA');out=root/'wiki/artifacts/european-expansion/mwt-recovery';out.mkdir(exist_ok=True)
++profile=load_profile(root/f'la_output/resources/european-expansion/european_scale_v1/{a.language}/profile.json')
++profile['parser_recover_mwt']=True
++profile['checker']['cache_path']=str(root/'la_output/cache'/('mwt-recovery-'+a.language+'.sqlite3'))
++pack=MorphologyPack(profile);book=pack.load_rulebook(resource(profile,'rulebook'));parser=StanzaParser(profile)
++source=json.loads(resource(profile,'sources_config').read_text())
++
++# Explicit source path supplied by the canonical adapter configuration.
++from dala.canonical_source import documents
++paragraphs=[]
++for doc in documents([(s, {'data':Path(s['path'])},s) for s in source['sources']]):
++ for text,offset in pack.paragraphs(doc):
++  paragraphs.append(text)
++  if len(paragraphs)>=a.paragraphs:break
++ if len(paragraphs)>=a.paragraphs:break
++report={};examples=[]
++from dala.morphology_check import MorphologyCheck
++checker=MorphologyCheck(profile)
++try:
++    for mode in [False,True]:
++     parser.recover_mwt=mode;counts=Counter();families=Counter();rejections=Counter();started=time.monotonic()
++     for text in paragraphs:
++      parsed=parser(text)
++      if parsed is None:continue
++      assert parsed.doc.text==text
++      for sent in parsed.sents:
++       counts['sentences']+=1
++       reason=pack.sentence_rejection(sent,set())
++       if reason:rejections[reason]+=1;continue
++       counts['eligible_sources']+=1
++       edits=pack.candidates(sent,book)
++       if not edits:continue
++       chosen=pack.select_edits(sent.text,edits,42,1)
++       for edit in chosen:assert sent.text[edit.start:edit.end]==edit.original
++       counts['candidate_pairs']+=1;families.update(e.corruption_type for e in chosen)
++       if mode and any(getattr(t,'surface_protected',False) for t in sent):
++        counts['recovered_candidate_pairs']+=1
++        examples.append(dict(original=sent.text,edits=[e.__dict__ for e in chosen]))
++     report[str(mode)]=dict(counts=counts,families=families,rejections=rejections,seconds=time.monotonic()-started)
++    screened=Counter()
++    for example in examples:
++     edits=[dict(e,corrupted_start=e['start'],corrupted_end=e['start']+len(e['replacement'])) for e in example['edits']]
++     e=edits[0];text=example['original'];corrupted=text[:e['start']]+e['replacement']+text[e['end']:]
++     evidence,reason=checker.screen(text,corrupted,edits)
++     example.update(corrupted=corrupted,screen_rejection=reason)
++     screened[reason or 'accepted']+=1
++finally:
++    checker.close()
++report['recovered_screening']=screened
++report['language']=a.language;report['paragraphs']=len(paragraphs)
++(out/f'{a.language}-recovery.json').write_text(json.dumps(report,indent=2,ensure_ascii=False)+'\n')
++(out/f'{a.language}-recovered-examples.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in examples))
++print(json.dumps(report,ensure_ascii=False),flush=True)

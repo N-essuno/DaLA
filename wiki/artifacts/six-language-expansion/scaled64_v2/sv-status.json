@@ -1,0 +1,7 @@
+{
+  "language": "sv",
+  "exit_code": 1,
+  "log": "wiki/artifacts/six-language-expansion/scaled64_v2/sv.log",
+  "output": "la_output/sv_dynaword_scaled64_v2",
+  "status": "failed_checkpoints_preserved"
+}

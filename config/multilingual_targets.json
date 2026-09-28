@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "languages": {
+    "pl": {
+      "name": "Polish",
+      "dataset_id": "dala-polish-dynaword",
+      "target_pairs": 478930,
+      "size_policy": "target_without_relaxing_quality"
+    },
+    "sv": {
+      "name": "Swedish",
+      "dataset_id": "dala-swedish-dynaword",
+      "target_pairs": 478930,
+      "size_policy": "target_without_relaxing_quality"
+    },
+    "nb": {
+      "name": "Norwegian Bokmål",
+      "dataset_id": "dala-norwegian-bokmaal-dynaword",
+      "target_pairs": 478930,
+      "size_policy": "target_without_relaxing_quality"
+    },
+    "nn": {
+      "name": "Norwegian Nynorsk",
+      "dataset_id": "dala-norwegian-nynorsk-dynaword",
+      "target_pairs": 478930,
+      "size_policy": "cap_selected_dataset_preserve_full_source_pool",
+      "full_pool_pairs": 871199
+    },
+    "fo": {
+      "name": "Faroese",
+      "dataset_id": "dala-faroese-dynaword",
+      "target_pairs": null,
+      "size_policy": "exhaust_suitable_sources"
+    },
+    "is": {
+      "name": "Icelandic",
+      "dataset_id": "dala-icelandic-dynaword",
+      "target_pairs": 478930,
+      "size_policy": "target_without_relaxing_quality"
+    }
+  },
+  "coverage_policy": {
+    "independent_of_size": true,
+    "require_grammar_and_spelling": true,
+    "report_configured_eligible_selected_and_audited_rules_separately": true,
+    "allow_correct_to_correct": false,
+    "allow_standard_conversion": false,
+    "allow_paraphrase_style_simplification": false,
+    "publication_requires_audit": true
+  }
+}

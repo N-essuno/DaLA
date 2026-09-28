@@ -1,0 +1,56 @@
+{
+  "language": "pl",
+  "passed": true,
+  "fixtures": [
+    {
+      "text": "Ona napisała długi list do swojej koleżanki.",
+      "rejection": null,
+      "families": [
+        "adjective_case",
+        "determiner_case",
+        "determiner_gender",
+        "preposition_case",
+        "spelling",
+        "verb_number_agreement"
+      ],
+      "missing": [],
+      "forbidden": [],
+      "passed": true,
+      "lexical_conflicts": []
+    },
+    {
+      "text": "Ja mogę przeczytać tę ciekawą książkę jeszcze dzisiaj.",
+      "rejection": null,
+      "families": [
+        "adjective_case",
+        "adjective_gender",
+        "adjective_number",
+        "determiner_case",
+        "determiner_gender",
+        "determiner_number",
+        "governed_infinitive",
+        "pronoun_case",
+        "spelling",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "missing": [],
+      "forbidden": [],
+      "passed": true,
+      "lexical_conflicts": []
+    },
+    {
+      "text": "Jagody, orzechy, migdały i miód należały do ówczesnych słodyczy.",
+      "rejection": null,
+      "families": [
+        "adjective_case",
+        "preposition_case",
+        "spelling"
+      ],
+      "missing": [],
+      "forbidden": [],
+      "passed": true,
+      "lexical_conflicts": []
+    }
+  ]
+}

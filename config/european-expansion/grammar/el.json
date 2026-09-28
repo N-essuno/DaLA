@@ -1,0 +1,62 @@
+{
+  "language": "el",
+  "rule_overrides": {
+    "verb_number_agreement": {
+      "noun_subject": {
+        "lemmas": [
+          "άνδρας",
+          "γυναίκα",
+          "δάσκαλος",
+          "μαθητής",
+          "συγγραφέας",
+          "πόλη",
+          "σχολείο",
+          "εταιρεία",
+          "κτίριο",
+          "βιβλίο",
+          "δέντρο"
+        ],
+        "review": "agent conservative count-noun inventory; no native validation"
+      }
+    }
+  },
+  "status": "candidate_only_agent_reviewed",
+  "reason": "Explicit conservative coverage extensions; shared code, isolated linguistic constraints",
+  "profile_overrides": {
+    "personal_pronoun_features": {
+      "εγώ": {
+        "Number": "Sing",
+        "Person": "1"
+      },
+      "εσύ": {
+        "Number": "Sing",
+        "Person": "2"
+      },
+      "αυτός": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "αυτή": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "εμείς": {
+        "Number": "Plur",
+        "Person": "1"
+      },
+      "εσείς": {
+        "Number": "Plur",
+        "Person": "2"
+      },
+      "αυτοί": {
+        "Number": "Plur",
+        "Person": "3"
+      },
+      "αυτές": {
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    "personal_pronoun_by_dependency": true
+  }
+}

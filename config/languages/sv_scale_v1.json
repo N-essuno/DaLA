@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "language": "sv",
+  "name": "DaLA Swedish — DynaWord",
+  "mode": "pairs",
+  "parser": "stanza",
+  "parser_backend": "stanza",
+  "parser_settings": {
+    "directory": "la_output/resources/multilingual/stanza",
+    "processors": {
+      "tokenize": "talbanken",
+      "pos": "talbanken_nocharlm",
+      "depparse": "talbanken_nocharlm",
+      "lemma": "talbanken_nocharlm"
+    },
+    "model_sha256": {
+      "sv/depparse/talbanken_nocharlm.pt": "d5f60c3cd9b0bafecb1001fed923f8bbc6f2ea1e5fc57b8b28d11818b42fe812",
+      "sv/lemma/talbanken_nocharlm.pt": "538bdfda51d58b629cc06f5e4cebaa998f9504c27f4f88aa7ff8baa4890b1cc8",
+      "sv/pos/talbanken_nocharlm.pt": "8690ff5e363cf7cbdd7200d20e6ef30a54a8e9c7f798c6bf530e603d3bada6d5",
+      "sv/pretrain/conll17.pt": "1ef6e4170f0cc31eb1a612974eb43e7491f41a5918fadb3b2b947253e7e10e55",
+      "sv/tokenize/talbanken.pt": "3bf69f339122bad22939207401f1d634887941c04f857f30398ee481e3835eea"
+    },
+    "stanza_version": "1.11.0"
+  },
+  "parser_threads": 2,
+  "sources": {
+    "adapter": "dynaword"
+  },
+  "sources_config": "../sv_sources.json",
+  "rulebook": "../../la_output/resources/multilingual/sv/rules.json.gz",
+  "exclusions": "../sv_source_exclusions.json",
+  "resource_directory": "../../la_output/resources/multilingual/sv",
+  "adapter": "dala.language_packs.morphology:MorphologyPack",
+  "selection": {
+    "strategy": "hash_rotate_grammar_then_spelling",
+    "max_errors": 1,
+    "priority": [
+      "adjective_gender",
+      "adjective_number",
+      "adjective_definite",
+      "determiner_gender",
+      "determiner_number",
+      "governed_infinitive",
+      "perfect_verb_form",
+      "pronoun_case",
+      "spelling"
+    ]
+  },
+  "checker": {
+    "mode": "morphology",
+    "workers": 32,
+    "source_languagetool": true,
+    "tools_dir": "/tmp/dala-six-tools"
+  },
+  "prompts": {
+    "acceptability": "Är den här meningen grammatiskt korrekt och rättstavad på svenska? Svara endast med yes eller no.",
+    "correction": "Rätta grammatik- och stavfel i den här svenska meningen. Om meningen redan är korrekt, återge den oförändrad. Behåll svenska, betydelsen och stilen. Svara endast med meningen."
+  },
+  "standard_exclusions": [],
+  "curation": {
+    "min_words": 7,
+    "max_words": 35,
+    "max_sentence_chars": 320,
+    "max_paragraph_chars": 6000,
+    "source_risk_patterns": [
+      "^(?:[IVXLCDM]+|[A-Z])[.)]\\s"
+    ]
+  },
+  "description": "Pinned DynaWord prose. Candidate dataset: dictionary and syntactic-rule screening; independent linguistic audit required.",
+  "dependencies": [
+    "requests",
+    "pyarrow",
+    "huggingface-hub",
+    "stanza",
+    "spylls"
+  ],
+  "source_sampling": "round_robin",
+  "export_used_rule_mappings": true,
+  "release_policy": {
+    "status": "candidate_only",
+    "require_audit_per_family": true,
+    "target": {
+      "name": "Swedish",
+      "dataset_id": "dala-swedish-dynaword",
+      "target_pairs": 478930,
+      "size_policy": "target_without_relaxing_quality"
+    }
+  },
+  "indefinite_articles": [
+    "en",
+    "ett"
+  ],
+  "build": {
+    "parser_processes": 16,
+    "document_batch_size": 8,
+    "max_task_chars": 30000,
+    "checkpoint_dir": "la_output/sv_scale_v1_checkpoints",
+    "allow_shortfall": true,
+    "target_pairs": 478930,
+    "split_targets": {
+      "train": 383144,
+      "validation": 47893,
+      "test": 47893
+    }
+  },
+  "morphology_options": {
+    "lemma_strategy": "parsed",
+    "source_pronoun_agreement": false,
+    "complete_verb_agreement_from_subject": false,
+    "gender_equivalences": []
+  }
+}

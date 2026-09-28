@@ -1,0 +1,31 @@
+{
+  "review": {
+    "reviewer": "Codex agent",
+    "native_speaker_gold": false,
+    "completed_at": "2026-09-22T06:10:56.355475+00:00",
+    "scope": "All 100 previously unreviewed originals and edits, including full grammar-corrupted sentences; 50 independent draws per source. Not factual verification."
+  },
+  "sources": {
+    "acceptable": 93,
+    "erroneous": 5,
+    "uncertain": 2
+  },
+  "edits": {
+    "valid": 100
+  },
+  "by_source": {
+    "de_rechtspraak": {
+      "acceptable": 49,
+      "erroneous": 1
+    },
+    "officiele_bekendmakingen": {
+      "uncertain": 2,
+      "acceptable": 44,
+      "erroneous": 4
+    }
+  },
+  "note": "Stratified 50/50 audit; do not interpret 93/100 as an estimate for the source-weighted production population.",
+  "language_advice": [
+    "https://taaladvies.net/eenzelfde-of-een-zelfde/"
+  ]
+}

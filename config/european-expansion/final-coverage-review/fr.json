@@ -1,0 +1,18 @@
+{
+  "language": "fr",
+  "source_sha256": [
+    "3a28073511429b15e4a66edcf89ca749212ef742345c67c24e80a6ae4b65ad00"
+  ],
+  "review_type": "automatic source-boundary risk filter plus explicitly recorded agent judgments; not native validation",
+  "source_risk_patterns": [
+    "[!?]"
+  ],
+  "judgments": [
+    {
+      "pair_id": "a564d7bb2d2efd9fd5a5892a",
+      "original": "Qu'est-ce qu'elles ont les filles?, J'ai lu, coll.",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    }
+  ]
+}

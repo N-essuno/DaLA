@@ -1,0 +1,546 @@
+{
+  "at": "2026-09-26T13:27:54.710452+00:00",
+  "status": {
+    "timestamp": "2026-09-26T13:26:51.995772+00:00",
+    "epoch": 1790429211.8830085,
+    "supervisor_pid": 2819156,
+    "parser_workers": 192,
+    "configured_parser_workers": 192,
+    "pairs": 1820152,
+    "languages": {
+      "ca": {
+        "phase": "generating",
+        "pid": 2819168,
+        "parser_workers": 16,
+        "configured_parser_workers": 16,
+        "pairs": 109349,
+        "splits": {
+          "train": 86435,
+          "validation": 11458,
+          "test": 11456
+        },
+        "processed_batches": 9105,
+        "counts": {
+          "documents": 72356,
+          "paragraphs": 713400,
+          "sentences": 1427877,
+          "candidates": 200498,
+          "document_fragments": 72840
+        },
+        "exit_code": null,
+        "count_basis": "current",
+        "reconstructed_pairs": 109349,
+        "selected_by_type": {
+          "determiner_gender": 28692,
+          "determiner_number": 40661,
+          "adjective_number": 6373,
+          "spelling": 26008,
+          "adjective_gender": 2864,
+          "verb_number_agreement": 772,
+          "governed_infinitive": 1594,
+          "perfect_verb_form": 2260,
+          "verb_person_agreement": 125
+        },
+        "timing_seconds": {
+          "tokenize": 141.06193288066424,
+          "syntax": 526.8514886342455,
+          "candidate_preparation": 247.53444233117625,
+          "total": 921.9529170554597,
+          "screening": 59.52575678867288
+        },
+        "source_batch_count": 92807,
+        "total_batches": 101814,
+        "interval_retained_pairs": 2350,
+        "pairs_per_second": 18.175
+      },
+      "cs": {
+        "phase": "generating",
+        "pid": 2819169,
+        "parser_workers": 16,
+        "configured_parser_workers": 16,
+        "pairs": 133411,
+        "splits": {
+          "train": 106371,
+          "validation": 13584,
+          "test": 13456
+        },
+        "processed_batches": 8532,
+        "counts": {
+          "documents": 67853,
+          "paragraphs": 730566,
+          "sentences": 1619215,
+          "candidates": 135827,
+          "document_fragments": 68256
+        },
+        "exit_code": null,
+        "count_basis": "current",
+        "reconstructed_pairs": 133411,
+        "selected_by_type": {
+          "spelling": 75768,
+          "adjective_case": 26239,
+          "adjective_number": 4236,
+          "preposition_case": 14425,
+          "verb_person_agreement": 39,
+          "determiner_gender": 756,
+          "determiner_case": 6371,
+          "governed_infinitive": 1579,
+          "determiner_number": 851,
+          "adjective_gender": 2677,
+          "verb_number_agreement": 470
+        },
+        "timing_seconds": {
+          "tokenize": 236.24195198738016,
+          "syntax": 995.2574850509409,
+          "candidate_preparation": 435.9205520960968,
+          "total": 1681.297769662924,
+          "screening": 6.562380339950323
+        },
+        "source_batch_count": 67141,
+        "total_batches": 75482,
+        "interval_retained_pairs": 2916,
+        "pairs_per_second": 22.553
+      },
+      "de": {
+        "phase": "generating",
+        "pid": 2819170,
+        "parser_workers": 20,
+        "configured_parser_workers": 20,
+        "pairs": 232861,
+        "splits": {
+          "train": 185311,
+          "test": 23562,
+          "validation": 23988
+        },
+        "processed_batches": 6183,
+        "counts": {
+          "documents": 49013,
+          "paragraphs": 660669,
+          "sentences": 1490182,
+          "candidates": 236847,
+          "document_fragments": 49464
+        },
+        "exit_code": null,
+        "count_basis": "current",
+        "reconstructed_pairs": 232861,
+        "selected_by_type": {
+          "spelling": 125313,
+          "determiner_gender": 55282,
+          "perfect_verb_form": 438,
+          "verb_person_agreement": 10911,
+          "determiner_case": 9479,
+          "verb_number_agreement": 17138,
+          "adjective_gender": 6415,
+          "governed_infinitive": 1667,
+          "determiner_number": 361,
+          "preposition_case": 4640,
+          "adjective_number": 604,
+          "adjective_case": 613
+        },
+        "timing_seconds": {
+          "tokenize": 14.586263220291585,
+          "syntax": 50.623956826748326,
+          "candidate_preparation": 79.1731832313817,
+          "total": 145.11576939374208,
+          "screening": 6.428847912931815
+        },
+        "source_batch_count": 359042,
+        "total_batches": 365219,
+        "interval_retained_pairs": 413,
+        "pairs_per_second": 3.194
+      },
+      "el": {
+        "phase": "generating",
+        "pid": 2819171,
+        "parser_workers": 20,
+        "configured_parser_workers": 20,
+        "pairs": 16764,
+        "splits": {
+          "train": 13354,
+          "test": 1673,
+          "validation": 1737
+        },
+        "processed_batches": 9192,
+        "counts": {
+          "documents": 72780,
+          "paragraphs": 841161,
+          "sentences": 1864380,
+          "candidates": 23072,
+          "document_fragments": 73536
+        },
+        "exit_code": null,
+        "count_basis": "current",
+        "reconstructed_pairs": 16764,
+        "selected_by_type": {
+          "spelling": 8722,
+          "determiner_case": 2753,
+          "determiner_gender": 943,
+          "determiner_number": 3870,
+          "adjective_case": 207,
+          "adjective_gender": 77,
+          "adjective_number": 152,
+          "verb_number_agreement": 19,
+          "verb_person_agreement": 21
+        },
+        "timing_seconds": {
+          "tokenize": 518.7516379286535,
+          "syntax": 1923.0210901214741,
+          "candidate_preparation": 23.439171797363088,
+          "total": 2489.5172413652763,
+          "screening": 58.930820192210376
+        },
+        "source_batch_count": 28664,
+        "total_batches": 37536,
+        "interval_retained_pairs": 898,
+        "pairs_per_second": 6.945
+      },
+      "es": {
+        "phase": "generating",
+        "pid": 2819172,
+        "parser_workers": 16,
+        "configured_parser_workers": 16,
+        "pairs": 128136,
+        "splits": {
+          "validation": 12835,
+          "train": 102900,
+          "test": 12401
+        },
+        "processed_batches": 8231,
+        "counts": {
+          "documents": 65163,
+          "paragraphs": 776440,
+          "sentences": 1492655,
+          "candidates": 220832,
+          "document_fragments": 65848
+        },
+        "exit_code": null,
+        "count_basis": "current",
+        "reconstructed_pairs": 128136,
+        "selected_by_type": {
+          "determiner_gender": 34889,
+          "determiner_number": 49997,
+          "spelling": 23265,
+          "governed_infinitive": 1096,
+          "adjective_number": 12508,
+          "perfect_verb_form": 1443,
+          "adjective_gender": 3791,
+          "verb_number_agreement": 946,
+          "verb_person_agreement": 201
+        },
+        "timing_seconds": {
+          "tokenize": 155.5160110516008,
+          "syntax": 586.3909940761514,
+          "candidate_preparation": 26.69238524697721,
+          "total": 775.667241381947,
+          "screening": 34.30850173858926
+        },
+        "source_batch_count": 232718,
+        "total_batches": 240877,
+        "interval_retained_pairs": 1568,
+        "pairs_per_second": 12.127
+      },
+      "et": {
+        "phase": "generating",
+        "pid": 2819173,
+        "parser_workers": 16,
+        "configured_parser_workers": 16,
+        "pairs": 394610,
+        "splits": {
+          "train": 313574,
+          "validation": 40858,
+          "test": 40178
+        },
+        "processed_batches": 12262,
+        "counts": {
+          "documents": 97648,
+          "paragraphs": 875417,
+          "sentences": 1663821,
+          "candidates": 400704,
+          "document_fragments": 98096
+        },
+        "exit_code": null,
+        "count_basis": "current",
+        "reconstructed_pairs": 394610,
+        "selected_by_type": {
+          "spelling": 306841,
+          "verb_person_agreement": 11111,
+          "adjective_case": 25202,
+          "determiner_number": 9884,
+          "adjective_number": 13306,
+          "determiner_case": 19859,
+          "verb_number_agreement": 8407
+        },
+        "timing_seconds": {
+          "tokenize": 192.15236913133413,
+          "syntax": 706.819114749087,
+          "candidate_preparation": 64.18665911327116,
+          "total": 974.8609205405228,
+          "screening": 2.851749897468835
+        },
+        "source_batch_count": 30175,
+        "total_batches": 42211,
+        "interval_retained_pairs": 6789,
+        "pairs_per_second": 52.507
+      },
+      "fr": {
+        "phase": "generating",
+        "pid": 2819174,
+        "parser_workers": 12,
+        "configured_parser_workers": 12,
+        "pairs": 49217,
+        "splits": {
+          "train": 38835,
+          "test": 5300,
+          "validation": 5082
+        },
+        "processed_batches": 2471,
+        "counts": {
+          "documents": 19563,
+          "paragraphs": 268119,
+          "sentences": 469041,
+          "candidates": 79765,
+          "document_fragments": 19768
+        },
+        "exit_code": null,
+        "count_basis": "current",
+        "reconstructed_pairs": 49217,
+        "selected_by_type": {
+          "spelling": 28144,
+          "adjective_number": 8897,
+          "verb_number_agreement": 3918,
+          "verb_person_agreement": 3424,
+          "perfect_verb_form": 1644,
+          "determiner_gender": 1818,
+          "determiner_number": 562,
+          "governed_infinitive": 646,
+          "adjective_gender": 164
+        },
+        "timing_seconds": {
+          "screening": 105.70742167183198,
+          "tokenize": 17.990726873045787,
+          "syntax": 58.10497807641514,
+          "candidate_preparation": 36.000448434846476,
+          "total": 113.09029797837138
+        },
+        "source_batch_count": 324167,
+        "total_batches": 326628,
+        "interval_retained_pairs": 827,
+        "pairs_per_second": 6.396
+      },
+      "it": {
+        "phase": "generating",
+        "pid": 2819175,
+        "parser_workers": 20,
+        "configured_parser_workers": 20,
+        "pairs": 34865,
+        "splits": {
+          "train": 27856,
+          "test": 3549,
+          "validation": 3460
+        },
+        "processed_batches": 8500,
+        "counts": {
+          "documents": 67359,
+          "paragraphs": 746075,
+          "sentences": 1266579,
+          "candidates": 64648,
+          "document_fragments": 68000
+        },
+        "exit_code": null,
+        "count_basis": "current",
+        "reconstructed_pairs": 34865,
+        "selected_by_type": {
+          "determiner_gender": 11705,
+          "spelling": 11309,
+          "adjective_number": 1565,
+          "governed_infinitive": 313,
+          "verb_number_agreement": 147,
+          "determiner_number": 8233,
+          "perfect_verb_form": 648,
+          "adjective_gender": 908,
+          "verb_person_agreement": 37
+        },
+        "timing_seconds": {
+          "tokenize": 217.9378553587012,
+          "syntax": 684.0938765977044,
+          "candidate_preparation": 47.100275157019496,
+          "total": 957.8603979537729,
+          "screening": 100.1572700375691
+        },
+        "source_batch_count": 231473,
+        "total_batches": 239833,
+        "interval_retained_pairs": 2206,
+        "pairs_per_second": 17.062
+      },
+      "pt-PT": {
+        "phase": "generating",
+        "pid": 2819176,
+        "parser_workers": 20,
+        "configured_parser_workers": 20,
+        "pairs": 106402,
+        "splits": {
+          "train": 87184,
+          "test": 8984,
+          "validation": 10234
+        },
+        "processed_batches": 1497,
+        "counts": {
+          "documents": 991,
+          "paragraphs": 706808,
+          "sentences": 2219838,
+          "candidates": 120080,
+          "document_fragments": 11973,
+          "recovery_batches": 7
+        },
+        "exit_code": null,
+        "count_basis": "current",
+        "reconstructed_pairs": 106402,
+        "selected_by_type": {
+          "spelling": 38986,
+          "determiner_gender": 24514,
+          "determiner_number": 32862,
+          "verb_person_agreement": 842,
+          "verb_number_agreement": 1109,
+          "adjective_number": 4046,
+          "adjective_gender": 1361,
+          "governed_infinitive": 2201,
+          "perfect_verb_form": 481
+        },
+        "timing_seconds": {
+          "tokenize": 93.70127863134257,
+          "syntax": 317.2597698504105,
+          "candidate_preparation": 14.233625871362165,
+          "total": 428.3440433589276,
+          "screening": 109.64444062975235
+        },
+        "source_batch_count": 1490,
+        "total_batches": 2980,
+        "interval_retained_pairs": 1690,
+        "pairs_per_second": 13.071
+      },
+      "ro": {
+        "phase": "generating",
+        "pid": 2819177,
+        "parser_workers": 16,
+        "configured_parser_workers": 16,
+        "pairs": 68354,
+        "splits": {
+          "train": 55106,
+          "validation": 6167,
+          "test": 7081
+        },
+        "processed_batches": 9924,
+        "counts": {
+          "documents": 78868,
+          "paragraphs": 644374,
+          "sentences": 1103213,
+          "candidates": 145435,
+          "document_fragments": 79392
+        },
+        "exit_code": null,
+        "count_basis": "current",
+        "reconstructed_pairs": 68354,
+        "selected_by_type": {
+          "spelling": 42520,
+          "adjective_number": 989,
+          "determiner_case": 6214,
+          "determiner_gender": 12461,
+          "determiner_number": 3844,
+          "adjective_gender": 917,
+          "verb_number_agreement": 323,
+          "verb_person_agreement": 825,
+          "adjective_case": 261
+        },
+        "timing_seconds": {
+          "screening": 106.43791272118688,
+          "tokenize": 203.183804837754,
+          "syntax": 818.3619864997454,
+          "candidate_preparation": 47.15444654948078,
+          "total": 1079.9438081008848
+        },
+        "source_batch_count": 55670,
+        "total_batches": 65353,
+        "interval_retained_pairs": 1921,
+        "pairs_per_second": 14.857
+      },
+      "uk": {
+        "phase": "generating",
+        "pid": 2819178,
+        "parser_workers": 20,
+        "configured_parser_workers": 20,
+        "pairs": 67253,
+        "splits": {
+          "train": 52973,
+          "validation": 6894,
+          "test": 7386
+        },
+        "processed_batches": 3831,
+        "counts": {
+          "documents": 30516,
+          "paragraphs": 307922,
+          "sentences": 583939,
+          "candidates": 87822,
+          "document_fragments": 30648
+        },
+        "exit_code": null,
+        "count_basis": "current",
+        "reconstructed_pairs": 67253,
+        "selected_by_type": {
+          "spelling": 49700,
+          "determiner_case": 3843,
+          "verb_number_agreement": 609,
+          "adjective_case": 2672,
+          "preposition_case": 4261,
+          "adjective_number": 1388,
+          "determiner_number": 3273,
+          "verb_person_agreement": 382,
+          "determiner_gender": 631,
+          "adjective_gender": 494
+        },
+        "timing_seconds": {
+          "screening": 122.16889987676404,
+          "tokenize": 23.505373204359785,
+          "syntax": 114.26329231262207,
+          "candidate_preparation": 19.681706758216023,
+          "total": 159.23652003658935
+        },
+        "source_batch_count": 162534,
+        "total_batches": 166331,
+        "interval_retained_pairs": 849,
+        "pairs_per_second": 6.566
+      },
+      "fi": {
+        "phase": "complete",
+        "pid": null,
+        "parser_workers": 0,
+        "configured_parser_workers": 0,
+        "pairs": 478930,
+        "splits": {
+          "train": 383144,
+          "validation": 47893,
+          "test": 47893
+        },
+        "processed_batches": 9877,
+        "counts": {
+          "documents": 78807,
+          "paragraphs": 579061,
+          "sentences": 1344155,
+          "candidates": 486347,
+          "document_fragments": 79016
+        },
+        "exit_code": null,
+        "count_basis": "current",
+        "reconstructed_pairs": 478930,
+        "selected_by_type": {},
+        "timing_seconds": {},
+        "source_batch_count": null,
+        "total_batches": null,
+        "interval_retained_pairs": 0,
+        "pairs_per_second": 0.0
+      }
+    },
+    "interval_seconds": 129.29597520828247
+  },
+  "portuguese_recovery_batches": 11,
+  "portuguese_source_batch_count": 1490,
+  "portuguese_total_batches": 2980
+}

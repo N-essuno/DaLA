@@ -1,0 +1,14 @@
+{
+  "language": "cs",
+  "source_sha256": [
+    "7ebc33999dff9999685e1e0b467d8d0319fe6a2255f6629b0873ab7fa36284f1"
+  ],
+  "review_type": "agent inspection, not native validation",
+  "judgments": [
+    {
+      "original": "Člověk je pro verbální komunikaci vybaven fyziologicky, například utvářením a umístěním hlasivek a svalovou ovladatelností jazyka a rtů, jednak patrně vrozenou schopností jazyk se naučit.",
+      "reason": "Uncertain original parallel construction with jednak; excluded conservatively.",
+      "judgment": "uncertain"
+    }
+  ]
+}

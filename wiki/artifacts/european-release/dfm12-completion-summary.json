@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "components": 24,
+  "training_rows": 15194140,
+  "training_pairs": 3798535,
+  "training_tokens": 1265448830,
+  "all_train_only": true,
+  "tokenization_dropped_rows": 0,
+  "registry_sha256": "6d29ddfcd56642be6bdef6bb4aaa4e9f58f4aeaacce711c7cb56c10346f4fd41",
+  "upload_performed": false
+}

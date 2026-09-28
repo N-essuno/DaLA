@@ -1,0 +1,15 @@
+[
+  "dala/morphology_check.py",
+  "dala/pair_pipeline.py",
+  "dala/language_packs/morphology.py",
+  "scripts/resume_checker_quarantine.py",
+  "scripts/prepare_european_pilots.py",
+  "scripts/prepare_unimorph_inputs.py",
+  "scripts/repair_orthographic_resources.py",
+  "scripts/run_european_campaign_jobs.py",
+  "scripts/mine_multilingual_evidence.py",
+  "scripts/prepare_european_expansion.py",
+  "scripts/prepare_nominal_inputs.py",
+  "tests/test_checker_quarantine_resume.py",
+  "tests/test_orthographic_surfaces.py"
+]

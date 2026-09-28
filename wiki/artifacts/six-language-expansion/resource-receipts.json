@@ -1,0 +1,272 @@
+[
+  {
+    "language": "pl",
+    "pins": {
+      "ud": "4a551ce2889daf07dae6027df0dd44670552ce87",
+      "dictionary": "8cfea406b505e4d7df52d5a19bce525df98c54ab"
+    },
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/pl/index.aff",
+        "sha256": "de7b54a8fa37562d58b481cf3d87a63e3dcc2d74021f6403eb0e4f5df9ecc225",
+        "bytes": 268824,
+        "path": "la_output/resources/multilingual/pl/index.aff"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/pl/index.dic",
+        "sha256": "74b6155391025419967c26913541b55b36d58e80b1028037d4a0b8ddcb18d0b7",
+        "bytes": 4683579,
+        "path": "la_output/resources/multilingual/pl/index.dic"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/pl/license",
+        "sha256": "8bb92c291eb431ffe32f7c42a719a0b54acf2851690fe12ca292e248a12a37e6",
+        "bytes": 2138,
+        "path": "la_output/resources/multilingual/pl/license"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/pl/readme.md",
+        "sha256": "14141b602599c217e06e3c5c0f820833f14e7bf75d76739f68dcda9748e39191",
+        "bytes": 3060,
+        "path": "la_output/resources/multilingual/pl/readme.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Polish-PDB/4a551ce2889daf07dae6027df0dd44670552ce87/LICENSE.txt",
+        "sha256": "8a5857b9f9b4e16add19d86a3b4886df4c6dbea86bb02bccb24d17b5418bff80",
+        "bytes": 384,
+        "path": "la_output/resources/multilingual/pl/LICENSE.txt"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Polish-PDB/4a551ce2889daf07dae6027df0dd44670552ce87/README.md",
+        "sha256": "be06766ad9da151ebe93d9ce8effb959b879207132510925d985cf52db6e38fb",
+        "bytes": 6017,
+        "path": "la_output/resources/multilingual/pl/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Polish-PDB/4a551ce2889daf07dae6027df0dd44670552ce87/pl_pdb-ud-train.conllu",
+        "sha256": "92542e258b1c202b259c3841a57554d7b2c5a8bc51440fd418e8ce0af06d18a3",
+        "bytes": 29199179,
+        "path": "la_output/resources/multilingual/pl/pl_pdb-ud-train.conllu"
+      }
+    ],
+    "morphology_sha256": "0c896eb57eb4463dcd87794f3adbf61550164ef4051461c947c999430e722b81",
+    "morphology_analyses": 51793,
+    "status": "resources_fetched_not_linguistically_validated"
+  },
+  {
+    "language": "sv",
+    "pins": {
+      "ud": "463c1eb7176c19e8d7cc54e5f5b0f21d6d6ce44d",
+      "dictionary": "8cfea406b505e4d7df52d5a19bce525df98c54ab"
+    },
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/sv/index.aff",
+        "sha256": "ff8ddb979daa9f128e7489ece5edd666ada7af787933221543b7cecb2b3ed478",
+        "bytes": 18581,
+        "path": "la_output/resources/multilingual/sv/index.aff"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/sv/index.dic",
+        "sha256": "540ff8d0d9b05aae66dd919625d3a0bd25026d1e157027e6602e5dd11a07b645",
+        "bytes": 2344199,
+        "path": "la_output/resources/multilingual/sv/index.dic"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/sv/license",
+        "sha256": "1314b6004bff32053ca25aca5fc419e905d75a6d49f9f9825baf4f02298af6d9",
+        "bytes": 378,
+        "path": "la_output/resources/multilingual/sv/license"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/sv/readme.md",
+        "sha256": "c0f4208f76adbf7897ab2ff53813caf2c8a15a41dc21c9e87046804baef8da3c",
+        "bytes": 3075,
+        "path": "la_output/resources/multilingual/sv/readme.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Swedish-Talbanken/463c1eb7176c19e8d7cc54e5f5b0f21d6d6ce44d/LICENSE.txt",
+        "sha256": "55d116ac4f9bc34715c7823a5f5ca2e4c0cac4917db9e58a470a3d48033d261c",
+        "bytes": 21038,
+        "path": "la_output/resources/multilingual/sv/LICENSE.txt"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Swedish-Talbanken/463c1eb7176c19e8d7cc54e5f5b0f21d6d6ce44d/README.md",
+        "sha256": "4a250cfc81a314a6cf81d4e2ea2ba58c16465134a3ff4f2dc9b0f8e0924b9870",
+        "bytes": 10099,
+        "path": "la_output/resources/multilingual/sv/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Swedish-Talbanken/463c1eb7176c19e8d7cc54e5f5b0f21d6d6ce44d/sv_talbanken-ud-train.conllu",
+        "sha256": "133cf28248d4098c68b49f17999cb85403da1d93c9678cd70a564218cc4540a5",
+        "bytes": 5908441,
+        "path": "la_output/resources/multilingual/sv/sv_talbanken-ud-train.conllu"
+      }
+    ],
+    "morphology_sha256": "828e922a805a422db262bd536284feb0e1f1208e6bed0d94ec311c77b9a297cc",
+    "morphology_analyses": 10538,
+    "status": "resources_fetched_not_linguistically_validated"
+  },
+  {
+    "language": "nb",
+    "pins": {
+      "ud": "b8618a2b935762d6ccd2dc997180c3e46f74f6b7",
+      "dictionary": "8cfea406b505e4d7df52d5a19bce525df98c54ab"
+    },
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/nb/index.aff",
+        "sha256": "515a1e5f32ffa555d253c827830420dc5bb1d9a59ea9f720729acb0874c6a8c3",
+        "bytes": 17381,
+        "path": "la_output/resources/multilingual/nb/index.aff"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/nb/index.dic",
+        "sha256": "e97fdf7f441b3c46e1d0761a8ad25fa1883d0977d70ea8cb04751cb1c47fa10e",
+        "bytes": 5349724,
+        "path": "la_output/resources/multilingual/nb/index.dic"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/nb/license",
+        "sha256": "583b1f60fd05cd7dec21293ebfb1f9f1d5b50d217521ef4f76287b50f2824770",
+        "bytes": 284,
+        "path": "la_output/resources/multilingual/nb/license"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/nb/readme.md",
+        "sha256": "61afc8b03f2bd84a8f965ae8f8edea1c81fb9838b38d12973ccdf287b28f289e",
+        "bytes": 2990,
+        "path": "la_output/resources/multilingual/nb/readme.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Norwegian-Bokmaal/b8618a2b935762d6ccd2dc997180c3e46f74f6b7/LICENSE.txt",
+        "sha256": "e2e22c4319169c3fe5be5b9d6596a57f1d5a062620086103e1dc78ba5dde6741",
+        "bytes": 68,
+        "path": "la_output/resources/multilingual/nb/LICENSE.txt"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Norwegian-Bokmaal/b8618a2b935762d6ccd2dc997180c3e46f74f6b7/README.md",
+        "sha256": "31b4d09ab3eb7e0efa5a8368c39c917e5b7b75c8f840db89236b3f154866bdae",
+        "bytes": 8049,
+        "path": "la_output/resources/multilingual/nb/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Norwegian-Bokmaal/b8618a2b935762d6ccd2dc997180c3e46f74f6b7/no_bokmaal-ud-train.conllu",
+        "sha256": "caa990b444d11030df842d39f2b4bda271beb90a93deda0a56406fa061535b03",
+        "bytes": 15882804,
+        "path": "la_output/resources/multilingual/nb/no_bokmaal-ud-train.conllu"
+      }
+    ],
+    "morphology_sha256": "0a5df118131e05985e0148f06bd8f6f4e2be82ff5fb7ea1342a0707c29eaf3bd",
+    "morphology_analyses": 23173,
+    "status": "resources_fetched_not_linguistically_validated"
+  },
+  {
+    "language": "nn",
+    "pins": {
+      "ud": "2bbe9c67d5e81eadf237b7840ebac31bffca38ae",
+      "dictionary": "8cfea406b505e4d7df52d5a19bce525df98c54ab"
+    },
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/nn/index.aff",
+        "sha256": "e50821655063f5680a3e4cf775b0a69c87de74bd6d2bbbb5da14ff8de4633beb",
+        "bytes": 13615,
+        "path": "la_output/resources/multilingual/nn/index.aff"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/nn/index.dic",
+        "sha256": "eaf1dc7ee7c848358df9aa231640b054ca4e388f2a870185528e4b229626faa6",
+        "bytes": 3338635,
+        "path": "la_output/resources/multilingual/nn/index.dic"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/nn/license",
+        "sha256": "85fbc8cb7925ce44e34d5c6a96abf2a8a45c4a66ab542044a6c827a44af9c526",
+        "bytes": 284,
+        "path": "la_output/resources/multilingual/nn/license"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/nn/readme.md",
+        "sha256": "d51f266060a43572597688513f28f78a165a6ef47755e7a6d1ed8334d036c72b",
+        "bytes": 2990,
+        "path": "la_output/resources/multilingual/nn/readme.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Norwegian-Nynorsk/2bbe9c67d5e81eadf237b7840ebac31bffca38ae/LICENSE.txt",
+        "sha256": "e2e22c4319169c3fe5be5b9d6596a57f1d5a062620086103e1dc78ba5dde6741",
+        "bytes": 68,
+        "path": "la_output/resources/multilingual/nn/LICENSE.txt"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Norwegian-Nynorsk/2bbe9c67d5e81eadf237b7840ebac31bffca38ae/README.md",
+        "sha256": "10b05843683f4aa02fdcc7e7aad8a30246f731b6d5d53b5ba015ccb9dd5643a9",
+        "bytes": 5436,
+        "path": "la_output/resources/multilingual/nn/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Norwegian-Nynorsk/2bbe9c67d5e81eadf237b7840ebac31bffca38ae/no_nynorsk-ud-train.conllu",
+        "sha256": "35bd1b52ce31749324268dba7b1e866309a2e82828e73305c99026b82357b79a",
+        "bytes": 14810452,
+        "path": "la_output/resources/multilingual/nn/no_nynorsk-ud-train.conllu"
+      }
+    ],
+    "morphology_sha256": "40bcc96b8f3eb747d01bcfc060fa396a05b894107be92832cc52dbe1de39536f",
+    "morphology_analyses": 22341,
+    "status": "resources_fetched_not_linguistically_validated"
+  },
+  {
+    "language": "is",
+    "pins": {
+      "ud": "3b1f220d49ae92ad5fbf6fc938e0d2be4651aed6",
+      "dictionary": "8cfea406b505e4d7df52d5a19bce525df98c54ab"
+    },
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/is/index.aff",
+        "sha256": "0168050c64a369c55b5aeb61f9dfe484d2aa7512d78bb3fa36779ea24b467c50",
+        "bytes": 309734,
+        "path": "la_output/resources/multilingual/is/index.aff"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/is/index.dic",
+        "sha256": "8447594fd7eb1d6d43725c4ca49b00d3f00c4c4f3ac2f2b6dfe3f56eb211d280",
+        "bytes": 2454138,
+        "path": "la_output/resources/multilingual/is/index.dic"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/is/license",
+        "sha256": "a953a7bd6a7e45caf78dfff9ccce6a9f1e3ea2c2808ad88af28cce3890fad875",
+        "bytes": 34801,
+        "path": "la_output/resources/multilingual/is/license"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wooorm/dictionaries/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/is/readme.md",
+        "sha256": "fff3cd8eda5a48e3904b4728da71f666c9a504bf5f65f86b7d4afc9eac3a2969",
+        "bytes": 3021,
+        "path": "la_output/resources/multilingual/is/readme.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Icelandic-IcePaHC/3b1f220d49ae92ad5fbf6fc938e0d2be4651aed6/LICENSE.txt",
+        "sha256": "899b1804a12ebc090b96339614eede1b64b686721b650a71430b55b5235f7f79",
+        "bytes": 202,
+        "path": "la_output/resources/multilingual/is/LICENSE.txt"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Icelandic-IcePaHC/3b1f220d49ae92ad5fbf6fc938e0d2be4651aed6/README.md",
+        "sha256": "e4b63ed288382882a33fd0712df0a4a0573faee65473294bc1371c6fee96cefd",
+        "bytes": 9025,
+        "path": "la_output/resources/multilingual/is/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Icelandic-IcePaHC/3b1f220d49ae92ad5fbf6fc938e0d2be4651aed6/is_icepahc-ud-train.conllu",
+        "sha256": "8fd17bd56309bdd2d3ecb3945fb59fe1961ddc4826baebef2c24f1b81212911f",
+        "bytes": 61400737,
+        "path": "la_output/resources/multilingual/is/is_icepahc-ud-train.conllu"
+      }
+    ],
+    "morphology_sha256": "9c6da0971e3ca469d4deb2db0c7f2d40f3d2ba4df877df5ebaf195ed6e6b33a3",
+    "morphology_analyses": 60193,
+    "status": "resources_fetched_not_linguistically_validated"
+  }
+]

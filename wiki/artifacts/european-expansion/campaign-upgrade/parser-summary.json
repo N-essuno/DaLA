@@ -1,0 +1,9 @@
+{
+  "languages": 12,
+  "all_source_eligibility_equal": true,
+  "all_grammar_candidates_equal": true,
+  "baseline_syntax_seconds": 45.353513634298,
+  "prefilter_syntax_seconds": 33.13730659033172,
+  "reduction_fraction": 0.2693552508956645,
+  "qualification": "Small paired paragraph samples, not a full-corpus throughput prediction"
+}

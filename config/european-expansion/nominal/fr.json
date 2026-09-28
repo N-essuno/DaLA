@@ -1,0 +1,46 @@
+{
+  "language": "fr",
+  "revision": "bc0ebd0135a6cc78f48ddf184069b4c0b9c017d8",
+  "source_url": "https://almanach.inria.fr/software_and_resources/Alexina-en.html",
+  "files": [
+    "lefff-3.4.mlex"
+  ],
+  "delimiter": "\t",
+  "columns": {
+    "form": 0,
+    "pos": 1,
+    "lemma": 2,
+    "tag": 3
+  },
+  "positions": {
+    "adj": "ADJ",
+    "det": "DET",
+    "nc": "NOUN"
+  },
+  "tags": {
+    "s": {
+      "Number": "Sing",
+      "Gender": "Fem,Masc"
+    },
+    "ms": {
+      "Gender": "Masc",
+      "Number": "Sing"
+    },
+    "fs": {
+      "Gender": "Fem",
+      "Number": "Sing"
+    },
+    "p": {
+      "Number": "Plur",
+      "Gender": "Fem,Masc"
+    },
+    "mp": {
+      "Gender": "Masc",
+      "Number": "Plur"
+    },
+    "fp": {
+      "Gender": "Fem",
+      "Number": "Plur"
+    }
+  }
+}

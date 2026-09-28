@@ -1,0 +1,7 @@
+{
+  "language": "nb",
+  "exit_code": 1,
+  "log": "wiki/artifacts/six-language-expansion/scale_v1/nb.log",
+  "output": "la_output/nb_dynaword_scale_v1",
+  "status": "failed_checkpoints_preserved"
+}

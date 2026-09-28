@@ -1,0 +1,6 @@
+{
+  "language": "nn",
+  "exact_mapping_equality": true,
+  "changed_rules": [],
+  "scope": "Coverage compiler opt-ins; unchanged Nynorsk inputs"
+}

@@ -1,0 +1,9 @@
+{
+  "probe_pairs": 342,
+  "exact_full_record_matches": 342,
+  "audited_exclusions_checked": 46,
+  "audited_exclusions_absent": true,
+  "newly_flagged_originals": 10,
+  "newly_flagged_pairs": 10,
+  "frozen_output_unchanged": true
+}

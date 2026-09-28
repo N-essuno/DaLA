@@ -1,0 +1,2625 @@
+{
+  "method": "Seeded family-stratified agent inspection of first screened batch; not human validation or a population precision estimate",
+  "rows": [
+    {
+      "pair_id": "88327438580b9a0b6d769340",
+      "original": "If these attractions can be sold to tourists to generate income, the community acts to protect them.",
+      "corrupted": "If this attractions can be sold to toruists to generate income, the community acts to protect them.",
+      "source_name": "360info",
+      "url": "https://360info.org/indonesias-rural-villages-offer-lessons-for-global-tourism/",
+      "edits": [
+        {
+          "rule_id": "demonstrative_number:these:this",
+          "corruption_type": "demonstrative_number",
+          "start": 3,
+          "end": 8,
+          "original": "these",
+          "replacement": "this",
+          "protected_tokens": [
+            47,
+            48
+          ],
+          "corrupted_start": 3,
+          "corrupted_end": 7
+        },
+        {
+          "rule_id": "spelling_pattern:transpose_internal",
+          "corruption_type": "spelling",
+          "start": 36,
+          "end": 44,
+          "original": "tourists",
+          "replacement": "toruists",
+          "protected_tokens": [
+            53
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 35,
+          "corrupted_end": 43
+        }
+      ],
+      "stratum": "demonstrative_number",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "3d21da5f34ffc5c20f90f166a8ce867dd23222534de761c2c7134d80d3e09bdd"
+    },
+    {
+      "pair_id": "8d1f5e8ae699d668a67b665f",
+      "original": "These details hint at a more unconventional and warmer private life than is apparent through his conversation at the party — or through his slightly sinister wish for human homogeneity and simplicity.",
+      "corrupted": "This details hint at a more unconventional and warmer private life than is apparent through his conversation at the party — or through his slightly sinister wish for human hmoogeneity and simplicity.",
+      "source_name": "public_domain_review_essays",
+      "url": "https://publicdomainreview.org/essay/simple-songs-virginia-woolf-and-music/",
+      "edits": [
+        {
+          "rule_id": "demonstrative_number:these:this",
+          "corruption_type": "demonstrative_number",
+          "start": 0,
+          "end": 5,
+          "original": "These",
+          "replacement": "This",
+          "protected_tokens": [
+            67,
+            68
+          ],
+          "corrupted_start": 0,
+          "corrupted_end": 4
+        },
+        {
+          "rule_id": "spelling_pattern:transpose_internal",
+          "corruption_type": "spelling",
+          "start": 173,
+          "end": 184,
+          "original": "homogeneity",
+          "replacement": "hmoogeneity",
+          "protected_tokens": [
+            96
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 172,
+          "corrupted_end": 183
+        }
+      ],
+      "stratum": "demonstrative_number",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "2adaf506c66a0e343b8e812c4a56ab4385c42bd4e791d1126edc09ad0ab4a6b7"
+    },
+    {
+      "pair_id": "a5a8c59141ea99b884824681",
+      "original": "I directed one of these classes, with Alabama speaker Jonelle Battise sharing her knowledge of her language.",
+      "corrupted": "I driected one of this classes, with Alabama speaker Jonelle Battise sharing her knowledge of her language.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2015/01/05/language-revitalization-in-oklahoma-and-texas-2014-year-in-review/",
+      "edits": [
+        {
+          "rule_id": "spelling_pattern:transpose_internal",
+          "corruption_type": "spelling",
+          "start": 2,
+          "end": 10,
+          "original": "directed",
+          "replacement": "driected",
+          "protected_tokens": [
+            1
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 2,
+          "corrupted_end": 10
+        },
+        {
+          "rule_id": "demonstrative_number:these:this",
+          "corruption_type": "demonstrative_number",
+          "start": 18,
+          "end": 23,
+          "original": "these",
+          "replacement": "this",
+          "protected_tokens": [
+            4,
+            5
+          ],
+          "corrupted_start": 18,
+          "corrupted_end": 22
+        }
+      ],
+      "stratum": "demonstrative_number",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "30db42b5bc96c4d64edaf47c53d80e3a852ba8380df47abe7955bc7b6f6b5e3b"
+    },
+    {
+      "pair_id": "d4d6e837f5d4dc44339e0e68",
+      "original": "Some of these stages, such as transportation, storage, processing and export, could be privatised without risking long-term food self-sufficiency.",
+      "corrupted": "Some of this stages, such as transportation, storage, processing and export, could be privatised without risking long-term food self-sufficiency.",
+      "source_name": "360info",
+      "url": "https://360info.org/the-case-for-indian-food-subsidies/",
+      "edits": [
+        {
+          "rule_id": "demonstrative_number:these:this",
+          "corruption_type": "demonstrative_number",
+          "start": 8,
+          "end": 13,
+          "original": "these",
+          "replacement": "this",
+          "protected_tokens": [
+            2,
+            3
+          ],
+          "corrupted_start": 8,
+          "corrupted_end": 12
+        }
+      ],
+      "stratum": "demonstrative_number",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "75f9dfc77246eafb1a5b86ec1c52a4501e3a2495ef8f6964b8c44670b1afc730"
+    },
+    {
+      "pair_id": "9c779e4b3792925f423c058d",
+      "original": "Some examples of these strategies include personalised hydration plans and frequent breaks, providing athletes the opportunity to cool down with interventions that have proven efficacy like electric fans or ice wrapped in wet towels.",
+      "corrupted": "Some examples of this strategies include personalised hydration plans and frequent breaks, providing athletes the opportunity to cool down with interventions taht have proven efficacy like electric fans or ice wrapped in wet towels.",
+      "source_name": "360info",
+      "url": "https://360info.org/how-the-australian-open-is-acing-its-heat-policy/",
+      "edits": [
+        {
+          "rule_id": "demonstrative_number:these:this",
+          "corruption_type": "demonstrative_number",
+          "start": 17,
+          "end": 22,
+          "original": "these",
+          "replacement": "this",
+          "protected_tokens": [
+            3,
+            4
+          ],
+          "corrupted_start": 17,
+          "corrupted_end": 21
+        },
+        {
+          "rule_id": "spelling:that:taht",
+          "corruption_type": "spelling",
+          "start": 159,
+          "end": 163,
+          "original": "that",
+          "replacement": "taht",
+          "protected_tokens": [
+            22
+          ],
+          "corrupted_start": 158,
+          "corrupted_end": 162
+        }
+      ],
+      "stratum": "demonstrative_number",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "6aea60e06921dde4836c1cef078d5c2ea48147f96b2df46eb9f7e8d5e3125004"
+    },
+    {
+      "pair_id": "7eb0a971ec4834408e7bc142",
+      "original": "The point is to stay dynamic and attuned to these factors, and the Women’s Rights Info-Activism Toolkit offers guidance here.",
+      "corrupted": "The point is to stay dynamic and attuned to this factors, and the Women’s Rights Info-Activism Toolkit offers guidannce here.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2014/10/05/introducing-the-womens-rights-campaigning-info-activism-toolkit/",
+      "edits": [
+        {
+          "rule_id": "demonstrative_number:these:this",
+          "corruption_type": "demonstrative_number",
+          "start": 44,
+          "end": 49,
+          "original": "these",
+          "replacement": "this",
+          "protected_tokens": [
+            67,
+            68
+          ],
+          "corrupted_start": 44,
+          "corrupted_end": 48
+        },
+        {
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "corruption_type": "spelling",
+          "start": 111,
+          "end": 119,
+          "original": "guidance",
+          "replacement": "guidannce",
+          "protected_tokens": [
+            80
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 110,
+          "corrupted_end": 119
+        }
+      ],
+      "stratum": "demonstrative_number",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "daac710017436dcf9eb3b8170c135e789026f2cb5f025ac5bc1173b2611c2fb1"
+    },
+    {
+      "pair_id": "9a612b42a692b331f9dd054b",
+      "original": "Ours is a proposal for RESISTANCE; it is not pessimistic, it discusses the death of these powers, but hope is still present in the three white stripes that symbolize the individual's rights and their capacity to reclaim and create their rights.",
+      "corrupted": "Ours is a proposal for RESISTANCE; it is not pessimistic, it discusses the death of this powers, but hope is still present in the three white stripes taht symbolize the individual's rights and their capacity to reclaim and create their rights.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2016/07/17/puerto-ricos-flag-is-black-and-in-mourning-over-us-imposed-oversight-board/",
+      "edits": [
+        {
+          "rule_id": "demonstrative_number:these:this",
+          "corruption_type": "demonstrative_number",
+          "start": 84,
+          "end": 89,
+          "original": "these",
+          "replacement": "this",
+          "protected_tokens": [
+            57,
+            58
+          ],
+          "corrupted_start": 84,
+          "corrupted_end": 88
+        },
+        {
+          "rule_id": "spelling:that:taht",
+          "corruption_type": "spelling",
+          "start": 151,
+          "end": 155,
+          "original": "that",
+          "replacement": "taht",
+          "protected_tokens": [
+            70
+          ],
+          "corrupted_start": 150,
+          "corrupted_end": 154
+        }
+      ],
+      "stratum": "demonstrative_number",
+      "source_judgment": "reject",
+      "edit_judgment": "accept",
+      "notes": "Comma splice between it is not pessimistic and it discusses.",
+      "original_sha256": "c9c4547d0fd30b0819af1f45ddebd4045040dcfaeae8351e26fda7fad193c149"
+    },
+    {
+      "pair_id": "ecc5ed01bda35ad36cc645fc",
+      "original": "However, these measures have led to many strong reactions in the media, and on various Ivorian social networks, forums and blogs.",
+      "corrupted": "However, this measures have led to many strong reactions in the media, and on various Ivorian social networks, forums and blogs.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2012/08/11/cote-divoire-debate-rages-over-university-fees/",
+      "edits": [
+        {
+          "rule_id": "demonstrative_number:these:this",
+          "corruption_type": "demonstrative_number",
+          "start": 9,
+          "end": 14,
+          "original": "these",
+          "replacement": "this",
+          "protected_tokens": [
+            2,
+            3
+          ],
+          "corrupted_start": 9,
+          "corrupted_end": 13
+        }
+      ],
+      "stratum": "demonstrative_number",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "d9e3f6cb8309210b55174640493e8c184f2f6bf0c071b0c8a471960b56c67780"
+    },
+    {
+      "pair_id": "c0e00f72a3e71c89caa98a29",
+      "original": "The regime forces did not hesitate to use live bullets to disperse protesters.",
+      "corrupted": "The rgeime forces did not hesitated to use live bullets to disperse protesters.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2011/09/18/yemen-to-the-rest-of-the-world-silence-kills/",
+      "edits": [
+        {
+          "rule_id": "spelling_pattern:transpose_internal",
+          "corruption_type": "spelling",
+          "start": 4,
+          "end": 10,
+          "original": "regime",
+          "replacement": "rgeime",
+          "protected_tokens": [
+            1
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 4,
+          "corrupted_end": 10
+        },
+        {
+          "rule_id": "do_support_form:productive",
+          "corruption_type": "do_support_form",
+          "start": 26,
+          "end": 34,
+          "original": "hesitate",
+          "replacement": "hesitated",
+          "protected_tokens": [
+            3,
+            5
+          ],
+          "corrupted_start": 26,
+          "corrupted_end": 35
+        }
+      ],
+      "stratum": "do_support_form",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "e9f77f2e5749c213bc76855b85a95ab3d02859f2a38e1c859b61b6ee05c874b6"
+    },
+    {
+      "pair_id": "c18f52740ab616473569d606",
+      "original": "The problem was with the officials at the Traffic Directorate, who I don't think belong to the area, because they don't seem to be able to think.",
+      "corrupted": "The problem was with the officials at the Traffic Directorate, who I don't think belong to the area, because they don't seemed to be able to think.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2008/05/21/saudi-arabia-dhahran-under-siege/",
+      "edits": [
+        {
+          "rule_id": "do_support_form:productive",
+          "corruption_type": "do_support_form",
+          "start": 120,
+          "end": 124,
+          "original": "seem",
+          "replacement": "seemed",
+          "protected_tokens": [
+            153,
+            155
+          ],
+          "corrupted_start": 120,
+          "corrupted_end": 126
+        }
+      ],
+      "stratum": "do_support_form",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "a60d9c7123fd58b13cbf629ea83ec2ec607799edc91f94d81a3970beffab30c9"
+    },
+    {
+      "pair_id": "7b3a52b493fe771ca33a4130",
+      "original": "Mohamed Ezzouak explains (Fr) that suspending Lakome as per Anouzla's demand should have been rejected by the public prosecutor or the National Agency for the Regulations of Telecoms because him being editor does not suffice to legitimate his ownership of the website.",
+      "corrupted": "Mohamed Ezzouak explains (Fr) that suspending Lakome as per Anouzla's demand should have been rejected by the public prosecutor or the National Agency for the Regulations of Telecoms because him being editor does not sufficed to legitimate his ownership of the website.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2013/10/20/morocco-censors-the-web-collateral-damage-allowed/",
+      "edits": [
+        {
+          "rule_id": "do_support_form:productive",
+          "corruption_type": "do_support_form",
+          "start": 217,
+          "end": 224,
+          "original": "suffice",
+          "replacement": "sufficed",
+          "protected_tokens": [
+            94,
+            96
+          ],
+          "corrupted_start": 217,
+          "corrupted_end": 225
+        }
+      ],
+      "stratum": "do_support_form",
+      "source_judgment": "uncertain",
+      "edit_judgment": "accept",
+      "notes": "Awkward because him being editor construction and embedded language marker.",
+      "original_sha256": "31a5ed8ccda30e0b8c892b39ad426c5df6387b796e50a26e0462da7d7fe5c240"
+    },
+    {
+      "pair_id": "8e7da43709288b2e4e8b4c49",
+      "original": "However, Daniel Berahane does not think Prime Minster Meles Zenawi was shocked.",
+      "corrupted": "Hoewver, Daniel Berahane does not thought Prime Minster Meles Zenawi was shocked.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2012/06/05/ethiopia-video-stirs-up-debate-about-the-role-of-journalists-under-dictatorship/",
+      "edits": [
+        {
+          "rule_id": "spelling_pattern:transpose_internal",
+          "corruption_type": "spelling",
+          "start": 0,
+          "end": 7,
+          "original": "However",
+          "replacement": "Hoewver",
+          "protected_tokens": [
+            0
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 0,
+          "corrupted_end": 7
+        },
+        {
+          "rule_id": "do_support_form:productive",
+          "corruption_type": "do_support_form",
+          "start": 34,
+          "end": 39,
+          "original": "think",
+          "replacement": "thought",
+          "protected_tokens": [
+            4,
+            6
+          ],
+          "corrupted_start": 34,
+          "corrupted_end": 41
+        }
+      ],
+      "stratum": "do_support_form",
+      "source_judgment": "reject",
+      "edit_judgment": "accept",
+      "notes": "Prime Minster is a source typo for Prime Minister.",
+      "original_sha256": "eadaea3010b577ddbadc1f4c707a0c661675410b97df0bd64bb2978f62b7b7e0"
+    },
+    {
+      "pair_id": "0c4b1ac2ef03b75eba177c8b",
+      "original": "I don't know if he can strengthen the US economy.",
+      "corrupted": "I don't knew if he can strengthen the US econnomy.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2008/11/05/israel-is-obama-good-for-israel/",
+      "edits": [
+        {
+          "rule_id": "do_support_form:productive",
+          "corruption_type": "do_support_form",
+          "start": 8,
+          "end": 12,
+          "original": "know",
+          "replacement": "knew",
+          "protected_tokens": [
+            17,
+            19
+          ],
+          "corrupted_start": 8,
+          "corrupted_end": 12
+        },
+        {
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "corruption_type": "spelling",
+          "start": 41,
+          "end": 48,
+          "original": "economy",
+          "replacement": "econnomy",
+          "protected_tokens": [
+            26
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 41,
+          "corrupted_end": 49
+        }
+      ],
+      "stratum": "do_support_form",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "1851b19d1a2cba26d40d4d0c4b01afced25b9428bfdd402e1f497ea86590d9f4"
+    },
+    {
+      "pair_id": "51c2f7d5254ade61689f2237",
+      "original": "Now I won’t go defending my choice or my religion because I don’t think those who judge me or my likes would either understand or appreciate what I have to say.",
+      "corrupted": "Now I won’t go defending my choice or my religion because I don’t thought those who judge me or my likes would either understand or appreciate what I have to say.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2008/12/05/egypt-dirty-sexy-secrets/",
+      "edits": [
+        {
+          "rule_id": "do_support_form:productive",
+          "corruption_type": "do_support_form",
+          "start": 66,
+          "end": 71,
+          "original": "think",
+          "replacement": "thought",
+          "protected_tokens": [
+            13,
+            15
+          ],
+          "corrupted_start": 66,
+          "corrupted_end": 73
+        }
+      ],
+      "stratum": "do_support_form",
+      "source_judgment": "uncertain",
+      "edit_judgment": "accept",
+      "notes": "My likes is nonidiomatic in this context; intended my like or people like me.",
+      "original_sha256": "bbd6f3c2ffee08b21934809572bfea6dbead7f3b0df10278d5922c62d9d0b25a"
+    },
+    {
+      "pair_id": "7a493599284d0e09553e1749",
+      "original": "Lahore, Pakistan’s second-largest city, didn't trail so far behind with an AQI of 300.",
+      "corrupted": "Lahore, Pakistan’s second-largest city, didn't trailed so far behnid with an AQI of 300.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2019/11/05/amidst-denial-pakistans-smog-issues-pose-serious-health-risks-to-the-city-of-lahore/",
+      "edits": [
+        {
+          "rule_id": "do_support_form:productive",
+          "corruption_type": "do_support_form",
+          "start": 47,
+          "end": 52,
+          "original": "trail",
+          "replacement": "trailed",
+          "protected_tokens": [
+            36,
+            38
+          ],
+          "corrupted_start": 47,
+          "corrupted_end": 54
+        },
+        {
+          "rule_id": "spelling_pattern:transpose_internal",
+          "corruption_type": "spelling",
+          "start": 60,
+          "end": 66,
+          "original": "behind",
+          "replacement": "behnid",
+          "protected_tokens": [
+            41
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 62,
+          "corrupted_end": 68
+        }
+      ],
+      "stratum": "do_support_form",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "c3c34cce34d27f2c2d4fe94c453ea16534eabd4ce6d3423aa0d8eb93fcf39ac8"
+    },
+    {
+      "pair_id": "9bb33e6e75f0c4b346f961fa",
+      "original": "The economy is in shambles, the country is in crisis because the ruling party does not want to release the results of the elections which everyone else besides Zanu PF believe Mugabe lost.",
+      "corrupted": "The economy is in shambles, the country is in crisis becouse the ruling party does not wanted to release the results of the elections which everyone else besides Zanu PF believe Mugabe lost.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2008/04/26/zimbabwe-post-election-violence-on-the-rise/",
+      "edits": [
+        {
+          "rule_id": "spelling:because:becouse",
+          "corruption_type": "spelling",
+          "start": 53,
+          "end": 60,
+          "original": "because",
+          "replacement": "becouse",
+          "protected_tokens": [
+            60
+          ],
+          "corrupted_start": 53,
+          "corrupted_end": 60
+        },
+        {
+          "rule_id": "do_support_form:productive",
+          "corruption_type": "do_support_form",
+          "start": 87,
+          "end": 91,
+          "original": "want",
+          "replacement": "wanted",
+          "protected_tokens": [
+            64,
+            66
+          ],
+          "corrupted_start": 87,
+          "corrupted_end": 93
+        }
+      ],
+      "stratum": "do_support_form",
+      "source_judgment": "reject",
+      "edit_judgment": "accept",
+      "notes": "Comma splice and everyone ... believe agreement error.",
+      "original_sha256": "c9bc93549bdb89b2a20767b8debc4de8a4c5168023219eb034d74489b3735aca"
+    },
+    {
+      "pair_id": "53e2c7019077ce7274852daa",
+      "original": "Voyeurs can get excited without even seeing any nudity—the very fact that a person’s privacy has been violated and the feeling of power over an unsuspecting individual can be enough, says clinical psychologist and addictions specialist Veronika Kashirina.",
+      "corrupted": "Voyeurs can getting excited without even seeing any nudity—the very fact that a person’s privacy has been violated and the feeling of power over an unsuspecting individual can be enough, says clinical psychologist and addictions specialist Veronika Kashirina.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2016/06/28/russia-the-men-behind-moscows-hidden-bathroom-cameras-and-the-woman-whos-fighting-back/",
+      "edits": [
+        {
+          "rule_id": "modal_verb_form:productive",
+          "corruption_type": "modal_verb_form",
+          "start": 12,
+          "end": 15,
+          "original": "get",
+          "replacement": "getting",
+          "protected_tokens": [
+            1,
+            2
+          ],
+          "corrupted_start": 12,
+          "corrupted_end": 19
+        }
+      ],
+      "stratum": "modal_verb_form",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "7c6b312ae2428b7b77e0f808c4d87f50435b6d689a1349e75658508c8b3556fa"
+    },
+    {
+      "pair_id": "fb7992419be0c439bdaa756b",
+      "original": "It's really hard to predict but I would say that at best, we will find that Omicron is really mild and that the virus is tempering its pathogenicity.",
+      "corrupted": "It's really hard to predict but I would say taht at best, we will finding that Omicron is really mild and that the virus is tempering its pathogenicity.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2021/12/21/malawian-scientist-who-forewarned-about-omicron-type-variant-speaks-out/",
+      "edits": [
+        {
+          "rule_id": "spelling:that:taht",
+          "corruption_type": "spelling",
+          "start": 44,
+          "end": 48,
+          "original": "that",
+          "replacement": "taht",
+          "protected_tokens": [
+            12
+          ],
+          "corrupted_start": 44,
+          "corrupted_end": 48
+        },
+        {
+          "rule_id": "modal_verb_form:productive",
+          "corruption_type": "modal_verb_form",
+          "start": 66,
+          "end": 70,
+          "original": "find",
+          "replacement": "finding",
+          "protected_tokens": [
+            17,
+            18
+          ],
+          "corrupted_start": 66,
+          "corrupted_end": 73
+        }
+      ],
+      "stratum": "modal_verb_form",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "e46071cc4060a17dd91583a0f1ad1d6be58ae8c8e55c04b7d2eed23c892f3fa4"
+    },
+    {
+      "pair_id": "d427d34ef051561aca8fafd3",
+      "original": "Why is it that we shouldn’t talk about it?",
+      "corrupted": "Why is it that we shouldn’t talking about it?",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2018/02/17/an-artist-duo-in-nepal-hopes-their-nude-paintings-will-encourage-men-to-embrace-vulnerability/",
+      "edits": [
+        {
+          "rule_id": "modal_verb_form:productive",
+          "corruption_type": "modal_verb_form",
+          "start": 28,
+          "end": 32,
+          "original": "talk",
+          "replacement": "talking",
+          "protected_tokens": [
+            31,
+            33
+          ],
+          "corrupted_start": 28,
+          "corrupted_end": 35
+        }
+      ],
+      "stratum": "modal_verb_form",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "d97dbc0d51887342323876c1a9b4887cc78f29a588e3d4446aa0f9f7bdb11f83"
+    },
+    {
+      "pair_id": "d8e934caf509d3b32fad4cef",
+      "original": "As long as the government enshrines this discrimination, the tireless work of those who give their time, money and – sometimes, horribly – their lives to build trust, rapport and respect between all Australians regardless of their sexuality will continue to be undermined.",
+      "corrupted": "As long as the government enshrines this discrimination, the tireless work of those who give their time, money and – sometimes, horribly – their lives to build trust, rapport and respect between all Australians regardless of their sexuality will continuing to be undermined.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2010/11/16/australia-gay-marriage-a-step-closer/",
+      "edits": [
+        {
+          "rule_id": "modal_verb_form:productive",
+          "corruption_type": "modal_verb_form",
+          "start": 246,
+          "end": 254,
+          "original": "continue",
+          "replacement": "continuing",
+          "protected_tokens": [
+            42,
+            43
+          ],
+          "corrupted_start": 246,
+          "corrupted_end": 256
+        }
+      ],
+      "stratum": "modal_verb_form",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "ec4730512455e7a9e2b016ed0a367306f9737d100d1d2d4509c8560ae14926e0"
+    },
+    {
+      "pair_id": "55b5c07f41308eabd91520b8",
+      "original": "The saddest part in a sexual harassment case is what happens to the victim after she complains and I can see all the classical reactions here.",
+      "corrupted": "The saddest part in a sexual harassment case is what happens to the vitcim after she complains and I can seeing all the classical reactions here.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2016/01/15/an-indian-student-blogs-about-being-ostracised-and-bullied-after-reporting-sexual-abuse/",
+      "edits": [
+        {
+          "rule_id": "spelling_pattern:transpose_internal",
+          "corruption_type": "spelling",
+          "start": 68,
+          "end": 74,
+          "original": "victim",
+          "replacement": "vitcim",
+          "protected_tokens": [
+            53
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 68,
+          "corrupted_end": 74
+        },
+        {
+          "rule_id": "modal_verb_form:productive",
+          "corruption_type": "modal_verb_form",
+          "start": 105,
+          "end": 108,
+          "original": "see",
+          "replacement": "seeing",
+          "protected_tokens": [
+            59,
+            60
+          ],
+          "corrupted_start": 105,
+          "corrupted_end": 111
+        }
+      ],
+      "stratum": "modal_verb_form",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "de9a734f393ad30dd6fa811cf63c3dcf1b80e9b619e741a528de4575c21ce754"
+    },
+    {
+      "pair_id": "ca273afea96118786a299f71",
+      "original": "Nana Kwame, an onion seller at the same market, commended the government for introducing the new note, saying it would facilitate transactions.",
+      "corrupted": "Nana Kwame, an onion seller at the same market, commended the government for introducing the new note, saying it would facilitating transactions.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2010/05/18/ghana-new-two-ghana-cedis-notes-unveiled/",
+      "edits": [
+        {
+          "rule_id": "modal_verb_form:productive",
+          "corruption_type": "modal_verb_form",
+          "start": 119,
+          "end": 129,
+          "original": "facilitate",
+          "replacement": "facilitating",
+          "protected_tokens": [
+            22,
+            23
+          ],
+          "corrupted_start": 119,
+          "corrupted_end": 131
+        }
+      ],
+      "stratum": "modal_verb_form",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "b75e29bbeac635bc4eb3be0f40af4736842712405ba90172bbb7ef01a18d3256"
+    },
+    {
+      "pair_id": "e5116fbb0c24d0f4694b9b07",
+      "original": "With most of the raw materials, parts and components supply base located in Asia, EV companies can source from local suppliers.",
+      "corrupted": "With most of the raw materials, parts and components supplly base located in Asia, EV companies can sourcing from local suppliers.",
+      "source_name": "360info",
+      "url": "https://360info.org/this-is-how-to-increase-ev-uptake/",
+      "edits": [
+        {
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "corruption_type": "spelling",
+          "start": 53,
+          "end": 59,
+          "original": "supply",
+          "replacement": "supplly",
+          "protected_tokens": [
+            10
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 53,
+          "corrupted_end": 60
+        },
+        {
+          "rule_id": "modal_verb_form:productive",
+          "corruption_type": "modal_verb_form",
+          "start": 99,
+          "end": 105,
+          "original": "source",
+          "replacement": "sourcing",
+          "protected_tokens": [
+            18,
+            19
+          ],
+          "corrupted_start": 100,
+          "corrupted_end": 108
+        }
+      ],
+      "stratum": "modal_verb_form",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "278f017609a0aa234bf22ac921f176cb687544c9663139b86746277da35f8c9b"
+    },
+    {
+      "pair_id": "220b77a1bcf92c7deedac2ea",
+      "original": "He will follow Abe Shinzo, who resigned two weeks ago.",
+      "corrupted": "He will following Abe Shinzo, who resigned two weeks ago.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2007/09/25/japan-fukuda-slated-to-be-next-pm/",
+      "edits": [
+        {
+          "rule_id": "modal_verb_form:productive",
+          "corruption_type": "modal_verb_form",
+          "start": 8,
+          "end": 14,
+          "original": "follow",
+          "replacement": "following",
+          "protected_tokens": [
+            30,
+            31
+          ],
+          "corrupted_start": 8,
+          "corrupted_end": 17
+        }
+      ],
+      "stratum": "modal_verb_form",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "a7d0cc4e93f4be501c0a18c89a0697e18fbe7a6ed973fe7206038b249f5aa981"
+    },
+    {
+      "pair_id": "35a223bea2df2760be016321",
+      "original": "Many leaders in the region have even posted their pleasure with this fact on social networks.",
+      "corrupted": "Many leader in the region have even posted their pleasure with this fact on social networks.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2013/03/14/guyana-cuba-habemus-papam-but-who-is-he/",
+      "edits": [
+        {
+          "rule_id": "noun_number:productive",
+          "corruption_type": "noun_number",
+          "start": 5,
+          "end": 12,
+          "original": "leaders",
+          "replacement": "leader",
+          "protected_tokens": [
+            25,
+            26
+          ],
+          "corrupted_start": 5,
+          "corrupted_end": 11
+        }
+      ],
+      "stratum": "noun_number",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "c852869703ff2e79320d36d597fb93338ef1b1f4b12d84b69fd83c55ebe0bd70"
+    },
+    {
+      "pair_id": "316623b691022d236238d1fa",
+      "original": "He has many years of experience in television and radio broadcasting.",
+      "corrupted": "He has many year of experience in television and radio broadcastinng.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2013/03/05/nepali-newspaper-gives-voice-to-hong-kongs-neglected-minorities/",
+      "edits": [
+        {
+          "rule_id": "noun_number:productive",
+          "corruption_type": "noun_number",
+          "start": 12,
+          "end": 17,
+          "original": "years",
+          "replacement": "year",
+          "protected_tokens": [
+            24,
+            25
+          ],
+          "corrupted_start": 12,
+          "corrupted_end": 16
+        },
+        {
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "corruption_type": "spelling",
+          "start": 56,
+          "end": 68,
+          "original": "broadcasting",
+          "replacement": "broadcastinng",
+          "protected_tokens": [
+            32
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 55,
+          "corrupted_end": 68
+        }
+      ],
+      "stratum": "noun_number",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "cd5e4373ad660ea7fd8089cab356eac7ee98f98b1b57a98947c5f5491d099ade"
+    },
+    {
+      "pair_id": "3450cf5ce9d45c4c3cb1122a",
+      "original": "Current antidepressant drugs are a valuable treatment option for many women with postpartum depression as they can improve mood, but there is no evidence these drugs improve mother-infant bonding.",
+      "corrupted": "Current antidepressant drugs are a valuable treatment option for many woman with postpartum depression as they can improve mood, but there is no evidence these drugs improve mother-infant bonding.",
+      "source_name": "360info",
+      "url": "https://360info.org/treating-postpartum-depression-with-psychedelics/",
+      "edits": [
+        {
+          "rule_id": "noun_number:productive",
+          "corruption_type": "noun_number",
+          "start": 70,
+          "end": 75,
+          "original": "women",
+          "replacement": "woman",
+          "protected_tokens": [
+            9,
+            10
+          ],
+          "corrupted_start": 70,
+          "corrupted_end": 75
+        }
+      ],
+      "stratum": "noun_number",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "fcdf26bc81b030d706db3817f1cdd47516a28b9f20493996bc119ca3c7d6dd31"
+    },
+    {
+      "pair_id": "d983f30517a8de9f5b32e639",
+      "original": "One of those news sites, NTDTV, interviewed several protesters on June 29 about the police crackdown.",
+      "corrupted": "One of those news sites, NTDTV, itnerviewed several protester on June 29 about the police crackdown.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2015/07/01/china-unleashes-police-internet-censors-on-anti-px-plant-protesters-in-shanghai/",
+      "edits": [
+        {
+          "rule_id": "spelling_pattern:transpose_internal",
+          "corruption_type": "spelling",
+          "start": 32,
+          "end": 43,
+          "original": "interviewed",
+          "replacement": "itnerviewed",
+          "protected_tokens": [
+            9
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 32,
+          "corrupted_end": 43
+        },
+        {
+          "rule_id": "noun_number:productive",
+          "corruption_type": "noun_number",
+          "start": 52,
+          "end": 62,
+          "original": "protesters",
+          "replacement": "protester",
+          "protected_tokens": [
+            10,
+            11
+          ],
+          "corrupted_start": 52,
+          "corrupted_end": 61
+        }
+      ],
+      "stratum": "noun_number",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "5dc432bbea0aa87b0057bc16d5f1f6d0ee8114d8b15d4a3fbf64a775e69a3736"
+    },
+    {
+      "pair_id": "06f9bce05688ca737e324b03",
+      "original": "One of the things that people in the streets of Port Salut know is that MINUSTAH soldiers have fathered many children in the village, and they have a habit of exchanging food and money with women for sex.",
+      "corrupted": "One of the things that people in the streets of Port Salut know is that MINUSTAH soldiers have fathered many child in the village, and they have a habit of exchanging food and money with women for sex.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2011/09/09/haiti-un-troops-must-go-say-haitians-after-rape-scandal/",
+      "edits": [
+        {
+          "rule_id": "noun_number:productive",
+          "corruption_type": "noun_number",
+          "start": 109,
+          "end": 117,
+          "original": "children",
+          "replacement": "child",
+          "protected_tokens": [
+            19,
+            20
+          ],
+          "corrupted_start": 109,
+          "corrupted_end": 114
+        }
+      ],
+      "stratum": "noun_number",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "26a525b596fae6ee70cd753b7cbed96df89a077d22eb96dfb5829f169aed4989"
+    },
+    {
+      "pair_id": "60b4540daa236880e8724547",
+      "original": "In my humble opinion the problem is one of many layers.",
+      "corrupted": "In my humble opinion the problem is one of many layer.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2009/02/26/criminal-minds-the-egyptian-sexual-offenders-profile/",
+      "edits": [
+        {
+          "rule_id": "noun_number:productive",
+          "corruption_type": "noun_number",
+          "start": 48,
+          "end": 54,
+          "original": "layers",
+          "replacement": "layer",
+          "protected_tokens": [
+            29,
+            30
+          ],
+          "corrupted_start": 48,
+          "corrupted_end": 53
+        }
+      ],
+      "stratum": "noun_number",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "a14a163eca708e8d5a57a51e513ca398f9b42a00d96e077e1f6fb83ef1417acc"
+    },
+    {
+      "pair_id": "f5e087e53a3374ed4d4a3ae6",
+      "original": "This pressure has already led several journalists to resign their jobs.",
+      "corrupted": "This pressure has already led several journalist to reisgn their jobs.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2014/03/23/what-is-the-future-of-russias-news-media/",
+      "edits": [
+        {
+          "rule_id": "noun_number:productive",
+          "corruption_type": "noun_number",
+          "start": 38,
+          "end": 49,
+          "original": "journalists",
+          "replacement": "journalist",
+          "protected_tokens": [
+            90,
+            91
+          ],
+          "corrupted_start": 38,
+          "corrupted_end": 48
+        },
+        {
+          "rule_id": "spelling_pattern:transpose_internal",
+          "corruption_type": "spelling",
+          "start": 53,
+          "end": 59,
+          "original": "resign",
+          "replacement": "reisgn",
+          "protected_tokens": [
+            93
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 52,
+          "corrupted_end": 58
+        }
+      ],
+      "stratum": "noun_number",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "90071636a27f1a20063de115de061a8e67fa30b47dd824c0b4eb6a94460eaf72"
+    },
+    {
+      "pair_id": "5864b2549ed3749721ada666",
+      "original": "He is one of the first Maldivian bloggers and writes on many subjects, including religion, politics, and the environment.",
+      "corrupted": "He is one of the first Maldivian bloggers and writes on many subject, including religion, politics, and the enviromment.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2014/08/18/journalist-and-democracy-advocate-ahmed-rizwan-abdulla-missing-in-the-maldives/",
+      "edits": [
+        {
+          "rule_id": "noun_number:productive",
+          "corruption_type": "noun_number",
+          "start": 61,
+          "end": 69,
+          "original": "subjects",
+          "replacement": "subject",
+          "protected_tokens": [
+            44,
+            45
+          ],
+          "corrupted_start": 61,
+          "corrupted_end": 68
+        },
+        {
+          "rule_id": "spelling:environment:enviromment",
+          "corruption_type": "spelling",
+          "start": 109,
+          "end": 120,
+          "original": "environment",
+          "replacement": "enviromment",
+          "protected_tokens": [
+            54
+          ],
+          "corrupted_start": 108,
+          "corrupted_end": 119
+        }
+      ],
+      "stratum": "noun_number",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "7f4fc69c868fe15246aba3acdb5af895c998f0891d1e9713c958071ceb88449d"
+    },
+    {
+      "pair_id": "f762b9579976e9a40b80b281",
+      "original": "Pandemics are deadlier than wars – it is believed that infectious diseases like the Influenza Pandemic of 1918, which killed more than 50 million people have taken more lives than all the wars and non-infectious diseases and natural disasters in the world put together.",
+      "corrupted": "Pandemics are deadlier than wars – it is believed taht infectious diseases like the Influenza Pandemic of 1918, which killed more than 50 million people have took more lives than all the wars and non-infectious diseases and natural disasters in the world put together.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2020/03/20/covid-19-pandemic-lays-bare-the-political-leadership-deficit-in-nigeria/",
+      "edits": [
+        {
+          "rule_id": "spelling:that:taht",
+          "corruption_type": "spelling",
+          "start": 50,
+          "end": 54,
+          "original": "that",
+          "replacement": "taht",
+          "protected_tokens": [
+            12
+          ],
+          "corrupted_start": 50,
+          "corrupted_end": 54
+        },
+        {
+          "rule_id": "perfect_participle:productive",
+          "corruption_type": "perfect_participle",
+          "start": 158,
+          "end": 163,
+          "original": "taken",
+          "replacement": "took",
+          "protected_tokens": [
+            33,
+            34
+          ],
+          "corrupted_start": 158,
+          "corrupted_end": 162
+        }
+      ],
+      "stratum": "perfect_participle",
+      "source_judgment": "reject",
+      "edit_judgment": "accept",
+      "notes": "Missing closing comma after the nonrestrictive relative clause ending million people.",
+      "original_sha256": "7b5d78aa59a529806f71e0f2b3d2ef1899601ada900d7dd5e5ea564f4c2c2b59"
+    },
+    {
+      "pair_id": "23b1cace41eaadafbce20f2f",
+      "original": "China has become the biggest buyer of Brazilian products in the last decade.",
+      "corrupted": "China has became the biggset buyer of Brazilian products in the last decade.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2021/04/22/brazilian-exports-to-china-blame-game/",
+      "edits": [
+        {
+          "rule_id": "perfect_participle:productive",
+          "corruption_type": "perfect_participle",
+          "start": 10,
+          "end": 16,
+          "original": "become",
+          "replacement": "became",
+          "protected_tokens": [
+            1,
+            2
+          ],
+          "corrupted_start": 10,
+          "corrupted_end": 16
+        },
+        {
+          "rule_id": "spelling_pattern:transpose_internal",
+          "corruption_type": "spelling",
+          "start": 21,
+          "end": 28,
+          "original": "biggest",
+          "replacement": "biggset",
+          "protected_tokens": [
+            4
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 21,
+          "corrupted_end": 28
+        }
+      ],
+      "stratum": "perfect_participle",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "d714c5993ac788dcb06890c6afed302910cf722ba9cfeef07e3339de448b26aa"
+    },
+    {
+      "pair_id": "3d4d5c6b19685944d8ad6fac",
+      "original": "Nonetheless, WHO has not yet given approval for this vaccine to be deployed for public use.",
+      "corrupted": "Nonetheless, WHO has not yet gave approval for this vaccine to be deployed for public use.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2020/04/22/malaria-vaccine-may-offer-respite-to-africas-greatest-health-scourge/",
+      "edits": [
+        {
+          "rule_id": "perfect_participle:productive",
+          "corruption_type": "perfect_participle",
+          "start": 29,
+          "end": 34,
+          "original": "given",
+          "replacement": "gave",
+          "protected_tokens": [
+            3,
+            6
+          ],
+          "corrupted_start": 29,
+          "corrupted_end": 33
+        }
+      ],
+      "stratum": "perfect_participle",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "caafc467bbc8dc715824903dae9804873321fd0f6b9e5ab27f0c0d2d83119191"
+    },
+    {
+      "pair_id": "9e2dd6be8282b7e2a7993108",
+      "original": "These were the first images of Castro to be published since he underwent intestinal surgery and provisionally handed power over to his brother Raúl on July 30, and the news out of Cuba during this period has been scant.",
+      "corrupted": "These were the first images of Castro to be published since he underwent intestinal surgrey and provisionally handed power over to his brother Raúl on July 30, and the news out of Cuba during this period has were scant.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2006/08/14/fauxtographic-evidence-bloggers-on-castros-birthday-photos/",
+      "edits": [
+        {
+          "rule_id": "spelling_pattern:transpose_internal",
+          "corruption_type": "spelling",
+          "start": 84,
+          "end": 91,
+          "original": "surgery",
+          "replacement": "surgrey",
+          "protected_tokens": [
+            68
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 84,
+          "corrupted_end": 91
+        },
+        {
+          "rule_id": "perfect_participle:productive",
+          "corruption_type": "perfect_participle",
+          "start": 208,
+          "end": 212,
+          "original": "been",
+          "replacement": "were",
+          "protected_tokens": [
+            91,
+            92
+          ],
+          "corrupted_start": 208,
+          "corrupted_end": 212
+        }
+      ],
+      "stratum": "perfect_participle",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "d5e56ca98febc7711e6055c4f8ecdfd6d5c587d10b62e86add8e00c1e2c82c38"
+    },
+    {
+      "pair_id": "a5f9a26f3fdde9c62d3669d7",
+      "original": "As if to showcase Russia's fetish for statism, Moscow's Hyde Park parallel has been entirely top-down.",
+      "corrupted": "As if to showcase Russia's fetish for statism, Moscow's Hyde Park parallel has were entirely top-down.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2013/01/10/russias-protest-movement-is-back-to-usual/",
+      "edits": [
+        {
+          "rule_id": "perfect_participle:productive",
+          "corruption_type": "perfect_participle",
+          "start": 79,
+          "end": 83,
+          "original": "been",
+          "replacement": "were",
+          "protected_tokens": [
+            61,
+            62
+          ],
+          "corrupted_start": 79,
+          "corrupted_end": 83
+        }
+      ],
+      "stratum": "perfect_participle",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "5fd83690c67218110ab67b4d9c0e2d3b66eafb5fb6cc7fa59a903c6fba0075ae"
+    },
+    {
+      "pair_id": "e2ac8bf326a9cb0b6f0c9ca5",
+      "original": "Just before they have eaten from the apple, Adam and Eve still have a perfect internal balance of the four bodily humours (which, as some claim, are symbolized by the ox, rabbit, elk, and cat in the foreground).",
+      "corrupted": "Just before they have ate from the apple, Adam and Eve still have a perfect internal balance of the four bodily humours (which, as some claim, are symbolized by the ox, rabbit, elk, and cat in the foreground).",
+      "source_name": "public_domain_review_essays",
+      "url": "https://publicdomainreview.org/essay/elephants-horses-and-the-proportions-of-paradise/",
+      "edits": [
+        {
+          "rule_id": "perfect_participle:productive",
+          "corruption_type": "perfect_participle",
+          "start": 22,
+          "end": 27,
+          "original": "eaten",
+          "replacement": "ate",
+          "protected_tokens": [
+            71,
+            72
+          ],
+          "corrupted_start": 22,
+          "corrupted_end": 25
+        }
+      ],
+      "stratum": "perfect_participle",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "c45008993d38955a9028fed37697123daa5b00d18add49a4f65e62b79b8608eb"
+    },
+    {
+      "pair_id": "d2cb41016d5c7a6c88116c65",
+      "original": "The increasing rate of consumer price has been beyond people’s basic bearing capacity of living and psychology, causing pressures and even scare.",
+      "corrupted": "The increasing rate of consumer price has were beyond people’s basic bearing capacity of living and psychology, causing pressures and even scare.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2007/11/24/china-recently-can-you-afford-meat/",
+      "edits": [
+        {
+          "rule_id": "perfect_participle:productive",
+          "corruption_type": "perfect_participle",
+          "start": 42,
+          "end": 46,
+          "original": "been",
+          "replacement": "were",
+          "protected_tokens": [
+            67,
+            68
+          ],
+          "corrupted_start": 42,
+          "corrupted_end": 46
+        }
+      ],
+      "stratum": "perfect_participle",
+      "source_judgment": "uncertain",
+      "edit_judgment": "accept",
+      "notes": "Unclear translated construction consumer price / bearing capacity of living and psychology.",
+      "original_sha256": "d976fb2eba8772924b5b076fb97080dae5dd4c476ec115a8c5e25346505ababf"
+    },
+    {
+      "pair_id": "cfd283a347ded73dd0679a79",
+      "original": "Who has done more for the country that Mr Ian Alleyne?",
+      "corrupted": "Who has did more for the country that Mr Ian Alleyne?",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2015/06/13/in-search-of-integrity-in-trinidad-and-tobago/",
+      "edits": [
+        {
+          "rule_id": "perfect_participle:productive",
+          "corruption_type": "perfect_participle",
+          "start": 8,
+          "end": 12,
+          "original": "done",
+          "replacement": "did",
+          "protected_tokens": [
+            66,
+            67
+          ],
+          "corrupted_start": 8,
+          "corrupted_end": 11
+        }
+      ],
+      "stratum": "perfect_participle",
+      "source_judgment": "reject",
+      "edit_judgment": "accept",
+      "notes": "Comparative more ... that should use than.",
+      "original_sha256": "fda598dd837e0c89ade659c118fa159a37f5c9ae81eefc40ca6df44e8b1f0efe"
+    },
+    {
+      "pair_id": "94814fad25a055700139a16e",
+      "original": "The size of each hashtag node indicates how often it was used in our sample of tweets for each country.",
+      "corrupted": "The size of each hashtag node indicates how often it was used in our sample of tweets for each contry.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2015/06/29/hashtags-and-user-networks-in-the-putin-poroshenko-twitter-chatter/",
+      "edits": [
+        {
+          "rule_id": "spelling:country:contry",
+          "corruption_type": "spelling",
+          "start": 95,
+          "end": 102,
+          "original": "country",
+          "replacement": "contry",
+          "protected_tokens": [
+            52
+          ],
+          "corrupted_start": 95,
+          "corrupted_end": 101
+        }
+      ],
+      "stratum": "spelling",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "33220b0427fe88df81ad8f74d972ec8438a4e3ca76b48c803bd9a4609e7937f0"
+    },
+    {
+      "pair_id": "c84674cf692601f678bf3522",
+      "original": "Just getting to the finish line was success in and of itself.",
+      "corrupted": "Just gettinng to the finissh line was success in and of itself.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2017/11/18/musicians-think-theres-nogreatertime-to-advocate-for-change-in-trinidad-tobago/",
+      "edits": [
+        {
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "corruption_type": "spelling",
+          "start": 5,
+          "end": 12,
+          "original": "getting",
+          "replacement": "gettinng",
+          "protected_tokens": [
+            12
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 5,
+          "corrupted_end": 13
+        },
+        {
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "corruption_type": "spelling",
+          "start": 20,
+          "end": 26,
+          "original": "finish",
+          "replacement": "finissh",
+          "protected_tokens": [
+            15
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 21,
+          "corrupted_end": 28
+        }
+      ],
+      "stratum": "spelling",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "b5856de84eff87261c2f77de510495756d3a29017e98b0c28010157ba0228e05"
+    },
+    {
+      "pair_id": "693a334c3d681dc87e52eaa4",
+      "original": "China implemented the online real-name registration system in 2012.",
+      "corrupted": "China impelmented the online real-name registration system in 2012.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2023/10/23/new-policy-requires-chinese-influencers-to-display-their-real-identities-on-weibo/",
+      "edits": [
+        {
+          "rule_id": "spelling_pattern:transpose_internal",
+          "corruption_type": "spelling",
+          "start": 6,
+          "end": 17,
+          "original": "implemented",
+          "replacement": "impelmented",
+          "protected_tokens": [
+            1
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 6,
+          "corrupted_end": 17
+        }
+      ],
+      "stratum": "spelling",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "496d4494ac0c47e104f379185ff0e08207acad156c265365412497da144e61b2"
+    },
+    {
+      "pair_id": "e4cffc6d117db9ac24a5a225",
+      "original": "The new note, which is also believed to serve as a bridge currency note between the GHc1.00 and GHc5.00, is already out in the public domain.",
+      "corrupted": "The new note, which is also believed to serve as a bridge currency note between the GHc1.00 and GHc5.00, is already out in the puplic domain.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2010/05/18/ghana-new-two-ghana-cedis-notes-unveiled/",
+      "edits": [
+        {
+          "rule_id": "spelling:public:puplic",
+          "corruption_type": "spelling",
+          "start": 127,
+          "end": 133,
+          "original": "public",
+          "replacement": "puplic",
+          "protected_tokens": [
+            73
+          ],
+          "corrupted_start": 127,
+          "corrupted_end": 133
+        }
+      ],
+      "stratum": "spelling",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "38320e55403ca1b8acd894a0a4002c9e366282c673f484b6f61a66d60cd2870a"
+    },
+    {
+      "pair_id": "8df4f25902bd9ab544a5079a",
+      "original": "Later he told me he had stepped out of his class to take my phone call.",
+      "corrupted": "Later he told me he had stpeped out of his class to take my phone call.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2018/04/04/on-pakistani-activist-raza-khan-four-months-after-his-disappearance/",
+      "edits": [
+        {
+          "rule_id": "spelling_pattern:transpose_internal",
+          "corruption_type": "spelling",
+          "start": 24,
+          "end": 31,
+          "original": "stepped",
+          "replacement": "stpeped",
+          "protected_tokens": [
+            82
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 24,
+          "corrupted_end": 31
+        }
+      ],
+      "stratum": "spelling",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "235a7c84719859317de8d3484391af6416a81213c3e828e2d516bc2fac2fb2ba"
+    },
+    {
+      "pair_id": "3092f8965807977f4b3de994",
+      "original": "He thanked all fellow bloggers and organizations that showed support.",
+      "corrupted": "He thakned all fellow bloggers and organizations taht showed support.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2007/06/07/egypt-banned-documentary-cairo-metro-strike-torture-trial-and-more/",
+      "edits": [
+        {
+          "rule_id": "spelling_pattern:transpose_internal",
+          "corruption_type": "spelling",
+          "start": 3,
+          "end": 10,
+          "original": "thanked",
+          "replacement": "thakned",
+          "protected_tokens": [
+            33
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 3,
+          "corrupted_end": 10
+        },
+        {
+          "rule_id": "spelling:that:taht",
+          "corruption_type": "spelling",
+          "start": 49,
+          "end": 53,
+          "original": "that",
+          "replacement": "taht",
+          "protected_tokens": [
+            39
+          ],
+          "corrupted_start": 49,
+          "corrupted_end": 53
+        }
+      ],
+      "stratum": "spelling",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "dddd9d48d616d9b19735b31748e7f8d7a5b0bdbd92bebac48802203a7e68c93f"
+    },
+    {
+      "pair_id": "570c736d3644475f93a18f98",
+      "original": "The general election at the year's end seemed to have reflected the tough situations people live Japan.",
+      "corrupted": "The general election at the year's end seemed to have reflected the tough sitautions people live Japan.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2013/02/24/as-japans-star-fades-many-struggle-for-hope/",
+      "edits": [
+        {
+          "rule_id": "spelling_pattern:transpose_internal",
+          "corruption_type": "spelling",
+          "start": 74,
+          "end": 84,
+          "original": "situations",
+          "replacement": "sitautions",
+          "protected_tokens": [
+            24
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 74,
+          "corrupted_end": 84
+        }
+      ],
+      "stratum": "spelling",
+      "source_judgment": "reject",
+      "edit_judgment": "accept",
+      "notes": "Missing preposition in people live Japan.",
+      "original_sha256": "60f8407a97db66ee1f9c7cc8f7057883254abfb8edd383ea92e89b8ff2f26599"
+    },
+    {
+      "pair_id": "ae3559c871029071491273ce",
+      "original": "I will not withdraw my lawsuits against the re-education through labor committee, I want them to restore my reputation.",
+      "corrupted": "I will not withdrawing my lawsuits against the re-education through labor commitee, I want them to restore my reputation.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2012/11/28/spotlight-on-chinas-re-education-through-labour/",
+      "edits": [
+        {
+          "rule_id": "modal_verb_form:productive",
+          "corruption_type": "modal_verb_form",
+          "start": 11,
+          "end": 19,
+          "original": "withdraw",
+          "replacement": "withdrawing",
+          "protected_tokens": [
+            24,
+            26
+          ],
+          "corrupted_start": 11,
+          "corrupted_end": 22
+        },
+        {
+          "rule_id": "spelling:committee:commitee",
+          "corruption_type": "spelling",
+          "start": 71,
+          "end": 80,
+          "original": "committee",
+          "replacement": "commitee",
+          "protected_tokens": [
+            36
+          ],
+          "corrupted_start": 74,
+          "corrupted_end": 82
+        }
+      ],
+      "stratum": "spelling",
+      "source_judgment": "reject",
+      "edit_judgment": "accept",
+      "notes": "Comma splice between independent clauses.",
+      "original_sha256": "0fb28c64e128ed71ceeef2675d8c977b89dc209916a9a913b20dcb84ce6b7e23"
+    },
+    {
+      "pair_id": "4b83335d2d06419558ab7a19",
+      "original": "Instead, it looks like a massacre, a slaughter.",
+      "corrupted": "Innstead, it look like a massacre, a slaughter.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2010/05/27/jamaica-dudus-security-seaga/",
+      "edits": [
+        {
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "corruption_type": "spelling",
+          "start": 0,
+          "end": 7,
+          "original": "Instead",
+          "replacement": "Innstead",
+          "protected_tokens": [
+            73
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 0,
+          "corrupted_end": 8
+        },
+        {
+          "rule_id": "subject_verb_agreement:productive",
+          "corruption_type": "subject_verb_agreement",
+          "start": 12,
+          "end": 17,
+          "original": "looks",
+          "replacement": "look",
+          "protected_tokens": [
+            75,
+            76
+          ],
+          "corrupted_start": 13,
+          "corrupted_end": 17
+        }
+      ],
+      "stratum": "subject_verb_agreement",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "516529ab8722794e9b02dd979455f90f3232a6c856e44bc1a34f854a420c7ee9"
+    },
+    {
+      "pair_id": "ab90c3399502ca12f937b7c9",
+      "original": "The loss in money and electronic equipment exceeded 10,000 US dollars, but she won't complain to the police because everyone knows who the robbers are and what they do.",
+      "corrupted": "The loss in money and electronic equipment exceeded 10,000 US dollars, but she won't complain to the police because everyone knows who the robbers are and what they does.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2013/04/15/construction-project-fuels-sex-and-violence-in-brazilian-amazon/",
+      "edits": [
+        {
+          "rule_id": "subject_verb_agreement:productive",
+          "corruption_type": "subject_verb_agreement",
+          "start": 165,
+          "end": 167,
+          "original": "do",
+          "replacement": "does",
+          "protected_tokens": [
+            77,
+            78
+          ],
+          "corrupted_start": 165,
+          "corrupted_end": 169
+        }
+      ],
+      "stratum": "subject_verb_agreement",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "5fa56cbc0af319cd23f7835bd228a50c54cb664357b337da3def090638377487"
+    },
+    {
+      "pair_id": "188894fe31ce2209cc50aca9",
+      "original": "He is also a researcher in the Centre for Islamic Medicine and Health Studies, Faculty of Medicine and Health Sciences at the same university.",
+      "corrupted": "He are also a researcher in the Centre for Islamic Medicine and Health Studies, Faculty of Medicine and Health Sciences at the same uinversity.",
+      "source_name": "360info",
+      "url": "https://360info.org/the-unique-role-of-religion-in-managing-diabetes/",
+      "edits": [
+        {
+          "rule_id": "subject_verb_agreement:productive",
+          "corruption_type": "subject_verb_agreement",
+          "start": 3,
+          "end": 5,
+          "original": "is",
+          "replacement": "are",
+          "protected_tokens": [
+            15,
+            16
+          ],
+          "corrupted_start": 3,
+          "corrupted_end": 6
+        },
+        {
+          "rule_id": "spelling_pattern:transpose_internal",
+          "corruption_type": "spelling",
+          "start": 131,
+          "end": 141,
+          "original": "university",
+          "replacement": "uinversity",
+          "protected_tokens": [
+            39
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 132,
+          "corrupted_end": 142
+        }
+      ],
+      "stratum": "subject_verb_agreement",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "bb533e638db8b3c15658b1e481758d00d2bc37446597e57bf6a2530a1dc89280"
+    },
+    {
+      "pair_id": "b8d0a4142cb01557f363de8b",
+      "original": "Politicians humiliate those who challenge them – usually by saying they are mad.",
+      "corrupted": "Politicians humiliate those who challengge them – usually by saying they is mad.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2014/10/21/as-pressure-mounts-in-trinidad-re-route-protest-pro-highway-supporters-get-nasty/",
+      "edits": [
+        {
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "corruption_type": "spelling",
+          "start": 32,
+          "end": 41,
+          "original": "challenge",
+          "replacement": "challengge",
+          "protected_tokens": [
+            4
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 32,
+          "corrupted_end": 42
+        },
+        {
+          "rule_id": "subject_verb_agreement:productive",
+          "corruption_type": "subject_verb_agreement",
+          "start": 72,
+          "end": 75,
+          "original": "are",
+          "replacement": "is",
+          "protected_tokens": [
+            10,
+            11
+          ],
+          "corrupted_start": 73,
+          "corrupted_end": 75
+        }
+      ],
+      "stratum": "subject_verb_agreement",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "d719eada8e0aed245a152e78899373466b501321bfba8da1807799487f25e9fc"
+    },
+    {
+      "pair_id": "8c772578cc3148652720b2e7",
+      "original": "It's about maintaining the freedom, safety and dignity for every single Trinidadian, regardless of who they love or how they express that love.",
+      "corrupted": "It's about maintaining the freedom, safety and dignity for every single Trinidadian, regardless of who they love or how they expresses taht love.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2018/04/11/trinidad-tobagos-lgbt-community-speaks-out-as-court-decision-on-buggery-law-approaches/",
+      "edits": [
+        {
+          "rule_id": "subject_verb_agreement:productive",
+          "corruption_type": "subject_verb_agreement",
+          "start": 125,
+          "end": 132,
+          "original": "express",
+          "replacement": "expresses",
+          "protected_tokens": [
+            72,
+            73
+          ],
+          "corrupted_start": 125,
+          "corrupted_end": 134
+        },
+        {
+          "rule_id": "spelling:that:taht",
+          "corruption_type": "spelling",
+          "start": 133,
+          "end": 137,
+          "original": "that",
+          "replacement": "taht",
+          "protected_tokens": [
+            74
+          ],
+          "corrupted_start": 135,
+          "corrupted_end": 139
+        }
+      ],
+      "stratum": "subject_verb_agreement",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "5df122ddf3f4d8904948396fbbf0fba84cc229081d7f7dc2e49c07a3d6472424"
+    },
+    {
+      "pair_id": "a0bea1b3a07c7a6cc168c29e",
+      "original": "He describes the cheapening of life[ES] in the overcrowded courts of El Salvador.",
+      "corrupted": "He describe the cheapening of life[ES] in the overcrowded courrts of El Salvador.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2007/02/20/what-salvadoran-bloggers-are-saying-unable-to-escape-the-past/",
+      "edits": [
+        {
+          "rule_id": "subject_verb_agreement:productive",
+          "corruption_type": "subject_verb_agreement",
+          "start": 3,
+          "end": 12,
+          "original": "describes",
+          "replacement": "describe",
+          "protected_tokens": [
+            12,
+            13
+          ],
+          "corrupted_start": 3,
+          "corrupted_end": 11
+        },
+        {
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "corruption_type": "spelling",
+          "start": 59,
+          "end": 65,
+          "original": "courts",
+          "replacement": "courrts",
+          "protected_tokens": [
+            22
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 58,
+          "corrupted_end": 65
+        }
+      ],
+      "stratum": "subject_verb_agreement",
+      "source_judgment": "reject",
+      "edit_judgment": "accept",
+      "notes": "Embedded language-link artifact life[ES].",
+      "original_sha256": "1826eb2fac9e234e7bf33b9457741ab85cb17f0b9fdd60afe85cf8e6d7ce9770"
+    },
+    {
+      "pair_id": "93acf74bf4f1bdb307102067",
+      "original": "I know why the invasion of Iraq was messed up and there was no planning for post-war Iraq.",
+      "corrupted": "I knows why the invasion of Iraq was messed up and there was no planning for post-war Iraq.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2007/05/06/landing-at-the-iraqi-blogodrome-31/",
+      "edits": [
+        {
+          "rule_id": "subject_verb_agreement:productive",
+          "corruption_type": "subject_verb_agreement",
+          "start": 2,
+          "end": 6,
+          "original": "know",
+          "replacement": "knows",
+          "protected_tokens": [
+            12,
+            13
+          ],
+          "corrupted_start": 2,
+          "corrupted_end": 7
+        }
+      ],
+      "stratum": "subject_verb_agreement",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "be0ca7dd7d807b15a03483e652c61c472f1a52a7d7938d784cbc8ffeb9bfa993"
+    },
+    {
+      "pair_id": "d4d9b4a254ee061f64719efb",
+      "original": "Pacsker, the blogger of Greenr, has also been supporting the campaign for the marsh: he has dedicated 14 posts (HUN) to the case.",
+      "corrupted": "Pacsker, the blogger of Greenr, has also been supporting the campaiggn for the marsh: he have dedicated 14 posts (HUN) to the case.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2010/01/26/hungary-the-invisible-marsh/",
+      "edits": [
+        {
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "corruption_type": "spelling",
+          "start": 61,
+          "end": 69,
+          "original": "campaign",
+          "replacement": "campaiggn",
+          "protected_tokens": [
+            12
+          ],
+          "requires_lexical_screen": true,
+          "corrupted_start": 61,
+          "corrupted_end": 70
+        },
+        {
+          "rule_id": "subject_verb_agreement:productive",
+          "corruption_type": "subject_verb_agreement",
+          "start": 88,
+          "end": 91,
+          "original": "has",
+          "replacement": "have",
+          "protected_tokens": [
+            17,
+            18
+          ],
+          "corrupted_start": 89,
+          "corrupted_end": 93
+        }
+      ],
+      "stratum": "subject_verb_agreement",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "adfdf41bbb1117a0b8a82a68cb2f9bd8334774b21eed6a5a1e0d6373d0055860"
+    },
+    {
+      "pair_id": "a493b413cf3ea3dd381849ba",
+      "original": "We were working with @uwiseismic in the Wallibou on Monday (left), then again today (right).",
+      "corrupted": "We working with @uwiseismic in the Wallibou on Monday (left), then again today (right).",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2021/05/01/heavy-rains-worsen-the-effects-of-st-vincent-and-the-grenadines-la-soufriere-volcano/",
+      "edits": [
+        {
+          "rule_id": "fallback:delete_progressive_auxiliary",
+          "corruption_type": "word_deletion",
+          "start": 3,
+          "end": 15,
+          "original": "were working",
+          "replacement": "working",
+          "protected_tokens": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "corrupted_start": 3,
+          "corrupted_end": 10
+        }
+      ],
+      "stratum": "word_deletion",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "c527062274992f8dbdee0bf49af02060cdf396daadb47ad798b8b4902c5dd080"
+    },
+    {
+      "pair_id": "54ee4505cfa37fae3d509fed",
+      "original": "He was earning his living by offering lessons at the renowned riding academy of Antoine Pluvinel in the old palace of the Louvre.",
+      "corrupted": "He earning his living by offering lessons at the renowned riding academy of Antoine Pluvinel in the old palace of the Louvre.",
+      "source_name": "public_domain_review_essays",
+      "url": "https://publicdomainreview.org/essay/elephants-horses-and-the-proportions-of-paradise/",
+      "edits": [
+        {
+          "rule_id": "fallback:delete_progressive_auxiliary",
+          "corruption_type": "word_deletion",
+          "start": 3,
+          "end": 14,
+          "original": "was earning",
+          "replacement": "earning",
+          "protected_tokens": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "corrupted_start": 3,
+          "corrupted_end": 10
+        }
+      ],
+      "stratum": "word_deletion",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "e599f711cec3d02da31aa990ea7e8972383b0c6396bc5d8bd32d464c57048cf9"
+    },
+    {
+      "pair_id": "5f5b09423c1a34c481a5f2f7",
+      "original": "He was talking to himself in Kreyole, French, Spanish with a sprinkling of English.",
+      "corrupted": "He talking to himself in Kreyole, French, Spanish with a sprinkling of English.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2010/01/15/haiti-getting-the-word-out/",
+      "edits": [
+        {
+          "rule_id": "fallback:delete_progressive_auxiliary",
+          "corruption_type": "word_deletion",
+          "start": 3,
+          "end": 14,
+          "original": "was talking",
+          "replacement": "talking",
+          "protected_tokens": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "corrupted_start": 3,
+          "corrupted_end": 10
+        }
+      ],
+      "stratum": "word_deletion",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "a433464e36f896424d9c346227453b3513fa15de8e455f004450c00d5a58d6f1"
+    },
+    {
+      "pair_id": "5a79a6ee638e1410428584cb",
+      "original": "For dinner they were having fish and potatoes.",
+      "corrupted": "For dinner they having fish and potatoes.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2017/03/18/russia-a-visit-to-a-moscow-mental-health-center/",
+      "edits": [
+        {
+          "rule_id": "fallback:delete_progressive_auxiliary",
+          "corruption_type": "word_deletion",
+          "start": 16,
+          "end": 27,
+          "original": "were having",
+          "replacement": "having",
+          "protected_tokens": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "corrupted_start": 16,
+          "corrupted_end": 22
+        }
+      ],
+      "stratum": "word_deletion",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "b6819bdd04fe8b027e443e28a874affc20c396d5e539fa924eb4b22262a1d796"
+    },
+    {
+      "pair_id": "c38a03b7cd8bcc202878ac1c",
+      "original": "He was referring not just to any type of writing, but to the writing of propaganda.",
+      "corrupted": "He referring not just to any type of writing, but to the writing of propaganda.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2017/09/04/50-shades-of-erdogans-propaganda/",
+      "edits": [
+        {
+          "rule_id": "fallback:delete_progressive_auxiliary",
+          "corruption_type": "word_deletion",
+          "start": 3,
+          "end": 16,
+          "original": "was referring",
+          "replacement": "referring",
+          "protected_tokens": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "corrupted_start": 3,
+          "corrupted_end": 12
+        }
+      ],
+      "stratum": "word_deletion",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "ce1d8f243c25d612cef97c9a225158b01305dacdc410f6704e0aadab4b8f0069"
+    },
+    {
+      "pair_id": "d769b7126dbf8d159de60a01",
+      "original": "They were doing their best to prevent the protesters from crossing the bridges and going to Tahrir square.",
+      "corrupted": "They doing their best to prevent the protesters from crossing the bridges and going to Tahrir square.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2011/02/02/egypt-back-online-a-gv-author-shares-his-story/",
+      "edits": [
+        {
+          "rule_id": "fallback:delete_progressive_auxiliary",
+          "corruption_type": "word_deletion",
+          "start": 5,
+          "end": 15,
+          "original": "were doing",
+          "replacement": "doing",
+          "protected_tokens": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "corrupted_start": 5,
+          "corrupted_end": 10
+        }
+      ],
+      "stratum": "word_deletion",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "68a19b3e4d9e9e5428fc7404dbd36d48db92a8a9fbd7ff3175e02b948677a4c3"
+    },
+    {
+      "pair_id": "e2c42b63a040e90981ddfefe",
+      "original": "Additionally, bureau chiefs from nine international news-gathering organisations were interviewed extensively for the report.",
+      "corrupted": "Additionally, bureau chiefs from nine international news-gathering organisations were interviewed extensively for report the.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2019/01/30/surveillance-is-a-key-concern-for-foreign-journalists-working-in-china-survey-shows/",
+      "edits": [
+        {
+          "rule_id": "fallback:swap_article_noun",
+          "corruption_type": "word_swap",
+          "start": 114,
+          "end": 124,
+          "original": "the report",
+          "replacement": "report the",
+          "protected_tokens": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "corrupted_start": 114,
+          "corrupted_end": 124
+        }
+      ],
+      "stratum": "word_swap",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "06977f61662ff254d121134e6e8eb54ded752883ac90bd2bb6eae80f68adc4fd"
+    },
+    {
+      "pair_id": "ebbc9d1f58c04009aab73ee7",
+      "original": "Twitter withheld some content in only 5 percent of the cases.",
+      "corrupted": "Twitter withheld some content in only 5 percent of cases the.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2016/03/16/netizen-report-uganda-and-nigeria-seek-stricter-controls-for-social-media/",
+      "edits": [
+        {
+          "rule_id": "fallback:swap_article_noun",
+          "corruption_type": "word_swap",
+          "start": 51,
+          "end": 60,
+          "original": "the cases",
+          "replacement": "cases the",
+          "protected_tokens": [
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "corrupted_start": 51,
+          "corrupted_end": 60
+        }
+      ],
+      "stratum": "word_swap",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "40492af88f43cf8872c59ceeeb02d579a40829fbf2cd34a36ff1a81404cdf7a3"
+    },
+    {
+      "pair_id": "5704461ea6ba5d9353ba702d",
+      "original": "The EPA and AG have been summoned for next Tuesday for a response.",
+      "corrupted": "The EPA and AG have been summoned for next Tuesday for response a.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2019/11/05/amidst-denial-pakistans-smog-issues-pose-serious-health-risks-to-the-city-of-lahore/",
+      "edits": [
+        {
+          "rule_id": "fallback:swap_article_noun",
+          "corruption_type": "word_swap",
+          "start": 55,
+          "end": 65,
+          "original": "a response",
+          "replacement": "response a",
+          "protected_tokens": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "corrupted_start": 55,
+          "corrupted_end": 65
+        }
+      ],
+      "stratum": "word_swap",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "0315d9968e2432f8047df4dd1a8d59da036f73132c366b11fe07ceca8200c048"
+    },
+    {
+      "pair_id": "b3e49833686ee1c6677fbe57",
+      "original": "The next day, 500 people came to guard the mountain.",
+      "corrupted": "The next day, 500 people came to guard mountain the.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2024/02/05/the-battle-of-bashkir-people-why-the-largest-protests-in-wartime-russia-happened-in-bashkortostan/",
+      "edits": [
+        {
+          "rule_id": "fallback:swap_article_noun",
+          "corruption_type": "word_swap",
+          "start": 39,
+          "end": 51,
+          "original": "the mountain",
+          "replacement": "mountain the",
+          "protected_tokens": [
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151
+          ],
+          "corrupted_start": 39,
+          "corrupted_end": 51
+        }
+      ],
+      "stratum": "word_swap",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "3c46df23a1bdc8f68e3d75b188bf9881c3dc262e49f44de7239fe39b85c18734"
+    },
+    {
+      "pair_id": "2c65b38dc675533926c108f1",
+      "original": "As the earthquake happened in front of their eyes, and in midst of fears of the huge disaster approaching them, some may have witnessed their family or friends getting engulfed in the catastrophe.",
+      "corrupted": "As the earthquake happened in front of their eyes, and in midst of fears of the huge disaster approaching them, some may have witnessed their family or friends getting engulfed in catastrophe the.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2011/05/22/japan-aiding-the-aid-workers/",
+      "edits": [
+        {
+          "rule_id": "fallback:swap_article_noun",
+          "corruption_type": "word_swap",
+          "start": 180,
+          "end": 195,
+          "original": "the catastrophe",
+          "replacement": "catastrophe the",
+          "protected_tokens": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ],
+          "corrupted_start": 180,
+          "corrupted_end": 195
+        }
+      ],
+      "stratum": "word_swap",
+      "source_judgment": "reject",
+      "edit_judgment": "accept",
+      "notes": "Missing article in in midst of fears.",
+      "original_sha256": "24c3cd2ccb0f408a940450b6c9fe71f58fa3454d9f4ba63c19e570b3cbb84b33"
+    },
+    {
+      "pair_id": "d4d6dbacdce17c35bb085ef3",
+      "original": "This kept happening for weeks and when I complained to my family I was asked to quit the job, as this is the norm in most families.",
+      "corrupted": "This kept happening for weeks and when I complained to my family I was asked to quit job the, as this is the norm in most families.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2019/08/17/in-pakistan-uphill-battle-for-women-who-report-sexual-harassment/",
+      "edits": [
+        {
+          "rule_id": "fallback:swap_article_noun",
+          "corruption_type": "word_swap",
+          "start": 85,
+          "end": 92,
+          "original": "the job",
+          "replacement": "job the",
+          "protected_tokens": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "corrupted_start": 85,
+          "corrupted_end": 92
+        }
+      ],
+      "stratum": "word_swap",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "35db5a991557172489cd3c50d6f51bd4d4fb29063cd1f1022fe820135f76a37b"
+    },
+    {
+      "pair_id": "0acf2ca688399a2e8a7a381e",
+      "original": "In addition to collecting mushrooms, the adventurers were also in for a treat, before the start of one of their drives.",
+      "corrupted": "In addition to collecting mushrooms, the adventurers were also in for treat a, before the start of one of their drives.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2007/03/19/arabisc-a-pictorial-tour-of-the-middle-east/",
+      "edits": [
+        {
+          "rule_id": "fallback:swap_article_noun",
+          "corruption_type": "word_swap",
+          "start": 70,
+          "end": 77,
+          "original": "a treat",
+          "replacement": "treat a",
+          "protected_tokens": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "corrupted_start": 70,
+          "corrupted_end": 77
+        }
+      ],
+      "stratum": "word_swap",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "4fd13fbf2f4672e9257d1ff65114653476e9298d2892cccd6cf8b66b5e8051ed"
+    },
+    {
+      "pair_id": "ce30800ea86455dfbec75877",
+      "original": "The plant now produces 37,000 watts of electricity, enough to power 326 homes in the village.",
+      "corrupted": "The plant now produces 37,000 watts of electricity, enough to power 326 homes in village the.",
+      "source_name": "globalvoices",
+      "url": "https://globalvoices.org/2016/02/25/this-island-in-the-indian-ocean-is-small-but-the-lessons-it-offers-on-clean-power-are-anything-but/",
+      "edits": [
+        {
+          "rule_id": "fallback:swap_article_noun",
+          "corruption_type": "word_swap",
+          "start": 81,
+          "end": 92,
+          "original": "the village",
+          "replacement": "village the",
+          "protected_tokens": [
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "corrupted_start": 81,
+          "corrupted_end": 92
+        }
+      ],
+      "stratum": "word_swap",
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "Source acceptable; introduced grammar/spelling errors invalid as intended.",
+      "original_sha256": "f221cceb62ff687ad8ca986073ba8bda8aed3a2933007f93160080ffc48c4726"
+    }
+  ],
+  "summary": {
+    "reviewed": 70,
+    "source_accepted": 58,
+    "source_rejected": 9,
+    "source_uncertain": 3,
+    "injected_edits_accepted": 70,
+    "human_precision": null
+  }
+}

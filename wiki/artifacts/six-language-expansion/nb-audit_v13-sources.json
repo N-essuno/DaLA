@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "name": "government-nob",
+      "source_value": "government-nob",
+      "repo_id": "danish-foundation-models/norwegian-dynaword",
+      "revision": "2bc33815865fb3d610e2a080b19156db8e98feef",
+      "data_file": "data/government-nob/data.parquet",
+      "metadata_file": "data/government-nob/metadata.parquet",
+      "license": "NLOD-2.0",
+      "license_evidence_url": "https://huggingface.co/datasets/danish-foundation-models/norwegian-dynaword/blob/2bc33815865fb3d610e2a080b19156db8e98feef/data/government-nob/government-nob.md",
+      "min_document_chars": 35,
+      "annotation_filters": {
+        "content_integrity": [
+          "complete"
+        ],
+        "content_quality": [
+          "excellent",
+          "good"
+        ]
+      },
+      "quality_policy": "source_and_sentence_screening",
+      "language": "nb",
+      "annotation_exclusions": {
+        "content_type": [
+          "conversational"
+        ]
+      },
+      "pilot_sample_rows": 100,
+      "pilot_sample_seed": 4242
+    }
+  ]
+}

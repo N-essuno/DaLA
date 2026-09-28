@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "pairs": 206,
+  "checks": [
+    "identical canonical pairs",
+    "identical source offsets",
+    "identical checker evidence",
+    "identical resumed output"
+  ],
+  "outputs": {
+    "la_output/nn_fragment_equivalence_prestarted_ordinary": {
+      "pairs": 206,
+      "unique_documents": 1,
+      "exact_edit_reconstruction": true,
+      "correction_roundtrip": true,
+      "document_split_isolation": true,
+      "exported_text_unique": true,
+      "at_most_one_grammar_edit": true,
+      "artifact_checksums": true,
+      "task_views_match_pairs": true,
+      "balanced_labels": true,
+      "source_provenance_consistent": true
+    },
+    "la_output/nn_fragment_equivalence_prestarted_fragmented": {
+      "pairs": 206,
+      "unique_documents": 1,
+      "exact_edit_reconstruction": true,
+      "correction_roundtrip": true,
+      "document_split_isolation": true,
+      "exported_text_unique": true,
+      "at_most_one_grammar_edit": true,
+      "artifact_checksums": true,
+      "task_views_match_pairs": true,
+      "balanced_labels": true,
+      "source_provenance_consistent": true
+    },
+    "la_output/nn_fragment_equivalence_prestarted_resumed": {
+      "pairs": 206,
+      "unique_documents": 1,
+      "exact_edit_reconstruction": true,
+      "correction_roundtrip": true,
+      "document_split_isolation": true,
+      "exported_text_unique": true,
+      "at_most_one_grammar_edit": true,
+      "artifact_checksums": true,
+      "task_views_match_pairs": true,
+      "balanced_labels": true,
+      "source_provenance_consistent": true
+    }
+  }
+}

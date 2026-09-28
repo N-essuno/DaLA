@@ -1,0 +1,6 @@
+{
+  "run_id": "checker_resilient_v1",
+  "launch": "/work/mimir/DaLA/wiki/artifacts/european-expansion/checker_resilient_v1/launch.json",
+  "checker_autoscaler": "/work/mimir/DaLA/wiki/artifacts/european-expansion/checker_resilient_v1/controller-launch.json",
+  "previous_launch": "/work/mimir/DaLA/wiki/artifacts/european-expansion/checker_scale_v1/launch.json"
+}

@@ -1,0 +1,79 @@
+{
+  "language": "et",
+  "rule_overrides": {
+    "verb_number_agreement": {
+      "noun_subject": {
+        "lemmas": [
+          "mees",
+          "naine",
+          "õpetaja",
+          "õpilane",
+          "autor",
+          "kirjanik",
+          "linn",
+          "kool",
+          "ettevõte",
+          "hoone",
+          "raamat",
+          "puu"
+        ],
+        "review": "agent conservative count-noun inventory; no native validation"
+      }
+    }
+  },
+  "status": "candidate_only_agent_reviewed",
+  "reason": "Explicit conservative coverage extensions; shared code, isolated linguistic constraints",
+  "profile_overrides": {
+    "personal_pronoun_features": {
+      "mina": {
+        "Number": "Sing",
+        "Person": "1"
+      },
+      "ma": {
+        "Number": "Sing",
+        "Person": "1"
+      },
+      "sina": {
+        "Number": "Sing",
+        "Person": "2"
+      },
+      "sa": {
+        "Number": "Sing",
+        "Person": "2"
+      },
+      "tema": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "ta": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "meie": {
+        "Number": "Plur",
+        "Person": "1"
+      },
+      "me": {
+        "Number": "Plur",
+        "Person": "1"
+      },
+      "teie": {
+        "Number": "Plur",
+        "Person": "2"
+      },
+      "te": {
+        "Number": "Plur",
+        "Person": "2"
+      },
+      "nemad": {
+        "Number": "Plur",
+        "Person": "3"
+      },
+      "nad": {
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    "personal_pronoun_by_dependency": true
+  }
+}

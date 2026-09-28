@@ -1,0 +1,99 @@
+{
+  "at": "2026-09-24T14:10:08.500275+00:00",
+  "run_id": "recovery_v1",
+  "languages": [
+    "pl",
+    "sv",
+    "nb",
+    "nn",
+    "fo",
+    "is"
+  ],
+  "state": "running",
+  "finalization": "wiki/artifacts/six-language-expansion/recovery_v1/finalization.json",
+  "rules_changed": false,
+  "tests_passed": 128,
+  "equivalence_pairs": 206,
+  "previous_runs": {
+    "pl": "scale_v2",
+    "sv": "scale_v1",
+    "nb": "scale_v1",
+    "nn": "scale_v1",
+    "fo": "scale_v1",
+    "is": "scale_v2"
+  },
+  "uploaded": false,
+  "pair_caps": {
+    "nn": 478930,
+    "is": 478930
+  },
+  "nynorsk_full_pool_preserved": "la_output/nn_dynaword_recovery_v1",
+  "selected_outputs": {
+    "nn": "la_output/nynorsk_capped_478930/nn"
+  },
+  "selected_pair_counts": {
+    "nn": 478930
+  },
+  "full_pool_counts": {
+    "nn": 871199
+  },
+  "language_runs": {
+    "pl": "screening_v1",
+    "sv": "screening_v1",
+    "is": "scaled64_v2",
+    "nb": "recovery_v1",
+    "nn": "recovery_v1",
+    "fo": "recovery_v1"
+  },
+  "active_parser_workers": {
+    "pl": 0,
+    "sv": 0,
+    "is": 64
+  },
+  "status": "polish_swedish_resuming_with_bounded_checker_sessions",
+  "worker_verification": "wiki/artifacts/six-language-expansion/scaled64_v2/worker-verification.json",
+  "paused_counts": {
+    "pl": {
+      "pairs": 123655,
+      "splits": {
+        "test": 13824,
+        "train": 99174,
+        "validation": 10657
+      },
+      "processed_batches": 4108,
+      "last_batch_checksum_verified": true
+    },
+    "sv": {
+      "pairs": 164392,
+      "splits": {
+        "validation": 17200,
+        "train": 125382,
+        "test": 21810
+      },
+      "processed_batches": 3443,
+      "last_batch_checksum_verified": true
+    },
+    "is": {
+      "pairs": 128744,
+      "splits": {
+        "train": 102802,
+        "test": 12288,
+        "validation": 13654
+      },
+      "processed_batches": 8225,
+      "last_batch_checksum_verified": true
+    }
+  },
+  "pause_record": "wiki/artifacts/six-language-expansion/scaled64_v2/pause.json",
+  "configured_parser_workers": {
+    "pl": 64,
+    "sv": 64,
+    "is": 64
+  },
+  "active_launch_receipts": [
+    "wiki/artifacts/six-language-expansion/scaled64_v2/builds-launch.json",
+    "wiki/artifacts/six-language-expansion/screening_v1/builds-launch.json",
+    "wiki/artifacts/six-language-expansion/screening_v1/finalizer-launch.json"
+  ],
+  "worker_snapshot_at": "2026-09-24T14:10:44.511167+00:00"
+}

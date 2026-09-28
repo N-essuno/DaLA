@@ -1,0 +1,421 @@
+{
+  "source": "eurlex",
+  "eligible": 36296,
+  "raw": 36810,
+  "paths": {
+    "metadata.parquet": "la_output/cache/dynaword/datasets--danish-foundation-models--dutch-dynaword/snapshots/d0158defd949699532e59dea5978c5542afb0400/data/eurlex/metadata.parquet",
+    "data.parquet": "la_output/cache/dynaword/datasets--danish-foundation-models--dutch-dynaword/snapshots/d0158defd949699532e59dea5978c5542afb0400/data/eurlex/data.parquet",
+    "eurlex.md": "la_output/cache/dynaword/datasets--danish-foundation-models--dutch-dynaword/snapshots/d0158defd949699532e59dea5978c5542afb0400/data/eurlex/eurlex.md"
+  },
+  "sample": [
+    {
+      "id": "eurlex_18381",
+      "source": "eurlex",
+      "text": "*****\nVERORDENING (EEG) Nr. 1069/89 VAN DE RAAD\nvan 18 april 1989\ntot wijziging van Verordening (EEG) nr. 1785/81 houdende een gemeenschappelijke ordening der markten in de sector suiker\nDE RAAD VAN DE EUROPESE GEMEENSCHAPPEN,\nGelet op het Verdrag tot oprichting van de Europese Economische Gemeenschap, inzonderheid op artikel 43,\nGezien het voorstel van de Commissie (1),\nGezien het advies van het Europese Parlement (2),\nOverwegende dat in Portugal de behoefte aan witte suiker vanouds wordt gedekt door het raffineren van ingevoerde ruwe suiker; dat met het oog hierop bij artikel 303 van de Akte van Toetreding van Spanje en Portugal tot de Gemeenschap voor de overgangsperiode de nodige maatregelen zijn genomen om de Portugese raffinaderijen van ruwe suiker te voorzien, dit wil zeggen in eerste instantie ruwe suiker die uit een aantal ACS-Staten wordt betrokken of die in de Gemeenschap is geproduceerd en vervolgens, voor zover nog nodig, ruwe suiker die uit derde landen wordt ingevoerd met een verlaagde heffing om de prijs daarvan op het niveau van de communautaire interventieprijs voor ruwe suiker te brengen;\nOverwegende dat in de aan de Toetredingsakte gehechte gemeenschappelijke verklaring betreffende de voorziening van de suikerraffinerende industrie in Portugal is bepaald dat voor deze voorziening prijsvoorwaarden dienen te gelden die analoog zijn aan die voor preferentiële suiker; dat met de regeling waarbij suiker met een verlaagde heffing wordt ingevoerd, aan deze voorwaarde is voldaan;\nOverwegende dat in artikel 9, lid 4 ter, van Verordening (EEG) nr. 1785/81 (3), laatstelijk gewijzigd bij Verordening (EEG) nr. 2306/88 (4), een regeling is ingesteld waarbij voor het raffineren van preferentiële ruwe suiker steun wordt verleend;\nOverwegende dat de toepassing van een steunregeling voor de raffinage van preferentiële ruwe suiker, die bovendien geldt voor ruwe, in de Franse overzeese departementen geproduceerde rietsuiker en voor ruwe, in de Gemeenschap geproduceerde bietsuiker wanneer deze suiker in bepaalde raffinaderijen tot witte suiker wordt geraffineerd, tot gevolg heeft dat de Portugese raffinaderijen, die hun ruwe suiker over het geheel genomen voor drie vierde met een verlaagde heffing importeren en niet voor de voornoemde regeling in aanmerking komen, qua prijsvoorwaarden worden benadeeld; dat om dit nadeel ongedaan te maken deze regeling ook dient te gelden voor het raffineren van deze in Portugal, op grond van artikel 303 van de Toetredingsakte ingevoerde suiker; dat aan deze bepalingen terugwerkende kracht tot het begin van het verkoopseizoen 1988/1989 dient te worden gegeven om te voorkomen dat in de loop van eenzelfde verkoopseizoen voor ruwe suiker die vóór de datum van inwerkingtreding van de verruimde steunregeling is ingevoerd en geraffineerd een andere regeling zou gelden dan voor ruwe suiker die na die datum is ingevoerd en geraffineerd,\nHEEFT DE VOLGENDE VERORDENING\nVASTGESTELD:\nArtikel 1\nVerordening (EEG) nr. 1785/81 wordt als volgt gewijzigd:\n1. in artikel 9 wordt het volgende lid toegevoegd:\n\"4 quater. Tijdens de verkoopseizoenen 1988/1989 tot en met 1990/1991 wordt, bij wijze van interventiemaatregel, aan de raffinage-industrie in Portugal aanpassingssteun toegekend voor de op grond van artikel 303 van de Akte van Toetreding van Spanje en Portugal uit derde landen ingevoerde hoeveelheden ruwe suiker, die in Portugal tot witte suiker worden geraffineerd.\nDeze steun wordt slechts toegekend indien de ingevoerde ruwe suiker in een van de in lid 4, derde alinea, bedoelde raffinaderijen tot witte suiker wordt geraffineerd. Voor deze produktie van witte suiker wordt de steun vastgesteld op 0,08 ecu per 100 kilogram suiker, uitgedrukt in witte suiker.\nVoornoemde aanpassingssteun kan voor een bepaald verkoopseizoen worden aangepast op basis van de voor dat verkoopseizoen vastgestelde opslagbijdrage en/of naar aanleiding van een wijziging van de raffinagemarge als gevolg van de prijzen die voor het betrokken verkoopseizoen zijn vastgesteld.\";\n2. artikel 9, lid 6, zevende streepje, wordt vervangen door:\n\"- de in lid 4 ter, vierde alinea, en lid 4 quater, derde alinea, bedoelde aanpassingen.\".\nArtikel 2\nDeze verordening treedt in werking op de derde dag volgende op die van haar bekendmaking in het Publikatieblad van de Europese Gemeenschappen.\nZij is van toepassing met ingang van 1 juli 1988.\nDeze verordening is verbindend in al haar onderdelen en is rechtstreeks toepasselijk in elke Lid-Staat.\nGedaan te Luxemburg, 18 april 1989.",
+      "annotation": {
+        "dataset": "eurlex",
+        "id": "eurlex_18381",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "brief",
+        "one_sentence_description": "European Commission regulation amending the common market organization for sugar to support Portuguese refineries.",
+        "content_type": [
+          "legal_document"
+        ],
+        "business_sector": [
+          "government_public",
+          "agriculture_food",
+          "manufacturing_industrial"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "excellent",
+        "audience_level": "expert",
+        "commercial_bias": "none",
+        "time_sensitivity": "time_sensitive",
+        "content_safety": "safe",
+        "educational_value": "none",
+        "reasoning_indicators": "explanatory",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european"
+        ],
+        "country_relevance": [
+          "portugal",
+          "spain",
+          "supranational"
+        ]
+      }
+    },
+    {
+      "id": "eurlex_23064",
+      "source": "eurlex",
+      "text": "VERORDENING (EG) Nr. 629/95 VAN DE COMMISSIE van 23 maart 1995 houdende uitvoeringsbepalingen in de sector melk en zuivelprodukten voor het beheer van bepaalde tariefcontingenten voor Hongarije en Bulgarije, geopend bij Verordening (EG) nr. 3379/94 van de Raad\nDE COMMISSIE VAN DE EUROPESE GEMEENSCHAPPEN,\nGelet op het Verdrag tot oprichting van de Europese Gemeenschap,\nGelet op Verordening (EG) nr. 3379/94 van de Raad van 22 december 1994 houdende opening en wijze van beheer van communautaire tariefcontingenten voor bepaalde landbouwprodukten en voor bier in 1995 (1), en met name op artikel 3,\nOverwegende dat bij Verordening (EG) nr. 3379/94 naar aanleiding van de toetreding van Oostenrijk, Finland en Zweden autonome tariefcontingenten zijn geopend voor het jaar 1995, teneinde tijdelijk de naleving te waarborgen van de verbintenissen inzake de aanpassing van de voor bepaalde landbouwprodukten aan Hongarije en Bulgarije (onder andere landen) verleende tariefconcessies en in afwachting dat aanvullende protocollen bij de overeenkomsten met deze landen worden gesloten; dat de nieuwe tariefcontingenten geen afbreuk doen aan de bij genoemde overeenkomsten tussen de Gemeenschap en deze landen vastgestelde invoerregelingen;\nOverwegende dat bij genoemde verordening voor 1995 is voorzien in een regeling in het kader waarvan de heffingen bij de invoer van bepaalde produkten in, onder meer, de sector melk en zuivelprodukten worden verlaagd of opgeheven; dat, met het oog op het beheer van deze regeling, uitvoeringsbepalingen moeten worden vastgesteld; dat die bepalingen hetzij een aanvulling vormen op, hetzij in een afwijking voorzien van het bepaalde in Verordening (EEG) nr. 3719/88 van de Commissie van 16 november 1988 houdende gemeenschappelijke uitvoeringsbepalingen inzake het stelsel van invoer-, uitvoer- en voorfixatiecertificaten voor landbouwprodukten (2), laatstelijk gewijzigd bij Verordening (EG) nr. 340/95 (3);\nOverwegende dat, met het oog op een correct kwantitatief beheer van de invoer, enerzijds bij de aanvraag voor het invoercertificaat een zekerheid dient te worden gesteld en anderzijds bepaalde voorwaarden dienen te worden opgelegd ten aanzien van het indienen van de certificaataanvragen; dat ook het volume van de vaste bedragen over het jaar dient te worden gespreid, de procedure voor het afgeven van de certificaten moet worden vastgesteld en de geldigheidsduur van de certificaten moet worden bepaald;\nOverwegende dat met name dient te worden gewaarborgd dat alle importeurs van de Gemeenschap te allen tijde kunnen profiteren van de verlaging van de heffing bij alle invoer van de betrokken produkten in alle Lid-Staten tot op het tijdstip waarop de beschikbaar gestelde hoeveelheden geheel zijn opgenomen; dat het dienstig is de nodige maatregelen te treffen om op communautair niveau een doeltreffend beheer van deze hoeveelheden te waarborgen en dat in het bijzonder, gezien het speculatiegevaar, nauwkeurig de voorwaarden moeten worden vastgesteld waarop de marktdeelnemers van de bedoelde regeling gebruik kunnen maken; dat deze wijze van beheer een nauwe samenwerking tussen de Lid-Staten en de Commissie vereist;\nOverwegende dat de in deze verordening vervatte maatregelen in overeenstemming zijn met het advies van het Comité van beheer voor melk en zuivelprodukten,\nHEEFT DE VOLGENDE VERORDENING VASTGESTELD:\nArtikel 1\nVoor alle invoer in de Gemeenschap, in het kader van de regeling bedoeld in artikel 1 van Verordening (EG) nr. 3379/94, van zuivelprodukten van oorsprong uit Hongarije en Bulgarije, die bij de in bijlage I aangegeven GN-codes zijn ingedeeld, moet een overeenkomstig het bepaalde in deze verordening aangevraagd en afgegeven invoercertificaat worden overgelegd.\nIn bijlage I zijn voor ieder produkt de voor deze regeling in aanmerking komende hoeveelheden aangegeven alsmede het percentage waarmee de heffing wordt verlaagd.\nArtikel 2\nDe in bijlage I aangegeven hoeveelheden worden als volgt over het jaar gespreid:\n- 33 % in de periode van 1 april tot en met 30 juni,\n- 33 % in de periode van 1 juli tot en met 30 september,\n- 34 % in de periode van 1 oktober tot en met 31 december.\nArtikel 3\nCertificaataanvragen in het kader van de in artikel 1 bedoelde regeling worden alleen in aanmerking genomen als aan de onderstaande voorwaarden is voldaan:\na) de aanvrager moet bij de indiening van de aanvraag ten genoegen van de bevoegde instanties van de betrokken Lid-Staat aantonen dat hij sedert ten minste twaalf maanden werkzaam is op het gebied van de handel met derde landen in de sector melk of zuivelprodukten. Deze regeling geldt evenwel niet voor detailhandelszaken of restaurants die hun produkten rechtstreeks aan de verbruiker verkopen;\nb) de certificaataanvraag mag betrekking hebben op slechts één van de in bijlage I bij deze verordening vermelde GN-codes voor een produkt van oorsprong uit slechts één van de twee landen bedoeld in deze verordening.\nDe certificaataanvraag moet betrekking hebben op ten minste 10 ton en ten hoogste 25 % van de hoeveelheid die beschikbaar is voor het betrokken produkt en voor de in artikel 2 bedoelde periode waarvoor de certificaataanvraag wordt ingediend;\nc) op de certificaataanvraag en het certificaat moet in vak 8 het land van oorsprong worden vermeld; het certificaat brengt de verplichting met zich om uit het aangegeven land in te voeren;\nd) op de certificaataanvraag en het certificaat moet in vak 20 een van de volgende vermeldingen worden aangebracht:\nReglamento (CE) n° 629/95,\nForordning (EF) nr. 629/95,\nVerordnung (EG) Nr. 629/95,\nÊáíïíéóìüò (ÅÊ) áñéè. 629/95,\nRegulation (EC) No 629/95,\nRèglement (CE) n° 629/95,\nRegolamento (CE) n. 629/95,\nVerordening (EG) nr. 629/95,\nRegulamento (CE) nº 629/95,\nFörordning (EG) nr 629/95,\nAsetus (EY) N:o 629/95;\ne) op het certificaat moet in vak 24 een van de volgende vermeldingen worden aangebracht:\nReducción de la exacción reguladora establecida en el Reglamento (CE) n° 629/95,\nNedsættelse, jf. forordning (EF) nr. 629/95, af importafgiften,\nErmäßigung der Abschöpfung gemäß der Verordnung (EG) Nr. 629/95,\nÌåßùóç ôïõ äáóìïý üðùò ðñïâëÝðåôáé áðü ôïí êáíïíéóìü (ÅÊ) áñéè. 629/95,\nLevy reduced in accordance with Regulation (EC) No 629/95,\nRéduction du prélèvement prévue par le règlement (CE) n° 629/95,\nRiduzione del prelievo a norma del regolamento (CE) n. 629/95,\nHeffing verlaagd overeenkomstig Verordening (EG) nr. 629/95,\nRedução do direito nivelador prevista no Regulamento (CE) nº 629/95,\nNedsättning av importavgiften enligt förordning (EG) nr 629/95,\nAsetuksessa (EY) N:o 629/95 säädetty maksun alennus.\nArtikel 4\n1. Certificaataanvragen kunnen alleen gedurende de eerste tien dagen van elke in artikel 2 vastgestelde periode worden ingediend.\n2. De certificaataanvragen zijn slechts ontvankelijk, voor zover de aanvrager schriftelijk verklaart dat hij voor de lopende periode geen andere aanvragen voor produkten van deze GN-code en van hetzelfde land van oorsprong heeft ingediend, en ook niet zal indienen in het kader van de in artikel 1 genoemde invoerregeling in de Lid-Staat waar de aanvraag wordt ingediend, noch in andere Lid-Staten; wanneer dezelfde belanghebbende toch aanvragen voor hetzelfde produkt indient, is geen enkele aanvraag ontvankelijk.\n3. De Lid-Staten delen de Commissie op de derde werkdag na de uiterste datum voor de indiening van de aanvragen gegevens mee over de voor elk van de in bijlage I vermelde produkten ingediende aanvragen. Deze mededeling omvat de lijst van de aanvragers, de aangevraagde hoeveelheden per GN-code en het land van oorsprong. Alle mededelingen, ook indien geen aanvragen zijn ingediend, worden op de aangegeven werkdag per telexbericht of per fax toegezonden, met gebruikmaking van een formulier naar het model in bijlage II, wanneer geen aanvragen zijn ingediend, en formulieren naar het model in de bijlagen II en III wanneer wel aanvragen zijn ingediend.\n4. De Commissie beslist zo spoedig mogelijk in welke mate gevolg kan worden gegeven aan de in artikel 3 bedoelde aanvragen.\nIndien de hoeveelheden waarvoor certificaten zijn aangevraagd, per GN-code en per land van oorsprong groter zijn dan de beschikbare hoeveelheden, stelt de Commissie een uniform percentage vast waarmee de aangevraagde hoeveelheden worden verminderd. Indien de aanvrager de na toepassing van dit percentage resterende hoeveelheid onvoldoende acht, kan hij van gebruik van het certificaat afzien. In dat geval deelt hij zijn besluit binnen drie dagen na de bekendmaking van de bovenbedoelde beslissing mee aan de bevoegde instantie, die de gegevens inzake de ingetrokken aanvraag onmiddellijk aan de Commissie doorgeeft.\nIndien de totale hoeveelheid waarvoor aanvragen zijn ingediend per GN-code en per land van oorsprong beneden de beschikbare hoeveelheid komt te liggen, bepaalt de Commissie welke resterende hoeveelheid bij de beschikbare hoeveelheid voor de volgende periode wordt gevoegd.\n5. De certificaten worden zo spoedig mogelijk na de beslissing van de Commissie afgegeven.\nArtikel 5\nIn overeenstemming met het bepaalde in artikel 21, lid 2, van Verordening (EEG) nr. 3719/88 bedraagt de geldigheidsduur van de certificaten 60 dagen vanaf de dag van feitelijke afgifte.\nDe geldigheidsduur van de certificaten loopt evenwel tot uiterlijk 31 december van het jaar van afgifte.\nOp grond van deze verordening afgegeven invoercertificaten zijn niet overdraagbaar.\nArtikel 6\nBij de aanvragen voor invoercertificaten dient voor alle in artikel 1 bedoelde produkten een zekerheid van 36,23 ecu per 100 kilogram te worden gesteld.\nArtikel 7\nOnverminderd het bepaalde in deze verordening zijn de bepalingen van Verordening (EEG) nr. 3719/88 van toepassing.\nIn afwijking van artikel 8, lid 4, van de vorengenoemde verordening mag de in het kader van deze verordening ingevoerde hoeveelheid echter niet groter zijn dan de in de vakken 17 en 18 van het invoercertificaat aangegeven hoeveelheid. In vak 19 van het certificaat wordt dan ook het cijfer 0 ingevuld.\nArtikel 8\nDe p",
+      "annotation": {
+        "dataset": "eurlex",
+        "id": "eurlex_23064",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "moderate",
+        "one_sentence_description": "European Commission regulation detailing the implementation of tariff quotas for milk and dairy products from Hungary and Bulgaria.",
+        "content_type": [
+          "legal_document",
+          "procedural"
+        ],
+        "business_sector": [
+          "government_public",
+          "agriculture_food"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "excellent",
+        "audience_level": "expert",
+        "commercial_bias": "none",
+        "time_sensitivity": "evergreen",
+        "content_safety": "safe",
+        "educational_value": "minimal",
+        "reasoning_indicators": "explanatory",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european"
+        ],
+        "country_relevance": [
+          "hungary",
+          "bulgaria",
+          "supranational"
+        ]
+      }
+    },
+    {
+      "id": "eurlex_29965",
+      "source": "eurlex",
+      "text": "VERORDENING (EEG) Nr. 3744/89 VAN DE COMMISSIE\nvan 13 december 1989\ntot wijziging van Verordening (EEG) nr. 3418/88 tot vaststelling van de met ingang van 1 september 1988 bij invoer van bepaalde wijnbouwprodukten toe te passen referentieprijzen franco grens\nDE COMMISSIE VAN DE EUROPESE\nGEMEENSCHAPPEN,\nGelet op het Verdrag tot oprichting van de Europese Economische Gemeenschap,\nGelet op Verordening (EEG) nr. 822/87 van de Raad van 16 maart 1987 houdende een gemeenschappelijke ordening van de wijnmarkt (1), laatstelijk gewijzigd bij Verordening (EEG) nr. 1236/89 (2), inzonderheid op artikel 54, lid 8,\nOverwegende dat ter uitvoering van de samenwerkingsovereenkomsten tussen de Gemeenschap en bepaalde Middellandse-Zeelanden, bij Verordening (EEG) nr. 3418/88 van de Commissie (3), gewijzigd bij Verordening (EEG) nr. 4012/88 (4), verlaagde referentieprijzen franco grens zijn vastgesteld voor wijn uit die landen die binnen de jaarlijkse kwantitatieve contingenten wordt aangeboden in recipiënten van niet meer dan twee liter; dat krachtens de bepalingen van die overeenkomsten op 1 januari 1990 een nieuwe prijsverlaging ingaat voor Algerije, Cyprus, Marokko, Tunesië en Joegoslavië; dat de betreffende referentieprijzen franco grens op een overeenkomstig niveau moeten worden vastgesteld,\nHEEFT DE VOLGENDE VERORDENING\nVASTGESTELD:\nArtikel 1\nDe bijlage bij Verordening (EEG) nr. 3418/88 wordt vervangen door de bijlage bij deze verordening.\nArtikel 2\nDeze verordening treedt in werking op 1 januari 1990.\nDeze verordening is verbindend in al haar onderdelen en is rechtstreeks toepasselijk in elke Lid-Staat.\nGedaan te Brussel, 13 december 1989.",
+      "annotation": {
+        "dataset": "eurlex",
+        "id": "eurlex_29965",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "brief",
+        "one_sentence_description": "European Commission regulation establishing reference prices for French border wine products for certain countries.",
+        "content_type": [
+          "legal_document"
+        ],
+        "business_sector": [
+          "government_public",
+          "agriculture_food"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "excellent",
+        "audience_level": "expert",
+        "commercial_bias": "none",
+        "time_sensitivity": "evergreen",
+        "content_safety": "safe",
+        "educational_value": "none",
+        "reasoning_indicators": "basic_reasoning",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european",
+          "middle_eastern"
+        ],
+        "country_relevance": [
+          "supranational",
+          "france",
+          "algeria",
+          "cyprus",
+          "morocco",
+          "tunisia",
+          "serbia"
+        ]
+      }
+    },
+    {
+      "id": "eurlex_35680",
+      "source": "eurlex",
+      "text": "VERORDENING (EG) Nr. 62/2006 VAN DE COMMISSIE\nvan 23 december 2005\nbetreffende de technische specificaties voor interoperabiliteit inzake het subsysteem \"Telematicatoepassingen voor goederenvervoer\" van het conventionele trans-Europese spoorwegsysteem\n(Voor de EER relevante tekst)\nDE COMMISSIE VAN DE EUROPESE GEMEENSCHAPPEN,\nGelet op het Verdrag tot oprichting van de Europese Gemeenschap,\nGelet op Richtlijn 2001/16/EG van het Europees Parlement en de Raad van 19 maart 2001 betreffende de interoperabiliteit van het conventionele trans-Europese spoorwegsysteem (1), en met name op artikel 6, lid 1,\nOverwegende hetgeen volgt:\n(1)\nOvereenkomstig artikel 2, onder c), van Richtlijn 2001/16/EG wordt het conventionele trans-Europese spoorwegsysteem onderverdeeld in structurele en functionele subsystemen. Voor elk subsysteem dient een technische specificatie voor interoperabiliteit (TSI) te worden vastgesteld.\n(2)\nAls eerste stap voor de vaststelling van een TSI wordt een ontwerp-TSI opgesteld door de Europese Associatie voor Spoorinteroperabiliteit (AEIF) die is aangewezen als representatieve gemeenschappelijke instantie.\n(3)\nDe AEIF heeft de opdracht gekregen een ontwerp-TSI vast te stellen voor het subsysteem \"Telematicatoepassingen voor goederenvervoer\" overeenkomstig artikel 6, lid 1, van Richtlijn 2001/16/EG. De fundamentele parameters van deze ontwerp-TSI werden goedgekeurd bij Beschikking 2004/446/EG van de Commissie van 29 april 2004 tot vaststelling van de fundamentele parameters van de technische specificaties voor interoperabiliteit inzake geluidsemissies, goederenwagens en telematicatoepassingen voor goederenvervoer als bedoeld in Richtlijn 2001/16/EG van het Europees Parlement en de Raad (2).\n(4)\nBij de ontwerp-TSI op basis van de fundamentele parameters was een inleidend rapport met een kosten-batenanalyse gevoegd dat werd opgesteld overeenkomstig artikel 6, lid 5, van Richtlijn 2001/16/EG.\n(5)\nDe ontwerp-TSI werd in het licht van het inleidende rapport onderzocht door het comité dat is ingesteld op grond van artikel 21 van Richtlijn 96/48//EG van de Raad van 23 juli 1996 betreffende de interoperabiliteit van het trans-Europese hogesnelheidsspoorwegsysteem (3).\n(6)\nOvereenkomstig artikel 1 van Richtlijn 2001/16/EG worden voor de verwezenlijking van de interoperabiliteit van het conventionele trans-Europese spoorwegsysteem voorwaarden gesteld zowel aan het ontwerp, de aanleg, de herinrichting, de vernieuwing en de exploitatie van de infrastructuur als aan het rollend materieel, d.w.z. aan de onderdelen die bijdragen tot de werking van het systeem en die na de datum van inwerkingtreding van deze richtlijn in gebruik zullen worden genomen. Ook de efficiënte interconnectie van de informatie- en communicatiesystemen van de verschillende infrastructuurbeheerders en spoorwegondernemingen wordt als een belangrijk element beschouwd.\n(7)\nDe meeste telematicatoepassingen voor het goederenvervoer werden ontwikkeld en ingevoerd op basis van de behoeften van de nationale markt. Dit belemmert de grensoverschrijdende informatiedoorstroming, een essentieel kwaliteitsaspect van internationaal spoorvervoer, met name in het snelgroeiende segment van het internationale goederenvervoer.\n(8)\nDe TSI betreffende telematica vereist geen gebruik van specifieke technologieën of technische oplossingen behoudens waar dit strikt noodzakelijk is voor de interoperabiliteit van het conventionele trans-Europese spoorwegsysteem\n(9)\nDe TSI betreffende telematica is gebaseerd op de kennis van deskundigen die beschikbaar was op het tijdstip waarop het ontwerp werd opgesteld. Door technologische, operationele, maatschappelijke of veiligheidsontwikkelingen kan een wijziging van deze TSI of een aanvulling daarop noodzakelijk zijn. Daarom wordt een veranderingsmanagementsproces ontwikkeld om de voorschriften uit bijlage A van de TSI verder uit te werken en aan te passen. Deze opdracht wordt uitgevoerd onder de verantwoordelijkheid van het Europees Spoorwegbureau, ingesteld bij Verordening (EG) nr. 881/2004 van het Europees Parlement en de Raad (4), zodra dat Bureau operationeel is, d.i. uiterlijk tegen april 2006. In voorkomend geval zal, overeenkomstig artikel 6, lid 3, van Richtlijn 2001/16/EG, een meer diepgaande en ruimere herzienings- of bijwerkingsprocedure worden gestart waarbij de in de TSI voorgeschreven procedure kan worden gewijzigd.\n(10)\nBij de toepassing van de TSI betreffende telematica moet rekening worden gehouden met specifieke criteria betreffende de technische en operationele compatibiliteit tussen de infrastructuren en het in gebruik te nemen rollend materieel en het netwerk waarin deze worden geïntegreerd. Deze compatibiliteitseisen vereisen een per geval uit te voeren complexe technische en economische analyse. Bij deze analyse moet rekening worden gehouden met de interfaces tussen de verschillende in Richtlijn 2001/16/EG vermelde subsystemen, met de diverse lijncategorieën en rollend materieel waar die richtlijn naar verwijst, en met de technische en operationele eigenschappen van het bestaande netwerk.\n(11)\nEen samenhangend kader van toepassingsregels en richtsnoeren is essentieel bij deze analyse. De Europese representatieve instanties van de spoorwegsector werken daarom een Europees plan uit voor de invoering van de telematica-TSI. In dit plan wordt aangegeven welke stappen moeten worden gezet om van de huidige gefragmenteerde aanpak van informatiemanagement te komen tot een naadloze informatie-uitwisseling over het volledige spoorwegnetwerk van de Europese Unie.\n(12)\nOm de TSI op een effciënte manier te implementeren moet een strategisch Europees implementatieplan worden opgesteld. De faseringsplannen die de actoren moeten opstellen, dienen op Europees niveau te worden gecoördineerd en rekening te houden met de bestaande IT- en processystemen van spoorwegondernemingen en infrastructuurbeheerders. Hiertoe stellen de spoorwegondernemingen en infrastructuurbeheerders informatie ter beschikking betreffende het functioneren van de diverse telematicatoepassingen die in het goederenvervoer worden gebruikt, alsmede de technische informatie over deze systemen.\n(13)\nHet in de bijgevoegde TSI beschreven beoogde systeem gaat uit van op de computer gebaseerde technologie met een verwachte levensduur die aanzienlijk lager is dan die van de huidige traditionele seingevings- en telecommunicatievoorzieningen. Bijgevolg vereist het inzetten daarvan een strategie die meer anticiperend dan reactief is om te voorkomen dat het systeem reeds verouderd is voordat alle interconnecties volledig uitgevoerd zijn. Daarnaast zou een te versnipperde aanpak van die installatie binnen het Europese spoorwegsysteem hoge operationele en andere kosten met zich brengen door de onzekerheid over de continuïteit van de dienst. De ontwikkeling van een samenhangend trans-Europees uitvoeringsplan voor het beoogde systeem zou bijdragen tot de ontwikkeling van naadloze informatie-uitwisseling over het trans-Europese spoorwegnet als geheel overeenkomstig de EU-strategie voor het TEN-vervoersnetwerk. Een dergelijk plan moet uitgaan van de desbetreffende nationale uitvoeringsplannen en moet een passende kennisbasis verschaffen ter ondersteuning van de besluitvorming door de verschillende belanghebbende partijen - met name de Commissie bij de toewijzing van financiële steun voor spoorwegprojecten. De Commissie zou het mandaat moeten krijgen om de ontwikkeling van een Europees plan door de verschillende partners te coördineren.\n(14)\nOm elke verwarring uit te sluiten moet worden benadrukt dat de bepalingen van Beschikking 2004/446/EG betreffende de fundamentele parameters van het conventionele trans-Europese spoorwegsysteem niet langer van toepassing zijn.\n(15)\nDe TSI betreffende telematica in het goederenvervoer is van functionele aard. Bijgevolg zijn de bepalingen uit deze TSI in hoofdzaak gericht tot de marktactoren. Voor de invoering van de bepalingen van de TSI is een verordening die zich richt tot de betrokken actoren, beter geschikt dan een tot de lidstaten gerichte beschikking.\n(16)\nDe in deze verordening vervatte maatregelen zijn in overeenstemming met het advies van het bij Richtlijn 96/48/EG ingestelde comité,\nHEEFT DE VOLGENDE VERORDENING VASTGESTELD:\nArtikel 1\nDe technische specificatie voor interoperabiliteit (TSI) betreffende het subsysteem \"Telematicatoepassingen voor goederenvervoer\" van het conventionele spoorwegsysteem, zoals bedoeld in artikel 6, lid 1, van Richlijn 2001/16/EG, wordt vastgesteld in de bijlage.\nDe TSI is volledig van toepassing op de infrastructuur en het rollend materieel van het conventionele trans-Europese spoorwegsysteem zoals omschreven in bijlage I bij Richtlijn 2001/16/EG.\nArtikel 2\nSpoorwegondernemingen en infrastructuurbeheerders dragen hiertoe bij door, binnen zes maanden na de inwerkingtreding van deze verordening, informatie betreffende het functioneren van de verschillende telematicatoepassingen in het goederenvervoer, zoals omschreven in hoofdstuk 2 van de bijlage, alsmede technische informatie over deze systemen ter beschikking te stellen.\nArtikel 3\nDe op Europees niveau optredende representatieve instanties van de spoorwegsector, zoals bedoeld in artikel 3, lid 2, van Verordening (EG) nr. 881/2004, stellen een strategisch Europees implementatieplan op voor de TSI in de bijlage overeenkomstig de criteria die zijn opgenomen in hoofdstuk 7 van de bijlage bij deze verordening.\nZij doen dit strategische plan uiterlijk een jaar na de inwerkingtreding van deze verordening aan de lidstaten en de Commissie toekomen.\nArtikel 4\nDe bepalingen van Beschikking 2004/446/EG betreffende de fundamentele parameters van het conventionele trans-Europese spoorwegsysteem zijn niet langer van toepassing vanaf de datum waarop deze verordening in werking treedt.\nArtikel 5\nDeze verordening treedt in werking op de dag volgende op die van haar bekendmaking in het Publicatieblad van de Europese Unie.\nDeze verordening is verbindend in al haar onderde",
+      "annotation": {
+        "dataset": "eurlex",
+        "id": "eurlex_35680",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "moderate",
+        "one_sentence_description": "European Commission regulation establishing technical specifications for interoperable telematic applications in the conventional trans-European rail system.",
+        "content_type": [
+          "legal_document",
+          "specification_standard"
+        ],
+        "business_sector": [
+          "government_public",
+          "transportation_logistics",
+          "technology_software"
+        ],
+        "technical_content": [
+          "basic_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "excellent",
+        "audience_level": "expert",
+        "commercial_bias": "none",
+        "time_sensitivity": "slowly_changing",
+        "content_safety": "safe",
+        "educational_value": "minimal",
+        "reasoning_indicators": "explanatory",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european"
+        ],
+        "country_relevance": [
+          "supranational"
+        ]
+      }
+    },
+    {
+      "id": "eurlex_30703",
+      "source": "eurlex",
+      "text": "VERORDENING (EG) nr. 1201/2009 VAN DE COMMISSIE\nvan 30 november 2009\ntot uitvoering van Verordening (EG) nr. 763/2008 van het Europees Parlement en de Raad betreffende volks- en woningtellingen, wat de technische specificaties voor de thema's en voor de uitsplitsingen daarvan betreft\n(Voor de EER relevante tekst)\nDE COMMISSIE VAN DE EUROPESE GEMEENSCHAPPEN,\nGelet op het Verdrag tot oprichting van de Europese Gemeenschap,\nGelet op Verordening (EG) nr. 763/2008 van het Europees Parlement en de Raad van 9 juli 2008 betreffende volks- en woningtellingen (1), en met name op artikel 5, lid 4,\nOverwegende hetgeen volgt:\n(1)\nOm te waarborgen dat de gegevens van de in de lidstaten gehouden volks- en woningtellingen vergelijkbaar zijn en dat voor de hele Gemeenschap betrouwbare overzichten kunnen worden opgesteld, moeten de krachtens Verordening (EG) nr. 763/2008 vereiste thema's van de tellingen in alle lidstaten op dezelfde wijze worden gedefinieerd en uitgesplitst. Derhalve is in Verordening (EG) nr. 763/2008 bepaald dat de Europese Commissie de technische specificaties voor deze thema's en voor de uitsplitsingen daarvan moet vaststellen.\n(2)\nDe in deze verordening vervatte maatregelen zijn in overeenstemming met het advies van het Comité voor het Europees statistisch systeem,\nHEEFT DE VOLGENDE VERORDENING VASTGESTELD:\nArtikel 1\nDeze verordening stelt de technische specificaties voor de thema's van de telling en voor de uitsplitsingen daarvan vast, zoals vereist voor de tenuitvoerlegging van Verordening (EG) nr. 763/2008. De technische specificaties voor de gegevens die voor het referentiejaar 2011 aan de Europese Commissie worden toegezonden, zijn opgenomen in de bijlage bij deze verordening.\nArtikel 2\nDeze verordening treedt in werking op de dag volgende op die van haar bekendmaking in het Publicatieblad van de Europese Unie.\nDeze verordening is verbindend in al haar onderdelen en is rechtstreeks toepasselijk in elke lidstaat.\nGedaan te Brussel, 30 november 2009",
+      "annotation": {
+        "dataset": "eurlex",
+        "id": "eurlex_30703",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "brief",
+        "one_sentence_description": "European Commission regulation establishing technical specifications for the 2011 population and housing census data.",
+        "content_type": [
+          "legal_document"
+        ],
+        "business_sector": [
+          "government_public"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "excellent",
+        "audience_level": "expert",
+        "commercial_bias": "none",
+        "time_sensitivity": "evergreen",
+        "content_safety": "safe",
+        "educational_value": "none",
+        "reasoning_indicators": "basic_reasoning",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european"
+        ],
+        "country_relevance": [
+          "supranational"
+        ]
+      }
+    },
+    {
+      "id": "eurlex_6187",
+      "source": "eurlex",
+      "text": "Verordening (EG) nr. 1308/2003 van de Commissie\nvan 23 juli 2003\ntot vaststelling van de mate waarin gevolg kan worden gegeven aan de in juli 2003 ingediende aanvragen om invoercertificaten voor de tariefcontingenten voor rundvlees die bij Verordening (EG) nr. 1429/2002 zijn vastgesteld voor Estland, Letland en Litouwen\nDE COMMISSIE VAN DE EUROPESE GEMEENSCHAPPEN,\nGelet op het Verdrag tot oprichting van de Europese Gemeenschap,\nGelet op Verordening (EG) nr. 1429/2002 van de Commissie van 2 augustus 2002 tot vaststelling van de bepalingen voor de toepassing van de tariefcontingenten voor rundvlees die bij Verordeningen (EG) nr. 1151/2002, (EG) nr. 1362/2002 en (EG) nr. 1361/2002 van de Raad zijn vastgesteld voor Estland, Letland en Litouwen(1), gewijzigd bij Verordening (EG) nr. 1633/2002(2), en met name op artikel 2, lid 2, en artikel 4, lid 4,\nOverwegende hetgeen volgt:\n(1) In de artikelen 1 en 2 van Verordening (EG) nr. 1429/2002 is bepaald welke hoeveelheden producten van de sector rundvlees van oorsprong uit Litouwen, Letland en Estland in de periode van 1 juli tot en met 31 december 2003 onder speciale voorwaarden mogen worden ingevoerd. De hoeveelheden producten van de sector rundvlees van oorsprong uit Litouwen, waarvoor invoercertificaten zijn aangevraagd, moeten echter proportioneel worden verlaagd overeenkomstig artikel 4, lid 3, van genoemde verordening. Er zijn geen aanvragen om invoercertificaten voor de producten van de sector rundvlees van oorsprong uit Estland en Letland ingediend.\n(2) In artikel 2, lid 2, van Verordening (EG) nr. 1429/2002 is bepaald dat, indien in de loop van het betreffende jaar van invoer voor de in artikel 2, lid 1, van genoemde verordening aangegeven eerste periode certificaten worden aangevraagd voor hoeveelheden die kleiner zijn dan de beschikbare hoeveelheden, de resterende hoeveelheden worden opgeteld bij de voor de volgende periode beschikbare hoeveelheden. Rekening houdende met de hoeveelheden die resteren uit de eerste periode, moeten de hoeveelheden die voor de tweede periode, gaande van 1 januari tot en met 30 juni 2004, voor de betrokken drie landen beschikbaar zijn, worden vastgesteld,\nHEEFT DE VOLGENDE VERORDENING VASTGESTELD:\nArtikel 1\n1. De certificaataanvragen voor invoer in de periode van 1 juli tot en met 31 december 2003 voor Litouwen in het kader van de in Verordening (EG) nr. 1429/2002 bedoelde contingenten worden ingewilligd voor 62,9650 % van de gevraagde hoeveelheden.\n2. Voor de in artikel 2 van Verordening (EG) nr. 1429/2002 bedoelde periode van 1 januari tot en met 30 juni 2004 zijn de volgende hoeveelheden beschikbaar:\na) 1450 t producten van de rundvleessector van de GN-codes 0201, 0202, en 1602 50 10, van oorsprong uit Estland;\nb) 130 t producten van de rundvleessector van de GN-codes 0206 10 95 en 0206 29 91 van oorsprong uit Estland;\nc) voor de producten van de rundvleessector van de GN-codes 0201, 0202, 0206 10 95, 0206 29 91, 0210 20, 0210 99 51, 0210 99 90 en 1602 50:\n- 750 t van oorsprong uit Letland;\n- 1100 t van oorsprong uit Litouwen.\nArtikel 2\nDeze verordening treedt in werking op 24 juli 2003.\nDeze verordening is verbindend in al haar onderdelen en is rechtstreeks toepasselijk in elke lidstaat.\nGedaan te Brussel, 23 juli 2003.",
+      "annotation": {
+        "dataset": "eurlex",
+        "id": "eurlex_6187",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "brief",
+        "one_sentence_description": "European Commission regulation establishing the 2003-2004 import certificate quotas for beef from Estonia, Latvia, and Lithuania.",
+        "content_type": [
+          "legal_document",
+          "specification_standard"
+        ],
+        "business_sector": [
+          "government_public",
+          "agriculture_food"
+        ],
+        "technical_content": [
+          "basic_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "excellent",
+        "audience_level": "expert",
+        "commercial_bias": "none",
+        "time_sensitivity": "time_sensitive",
+        "content_safety": "safe",
+        "educational_value": "minimal",
+        "reasoning_indicators": "basic_reasoning",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european"
+        ],
+        "country_relevance": [
+          "estonia",
+          "latvia",
+          "lithuania",
+          "supranational"
+        ]
+      }
+    },
+    {
+      "id": "eurlex_19383",
+      "source": "eurlex",
+      "text": "UITVOERINGSBESLUIT VAN DE COMMISSIE\nvan 7 oktober 2013\ntot wijziging van Beschikking 2009/821/EG wat betreft de lijst van grensinspectieposten\n(Kennisgeving geschied onder nummer C(2013) 6383)\n(Voor de EER relevante tekst)\n(2013/491/EU)\nDE EUROPESE COMMISSIE,\nGezien het Verdrag betreffende de werking van de Europese Unie,\nGezien Richtlijn 90/425/EEG van de Raad van 26 juni 1990 inzake veterinaire en zoötechnische controles in het intracommunautaire handelsverkeer in bepaalde levende dieren en producten in het vooruitzicht van de totstandbrenging van de interne markt (1), en met name artikel 20, leden 1 en 3,\nGezien Richtlijn 91/496/EEG van de Raad van 15 juli 1991 tot vaststelling van de beginselen voor de organisatie van de veterinaire controles voor dieren uit derde landen die in de Gemeenschap worden binnengebracht en tot wijziging van de Richtlijnen 89/662/EEG, 90/425/EEG en 90/675/EEG (2), en met name artikel 6, lid 4, tweede alinea, tweede zin, en lid 5,\nGezien Richtlijn 97/78/EG van de Raad van 18 december 1997 tot vaststelling van de beginselen voor de organisatie van de veterinaire controles voor producten die uit derde landen in de Gemeenschap worden binnengebracht (3), en met name artikel 6, lid 2,\nOverwegende hetgeen volgt:\n(1)\nIn Beschikking 2009/821/EG van de Commissie (4) wordt een lijst vastgesteld van de grensinspectieposten die zijn erkend overeenkomstig de Richtlijnen 91/496/EEG en 97/78/EG. Die lijst is opgenomen in bijlage I bij die beschikking.\n(2)\nNa de mededelingen van Denemarken, Duitsland, Spanje, Frankrijk, Italië en het Verenigd Koninkrijk moeten de vermeldingen voor de grensinspectieposten in die lidstaten in de lijst van bijlage I bij Beschikking 2009/821/EG worden gewijzigd.\n(3)\nNadat de auditdienst (voorheen de inspectiedienst) van de Commissie, het Voedsel- en Veterinair Bureau (VVB), bevredigende audits heeft uitgevoerd, zouden voor vier grensinspectieposten in Kroatië aanvullende erkenningscategorieën kunnen worden toegevoegd aan de vermeldingen voor de betreffende lidstaat in de lijst van bijlage I bij Beschikking 2009/821/EG en zou voor London-Gateway (Verenigd Koninkrijk) een nieuwe grensinspectiepost moeten worden toegevoegd aan de vermeldingen voor de betreffende lidstaat in de lijst van bijlage I bij die beschikking. Aangezien het Toetredingsverdrag van Kroatië op 1 juli 2013 in werking is getreden en de hierboven vermelde audit vóór dit tijdstip werd uitgevoerd, zouden de wijzigingen betreffende de Kroatische grensinspectieposten met terugwerkende kracht vanaf 1 juli 2013 van toepassing moeten zijn om ervoor te zorgen dat geen obstakels voor het bestaande handelsverkeer worden opgeworpen.\n(4)\nPolen heeft meegedeeld dat de grensinspectiepost in Świnoujście van de lijst van vermeldingen voor de betreffende lidstaat moet worden geschrapt. De lijst van vermeldingen voor deze lidstaat in bijlage I bij Beschikking 2009/821/EG moet daarom dienovereenkomstig worden gewijzigd.\n(5)\nBeschikking 2009/821/EG moet daarom dienovereenkomstig worden gewijzigd.\n(6)\nDe in dit besluit vervatte maatregelen zijn in overeenstemming met het advies van het Permanent Comité voor de voedselketen en de diergezondheid,\nHEEFT HET VOLGENDE BESLUIT VASTGESTELD:\nArtikel 1\nBijlage I bij Beschikking 2009/821/EG wordt gewijzigd overeenkomstig de bijlage bij dit besluit.\nArtikel 2\nDe wijziging in punt 5 van de bijlage is van toepassing met terugwerkende kracht vanaf 1 juli 2013.\nArtikel 3\nDit besluit is gericht tot de lidstaten.\nGedaan te Brussel, 7 oktober 2013.",
+      "annotation": {
+        "dataset": "eurlex",
+        "id": "eurlex_19383",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "brief",
+        "one_sentence_description": "European Commission implementing decision amending the list of border inspection posts for veterinary control purposes.",
+        "content_type": [
+          "legal_document"
+        ],
+        "business_sector": [
+          "government_public",
+          "agriculture_food"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "excellent",
+        "audience_level": "expert",
+        "commercial_bias": "none",
+        "time_sensitivity": "slowly_changing",
+        "content_safety": "safe",
+        "educational_value": "none",
+        "reasoning_indicators": "basic_reasoning",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european"
+        ],
+        "country_relevance": [
+          "supranational",
+          "denmark",
+          "germany",
+          "spain",
+          "france",
+          "italy",
+          "united_kingdom",
+          "croatia",
+          "poland"
+        ]
+      }
+    },
+    {
+      "id": "eurlex_7899",
+      "source": "eurlex",
+      "text": "VERORDENING (EG) Nr. 2103/2004 VAN DE COMMISSIE\nvan 9 december 2004\nbetreffende de mededeling van gegevens over bepaalde visserijtakken in de westelijke wateren en de Oostzee\nDE COMMISSIE VAN DE EUROPESE GEMEENSCHAPPEN,\nGelet op het Verdrag tot oprichting van de Europese Gemeenschap,\nGelet op Verordening (EG) nr. 2371/2002 van de Raad van 20 december 2002 inzake de instandhouding en de duurzame exploitatie van de visbestanden in het kader van het gemeenschappelijk visserijbeleid (1), en met name op artikel 22, lid 3,\nOverwegende hetgeen volgt:\n(1)\nOvereenkomstig artikel 11, lid 2, van Verordening (EG) nr. 1954/2003 van de Raad van 4 november 2003 (2) betreffende het beheer van de visserij-inspanning voor bepaalde vangstgebieden en visbestanden van de Gemeenschap, tot wijziging van Verordening (EEG) nr. 2847/93 en tot intrekking van de Verordeningen (EG) nr. 685/95 en (EG) nr. 2027/95 is bij Verordening (EG) nr. 1415/2004 van 19 juli 2004 (3) de maximale jaarlijkse visserij-inspanning voor bepaalde vangstgebieden en visbestanden vastgesteld.\n(2)\nHet bepaalde in Verordening (EG) nr. 2092/98 van de Commissie van 30 september 1998 betreffende de mededeling van gegevens over de visserij-inspanning voor bepaalde vangstgebieden en visbestanden van de Gemeenschap (4) is niet meer in overeenstemming met het bepaalde in de Verordeningen (EG) nr. 1954/2003 en (EG) nr. 1415/2004 met betrekking tot de westelijke wateren. Derhalve moeten de verplichtingen inzake mededelingen betreffende de visserij-inspanning in de westelijke wateren opnieuw worden vastgesteld.\n(3)\nDe bestaande verplichtingen inzake mededelingen betreffende de visserij-inspanning in de Oostzee, zoals vastgesteld in Verordening (EG) nr. 2092/98, moeten worden gehandhaafd.\n(4)\nVanwege het grote aantal wijzigingen en het belang ervan en omwille van de samenhang tussen de nieuwe verplichtingen met betrekking tot de westelijke wateren en de bestaande verplichtingen met betrekking tot de Oostzee, moet Verordening (EG) nr. 2092/98 worden ingetrokken.\n(5)\nDe in deze beschikking vervatte maatregelen zijn in overeenstemming met het advies van het Comité van beheer voor visserij en aquacultuur,\nHEEFT DE VOLGENDE VERORDENING VASTGESTELD:\nHOOFDSTUK I\nWESTELIJKE WATEREN\nArtikel 1\nLijsten van vaartuigen met een speciaal visdocument\n1. De lidstaten zenden de Commissie uiterlijk 30 dagen na de inwerkingtreding van deze verordening een bijgewerkte versie toe van de in artikel 7 van Verordening (EG) nr. 1954/2003 bedoelde lijst van vaartuigen in het in bijlage I bij de onderhavige verordening vastgestelde formaat.\n2. Overeenkomstig artikel 10, lid 2, van Verordening (EG) nr. 1954/2003 en artikel 19 septies van Verordening (EEG) nr. 2847/1993 (5) worden wijzigingen van de in bijlage I vermelde gegevens dagelijks aan de Commissie meegedeeld door toezending van de volledige bijgewerkte bijlage I zodra een speciaal visdocument zoals bedoeld in artikel 8, lid 3, van Verordening (EG) nr. 1954/2003, wordt afgegeven of ingetrokken.\nArtikel 2\nVisserij-inspanning\n1. Vóór de 15e van iedere maand delen de lidstaten de Commissie in het in bijlage II bij deze verordening vastgestelde formaat de geaggregeerde gegevens mee betreffende de visserij-inspanning van de in artikel 1 bedoelde vaartuigen gedurende de voorgaande maand.\n2. Voor de eerste mededeling betreffende de visserij-inspanning begint de referentieperiode voor de geaggregeerde gegevens op 1 januari 2004.\nHOOFDSTUK II\nOOSTZEE\nArtikel 3\nLijsten van vaartuigen met een speciaal visdocument\n1. De lidstaten zenden de Commissie de in artikel 2 van Verordening (EG) nr. 779/97 bedoelde lijst van vaartuigen toe in het in bijlage III bij de onderhavige verordening vastgestelde formaat.\n2. Wijzigingen in deze lijsten worden uiterlijk vier werkdagen voordat de betrokken vaartuigen het vangstgebied binnenvaren, in hetzelfde formaat aan de Commissie meegedeeld.\nArtikel 4\nVisserij-inspanning\nDe lidstaten delen de in artikel 19 decies, tweede en derde streepje, van Verordening (EEG) nr. 2847/93 bedoelde geaggregeerde gegevens over de visserij-inspanning aan de Commissie mee overeenkomstig het bepaalde in bijlage IV bij de onderhavige verordening.\nHOOFDSTUK III\nALGEMENE BEPALINGEN\nArtikel 5\nOverdracht van en toegang tot gegevens\n1. De lidstaten delen de in de artikelen 1 tot en met 4 bedoelde gegevens aan de Commissie mee via het Fisheries Data Exchange System (of een ander datasysteem indien de Commissie daartoe in de toekomst besluit).\n2. De Commissie stelt de gegevens betreffende de bijgewerkte lijsten van vaartuigen beschikbaar via het Fisheries Data Exchange System (of een ander datasysteem indien de Commissie daartoe in de toekomst besluit).\n3. Ten behoeve van de in artikel 1 bedoelde lijsten van vaartuigen en de in artikel 2 bedoelde mededelingen betreffende de visserij-inspanning wordt het Fisheries Data Exchange System uiterlijk op 1 juli 2005 door de Commissie aangepast.\nTot die datum delen de lidstaten de in de artikelen 1 en 2 bedoelde gegevens aan de Commissie mee in de vorm van een spreadsheet die moet worden verzonden naar het daartoe door de Commissie aan de lidstaten meegedeelde e-mailadres.\nArtikel 6\nIntrekking\n1. Verordening (EG) nr. 2092/98 wordt ingetrokken.\n2. Verwijzingen naar de ingetrokken verordening worden beschouwd als verwijzingen naar deze verordening.\nArtikel 7\nInwerkingtreding\nDeze verordening treedt in werking op de zevende dag volgende op die van haar bekendmaking in het Publicatieblad van de Europese Unie.\nDeze verordening is verbindend in al haar onderdelen en is rechtstreeks toepasselijk in elke lidstaat.\nGedaan te Brussel, 9 december 2004.",
+      "annotation": {
+        "dataset": "eurlex",
+        "id": "eurlex_7899",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "moderate",
+        "one_sentence_description": "European Commission regulation establishing reporting requirements for fishing activities in the Western Waters and the North Sea.",
+        "content_type": [
+          "legal_document"
+        ],
+        "business_sector": [
+          "government_public",
+          "agriculture_food"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "excellent",
+        "audience_level": "expert",
+        "commercial_bias": "none",
+        "time_sensitivity": "slowly_changing",
+        "content_safety": "safe",
+        "educational_value": "none",
+        "reasoning_indicators": "basic_reasoning",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european"
+        ],
+        "country_relevance": [
+          "supranational"
+        ]
+      }
+    },
+    {
+      "id": "eurlex_28739",
+      "source": "eurlex",
+      "text": "VERORDENING (EG) Nr. 395/96 VAN DE COMMISSIE van 4 maart 1996 houdende wijziging van Verordening (EG) nr. 1667/95 tot vaststelling van een geraamde balans voor de voorziening van de Canarische eilanden met produkten van de sector rundvlees\nDE COMMISSIE VAN DE EUROPESE GEMEENSCHAPPEN,\nGelet op het Verdrag tot oprichting van de Europese Gemeenschap,\nGelet op Verordening (EEG) nr. 1601/92 van de Raad van 15 juni 1992 houdende specifieke maatregelen voor bepaalde landbouwprodukten ten behoeve van de Canarische eilanden (1), laatstelijk gewijzigd bij Verordening (EG) nr. 2537/95 (2), en met name op artikel 3, lid 4,\nOverwegende dat bij Verordening (EG) nr. 2790/94 van de Commissie (3), gewijzigd bij Verordening (EG) nr. 2883/94 (4), met name de toepassingsbepalingen van de specifieke regeling voor de voorziening van de Canarische eilanden met bepaalde landbouwprodukten zijn vastgesteld;\nOverwegende dat bij Verordening (EG) nr. 1667/95 van de Commissie (5) de geraamde balans voor rundvlees voor de Canarische eilanden is vastgesteld; dat deze balans zo nodig kan worden herzien door in de loop van het jaar de hoeveelheden produkten, binnen de vastgestelde totale hoeveelheid, aan de behoeften van de betrokken regio aan te passen; dat, om in de behoefte aan rundvlees te voorzien, de in de balans vastgestelde hoeveelheden moeten worden aangepast; dat de desbetreffende bijlage bij Verordening (EG) nr. 1667/95 derhalve moet worden gewijzigd;\nOverwegende dat de in deze verordening vervatte maatregelen in overeenstemming zijn met het advies van het Comité van beheer voor rundvlees,\nHEEFT DE VOLGENDE VERORDENING VASTGESTELD:\nArtikel 1\nDe bijlage bij Verordening (EG) nr. 1667/95 wordt vervangen door de bijlage bij deze verordening.\nArtikel 2\nDeze verordening treedt in werking op de dag volgende op die van haar bekendmaking in het Publikatieblad van de Europese Gemeenschappen.\nDeze verordening is verbindend in al haar onderdelen en is rechtstreeks toepasselijk in elke Lid-Staat.\nGedaan te Brussel, 4 maart 1996.",
+      "annotation": {
+        "dataset": "eurlex",
+        "id": "eurlex_28739",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "brief",
+        "one_sentence_description": "European Commission regulation amending the 1995 provision for beef supply to the Canary Islands.",
+        "content_type": [
+          "legal_document"
+        ],
+        "business_sector": [
+          "government_public",
+          "agriculture_food"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "excellent",
+        "audience_level": "expert",
+        "commercial_bias": "none",
+        "time_sensitivity": "evergreen",
+        "content_safety": "safe",
+        "educational_value": "none",
+        "reasoning_indicators": "basic_reasoning",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european"
+        ],
+        "country_relevance": [
+          "supranational",
+          "spain"
+        ]
+      }
+    },
+    {
+      "id": "eurlex_5460",
+      "source": "eurlex",
+      "text": "Beschikking van de Raad\nvan 7 mei 2002\nwaarbij Luxemburg wordt gemachtigd overeenkomstig artikel 8, lid 4, van Richtlijn 92/81/EEG een gedifferentieerd accijnstarief toe te passen op laagzwavelige gasolie\n(2002/375/EG)\nDE RAAD VAN DE EUROPESE UNIE,\nGelet op het Verdrag tot oprichting van de Europese Gemeenschap,\nGelet op Richtlijn 92/81/EEG van de Raad van 19 oktober 1992 betreffende de harmonisatie van de structuur van de accijns op minerale oliën(1), inzonderheid op artikel 8, lid 4,\nGezien het voorstel van de Commissie,\nOverwegende hetgeen volgt:\n(1) Luxemburg heeft toestemming gevraagd om een gedifferentieerd accijnstarief te mogen toepassen op laagzwavelige gasolie (50 ppm) die als motorbrandstof wordt gebruikt.\n(2) De overige lidstaten zijn in kennis gesteld van het verzoek van Luxemburg.\n(3) Het belastingverschil wordt gerealiseerd door de accijns op gasolie voor het wegvervoer met meer dan 50 ppm zwavel met 15 EUR per 1000 liter te verhogen. De effectieve accijnstarieven blijven bijgevolg boven de van toepassing zijnde communautaire minimumtarieven, overeenkomstig Richtlijn 92/82/EEG van de Raad van 19 oktober 1992 betreffende de onderlinge aanpassing van de accijnstarieven voor minerale oliën(2).\n(4) De afwijking wordt gevraagd om redenen in verband met het milieu: de voordelen van de maatregel voor de luchtkwaliteit zijn bekend.\n(5) De laagzwavelige gasolie voldoet aan de milieutechnische specificaties (50 ppm) die zijn vastgesteld in Richtlijn 98/70/EG van het Europees Parlement en de Raad van 13 oktober 1998 betreffende de kwaliteit van benzine en dieselbrandstof(3). Overeenkomstig artikel 4 van deze richtlijn zal het gebruik van gasolie 50 ppm in beginsel met ingang van 1 januari 2005 verplicht zijn. De Luxemburgse regeling voor een gedifferentieerde accijns verstrijkt op 31 december 2003.\n(6) De Commissie en alle lidstaten hebben op basis van de beschikbare informatie vastgesteld dat de toepassing van een gedifferentieerd accijnstarief op laagzwavelige gasolie niet zal leiden tot een met het gemeenschappelijk belang strijdige verstoring van de mededingingsverhoudingen en de werking van de interne markt niet zal belemmeren.\n(7) De Commissie onderzoekt op gezette tijden de vrijstellingen en verlagingen teneinde zich ervan te vergewissen dat deze geen enkele concurrentieverstoring veroorzaken, de werking van de interne markt niet verstoren en niet onverenigbaar zijn met het milieubeleid van de Gemeenschap,\nHEEFT DE VOLGENDE BESCHIKKING VASTGESTELD:\nArtikel 1\nLuxemburg wordt gemachtigd om van 1 juni 2002 tot en met 31 december 2003 een gedifferentieerd accijnstarief toe te passen op laagzwavelige gasolie (50 ppm) die als motorbrandstof wordt gebruikt.\nArtikel 2\nHet in artikel 1 bedoelde belastingverschil mag ten hoogste 15 EUR per 1000 liter brandstof bedragen.\nBij de toepassing van de accijnstarieven voor gasolie die als motorbrandstof wordt gebruikt moeten de verplichtingen worden nagekomen die voortvloeien uit Richtlijn 92/82/EEG, met name de in artikel 5 van die richtlijn bedoelde minimumtarieven.\nArtikel 3\nDeze beschikking verstrijkt op 31 december 2003.\nArtikel 4\nDeze beschikking is gericht tot het Groothertogdom Luxemburg.\nGedaan te Brussel, 7 mei 2002.",
+      "annotation": {
+        "dataset": "eurlex",
+        "id": "eurlex_5460",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "brief",
+        "one_sentence_description": "European Union legal decision authorizing Luxembourg to apply differentiated fuel duties on low-sulfur diesel.",
+        "content_type": [
+          "legal_document"
+        ],
+        "business_sector": [
+          "government_public",
+          "energy_utilities",
+          "legal_services"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "excellent",
+        "audience_level": "expert",
+        "commercial_bias": "none",
+        "time_sensitivity": "time_sensitive",
+        "content_safety": "safe",
+        "educational_value": "minimal",
+        "reasoning_indicators": "explanatory",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european"
+        ],
+        "country_relevance": [
+          "luxembourg",
+          "supranational"
+        ]
+      }
+    }
+  ]
+}

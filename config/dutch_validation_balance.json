@@ -1,0 +1,8 @@
+{
+  "name": "DaLA Dutch — balanced DynaWord validation set",
+  "purpose": "An explicit training-mixture experiment, not an estimate of natural error frequencies. Retain scarce grammar families while limiting article and spelling dominance in each split.",
+  "groups": [
+    {"name": "articles", "families": ["article_gender", "article_number"], "priority_families": ["article_number"], "max_fraction": 0.25},
+    {"name": "spelling", "families": ["spelling"], "max_fraction": 0.60}
+  ]
+}

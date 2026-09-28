@@ -1,0 +1,47 @@
+{
+  "sha": "d226d2112d3490d8f04ece10d4538123d4297a39",
+  "url": "https://api.github.com/repos/unimorph/deu/git/trees/d226d2112d3490d8f04ece10d4538123d4297a39",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6474aaf3eb4417fc2fa2a37111cd68562713fa80",
+      "size": 515,
+      "url": "https://api.github.com/repos/unimorph/deu/git/blobs/6474aaf3eb4417fc2fa2a37111cd68562713fa80"
+    },
+    {
+      "path": "deu",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6150b616a031acd3ac504d11be80a1a88d4c46c6",
+      "size": 18932560,
+      "url": "https://api.github.com/repos/unimorph/deu/git/blobs/6150b616a031acd3ac504d11be80a1a88d4c46c6"
+    },
+    {
+      "path": "deu.args",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9e895f289c1299113edbae25dfa56b11fa11948",
+      "size": 6445557,
+      "url": "https://api.github.com/repos/unimorph/deu/git/blobs/c9e895f289c1299113edbae25dfa56b11fa11948"
+    },
+    {
+      "path": "deu.derivations",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da34b55afdfee05ff36533f0c1484c98866ad451",
+      "size": 902886,
+      "url": "https://api.github.com/repos/unimorph/deu/git/blobs/da34b55afdfee05ff36533f0c1484c98866ad451"
+    },
+    {
+      "path": "deu.segmentations",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39f144ffe91e1afe140b19c1668f7f36cf7393e5",
+      "size": 23258436,
+      "url": "https://api.github.com/repos/unimorph/deu/git/blobs/39f144ffe91e1afe140b19c1668f7f36cf7393e5"
+    }
+  ],
+  "truncated": false
+}

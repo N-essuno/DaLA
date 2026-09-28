@@ -1,0 +1,59 @@
+{
+  "size": {
+    "dataset": {
+      "dataset": "giannor/gec_dala_tv2r_it",
+      "num_bytes_original_files": 381456650,
+      "num_bytes_parquet_files": 226531314,
+      "num_bytes_memory": 670980904,
+      "num_rows": 930565,
+      "estimated_num_rows": null
+    },
+    "configs": [
+      {
+        "dataset": "giannor/gec_dala_tv2r_it",
+        "config": "default",
+        "num_bytes_original_files": 381456650,
+        "num_bytes_parquet_files": 226531314,
+        "num_bytes_memory": 670980904,
+        "num_rows": 930565,
+        "num_columns": 2,
+        "estimated_num_rows": null
+      }
+    ],
+    "splits": [
+      {
+        "dataset": "giannor/gec_dala_tv2r_it",
+        "config": "default",
+        "split": "train",
+        "num_bytes_parquet_files": 181297500,
+        "num_bytes_memory": 536870801,
+        "num_rows": 744475,
+        "num_columns": 2,
+        "estimated_num_rows": null
+      },
+      {
+        "dataset": "giannor/gec_dala_tv2r_it",
+        "config": "default",
+        "split": "validation",
+        "num_bytes_parquet_files": 11304477,
+        "num_bytes_memory": 33516486,
+        "num_rows": 46505,
+        "num_columns": 2,
+        "estimated_num_rows": null
+      },
+      {
+        "dataset": "giannor/gec_dala_tv2r_it",
+        "config": "default",
+        "split": "test",
+        "num_bytes_parquet_files": 33929337,
+        "num_bytes_memory": 100593617,
+        "num_rows": 139585,
+        "num_columns": 2,
+        "estimated_num_rows": null
+      }
+    ]
+  },
+  "pending": [],
+  "failed": [],
+  "partial": false
+}

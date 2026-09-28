@@ -1,0 +1,174 @@
+{
+  "language": "ca",
+  "resource": "cat",
+  "files": [
+    "cat"
+  ],
+  "tags": {
+    "N": {
+      "pos": "NOUN"
+    },
+    "ADJ": {
+      "pos": "ADJ"
+    },
+    "V": {
+      "pos": "VERB"
+    },
+    "V.PTCP": {
+      "pos": "VERB",
+      "VerbForm": "Part"
+    },
+    "V.CVB": {
+      "pos": "VERB",
+      "VerbForm": "Conv"
+    },
+    "PTCP": {
+      "VerbForm": "Part"
+    },
+    "NFIN": {
+      "VerbForm": "Inf"
+    },
+    "SG": {
+      "Number": "Sing"
+    },
+    "PL": {
+      "Number": "Plur"
+    },
+    "MASC": {
+      "Gender": "Masc"
+    },
+    "FEM": {
+      "Gender": "Fem"
+    },
+    "NEUT": {
+      "Gender": "Neut"
+    },
+    "MASC+NEUT": {
+      "Gender": "Masc,Neut"
+    },
+    "MASC+FEM": {
+      "Gender": "Fem,Masc"
+    },
+    "FEM+NEUT": {
+      "Gender": "Fem,Neut"
+    },
+    "MASC+FEM+NEUT": {
+      "Gender": "Fem,Masc,Neut"
+    },
+    "FEM+MASC": {
+      "Gender": "Fem,Masc"
+    },
+    "NOM": {
+      "Case": "Nom"
+    },
+    "ACC": {
+      "Case": "Acc"
+    },
+    "GEN": {
+      "Case": "Gen"
+    },
+    "DAT": {
+      "Case": "Dat"
+    },
+    "VOC": {
+      "Case": "Voc"
+    },
+    "1": {
+      "Person": "1"
+    },
+    "2": {
+      "Person": "2"
+    },
+    "3": {
+      "Person": "3"
+    },
+    "IND": {
+      "Mood": "Ind"
+    },
+    "SBJV": {
+      "Mood": "Sub"
+    },
+    "COND": {
+      "Mood": "Cnd"
+    },
+    "IMP": {
+      "Mood": "Imp"
+    },
+    "QUOT": {
+      "Mood": "Qot"
+    },
+    "PRS": {
+      "Tense": "Pres"
+    },
+    "PST": {
+      "Tense": "Past"
+    },
+    "FUT": {
+      "Tense": "Fut"
+    },
+    "IPFV": {
+      "Aspect": "Imp"
+    },
+    "PFV": {
+      "Aspect": "Perf"
+    },
+    "PRF": {
+      "Aspect": "Perf"
+    },
+    "ACT": {
+      "Voice": "Act"
+    },
+    "PASS": {
+      "Voice": "Pass"
+    },
+    "POS": {
+      "Polarity": "Pos"
+    },
+    "NEG": {
+      "Polarity": "Neg"
+    },
+    "DEF": {
+      "Definite": "Def"
+    },
+    "INDF": {
+      "Definite": "Ind"
+    },
+    "CMPR": {
+      "Degree": "Cmp"
+    },
+    "SPRL": {
+      "Degree": "Sup"
+    },
+    "ANIM": {
+      "Animacy": "Anim"
+    },
+    "INAN": {
+      "Animacy": "Inan"
+    }
+  },
+  "conditions": [
+    {
+      "all": [
+        "V"
+      ],
+      "none": [
+        "NFIN",
+        "PTCP"
+      ],
+      "set": {
+        "VerbForm": "Fin"
+      }
+    }
+  ],
+  "defaults": {
+    "ADJ": {
+      "Degree": "Pos"
+    }
+  },
+  "scope": "UD training lemmas only; dictionary screening remains mandatory; unknown tags veto-only",
+  "references": [
+    "https://unimorph.github.io/doc/unimorph-schema.pdf",
+    "https://github.com/unimorph/cat",
+    "https://universaldependencies.org/ca/index.html"
+  ]
+}

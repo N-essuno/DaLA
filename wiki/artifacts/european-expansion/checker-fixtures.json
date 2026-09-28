@@ -1,0 +1,187 @@
+{
+  "de": {
+    "language": "de",
+    "examples": 92,
+    "rules": 3,
+    "counts": {
+      "untyped_or_out_of_scope_rules": 4695,
+      "complex_or_alternative_example": 5
+    },
+    "recipe": {
+      "language": "de",
+      "source_language": "de",
+      "file": "de/grammar.xml",
+      "sha256": "405d14a0b92454abb0c6a02ef1b9ec5d543f4373305ddb3bbfbc4a47f8e49b64"
+    },
+    "dependency_sha256": {
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/rules/de/grammar.xml": "405d14a0b92454abb0c6a02ef1b9ec5d543f4373305ddb3bbfbc4a47f8e49b64"
+    },
+    "source": "LanguageTool 6.6, LGPL-2.1-or-later; expert-authored examples, not naturally observed mistakes",
+    "qualification": "No native review or automatic activation"
+  },
+  "fr": {
+    "language": "fr",
+    "examples": 47,
+    "rules": 4,
+    "counts": {
+      "untyped_or_out_of_scope_rules": 5294
+    },
+    "recipe": {
+      "language": "fr",
+      "source_language": "fr",
+      "file": "fr/grammar.xml",
+      "sha256": "6b17081d9ebfeb25ad034e666949e82c11f198aa5b8ba3e98eddc37aa650c7cf"
+    },
+    "dependency_sha256": {
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/rules/fr/grammar.xml": "6b17081d9ebfeb25ad034e666949e82c11f198aa5b8ba3e98eddc37aa650c7cf"
+    },
+    "source": "LanguageTool 6.6, LGPL-2.1-or-later; expert-authored examples, not naturally observed mistakes",
+    "qualification": "No native review or automatic activation"
+  },
+  "es": {
+    "language": "es",
+    "examples": 1580,
+    "rules": 233,
+    "counts": {
+      "untyped_or_out_of_scope_rules": 700,
+      "complex_or_alternative_example": 190
+    },
+    "recipe": {
+      "language": "es",
+      "source_language": "es",
+      "file": "es/grammar.xml",
+      "sha256": "5ed8940aa786a0357fff5616cb3332a623d1ca8114b898a24f8bb76e61e30ae2"
+    },
+    "dependency_sha256": {
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/rules/es/grammar.xml": "5ed8940aa786a0357fff5616cb3332a623d1ca8114b898a24f8bb76e61e30ae2",
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/resource/es/entities.ent": "ab666dfdd5b54f9d22efe6691cae56fb6c0129a73656b28c63e5648e4e2c65a0"
+    },
+    "source": "LanguageTool 6.6, LGPL-2.1-or-later; expert-authored examples, not naturally observed mistakes",
+    "qualification": "No native review or automatic activation"
+  },
+  "it": {
+    "language": "it",
+    "examples": 0,
+    "rules": 0,
+    "counts": {
+      "untyped_or_out_of_scope_rules": 141
+    },
+    "recipe": {
+      "language": "it",
+      "source_language": "it",
+      "file": "it/grammar.xml",
+      "sha256": "df860863c51949b141c69149518914e7e1d3c36fc590f7c1a3817374cdfd7ffb"
+    },
+    "dependency_sha256": {
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/rules/it/grammar.xml": "df860863c51949b141c69149518914e7e1d3c36fc590f7c1a3817374cdfd7ffb"
+    },
+    "source": "LanguageTool 6.6, LGPL-2.1-or-later; expert-authored examples, not naturally observed mistakes",
+    "qualification": "No native review or automatic activation"
+  },
+  "pt-PT": {
+    "language": "pt-PT",
+    "examples": 1013,
+    "rules": 173,
+    "counts": {
+      "complex_or_alternative_example": 258,
+      "untyped_or_out_of_scope_rules": 1278
+    },
+    "recipe": {
+      "language": "pt-PT",
+      "source_language": "pt",
+      "file": "pt/grammar.xml",
+      "sha256": "02636232d3fb2bd15adc9be26506ef6abf4d8ac2ab59e2dd23f99ed4f6f77407"
+    },
+    "dependency_sha256": {
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/rules/pt/grammar.xml": "02636232d3fb2bd15adc9be26506ef6abf4d8ac2ab59e2dd23f99ed4f6f77407",
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/resource/pt/entities/messages.ent": "670808bbc4615da1d6364e6e393c26bb7a3d06509c167950b5d501187de47277",
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/resource/pt/entities/datetime.ent": "1c7848d7d430e5d7c260ee2686ff90c7facb0b18ed91d27bac07bf108f376eb0",
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/resource/pt/entities/misc.ent": "3ac8a5d09e3818b1b7fea23e5df808d06eb539321380f496682448a8eb1f6ee5",
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/resource/pt/entities/abbrev.ent": "e8cdca18a1c5e78a2c53d1b7f99adb644603cdd27ac57de9c35fd70fb6e2cf57",
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/resource/pt/entities/paronyms.ent": "4d0e6653314fc5737f6b2046aea039cad13584ecbda3876fde07b3927be2a7c0",
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/resource/pt/entities/verbs.ent": "d3132453dca7de9d2cc9efdea7d010bfa7a50ed6be6786d21b4ab1e55165f5b4",
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/resource/pt/entities/languages.ent": "c2541720651b1550a77d2c7fa77f496a84f5afd2d59ce26264b8500a854b29bd",
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/resource/pt/entities/postal.ent": "6ae176b61796b84da808e9cf57eb8c6375a2f0acf4dacd86db385c15aa3c40df",
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/resource/pt/entities/hyphenised.ent": "23fb57f8368e4e8ee3c2db1be1a259a0eb3ea6bef9b7ca2a0bd5e844867f24e4",
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/resource/pt/entities/chars.ent": "28a029c0d2b51e430a459e16239dc53bf80ee66eb7b9cb177c5fb027d9e54133"
+    },
+    "source": "LanguageTool 6.6, LGPL-2.1-or-later; expert-authored examples, not naturally observed mistakes",
+    "qualification": "pt is a shared-standard rule source; pt-PT applicability still requires checking"
+  },
+  "ca": {
+    "language": "ca",
+    "examples": 6308,
+    "rules": 1830,
+    "counts": {
+      "untyped_or_out_of_scope_rules": 2266,
+      "complex_or_alternative_example": 2674
+    },
+    "recipe": {
+      "language": "ca",
+      "source_language": "ca",
+      "file": "ca/grammar.xml",
+      "sha256": "d1b18b77d4d5200c881ea1c8f2b9bc010d38f64e7e0b58e45b3a0241e02ad7be"
+    },
+    "dependency_sha256": {
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/rules/ca/grammar.xml": "d1b18b77d4d5200c881ea1c8f2b9bc010d38f64e7e0b58e45b3a0241e02ad7be",
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/resource/ca/entities.ent": "13bef63058374ceb6e196d55368fc81dbfe89274df4a6d8b46329a72f3dec75f"
+    },
+    "source": "LanguageTool 6.6, LGPL-2.1-or-later; expert-authored examples, not naturally observed mistakes",
+    "qualification": "No native review or automatic activation"
+  },
+  "el": {
+    "language": "el",
+    "examples": 30,
+    "rules": 28,
+    "counts": {
+      "untyped_or_out_of_scope_rules": 27
+    },
+    "recipe": {
+      "language": "el",
+      "source_language": "el",
+      "file": "el/grammar.xml",
+      "sha256": "4b74b9e37c8a9f23266ad9547641781732dcc7bf4e60b94622c322dd45bfe249"
+    },
+    "dependency_sha256": {
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/rules/el/grammar.xml": "4b74b9e37c8a9f23266ad9547641781732dcc7bf4e60b94622c322dd45bfe249"
+    },
+    "source": "LanguageTool 6.6, LGPL-2.1-or-later; expert-authored examples, not naturally observed mistakes",
+    "qualification": "No native review or automatic activation"
+  },
+  "ro": {
+    "language": "ro",
+    "examples": 0,
+    "rules": 0,
+    "counts": {
+      "untyped_or_out_of_scope_rules": 457
+    },
+    "recipe": {
+      "language": "ro",
+      "source_language": "ro",
+      "file": "ro/grammar.xml",
+      "sha256": "924650ae0517eb008bb25d8692afff355d9f5f374a0e77a323716ae6813cf145"
+    },
+    "dependency_sha256": {
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/rules/ro/grammar.xml": "924650ae0517eb008bb25d8692afff355d9f5f374a0e77a323716ae6813cf145"
+    },
+    "source": "LanguageTool 6.6, LGPL-2.1-or-later; expert-authored examples, not naturally observed mistakes",
+    "qualification": "No native review or automatic activation"
+  },
+  "uk": {
+    "language": "uk",
+    "examples": 0,
+    "rules": 0,
+    "counts": {},
+    "recipe": {
+      "language": "uk",
+      "source_language": "uk",
+      "file": "uk/grammar.xml",
+      "sha256": "4e3a74d9e7f275ca5a66bfeff48312d52293e7007eaeda7565455b48e3735675"
+    },
+    "dependency_sha256": {
+      "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/rules/uk/grammar.xml": "4e3a74d9e7f275ca5a66bfeff48312d52293e7007eaeda7565455b48e3735675"
+    },
+    "source": "LanguageTool 6.6, LGPL-2.1-or-later; expert-authored examples, not naturally observed mistakes",
+    "qualification": "No native review or automatic activation"
+  }
+}

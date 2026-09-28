@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-24T08:15:37.013733+00:00",
+  "pid": 675802,
+  "command": [
+    "-m",
+    "scripts.run_six_language_scale",
+    "--run-id",
+    "recovery_v1",
+    "--tools-dir",
+    "/tmp/dala-six-tools"
+  ],
+  "log": "/tmp/dala-six-recovery-builds.log"
+}

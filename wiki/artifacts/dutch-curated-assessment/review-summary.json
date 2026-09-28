@@ -1,0 +1,30 @@
+{
+  "review": {
+    "reviewer": "Codex agent",
+    "native_speaker_gold": false,
+    "completed_at": "2026-09-22T02:45:03.710211+00:00",
+    "scope": "All 200 originals and their recorded substitutions inspected; source and injected-edit judgments kept separate."
+  },
+  "uniform_sources": {
+    "acceptable": 187,
+    "uncertain": 4,
+    "erroneous": 9
+  },
+  "uniform_edits": {
+    "valid": 200
+  },
+  "by_source": {
+    "dienst_publiek_en_communicatie": {
+      "acceptable": 160,
+      "uncertain": 3,
+      "erroneous": 8
+    },
+    "eurlex": {
+      "acceptable": 27,
+      "erroneous": 1,
+      "uncertain": 1
+    }
+  },
+  "supplement_pairs": 16,
+  "strict_usable_pairs": 187
+}

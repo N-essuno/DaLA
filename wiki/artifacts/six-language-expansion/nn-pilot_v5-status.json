@@ -1,0 +1,6 @@
+{
+  "language": "nn",
+  "exit_code": 0,
+  "log": "wiki/artifacts/six-language-expansion/nn-pilot_v5.log",
+  "output": "la_output/nn_dynaword_pilot_v5"
+}

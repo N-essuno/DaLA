@@ -1,0 +1,431 @@
+{
+  "software": {
+    "name": "LanguageTool",
+    "version": "6.6",
+    "buildDate": "2025-03-27 20:50:25 +0100",
+    "apiVersion": 1,
+    "premium": false,
+    "premiumHint": "You might be missing errors only the Premium version can find. Contact us at support<at>languagetoolplus.com.",
+    "status": ""
+  },
+  "available_languages": [
+    {
+      "name": "Arabic",
+      "code": "ar",
+      "longCode": "ar"
+    },
+    {
+      "name": "Asturian",
+      "code": "ast",
+      "longCode": "ast-ES"
+    },
+    {
+      "name": "Belarusian",
+      "code": "be",
+      "longCode": "be-BY"
+    },
+    {
+      "name": "Breton",
+      "code": "br",
+      "longCode": "br-FR"
+    },
+    {
+      "name": "Catalan",
+      "code": "ca",
+      "longCode": "ca-ES"
+    },
+    {
+      "name": "Catalan (Valencian)",
+      "code": "ca",
+      "longCode": "ca-ES-valencia"
+    },
+    {
+      "name": "Catalan (Balearic)",
+      "code": "ca",
+      "longCode": "ca-ES-balear"
+    },
+    {
+      "name": "Danish",
+      "code": "da",
+      "longCode": "da-DK"
+    },
+    {
+      "name": "German",
+      "code": "de",
+      "longCode": "de"
+    },
+    {
+      "name": "German (Germany)",
+      "code": "de",
+      "longCode": "de-DE"
+    },
+    {
+      "name": "German (Austria)",
+      "code": "de",
+      "longCode": "de-AT"
+    },
+    {
+      "name": "German (Swiss)",
+      "code": "de",
+      "longCode": "de-CH"
+    },
+    {
+      "name": "Simple German",
+      "code": "de-DE-x-simple-language",
+      "longCode": "de-DE-x-simple-language"
+    },
+    {
+      "name": "Greek",
+      "code": "el",
+      "longCode": "el-GR"
+    },
+    {
+      "name": "English",
+      "code": "en",
+      "longCode": "en"
+    },
+    {
+      "name": "English (US)",
+      "code": "en",
+      "longCode": "en-US"
+    },
+    {
+      "name": "English (GB)",
+      "code": "en",
+      "longCode": "en-GB"
+    },
+    {
+      "name": "English (Australian)",
+      "code": "en",
+      "longCode": "en-AU"
+    },
+    {
+      "name": "English (Canadian)",
+      "code": "en",
+      "longCode": "en-CA"
+    },
+    {
+      "name": "English (New Zealand)",
+      "code": "en",
+      "longCode": "en-NZ"
+    },
+    {
+      "name": "English (South African)",
+      "code": "en",
+      "longCode": "en-ZA"
+    },
+    {
+      "name": "Esperanto",
+      "code": "eo",
+      "longCode": "eo"
+    },
+    {
+      "name": "Spanish",
+      "code": "es",
+      "longCode": "es"
+    },
+    {
+      "name": "Spanish (voseo)",
+      "code": "es",
+      "longCode": "es-AR"
+    },
+    {
+      "name": "Persian",
+      "code": "fa",
+      "longCode": "fa"
+    },
+    {
+      "name": "French",
+      "code": "fr",
+      "longCode": "fr"
+    },
+    {
+      "name": "French (Canada)",
+      "code": "fr",
+      "longCode": "fr-CA"
+    },
+    {
+      "name": "French (Switzerland)",
+      "code": "fr",
+      "longCode": "fr-CH"
+    },
+    {
+      "name": "French (Belgium)",
+      "code": "fr",
+      "longCode": "fr-BE"
+    },
+    {
+      "name": "Irish",
+      "code": "ga",
+      "longCode": "ga-IE"
+    },
+    {
+      "name": "Galician",
+      "code": "gl",
+      "longCode": "gl-ES"
+    },
+    {
+      "name": "Italian",
+      "code": "it",
+      "longCode": "it"
+    },
+    {
+      "name": "Japanese",
+      "code": "ja",
+      "longCode": "ja-JP"
+    },
+    {
+      "name": "Khmer",
+      "code": "km",
+      "longCode": "km-KH"
+    },
+    {
+      "name": "Dutch",
+      "code": "nl",
+      "longCode": "nl"
+    },
+    {
+      "name": "Dutch (Belgium)",
+      "code": "nl",
+      "longCode": "nl-BE"
+    },
+    {
+      "name": "Polish",
+      "code": "pl",
+      "longCode": "pl-PL"
+    },
+    {
+      "name": "Portuguese",
+      "code": "pt",
+      "longCode": "pt"
+    },
+    {
+      "name": "Portuguese (Portugal)",
+      "code": "pt",
+      "longCode": "pt-PT"
+    },
+    {
+      "name": "Portuguese (Brazil)",
+      "code": "pt",
+      "longCode": "pt-BR"
+    },
+    {
+      "name": "Portuguese (Angola preAO)",
+      "code": "pt",
+      "longCode": "pt-AO"
+    },
+    {
+      "name": "Portuguese (Moçambique preAO)",
+      "code": "pt",
+      "longCode": "pt-MZ"
+    },
+    {
+      "name": "Romanian",
+      "code": "ro",
+      "longCode": "ro-RO"
+    },
+    {
+      "name": "Russian",
+      "code": "ru",
+      "longCode": "ru-RU"
+    },
+    {
+      "name": "Slovak",
+      "code": "sk",
+      "longCode": "sk-SK"
+    },
+    {
+      "name": "Slovenian",
+      "code": "sl",
+      "longCode": "sl-SI"
+    },
+    {
+      "name": "Swedish",
+      "code": "sv",
+      "longCode": "sv"
+    },
+    {
+      "name": "Tamil",
+      "code": "ta",
+      "longCode": "ta-IN"
+    },
+    {
+      "name": "Tagalog",
+      "code": "tl",
+      "longCode": "tl-PH"
+    },
+    {
+      "name": "Ukrainian",
+      "code": "uk",
+      "longCode": "uk-UA"
+    },
+    {
+      "name": "Chinese",
+      "code": "zh",
+      "longCode": "zh-CN"
+    },
+    {
+      "name": "Crimean Tatar",
+      "code": "crh",
+      "longCode": "crh-UA"
+    },
+    {
+      "name": "Dutch",
+      "code": "nl",
+      "longCode": "nl-NL"
+    },
+    {
+      "name": "Simple German",
+      "code": "de-DE-x-simple-language",
+      "longCode": "de-DE-x-simple-language-DE"
+    },
+    {
+      "name": "Spanish",
+      "code": "es",
+      "longCode": "es-ES"
+    },
+    {
+      "name": "Italian",
+      "code": "it",
+      "longCode": "it-IT"
+    },
+    {
+      "name": "Persian",
+      "code": "fa",
+      "longCode": "fa-IR"
+    },
+    {
+      "name": "Swedish",
+      "code": "sv",
+      "longCode": "sv-SE"
+    },
+    {
+      "name": "German",
+      "code": "de",
+      "longCode": "de-LU"
+    },
+    {
+      "name": "French",
+      "code": "fr",
+      "longCode": "fr-FR"
+    }
+  ],
+  "sample_size": 50,
+  "qualification": "Hard checker diagnostics are triage signals; absence is not precision, names can cause false alarms. No native review.",
+  "results": {
+    "ca": {
+      "language": "ca",
+      "status": "automatic_diagnostic_not_linguistic_validation",
+      "pairs": 1197,
+      "sampled": 50,
+      "source_flagged": 0,
+      "corruption_flagged_at_edit": 44,
+      "source_rule_counts": {},
+      "manifest_sha256": "ef63e408e3eba26e09d9ec75c8a7679f868f113f06e41107511cd247a04be7d1",
+      "diagnostics_sha256": "a27845fb7d35826d2cb60357572392ffc0cbab96e158ff844f9868cc1df3a8f3"
+    },
+    "cs": {
+      "language": "cs",
+      "status": "unsupported_by_local_checker",
+      "sampled": 0
+    },
+    "de": {
+      "language": "de",
+      "status": "automatic_diagnostic_not_linguistic_validation",
+      "pairs": 3849,
+      "sampled": 50,
+      "source_flagged": 0,
+      "corruption_flagged_at_edit": 0,
+      "source_rule_counts": {},
+      "manifest_sha256": "dd9eafec6cc76dbe720c09ab7700414203442196a1204642e0960cab4f2d0463",
+      "diagnostics_sha256": "7171490cba8cebf6c2eb07dce86bd754e9cbae54a33a1c37babcaf32c36c343b"
+    },
+    "el": {
+      "language": "el",
+      "status": "automatic_diagnostic_not_linguistic_validation",
+      "pairs": 413,
+      "sampled": 50,
+      "source_flagged": 0,
+      "corruption_flagged_at_edit": 30,
+      "source_rule_counts": {},
+      "manifest_sha256": "eda0ec96d0bdb8cdc9212385445643301ad5c136c505f92878b10e4f38770c9e",
+      "diagnostics_sha256": "2529faff81952ce02cccf86e19026bbe569ebdb6b48e986acc804ec3d11e5442"
+    },
+    "es": {
+      "language": "es",
+      "status": "automatic_diagnostic_not_linguistic_validation",
+      "pairs": 1846,
+      "sampled": 50,
+      "source_flagged": 0,
+      "corruption_flagged_at_edit": 11,
+      "source_rule_counts": {},
+      "manifest_sha256": "34bceb5cf0e359112533fa6c0135b04c628283d2d7186b27bbbacc889d1add02",
+      "diagnostics_sha256": "14dd1aba8568a9b92a4f3a9f3e9a673bc0d0b35bfdbac098fc9536006c499a07"
+    },
+    "et": {
+      "language": "et",
+      "status": "unsupported_by_local_checker",
+      "sampled": 0
+    },
+    "fi": {
+      "language": "fi",
+      "status": "unsupported_by_local_checker",
+      "sampled": 0
+    },
+    "fr": {
+      "language": "fr",
+      "status": "automatic_diagnostic_not_linguistic_validation",
+      "pairs": 2473,
+      "sampled": 50,
+      "source_flagged": 0,
+      "corruption_flagged_at_edit": 27,
+      "source_rule_counts": {},
+      "manifest_sha256": "1e34119d05026e964884df29e468bb4867681f367fbe39a41cf3744c90df9ebe",
+      "diagnostics_sha256": "08c2710c9f3ca336a96c614e4fe8ffabd8982e4acd84457e1e0243dcb1b994bf"
+    },
+    "it": {
+      "language": "it",
+      "status": "automatic_diagnostic_not_linguistic_validation",
+      "pairs": 591,
+      "sampled": 50,
+      "source_flagged": 0,
+      "corruption_flagged_at_edit": 12,
+      "source_rule_counts": {},
+      "manifest_sha256": "9e02a48bc5c7031d71ee020878172fc9eca9ab44647c82954d129143764017a4",
+      "diagnostics_sha256": "3d5dce9136220f7907940e94a9c4d8169f3dd6dd4fc2743d0bb2001b46afbe2c"
+    },
+    "pt-PT": {
+      "language": "pt-PT",
+      "status": "automatic_diagnostic_not_linguistic_validation",
+      "pairs": 801,
+      "sampled": 50,
+      "source_flagged": 0,
+      "corruption_flagged_at_edit": 36,
+      "source_rule_counts": {},
+      "manifest_sha256": "1ebf8a05cd608fa9fc4f912d1170cf0c5aa27771ace9ee9a2e84c88da1d061a7",
+      "diagnostics_sha256": "39e8b9b77808332fdc5eaa29f9f7acffdedf8544645a215983e762534e055730"
+    },
+    "ro": {
+      "language": "ro",
+      "status": "automatic_diagnostic_not_linguistic_validation",
+      "pairs": 1203,
+      "sampled": 50,
+      "source_flagged": 0,
+      "corruption_flagged_at_edit": 32,
+      "source_rule_counts": {},
+      "manifest_sha256": "a0c38f9b8da7a1fbd4ea933b38ec9d0074d160856a14539aaf256242c7281b4e",
+      "diagnostics_sha256": "4b0206fbf80f2f9a4264855940fce56cbd4b1683071c1f14f0e608ede6499212"
+    },
+    "uk": {
+      "language": "uk",
+      "status": "automatic_diagnostic_not_linguistic_validation",
+      "pairs": 2697,
+      "sampled": 50,
+      "source_flagged": 0,
+      "corruption_flagged_at_edit": 40,
+      "source_rule_counts": {},
+      "manifest_sha256": "ccc27e9158e178f5bc2290472f6c3dcbc47f77aa07077fa199e17caa61b73407",
+      "diagnostics_sha256": "12d9478461825859657658a12bd7a446790326ccbb1e28c3ad32d353c3c9838c"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "language": "fi",
+  "paragraphs": 40,
+  "accepted_sources_equal": true,
+  "grammar_candidates_equal": true,
+  "runs": [
+    {
+      "accepted_sources": 69,
+      "grammar_candidates": 173,
+      "candidates": 1195,
+      "seconds": 4.37223829398863,
+      "timings": {
+        "tokenize": 0.6688372930511832,
+        "syntax": 3.5281162678729743
+      },
+      "rejections": {
+        "parser_unalignable_paragraph": 3
+      }
+    },
+    {
+      "accepted_sources": 69,
+      "grammar_candidates": 173,
+      "candidates": 1195,
+      "seconds": 3.706231826916337,
+      "timings": {
+        "tokenize": 0.6583414464257658,
+        "syntax": 2.9593076875898987
+      },
+      "rejections": {
+        "parser_invalid_surface_graph": 3,
+        "parser_prefilter_length": 5,
+        "parser_prefilter_fragment_or_format": 16,
+        "parser_prefilter_punctuation_spacing": 1,
+        "parser_prefilter_source_extraction_risk": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "name": "dienst_publiek_en_communicatie",
+      "source_value": "dienst_publiek_en_communicatie",
+      "repo_id": "danish-foundation-models/dutch-dynaword",
+      "revision": "d0158defd949699532e59dea5978c5542afb0400",
+      "data_file": "data/dienst_publiek_en_communicatie/data.parquet",
+      "metadata_file": "data/dienst_publiek_en_communicatie/metadata.parquet",
+      "license": "CC0 1.0 - https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_evidence_url": "https://huggingface.co/datasets/danish-foundation-models/dutch-dynaword/blob/d0158defd949699532e59dea5978c5542afb0400/data/dienst_publiek_en_communicatie/dienst_publiek_en_communicatie.md",
+      "min_document_chars": 400,
+      "annotation_filters": {
+        "content_integrity": [
+          "complete"
+        ],
+        "content_ratio": [
+          "complete_content",
+          "mostly_content"
+        ],
+        "content_length": [
+          "moderate",
+          "substantial"
+        ],
+        "content_quality": [
+          "excellent"
+        ]
+      },
+      "data_sha256": "46ea593ea7f37857eb22e8dfe726d6e59b9a735b00855b7bbb53ea7f6a535725",
+      "metadata_sha256": "b9366ffe711d593848759f78515e915c94b03d208f25db1aee2af6306d0212a5",
+      "annotation_exclusions": {
+        "content_type": [
+          "conversational"
+        ]
+      },
+      "annotation_text_exclusions": {
+        "one_sentence_description": "\\b(?:interview|podcast|speech|transcript|conversation|dialogue)\\b"
+      }
+    },
+    {
+      "name": "eurlex",
+      "source_value": "eurlex",
+      "repo_id": "danish-foundation-models/dutch-dynaword",
+      "revision": "d0158defd949699532e59dea5978c5542afb0400",
+      "data_file": "data/eurlex/data.parquet",
+      "metadata_file": "data/eurlex/metadata.parquet",
+      "license": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://huggingface.co/datasets/danish-foundation-models/dutch-dynaword/blob/d0158defd949699532e59dea5978c5542afb0400/data/eurlex/eurlex.md",
+      "min_document_chars": 400,
+      "annotation_filters": {
+        "content_integrity": [
+          "complete"
+        ],
+        "content_ratio": [
+          "complete_content",
+          "mostly_content"
+        ],
+        "content_length": [
+          "moderate",
+          "substantial"
+        ],
+        "content_quality": [
+          "good",
+          "excellent"
+        ]
+      },
+      "data_sha256": "4f966e7f71b8897799361b9aafdb640bbf01f8ec955278cfdde60a0cc409ac8b",
+      "metadata_sha256": "aa37294d4e7f99707cc43dd5f1ffd0d1acb874861703582819262070080fc906",
+      "annotation_exclusions": {
+        "content_type": [
+          "conversational"
+        ]
+      },
+      "annotation_text_exclusions": {
+        "one_sentence_description": "\\b(?:interview|podcast|speech|transcript|conversation|dialogue)\\b"
+      },
+      "document_year_regex": "\\bvan\\s+\\d{1,2}\\s+(?:januari|februari|maart|april|mei|juni|juli|augustus|september|oktober|november|december)\\s+(\\d{4})\\b",
+      "min_document_year": 2000
+    },
+    {
+      "name": "de_rechtspraak",
+      "source_value": "de_rechtspraak",
+      "repo_id": "danish-foundation-models/dutch-dynaword",
+      "revision": "d0158defd949699532e59dea5978c5542afb0400",
+      "data_file": "data/de_rechtspraak/data.parquet",
+      "metadata_file": "data/de_rechtspraak/metadata.parquet",
+      "license": "CC0 1.0 - https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_evidence_url": "https://huggingface.co/datasets/danish-foundation-models/dutch-dynaword/blob/d0158defd949699532e59dea5978c5542afb0400/data/de_rechtspraak/de_rechtspraak.md",
+      "min_document_chars": 400,
+      "annotation_filters": {
+        "content_integrity": [
+          "complete"
+        ],
+        "content_ratio": [
+          "complete_content",
+          "mostly_content"
+        ],
+        "content_length": [
+          "moderate",
+          "substantial"
+        ],
+        "content_quality": [
+          "excellent"
+        ]
+      },
+      "data_sha256": "a322d7c54ee834119919d631781bfc37a0065217ab7da28b697b95b2b0bd2139",
+      "metadata_sha256": "0b7acf463ddfeeab4f5154aa5f6d03daf0795b28be8c09f4d97108330bbf1d18",
+      "annotation_exclusions": {
+        "content_type": [
+          "conversational"
+        ]
+      },
+      "annotation_text_exclusions": {
+        "one_sentence_description": "\\b(?:interview|podcast|speech|transcript|conversation|dialogue|debate|debates)\\b"
+      }
+    },
+    {
+      "name": "officiele_bekendmakingen",
+      "source_value": "officiele_bekendmakingen",
+      "repo_id": "danish-foundation-models/dutch-dynaword",
+      "revision": "d0158defd949699532e59dea5978c5542afb0400",
+      "data_file": "data/officiele_bekendmakingen/data.parquet",
+      "metadata_file": "data/officiele_bekendmakingen/metadata.parquet",
+      "license": "CC0 1.0 - https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_evidence_url": "https://huggingface.co/datasets/danish-foundation-models/dutch-dynaword/blob/d0158defd949699532e59dea5978c5542afb0400/data/officiele_bekendmakingen/officiele_bekendmakingen.md",
+      "min_document_chars": 400,
+      "annotation_filters": {
+        "content_integrity": [
+          "complete"
+        ],
+        "content_ratio": [
+          "complete_content",
+          "mostly_content"
+        ],
+        "content_length": [
+          "moderate",
+          "substantial"
+        ],
+        "content_quality": [
+          "excellent"
+        ]
+      },
+      "data_sha256": "f7c021d44bbf6397b5f01a42b4188ae280edd6da8ae03c3fa23e8438e2622a4a",
+      "metadata_sha256": "adbe8f2df8494db3210f788b4b1edadb95386e2698a0746298d99835dae51d5c",
+      "annotation_exclusions": {
+        "content_type": [
+          "conversational"
+        ]
+      },
+      "annotation_text_exclusions": {
+        "one_sentence_description": "\\b(?:interview|podcast|speech|transcript|conversation|dialogue|debate|debates)\\b"
+      },
+      "document_year_regex": "(?:Gepubliceerd op\\s+|Jaargang\\s+)(20\\d{2})",
+      "min_document_year": 2000
+    }
+  ]
+}

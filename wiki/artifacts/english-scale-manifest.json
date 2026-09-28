@@ -1,0 +1,762 @@
+{
+  "schema_version": "2",
+  "language": "en",
+  "name": "DaLA English \u2014 Common Pile",
+  "prompts": {
+    "acceptability": "Is this English sentence correct in grammar and spelling? Answer only yes or no.",
+    "correction": "Correct any grammar or spelling errors in this English sentence. If it is already correct, return it unchanged. Preserve its meaning and formatting. Output only the sentence."
+  },
+  "source_description": "Pinned Common Pile 360info, Public Domain Review essays and Global Voices long-form articles. Source URLs and licenses accompany each document; supplied author metadata is preserved, with missing values left null. Global Voices publisher states CC BY 3.0; captured Common Pile metadata says BY 4.0 and is preserved separately. Expanded sources have known checker-undetected errors. Agent review of 130 pre-curation pairs accepted all injected edits, but flagged 18 originals for grammar/spelling uncertainty or errors and four as boilerplate. Documents with grammar/spelling flags, boilerplate and ambiguous embedded line separators are excluded; remaining source correctness is not established by this review. This is a provisional checker-screened corpus, not a human-validated benchmark.",
+  "profile": {
+    "schema_version": 1,
+    "language": "en",
+    "name": "DaLA English \u2014 Common Pile",
+    "mode": "pairs",
+    "parser": "en_core_web_md",
+    "parser_version": "3.8.0",
+    "sources": {
+      "adapter": "common_pile"
+    },
+    "sources_config": "../english_sources_scale.json",
+    "rulebook": "../english_productive_rules.json",
+    "exclusions": "../english_source_exclusions.json",
+    "adapter": "dala.language_packs.english:EnglishPack",
+    "selection": {
+      "strategy": "rare_first",
+      "max_errors": 2,
+      "priority": [
+        "perfect_participle",
+        "do_support_form",
+        "noun_number",
+        "modal_verb_form",
+        "demonstrative_number",
+        "subject_verb_agreement",
+        "spelling",
+        "word_deletion",
+        "word_swap"
+      ],
+      "max_replacement_pairs": null,
+      "token_fallback": "no_targeted_grammar_or_lexical",
+      "spelling_operator_priority": [
+        "lexical",
+        "character_edit"
+      ]
+    },
+    "checker": {
+      "mode": "local",
+      "dialects": [
+        "en-US",
+        "en-GB"
+      ],
+      "workers": 64,
+      "server_threads": 16,
+      "heap": "6g",
+      "cache_commit_batch_size": 128
+    },
+    "prompts": {
+      "acceptability": "Is this English sentence correct in grammar and spelling? Answer only yes or no.",
+      "correction": "Correct any grammar or spelling errors in this English sentence. If it is already correct, return it unchanged. Preserve its meaning and formatting. Output only the sentence."
+    },
+    "description": "Pinned Common Pile 360info, Public Domain Review essays and Global Voices long-form articles. Original authors, source URLs and source-specific licenses accompany each document. Global Voices publisher states CC BY 3.0; captured Common Pile metadata says BY 4.0 and is preserved separately.",
+    "grammar": {
+      "singular_pronouns": [
+        "he",
+        "she",
+        "it"
+      ],
+      "other_pronouns": [
+        "i",
+        "we",
+        "they",
+        "you"
+      ],
+      "singular_determiners": [
+        "each",
+        "every"
+      ],
+      "plural_determiners": [
+        "these",
+        "those",
+        "many",
+        "several"
+      ],
+      "quantifiers": [
+        "many",
+        "several"
+      ],
+      "modals": [
+        "can",
+        "could",
+        "may",
+        "might",
+        "must",
+        "shall",
+        "should",
+        "will",
+        "would"
+      ],
+      "do_forms": [
+        "do",
+        "does",
+        "did"
+      ],
+      "have_forms": [
+        "have",
+        "has",
+        "had"
+      ],
+      "demonstratives": {
+        "this": "NN",
+        "that": "NN",
+        "these": "NNS",
+        "those": "NNS"
+      },
+      "exclude_agreement_lemmas": [
+        "team",
+        "staff",
+        "committee",
+        "government",
+        "family",
+        "audience",
+        "board",
+        "council",
+        "company",
+        "group",
+        "majority",
+        "minority",
+        "couple",
+        "police",
+        "people",
+        "data",
+        "media",
+        "number",
+        "rest",
+        "lot",
+        "series",
+        "species",
+        "means",
+        "headquarters",
+        "news",
+        "politics"
+      ],
+      "exclude_number_lemmas": [
+        "people",
+        "police",
+        "clothes",
+        "scissors",
+        "trousers",
+        "pants",
+        "glasses",
+        "news",
+        "means",
+        "series",
+        "species",
+        "data",
+        "media"
+      ],
+      "replacement_overrides": {
+        "be": {
+          "VBP": [
+            "are"
+          ],
+          "VBZ": [
+            "is"
+          ]
+        }
+      }
+    },
+    "dependencies": [
+      "requests",
+      "lemminflect"
+    ],
+    "build": {
+      "document_batch_size": 1000,
+      "parser_processes": 8,
+      "target_pairs": 492063,
+      "split_targets": {
+        "train": 393650,
+        "validation": 24604,
+        "test": 73809
+      },
+      "checkpoint_dir": "la_output/english_scale_checkpoints",
+      "review_exclusions": "config/english_scale_review_exclusions.json"
+    },
+    "splits": {
+      "train_percent": 80,
+      "validation_percent": 5
+    }
+  },
+  "profile_sha256": "43dea35e0f00c491588fa1e3555285bfaa586a8568b29b406dfb056986b95962",
+  "quality_status": "checker_screened",
+  "language_checker": {
+    "name": "LanguageTool",
+    "version": "6.6",
+    "buildDate": "2025-03-27 20:50:25 +0100",
+    "apiVersion": 1,
+    "premium": false,
+    "premiumHint": "You might be missing errors only the Premium version can find. Contact us at support<at>languagetoolplus.com.",
+    "status": ""
+  },
+  "checker_runtime": {
+    "java.tar.gz": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jre_x64_linux_hotspot_17.0.16_8.tar.gz",
+      "sha256": "2885b944da3793144d4a86a29524f4d7b68ba155f5c08afa444a3b40f7071892"
+    },
+    "languagetool.zip": {
+      "url": "https://languagetool.org/download/LanguageTool-6.6.zip",
+      "sha256": "53600506b399bb5ffe1e4c8dec794fd378212f14aaf38ccef9b6f89314d11631"
+    }
+  },
+  "seed": 4242,
+  "max_errors": 2,
+  "max_documents": null,
+  "source_snapshots": [
+    {
+      "repo_id": "common-pile/news",
+      "revision": "13e76bdc8d49ed14d710fac7e3b61186cf74c8d3",
+      "file": "v0/documents/00000_360info.jsonl.gz",
+      "sha256": "6b2f94dd7f79fb72c9765067f6c96549d7e43fe2bc42329ca1fabbe38a78a78c"
+    },
+    {
+      "repo_id": "common-pile/public_domain_review",
+      "revision": "e9c7669206b95871601fe4672a484d8215e6fe6f",
+      "file": "v0/00000_essays.jsonl.gz",
+      "sha256": "825aed6a66ab14f89e1fe3110f67265d511994c52e5aed48b866a9e8a1bdeb4d"
+    },
+    {
+      "repo_id": "common-pile/news",
+      "revision": "13e76bdc8d49ed14d710fac7e3b61186cf74c8d3",
+      "file": "v0/documents/00000_globalvoices.jsonl.gz",
+      "sha256": "466ee4e91c531a550b5f1edcd25848003ddc7a05b800cd7cafc188b588c05a7f"
+    }
+  ],
+  "sources_config_sha256": "a293d0bc0d420cc9d30b9cebf7b5e670a2a84b5e45476e00b90c7df0ebfaa36e",
+  "rulebook_sha256": "73a5dc026516e4b4a7a0170af5db94251e71bc7413be19d1ba7ae2c79863ceec",
+  "source_exclusions_sha256": "85fd1862ce1e2607066d727866f392a3c7ea6ad2bffd7d189def31dd0b588c96",
+  "parser": {
+    "package": "en_core_web_md",
+    "version": "3.8.0",
+    "spacy": "3.8.16"
+  },
+  "runtime": {
+    "python": "3.13.15",
+    "requests": "2.32.5",
+    "lemminflect": "0.2.3"
+  },
+  "code_sha256": {
+    "batch_pipeline.py": "8178f162955ef7e3b7fa47d6c4fa876e3606b774bb59a59697ba4694054def7e",
+    "build_english.py": "7a04c1afd07a08e02094eccf4121543bde8d24e5f842edca2ec0bc37a3e405fe",
+    "character_operations.py": "a6bee1e7ef3339589dcebbee335891d5d01593139351ab4932385b01ef319971",
+    "common_pile.py": "b427c3a518dfe9609dca42710b9f6be2a6ec2e082e020bf2762fb0231b5050b1",
+    "create_dala.py": "c53cd6da1c5b0027a410b2004eaa53c3bb1da10a72388a82932da41369dec0e2",
+    "curation.py": "fd12065ed5935372d4efbe663f7486a5fa20fff543d9c7a088c36cce05b09f76",
+    "dala_corrupt.py": "bc4411d7e28e674deb4c6c689e73898ad102354fad38eb3a47ef448644fa5e34",
+    "dala_enums.py": "1c54d72f9c7306fbf916bfa1f7e51deb050f2e24478d3cc58314132322c06d46",
+    "dala_utils.py": "ee535fe4e45c7b64a3744ce40cffbde0c912c61a2fc0bf42535205a1f93c2445",
+    "dataset_review.py": "4bb82f0e1b587f5a2df98c220ec6a640acab7e4edb85f5acd0684d4d10741f20",
+    "edits.py": "c4c69a3d80434d17ed6112ed9c6caa1bdae245930a3377c78fc9d711bfd064e5",
+    "english.py": "58c5841f892f026fa2ce4a974f0530dce1a017ff8dcaad611cf188b82fba55e0",
+    "english_rules.py": "d7fc0ab3df420947631729489475a90e7d982a23d6e4a50450cfbd2db8af7f04",
+    "error_evidence.py": "c54ba9466a03c0a2d0d57fc3db8796b395394f94046037ff9daa9bd7aeab9d91",
+    "language_check.py": "43c5d483d2151d4cf9108243e57dc4ba8defe33c5f62bd497ce15c13275af1ec",
+    "language_packs/english.py": "2df13e06926033aefb4085395ea1422f56c6b1420191f304a3d5b9e9a1b02d3e",
+    "language_packs/english_fallback.py": "b9636349aef91c3d9740264bcde241791682fa77dd900fac7525c0e4d5c10aea",
+    "languages.py": "89d04751e1de3935c8dc82a0f0f6698acb3147acad4d83e373ce33c977281009",
+    "legacy_pipeline.py": "13744c02ebb56f79a58b9ff1e64e95793801a5ab48bf50895403ed3e0a40da26",
+    "load_ud.py": "b2ca62712abfe3eefc063a08dcf44c9298229f2a2c55b3e50e7413268a37cf09",
+    "multilingual.py": "3dcac64e68758e32ccc2860a1ea1bf7f2ccd8846b7e22678d9f087f914e94040",
+    "near_duplicates.py": "01f0695803257f96c383c1f4d15f63daa16f10716368a17351ae2475cc174e88",
+    "pair_pipeline.py": "07e237f290170631d44228808eeceb2105852417e2d5a6f0157dd734a91f9882",
+    "pipeline.py": "f3ac3831dded1957fdfc648a824695bea4c51ca721127702291e4a93142b4d46",
+    "profiles.py": "1f7587a6d189d6ca6f7f7ebfa3e2999e73a55fa89327d8de839541a07c919060",
+    "rule_engine.py": "29852af224feb4b345a9197034c1e6a2af8b7787855ce6e1d1a7021065ca4cb4",
+    "text.py": "ee4962aa2842a20a05366af06a85ae17df088e4ee5f401b5f6e4c7f733fd3caa",
+    "token_operations.py": "28c60cae53335830955d8bacedc7f7bf02fbe691c18f7e7030bbeac31a1680c5",
+    "ud_annotations.py": "c1abdaf06aefa3091abcd1ba93ef006f778aae3c52b505ff3fcc432b50f86a48",
+    "validate_dataset.py": "df991ef980c854df4b4d56e017d9b1de80d1e713dfd510ecb08f308733d40b73"
+  },
+  "generation_code_sha256": {
+    "batch_pipeline.py": "8178f162955ef7e3b7fa47d6c4fa876e3606b774bb59a59697ba4694054def7e",
+    "build_english.py": "7a04c1afd07a08e02094eccf4121543bde8d24e5f842edca2ec0bc37a3e405fe",
+    "character_operations.py": "a6bee1e7ef3339589dcebbee335891d5d01593139351ab4932385b01ef319971",
+    "common_pile.py": "b427c3a518dfe9609dca42710b9f6be2a6ec2e082e020bf2762fb0231b5050b1",
+    "create_dala.py": "c53cd6da1c5b0027a410b2004eaa53c3bb1da10a72388a82932da41369dec0e2",
+    "curation.py": "fd12065ed5935372d4efbe663f7486a5fa20fff543d9c7a088c36cce05b09f76",
+    "dala_corrupt.py": "bc4411d7e28e674deb4c6c689e73898ad102354fad38eb3a47ef448644fa5e34",
+    "dala_enums.py": "1c54d72f9c7306fbf916bfa1f7e51deb050f2e24478d3cc58314132322c06d46",
+    "dala_utils.py": "ee535fe4e45c7b64a3744ce40cffbde0c912c61a2fc0bf42535205a1f93c2445",
+    "dataset_review.py": "ea6e59f20650f9ab284d4dc93d48fa6ae4419e298c350be7206aa3c9386bee73",
+    "edits.py": "c4c69a3d80434d17ed6112ed9c6caa1bdae245930a3377c78fc9d711bfd064e5",
+    "english.py": "58c5841f892f026fa2ce4a974f0530dce1a017ff8dcaad611cf188b82fba55e0",
+    "english_rules.py": "d7fc0ab3df420947631729489475a90e7d982a23d6e4a50450cfbd2db8af7f04",
+    "error_evidence.py": "c54ba9466a03c0a2d0d57fc3db8796b395394f94046037ff9daa9bd7aeab9d91",
+    "language_check.py": "43c5d483d2151d4cf9108243e57dc4ba8defe33c5f62bd497ce15c13275af1ec",
+    "language_packs/english.py": "987cd3f5b237206b4236d8f6476f787108a956f5508c1b173280c0d2c8cec474",
+    "language_packs/english_fallback.py": "b9636349aef91c3d9740264bcde241791682fa77dd900fac7525c0e4d5c10aea",
+    "languages.py": "89d04751e1de3935c8dc82a0f0f6698acb3147acad4d83e373ce33c977281009",
+    "legacy_pipeline.py": "13744c02ebb56f79a58b9ff1e64e95793801a5ab48bf50895403ed3e0a40da26",
+    "load_ud.py": "b2ca62712abfe3eefc063a08dcf44c9298229f2a2c55b3e50e7413268a37cf09",
+    "multilingual.py": "6db24f1c3bb171cb5a3321f9ce6ce92b6e22fd7c1f3db18eca259071252433cc",
+    "near_duplicates.py": "6c103a90130559e7569ed9ed6a7e7edabf621236c6dbd57ad00ae26af8d1754c",
+    "pair_pipeline.py": "07e237f290170631d44228808eeceb2105852417e2d5a6f0157dd734a91f9882",
+    "pipeline.py": "f3ac3831dded1957fdfc648a824695bea4c51ca721127702291e4a93142b4d46",
+    "profiles.py": "1f7587a6d189d6ca6f7f7ebfa3e2999e73a55fa89327d8de839541a07c919060",
+    "rule_engine.py": "29852af224feb4b345a9197034c1e6a2af8b7787855ce6e1d1a7021065ca4cb4",
+    "text.py": "ee4962aa2842a20a05366af06a85ae17df088e4ee5f401b5f6e4c7f733fd3caa",
+    "token_operations.py": "28c60cae53335830955d8bacedc7f7bf02fbe691c18f7e7030bbeac31a1680c5",
+    "ud_annotations.py": "c1abdaf06aefa3091abcd1ba93ef006f778aae3c52b505ff3fcc432b50f86a48",
+    "validate_dataset.py": "941e3b278dca467080298b4071f8848f8eff5089fa72ddfa5d059261af71179c"
+  },
+  "jsonl_reader_fix_receipt_sha256": "aba0fa1bbcac6d0251a3861971b129032c7de4e9808c7640348a8720d43b7862",
+  "finalization_code_changes": [
+    "dataset_review.py",
+    "language_packs/english.py",
+    "multilingual.py",
+    "near_duplicates.py",
+    "validate_dataset.py"
+  ],
+  "counts": {
+    "documents": 34092,
+    "paragraphs": 711749,
+    "sentences": 1589647,
+    "candidates": 655277
+  },
+  "rejections": {
+    "quotation_or_ellipsis": 105982,
+    "length": 321151,
+    "fragment_or_format": 314670,
+    "nonprose": 59636,
+    "no_verbal_root": 43324,
+    "no_main_subject": 44486,
+    "no_licensed_corruption": 5524,
+    "unknown_non_name_word": 16841,
+    "boilerplate": 8089,
+    "existing_determiner_mismatch": 5664,
+    "no_finite_main_verb": 8794,
+    "audited_source_exclusion": 12,
+    "known_misspelling": 197,
+    "checker_missed_edit": 108195,
+    "checker_source_error": 50845,
+    "checker_lexical_guard": 5878,
+    "review_exclusion": 2881,
+    "near_duplicate": 1509,
+    "text_collision": 3092,
+    "split_quota": 3947
+  },
+  "eligible_sentences_by_type": {
+    "spelling": 552418,
+    "subject_verb_agreement": 83653,
+    "noun_number": 5482,
+    "perfect_participle": 25312,
+    "word_swap": 96511,
+    "word_deletion": 4962,
+    "modal_verb_form": 87057,
+    "do_support_form": 23416,
+    "demonstrative_number": 31546
+  },
+  "selected_edits_by_type": {
+    "spelling": 506887,
+    "perfect_participle": 19200,
+    "word_swap": 31195,
+    "subject_verb_agreement": 49846,
+    "modal_verb_form": 54277,
+    "noun_number": 3715,
+    "do_support_form": 14669,
+    "demonstrative_number": 11525,
+    "word_deletion": 231
+  },
+  "checkpoint_receipt_sha256": "d98028f95bcca7eaf240df7d1ffc894c3336316e40f4031eca2fb95bcfa6bf7c",
+  "screened_receipts": [
+    {
+      "batch": 0,
+      "candidates_sha256": "f7a3b4ac2d47487331f346a967d252f27c1e5055e3a3b98cfcc368b23749defa",
+      "screened_sha256": "cbb1ca3e13a11f6c80b56ead1fe9c7710f1d5d33c94b4db57a24f4af4eef41a6"
+    },
+    {
+      "batch": 1,
+      "candidates_sha256": "8b78521b3c54f1c99e2d253b86ad81d6ee93a91098ece754286147883d80102b",
+      "screened_sha256": "c8fef1f779c7e68c354d0cd73c672e004194cc8a5225a0165ae66b15a17c5be2"
+    },
+    {
+      "batch": 2,
+      "candidates_sha256": "c85c5128c49e8331f2475e7daa19c9fecd71a1e66e7a7e5df9d919f66c9a0b99",
+      "screened_sha256": "4e2c8e62b25b3f4c22ce99c2a530e0af7cdfbcf1e16c2d65f8c88aadaf902f2d"
+    },
+    {
+      "batch": 3,
+      "candidates_sha256": "0096d6db5237a6a18ea39dd7d1056bcd15bc84a7391f975b619bdb7dc1dcc000",
+      "screened_sha256": "12ed87d8e3b49f88e960e16e1a5992c28d9e0471b4da862b1ec0165c4d869f87"
+    },
+    {
+      "batch": 4,
+      "candidates_sha256": "dda3ec521166cfd6300221fadd1e27b36ab8ce64b43fd08eaaff015044bc2b68",
+      "screened_sha256": "2101b2c8e5a8984873abfe242ac2564d8a22bc4816a518ab03e23e7798e49a51"
+    },
+    {
+      "batch": 5,
+      "candidates_sha256": "b72376c47c03b0767e4975148bbc3922868a8b8e3cebb52b39708d5be4f42f67",
+      "screened_sha256": "45782f47c8771defe80b2cca6da3bf721ac765415f27d9c2936ea05093ea23c6"
+    },
+    {
+      "batch": 6,
+      "candidates_sha256": "de4703fbbdb9253c4d164973594fcadd2f541b518ab486ee254ab5d6a6a625fd",
+      "screened_sha256": "1bfd4595e41e32b0e8fef41a9bb0cdc67ac01beed74e2bd84bcb75f0097241c2"
+    },
+    {
+      "batch": 7,
+      "candidates_sha256": "230fc7c8945c04142fac65a5da7fe817b0357417a24283f424e18e6912f3d9af",
+      "screened_sha256": "7e8f4b8fd4ac17c2c3f259e8b18fb53cc122ae56cffd2bb5476fd8bf62564ae3"
+    },
+    {
+      "batch": 8,
+      "candidates_sha256": "44a2fd6783e3ee813af0d3a02d3378682b8c7b03249cad3b680075176a707bf6",
+      "screened_sha256": "dd5d28d230481acff14128d690bb020222f3469cefc34c6974a45d4cc640fb35"
+    },
+    {
+      "batch": 9,
+      "candidates_sha256": "13c6565b4d2b6dd1b3d961096140d052e07e4e6e7b19219360f949b1dfa72e5c",
+      "screened_sha256": "7aef8a16ae432718ff443fdcea59d1dd02a0097e8f8d10224c4aaf6b805b216d"
+    },
+    {
+      "batch": 10,
+      "candidates_sha256": "73ef16645d3636d384d3ad342bc01cdf0a74ce1002a935935f66fa72a22aa725",
+      "screened_sha256": "fb66c2f31bd0db3b530b598f14bd93681c5946db55dcaa6d81b2a707430937bc"
+    },
+    {
+      "batch": 11,
+      "candidates_sha256": "5f93c624a7ab1bb0c251c215d9fbaf00a8a720378858d838047a7968ed2f4ce0",
+      "screened_sha256": "390fda0280871c388d797e07fea6c4d5db14efec787ba89270f0856aeda7a275"
+    },
+    {
+      "batch": 12,
+      "candidates_sha256": "4e49f38d86f8be5e3a7193e5aa5aee7137d4f8c1fc2123cf007c80a0391dbad1",
+      "screened_sha256": "94f6b6fd2e54700c198a8999f5df7f8e130b28d6bf294b7d16dfcdb7b74e12e1"
+    },
+    {
+      "batch": 13,
+      "candidates_sha256": "5e5661ae77c995d2f997a99ad119494afd7fff069e65be08335b63bfe67d3e31",
+      "screened_sha256": "f79b364b85f695d008a4cea96a41de225a0085f3945c70eb99db9fcc2f7f548a"
+    },
+    {
+      "batch": 14,
+      "candidates_sha256": "e605e2ea2ff362dd8b29c46e6563ce9c912819d6bbe130e877812d2645a9d596",
+      "screened_sha256": "72f1446bb1a28513c42c3431d01de880fbbd72fd7a1b3b333714eaaf67df2fe9"
+    },
+    {
+      "batch": 15,
+      "candidates_sha256": "824c35664102897bbc9ee3ed715e01eb9d23961d5d7258eecbeb182cc9ca0c08",
+      "screened_sha256": "4973be76c45346af110156fc30392b543a73e3ea629b9ebf62aa12585d58ed82"
+    },
+    {
+      "batch": 16,
+      "candidates_sha256": "7ed44c7ca010a1cad9e3f1e57ab8aff73a0aea09c726afc36f8ea783fd837f83",
+      "screened_sha256": "3e374dc4705c79cbd1d8c35eee6fa06527bcaaa9d25aca301a68ade35349d500"
+    },
+    {
+      "batch": 17,
+      "candidates_sha256": "cb92370c45d2c9ed63b835d84c0b01293ac1ee5521c07835c8aa728555522503",
+      "screened_sha256": "966ceae22eebf05a019633b6b8c13abc32093a45c2a0dcccc19b95b4c3f8c2f3"
+    },
+    {
+      "batch": 18,
+      "candidates_sha256": "808b2a9c7cea3e7e51d2c1c048b7e80c5fdaedf6f7f651026429c391e6525c21",
+      "screened_sha256": "e58011fcc685943a0e4df06ec558be8c9dd7c1f09595c9a6980b4f8581365bbd"
+    },
+    {
+      "batch": 19,
+      "candidates_sha256": "b96849f0e620b2569da913d0352ed60c6b2f68587da4f1cd9d791dcd88c21035",
+      "screened_sha256": "af7f24377ebaff990ea05387389965021934c8e055e61360b414711cd2d15dca"
+    },
+    {
+      "batch": 20,
+      "candidates_sha256": "e16627aa98f321913df305c095b04d4f18913b4405541fbd52c0a200f8e899f1",
+      "screened_sha256": "24b291b35914018d383722640e14b100acef1c393869992b3b0774bf8bc4b316"
+    },
+    {
+      "batch": 21,
+      "candidates_sha256": "cb0ab2c3320181404a8a525d66704d095bac674680b1cca588d32520b6b4a46a",
+      "screened_sha256": "9988764cc754a4a98d8b622d08d50dc1e7d3dab33b29fceb66dc00b18e57b51d"
+    },
+    {
+      "batch": 22,
+      "candidates_sha256": "7db007cd922a75309daf56f5041d2570df088f7e7286596d7ef6b40144b74a9f",
+      "screened_sha256": "6ebbdea09ac9d13101f0705f9ff1ac006d36e5ea32d90f1fdad1a7d04de4dff0"
+    },
+    {
+      "batch": 23,
+      "candidates_sha256": "c75932cc5d4c46bf6c6e3b5690b24fb70d5fd9ed8ee6ed15f57b613600252493",
+      "screened_sha256": "4b17ab4d50130d1b653d4ca0a71278efd688c5bc7f70a989b7521e92255c7b36"
+    },
+    {
+      "batch": 24,
+      "candidates_sha256": "09855882692f0e69edd706e6b3be430081d3a48843959caabb09063eadb38d38",
+      "screened_sha256": "b3517261292be6334a8c3f34c9008c30f80f5b9c7fe069226a11742bf7f545c7"
+    },
+    {
+      "batch": 25,
+      "candidates_sha256": "8ab4ef69dd68a115ce7003f2392f6dbea938427baf2a9470eaf541f8b6965a79",
+      "screened_sha256": "ddb201f51621a08fcc3d76056710e845bc1a3543a5e589a55e821e1de488d4e0"
+    },
+    {
+      "batch": 26,
+      "candidates_sha256": "d5c49bb9e48efa695fb6cf513395edfc2924ffa9206247fc12081f4d65545e12",
+      "screened_sha256": "b90f3978a9330a21cbbd7bfb8610cb23479e1de53fef5507ddce349813261cac"
+    },
+    {
+      "batch": 27,
+      "candidates_sha256": "bf96bffe05f2b354a6c2e1eb81f6034ebdfc0f3acec6e94083fcd5f794b897f1",
+      "screened_sha256": "b0923560eced3fc77e95560ca98b7c4cc74169b4678724291a3749086c950f96"
+    },
+    {
+      "batch": 28,
+      "candidates_sha256": "2eafe5c45d8a46c595c8d9a7df365dd3635a04673bfb0a2ff0a964534690bd89",
+      "screened_sha256": "eb8d370c1148190f13cf1481a04855ef601e6af38998151a0c5ad7cfe932b1db"
+    },
+    {
+      "batch": 29,
+      "candidates_sha256": "fca1dec56d1c0fe12b124d1e8c039bb44a2a236aa3c88be8f24076592ccf67be",
+      "screened_sha256": "2f934cbaee8ab072e644229a58acd08098e8ead35022df668a35cf251869ac8a"
+    },
+    {
+      "batch": 30,
+      "candidates_sha256": "93b2e63a4159ae696ff7037eb47144c8f53f2affc53768fa754868fefa5e0bb4",
+      "screened_sha256": "8d434ed9c4b418ef7c05471c86c4d3019bb45c08b4e2c0e3ad1142db306d33fc"
+    },
+    {
+      "batch": 31,
+      "candidates_sha256": "54589c6c87e0154472060fd31095c5feb4fcf16cb33a77779d4a6d8e88058336",
+      "screened_sha256": "107b98c0f9f17eddcc48d47bd16cf70de8945dde79364ce5183c5cb9495d4815"
+    },
+    {
+      "batch": 32,
+      "candidates_sha256": "dcf0d59bf2618373f65f409d67af6e631457b4ff5d570b3de60785e8caa35add",
+      "screened_sha256": "dbcf79bc2e5cf482ff1bae33e27fd33e5d68d3d33b94d91c221fc2a3afdc12b7"
+    },
+    {
+      "batch": 33,
+      "candidates_sha256": "d0cb23b99c5cdff96647714edb5033b7e2d8c239c54d6c092d17dd93cf937395",
+      "screened_sha256": "acf367feb2f5127858f725943737fd48db0eca3b47d81740ef7cc63caa63671c"
+    },
+    {
+      "batch": 34,
+      "candidates_sha256": "f5ec569901bab3d63827feb54910798e5cda32e630fa545964935b6717d8a961",
+      "screened_sha256": "03d7feaff3f54d9193de2ba4a5a8b270f73a2b6aa5a6bafaa0117a2975a68e30"
+    }
+  ],
+  "review_exclusions_sha256": "8dac1d1f38acb2987c429d771e165f9e53daf48c5e218dff694298524f18a047",
+  "requested_target_pairs": 492063,
+  "final_target_pairs": 478930,
+  "available_after_curation": {
+    "train": 386046,
+    "test": 71840,
+    "validation": 24991
+  },
+  "final_split_targets": {
+    "train": 383144,
+    "validation": 23946,
+    "test": 71840
+  },
+  "finalizer_sha256": "e3df4e0652843ee28dece20ef967b6c37981587abd0d9be0811b07ac1e63d5a4",
+  "finalization": "All completed checkpoints; reviewed exclusions; global deduplication; attainable 80/5/15 quotas",
+  "quality_review": {
+    "reviews": [
+      {
+        "path": "wiki/artifacts/english-scale-first-batch-review.json",
+        "sha256": "0771f3a4921f9efaa2bc78aad547f7b73800bc70e7c22829b56283a126b401b9",
+        "summary": {
+          "reviewed": 70,
+          "source_accepted": 58,
+          "source_rejected": 9,
+          "source_uncertain": 3,
+          "injected_edits_accepted": 70,
+          "human_precision": null
+        }
+      },
+      {
+        "path": "wiki/artifacts/english-scale-random-batch-review.json",
+        "sha256": "aa06b683e839e79720db81f66efbe81abbe58c3ea1a1be87b235a6fd13c4464c",
+        "summary": {
+          "reviewed": 60,
+          "source_accepted": 50,
+          "source_rejected": 4,
+          "source_uncertain": 2,
+          "source_boilerplate": 4,
+          "injected_edits_accepted": 60,
+          "human_precision": null
+        }
+      }
+    ],
+    "human_precision": null
+  },
+  "verification": {
+    "pairs": 478930,
+    "unique_documents": 33274,
+    "exact_edit_reconstruction": true,
+    "correction_roundtrip": true,
+    "document_split_isolation": true,
+    "exported_text_unique": true,
+    "at_most_one_grammar_edit": true
+  },
+  "splits": {
+    "train": {
+      "pairs": 383144,
+      "acceptability_rows": 766288,
+      "correction_rows": 766288,
+      "edits_by_type": {
+        "demonstrative_number": 9170,
+        "do_support_form": 11571,
+        "modal_verb_form": 43525,
+        "noun_number": 2940,
+        "perfect_participle": 15369,
+        "spelling": 405771,
+        "subject_verb_agreement": 39752,
+        "word_deletion": 186,
+        "word_swap": 24952
+      },
+      "pairs_by_error_count": {
+        "1": 213052,
+        "2": 170092
+      },
+      "pairs_by_source": {
+        "360info": 23691,
+        "globalvoices": 352810,
+        "public_domain_review_essays": 6643
+      }
+    },
+    "validation": {
+      "pairs": 23946,
+      "acceptability_rows": 47892,
+      "correction_rows": 47892,
+      "edits_by_type": {
+        "demonstrative_number": 569,
+        "do_support_form": 777,
+        "modal_verb_form": 2705,
+        "noun_number": 202,
+        "perfect_participle": 1017,
+        "spelling": 25229,
+        "subject_verb_agreement": 2607,
+        "word_deletion": 15,
+        "word_swap": 1528
+      },
+      "pairs_by_error_count": {
+        "1": 13243,
+        "2": 10703
+      },
+      "pairs_by_source": {
+        "360info": 1388,
+        "globalvoices": 21981,
+        "public_domain_review_essays": 577
+      }
+    },
+    "test": {
+      "pairs": 71840,
+      "acceptability_rows": 143680,
+      "correction_rows": 143680,
+      "edits_by_type": {
+        "demonstrative_number": 1786,
+        "do_support_form": 2321,
+        "modal_verb_form": 8047,
+        "noun_number": 573,
+        "perfect_participle": 2814,
+        "spelling": 75887,
+        "subject_verb_agreement": 7487,
+        "word_deletion": 30,
+        "word_swap": 4715
+      },
+      "pairs_by_error_count": {
+        "1": 40020,
+        "2": 31820
+      },
+      "pairs_by_source": {
+        "360info": 4527,
+        "globalvoices": 66027,
+        "public_domain_review_essays": 1286
+      }
+    }
+  },
+  "artifacts": {
+    "README.md": {
+      "sha256": "a6d157fc139239a499c8733e3f28367fa61c5bf0e6f7b1399f613386a4be5e2a",
+      "bytes": 2055
+    },
+    "documents.jsonl": {
+      "sha256": "e4f02e1aa81b8dd41edd4f13d488e30036fa207442914c375ce63d53b94b2b2a",
+      "bytes": 27264335
+    },
+    "review.csv": {
+      "sha256": "ed66bffd421cb5aab41d16f97eb30839f0731b2027dac39e95e45ccd69d517cc",
+      "bytes": 1101946
+    },
+    "rules.json": {
+      "sha256": "73a5dc026516e4b4a7a0170af5db94251e71bc7413be19d1ba7ae2c79863ceec",
+      "bytes": 137973
+    },
+    "test/acceptability.csv": {
+      "sha256": "391549a60f825f7115b169522e59e2a0d704ddec248561e0884f7557ea05ea47",
+      "bytes": 35572827
+    },
+    "test/acceptability.jsonl": {
+      "sha256": "1b19fee5b991074334bf0abc5b272d7a1f1e1ce8ebac5cc6266c85ea6d5c72f1",
+      "bytes": 54053979
+    },
+    "test/acceptability_it.jsonl": {
+      "sha256": "3fb22197393d6d87ad9e6855e17f959222ef5e2422ca121ebac88264b520baa0",
+      "bytes": 77051889
+    },
+    "test/correction_it.jsonl": {
+      "sha256": "d1aacf7484bc4d328792c9ff40ed7b544e62aeddeb6ee71e4f88ffda7f956dec",
+      "bytes": 142933311
+    },
+    "test/pairs.jsonl": {
+      "sha256": "84f072a72494d9f127a4c1e24e2e98eacd069607b91e621cb13daffbf8667628",
+      "bytes": 159551718
+    },
+    "train/acceptability.csv": {
+      "sha256": "76f2bf589ea698b6395df06fad7886baa1471bb6d2b24019cbf521efe4cd3a0e",
+      "bytes": 189895638
+    },
+    "train/acceptability.jsonl": {
+      "sha256": "bd93618cd8825dee2525e0c06ff4d5a8187737297bfe38f3fa88c2539f725b12",
+      "bytes": 288468602
+    },
+    "train/acceptability_it.jsonl": {
+      "sha256": "3c5805449c456b944c0c39a28e9fe31c60e6f63d8cd7032c2d32af635899ca8e",
+      "bytes": 411111398
+    },
+    "train/correction_it.jsonl": {
+      "sha256": "b590f7378bb8423a75d9f009fb3f0ca47aba10460de82900e5a0712046f783e8",
+      "bytes": 762762783
+    },
+    "train/pairs.jsonl": {
+      "sha256": "19ea38c674f0b54a181332196248be1cbcee7343d46b3b301d4d46c27f742d68",
+      "bytes": 852300253
+    },
+    "validation/acceptability.csv": {
+      "sha256": "fe17bd24bc056749081134562ec8f0072a635c973c1647bb11ecad0974998a78",
+      "bytes": 11859489
+    },
+    "validation/acceptability.jsonl": {
+      "sha256": "5d04069393268091ad055b19f3fd29588f763a7f26c97b3683ee36876b62ec0e",
+      "bytes": 18019587
+    },
+    "validation/acceptability_it.jsonl": {
+      "sha256": "9e847b6909f8d9bdb860661a9a9f5f803a45df2df04c1981a82a3fc3bf947f06",
+      "bytes": 25688520
+    },
+    "validation/correction_it.jsonl": {
+      "sha256": "44fbed9aa90090b5dab39e68a0d379d70b5b33f03edd60f519d3cd98fe8993ca",
+      "bytes": 47659895
+    },
+    "validation/pairs.jsonl": {
+      "sha256": "f4adf81d56b7364e4a00d5bc7061eeab2f08269649925b32a1f7d731ab5a80f1",
+      "bytes": 53358016
+    }
+  },
+  "generation_profile_sha256": "4453df172b6568017499af4dc8d20f048dc932efadbb407ddac694e7eda1ba54",
+  "metadata_rename": {
+    "previous_directory": "la_output/english_tv2r_scale",
+    "previous_name": "English DaLA \u2014 TV2R scale",
+    "previous_manifest_sha256": "9839adbcc4cdd6da05ff22bdd0cb649ec5f293b1cc6b6ee7c7669554ce1cd098",
+    "scope": "Display name and directory only; all data artifacts unchanged"
+  }
+}

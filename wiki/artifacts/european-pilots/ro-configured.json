@@ -1,0 +1,75 @@
+{
+  "language": "ro",
+  "source_counts": {
+    "total": 8043,
+    "eligible": 7936
+  },
+  "rules": [
+    {
+      "id": "ro_adjective_number_ud",
+      "family": "adjective_number",
+      "active": true,
+      "mappings": 69
+    },
+    {
+      "id": "ro_adjective_gender_ud",
+      "family": "adjective_gender",
+      "active": true,
+      "mappings": 75
+    },
+    {
+      "id": "ro_adjective_case_ud",
+      "family": "adjective_case",
+      "active": false,
+      "mappings": 0
+    },
+    {
+      "id": "ro_determiner_number_ud",
+      "family": "determiner_number",
+      "active": true,
+      "mappings": 33
+    },
+    {
+      "id": "ro_determiner_gender_ud",
+      "family": "determiner_gender",
+      "active": true,
+      "mappings": 66
+    },
+    {
+      "id": "ro_determiner_case_ud",
+      "family": "determiner_case",
+      "active": false,
+      "mappings": 0
+    },
+    {
+      "id": "ro_verb_number_agreement_ud",
+      "family": "verb_number_agreement",
+      "active": true,
+      "mappings": 172
+    },
+    {
+      "id": "ro_verb_person_agreement_ud",
+      "family": "verb_person_agreement",
+      "active": true,
+      "mappings": 116
+    },
+    {
+      "id": "ro_spelling_transpose_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0
+    },
+    {
+      "id": "ro_spelling_delete_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0
+    },
+    {
+      "id": "ro_spelling_substitute_character",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0
+    }
+  ]
+}

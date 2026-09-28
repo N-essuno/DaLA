@@ -1,0 +1,40 @@
+{
+  "code_root": "/work/mimir/DaLA-mwt-recovery",
+  "files": [
+    {
+      "path": "dala/parsing.py",
+      "baseline_sha256": "f73e0c3ef2c277ebd73f4634332ae27c528ba3ea883f03f27530dd80d3922eb2",
+      "candidate_sha256": "83a010f3249c2e01b4bd13f675de9b0d331511d72015734a9f487d285a5f4fb2"
+    },
+    {
+      "path": "dala/surface_syntax.py",
+      "baseline_sha256": null,
+      "candidate_sha256": "9e18003c6db354c55ff9e9c466dce822bbf6fcc370d1cdb1c98ef67ec054a170"
+    },
+    {
+      "path": "dala/language_packs/morphology.py",
+      "baseline_sha256": "f46129a8609a851ace7c39966d6048a38a859547e8c99391e93bbe04f95e49a1",
+      "candidate_sha256": "d89020adbed747ceb9952f123d4c3568c0dcb8f6cf3675dcc58fa1e47eb0ed30"
+    },
+    {
+      "path": "dala/morphology_check.py",
+      "baseline_sha256": "2db0f65c929de25cb22d366974907d4dffbf465787c54a435bd518b4c5d49efc",
+      "candidate_sha256": "4fb8ec55f5f24c77418c7a38c8dda4f974c009b383abc933dd82eff0c2754226"
+    },
+    {
+      "path": "tests/test_surface_syntax.py",
+      "baseline_sha256": null,
+      "candidate_sha256": "49486b49770a54901d8eb45a3851fc8ab58b261afccacf2ecd2bc61aee2d0f9b"
+    },
+    {
+      "path": "tests/test_morphology_checker_pool.py",
+      "baseline_sha256": null,
+      "candidate_sha256": "804f95957cc4d46dcb40d6db80f187d3a0a577ca61423bd7e43ed5f937cf7c3f"
+    },
+    {
+      "path": "scripts/diagnose_mwt_recovery.py",
+      "baseline_sha256": null,
+      "candidate_sha256": "d0349dfc732b01acdd55f09dd79eb95f5a9097cc0f8dad4ad544035cf1be00ab"
+    }
+  ]
+}

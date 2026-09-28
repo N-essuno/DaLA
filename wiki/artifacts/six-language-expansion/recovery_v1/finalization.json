@@ -1,0 +1,37 @@
+{
+  "status": "candidate_datasets_complete_require_linguistic_review",
+  "run_id": "recovery_v1",
+  "language_runs": {
+    "nn": "recovery_v1",
+    "fo": "recovery_v1",
+    "is": "scaled256_v1",
+    "pl": "scaled128_v1",
+    "sv": "screening_v1",
+    "nb": "recovery_v1"
+  },
+  "pair_caps": [
+    "nn=478930",
+    "is=478930"
+  ],
+  "human_linguistic_validation": false,
+  "uploaded": false,
+  "outputs": {
+    "nn": "la_output/six_language_candidates_recovery_v1/nn",
+    "fo": "la_output/six_language_candidates_recovery_v1/fo",
+    "is": "la_output/six_language_candidates_recovery_v1/is",
+    "pl": "la_output/six_language_candidates_recovery_v1/pl",
+    "sv": "la_output/six_language_candidates_recovery_v1/sv",
+    "nb": "la_output/six_language_candidates_recovery_v1/nb"
+  },
+  "pairs": {
+    "nn": 478930,
+    "fo": 88233,
+    "is": 478928,
+    "pl": 478929,
+    "sv": 478929,
+    "nb": 478838
+  },
+  "coverage": "wiki/artifacts/six-language-expansion/recovery_v1/final-audit/coverage.json",
+  "review_samples": "wiki/artifacts/six-language-expansion/recovery_v1/final-audit",
+  "cross_dataset_isolation": "la_output/six_language_candidates_recovery_v1/isolation.json"
+}

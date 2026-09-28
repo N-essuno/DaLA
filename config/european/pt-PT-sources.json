@@ -1,0 +1,15 @@
+{
+  "sources": [
+    {
+      "pilot_max_sentences": 3000,
+      "name": "UD_Portuguese-Bosque",
+      "language": "pt-PT",
+      "path": "/work/mimir/DaLA/la_output/resources/european/pt-PT/pt_bosque-ud-train.conllu",
+      "revision": "53bb7584bec8f6b83a27eaefe0656690df9d7773",
+      "sha256": "b56d7124af821e2968302c38298904ec67af342304a33ae8a9dc4fa57df89648",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Portuguese-Bosque/53bb7584bec8f6b83a27eaefe0656690df9d7773/pt_bosque-ud-train.conllu",
+      "license": "CC BY-SA 4.0",
+      "sentence_id_pattern": "^CP"
+    }
+  ]
+}

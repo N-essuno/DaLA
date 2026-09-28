@@ -1,0 +1,22 @@
+[
+  [
+    "de_rechtspraak",
+    "metadata",
+    "la_output/cache/dynaword/datasets--danish-foundation-models--dutch-dynaword/snapshots/d0158defd949699532e59dea5978c5542afb0400/data/de_rechtspraak/metadata.parquet"
+  ],
+  [
+    "de_rechtspraak",
+    "data",
+    "la_output/cache/dynaword/datasets--danish-foundation-models--dutch-dynaword/snapshots/d0158defd949699532e59dea5978c5542afb0400/data/de_rechtspraak/data.parquet"
+  ],
+  [
+    "officiele_bekendmakingen",
+    "metadata",
+    "la_output/cache/dynaword/datasets--danish-foundation-models--dutch-dynaword/snapshots/d0158defd949699532e59dea5978c5542afb0400/data/officiele_bekendmakingen/metadata.parquet"
+  ],
+  [
+    "officiele_bekendmakingen",
+    "data",
+    "la_output/cache/dynaword/datasets--danish-foundation-models--dutch-dynaword/snapshots/d0158defd949699532e59dea5978c5542afb0400/data/officiele_bekendmakingen/data.parquet"
+  ]
+]

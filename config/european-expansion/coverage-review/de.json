@@ -1,0 +1,14 @@
+{
+  "language": "de",
+  "source_sha256": [
+    "189e266408b63992903e871c5bd5bebffe8ca3769295a8f776b3baa7cd1e3895"
+  ],
+  "review_type": "agent inspection, not native validation",
+  "judgments": [
+    {
+      "original": "Klearchos, der in Athen zu den Schülern des Platon und Isokrates gehört hatte, stürzte 364/3 v. Chr.",
+      "judgment": "uncertain",
+      "reason": "Possible sentence truncation at v. Chr.; reject until original boundary is checked."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "tests_passed": 165,
+  "final_exports_independently_validated": 12,
+  "configured_grammar_families": 98,
+  "compiled_active_grammar_families": 98,
+  "selected_grammar_families": 97,
+  "source_checker_samples": 450,
+  "source_checker_hard_flags": 0,
+  "source_checker_unsupported": [
+    "cs",
+    "et",
+    "fi"
+  ],
+  "final_checker_manifests_match": true,
+  "scale_profiles_and_exclusions_verified": 12,
+  "resume_pair_equality": true,
+  "native_validation": false,
+  "gpu_used": false,
+  "uploaded": false,
+  "full_size_generation_started": false
+}

@@ -1,0 +1,173 @@
+{
+  "languages": {
+    "ca": [
+      {
+        "family": "verb_number_agreement",
+        "compiled_mappings": 34547,
+        "eligible_sentences": 0
+      },
+      {
+        "family": "verb_person_agreement",
+        "compiled_mappings": 51753,
+        "eligible_sentences": 0
+      }
+    ],
+    "cs": [
+      {
+        "family": "determiner_gender",
+        "compiled_mappings": 61,
+        "eligible_sentences": 0
+      },
+      {
+        "family": "verb_number_agreement",
+        "compiled_mappings": 2609,
+        "eligible_sentences": 0
+      },
+      {
+        "family": "verb_person_agreement",
+        "compiled_mappings": 3971,
+        "eligible_sentences": 0
+      }
+    ],
+    "de": [
+      {
+        "family": "adjective_case",
+        "compiled_mappings": 8427,
+        "eligible_sentences": 0
+      },
+      {
+        "family": "perfect_verb_form",
+        "compiled_mappings": 4761,
+        "eligible_sentences": 0
+      }
+    ],
+    "el": [
+      {
+        "family": "adjective_number",
+        "compiled_mappings": 3061,
+        "eligible_sentences": 4
+      },
+      {
+        "family": "verb_number_agreement",
+        "compiled_mappings": 2414,
+        "eligible_sentences": 0
+      },
+      {
+        "family": "verb_person_agreement",
+        "compiled_mappings": 3273,
+        "eligible_sentences": 0
+      }
+    ],
+    "es": [
+      {
+        "family": "verb_number_agreement",
+        "compiled_mappings": 50749,
+        "eligible_sentences": 0
+      },
+      {
+        "family": "verb_person_agreement",
+        "compiled_mappings": 74203,
+        "eligible_sentences": 0
+      }
+    ],
+    "et": [],
+    "fi": [
+      {
+        "family": "determiner_number",
+        "compiled_mappings": 0,
+        "eligible_sentences": 0
+      },
+      {
+        "family": "determiner_case",
+        "compiled_mappings": 0,
+        "eligible_sentences": 0
+      }
+    ],
+    "fr": [
+      {
+        "family": "adjective_gender",
+        "compiled_mappings": 22,
+        "eligible_sentences": 0
+      },
+      {
+        "family": "determiner_number",
+        "compiled_mappings": 3,
+        "eligible_sentences": 0
+      },
+      {
+        "family": "determiner_gender",
+        "compiled_mappings": 14,
+        "eligible_sentences": 0
+      }
+    ],
+    "it": [
+      {
+        "family": "verb_number_agreement",
+        "compiled_mappings": 42184,
+        "eligible_sentences": 0
+      },
+      {
+        "family": "verb_person_agreement",
+        "compiled_mappings": 72234,
+        "eligible_sentences": 0
+      }
+    ],
+    "pt-PT": [
+      {
+        "family": "adjective_number",
+        "compiled_mappings": 2,
+        "eligible_sentences": 0
+      },
+      {
+        "family": "verb_number_agreement",
+        "compiled_mappings": 31654,
+        "eligible_sentences": 4
+      },
+      {
+        "family": "perfect_verb_form",
+        "compiled_mappings": 12440,
+        "eligible_sentences": 1
+      }
+    ],
+    "ro": [
+      {
+        "family": "adjective_case",
+        "compiled_mappings": 0,
+        "eligible_sentences": 0
+      },
+      {
+        "family": "determiner_case",
+        "compiled_mappings": 0,
+        "eligible_sentences": 0
+      },
+      {
+        "family": "verb_number_agreement",
+        "compiled_mappings": 23626,
+        "eligible_sentences": 0
+      }
+    ],
+    "uk": [
+      {
+        "family": "adjective_number",
+        "compiled_mappings": 0,
+        "eligible_sentences": 0
+      },
+      {
+        "family": "determiner_number",
+        "compiled_mappings": 0,
+        "eligible_sentences": 0
+      },
+      {
+        "family": "verb_person_agreement",
+        "compiled_mappings": 930,
+        "eligible_sentences": 1
+      }
+    ]
+  },
+  "uk_counterfactual": {
+    "adjective_number": 769,
+    "determiner_number": 184,
+    "scope": "Read-only diagnostic ignoring Gender and Animacy for Number; not approved or applied"
+  },
+  "implementation_changes": false
+}

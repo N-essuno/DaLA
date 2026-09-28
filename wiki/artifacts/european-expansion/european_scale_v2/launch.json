@@ -1,0 +1,146 @@
+{
+  "started_at": "2026-09-26T13:23:32.697676+00:00",
+  "pid": 2819156,
+  "command": [
+    "/tmp/dala-six-venv/bin/python",
+    "-u",
+    "-m",
+    "scripts.run_european_pilots",
+    "--run-id",
+    "european_scale_v2",
+    "--profile-root",
+    "/work/mimir/DaLA/la_output/resources/european-expansion/european_scale_v2",
+    "--workers",
+    "11",
+    "--max-documents",
+    "0",
+    "--languages",
+    "ca",
+    "cs",
+    "de",
+    "el",
+    "es",
+    "et",
+    "fr",
+    "it",
+    "pt-PT",
+    "ro",
+    "uk"
+  ],
+  "parser_workers_total": 192,
+  "parser_threads_per_worker": 1,
+  "languages": [
+    {
+      "language": "ca",
+      "parser_workers": 16,
+      "profile": "/work/mimir/DaLA/la_output/resources/european-expansion/european_scale_v2/ca/profile.json",
+      "profile_sha256": "2d3e3c9a460501a8a550389de14e56c302b4c07be65e477139e451c8358a7f21",
+      "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2_checkpoints/ca",
+      "output": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2/ca"
+    },
+    {
+      "language": "cs",
+      "parser_workers": 16,
+      "profile": "/work/mimir/DaLA/la_output/resources/european-expansion/european_scale_v2/cs/profile.json",
+      "profile_sha256": "8b77c2a5e75e82aa7dd61883b60029d1c8c57cf85b288d7b8ef5bf60065e3922",
+      "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2_checkpoints/cs",
+      "output": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2/cs"
+    },
+    {
+      "language": "de",
+      "parser_workers": 20,
+      "profile": "/work/mimir/DaLA/la_output/resources/european-expansion/european_scale_v2/de/profile.json",
+      "profile_sha256": "00f9a5106f8c234b672d53018f4b80958741dfe08d86e6f57bdc76f5153f37cb",
+      "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2_checkpoints/de",
+      "output": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2/de"
+    },
+    {
+      "language": "el",
+      "parser_workers": 20,
+      "profile": "/work/mimir/DaLA/la_output/resources/european-expansion/european_scale_v2/el/profile.json",
+      "profile_sha256": "d8612058e9aedb368db7ca77af636011f788431cfa2db4e3e55cc20c89c74c87",
+      "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2_checkpoints/el",
+      "output": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2/el"
+    },
+    {
+      "language": "es",
+      "parser_workers": 16,
+      "profile": "/work/mimir/DaLA/la_output/resources/european-expansion/european_scale_v2/es/profile.json",
+      "profile_sha256": "fe121a033385a6219880909e0e6f3cbc7641beb540831a2e214a723e8bca17aa",
+      "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2_checkpoints/es",
+      "output": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2/es"
+    },
+    {
+      "language": "et",
+      "parser_workers": 16,
+      "profile": "/work/mimir/DaLA/la_output/resources/european-expansion/european_scale_v2/et/profile.json",
+      "profile_sha256": "58855e667f7f5d9f520a011b25ecd26d8ab24fb48871e0ffb5407f7556d0985b",
+      "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2_checkpoints/et",
+      "output": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2/et"
+    },
+    {
+      "language": "fr",
+      "parser_workers": 12,
+      "profile": "/work/mimir/DaLA/la_output/resources/european-expansion/european_scale_v2/fr/profile.json",
+      "profile_sha256": "a223e047bb76b2611beb61dd153b8de948fd41e41398ae6593e601d899b60d5b",
+      "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2_checkpoints/fr",
+      "output": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2/fr"
+    },
+    {
+      "language": "it",
+      "parser_workers": 20,
+      "profile": "/work/mimir/DaLA/la_output/resources/european-expansion/european_scale_v2/it/profile.json",
+      "profile_sha256": "17fa21ef659b2e2bf7d949560963ce6f05d4657d1ee9c78e3b7bee90a31c6370",
+      "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2_checkpoints/it",
+      "output": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2/it"
+    },
+    {
+      "language": "pt-PT",
+      "parser_workers": 20,
+      "profile": "/work/mimir/DaLA/la_output/resources/european-expansion/european_scale_v2/pt-PT/profile.json",
+      "profile_sha256": "2f412476ff95e0bfe9e759609b439948e6f4a586414cacfce5735e99be96e871",
+      "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2_checkpoints/pt-PT",
+      "output": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2/pt-PT"
+    },
+    {
+      "language": "ro",
+      "parser_workers": 16,
+      "profile": "/work/mimir/DaLA/la_output/resources/european-expansion/european_scale_v2/ro/profile.json",
+      "profile_sha256": "0ccb1b24b1ec61e5fcbd3accd5843fdf06658eda082e866ec0e9c6fe5e46dfd1",
+      "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2_checkpoints/ro",
+      "output": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2/ro"
+    },
+    {
+      "language": "uk",
+      "parser_workers": 20,
+      "profile": "/work/mimir/DaLA/la_output/resources/european-expansion/european_scale_v2/uk/profile.json",
+      "profile_sha256": "313f2388b354306594ccaa28aedb66e674860f69fe7fc976dcb1241bd5c97c3a",
+      "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2_checkpoints/uk",
+      "output": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v2/uk"
+    },
+    {
+      "language": "fi",
+      "parser_workers": 0,
+      "profile": "/work/mimir/DaLA/la_output/resources/european-expansion/european_scale_v1/fi/profile.json",
+      "profile_sha256": "f9fafc032399d239a662e0164f3d44afff9c96a12b1403df4d2981ebf4d8fd9c",
+      "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v1_checkpoints/fi",
+      "output": "/work/mimir/DaLA/la_output/european_pilots/european_scale_v1/fi",
+      "completed_in": "european_scale_v1"
+    }
+  ],
+  "compute": "CPU only",
+  "target_per_language": 478930,
+  "split_targets": {
+    "train": 383144,
+    "validation": 47893,
+    "test": 47893
+  },
+  "supervisor_log": "/work/mimir/DaLA/wiki/artifacts/european-expansion/european_scale_v2/supervisor.log",
+  "language_logs": "/work/mimir/DaLA/wiki/artifacts/european-pilots/european_scale_v2",
+  "runner_sha256": "0a4d82b9f6ca392cd94ae89e1aeb2bb79dae163b5626af6fef2cea99fd589e92",
+  "upgraded_from": "/work/mimir/DaLA/wiki/artifacts/european-expansion/european_scale_v1/launch.json",
+  "stop_receipt": "/work/mimir/DaLA/wiki/artifacts/european-expansion/campaign-upgrade/stop.json",
+  "completed_languages": [
+    "fi"
+  ]
+}

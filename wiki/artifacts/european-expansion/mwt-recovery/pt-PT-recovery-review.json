@@ -1,0 +1,215 @@
+[
+  {
+    "original": "Os serviços competentes não as incluíram na ordem do dia, por considerarem que já lhes tinha sido dada resposta numa sessão anterior.",
+    "edits": [
+      {
+        "rule_id": "pt-PT_determiner_number_ud",
+        "corruption_type": "determiner_number",
+        "start": 0,
+        "end": 2,
+        "original": "Os",
+        "replacement": "O",
+        "protected_tokens": [
+          0,
+          1
+        ]
+      }
+    ],
+    "corrupted": "O serviços competentes não as incluíram na ordem do dia, por considerarem que já lhes tinha sido dada resposta numa sessão anterior.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "Igualmente consciente de que este é apenas de um pequeno passo com vista a uma maior segurança no transporte, solicito a vossa aprovação para o presente relatório.",
+    "edits": [
+      {
+        "rule_id": "pt-PT_adjective_gender_ud",
+        "corruption_type": "adjective_gender",
+        "start": 49,
+        "end": 56,
+        "original": "pequeno",
+        "replacement": "pequena",
+        "protected_tokens": [
+          9,
+          10
+        ]
+      }
+    ],
+    "corrupted": "Igualmente consciente de que este é apenas de um pequena passo com vista a uma maior segurança no transporte, solicito a vossa aprovação para o presente relatório.",
+    "screen_rejection": null,
+    "agent_judgment": "reject_source",
+    "note": "Original contains apparent extraneous de in este é apenas de um pequeno passo."
+  },
+  {
+    "original": "Presidente, a Presidência anunciou o resultado da votação.",
+    "edits": [
+      {
+        "rule_id": "pt-PT_determiner_number_ud",
+        "corruption_type": "determiner_number",
+        "start": 35,
+        "end": 36,
+        "original": "o",
+        "replacement": "os",
+        "protected_tokens": [
+          5,
+          6
+        ]
+      }
+    ],
+    "corrupted": "Presidente, a Presidência anunciou os resultado da votação.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "Em algumas freguesias do meu país o diabo andava verdadeiramente à solta.",
+    "edits": [
+      {
+        "rule_id": "pt-PT_spelling_delete_internal",
+        "corruption_type": "spelling",
+        "start": 36,
+        "end": 41,
+        "original": "diabo",
+        "replacement": "dibo",
+        "protected_tokens": [
+          7,
+          8,
+          9
+        ]
+      }
+    ],
+    "corrupted": "Em algumas freguesias do meu país o dibo andava verdadeiramente à solta.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "Presidente, se me permite, gostaria de lhe expressar em primeiro lugar, os meus respeitos pela forma como há pouco, durante o debate, executou a rápida mudança na Presidência.",
+    "edits": [
+      {
+        "rule_id": "pt-PT_determiner_number_ud",
+        "corruption_type": "determiner_number",
+        "start": 143,
+        "end": 144,
+        "original": "a",
+        "replacement": "as",
+        "protected_tokens": [
+          29,
+          31
+        ]
+      }
+    ],
+    "corrupted": "Presidente, se me permite, gostaria de lhe expressar em primeiro lugar, os meus respeitos pela forma como há pouco, durante o debate, executou as rápida mudança na Presidência.",
+    "screen_rejection": null,
+    "agent_judgment": "uncertain_source",
+    "note": "Punctuation around em primeiro lugar is questionable; exclude pending native review."
+  },
+  {
+    "original": "O Parlamento deveria, pois, enviar um sinal inequívoco do seu descontentamento face à suspensão do embargo, uma vez que é essa a posição da grande maioria da assembleia.",
+    "edits": [
+      {
+        "rule_id": "pt-PT_adjective_gender_ud",
+        "corruption_type": "adjective_gender",
+        "start": 44,
+        "end": 54,
+        "original": "inequívoco",
+        "replacement": "inequívoca",
+        "protected_tokens": [
+          8,
+          9
+        ]
+      }
+    ],
+    "corrupted": "O Parlamento deveria, pois, enviar um sinal inequívoca do seu descontentamento face à suspensão do embargo, uma vez que é essa a posição da grande maioria da assembleia.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "Isto será possível através de medidas dos governos, e a descentralização do ensino superior fará, sem dúvida, parte dessa política que serve o equilíbrio do desenvolvimento entre as diferentes regiões.",
+    "edits": [
+      {
+        "rule_id": "pt-PT_adjective_number_ud",
+        "corruption_type": "adjective_number",
+        "start": 182,
+        "end": 192,
+        "original": "diferentes",
+        "replacement": "diferente",
+        "protected_tokens": [
+          35,
+          36
+        ]
+      }
+    ],
+    "corrupted": "Isto será possível através de medidas dos governos, e a descentralização do ensino superior fará, sem dúvida, parte dessa política que serve o equilíbrio do desenvolvimento entre as diferente regiões.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "A parceria foi, por exemplo, pura e simplesmente esquecida na parte central dos Fundos Estruturais.",
+    "edits": [
+      {
+        "rule_id": "pt-PT_spelling_delete_internal",
+        "corruption_type": "spelling",
+        "start": 20,
+        "end": 27,
+        "original": "exemplo",
+        "replacement": "eemplo",
+        "protected_tokens": [
+          4,
+          5
+        ]
+      }
+    ],
+    "corrupted": "A parceria foi, por eemplo, pura e simplesmente esquecida na parte central dos Fundos Estruturais.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "Esta regulamentação é também importante para as condições de funcionamento do mercado interno.",
+    "edits": [
+      {
+        "rule_id": "pt-PT_determiner_number_ud",
+        "corruption_type": "determiner_number",
+        "start": 45,
+        "end": 47,
+        "original": "as",
+        "replacement": "a",
+        "protected_tokens": [
+          6,
+          7
+        ]
+      }
+    ],
+    "corrupted": "Esta regulamentação é também importante para a condições de funcionamento do mercado interno.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "Primeiro: o relatório prova a eficácia do instrumento em si.",
+    "edits": [
+      {
+        "rule_id": "pt-PT_spelling_delete_internal",
+        "corruption_type": "spelling",
+        "start": 30,
+        "end": 38,
+        "original": "eficácia",
+        "replacement": "eficáia",
+        "protected_tokens": [
+          4,
+          5,
+          6,
+          9
+        ]
+      }
+    ],
+    "corrupted": "Primeiro: o relatório prova a eficáia do instrumento em si.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  }
+]

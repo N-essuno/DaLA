@@ -1,0 +1,69 @@
+{
+  "language": "ro",
+  "rule_overrides": {
+    "verb_number_agreement": {
+      "noun_subject": {
+        "lemmas": [
+          "bărbat",
+          "femeie",
+          "profesor",
+          "student",
+          "autor",
+          "scriitor",
+          "oraș",
+          "școală",
+          "întreprindere",
+          "clădire",
+          "carte",
+          "copac"
+        ],
+        "review": "agent conservative count-noun inventory; no native validation"
+      }
+    },
+    "adjective_case": {
+      "set_valued_feature": true
+    },
+    "determiner_case": {
+      "set_valued_feature": true
+    }
+  },
+  "status": "candidate_only_agent_reviewed",
+  "reason": "Explicit conservative coverage extensions; shared code, isolated linguistic constraints",
+  "profile_overrides": {
+    "personal_pronoun_features": {
+      "eu": {
+        "Number": "Sing",
+        "Person": "1"
+      },
+      "tu": {
+        "Number": "Sing",
+        "Person": "2"
+      },
+      "el": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "ea": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "noi": {
+        "Number": "Plur",
+        "Person": "1"
+      },
+      "voi": {
+        "Number": "Plur",
+        "Person": "2"
+      },
+      "ei": {
+        "Number": "Plur",
+        "Person": "3"
+      },
+      "ele": {
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    "personal_pronoun_by_dependency": true
+  }
+}

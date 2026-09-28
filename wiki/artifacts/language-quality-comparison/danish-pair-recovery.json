@@ -1,0 +1,275 @@
+[
+  {
+    "pair_id": "test:41540",
+    "corrupted": "aktuelt er på 1.329.000 kr., mod 1.315.000 kr. 2009 i.",
+    "type": [
+      "flip_neighbours"
+    ],
+    "candidates": [
+      [
+        0.9545454545454546,
+        "aktuelt er på 1.329.000 kr., mod 1.315.000 kr. i 2009."
+      ],
+      [
+        0.47058823529411764,
+        "Den samlede bøde er på 1.980.000 kr."
+      ],
+      [
+        0.375,
+        "Den anden steddatter fik 50.000 kr., mens den krænkede niece blev tildelt en godtgørelse for tort på 8.000 kr."
+      ]
+    ]
+  },
+  {
+    "pair_id": "train:705686",
+    "corrupted": "Tønder Kommune kan til gengæld glæde sig over at være den kommune hvor der er mindst forskel på mænds og kvinders gennemsnitsløn, 12,79 nemlig procent forskel.",
+    "type": [
+      "flip_neighbours"
+    ],
+    "candidates": [
+      [
+        0.9666666666666667,
+        "Tønder Kommune kan til gengæld glæde sig over at være den kommune hvor der er mindst forskel på mænds og kvinders gennemsnitsløn, nemlig 12,79 procent forskel."
+      ],
+      [
+        0.33962264150943394,
+        "Indenfor regionen kan Sygehus Lillebælt glæde sig over at være det mest effektive sygehus, mens Sygehus Sønderjylland er det mindst effektive."
+      ],
+      [
+        0.2857142857142857,
+        "Borgerlisten kan ligeledes glæde sig over at blive repræsenteret i byrådet."
+      ]
+    ]
+  },
+  {
+    "pair_id": "train:460443",
+    "corrupted": "Og så der 3-5-8 års sagsbehandlingstider.",
+    "type": [
+      "delete"
+    ],
+    "candidates": [
+      [
+        0.9565217391304348,
+        "Og så var der 3-5-8 års sagsbehandlingstider."
+      ],
+      [
+        0.34782608695652173,
+        "Nu står der 3-1 i kampe i sønderjysk favør."
+      ],
+      [
+        0.3076923076923077,
+        "Implementering af en 1-5-15 model, som en aktiv opfølgningsmodel."
+      ]
+    ]
+  },
+  {
+    "pair_id": "train:760682",
+    "corrupted": "Ligeledes møder Boldklub Vejle og FC Fredericia hinanden i fodboldens første division.",
+    "type": [
+      "flip_neighbours"
+    ],
+    "candidates": [
+      [
+        0.9230769230769231,
+        "Ligeledes møder Vejle Boldklub og FC Fredericia hinanden i fodboldens første division."
+      ],
+      [
+        0.5925925925925926,
+        "Søndag indleder Vejle Boldklub og FC Fredericia sæsonen i fodboldens 1. division."
+      ],
+      [
+        0.5,
+        "For Vejle Boldklub og FC Fredericia venter endnu en sæson i 1. division."
+      ]
+    ]
+  },
+  {
+    "pair_id": "test:39526",
+    "corrupted": "Det kan frem til 27. september.",
+    "type": [
+      "delete"
+    ],
+    "candidates": [
+      [
+        0.9411764705882353,
+        "Det kan ses frem til 27. september."
+      ],
+      [
+        0.5454545454545454,
+        "Frem til 27. september i år er der registreret 33 drukneulykker herhjemme."
+      ],
+      [
+        0.5263157894736842,
+        "Kampene skal spilles den 25. til 27. september."
+      ]
+    ]
+  },
+  {
+    "pair_id": "train:707192",
+    "corrupted": "Opbakning til chauffører: Filippinske kvinder kom på med kage og tøj",
+    "type": [
+      "delete"
+    ],
+    "candidates": [
+      [
+        0.96,
+        "Opbakning til chauffører: Filippinske kvinder kom på besøg med kage og tøj"
+      ],
+      [
+        0.3333333333333333,
+        "De fem kvinder havde udover støtte også kage og tøj med."
+      ],
+      [
+        0.23529411764705882,
+        "I dag kunne de første trailere køre ind på den nye plads, og det blev fejret med kage og rundstykker."
+      ]
+    ]
+  },
+  {
+    "pair_id": "train:182416",
+    "corrupted": "Faktisk er der 11 frivillige 18 børn.",
+    "type": [
+      "delete"
+    ],
+    "candidates": [
+      [
+        0.9411764705882353,
+        "Faktisk er der 11 frivillige til 18 børn."
+      ],
+      [
+        0.4444444444444444,
+        "Og faktisk er der endnu mere grund til jubel."
+      ],
+      [
+        0.42105263157894735,
+        "Faktisk er der kun et dansk par mellem de ventende."
+      ]
+    ]
+  },
+  {
+    "pair_id": "train:690252",
+    "corrupted": "Vera Højmose fra Broager bruger engle i sin klinik til at mennesker med og det er populært.",
+    "type": [
+      "delete"
+    ],
+    "candidates": [
+      [
+        0.972972972972973,
+        "Vera Højmose fra Broager bruger engle i sin klinik til at heale mennesker med og det er populært."
+      ],
+      [
+        0.4166666666666667,
+        "Og det er populært online."
+      ],
+      [
+        0.3783783783783784,
+        "I Universe Science Park i Nordborg leger børn og unge sig til viden, og det er populært."
+      ]
+    ]
+  },
+  {
+    "pair_id": "train:113667",
+    "corrupted": "Så godt, at kroens køkken blevet kåret til nordens bedste.",
+    "type": [
+      "delete"
+    ],
+    "candidates": [
+      [
+        0.96,
+        "Så godt, at kroens køkken er blevet kåret til nordens bedste."
+      ],
+      [
+        0.4166666666666667,
+        "Poserne er lavet så godt, at de ligner almindelige indkøbsposer."
+      ],
+      [
+        0.36363636363636365,
+        "Og ordningen er nu gået så godt, at den udvides til andre plejehjem i kommunen og til Tønder kommune."
+      ]
+    ]
+  },
+  {
+    "pair_id": "train:590344",
+    "corrupted": "Af sikring lette trafikanters rute mellem Allerup og Toftlund, Tønder Kommune",
+    "type": [
+      "flip_neighbours"
+    ],
+    "candidates": [
+      [
+        0.9166666666666666,
+        "Sikring af lette trafikanters rute mellem Allerup og Toftlund, Tønder Kommune"
+      ],
+      [
+        0.2857142857142857,
+        "I øjeblikket bor der 190 uledsagede flygtningebørn mellem 12 og 18 år på de tre børnecentre i Toftlund, Tønder og Thyregod."
+      ],
+      [
+        0.27586206896551724,
+        "Drikkevandsundersøgelserne er en del af en handleplan, Tønder Kommune har lavet i samarbejde med embedslægen."
+      ]
+    ]
+  },
+  {
+    "pair_id": "test:130705",
+    "corrupted": "Thomas CookVerdens ældste grundlagt rejseselskab i 1841 af den britiske forretningsmand Thomas Cook.",
+    "type": [
+      "flip_neighbours"
+    ],
+    "candidates": [
+      [
+        0.9285714285714286,
+        "Thomas CookVerdens ældste rejseselskab grundlagt i 1841 af den britiske forretningsmand Thomas Cook."
+      ],
+      [
+        0.38461538461538464,
+        "Men i virkeligheden blev Peter Plys tegnet af den britiske illustrator."
+      ],
+      [
+        0.2,
+        "Til gengæld ser det, ifølge Jesper Rungholm, værre ud for moderselskabet Thomas Cook."
+      ]
+    ]
+  },
+  {
+    "pair_id": "train:93536",
+    "corrupted": "162 togpassagerer blev indlogeret på Idrætscenter Fredericia på Fredericia kommunes foranstaltning.",
+    "type": [
+      "flip_neighbours"
+    ],
+    "candidates": [
+      [
+        0.9166666666666666,
+        "162 togpassagerer blev indlogeret på Fredericia Idrætscenter på Fredericia kommunes foranstaltning."
+      ],
+      [
+        0.41379310344827586,
+        "Resultatet af drøftelserne vil blive præsenteret på Facebooksiden Det Grønne Fredericia og på Fredericia Kommunes hjemmeside."
+      ],
+      [
+        0.3333333333333333,
+        "Få seneste opdateringer på Fredericia Kommunes hjemmeside eller på kommunens facebookside."
+      ]
+    ]
+  },
+  {
+    "pair_id": "train:326877",
+    "corrupted": "I forbindelse med Mia Kjær Sørensens flotte indsats i årets udgave af X Factor hyldede Kommune Hedensted deres lokale helt.",
+    "type": [
+      "flip_neighbours"
+    ],
+    "candidates": [
+      [
+        0.9523809523809523,
+        "I forbindelse med Mia Kjær Sørensens flotte indsats i årets udgave af X Factor hyldede Hedensted Kommune deres lokale helt."
+      ],
+      [
+        0.3157894736842105,
+        "Den unge horsensianer Kristian Kjærlund har fredag aften sejret i dette års udgave af X Factor."
+      ],
+      [
+        0.2857142857142857,
+        "Aktuelt ligger esbjergenseren på en tredjeplads i årets udgave af Race Across America."
+      ]
+    ]
+  }
+]

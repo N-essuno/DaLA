@@ -1,0 +1,20 @@
+{
+  "language": "fi",
+  "source_sha256": [
+    "d21c22338430d81d5bc045b3370f2df0b7f8906b8ffde12000916c836c0276f8",
+    "c1e94a420206f1a27aa64be7d82841a18a804455913d1ccbe7cfde0208c347bf"
+  ],
+  "review_type": "agent inspection, not native validation",
+  "judgments": [
+    {
+      "original": "Syylän suurin haitta on kosmeettinen, mutta joissain alueilla, esimerkiksi jalkapohjissa, ne voivat aiheuttaa myös kipua.",
+      "judgment": "uncertain",
+      "reason": "Finnish original joissain alueilla mixes local-case forms; requires review."
+    },
+    {
+      "original": "Seuraava kehitysaste ovat ohjelmistoradiot, joiden ominaisuuksia voidaan ohjelmoida tietokoneilla lisäosia radioihin asentamatta.",
+      "judgment": "uncertain",
+      "reason": "Inverted Finnish copular agreement requires native source judgment."
+    }
+  ]
+}

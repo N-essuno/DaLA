@@ -1,0 +1,206 @@
+{
+  "language": "et",
+  "name": "Estonian",
+  "treebank": "Estonian-EDT",
+  "prefix": "et_edt",
+  "dictionary": "et",
+  "grammar": [
+    {
+      "family": "adjective_number",
+      "context": "nominal_agreement",
+      "feature": "Number",
+      "pos": [
+        "ADJ"
+      ],
+      "relations": [
+        "amod"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "adjective_case",
+      "context": "nominal_agreement",
+      "feature": "Case",
+      "pos": [
+        "ADJ"
+      ],
+      "relations": [
+        "amod"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "determiner_number",
+      "context": "nominal_agreement",
+      "feature": "Number",
+      "pos": [
+        "DET"
+      ],
+      "relations": [
+        "det"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "determiner_case",
+      "context": "nominal_agreement",
+      "feature": "Case",
+      "pos": [
+        "DET"
+      ],
+      "relations": [
+        "det"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "verb_number_agreement",
+      "context": "finite_agreement",
+      "feature": "Number",
+      "pos": [
+        "VERB",
+        "AUX"
+      ],
+      "subjects": [
+        "mina",
+        "sina",
+        "tema",
+        "meie",
+        "teie",
+        "nemad",
+        "ma",
+        "sa",
+        "ta",
+        "me",
+        "te",
+        "nad"
+      ]
+    },
+    {
+      "family": "verb_person_agreement",
+      "context": "finite_agreement",
+      "feature": "Person",
+      "pos": [
+        "VERB",
+        "AUX"
+      ],
+      "subjects": [
+        "mina",
+        "sina",
+        "tema",
+        "meie",
+        "teie",
+        "nemad",
+        "ma",
+        "sa",
+        "ta",
+        "me",
+        "te",
+        "nad"
+      ]
+    }
+  ],
+  "spelling": [
+    {
+      "operation": "transpose_internal",
+      "min_length": 5,
+      "max_length": 24,
+      "unicode_letters": true
+    },
+    {
+      "operation": "delete_internal",
+      "min_length": 5,
+      "max_length": 24,
+      "unicode_letters": true
+    },
+    {
+      "operation": "substitute_character",
+      "min_length": 4,
+      "max_length": 24,
+      "unicode_letters": true,
+      "substitutions": {
+        "ä": [
+          "a"
+        ],
+        "ö": [
+          "o"
+        ],
+        "õ": [
+          "o"
+        ],
+        "ü": [
+          "u"
+        ],
+        "š": [
+          "s"
+        ],
+        "ž": [
+          "z"
+        ]
+      }
+    }
+  ],
+  "compiler_options": {
+    "ignore_gender_animacy_features": [],
+    "preserve_all_features": true
+  },
+  "prompts": {
+    "acceptability": "Is this sentence grammatically correct and correctly spelled in Estonian? Reply only yes or no.",
+    "correction": "Correct grammatical and spelling errors in this Estonian sentence. Return correct input unchanged. Preserve Estonian, meaning and style. Return only the sentence."
+  },
+  "release_policy": {
+    "status": "candidate_only",
+    "pilot_target_pairs": 1000,
+    "production_target_pairs": 478930,
+    "require_audit_per_family": true
+  },
+  "limitations": [
+    "UD observed forms are not an exhaustive normative paradigm",
+    "Grammar constraints and spelling generators are synthetic; not observed-error frequencies"
+  ],
+  "dictionary_files": [
+    "index.aff",
+    "index.dic",
+    "readme.md",
+    "package.json"
+  ],
+  "source_risk_patterns": [
+    "\\.\\.\\.|…"
+  ],
+  "morphology_options": {
+    "source_nominal_pos": [
+      "ADJ",
+      "DET"
+    ],
+    "source_nominal_relations": [
+      "amod",
+      "det"
+    ]
+  },
+  "production_parser": {
+    "language": "et",
+    "processors": {
+      "tokenize": "edt",
+      "mwt": "edt",
+      "lemma": "edt_nocharlm",
+      "pos": "edt_nocharlm",
+      "depparse": "edt_nocharlm"
+    }
+  }
+}

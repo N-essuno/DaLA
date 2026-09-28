@@ -1,0 +1,7 @@
+{
+  "prior_equivalence_receipt": "wiki/artifacts/danish-equivalence.json",
+  "prior_receipt_sha256": "c2cb891035375222a0ddb985f778180ff311a66e79ee819b96864ffce6a0f625",
+  "previous_exact_row_and_csv_equality": true,
+  "changed_tested_engine_files": [],
+  "evidence": "Hash comparison to the previously completed full Danish equivalence run; not a new linguistic assessment"
+}

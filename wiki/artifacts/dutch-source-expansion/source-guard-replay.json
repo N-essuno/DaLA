@@ -1,0 +1,1222 @@
+{
+  "method": "Replay prior 200-source judgments through source filters with exact audit exclusions disabled. This is a development-set recall/retention check, not independent precision.",
+  "summary": {
+    "acceptable": {
+      "accepted": 166,
+      "source_extraction_risk": 18,
+      "fragment_or_format": 1,
+      "no_main_subject": 1,
+      "length": 1
+    },
+    "erroneous": {
+      "source_extraction_risk": 3,
+      "accepted": 5,
+      "source_pronoun_disagreement": 1
+    },
+    "uncertain": {
+      "accepted": 4
+    }
+  },
+  "rows": [
+    {
+      "sample_id": "nl-000",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-001",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-002",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-003",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-004",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-005",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-006",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-007",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-008",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-009",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-010",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-011",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-012",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-013",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-014",
+      "source_judgment": "uncertain",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-015",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-016",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-017",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-018",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-019",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-020",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-021",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-022",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-023",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-024",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-025",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-026",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-027",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-028",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-029",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-030",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-031",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-032",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-033",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-034",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-035",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-036",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-037",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-038",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-039",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-040",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-041",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-042",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-043",
+      "source_judgment": "erroneous",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-044",
+      "source_judgment": "uncertain",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-045",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-046",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-047",
+      "source_judgment": "uncertain",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-048",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-049",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-050",
+      "source_judgment": "erroneous",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-051",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-052",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-053",
+      "source_judgment": "erroneous",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-054",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-055",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-056",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-057",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-058",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-059",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-060",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-061",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-062",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-063",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-064",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-065",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-066",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-067",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-068",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-069",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-070",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-071",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-072",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-073",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-074",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-075",
+      "source_judgment": "uncertain",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-076",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-077",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-078",
+      "source_judgment": "acceptable",
+      "old_rejection": "fragment_or_format",
+      "new_rejection": "fragment_or_format"
+    },
+    {
+      "sample_id": "nl-079",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-080",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-081",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-082",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-083",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-084",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-085",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-086",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-087",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-088",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-089",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-090",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-091",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-092",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-093",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-094",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-095",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-096",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-097",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-098",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-099",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-100",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-101",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-102",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-103",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-104",
+      "source_judgment": "erroneous",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-105",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-106",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-107",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-108",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-109",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-110",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-111",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-112",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-113",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-114",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-115",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-116",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-117",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-118",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-119",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-120",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-121",
+      "source_judgment": "erroneous",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-122",
+      "source_judgment": "erroneous",
+      "old_rejection": null,
+      "new_rejection": "source_pronoun_disagreement"
+    },
+    {
+      "sample_id": "nl-123",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-124",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-125",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-126",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-127",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-128",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-129",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-130",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-131",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-132",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-133",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-134",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-135",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-136",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-137",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-138",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-139",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-140",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-141",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-142",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-143",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-144",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-145",
+      "source_judgment": "erroneous",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-146",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-147",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-148",
+      "source_judgment": "erroneous",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-149",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-150",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-151",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-152",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-153",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-154",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-155",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-156",
+      "source_judgment": "acceptable",
+      "old_rejection": "no_main_subject",
+      "new_rejection": "no_main_subject"
+    },
+    {
+      "sample_id": "nl-157",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-158",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-159",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-160",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-161",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-162",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-163",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-164",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-165",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-166",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-167",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-168",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-169",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-170",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-171",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-172",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-173",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-174",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-175",
+      "source_judgment": "erroneous",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-176",
+      "source_judgment": "acceptable",
+      "old_rejection": "length",
+      "new_rejection": "length"
+    },
+    {
+      "sample_id": "nl-177",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-178",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-179",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-180",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-181",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-182",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-183",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-184",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-185",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-186",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-187",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-188",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-189",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-190",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-191",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-192",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-193",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-194",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-195",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-196",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": "source_extraction_risk"
+    },
+    {
+      "sample_id": "nl-197",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-198",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    },
+    {
+      "sample_id": "nl-199",
+      "source_judgment": "acceptable",
+      "old_rejection": null,
+      "new_rejection": null
+    }
+  ]
+}

@@ -1,0 +1,2350 @@
+{
+  "timestamp": "2026-09-26T08:22:32.335939+00:00",
+  "compute": "CPU only; Stanza use_gpu=False",
+  "total_pairs": 30897,
+  "total_grammar": 11687,
+  "total_spelling": 19210,
+  "total_splits": {
+    "train": 24978,
+    "validation": 2861,
+    "test": 3058
+  },
+  "all_splits_nonempty": true,
+  "languages": {
+    "ca": {
+      "dataset": "/work/mimir/DaLA/la_output/european_pilots/coverage_reviewed_v6/ca",
+      "profile": {
+        "schema_version": 1,
+        "language": "ca",
+        "name": "DaLA Catalan pilot",
+        "mode": "pairs",
+        "parser": "stanza",
+        "parser_backend": "stanza",
+        "sources": {
+          "adapter": "canonical_jsonl"
+        },
+        "sources_config": "/work/mimir/DaLA/la_output/resources/european-expansion/targeted_sources_v5/ca/sources.json",
+        "rulebook": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/ca/rules.json.gz",
+        "exclusions": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_audited_v5/ca/exclusions.json",
+        "resource_directory": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/ca",
+        "adapter": "dala.language_packs.morphology:MorphologyPack",
+        "selection": {
+          "strategy": "hash_rotate_grammar_then_spelling",
+          "max_errors": 1,
+          "priority": [
+            "adjective_number",
+            "adjective_gender",
+            "determiner_number",
+            "determiner_gender",
+            "verb_number_agreement",
+            "verb_person_agreement",
+            "governed_infinitive",
+            "perfect_verb_form",
+            "spelling"
+          ],
+          "operator_priority": {
+            "observed_nonword": -1
+          },
+          "coverage_targets": [
+            "verb_number_agreement",
+            "verb_person_agreement"
+          ]
+        },
+        "checker": {
+          "mode": "morphology",
+          "workers": 8,
+          "source_languagetool": true
+        },
+        "prompts": {
+          "acceptability": "Is this sentence grammatically correct and correctly spelled in Catalan? Reply only yes or no.",
+          "correction": "Correct grammatical and spelling errors in this Catalan sentence. Return correct input unchanged. Preserve Catalan, meaning and style. Return only the sentence."
+        },
+        "curation": {
+          "min_words": 7,
+          "max_words": 35,
+          "max_sentence_chars": 320,
+          "max_paragraph_chars": 6000,
+          "source_risk_patterns": [
+            "\\.\\.\\.|…",
+            "\\(\\s*\\)",
+            "\\.{2,}",
+            " {2,}",
+            "[^\\W\\d_]+\\d+"
+          ]
+        },
+        "description": "CPU expanded pilot, agent source exclusions and stricter extraction guards; independent source checker where supported. Candidate only, no native validation.",
+        "dependencies": [
+          "requests",
+          "spacy",
+          "spylls"
+        ],
+        "export_used_rule_mappings": true,
+        "release_policy": {
+          "status": "candidate_only",
+          "pilot_target_pairs": 1000,
+          "production_target_pairs": 478930,
+          "require_audit_per_family": true
+        },
+        "morphology_options": {
+          "source_nominal_pos": [
+            "ADJ",
+            "DET"
+          ],
+          "source_nominal_relations": [
+            "amod",
+            "det"
+          ],
+          "protect_capitalized_lemmas": true
+        },
+        "dictionary_case_variants": false,
+        "capitalized_corruption_pos": [],
+        "parser_settings": {
+          "directory": "/work/mimir/DaLA/la_output/resources/european/stanza",
+          "processors": {
+            "tokenize": "ancora",
+            "mwt": "ancora",
+            "lemma": "ancora_nocharlm",
+            "pos": "ancora_nocharlm",
+            "depparse": "ancora_nocharlm"
+          },
+          "model_sha256": {
+            "ca/depparse/ancora_nocharlm.pt": "4813b298bf1c9cc91f58d7df99a03dee7dca08290ec6120d0785b36314883ce7",
+            "ca/lemma/ancora_nocharlm.pt": "28cb9157cb3b9c89fb1a29d07cb22b24b2aaf26d8b3a7d39770e7098ffa8dc37",
+            "ca/mwt/ancora.pt": "43b79ac3379bbaecae9d6ffab626af3483d1791602e7f1e838c2e583400dfaac",
+            "ca/pos/ancora_nocharlm.pt": "abc85628c4fa0f48d208795d1b4eeeb823998d1b6b20b7e5d32f7c1c71a6f864",
+            "ca/pretrain/conll17.pt": "8d778bb213cb8231006de622f9647ae34ca2c9ef0e4cca7e443d749dfc0ec8d6",
+            "ca/tokenize/ancora.pt": "b5888499427a9675d01997ce2ec71adca3dc81b5015bc87f785bc717f2e9487f"
+          },
+          "stanza_version": "1.11.0",
+          "language": "ca"
+        },
+        "parser_threads": 1,
+        "parser_expand_mwt": true,
+        "parser_skip_unalignable_sentences": true,
+        "personal_pronoun_features": {
+          "jo": {
+            "Number": "Sing",
+            "Person": "1"
+          },
+          "tu": {
+            "Number": "Sing",
+            "Person": "2"
+          },
+          "ell": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "ella": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "nosaltres": {
+            "Number": "Plur",
+            "Person": "1"
+          },
+          "vosaltres": {
+            "Number": "Plur",
+            "Person": "2"
+          },
+          "ells": {
+            "Number": "Plur",
+            "Person": "3"
+          },
+          "elles": {
+            "Number": "Plur",
+            "Person": "3"
+          }
+        },
+        "personal_pronoun_by_dependency": true,
+        "build": {
+          "parser_processes": 8,
+          "document_batch_size": 10,
+          "max_task_chars": 30000,
+          "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/coverage_cpu_v5_checkpoints/ca",
+          "allow_shortfall": true
+        }
+      },
+      "manifest_sha256": "ef63e408e3eba26e09d9ec75c8a7679f868f113f06e41107511cd247a04be7d1",
+      "pairs": 1197,
+      "grammar": 884,
+      "spelling": 313,
+      "splits": {
+        "train": 973,
+        "validation": 126,
+        "test": 98
+      },
+      "selected_grammar_families": [
+        "adjective_gender",
+        "adjective_number",
+        "determiner_gender",
+        "determiner_number",
+        "governed_infinitive",
+        "perfect_verb_form",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "configured_grammar_families": [
+        "adjective_gender",
+        "adjective_number",
+        "determiner_gender",
+        "determiner_number",
+        "governed_infinitive",
+        "perfect_verb_form",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "missing_grammar_families": [],
+      "source_documents": 1000,
+      "independent_original_checker": true,
+      "observed_spelling_rules_selected": [],
+      "quality_status": "candidate_rule_and_dictionary_screened",
+      "native_validation": false
+    },
+    "cs": {
+      "dataset": "/work/mimir/DaLA/la_output/european_pilots/coverage_final_v8/cs",
+      "profile": {
+        "schema_version": 1,
+        "language": "cs",
+        "name": "DaLA Czech pilot",
+        "mode": "pairs",
+        "parser": "stanza",
+        "parser_backend": "stanza",
+        "sources": {
+          "adapter": "canonical_jsonl"
+        },
+        "sources_config": "/work/mimir/DaLA/la_output/resources/european-expansion/pronoun_gap_sources_v7/cs/sources.json",
+        "rulebook": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/cs/rules.json.gz",
+        "exclusions": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_audited_v7/cs/exclusions.json",
+        "resource_directory": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/cs",
+        "adapter": "dala.language_packs.morphology:MorphologyPack",
+        "selection": {
+          "strategy": "hash_rotate_grammar_then_spelling",
+          "max_errors": 1,
+          "priority": [
+            "adjective_number",
+            "adjective_gender",
+            "adjective_case",
+            "determiner_number",
+            "determiner_gender",
+            "determiner_case",
+            "verb_number_agreement",
+            "verb_person_agreement",
+            "governed_infinitive",
+            "preposition_case",
+            "spelling"
+          ],
+          "operator_priority": {
+            "observed_nonword": -1
+          },
+          "coverage_targets": [
+            "verb_person_agreement",
+            "verb_number_agreement"
+          ]
+        },
+        "checker": {
+          "mode": "morphology",
+          "workers": 8,
+          "source_languagetool": false
+        },
+        "prompts": {
+          "acceptability": "Is this sentence grammatically correct and correctly spelled in Czech? Reply only yes or no.",
+          "correction": "Correct grammatical and spelling errors in this Czech sentence. Return correct input unchanged. Preserve Czech, meaning and style. Return only the sentence."
+        },
+        "curation": {
+          "min_words": 7,
+          "max_words": 35,
+          "max_sentence_chars": 320,
+          "max_paragraph_chars": 6000,
+          "source_risk_patterns": [
+            "\\.\\.\\.|…",
+            "#",
+            "\\(\\s*\\)",
+            "\\.{2,}",
+            " {2,}",
+            "[^\\W\\d_]+\\d+"
+          ]
+        },
+        "description": "CPU expanded pilot, agent source exclusions and stricter extraction guards; independent source checker where supported. Candidate only, no native validation.",
+        "dependencies": [
+          "requests",
+          "spacy",
+          "spylls"
+        ],
+        "export_used_rule_mappings": true,
+        "release_policy": {
+          "status": "candidate_only",
+          "pilot_target_pairs": 1000,
+          "production_target_pairs": 478930,
+          "require_audit_per_family": true
+        },
+        "morphology_options": {
+          "source_nominal_pos": [
+            "ADJ",
+            "DET"
+          ],
+          "source_nominal_relations": [
+            "amod",
+            "det"
+          ],
+          "protect_capitalized_lemmas": true
+        },
+        "dictionary_case_variants": false,
+        "capitalized_corruption_pos": [],
+        "parser_settings": {
+          "directory": "/work/mimir/DaLA/la_output/resources/european/stanza",
+          "processors": {
+            "tokenize": "pdt",
+            "mwt": "pdt",
+            "lemma": "pdt_nocharlm",
+            "pos": "pdt_nocharlm",
+            "depparse": "pdt_nocharlm"
+          },
+          "model_sha256": {
+            "cs/depparse/pdt_nocharlm.pt": "26b90e52d71aac606f04ebc00ade97ebbfa39c6e4942b63d64321cab1cdfcb9e",
+            "cs/lemma/pdt_nocharlm.pt": "647fb9e710a5d00f28d664c4197f275f174540d9682560fcf36d611b6ee4ddd9",
+            "cs/mwt/pdt.pt": "3830cc73891e4f8d515c452d9dfb027a747c83aea84f56ad1143ac1584b0e965",
+            "cs/pos/pdt_nocharlm.pt": "52a9f765873c357ae156f80120f3e2d3a09dd13a7b734db17c7cdc0a85278c64",
+            "cs/pretrain/conll17.pt": "ed379e7ea9929270128a0bf806e5b0df8bf292524b0eacd456be41b9852e9a4c",
+            "cs/tokenize/pdt.pt": "aa274e790f8635578f9f57fbf4b6db9b4827aaf5300fdab863cd0dc78bce1e1b"
+          },
+          "stanza_version": "1.11.0",
+          "language": "cs"
+        },
+        "parser_threads": 1,
+        "parser_expand_mwt": true,
+        "parser_skip_unalignable_sentences": true,
+        "personal_pronoun_features": {
+          "já": {
+            "Number": "Sing",
+            "Person": "1"
+          },
+          "ty": {
+            "Number": "Sing",
+            "Person": "2"
+          },
+          "on": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "ono": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "my": {
+            "Number": "Plur",
+            "Person": "1"
+          },
+          "vy": {
+            "Number": "Plur",
+            "Person": "2"
+          },
+          "oni": {
+            "Number": "Plur",
+            "Person": "3"
+          },
+          "ony": {
+            "Number": "Plur",
+            "Person": "3"
+          }
+        },
+        "personal_pronoun_by_dependency": true,
+        "build": {
+          "parser_processes": 8,
+          "document_batch_size": 10,
+          "max_task_chars": 30000,
+          "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/coverage_cpu_v7_checkpoints/cs",
+          "allow_shortfall": true
+        }
+      },
+      "manifest_sha256": "8093671a963a8b92a142f94a747e947446d2b89b9a7729d095346470ea85abb7",
+      "pairs": 4759,
+      "grammar": 2076,
+      "spelling": 2683,
+      "splits": {
+        "train": 3860,
+        "validation": 494,
+        "test": 405
+      },
+      "selected_grammar_families": [
+        "adjective_case",
+        "adjective_gender",
+        "adjective_number",
+        "determiner_case",
+        "determiner_gender",
+        "determiner_number",
+        "governed_infinitive",
+        "preposition_case",
+        "verb_number_agreement"
+      ],
+      "configured_grammar_families": [
+        "adjective_case",
+        "adjective_gender",
+        "adjective_number",
+        "determiner_case",
+        "determiner_gender",
+        "determiner_number",
+        "governed_infinitive",
+        "preposition_case",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "missing_grammar_families": [
+        "verb_person_agreement"
+      ],
+      "source_documents": 1282,
+      "independent_original_checker": false,
+      "observed_spelling_rules_selected": [
+        "cs_observed_spelling_001",
+        "cs_observed_spelling_017",
+        "cs_observed_spelling_040",
+        "cs_observed_spelling_012",
+        "cs_observed_spelling_010",
+        "cs_observed_spelling_021",
+        "cs_observed_spelling_005",
+        "cs_observed_spelling_039",
+        "cs_observed_spelling_029",
+        "cs_observed_spelling_028",
+        "cs_observed_spelling_008",
+        "cs_observed_spelling_047",
+        "cs_observed_spelling_036",
+        "cs_observed_spelling_015",
+        "cs_observed_spelling_009",
+        "cs_observed_spelling_046",
+        "cs_observed_spelling_019",
+        "cs_observed_spelling_025",
+        "cs_observed_spelling_018",
+        "cs_observed_spelling_031",
+        "cs_observed_spelling_049",
+        "cs_observed_spelling_033",
+        "cs_observed_spelling_011",
+        "cs_observed_spelling_041"
+      ],
+      "quality_status": "candidate_rule_and_dictionary_screened",
+      "native_validation": false
+    },
+    "de": {
+      "dataset": "/work/mimir/DaLA/la_output/european_pilots/coverage_reviewed_v6/de",
+      "profile": {
+        "schema_version": 1,
+        "language": "de",
+        "name": "DaLA German pilot",
+        "mode": "pairs",
+        "parser": "stanza",
+        "parser_backend": "stanza",
+        "sources": {
+          "adapter": "canonical_jsonl"
+        },
+        "sources_config": "/work/mimir/DaLA/la_output/resources/european-expansion/targeted_sources_v5/de/sources.json",
+        "rulebook": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/de/rules.json.gz",
+        "exclusions": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_audited_v5/de/exclusions.json",
+        "resource_directory": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/de",
+        "adapter": "dala.language_packs.morphology:MorphologyPack",
+        "selection": {
+          "strategy": "hash_rotate_grammar_then_spelling",
+          "max_errors": 1,
+          "priority": [
+            "adjective_number",
+            "adjective_gender",
+            "adjective_case",
+            "determiner_number",
+            "determiner_gender",
+            "determiner_case",
+            "verb_number_agreement",
+            "verb_person_agreement",
+            "governed_infinitive",
+            "perfect_verb_form",
+            "preposition_case",
+            "spelling"
+          ],
+          "operator_priority": {
+            "observed_nonword": -1
+          },
+          "coverage_targets": [
+            "adjective_case",
+            "perfect_verb_form"
+          ]
+        },
+        "checker": {
+          "mode": "morphology",
+          "workers": 8,
+          "source_languagetool": true
+        },
+        "prompts": {
+          "acceptability": "Is this sentence grammatically correct and correctly spelled in German? Reply only yes or no.",
+          "correction": "Correct grammatical and spelling errors in this German sentence. Return correct input unchanged. Preserve German, meaning and style. Return only the sentence."
+        },
+        "curation": {
+          "min_words": 7,
+          "max_words": 35,
+          "max_sentence_chars": 320,
+          "max_paragraph_chars": 6000,
+          "source_risk_patterns": [
+            "\\.\\.\\.|…",
+            "\\(\\s*\\)",
+            "\\.{2,}",
+            " {2,}",
+            "[^\\W\\d_]+\\d+"
+          ]
+        },
+        "description": "CPU expanded pilot, agent source exclusions and stricter extraction guards; independent source checker where supported. Candidate only, no native validation.",
+        "dependencies": [
+          "requests",
+          "spacy",
+          "spylls"
+        ],
+        "export_used_rule_mappings": true,
+        "release_policy": {
+          "status": "candidate_only",
+          "pilot_target_pairs": 1000,
+          "production_target_pairs": 478930,
+          "require_audit_per_family": true
+        },
+        "morphology_options": {
+          "source_nominal_pos": [
+            "ADJ",
+            "DET"
+          ],
+          "source_nominal_relations": [
+            "amod",
+            "det"
+          ],
+          "protect_capitalized_lemmas": false
+        },
+        "dictionary_case_variants": true,
+        "capitalized_corruption_pos": [
+          "NOUN"
+        ],
+        "parser_settings": {
+          "directory": "/work/mimir/DaLA/la_output/resources/european/stanza",
+          "processors": {
+            "tokenize": "combined",
+            "mwt": "combined",
+            "lemma": "combined_nocharlm",
+            "pos": "combined_nocharlm",
+            "depparse": "combined_nocharlm"
+          },
+          "model_sha256": {
+            "de/depparse/combined_nocharlm.pt": "b666ed4f63b9092f2e86819f2b7e495e65c47a82b090b3f2c3fae0d8606f5e2f",
+            "de/lemma/combined_nocharlm.pt": "9955ddbc0e86dd999c0e6cb59f68859db064f5ffa3839d2ca42da0abf5e61ba5",
+            "de/mwt/combined.pt": "5831971876c8304aff46bc5b62d70498222d8226fad8251441a81fff6f2e108e",
+            "de/pos/combined_nocharlm.pt": "0d239a668f3d00e0a7b7e6ccea3b050e2d831ed2944bc559d869b6608c2af881",
+            "de/pretrain/conll17.pt": "19a5cefbfdb93f3696ace424b904553f1d2525e7c1500bf58fb22f06f7ddceb7",
+            "de/tokenize/combined.pt": "d0e7d4d7f78402d86cdaf9ecaeda3edb646739109f0e8667eb45aace752a8b4a"
+          },
+          "stanza_version": "1.11.0",
+          "language": "de"
+        },
+        "parser_threads": 1,
+        "parser_expand_mwt": true,
+        "parser_skip_unalignable_sentences": true,
+        "personal_pronoun_features": {
+          "ich": {
+            "Number": "Sing",
+            "Person": "1"
+          },
+          "du": {
+            "Number": "Sing",
+            "Person": "2"
+          },
+          "er": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "es": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "wir": {
+            "Number": "Plur",
+            "Person": "1"
+          },
+          "ihr": {
+            "Number": "Plur",
+            "Person": "2"
+          }
+        },
+        "personal_pronoun_by_dependency": true,
+        "build": {
+          "parser_processes": 8,
+          "document_batch_size": 10,
+          "max_task_chars": 30000,
+          "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/coverage_cpu_v5_checkpoints/de",
+          "allow_shortfall": true
+        }
+      },
+      "manifest_sha256": "dd9eafec6cc76dbe720c09ab7700414203442196a1204642e0960cab4f2d0463",
+      "pairs": 3849,
+      "grammar": 1723,
+      "spelling": 2126,
+      "splits": {
+        "train": 3220,
+        "validation": 288,
+        "test": 341
+      },
+      "selected_grammar_families": [
+        "adjective_case",
+        "adjective_gender",
+        "adjective_number",
+        "determiner_case",
+        "determiner_gender",
+        "determiner_number",
+        "governed_infinitive",
+        "perfect_verb_form",
+        "preposition_case",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "configured_grammar_families": [
+        "adjective_case",
+        "adjective_gender",
+        "adjective_number",
+        "determiner_case",
+        "determiner_gender",
+        "determiner_number",
+        "governed_infinitive",
+        "perfect_verb_form",
+        "preposition_case",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "missing_grammar_families": [],
+      "source_documents": 1000,
+      "independent_original_checker": true,
+      "observed_spelling_rules_selected": [
+        "de_observed_spelling_025",
+        "de_observed_spelling_041",
+        "de_observed_spelling_031",
+        "de_observed_spelling_018",
+        "de_observed_spelling_030",
+        "de_observed_spelling_015",
+        "de_observed_spelling_004",
+        "de_observed_spelling_012",
+        "de_observed_spelling_023",
+        "de_observed_spelling_042",
+        "de_observed_spelling_045",
+        "de_observed_spelling_027",
+        "de_observed_spelling_006",
+        "de_observed_spelling_047",
+        "de_observed_spelling_037",
+        "de_observed_spelling_009"
+      ],
+      "quality_status": "candidate_rule_and_dictionary_screened",
+      "native_validation": false
+    },
+    "fr": {
+      "dataset": "/work/mimir/DaLA/la_output/european_pilots/coverage_final_v8/fr",
+      "profile": {
+        "schema_version": 1,
+        "language": "fr",
+        "name": "DaLA French pilot",
+        "mode": "pairs",
+        "parser": "stanza",
+        "parser_backend": "stanza",
+        "sources": {
+          "adapter": "canonical_jsonl"
+        },
+        "sources_config": "/work/mimir/DaLA/la_output/resources/european-expansion/targeted_sources_v5/fr/sources.json",
+        "rulebook": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/fr/rules.json.gz",
+        "exclusions": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_audited_v5/fr/exclusions.json",
+        "resource_directory": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/fr",
+        "adapter": "dala.language_packs.morphology:MorphologyPack",
+        "selection": {
+          "strategy": "hash_rotate_grammar_then_spelling",
+          "max_errors": 1,
+          "priority": [
+            "adjective_number",
+            "adjective_gender",
+            "determiner_number",
+            "determiner_gender",
+            "verb_number_agreement",
+            "verb_person_agreement",
+            "governed_infinitive",
+            "perfect_verb_form",
+            "spelling"
+          ],
+          "operator_priority": {
+            "observed_nonword": -1
+          },
+          "coverage_targets": [
+            "adjective_gender",
+            "determiner_number",
+            "determiner_gender"
+          ]
+        },
+        "checker": {
+          "mode": "morphology",
+          "workers": 8,
+          "source_languagetool": true
+        },
+        "prompts": {
+          "acceptability": "Is this sentence grammatically correct and correctly spelled in French? Reply only yes or no.",
+          "correction": "Correct grammatical and spelling errors in this French sentence. Return correct input unchanged. Preserve French, meaning and style. Return only the sentence."
+        },
+        "curation": {
+          "min_words": 7,
+          "max_words": 35,
+          "max_sentence_chars": 320,
+          "max_paragraph_chars": 6000,
+          "source_risk_patterns": [
+            "\\.\\.\\.|…",
+            "\\(\\s*\\)",
+            "\\.{2,}",
+            " {2,}",
+            "[^\\W\\d_]+\\d+"
+          ]
+        },
+        "description": "CPU expanded pilot, agent source exclusions and stricter extraction guards; independent source checker where supported. Candidate only, no native validation.",
+        "dependencies": [
+          "requests",
+          "spacy",
+          "spylls"
+        ],
+        "export_used_rule_mappings": true,
+        "release_policy": {
+          "status": "candidate_only",
+          "pilot_target_pairs": 1000,
+          "production_target_pairs": 478930,
+          "require_audit_per_family": true
+        },
+        "morphology_options": {
+          "source_nominal_pos": [
+            "ADJ",
+            "DET"
+          ],
+          "source_nominal_relations": [
+            "amod",
+            "det"
+          ],
+          "protect_capitalized_lemmas": true
+        },
+        "dictionary_case_variants": false,
+        "capitalized_corruption_pos": [],
+        "parser_settings": {
+          "directory": "/work/mimir/DaLA/la_output/resources/european/stanza",
+          "processors": {
+            "tokenize": "combined",
+            "mwt": "combined",
+            "lemma": "combined_nocharlm",
+            "pos": "combined_nocharlm",
+            "depparse": "combined_nocharlm"
+          },
+          "model_sha256": {
+            "fr/depparse/combined_nocharlm.pt": "dfb6c04ae4c540990cde792271d7df846e9df6d207db6a9c99ae28ed54bda1ca",
+            "fr/lemma/combined_nocharlm.pt": "2a6a41b23076e69b8982f9023339330ccd5d539f2efdc873a6bc99c94d210cfc",
+            "fr/mwt/combined.pt": "b371696d3b9f5d6a33cf9984b0109cefa6eb62eeea0eb9a31611fc77e12cd0b3",
+            "fr/pos/combined_nocharlm.pt": "022bf3e1758f1266035807c1ef609e64e139ab86d1172ed0e0719ee57036d115",
+            "fr/pretrain/conll17.pt": "c8c456c1a48fba32d4ab827ae7d3fec40457f58ead7e1977b6267afc37474a3c",
+            "fr/tokenize/combined.pt": "a176ca2901b2d541826d17fd436258c326fd2c640ef7d2df7eaf639e5d4aa34b"
+          },
+          "stanza_version": "1.11.0",
+          "language": "fr"
+        },
+        "parser_threads": 1,
+        "parser_expand_mwt": true,
+        "parser_skip_unalignable_sentences": true,
+        "personal_pronoun_features": {
+          "je": {
+            "Number": "Sing",
+            "Person": "1"
+          },
+          "tu": {
+            "Number": "Sing",
+            "Person": "2"
+          },
+          "il": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "elle": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "nous": {
+            "Number": "Plur",
+            "Person": "1"
+          },
+          "vous": {
+            "Number": "Plur",
+            "Person": "2"
+          },
+          "ils": {
+            "Number": "Plur",
+            "Person": "3"
+          },
+          "elles": {
+            "Number": "Plur",
+            "Person": "3"
+          }
+        },
+        "personal_pronoun_by_dependency": true,
+        "build": {
+          "parser_processes": 8,
+          "document_batch_size": 10,
+          "max_task_chars": 30000,
+          "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/coverage_cpu_v5_checkpoints/fr",
+          "allow_shortfall": true
+        }
+      },
+      "manifest_sha256": "1e34119d05026e964884df29e468bb4867681f367fbe39a41cf3744c90df9ebe",
+      "pairs": 2473,
+      "grammar": 961,
+      "spelling": 1512,
+      "splits": {
+        "train": 2098,
+        "validation": 196,
+        "test": 179
+      },
+      "selected_grammar_families": [
+        "adjective_gender",
+        "adjective_number",
+        "determiner_gender",
+        "determiner_number",
+        "governed_infinitive",
+        "perfect_verb_form",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "configured_grammar_families": [
+        "adjective_gender",
+        "adjective_number",
+        "determiner_gender",
+        "determiner_number",
+        "governed_infinitive",
+        "perfect_verb_form",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "missing_grammar_families": [],
+      "source_documents": 1000,
+      "independent_original_checker": true,
+      "observed_spelling_rules_selected": [],
+      "quality_status": "candidate_rule_and_dictionary_screened",
+      "native_validation": false
+    },
+    "it": {
+      "dataset": "/work/mimir/DaLA/la_output/european_pilots/coverage_cpu_v5/it",
+      "profile": {
+        "schema_version": 1,
+        "language": "it",
+        "name": "DaLA Italian pilot",
+        "mode": "pairs",
+        "parser": "stanza",
+        "parser_backend": "stanza",
+        "sources": {
+          "adapter": "canonical_jsonl"
+        },
+        "sources_config": "/work/mimir/DaLA/la_output/resources/european-expansion/targeted_sources_v5/it/sources.json",
+        "rulebook": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/it/rules.json.gz",
+        "exclusions": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_audited_v5/it/exclusions.json",
+        "resource_directory": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/it",
+        "adapter": "dala.language_packs.morphology:MorphologyPack",
+        "selection": {
+          "strategy": "hash_rotate_grammar_then_spelling",
+          "max_errors": 1,
+          "priority": [
+            "adjective_number",
+            "adjective_gender",
+            "determiner_number",
+            "determiner_gender",
+            "verb_number_agreement",
+            "verb_person_agreement",
+            "governed_infinitive",
+            "perfect_verb_form",
+            "spelling"
+          ],
+          "operator_priority": {
+            "observed_nonword": -1
+          },
+          "coverage_targets": [
+            "verb_number_agreement",
+            "verb_person_agreement"
+          ]
+        },
+        "checker": {
+          "mode": "morphology",
+          "workers": 8,
+          "source_languagetool": true
+        },
+        "prompts": {
+          "acceptability": "Is this sentence grammatically correct and correctly spelled in Italian? Reply only yes or no.",
+          "correction": "Correct grammatical and spelling errors in this Italian sentence. Return correct input unchanged. Preserve Italian, meaning and style. Return only the sentence."
+        },
+        "curation": {
+          "min_words": 7,
+          "max_words": 35,
+          "max_sentence_chars": 320,
+          "max_paragraph_chars": 6000,
+          "source_risk_patterns": [
+            "\\.\\.\\.|…",
+            "\\(\\s*\\)",
+            "\\.{2,}",
+            " {2,}",
+            "[^\\W\\d_]+\\d+"
+          ]
+        },
+        "description": "CPU expanded pilot, agent source exclusions and stricter extraction guards; independent source checker where supported. Candidate only, no native validation.",
+        "dependencies": [
+          "requests",
+          "spacy",
+          "spylls"
+        ],
+        "export_used_rule_mappings": true,
+        "release_policy": {
+          "status": "candidate_only",
+          "pilot_target_pairs": 1000,
+          "production_target_pairs": 478930,
+          "require_audit_per_family": true
+        },
+        "morphology_options": {
+          "source_nominal_pos": [
+            "ADJ",
+            "DET"
+          ],
+          "source_nominal_relations": [
+            "amod",
+            "det"
+          ],
+          "protect_capitalized_lemmas": true
+        },
+        "dictionary_case_variants": false,
+        "capitalized_corruption_pos": [],
+        "parser_settings": {
+          "directory": "/work/mimir/DaLA/la_output/resources/european/stanza",
+          "processors": {
+            "tokenize": "combined",
+            "mwt": "combined",
+            "lemma": "combined_nocharlm",
+            "pos": "combined_nocharlm",
+            "depparse": "combined_nocharlm"
+          },
+          "model_sha256": {
+            "it/depparse/combined_nocharlm.pt": "35927cc085b5d938b7f644040cfca4bf5dc4cbed2e8232423f4382e1a5c4489e",
+            "it/lemma/combined_nocharlm.pt": "7e84f636c7d29ce88c09eceb3f88bb5fa91e69766b460084ce1cd4e274a8d7d3",
+            "it/mwt/combined.pt": "ebef9e26270960707d46f937fd347a03039858d6811e94359bd216997da315f5",
+            "it/pos/combined_nocharlm.pt": "8c539864332ac4069b8a4b171a055cb3a1d20c8d26714eb34a95551bca450ca6",
+            "it/pretrain/conll17.pt": "51b6fd964a87048c9bc734256b84d38fd51877231b6f61125754c26588eeb5e9",
+            "it/tokenize/combined.pt": "83cb835a81eab5754cd27a183119cddf25fd6c532ad61576f9c1441d09e8ca7b"
+          },
+          "stanza_version": "1.11.0",
+          "language": "it"
+        },
+        "parser_threads": 1,
+        "parser_expand_mwt": true,
+        "parser_skip_unalignable_sentences": true,
+        "personal_pronoun_features": {
+          "io": {
+            "Number": "Sing",
+            "Person": "1"
+          },
+          "tu": {
+            "Number": "Sing",
+            "Person": "2"
+          },
+          "lui": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "lei": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "noi": {
+            "Number": "Plur",
+            "Person": "1"
+          },
+          "voi": {
+            "Number": "Plur",
+            "Person": "2"
+          },
+          "loro": {
+            "Number": "Plur",
+            "Person": "3"
+          }
+        },
+        "personal_pronoun_by_dependency": true,
+        "build": {
+          "parser_processes": 8,
+          "document_batch_size": 10,
+          "max_task_chars": 30000,
+          "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/coverage_cpu_v5_checkpoints/it",
+          "allow_shortfall": true
+        }
+      },
+      "manifest_sha256": "9e02a48bc5c7031d71ee020878172fc9eca9ab44647c82954d129143764017a4",
+      "pairs": 591,
+      "grammar": 393,
+      "spelling": 198,
+      "splits": {
+        "train": 469,
+        "validation": 70,
+        "test": 52
+      },
+      "selected_grammar_families": [
+        "adjective_gender",
+        "adjective_number",
+        "determiner_gender",
+        "determiner_number",
+        "governed_infinitive",
+        "perfect_verb_form",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "configured_grammar_families": [
+        "adjective_gender",
+        "adjective_number",
+        "determiner_gender",
+        "determiner_number",
+        "governed_infinitive",
+        "perfect_verb_form",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "missing_grammar_families": [],
+      "source_documents": 1000,
+      "independent_original_checker": true,
+      "observed_spelling_rules_selected": [],
+      "quality_status": "candidate_rule_and_dictionary_screened",
+      "native_validation": false
+    },
+    "et": {
+      "dataset": "/work/mimir/DaLA/la_output/european_pilots/coverage_final_v8/et",
+      "profile": {
+        "schema_version": 1,
+        "language": "et",
+        "name": "DaLA Estonian pilot",
+        "mode": "pairs",
+        "parser": "stanza",
+        "parser_backend": "stanza",
+        "sources": {
+          "adapter": "canonical_jsonl"
+        },
+        "sources_config": "/work/mimir/DaLA/la_output/resources/european-expansion/targeted_sources_v5/et/sources.json",
+        "rulebook": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/et/rules.json.gz",
+        "exclusions": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_audited_v5/et/exclusions.json",
+        "resource_directory": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/et",
+        "adapter": "dala.language_packs.morphology:MorphologyPack",
+        "selection": {
+          "strategy": "hash_rotate_grammar_then_spelling",
+          "max_errors": 1,
+          "priority": [
+            "adjective_number",
+            "adjective_case",
+            "determiner_number",
+            "determiner_case",
+            "verb_number_agreement",
+            "verb_person_agreement",
+            "spelling"
+          ],
+          "operator_priority": {
+            "observed_nonword": -1
+          },
+          "coverage_targets": []
+        },
+        "checker": {
+          "mode": "morphology",
+          "workers": 8,
+          "source_languagetool": false
+        },
+        "prompts": {
+          "acceptability": "Is this sentence grammatically correct and correctly spelled in Estonian? Reply only yes or no.",
+          "correction": "Correct grammatical and spelling errors in this Estonian sentence. Return correct input unchanged. Preserve Estonian, meaning and style. Return only the sentence."
+        },
+        "curation": {
+          "min_words": 7,
+          "max_words": 35,
+          "max_sentence_chars": 320,
+          "max_paragraph_chars": 6000,
+          "source_risk_patterns": [
+            "\\.\\.\\.|…",
+            "\\(\\s*\\)",
+            "\\.{2,}",
+            " {2,}",
+            "[^\\W\\d_]+\\d+"
+          ]
+        },
+        "description": "CPU expanded pilot, agent source exclusions and stricter extraction guards; independent source checker where supported. Candidate only, no native validation.",
+        "dependencies": [
+          "requests",
+          "spacy",
+          "spylls"
+        ],
+        "export_used_rule_mappings": true,
+        "release_policy": {
+          "status": "candidate_only",
+          "pilot_target_pairs": 1000,
+          "production_target_pairs": 478930,
+          "require_audit_per_family": true
+        },
+        "morphology_options": {
+          "source_nominal_pos": [
+            "ADJ",
+            "DET"
+          ],
+          "source_nominal_relations": [
+            "amod",
+            "det"
+          ],
+          "protect_capitalized_lemmas": true
+        },
+        "dictionary_case_variants": false,
+        "capitalized_corruption_pos": [],
+        "parser_settings": {
+          "directory": "/work/mimir/DaLA/la_output/resources/european/stanza",
+          "processors": {
+            "tokenize": "edt",
+            "mwt": "edt",
+            "lemma": "edt_nocharlm",
+            "pos": "edt_nocharlm",
+            "depparse": "edt_nocharlm"
+          },
+          "model_sha256": {
+            "et/depparse/edt_nocharlm.pt": "a7028a622e0dc9cbc6f7db2874e3ec99a2d15ca0c1fea2b30a1192c864d0cda5",
+            "et/lemma/edt_nocharlm.pt": "55084c480c2770cb24b23748d5ebaf797cb2dde56f8dd158e89cb81de4ff6ec3",
+            "et/mwt/edt.pt": "92fe6952376647148c12b3265b02081aa19fe29f8449497513abbf8ec372a0f6",
+            "et/pos/edt_nocharlm.pt": "52da7d63af0887a5d23d6cabf59a4781a96205df7f422264013cb6d22a5b536f",
+            "et/pretrain/conll17.pt": "03a316113f23480d516122efe09cd0b4aed26a4c0d9df3fe3819bdcc5e2febc6",
+            "et/tokenize/edt.pt": "236284177218e2f56e95ffe34aa738f3f4832b93b1671407fa802e7c8d096e8f"
+          },
+          "stanza_version": "1.11.0",
+          "language": "et"
+        },
+        "parser_threads": 1,
+        "parser_expand_mwt": true,
+        "parser_skip_unalignable_sentences": true,
+        "personal_pronoun_features": {
+          "mina": {
+            "Number": "Sing",
+            "Person": "1"
+          },
+          "ma": {
+            "Number": "Sing",
+            "Person": "1"
+          },
+          "sina": {
+            "Number": "Sing",
+            "Person": "2"
+          },
+          "sa": {
+            "Number": "Sing",
+            "Person": "2"
+          },
+          "tema": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "ta": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "meie": {
+            "Number": "Plur",
+            "Person": "1"
+          },
+          "me": {
+            "Number": "Plur",
+            "Person": "1"
+          },
+          "teie": {
+            "Number": "Plur",
+            "Person": "2"
+          },
+          "te": {
+            "Number": "Plur",
+            "Person": "2"
+          },
+          "nemad": {
+            "Number": "Plur",
+            "Person": "3"
+          },
+          "nad": {
+            "Number": "Plur",
+            "Person": "3"
+          }
+        },
+        "personal_pronoun_by_dependency": true,
+        "build": {
+          "parser_processes": 8,
+          "document_batch_size": 10,
+          "max_task_chars": 30000,
+          "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/coverage_cpu_v5_checkpoints/et",
+          "allow_shortfall": true
+        }
+      },
+      "manifest_sha256": "07e3b4eed4e711d759b883ea10316219adbb930af78834a90c7bcb9480e4bd65",
+      "pairs": 4306,
+      "grammar": 976,
+      "spelling": 3330,
+      "splits": {
+        "train": 3357,
+        "validation": 432,
+        "test": 517
+      },
+      "selected_grammar_families": [
+        "adjective_case",
+        "adjective_number",
+        "determiner_case",
+        "determiner_number",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "configured_grammar_families": [
+        "adjective_case",
+        "adjective_number",
+        "determiner_case",
+        "determiner_number",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "missing_grammar_families": [],
+      "source_documents": 1000,
+      "independent_original_checker": false,
+      "observed_spelling_rules_selected": [],
+      "quality_status": "candidate_rule_and_dictionary_screened",
+      "native_validation": false
+    },
+    "ro": {
+      "dataset": "/work/mimir/DaLA/la_output/european_pilots/coverage_final_v8/ro",
+      "profile": {
+        "schema_version": 1,
+        "language": "ro",
+        "name": "DaLA Romanian pilot",
+        "mode": "pairs",
+        "parser": "stanza",
+        "parser_backend": "stanza",
+        "sources": {
+          "adapter": "canonical_jsonl"
+        },
+        "sources_config": "/work/mimir/DaLA/la_output/resources/european-expansion/targeted_sources_v5/ro/sources.json",
+        "rulebook": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/ro/rules.json.gz",
+        "exclusions": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_audited_v5/ro/exclusions.json",
+        "resource_directory": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/ro",
+        "adapter": "dala.language_packs.morphology:MorphologyPack",
+        "selection": {
+          "strategy": "hash_rotate_grammar_then_spelling",
+          "max_errors": 1,
+          "priority": [
+            "adjective_number",
+            "adjective_gender",
+            "adjective_case",
+            "determiner_number",
+            "determiner_gender",
+            "determiner_case",
+            "verb_number_agreement",
+            "verb_person_agreement",
+            "spelling"
+          ],
+          "operator_priority": {
+            "observed_nonword": -1
+          },
+          "coverage_targets": [
+            "adjective_case",
+            "determiner_case",
+            "verb_number_agreement"
+          ]
+        },
+        "checker": {
+          "mode": "morphology",
+          "workers": 8,
+          "source_languagetool": true
+        },
+        "prompts": {
+          "acceptability": "Is this sentence grammatically correct and correctly spelled in Romanian? Reply only yes or no.",
+          "correction": "Correct grammatical and spelling errors in this Romanian sentence. Return correct input unchanged. Preserve Romanian, meaning and style. Return only the sentence."
+        },
+        "curation": {
+          "min_words": 7,
+          "max_words": 35,
+          "max_sentence_chars": 320,
+          "max_paragraph_chars": 6000,
+          "source_risk_patterns": [
+            "\\.\\.\\.|…",
+            "^[A-ZÀ-ÖØ-ÞĂÂÎȘȚ]{2,}(?:\\s+[A-ZÀ-ÖØ-ÞĂÂÎȘȚ]{2,}){2,}\\b",
+            "\\(\\s*\\)",
+            "\\.{2,}",
+            " {2,}",
+            "[^\\W\\d_]+\\d+"
+          ]
+        },
+        "description": "CPU expanded pilot, agent source exclusions and stricter extraction guards; independent source checker where supported. Candidate only, no native validation.",
+        "dependencies": [
+          "requests",
+          "spacy",
+          "spylls"
+        ],
+        "export_used_rule_mappings": true,
+        "release_policy": {
+          "status": "candidate_only",
+          "pilot_target_pairs": 1000,
+          "production_target_pairs": 478930,
+          "require_audit_per_family": true
+        },
+        "morphology_options": {
+          "source_nominal_pos": [
+            "ADJ",
+            "DET"
+          ],
+          "source_nominal_relations": [
+            "amod",
+            "det"
+          ],
+          "protect_capitalized_lemmas": true
+        },
+        "dictionary_case_variants": false,
+        "capitalized_corruption_pos": [],
+        "parser_settings": {
+          "directory": "/work/mimir/DaLA/la_output/resources/european/stanza",
+          "processors": {
+            "tokenize": "rrt",
+            "lemma": "rrt_nocharlm",
+            "pos": "rrt_nocharlm",
+            "depparse": "rrt_nocharlm"
+          },
+          "model_sha256": {
+            "ro/depparse/rrt_nocharlm.pt": "181a4e0aade675be6f17c088b0ef02ed8e7121a9cfe387695be7535c6151ea4c",
+            "ro/lemma/rrt_nocharlm.pt": "f6953dd64a2011f42a69d38318e19338bc8bcb7f3bd0eee26a3adcd0c7857633",
+            "ro/pos/rrt_nocharlm.pt": "0596ebaa95fc6d0fbd9bc31079da1d69dad7ca3299eeea5da7b0c0a909a02fa1",
+            "ro/pretrain/conll17.pt": "72624ff6a5ff8e120ac22c06903ed2816d6a9d57dc738561af729eba9ecfcb7a",
+            "ro/tokenize/rrt.pt": "951d9ba64d85b4186e40f9bc7d8c1ee1680f8b6340ff45c6e7c00c69a576344f"
+          },
+          "stanza_version": "1.11.0",
+          "language": "ro"
+        },
+        "parser_threads": 1,
+        "parser_expand_mwt": true,
+        "parser_skip_unalignable_sentences": true,
+        "personal_pronoun_features": {
+          "eu": {
+            "Number": "Sing",
+            "Person": "1"
+          },
+          "tu": {
+            "Number": "Sing",
+            "Person": "2"
+          },
+          "el": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "ea": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "noi": {
+            "Number": "Plur",
+            "Person": "1"
+          },
+          "voi": {
+            "Number": "Plur",
+            "Person": "2"
+          },
+          "ei": {
+            "Number": "Plur",
+            "Person": "3"
+          },
+          "ele": {
+            "Number": "Plur",
+            "Person": "3"
+          }
+        },
+        "personal_pronoun_by_dependency": true,
+        "build": {
+          "parser_processes": 8,
+          "document_batch_size": 10,
+          "max_task_chars": 30000,
+          "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/coverage_cpu_v5_checkpoints/ro",
+          "allow_shortfall": true
+        }
+      },
+      "manifest_sha256": "a0c38f9b8da7a1fbd4ea933b38ec9d0074d160856a14539aaf256242c7281b4e",
+      "pairs": 1203,
+      "grammar": 406,
+      "spelling": 797,
+      "splits": {
+        "train": 935,
+        "validation": 113,
+        "test": 155
+      },
+      "selected_grammar_families": [
+        "adjective_case",
+        "adjective_gender",
+        "adjective_number",
+        "determiner_case",
+        "determiner_gender",
+        "determiner_number",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "configured_grammar_families": [
+        "adjective_case",
+        "adjective_gender",
+        "adjective_number",
+        "determiner_case",
+        "determiner_gender",
+        "determiner_number",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "missing_grammar_families": [],
+      "source_documents": 1000,
+      "independent_original_checker": true,
+      "observed_spelling_rules_selected": [],
+      "quality_status": "candidate_rule_and_dictionary_screened",
+      "native_validation": false
+    },
+    "uk": {
+      "dataset": "/work/mimir/DaLA/la_output/european_pilots/coverage_final_v8/uk",
+      "profile": {
+        "schema_version": 1,
+        "language": "uk",
+        "name": "DaLA Ukrainian pilot",
+        "mode": "pairs",
+        "parser": "stanza",
+        "parser_backend": "stanza",
+        "sources": {
+          "adapter": "canonical_jsonl"
+        },
+        "sources_config": "/work/mimir/DaLA/la_output/resources/european-expansion/targeted_sources_v5/uk/sources.json",
+        "rulebook": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/uk/rules.json.gz",
+        "exclusions": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_audited_v5/uk/exclusions.json",
+        "resource_directory": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/uk",
+        "adapter": "dala.language_packs.morphology:MorphologyPack",
+        "selection": {
+          "strategy": "hash_rotate_grammar_then_spelling",
+          "max_errors": 1,
+          "priority": [
+            "adjective_number",
+            "adjective_gender",
+            "adjective_case",
+            "determiner_number",
+            "determiner_gender",
+            "determiner_case",
+            "verb_number_agreement",
+            "verb_person_agreement",
+            "preposition_case",
+            "spelling"
+          ],
+          "operator_priority": {
+            "observed_nonword": -1
+          },
+          "coverage_targets": [
+            "adjective_number",
+            "determiner_number",
+            "verb_person_agreement"
+          ]
+        },
+        "checker": {
+          "mode": "morphology",
+          "workers": 8,
+          "source_languagetool": true
+        },
+        "prompts": {
+          "acceptability": "Is this sentence grammatically correct and correctly spelled in Ukrainian? Reply only yes or no.",
+          "correction": "Correct grammatical and spelling errors in this Ukrainian sentence. Return correct input unchanged. Preserve Ukrainian, meaning and style. Return only the sentence."
+        },
+        "curation": {
+          "min_words": 7,
+          "max_words": 35,
+          "max_sentence_chars": 320,
+          "max_paragraph_chars": 6000,
+          "source_risk_patterns": [
+            "\\.\\.\\.|…",
+            "\\(\\s*\\)",
+            "\\.{2,}",
+            " {2,}",
+            "[^\\W\\d_]+\\d+"
+          ]
+        },
+        "description": "CPU expanded pilot, agent source exclusions and stricter extraction guards; independent source checker where supported. Candidate only, no native validation.",
+        "dependencies": [
+          "requests",
+          "spacy",
+          "spylls"
+        ],
+        "export_used_rule_mappings": true,
+        "release_policy": {
+          "status": "candidate_only",
+          "pilot_target_pairs": 1000,
+          "production_target_pairs": 478930,
+          "require_audit_per_family": true
+        },
+        "morphology_options": {
+          "source_nominal_pos": [
+            "ADJ",
+            "DET"
+          ],
+          "source_nominal_relations": [
+            "amod",
+            "det"
+          ],
+          "protect_capitalized_lemmas": true
+        },
+        "dictionary_case_variants": false,
+        "capitalized_corruption_pos": [],
+        "parser_settings": {
+          "directory": "/work/mimir/DaLA/la_output/resources/european/stanza",
+          "processors": {
+            "tokenize": "iu",
+            "mwt": "iu",
+            "lemma": "iu_nocharlm",
+            "pos": "iu_nocharlm",
+            "depparse": "iu_nocharlm"
+          },
+          "model_sha256": {
+            "uk/depparse/iu_nocharlm.pt": "e239c5f0d10c599cbb9feb5a7cc059e099261bc34067630870953ec7355b2572",
+            "uk/lemma/iu_nocharlm.pt": "a71f3cdf5b30c64c9c1d91b3fe3abb2c4534e6c7338491797bf09abf2071fa9e",
+            "uk/mwt/iu.pt": "86d2b0ad128cd436814ca6eb260d86266872d6e3da3d332cee289ec523b463e1",
+            "uk/pos/iu_nocharlm.pt": "aece6cf4a91708db80d81d3cb46f5125290d3d4604981721b9363c7244c0801a",
+            "uk/pretrain/conll17.pt": "ca01ac6fa0b372b86cfc2efbd0e444602fcce622cab4a7b24f9ff1f4753b9295",
+            "uk/tokenize/iu.pt": "256cbbe38d8a7d6f2fd44ae52bb2e589c41ea302fb67080e94c1bc3522d103ad"
+          },
+          "stanza_version": "1.11.0",
+          "language": "uk"
+        },
+        "parser_threads": 1,
+        "parser_expand_mwt": true,
+        "parser_skip_unalignable_sentences": true,
+        "personal_pronoun_features": {
+          "я": {
+            "Number": "Sing",
+            "Person": "1"
+          },
+          "ти": {
+            "Number": "Sing",
+            "Person": "2"
+          },
+          "він": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "вона": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "воно": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "ми": {
+            "Number": "Plur",
+            "Person": "1"
+          },
+          "ви": {
+            "Number": "Plur",
+            "Person": "2"
+          },
+          "вони": {
+            "Number": "Plur",
+            "Person": "3"
+          }
+        },
+        "personal_pronoun_by_dependency": true,
+        "build": {
+          "parser_processes": 8,
+          "document_batch_size": 10,
+          "max_task_chars": 30000,
+          "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/coverage_cpu_v5_checkpoints/uk",
+          "allow_shortfall": true
+        }
+      },
+      "manifest_sha256": "ccc27e9158e178f5bc2290472f6c3dcbc47f77aa07077fa199e17caa61b73407",
+      "pairs": 2697,
+      "grammar": 690,
+      "spelling": 2007,
+      "splits": {
+        "train": 2120,
+        "validation": 227,
+        "test": 350
+      },
+      "selected_grammar_families": [
+        "adjective_case",
+        "adjective_gender",
+        "adjective_number",
+        "determiner_case",
+        "determiner_gender",
+        "determiner_number",
+        "preposition_case",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "configured_grammar_families": [
+        "adjective_case",
+        "adjective_gender",
+        "adjective_number",
+        "determiner_case",
+        "determiner_gender",
+        "determiner_number",
+        "preposition_case",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "missing_grammar_families": [],
+      "source_documents": 1000,
+      "independent_original_checker": true,
+      "observed_spelling_rules_selected": [
+        "uk_observed_spelling_001"
+      ],
+      "quality_status": "candidate_rule_and_dictionary_screened",
+      "native_validation": false
+    },
+    "fi": {
+      "dataset": "/work/mimir/DaLA/la_output/european_pilots/coverage_final_v8/fi",
+      "profile": {
+        "schema_version": 1,
+        "language": "fi",
+        "name": "DaLA Finnish pilot",
+        "mode": "pairs",
+        "parser": "stanza",
+        "parser_backend": "stanza",
+        "sources": {
+          "adapter": "canonical_jsonl"
+        },
+        "sources_config": "/work/mimir/DaLA/la_output/resources/european-expansion/targeted_sources_v5/fi/sources.json",
+        "rulebook": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/fi/rules.json.gz",
+        "exclusions": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_audited_v5/fi/exclusions.json",
+        "resource_directory": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/fi",
+        "adapter": "dala.language_packs.morphology:MorphologyPack",
+        "selection": {
+          "strategy": "hash_rotate_grammar_then_spelling",
+          "max_errors": 1,
+          "priority": [
+            "adjective_number",
+            "adjective_case",
+            "determiner_number",
+            "determiner_case",
+            "verb_number_agreement",
+            "verb_person_agreement",
+            "spelling"
+          ],
+          "operator_priority": {
+            "observed_nonword": -1
+          },
+          "coverage_targets": [
+            "determiner_number",
+            "determiner_case"
+          ]
+        },
+        "checker": {
+          "mode": "morphology",
+          "workers": 8,
+          "source_languagetool": false
+        },
+        "prompts": {
+          "acceptability": "Is this sentence grammatically correct and correctly spelled in Finnish? Reply only yes or no.",
+          "correction": "Correct grammatical and spelling errors in this Finnish sentence. Return correct input unchanged. Preserve Finnish, meaning and style. Return only the sentence."
+        },
+        "curation": {
+          "min_words": 7,
+          "max_words": 35,
+          "max_sentence_chars": 320,
+          "max_paragraph_chars": 6000,
+          "source_risk_patterns": [
+            "\\.\\.\\.|…",
+            "\\(\\s*\\)",
+            "\\.{2,}",
+            " {2,}",
+            "[^\\W\\d_]+\\d+"
+          ]
+        },
+        "description": "CPU expanded pilot, agent source exclusions and stricter extraction guards; independent source checker where supported. Candidate only, no native validation.",
+        "dependencies": [
+          "requests",
+          "spacy",
+          "spylls"
+        ],
+        "export_used_rule_mappings": true,
+        "release_policy": {
+          "status": "candidate_only",
+          "pilot_target_pairs": 1000,
+          "production_target_pairs": 478930,
+          "require_audit_per_family": true
+        },
+        "morphology_options": {
+          "source_nominal_pos": [
+            "ADJ",
+            "DET"
+          ],
+          "source_nominal_relations": [
+            "amod",
+            "det"
+          ],
+          "protect_capitalized_lemmas": true
+        },
+        "dictionary_case_variants": false,
+        "capitalized_corruption_pos": [],
+        "lexical_backend": {
+          "backend": "voikko",
+          "language": "fi",
+          "python_binding": "voikko/root/usr/lib/python3/dist-packages/libvoikko.py",
+          "library_directory": "voikko/root/usr/lib/x86_64-linux-gnu",
+          "dictionary_directory": "voikko/root/usr/lib/voikko",
+          "preload_libraries": [
+            "voikko/root/usr/lib/x86_64-linux-gnu/libhfstospell.so.11"
+          ]
+        },
+        "parser_settings": {
+          "directory": "/work/mimir/DaLA/la_output/resources/european/stanza",
+          "processors": {
+            "tokenize": "tdt",
+            "mwt": "tdt",
+            "lemma": "tdt_nocharlm",
+            "pos": "tdt_nocharlm",
+            "depparse": "tdt_nocharlm"
+          },
+          "model_sha256": {
+            "fi/depparse/tdt_nocharlm.pt": "af42bb1de13ca7599f96e16af0f50e696f7b993b61fba1ace1d98a186570ce3e",
+            "fi/lemma/tdt_nocharlm.pt": "39cbb9554eff9ecb97d1f35d061f9d322269f1e065b1a15d87399ecf91ade9c5",
+            "fi/mwt/tdt.pt": "85cc654e013e033029c9d78238a40f7a6658fb39606d165f57fb90938c45eb99",
+            "fi/pos/tdt_nocharlm.pt": "497f8b9e6221033852ac1a681aa198e902317940b6d7abb2f09957d1c584d647",
+            "fi/pretrain/conll17.pt": "4123c5da3107ea7cf6caec3e253c0ef70802230b2da99a552665189eeb913c07",
+            "fi/tokenize/tdt.pt": "bdb09b4eae6746a9162c479e3da35a8254121c91004881b0deb4ac600e6c56ad"
+          },
+          "stanza_version": "1.11.0",
+          "language": "fi"
+        },
+        "parser_threads": 1,
+        "parser_expand_mwt": true,
+        "parser_skip_unalignable_sentences": true,
+        "personal_pronoun_features": {
+          "minä": {
+            "Number": "Sing",
+            "Person": "1"
+          },
+          "sinä": {
+            "Number": "Sing",
+            "Person": "2"
+          },
+          "hän": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "me": {
+            "Number": "Plur",
+            "Person": "1"
+          },
+          "te": {
+            "Number": "Plur",
+            "Person": "2"
+          },
+          "he": {
+            "Number": "Plur",
+            "Person": "3"
+          }
+        },
+        "personal_pronoun_by_dependency": true,
+        "build": {
+          "parser_processes": 8,
+          "document_batch_size": 10,
+          "max_task_chars": 30000,
+          "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/coverage_cpu_v6_checkpoints/fi",
+          "allow_shortfall": true
+        }
+      },
+      "manifest_sha256": "f3d034b9462efc53b3693c089d5767d157696a4b671fd1cf113cc179c13e6a9d",
+      "pairs": 6762,
+      "grammar": 1396,
+      "spelling": 5366,
+      "splits": {
+        "train": 5425,
+        "validation": 660,
+        "test": 677
+      },
+      "selected_grammar_families": [
+        "adjective_case",
+        "adjective_number",
+        "determiner_case",
+        "determiner_number",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "configured_grammar_families": [
+        "adjective_case",
+        "adjective_number",
+        "determiner_case",
+        "determiner_number",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "missing_grammar_families": [],
+      "source_documents": 1000,
+      "independent_original_checker": false,
+      "observed_spelling_rules_selected": [],
+      "quality_status": "candidate_rule_and_dictionary_screened",
+      "native_validation": false
+    },
+    "pt-PT": {
+      "dataset": "/work/mimir/DaLA/la_output/european_pilots/coverage_cpu_v6/pt-PT",
+      "profile": {
+        "schema_version": 1,
+        "language": "pt-PT",
+        "name": "DaLA European Portuguese pilot",
+        "mode": "pairs",
+        "parser": "stanza",
+        "parser_backend": "stanza",
+        "sources": {
+          "adapter": "canonical_jsonl"
+        },
+        "sources_config": "/work/mimir/DaLA/la_output/resources/european-expansion/targeted_gap_sources_v6/pt-PT/sources.json",
+        "rulebook": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/pt-PT/rules.json.gz",
+        "exclusions": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_audited_v5/pt-PT/exclusions.json",
+        "resource_directory": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/pt-PT",
+        "adapter": "dala.language_packs.morphology:MorphologyPack",
+        "selection": {
+          "strategy": "hash_rotate_grammar_then_spelling",
+          "max_errors": 1,
+          "priority": [
+            "adjective_number",
+            "adjective_gender",
+            "determiner_number",
+            "determiner_gender",
+            "verb_number_agreement",
+            "verb_person_agreement",
+            "governed_infinitive",
+            "perfect_verb_form",
+            "spelling"
+          ],
+          "operator_priority": {
+            "observed_nonword": -1
+          },
+          "coverage_targets": [
+            "adjective_gender",
+            "verb_person_agreement"
+          ]
+        },
+        "checker": {
+          "mode": "morphology",
+          "workers": 8,
+          "source_languagetool": true
+        },
+        "prompts": {
+          "acceptability": "Is this sentence grammatically correct and correctly spelled in European Portuguese? Reply only yes or no.",
+          "correction": "Correct grammatical and spelling errors in this European Portuguese sentence. Return correct input unchanged. Preserve European Portuguese, meaning and style. Return only the sentence."
+        },
+        "curation": {
+          "min_words": 7,
+          "max_words": 35,
+          "max_sentence_chars": 320,
+          "max_paragraph_chars": 6000,
+          "source_risk_patterns": [
+            "\\.\\.\\.|…",
+            "\\(\\s*\\)",
+            "\\.{2,}",
+            " {2,}",
+            "[^\\W\\d_]+\\d+"
+          ]
+        },
+        "description": "CPU expanded pilot, agent source exclusions and stricter extraction guards; independent source checker where supported. Candidate only, no native validation.",
+        "dependencies": [
+          "requests",
+          "spacy",
+          "spylls"
+        ],
+        "export_used_rule_mappings": true,
+        "release_policy": {
+          "status": "candidate_only",
+          "pilot_target_pairs": 1000,
+          "production_target_pairs": 478930,
+          "require_audit_per_family": true
+        },
+        "morphology_options": {
+          "source_nominal_pos": [
+            "ADJ",
+            "DET"
+          ],
+          "source_nominal_relations": [
+            "amod",
+            "det"
+          ],
+          "protect_capitalized_lemmas": true
+        },
+        "dictionary_case_variants": false,
+        "capitalized_corruption_pos": [],
+        "parser_settings": {
+          "directory": "/work/mimir/DaLA/la_output/resources/european/stanza",
+          "processors": {
+            "tokenize": "bosque",
+            "mwt": "bosque",
+            "lemma": "bosque_nocharlm",
+            "pos": "bosque_nocharlm",
+            "depparse": "bosque_nocharlm"
+          },
+          "model_sha256": {
+            "pt/depparse/bosque_nocharlm.pt": "50042bb70d77fc6520f4af90595419266da5542a6e126af326f1248010f4e2e3",
+            "pt/lemma/bosque_nocharlm.pt": "2df40bae797d1f2d6e55091623725a3049f0cb7e9cd858dd73c1ad6bd39126cf",
+            "pt/mwt/bosque.pt": "824a4c385cbdfcaf9c0b7fc9060cdd6af77305aef0d2549f5fe4ad9911c0ccbf",
+            "pt/pos/bosque_nocharlm.pt": "0f95afb8d32f56d34878d8daaa7351e877f22ebff6f9f8437ebb5c6345b62e13",
+            "pt/pretrain/conll17.pt": "7f501defabdded872ba435d354172923bdb073cbd9403f4ebc12ce821527a830",
+            "pt/tokenize/bosque.pt": "e26e2af825ba973f46273c2ef7d0e4f4a5a02288a4d3598e7e45b11e0d1324e8"
+          },
+          "stanza_version": "1.11.0",
+          "language": "pt"
+        },
+        "parser_threads": 1,
+        "parser_expand_mwt": true,
+        "parser_skip_unalignable_sentences": true,
+        "personal_pronoun_features": {
+          "eu": {
+            "Number": "Sing",
+            "Person": "1"
+          },
+          "tu": {
+            "Number": "Sing",
+            "Person": "2"
+          },
+          "ele": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "ela": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "nós": {
+            "Number": "Plur",
+            "Person": "1"
+          },
+          "vós": {
+            "Number": "Plur",
+            "Person": "2"
+          },
+          "eles": {
+            "Number": "Plur",
+            "Person": "3"
+          },
+          "elas": {
+            "Number": "Plur",
+            "Person": "3"
+          }
+        },
+        "personal_pronoun_by_dependency": true,
+        "build": {
+          "parser_processes": 8,
+          "document_batch_size": 10,
+          "max_task_chars": 30000,
+          "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/coverage_cpu_v6_checkpoints/pt-PT",
+          "allow_shortfall": true
+        }
+      },
+      "manifest_sha256": "1ebf8a05cd608fa9fc4f912d1170cf0c5aa27771ace9ee9a2e84c88da1d061a7",
+      "pairs": 801,
+      "grammar": 489,
+      "spelling": 312,
+      "splits": {
+        "train": 700,
+        "validation": 47,
+        "test": 54
+      },
+      "selected_grammar_families": [
+        "adjective_gender",
+        "adjective_number",
+        "determiner_gender",
+        "determiner_number",
+        "governed_infinitive",
+        "perfect_verb_form",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "configured_grammar_families": [
+        "adjective_gender",
+        "adjective_number",
+        "determiner_gender",
+        "determiner_number",
+        "governed_infinitive",
+        "perfect_verb_form",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "missing_grammar_families": [],
+      "source_documents": 262,
+      "independent_original_checker": true,
+      "observed_spelling_rules_selected": [],
+      "quality_status": "candidate_rule_and_dictionary_screened",
+      "native_validation": false
+    },
+    "es": {
+      "dataset": "/work/mimir/DaLA/la_output/european_pilots/coverage_final_v8/es",
+      "profile": {
+        "schema_version": 1,
+        "language": "es",
+        "name": "DaLA Spanish pilot",
+        "mode": "pairs",
+        "parser": "stanza",
+        "parser_backend": "stanza",
+        "sources": {
+          "adapter": "canonical_jsonl"
+        },
+        "sources_config": "/work/mimir/DaLA/la_output/resources/european-expansion/targeted_gap_sources_v6/es/sources.json",
+        "rulebook": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/es/rules.json.gz",
+        "exclusions": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_audited_v5/es/exclusions.json",
+        "resource_directory": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/es",
+        "adapter": "dala.language_packs.morphology:MorphologyPack",
+        "selection": {
+          "strategy": "hash_rotate_grammar_then_spelling",
+          "max_errors": 1,
+          "priority": [
+            "adjective_number",
+            "adjective_gender",
+            "determiner_number",
+            "determiner_gender",
+            "verb_number_agreement",
+            "verb_person_agreement",
+            "governed_infinitive",
+            "perfect_verb_form",
+            "spelling"
+          ],
+          "operator_priority": {
+            "observed_nonword": -1
+          },
+          "coverage_targets": [
+            "verb_person_agreement"
+          ]
+        },
+        "checker": {
+          "mode": "morphology",
+          "workers": 8,
+          "source_languagetool": true
+        },
+        "prompts": {
+          "acceptability": "Is this sentence grammatically correct and correctly spelled in Spanish? Reply only yes or no.",
+          "correction": "Correct grammatical and spelling errors in this Spanish sentence. Return correct input unchanged. Preserve Spanish, meaning and style. Return only the sentence."
+        },
+        "curation": {
+          "min_words": 7,
+          "max_words": 35,
+          "max_sentence_chars": 320,
+          "max_paragraph_chars": 6000,
+          "source_risk_patterns": [
+            "\\.\\.\\.|…",
+            "\\(\\s*\\)",
+            "\\.{2,}",
+            " {2,}",
+            "[^\\W\\d_]+\\d+"
+          ]
+        },
+        "description": "CPU expanded pilot, agent source exclusions and stricter extraction guards; independent source checker where supported. Candidate only, no native validation.",
+        "dependencies": [
+          "requests",
+          "spacy",
+          "spylls"
+        ],
+        "export_used_rule_mappings": true,
+        "release_policy": {
+          "status": "candidate_only",
+          "pilot_target_pairs": 1000,
+          "production_target_pairs": 478930,
+          "require_audit_per_family": true
+        },
+        "morphology_options": {
+          "source_nominal_pos": [
+            "ADJ",
+            "DET"
+          ],
+          "source_nominal_relations": [
+            "amod",
+            "det"
+          ],
+          "protect_capitalized_lemmas": true
+        },
+        "dictionary_case_variants": false,
+        "capitalized_corruption_pos": [],
+        "parser_settings": {
+          "directory": "/work/mimir/DaLA/la_output/resources/european/stanza",
+          "processors": {
+            "tokenize": "combined",
+            "mwt": "combined",
+            "lemma": "combined_nocharlm",
+            "pos": "combined_nocharlm",
+            "depparse": "combined_nocharlm"
+          },
+          "model_sha256": {
+            "es/depparse/combined_nocharlm.pt": "7f163fa6dca61d21256c3a65a584b031bb234d0cf8343e28ec962553cbf3f0f0",
+            "es/lemma/combined_nocharlm.pt": "88a49c5acefc260b1934c5a9bdbe94e5b38bac287a8247b5f55715dc2a1ee300",
+            "es/mwt/combined.pt": "3e930b89ba7e2d17d894658edffff7a513e76ac32a2f04bd83e12d8a2e4e070c",
+            "es/pos/combined_nocharlm.pt": "c36d4bb92c349880976a2f49ec3cc86188a06f18a5c013623d22cee2e3132dcd",
+            "es/pretrain/conll17.pt": "d0c4fbb5a061f5fcca8855efbae04358313a1f00526e1a744986f5180c80846b",
+            "es/tokenize/combined.pt": "39343c9c4d4d9c6533ced1201d172e4ce47d3f757ee4f7f0bb248d54e484d6ba"
+          },
+          "stanza_version": "1.11.0",
+          "language": "es"
+        },
+        "parser_threads": 1,
+        "parser_expand_mwt": true,
+        "parser_skip_unalignable_sentences": true,
+        "personal_pronoun_features": {
+          "yo": {
+            "Number": "Sing",
+            "Person": "1"
+          },
+          "tú": {
+            "Number": "Sing",
+            "Person": "2"
+          },
+          "él": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "ella": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "nosotros": {
+            "Number": "Plur",
+            "Person": "1"
+          },
+          "nosotras": {
+            "Number": "Plur",
+            "Person": "1"
+          },
+          "vosotros": {
+            "Number": "Plur",
+            "Person": "2"
+          },
+          "vosotras": {
+            "Number": "Plur",
+            "Person": "2"
+          },
+          "ellos": {
+            "Number": "Plur",
+            "Person": "3"
+          },
+          "ellas": {
+            "Number": "Plur",
+            "Person": "3"
+          }
+        },
+        "personal_pronoun_by_dependency": true,
+        "build": {
+          "parser_processes": 8,
+          "document_batch_size": 10,
+          "max_task_chars": 30000,
+          "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/coverage_cpu_v6_checkpoints/es",
+          "allow_shortfall": true
+        }
+      },
+      "manifest_sha256": "34bceb5cf0e359112533fa6c0135b04c628283d2d7186b27bbbacc889d1add02",
+      "pairs": 1846,
+      "grammar": 1495,
+      "spelling": 351,
+      "splits": {
+        "train": 1484,
+        "validation": 170,
+        "test": 192
+      },
+      "selected_grammar_families": [
+        "adjective_gender",
+        "adjective_number",
+        "determiner_gender",
+        "determiner_number",
+        "governed_infinitive",
+        "perfect_verb_form",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "configured_grammar_families": [
+        "adjective_gender",
+        "adjective_number",
+        "determiner_gender",
+        "determiner_number",
+        "governed_infinitive",
+        "perfect_verb_form",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "missing_grammar_families": [],
+      "source_documents": 672,
+      "independent_original_checker": true,
+      "observed_spelling_rules_selected": [],
+      "quality_status": "candidate_rule_and_dictionary_screened",
+      "native_validation": false
+    },
+    "el": {
+      "dataset": "/work/mimir/DaLA/la_output/european_pilots/coverage_merged_v8/el",
+      "profile": {
+        "schema_version": 1,
+        "language": "el",
+        "name": "DaLA Greek pilot",
+        "mode": "pairs",
+        "parser": "stanza",
+        "parser_backend": "stanza",
+        "sources": {
+          "adapter": "canonical_jsonl"
+        },
+        "sources_config": "/work/mimir/DaLA/la_output/resources/european-expansion/pronoun_gap_sources_v7/el/sources.json",
+        "rulebook": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/el/rules.json.gz",
+        "exclusions": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_audited_v5/el/exclusions.json",
+        "resource_directory": "/work/mimir/DaLA/la_output/resources/european-expansion/coverage_v5/el",
+        "adapter": "dala.language_packs.morphology:MorphologyPack",
+        "selection": {
+          "strategy": "hash_rotate_grammar_then_spelling",
+          "max_errors": 1,
+          "priority": [
+            "adjective_number",
+            "adjective_gender",
+            "adjective_case",
+            "determiner_number",
+            "determiner_gender",
+            "determiner_case",
+            "verb_number_agreement",
+            "verb_person_agreement",
+            "spelling"
+          ],
+          "operator_priority": {
+            "observed_nonword": -1
+          },
+          "coverage_targets": [
+            "verb_person_agreement",
+            "verb_number_agreement"
+          ]
+        },
+        "checker": {
+          "mode": "morphology",
+          "workers": 8,
+          "source_languagetool": true
+        },
+        "prompts": {
+          "acceptability": "Is this sentence grammatically correct and correctly spelled in Greek? Reply only yes or no.",
+          "correction": "Correct grammatical and spelling errors in this Greek sentence. Return correct input unchanged. Preserve Greek, meaning and style. Return only the sentence."
+        },
+        "curation": {
+          "min_words": 7,
+          "max_words": 35,
+          "max_sentence_chars": 320,
+          "max_paragraph_chars": 6000,
+          "source_risk_patterns": [
+            "\\.\\.\\.|…",
+            "\\(\\s*\\)",
+            "\\.{2,}",
+            " {2,}",
+            "[^\\W\\d_]+\\d+"
+          ]
+        },
+        "description": "CPU expanded pilot, agent source exclusions and stricter extraction guards; independent source checker where supported. Candidate only, no native validation.",
+        "dependencies": [
+          "requests",
+          "spacy",
+          "spylls"
+        ],
+        "export_used_rule_mappings": true,
+        "release_policy": {
+          "status": "candidate_only",
+          "pilot_target_pairs": 1000,
+          "production_target_pairs": 478930,
+          "require_audit_per_family": true
+        },
+        "morphology_options": {
+          "source_nominal_pos": [
+            "ADJ",
+            "DET"
+          ],
+          "source_nominal_relations": [
+            "amod",
+            "det"
+          ],
+          "protect_capitalized_lemmas": true
+        },
+        "dictionary_case_variants": false,
+        "capitalized_corruption_pos": [],
+        "parser_settings": {
+          "directory": "/work/mimir/DaLA/la_output/resources/european/stanza",
+          "processors": {
+            "tokenize": "gdt",
+            "mwt": "gdt",
+            "lemma": "gdt_nocharlm",
+            "pos": "gdt_nocharlm",
+            "depparse": "gdt_nocharlm"
+          },
+          "model_sha256": {
+            "el/depparse/gdt_nocharlm.pt": "db6539df651541a33d9864f3394768fcf45226dd2386e3b7614e4555ee8a7f72",
+            "el/lemma/gdt_nocharlm.pt": "6b60719d09c18da4a8dc4404692cac791103ec6da81b070b7b5855cd69c610b3",
+            "el/mwt/gdt.pt": "1d331c728e6c903cde9073277a064c634731a42174c759f413bc948940132123",
+            "el/pos/gdt_nocharlm.pt": "286d4a7a33b7377b1263a318ace969574191a5a4d612fbe02c23ee4e19a05fe9",
+            "el/pretrain/conll17.pt": "5e75683f123652b583db5269e72aae798afe442e426d075f709f5f9635005fc2",
+            "el/tokenize/gdt.pt": "86f6c2e03c5663fa1694c86800cfb77d91a7e786f26ec4f6d25248cc620b5ac9"
+          },
+          "stanza_version": "1.11.0",
+          "language": "el"
+        },
+        "parser_threads": 1,
+        "parser_expand_mwt": true,
+        "parser_skip_unalignable_sentences": true,
+        "personal_pronoun_features": {
+          "εγώ": {
+            "Number": "Sing",
+            "Person": "1"
+          },
+          "εσύ": {
+            "Number": "Sing",
+            "Person": "2"
+          },
+          "αυτός": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "αυτή": {
+            "Number": "Sing",
+            "Person": "3"
+          },
+          "εμείς": {
+            "Number": "Plur",
+            "Person": "1"
+          },
+          "εσείς": {
+            "Number": "Plur",
+            "Person": "2"
+          },
+          "αυτοί": {
+            "Number": "Plur",
+            "Person": "3"
+          },
+          "αυτές": {
+            "Number": "Plur",
+            "Person": "3"
+          }
+        },
+        "personal_pronoun_by_dependency": true,
+        "build": {
+          "parser_processes": 8,
+          "document_batch_size": 10,
+          "max_task_chars": 30000,
+          "checkpoint_dir": "/work/mimir/DaLA/la_output/european_pilots/coverage_cpu_v7_checkpoints/el",
+          "allow_shortfall": true
+        }
+      },
+      "manifest_sha256": "eda0ec96d0bdb8cdc9212385445643301ad5c136c505f92878b10e4f38770c9e",
+      "pairs": 413,
+      "grammar": 198,
+      "spelling": 215,
+      "splits": {
+        "train": 337,
+        "validation": 38,
+        "test": 38
+      },
+      "selected_grammar_families": [
+        "adjective_case",
+        "adjective_gender",
+        "adjective_number",
+        "determiner_case",
+        "determiner_gender",
+        "determiner_number",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "configured_grammar_families": [
+        "adjective_case",
+        "adjective_gender",
+        "adjective_number",
+        "determiner_case",
+        "determiner_gender",
+        "determiner_number",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "missing_grammar_families": [],
+      "source_documents": 325,
+      "independent_original_checker": true,
+      "observed_spelling_rules_selected": [],
+      "quality_status": "candidate_rule_and_dictionary_screened",
+      "native_validation": false
+    }
+  },
+  "limitation": "Candidate pilots; automated validation, checker diagnostics and agent inspection do not establish native linguistic precision. Per-family coverage gaps remain."
+}

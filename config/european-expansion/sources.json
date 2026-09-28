@@ -1,0 +1,144 @@
+{
+  "sources": [
+    {
+      "language": "ca",
+      "format": "wikipedia_parquet",
+      "name": "Wikipedia_ca",
+      "dataset": "wikimedia/wikipedia:ca",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "receipt": "sources/ca-wikipedia.json",
+      "license": "CC-BY-SA-3.0; GFDL",
+      "min_chars": 600,
+      "max_chars": 6000
+    },
+    {
+      "language": "cs",
+      "format": "wikipedia_parquet",
+      "name": "Wikipedia_cs",
+      "dataset": "wikimedia/wikipedia:cs",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "receipt": "sources/cs-wikipedia.json",
+      "license": "CC-BY-SA-3.0; GFDL",
+      "min_chars": 600,
+      "max_chars": 6000
+    },
+    {
+      "language": "de",
+      "format": "wikipedia_parquet",
+      "name": "Wikipedia_de",
+      "dataset": "wikimedia/wikipedia:de",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "receipt": "sources/de-wikipedia.json",
+      "license": "CC-BY-SA-3.0; GFDL",
+      "min_chars": 600,
+      "max_chars": 6000
+    },
+    {
+      "language": "el",
+      "format": "wikipedia_parquet",
+      "name": "Wikipedia_el",
+      "dataset": "wikimedia/wikipedia:el",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "receipt": "sources/el-wikipedia.json",
+      "license": "CC-BY-SA-3.0; GFDL",
+      "min_chars": 600,
+      "max_chars": 6000
+    },
+    {
+      "language": "es",
+      "format": "wikipedia_parquet",
+      "name": "Wikipedia_es",
+      "dataset": "wikimedia/wikipedia:es",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "receipt": "sources/es-wikipedia.json",
+      "license": "CC-BY-SA-3.0; GFDL",
+      "min_chars": 600,
+      "max_chars": 6000
+    },
+    {
+      "language": "et",
+      "format": "wikipedia_parquet",
+      "name": "Wikipedia_et",
+      "dataset": "wikimedia/wikipedia:et",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "receipt": "sources/et-wikipedia.json",
+      "license": "CC-BY-SA-3.0; GFDL",
+      "min_chars": 600,
+      "max_chars": 6000
+    },
+    {
+      "language": "fi",
+      "format": "wikipedia_parquet",
+      "name": "Wikipedia_fi",
+      "dataset": "wikimedia/wikipedia:fi",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "receipt": "sources/fi-wikipedia.json",
+      "license": "CC-BY-SA-3.0; GFDL",
+      "min_chars": 600,
+      "max_chars": 6000
+    },
+    {
+      "language": "fr",
+      "format": "wikipedia_parquet",
+      "name": "Wikipedia_fr",
+      "dataset": "wikimedia/wikipedia:fr",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "receipt": "sources/fr-wikipedia.json",
+      "license": "CC-BY-SA-3.0; GFDL",
+      "min_chars": 600,
+      "max_chars": 6000
+    },
+    {
+      "language": "it",
+      "format": "wikipedia_parquet",
+      "name": "Wikipedia_it",
+      "dataset": "wikimedia/wikipedia:it",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "receipt": "sources/it-wikipedia.json",
+      "license": "CC-BY-SA-3.0; GFDL",
+      "min_chars": 600,
+      "max_chars": 6000
+    },
+    {
+      "language": "ro",
+      "format": "wikipedia_parquet",
+      "name": "Wikipedia_ro",
+      "dataset": "wikimedia/wikipedia:ro",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "receipt": "sources/ro-wikipedia.json",
+      "license": "CC-BY-SA-3.0; GFDL",
+      "min_chars": 600,
+      "max_chars": 6000
+    },
+    {
+      "language": "uk",
+      "format": "wikipedia_parquet",
+      "name": "Wikipedia_uk",
+      "dataset": "wikimedia/wikipedia:uk",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "receipt": "sources/uk-wikipedia.json",
+      "license": "CC-BY-SA-3.0; GFDL",
+      "min_chars": 600,
+      "max_chars": 6000
+    },
+    {
+      "language": "pt-PT",
+      "format": "europarl_xml_zip",
+      "name": "Europarl_pt",
+      "dataset": "OPUS-Europarl-v8:pt",
+      "revision": "v8-sha256:40032ce314c42098b02c96549b66c1fe213257174b2542f3c19656206bf37f56",
+      "archive": "sources/Europarl-v8-pt.zip",
+      "sha256": "40032ce314c42098b02c96549b66c1fe213257174b2542f3c19656206bf37f56",
+      "license": "Original European Parliament source terms; redistribution review pending",
+      "url": "https://www.statmt.org/europarl/",
+      "min_chars": 600,
+      "max_chars": 6000,
+      "exclude_date_prefixes": [
+        "00-10",
+        "00-11",
+        "00-12"
+      ],
+      "standard_basis": "European Parliament Portuguese; historical orthography preserved, not normalized"
+    }
+  ]
+}

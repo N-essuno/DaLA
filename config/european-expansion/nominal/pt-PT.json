@@ -1,0 +1,62 @@
+{
+  "language": "pt-PT",
+  "revision": "0bae6b7f6d1b405e67658895de54b59bfb3b6338",
+  "source_url": "https://github.com/TALP-UPC/FreeLing/tree/0bae6b7f6d1b405e67658895de54b59bfb3b6338/data/pt",
+  "files": [
+    "adjs"
+  ],
+  "columns": {
+    "form": 0,
+    "lemma": 1,
+    "tag": 2
+  },
+  "fixed_pos": "ADJ",
+  "tags": {
+    "AQ0MS00": {
+      "Gender": "Masc",
+      "Number": "Sing",
+      "Degree": "Pos"
+    },
+    "AQ0MP00": {
+      "Gender": "Masc",
+      "Number": "Plur",
+      "Degree": "Pos"
+    },
+    "AQ0MN00": {
+      "Gender": "Masc",
+      "Number": "Plur,Sing",
+      "Degree": "Pos"
+    },
+    "AQ0FS00": {
+      "Gender": "Fem",
+      "Number": "Sing",
+      "Degree": "Pos"
+    },
+    "AQ0FP00": {
+      "Gender": "Fem",
+      "Number": "Plur",
+      "Degree": "Pos"
+    },
+    "AQ0FN00": {
+      "Gender": "Fem",
+      "Number": "Plur,Sing",
+      "Degree": "Pos"
+    },
+    "AQ0CS00": {
+      "Gender": "Fem,Masc",
+      "Number": "Sing",
+      "Degree": "Pos"
+    },
+    "AQ0CP00": {
+      "Gender": "Fem,Masc",
+      "Number": "Plur",
+      "Degree": "Pos"
+    },
+    "AQ0CN00": {
+      "Gender": "Fem,Masc",
+      "Number": "Plur,Sing",
+      "Degree": "Pos"
+    }
+  },
+  "scope": "Mixed-variety upstream; only UD pt-PT training adjective lemmas; independent pt-PT dictionary mandatory. No imported grammar patterns or Brazilian source sentences."
+}

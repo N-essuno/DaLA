@@ -1,0 +1,18 @@
+{
+  "language": "et",
+  "source_sha256": [
+    "6c0bcd0aeb2eaf776f714e46f852b896d3f5d82a5c62b6fd72715172fd7ed1a3"
+  ],
+  "review_type": "automatic source-boundary risk filter plus explicitly recorded agent judgments; not native validation",
+  "source_risk_patterns": [
+    "[!?]"
+  ],
+  "judgments": [
+    {
+      "pair_id": "72296889e08f044a75a8f39d",
+      "original": "Verner Gerretz (4. märts 1919 Kädva küla Ingliste vald – 31. oktoober 1994 Tallinn; aastatel 1964–? Verner Karu) oli eesti laulja (bass).",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    }
+  ]
+}

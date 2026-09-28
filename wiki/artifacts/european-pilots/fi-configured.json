@@ -1,0 +1,63 @@
+{
+  "language": "fi",
+  "source_counts": {
+    "total": 12217,
+    "eligible": 11659
+  },
+  "rules": [
+    {
+      "id": "fi_adjective_number_ud",
+      "family": "adjective_number",
+      "active": true,
+      "mappings": 212
+    },
+    {
+      "id": "fi_adjective_case_ud",
+      "family": "adjective_case",
+      "active": true,
+      "mappings": 1554
+    },
+    {
+      "id": "fi_determiner_number_ud",
+      "family": "determiner_number",
+      "active": false,
+      "mappings": 0
+    },
+    {
+      "id": "fi_determiner_case_ud",
+      "family": "determiner_case",
+      "active": false,
+      "mappings": 0
+    },
+    {
+      "id": "fi_verb_number_agreement_ud",
+      "family": "verb_number_agreement",
+      "active": true,
+      "mappings": 247
+    },
+    {
+      "id": "fi_verb_person_agreement_ud",
+      "family": "verb_person_agreement",
+      "active": true,
+      "mappings": 264
+    },
+    {
+      "id": "fi_spelling_transpose_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0
+    },
+    {
+      "id": "fi_spelling_delete_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0
+    },
+    {
+      "id": "fi_spelling_substitute_character",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "reason": "OpenTaal source absent or replacement recognized; do not assume checker carrier nonword diagnosis is sufficient",
+  "excluded": [
+    {
+      "id": "spelling:lexical:gemeentehuizen>gemeentehuize",
+      "family": "spelling",
+      "correct": "gemeentehuizen",
+      "incorrect": "gemeentehuize",
+      "sources": [
+        "lt"
+      ],
+      "evidence_kind": "curated_spelling_example",
+      "distinct_sentence_support": null,
+      "requires_lexical_screen": true
+    },
+    {
+      "id": "spelling:lexical:platform>platvorm",
+      "family": "spelling",
+      "correct": "platform",
+      "incorrect": "platvorm",
+      "sources": [
+        "lt"
+      ],
+      "evidence_kind": "curated_spelling_example",
+      "distinct_sentence_support": null,
+      "requires_lexical_screen": true
+    }
+  ]
+}

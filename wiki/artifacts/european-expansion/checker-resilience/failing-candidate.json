@@ -1,0 +1,43 @@
+[
+  {
+    "source_document_id": "uk:773002",
+    "title": "Биковський Валерій Федорович",
+    "url": "https://uk.wikipedia.org/wiki/%D0%91%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9%20%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%96%D0%B9%20%D0%A4%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+    "language": "uk",
+    "source_file": "20231101.uk/train-00001-of-00010.parquet",
+    "document_id": "bcb7a1e6b0fea48bf983b77475ff16dc9c4df29c2fbc6be0d8b375979f8bad53",
+    "document_sha256": "4e2a993c92472f3f8fa0ace86a9941129badfac06b4d6f24bd76a5709d1fc70a",
+    "source_name": "Wikipedia_uk",
+    "source_dataset": "wikimedia/wikipedia:uk",
+    "source_revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "license": "CC-BY-SA-3.0; GFDL",
+    "document_boundary_status": "source_document",
+    "pair_id": "a81fc54bd61e7b583ec76347",
+    "split": "train",
+    "sentence_start": 0,
+    "sentence_end": 280,
+    "original": "Вале́рій Фе́дорович Бико́вський (; 2 серпня 1934, Павловський Посад Московської області — 27 березня 2019) — льотчик-космонавт СРСР, двічі Герой Радянського Союзу, здійснив три польоти в космос загальною тривалістю 20 діб 17 годин 48 хвилин 21 секунда: Восток-5, Союз-22, Союз-31.",
+    "corrupted": "Вале́рій Фе́дорович Бико́вський (; 2 српня 1934, Павловський Посад Московської області — 27 березня 2019) — льотчик-космонавт СРСР, двічі Герой Радянського Союзу, здійснив три польоти в космос загальною тривалістю 20 діб 17 годин 48 хвилин 21 секунда: Восток-5, Союз-22, Союз-31.",
+    "edits": [
+      {
+        "rule_id": "uk_spelling_delete_internal",
+        "corruption_type": "spelling",
+        "start": 37,
+        "end": 43,
+        "original": "серпня",
+        "replacement": "српня",
+        "protected_tokens": [
+          5,
+          6,
+          7
+        ],
+        "requires_lexical_screen": true,
+        "corrupted_start": 37,
+        "corrupted_end": 42
+      }
+    ],
+    "quality_status": "pending_screening",
+    "checker": null
+  },
+  []
+]

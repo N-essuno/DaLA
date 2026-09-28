@@ -1,0 +1,15 @@
+{
+  "sources": [
+    {
+      "pilot_max_sentences": 3000,
+      "name": "UD_German-HDT",
+      "language": "de",
+      "path": "/work/mimir/DaLA/la_output/resources/european/de/de_hdt-ud-train-a-1.conllu",
+      "revision": "40775e14667809629bbad62e9e7588bd61b2d689",
+      "sha256": "5ce7c52f169386553642d34e5b0e390ad850358eb11088417bd68f38567a724d",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_German-HDT/40775e14667809629bbad62e9e7588bd61b2d689/de_hdt-ud-train-a-1.conllu",
+      "license": "CC BY-SA 4.0",
+      "text_normalization": "punctuation_detokenization"
+    }
+  ]
+}

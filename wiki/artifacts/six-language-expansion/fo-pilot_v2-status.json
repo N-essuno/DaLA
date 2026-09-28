@@ -1,0 +1,6 @@
+{
+  "language": "fo",
+  "exit_code": 1,
+  "log": "wiki/artifacts/six-language-expansion/fo-pilot_v2.log",
+  "output": "la_output/fo_dynaword_pilot_v2"
+}

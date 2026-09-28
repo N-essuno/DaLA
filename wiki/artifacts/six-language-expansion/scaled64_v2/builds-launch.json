@@ -1,0 +1,18 @@
+{
+  "at": "2026-09-24T11:38:05.903093+00:00",
+  "pid": 1146571,
+  "command": [
+    "-m",
+    "scripts.run_six_language_scale",
+    "--languages",
+    "pl",
+    "sv",
+    "is",
+    "--run-id",
+    "scaled64_v2",
+    "--tools-dir",
+    "/tmp/dala-six-tools"
+  ],
+  "log": "/tmp/dala-six-scaled64_v2-builds.log",
+  "resumed_from": "wiki/artifacts/six-language-expansion/scaled64_v2/resume-20260924T113805Z/pause.json"
+}

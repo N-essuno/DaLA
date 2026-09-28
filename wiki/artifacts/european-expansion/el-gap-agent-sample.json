@@ -1,0 +1,659 @@
+[
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "el",
+      "lexical_checks": [
+        {
+          "corrupted_end": 7,
+          "corrupted_start": 6,
+          "original_recognized": true,
+          "replacement_recognized": true,
+          "rule_id": "el_determiner_case_ud"
+        }
+      ]
+    },
+    "corrupted": "Αυτόν ο χαρακτήρα οι αξιωματικοί τον διατηρούν σε όλο το παιχνίδι.",
+    "document_boundary_status": "source_document",
+    "document_id": "f6f214d28e890c588f7cee69ce251efe54e363375ed79bdd4b97ef0b022e2557",
+    "document_sha256": "693b17d2ac1a0881983ba1edd28038f6b3330372023119e6c1d8d444a49c6982",
+    "edits": [
+      {
+        "corrupted_end": 7,
+        "corrupted_start": 6,
+        "corruption_type": "determiner_case",
+        "end": 9,
+        "original": "τον",
+        "protected_tokens": [
+          57,
+          58,
+          59
+        ],
+        "replacement": "ο",
+        "rule_id": "el_determiner_case_ud",
+        "start": 6
+      }
+    ],
+    "language": "el",
+    "license": "CC-BY-SA-3.0; GFDL",
+    "original": "Αυτόν τον χαρακτήρα οι αξιωματικοί τον διατηρούν σε όλο το παιχνίδι.",
+    "pair_id": "7e231c138405bea8dacfdf4e",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 1235,
+    "sentence_start": 1167,
+    "source_dataset": "wikimedia/wikipedia:el",
+    "source_document_id": "el:8655",
+    "source_file": "20231101.el/train-00000-of-00003.parquet",
+    "source_name": "Wikipedia_el",
+    "source_revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "split": "train",
+    "title": "Αξιωματικός (σκάκι)",
+    "url": "https://el.wikipedia.org/wiki/%CE%91%CE%BE%CE%B9%CF%89%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%82%20%28%CF%83%CE%BA%CE%AC%CE%BA%CE%B9%29",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "el",
+      "lexical_checks": [
+        {
+          "corrupted_end": 2,
+          "corrupted_start": 0,
+          "original_recognized": true,
+          "replacement_recognized": true,
+          "rule_id": "el_determiner_number_ud"
+        }
+      ]
+    },
+    "corrupted": "Το δύο άτομα καθίστανται έτσι ιόντα με θετικό και αρνητικό φορτίο αντίστοιχα.",
+    "document_boundary_status": "source_document",
+    "document_id": "beb3d419c9fc32eb07a3382787f5f7aaf4d077135faf6f8cd085a017188d4739",
+    "document_sha256": "43170c3642488122ca41130d47a7e362407bd514abd18afceda4095cc83cea45",
+    "edits": [
+      {
+        "corrupted_end": 2,
+        "corrupted_start": 0,
+        "corruption_type": "determiner_number",
+        "end": 2,
+        "original": "Τα",
+        "protected_tokens": [
+          31,
+          32,
+          35
+        ],
+        "replacement": "Το",
+        "rule_id": "el_determiner_number_ud",
+        "start": 0
+      }
+    ],
+    "language": "el",
+    "license": "CC-BY-SA-3.0; GFDL",
+    "original": "Τα δύο άτομα καθίστανται έτσι ιόντα με θετικό και αρνητικό φορτίο αντίστοιχα.",
+    "pair_id": "2c0d8a4f268d8e836dc6f38e",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 883,
+    "sentence_start": 806,
+    "source_dataset": "wikimedia/wikipedia:el",
+    "source_document_id": "el:36648",
+    "source_file": "20231101.el/train-00000-of-00003.parquet",
+    "source_name": "Wikipedia_el",
+    "source_revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "split": "train",
+    "title": "Ετεροπολικός δεσμός",
+    "url": "https://el.wikipedia.org/wiki/%CE%95%CF%84%CE%B5%CF%81%CE%BF%CF%80%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C%CF%82%20%CE%B4%CE%B5%CF%83%CE%BC%CF%8C%CF%82",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "el",
+      "lexical_checks": [
+        {
+          "corrupted_end": 40,
+          "corrupted_start": 35,
+          "original_recognized": true,
+          "replacement_recognized": false,
+          "rule_id": "el_spelling_substitute_character"
+        }
+      ]
+    },
+    "corrupted": "Εξωτερικά η στέγη διαμορφώνεται σε σχημα σταυρού.",
+    "document_boundary_status": "source_document",
+    "document_id": "7737486277b24f008db04309e938200c1f6e65d3a735ff97c154fb754e1aae5e",
+    "document_sha256": "d4f5c37b9873e5b59ce23e0309d99a489bf73f74be248a70fe20fdee1a596765",
+    "edits": [
+      {
+        "corrupted_end": 40,
+        "corrupted_start": 35,
+        "corruption_type": "spelling",
+        "end": 40,
+        "original": "σχήμα",
+        "protected_tokens": [
+          17,
+          19,
+          21,
+          22,
+          23
+        ],
+        "replacement": "σχημα",
+        "requires_lexical_screen": true,
+        "rule_id": "el_spelling_substitute_character",
+        "start": 35
+      }
+    ],
+    "language": "el",
+    "license": "CC-BY-SA-3.0; GFDL",
+    "original": "Εξωτερικά η στέγη διαμορφώνεται σε σχήμα σταυρού.",
+    "pair_id": "7927f3d7a8f21f752d5a8d6e",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 630,
+    "sentence_start": 581,
+    "source_dataset": "wikimedia/wikipedia:el",
+    "source_document_id": "el:255052",
+    "source_file": "20231101.el/train-00000-of-00003.parquet",
+    "source_name": "Wikipedia_el",
+    "source_revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "split": "validation",
+    "title": "Μονή Παναγίας του Άρακα",
+    "url": "https://el.wikipedia.org/wiki/%CE%9C%CE%BF%CE%BD%CE%AE%20%CE%A0%CE%B1%CE%BD%CE%B1%CE%B3%CE%AF%CE%B1%CF%82%20%CF%84%CE%BF%CF%85%20%CE%86%CF%81%CE%B1%CE%BA%CE%B1",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "el",
+      "lexical_checks": [
+        {
+          "corrupted_end": 9,
+          "corrupted_start": 2,
+          "original_recognized": true,
+          "replacement_recognized": false,
+          "rule_id": "el_spelling_delete_internal"
+        }
+      ]
+    },
+    "corrupted": "Η μταβολή αυτή μπορεί να είναι γραμμική ή όχι.",
+    "document_boundary_status": "source_document",
+    "document_id": "a17bf8d69484f6aa72035e2df23cfa0733d48a740ad94eb033da4c618f80c70f",
+    "document_sha256": "22d85a651c220c8bf99869b52cd19f798cdd27067d7d1378a3822abe2d002017",
+    "edits": [
+      {
+        "corrupted_end": 9,
+        "corrupted_start": 2,
+        "corruption_type": "spelling",
+        "end": 10,
+        "original": "μεταβολή",
+        "protected_tokens": [
+          39,
+          41,
+          42,
+          43,
+          45
+        ],
+        "replacement": "μταβολή",
+        "requires_lexical_screen": true,
+        "rule_id": "el_spelling_delete_internal",
+        "start": 2
+      }
+    ],
+    "language": "el",
+    "license": "CC-BY-SA-3.0; GFDL",
+    "original": "Η μεταβολή αυτή μπορεί να είναι γραμμική ή όχι.",
+    "pair_id": "c5992deb05a9016d26c77942",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 1090,
+    "sentence_start": 1043,
+    "source_dataset": "wikimedia/wikipedia:el",
+    "source_document_id": "el:52661",
+    "source_file": "20231101.el/train-00000-of-00003.parquet",
+    "source_name": "Wikipedia_el",
+    "source_revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "split": "train",
+    "title": "Οπτικά μέσα",
+    "url": "https://el.wikipedia.org/wiki/%CE%9F%CF%80%CF%84%CE%B9%CE%BA%CE%AC%20%CE%BC%CE%AD%CF%83%CE%B1",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "el",
+      "lexical_checks": [
+        {
+          "corrupted_end": 33,
+          "corrupted_start": 25,
+          "original_recognized": true,
+          "replacement_recognized": false,
+          "rule_id": "el_spelling_substitute_character"
+        }
+      ]
+    },
+    "corrupted": "Όλοι τον ζήλευαν για την περισσια δύναμή του και μονομαχούσαν συχνά για την υπεροχή.",
+    "document_boundary_status": "source_document",
+    "document_id": "ad4573c3aec0b326af6ba003f0141d6bf975e1fac22437a9c4bf379e36f9ea36",
+    "document_sha256": "2ae4c63f07ce5fced6592257f0efeaf9a2be3dd8622dc4203bbf26fd58cc3273",
+    "edits": [
+      {
+        "corrupted_end": 33,
+        "corrupted_start": 25,
+        "corruption_type": "spelling",
+        "end": 33,
+        "original": "περίσσια",
+        "protected_tokens": [
+          10,
+          11,
+          12
+        ],
+        "replacement": "περισσια",
+        "requires_lexical_screen": true,
+        "rule_id": "el_spelling_substitute_character",
+        "start": 25
+      }
+    ],
+    "language": "el",
+    "license": "CC-BY-SA-3.0; GFDL",
+    "original": "Όλοι τον ζήλευαν για την περίσσια δύναμή του και μονομαχούσαν συχνά για την υπεροχή.",
+    "pair_id": "878e3a6ce31bb09fc4bdd183",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 938,
+    "sentence_start": 854,
+    "source_dataset": "wikimedia/wikipedia:el",
+    "source_document_id": "el:71735",
+    "source_file": "20231101.el/train-00000-of-00003.parquet",
+    "source_name": "Wikipedia_el",
+    "source_revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "split": "validation",
+    "title": "Ωκεανός (μυθολογία)",
+    "url": "https://el.wikipedia.org/wiki/%CE%A9%CE%BA%CE%B5%CE%B1%CE%BD%CF%8C%CF%82%20%28%CE%BC%CF%85%CE%B8%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%CE%B1%29",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "el",
+      "lexical_checks": [
+        {
+          "corrupted_end": 43,
+          "corrupted_start": 32,
+          "original_recognized": true,
+          "replacement_recognized": true,
+          "rule_id": "el_adjective_number_ud"
+        }
+      ]
+    },
+    "corrupted": "Το έργο αυτό που διαπνέεται από θρησκευτικά πνεύμα, είναι νεκρική ηρωική στήλη.",
+    "document_boundary_status": "source_document",
+    "document_id": "4bb679d4676d08ad60e916c9cdf7a94b877f59dd73e0488bdd7a5ae546496188",
+    "document_sha256": "f8d0a1d443bc90401449328e7b17abfd52156b749f9867fa81a8c25a41fe65a8",
+    "edits": [
+      {
+        "corrupted_end": 43,
+        "corrupted_start": 32,
+        "corruption_type": "adjective_number",
+        "end": 43,
+        "original": "θρησκευτικό",
+        "protected_tokens": [
+          12,
+          13,
+          14
+        ],
+        "replacement": "θρησκευτικά",
+        "rule_id": "el_adjective_number_ud",
+        "start": 32
+      }
+    ],
+    "language": "el",
+    "license": "CC-BY-SA-3.0; GFDL",
+    "original": "Το έργο αυτό που διαπνέεται από θρησκευτικό πνεύμα, είναι νεκρική ηρωική στήλη.",
+    "pair_id": "84fb3bd885f1dc1586900b22",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 734,
+    "sentence_start": 655,
+    "source_dataset": "wikimedia/wikipedia:el",
+    "source_document_id": "el:208223",
+    "source_file": "20231101.el/train-00000-of-00003.parquet",
+    "source_name": "Wikipedia_el",
+    "source_revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "split": "validation",
+    "title": "Επιτύμβια στήλη (Μουσείο Σπάρτης, αρ. 505)",
+    "url": "https://el.wikipedia.org/wiki/%CE%95%CF%80%CE%B9%CF%84%CF%8D%CE%BC%CE%B2%CE%B9%CE%B1%20%CF%83%CF%84%CE%AE%CE%BB%CE%B7%20%28%CE%9C%CE%BF%CF%85%CF%83%CE%B5%CE%AF%CE%BF%20%CE%A3%CF%80%CE%AC%CF%81%CF%84%CE%B7%CF%82%2C%20%CE%B1%CF%81.%20505%29",
+    "agent_judgment": "uncertain",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "el",
+      "lexical_checks": [
+        {
+          "corrupted_end": 42,
+          "corrupted_start": 32,
+          "original_recognized": true,
+          "replacement_recognized": false,
+          "rule_id": "el_spelling_delete_internal"
+        }
+      ]
+    },
+    "corrupted": "Έτσι οι θεοί αποφασίζουν να τον αυσοδέσουν.",
+    "document_boundary_status": "source_document",
+    "document_id": "9a93fce491ef7e30de4467abb607ca8e46c2359b1ce2b3645dd76362bf9057f3",
+    "document_sha256": "92555affb225491009a74e25a1b1668ac5f43636e7757c625d55d46d43344569",
+    "edits": [
+      {
+        "corrupted_end": 42,
+        "corrupted_start": 32,
+        "corruption_type": "spelling",
+        "end": 43,
+        "original": "αλυσοδέσουν",
+        "protected_tokens": [
+          165,
+          167,
+          169,
+          171
+        ],
+        "replacement": "αυσοδέσουν",
+        "requires_lexical_screen": true,
+        "rule_id": "el_spelling_delete_internal",
+        "start": 32
+      }
+    ],
+    "language": "el",
+    "license": "CC-BY-SA-3.0; GFDL",
+    "original": "Έτσι οι θεοί αποφασίζουν να τον αλυσοδέσουν.",
+    "pair_id": "09a91d03cefe520e25c4235b",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 591,
+    "sentence_start": 547,
+    "source_dataset": "wikimedia/wikipedia:el",
+    "source_document_id": "el:154736",
+    "source_file": "20231101.el/train-00000-of-00003.parquet",
+    "source_name": "Wikipedia_el",
+    "source_revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "split": "train",
+    "title": "Φένριρ",
+    "url": "https://el.wikipedia.org/wiki/%CE%A6%CE%AD%CE%BD%CF%81%CE%B9%CF%81",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "el",
+      "lexical_checks": [
+        {
+          "corrupted_end": 17,
+          "corrupted_start": 5,
+          "original_recognized": true,
+          "replacement_recognized": false,
+          "rule_id": "el_spelling_substitute_character"
+        }
+      ]
+    },
+    "corrupted": "Αυτό οικοδομηθηκε από Γενοβέζους και αναφέρεται σε έγγραφο του 1212.",
+    "document_boundary_status": "source_document",
+    "document_id": "8347d17f1591e2c19c2db3fee7972ef6956469fdad1cd40215515fdec2d5b137",
+    "document_sha256": "36142a59db63aae22814ff412797e04ecedc0d9dacc027ed2e900eb04cc85bd3",
+    "edits": [
+      {
+        "corrupted_end": 17,
+        "corrupted_start": 5,
+        "corruption_type": "spelling",
+        "end": 17,
+        "original": "οικοδομήθηκε",
+        "protected_tokens": [
+          61,
+          63,
+          64,
+          67,
+          71,
+          80
+        ],
+        "replacement": "οικοδομηθηκε",
+        "requires_lexical_screen": true,
+        "rule_id": "el_spelling_substitute_character",
+        "start": 5
+      }
+    ],
+    "language": "el",
+    "license": "CC-BY-SA-3.0; GFDL",
+    "original": "Αυτό οικοδομήθηκε από Γενοβέζους και αναφέρεται σε έγγραφο του 1212.",
+    "pair_id": "07061dc9743f4398837f56f8",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 1157,
+    "sentence_start": 1089,
+    "source_dataset": "wikimedia/wikipedia:el",
+    "source_document_id": "el:104616",
+    "source_file": "20231101.el/train-00000-of-00003.parquet",
+    "source_name": "Wikipedia_el",
+    "source_revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "split": "train",
+    "title": "Επαρχία Βιάννου",
+    "url": "https://el.wikipedia.org/wiki/%CE%95%CF%80%CE%B1%CF%81%CF%87%CE%AF%CE%B1%20%CE%92%CE%B9%CE%AC%CE%BD%CE%BD%CE%BF%CF%85",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "el",
+      "lexical_checks": [
+        {
+          "corrupted_end": 33,
+          "corrupted_start": 26,
+          "original_recognized": true,
+          "replacement_recognized": false,
+          "rule_id": "el_spelling_delete_internal"
+        }
+      ]
+    },
+    "corrupted": "Η ερμηνευτική του καριέρα ξεινάει από το 1972.",
+    "document_boundary_status": "source_document",
+    "document_id": "7800ca5ff84402008c28494bdf71d78c87ef017cd038b8b529ca808fece73da6",
+    "document_sha256": "a4bb203b3622db06dd0265d7124d32ec80291caa458dd5767f07330f9524c0e4",
+    "edits": [
+      {
+        "corrupted_end": 33,
+        "corrupted_start": 26,
+        "corruption_type": "spelling",
+        "end": 34,
+        "original": "ξεκινάει",
+        "protected_tokens": [
+          8,
+          10,
+          11,
+          16,
+          17
+        ],
+        "replacement": "ξεινάει",
+        "requires_lexical_screen": true,
+        "rule_id": "el_spelling_delete_internal",
+        "start": 26
+      }
+    ],
+    "language": "el",
+    "license": "CC-BY-SA-3.0; GFDL",
+    "original": "Η ερμηνευτική του καριέρα ξεκινάει από το 1972.",
+    "pair_id": "ca2f0a91012ab278b7ae6706",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 171,
+    "sentence_start": 124,
+    "source_dataset": "wikimedia/wikipedia:el",
+    "source_document_id": "el:184989",
+    "source_file": "20231101.el/train-00000-of-00003.parquet",
+    "source_name": "Wikipedia_el",
+    "source_revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "split": "train",
+    "title": "Κώστας Σμοκοβίτης",
+    "url": "https://el.wikipedia.org/wiki/%CE%9A%CF%8E%CF%83%CF%84%CE%B1%CF%82%20%CE%A3%CE%BC%CE%BF%CE%BA%CE%BF%CE%B2%CE%AF%CF%84%CE%B7%CF%82",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "el",
+      "lexical_checks": [
+        {
+          "corrupted_end": 13,
+          "corrupted_start": 8,
+          "original_recognized": true,
+          "replacement_recognized": false,
+          "rule_id": "el_spelling_delete_internal"
+        }
+      ]
+    },
+    "corrupted": "Μετά το θάναο του Ιουστινιανού, τα περισσότερα από τα εδάφη του χάθηκαν.",
+    "document_boundary_status": "source_document",
+    "document_id": "33cb8d053c8cb2c717e1571ecf8a125273907cfba295f512a4f52912a6760827",
+    "document_sha256": "9c5eaa3249ed5bc4818cf5477a11bf1a2dcb206f95c3433f618e0dee09a352d9",
+    "edits": [
+      {
+        "corrupted_end": 13,
+        "corrupted_start": 8,
+        "corruption_type": "spelling",
+        "end": 14,
+        "original": "θάνατο",
+        "protected_tokens": [
+          109,
+          111,
+          113,
+          114,
+          117,
+          118,
+          132
+        ],
+        "replacement": "θάναο",
+        "requires_lexical_screen": true,
+        "rule_id": "el_spelling_delete_internal",
+        "start": 8
+      }
+    ],
+    "language": "el",
+    "license": "CC-BY-SA-3.0; GFDL",
+    "original": "Μετά το θάνατο του Ιουστινιανού, τα περισσότερα από τα εδάφη του χάθηκαν.",
+    "pair_id": "c66cddc3a0a5207daed19933",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 976,
+    "sentence_start": 903,
+    "source_dataset": "wikimedia/wikipedia:el",
+    "source_document_id": "el:5164",
+    "source_file": "20231101.el/train-00000-of-00003.parquet",
+    "source_name": "Wikipedia_el",
+    "source_revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "split": "train",
+    "title": "6ος αιώνας",
+    "url": "https://el.wikipedia.org/wiki/6%CE%BF%CF%82%20%CE%B1%CE%B9%CF%8E%CE%BD%CE%B1%CF%82",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "el",
+      "lexical_checks": [
+        {
+          "corrupted_end": 35,
+          "corrupted_start": 32,
+          "original_recognized": true,
+          "replacement_recognized": true,
+          "rule_id": "el_determiner_case_ud"
+        }
+      ]
+    },
+    "corrupted": "Τα Άρθρα 36 και 37 προστατεύουν του ιατρικό και θρησκευτικό προσωπικό που υπηρετεί σε μαχόμενα πλοία.",
+    "document_boundary_status": "source_document",
+    "document_id": "cf144a155b2f2d2ddf3c33beaca4daceed2b256b217178d3a50be4d629ecf85b",
+    "document_sha256": "08373433258568fd78ffd9e45a3374679f8c89ddde71e154100dd151ea9b7595",
+    "edits": [
+      {
+        "corrupted_end": 35,
+        "corrupted_start": 32,
+        "corruption_type": "determiner_case",
+        "end": 34,
+        "original": "το",
+        "protected_tokens": [
+          12,
+          13,
+          20
+        ],
+        "replacement": "του",
+        "rule_id": "el_determiner_case_ud",
+        "start": 32
+      }
+    ],
+    "language": "el",
+    "license": "CC-BY-SA-3.0; GFDL",
+    "original": "Τα Άρθρα 36 και 37 προστατεύουν το ιατρικό και θρησκευτικό προσωπικό που υπηρετεί σε μαχόμενα πλοία.",
+    "pair_id": "7f8ed5cd0f24bd48d1806207",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 1042,
+    "sentence_start": 942,
+    "source_dataset": "wikimedia/wikipedia:el",
+    "source_document_id": "el:224881",
+    "source_file": "20231101.el/train-00000-of-00003.parquet",
+    "source_name": "Wikipedia_el",
+    "source_revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "split": "test",
+    "title": "Δεύτερη Σύμβαση της Γενεύης",
+    "url": "https://el.wikipedia.org/wiki/%CE%94%CE%B5%CF%8D%CF%84%CE%B5%CF%81%CE%B7%20%CE%A3%CF%8D%CE%BC%CE%B2%CE%B1%CF%83%CE%B7%20%CF%84%CE%B7%CF%82%20%CE%93%CE%B5%CE%BD%CE%B5%CF%8D%CE%B7%CF%82",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "el",
+      "lexical_checks": [
+        {
+          "corrupted_end": 17,
+          "corrupted_start": 14,
+          "original_recognized": true,
+          "replacement_recognized": true,
+          "rule_id": "el_determiner_case_ud"
+        }
+      ]
+    },
+    "corrupted": "Η Αρετή είναι του μόνο αγαθό και μόνο από αυτήν εξαρτάται η ευημερία.",
+    "document_boundary_status": "source_document",
+    "document_id": "a785eed0ee4b0bc632bf05aca42ff4fa5179c04371b95560c76c4f1398fec94b",
+    "document_sha256": "9ce18a2eeeeaab9f73b2fe1894b9964a9c2cbbd54f7d992f77bc88891a2276ac",
+    "edits": [
+      {
+        "corrupted_end": 17,
+        "corrupted_start": 14,
+        "corruption_type": "determiner_case",
+        "end": 16,
+        "original": "το",
+        "protected_tokens": [
+          108,
+          109,
+          112
+        ],
+        "replacement": "του",
+        "rule_id": "el_determiner_case_ud",
+        "start": 14
+      }
+    ],
+    "language": "el",
+    "license": "CC-BY-SA-3.0; GFDL",
+    "original": "Η Αρετή είναι το μόνο αγαθό και μόνο από αυτήν εξαρτάται η ευημερία.",
+    "pair_id": "13135beec48a3063d6697e7f",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 811,
+    "sentence_start": 743,
+    "source_dataset": "wikimedia/wikipedia:el",
+    "source_document_id": "el:10909",
+    "source_file": "20231101.el/train-00000-of-00003.parquet",
+    "source_name": "Wikipedia_el",
+    "source_revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "split": "train",
+    "title": "Στωικισμός",
+    "url": "https://el.wikipedia.org/wiki/%CE%A3%CF%84%CF%89%CE%B9%CE%BA%CE%B9%CF%83%CE%BC%CF%8C%CF%82",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  }
+]

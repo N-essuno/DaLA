@@ -1,0 +1,275 @@
+{
+  "dataset": "la_output/dutch_curated_expansion_pilot",
+  "manifest_sha256": "5b88845d27887448d0f04a2867157d67abc0696c22c5dddcb9634f5237dbc297",
+  "pairs": 1448,
+  "task_rows_each": 2896,
+  "contributing_documents": 176,
+  "max_pairs_per_document": 40,
+  "sources": {
+    "dienst_publiek_en_communicatie": 1239,
+    "eurlex": 209
+  },
+  "families": {
+    "article_gender": 627,
+    "subject_verb_agreement": 39,
+    "spelling": 709,
+    "demonstrative_agreement": 9,
+    "adjective_inflection": 42,
+    "article_number": 11,
+    "possessive_agreement": 9,
+    "verb_dt": 1,
+    "relative_pronoun_agreement": 1
+  },
+  "active_rules": 45,
+  "configured_rules": 71,
+  "rule_counts": {
+    "article_gender:de:de>het": 446,
+    "subject_verb_agreement:dictionary:plural": 39,
+    "spelling:productive:duplicate_consonant": 284,
+    "spelling:productive:transpose_internal": 292,
+    "article_gender:het:het>de": 181,
+    "demonstrative_agreement:het:dat>die": 2,
+    "spelling:curated:geven>geefen": 6,
+    "spelling:curated:hebben>heben": 17,
+    "spelling:curated:vraagt>fraagt": 4,
+    "spelling:curated:terug>tereg": 2,
+    "spelling:productive:delete_doubled_consonant": 14,
+    "spelling:curated:eigen>ijgen": 11,
+    "adjective_inflection:indefinite_neuter": 42,
+    "article_number:plural:de>het": 11,
+    "spelling:curated:maakt>makat": 6,
+    "possessive_agreement:onze>ons": 5,
+    "spelling:curated:krijgen>kijgen": 4,
+    "demonstrative_agreement:het:dit>deze": 7,
+    "spelling:curated:waarom>warom": 2,
+    "spelling:curated:blijven>blijfen": 3,
+    "spelling:curated:altijd>altij": 6,
+    "spelling:curated:maken>maaken": 12,
+    "verb_dt:ik:vind>vindt": 1,
+    "spelling:curated:gebeurt>geburt": 4,
+    "spelling:curated:ontstaan>onstaan": 3,
+    "spelling:curated:altijd>altijt": 3,
+    "spelling:curated:misschien>mischien": 1,
+    "spelling:curated:aanwijzingen>aanwijzigingen": 2,
+    "spelling:lexical:hogedrukgebied>hoogdrukgebied": 1,
+    "spelling:curated:creëren>creëeren": 2,
+    "spelling:curated:grond>gront": 7,
+    "spelling:curated:water>waater": 3,
+    "spelling:curated:allemaal>alemaal": 2,
+    "relative_pronoun_agreement:inanimate_het": 1,
+    "spelling:curated:aantal>aantap": 4,
+    "spelling:curated:omstandigheden>opstandigheden": 2,
+    "spelling:curated:bewoners>bewoonders": 1,
+    "spelling:lexical:openlijk>openelijk": 1,
+    "possessive_agreement:ons>onze": 4,
+    "spelling:curated:vraag>fraag": 1,
+    "spelling:lexical:onmiddellijk>onmiddelijk": 1,
+    "spelling:curated:gezien>gesien": 1,
+    "spelling:curated:laatste>laatse": 2,
+    "spelling:curated:laatste>laaste": 3,
+    "spelling:curated:uitgevoerd>uitgeboerd": 2
+  },
+  "distinct_substitutions": 649,
+  "top_substitutions": [
+    {
+      "original": "de",
+      "replacement": "het",
+      "count": 457
+    },
+    {
+      "original": "het",
+      "replacement": "de",
+      "count": 181
+    },
+    {
+      "original": "hebben",
+      "replacement": "heben",
+      "count": 17
+    },
+    {
+      "original": "maken",
+      "replacement": "maaken",
+      "count": 12
+    },
+    {
+      "original": "eigen",
+      "replacement": "ijgen",
+      "count": 11
+    },
+    {
+      "original": "dit",
+      "replacement": "deze",
+      "count": 7
+    },
+    {
+      "original": "grond",
+      "replacement": "gront",
+      "count": 7
+    },
+    {
+      "original": "geven",
+      "replacement": "geefen",
+      "count": 6
+    },
+    {
+      "original": "maakt",
+      "replacement": "makat",
+      "count": 6
+    },
+    {
+      "original": "altijd",
+      "replacement": "altij",
+      "count": 6
+    },
+    {
+      "original": "heeft",
+      "replacement": "hefet",
+      "count": 5
+    },
+    {
+      "original": "onze",
+      "replacement": "ons",
+      "count": 5
+    },
+    {
+      "original": "vraagt",
+      "replacement": "fraagt",
+      "count": 4
+    },
+    {
+      "original": "krijgen",
+      "replacement": "kijgen",
+      "count": 4
+    },
+    {
+      "original": "gebeurt",
+      "replacement": "geburt",
+      "count": 4
+    },
+    {
+      "original": "aantal",
+      "replacement": "aantap",
+      "count": 4
+    },
+    {
+      "original": "ons",
+      "replacement": "onze",
+      "count": 4
+    },
+    {
+      "original": "dat",
+      "replacement": "die",
+      "count": 3
+    },
+    {
+      "original": "voeren",
+      "replacement": "voerren",
+      "count": 3
+    },
+    {
+      "original": "betrokken",
+      "replacement": "bettrokken",
+      "count": 3
+    }
+  ],
+  "validation": {
+    "pairs": 1448,
+    "unique_documents": 176,
+    "exact_edit_reconstruction": true,
+    "correction_roundtrip": true,
+    "document_split_isolation": true,
+    "exported_text_unique": true,
+    "at_most_one_grammar_edit": true,
+    "artifact_checksums": true,
+    "task_views_match_pairs": true,
+    "balanced_labels": true,
+    "source_provenance_consistent": true
+  },
+  "source_text_roundtrips": 1448,
+  "opentaal_spelling_checks": 709,
+  "splits": {
+    "train": {
+      "pairs": 1154,
+      "acceptability_rows": 2308,
+      "correction_rows": 2308,
+      "edits_by_type": {
+        "adjective_inflection": 34,
+        "article_gender": 500,
+        "article_number": 11,
+        "demonstrative_agreement": 8,
+        "possessive_agreement": 6,
+        "relative_pronoun_agreement": 1,
+        "spelling": 560,
+        "subject_verb_agreement": 33,
+        "verb_dt": 1
+      },
+      "pairs_by_error_count": {
+        "1": 1154
+      },
+      "pairs_by_source": {
+        "dienst_publiek_en_communicatie": 984,
+        "eurlex": 170
+      }
+    },
+    "validation": {
+      "pairs": 142,
+      "acceptability_rows": 284,
+      "correction_rows": 284,
+      "edits_by_type": {
+        "adjective_inflection": 5,
+        "article_gender": 63,
+        "demonstrative_agreement": 1,
+        "possessive_agreement": 1,
+        "spelling": 71,
+        "subject_verb_agreement": 1
+      },
+      "pairs_by_error_count": {
+        "1": 142
+      },
+      "pairs_by_source": {
+        "dienst_publiek_en_communicatie": 119,
+        "eurlex": 23
+      }
+    },
+    "test": {
+      "pairs": 152,
+      "acceptability_rows": 304,
+      "correction_rows": 304,
+      "edits_by_type": {
+        "adjective_inflection": 3,
+        "article_gender": 64,
+        "possessive_agreement": 2,
+        "spelling": 78,
+        "subject_verb_agreement": 5
+      },
+      "pairs_by_error_count": {
+        "1": 152
+      },
+      "pairs_by_source": {
+        "dienst_publiek_en_communicatie": 136,
+        "eurlex": 16
+      }
+    }
+  },
+  "rejections": {
+    "audited_source_exclusion": 1,
+    "boilerplate": 9,
+    "checker_lexical_guard": 4,
+    "checker_missed_edit": 618,
+    "checker_source_error": 192,
+    "fragment_or_format": 991,
+    "length": 2514,
+    "missing_subordinate_finite_verb": 74,
+    "near_duplicate": 10,
+    "no_finite_main_verb": 58,
+    "no_licensed_corruption": 2,
+    "no_main_subject": 283,
+    "no_verbal_root": 619,
+    "nonprose": 384,
+    "punctuation_spacing": 1,
+    "quotation_or_ellipsis": 168,
+    "source_number_disagreement": 39,
+    "standalone_subordinate_clause": 107,
+    "text_collision": 25
+  }
+}

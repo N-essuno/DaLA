@@ -1,0 +1,41 @@
+{
+  "at": "2026-09-24T06:47:33.826442+00:00",
+  "languages": {
+    "pl": {
+      "run": "scale_v2",
+      "pairs": 0,
+      "processed_batches": 0,
+      "status": "starting"
+    },
+    "sv": {
+      "run": "scale_v1",
+      "pairs": 3676,
+      "processed_batches": 70,
+      "status": "producing"
+    },
+    "nb": {
+      "run": "scale_v1",
+      "pairs": 218313,
+      "processed_batches": 1245,
+      "status": "producing"
+    },
+    "nn": {
+      "run": "scale_v1",
+      "pairs": 131469,
+      "processed_batches": 1049,
+      "status": "producing"
+    },
+    "fo": {
+      "run": "scale_v1",
+      "pairs": 11053,
+      "processed_batches": 427,
+      "status": "producing"
+    },
+    "is": {
+      "run": "scale_v2",
+      "pairs": 0,
+      "processed_batches": 0,
+      "status": "starting"
+    }
+  }
+}

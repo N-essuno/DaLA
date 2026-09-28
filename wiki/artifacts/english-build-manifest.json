@@ -1,0 +1,269 @@
+{
+  "schema_version": "1",
+  "language": "en",
+  "quality_status": "checker_screened",
+  "language_checker": {
+    "name": "LanguageTool",
+    "version": "6.6",
+    "buildDate": "2025-03-27 20:50:25 +0100",
+    "apiVersion": 1,
+    "premium": false,
+    "premiumHint": "You might be missing errors only the Premium version can find. Contact us at support<at>languagetoolplus.com.",
+    "status": ""
+  },
+  "checker_runtime": {
+    "java.tar.gz": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jre_x64_linux_hotspot_17.0.16_8.tar.gz",
+      "sha256": "2885b944da3793144d4a86a29524f4d7b68ba155f5c08afa444a3b40f7071892"
+    },
+    "languagetool.zip": {
+      "url": "https://languagetool.org/download/LanguageTool-6.6.zip",
+      "sha256": "53600506b399bb5ffe1e4c8dec794fd378212f14aaf38ccef9b6f89314d11631"
+    }
+  },
+  "seed": 4242,
+  "max_errors": 2,
+  "max_documents": null,
+  "source_snapshots": [
+    {
+      "repo_id": "common-pile/news",
+      "revision": "13e76bdc8d49ed14d710fac7e3b61186cf74c8d3",
+      "file": "v0/documents/00000_360info.jsonl.gz",
+      "sha256": "6b2f94dd7f79fb72c9765067f6c96549d7e43fe2bc42329ca1fabbe38a78a78c"
+    },
+    {
+      "repo_id": "common-pile/public_domain_review",
+      "revision": "e9c7669206b95871601fe4672a484d8215e6fe6f",
+      "file": "v0/00000_essays.jsonl.gz",
+      "sha256": "825aed6a66ab14f89e1fe3110f67265d511994c52e5aed48b866a9e8a1bdeb4d"
+    }
+  ],
+  "sources_config_sha256": "90c4cf26d3baf84ca317f85553c3b7004e5db2c99a79abe53959cc841dc79649",
+  "rulebook_sha256": "cb33db5b156b7ff03ec887932f4ad961ce876a3ad79b0f623c5850e1d1c6c9e4",
+  "source_exclusions_sha256": "7edb92a06136c60e526d4b6e503a86e75a4a158435d108876ccc8d019cf2bb34",
+  "parser": {
+    "package": "en_core_web_md",
+    "version": "3.8.0",
+    "spacy": "3.8.16"
+  },
+  "runtime": {
+    "python": "3.13.15",
+    "requests": "2.32.5"
+  },
+  "code_sha256": {
+    "build_english.py": "602589b1c30c06085ae034674f8d74288f3ffa96a48fce31976db121ccc718e3",
+    "common_pile.py": "cdc3946498d5af4c0a77e4459dac5c76137778944dff20f11e43f305edd0031c",
+    "create_dala.py": "33f82287c20968cbffe53d1a82feb5076d3f922d519adffc537a8e9896c1396d",
+    "curation.py": "fd12065ed5935372d4efbe663f7486a5fa20fff543d9c7a088c36cce05b09f76",
+    "dala_corrupt.py": "dbaf38e4a76594103c052cc964b9fb2bce54a477e465e102c2cbf3cb4836d490",
+    "dala_enums.py": "41b38265e6f834bc81a53810984de1cc68b64e0832239b0b3bccd3e03a1f4536",
+    "dala_utils.py": "b332ef772be7e7d32bd15cac5896fca34ec4e6cce4606f83be6f95aa57a586ee",
+    "dataset_review.py": "ea6e59f20650f9ab284d4dc93d48fa6ae4419e298c350be7206aa3c9386bee73",
+    "english.py": "58c5841f892f026fa2ce4a974f0530dce1a017ff8dcaad611cf188b82fba55e0",
+    "english_rules.py": "7fda581ee352c3d660ec9551bce02fe7daa151e9e3110c45be5f8620b55011f3",
+    "error_evidence.py": "c54ba9466a03c0a2d0d57fc3db8796b395394f94046037ff9daa9bd7aeab9d91",
+    "language_check.py": "c462f21ccd0b65ea945f486482435b4f6425138b5f904a42965ab5d6d9c83530",
+    "languages.py": "89d04751e1de3935c8dc82a0f0f6698acb3147acad4d83e373ce33c977281009",
+    "load_ud.py": "9fe33a2a1c46d5a50bf1d3c564c6cd1be4c5e4defeabe3d468e62a5344f983a6",
+    "multilingual.py": "4115392b822001ced055d693d23c253e32757b68df2dd5daabcf4d60da478438",
+    "ud_annotations.py": "c1abdaf06aefa3091abcd1ba93ef006f778aae3c52b505ff3fcc432b50f86a48",
+    "validate_dataset.py": "99d4d30bcc0eb3ff5a0d5cd725af6184ffe31503a3a9bbefcae9fe502786d920"
+  },
+  "counts": {
+    "documents": 1939,
+    "paragraphs": 38107,
+    "sentences": 81749
+  },
+  "rejections": {
+    "audited_source_exclusion": 3,
+    "boilerplate": 227,
+    "checker_missed_edit": 3710,
+    "checker_source_error": 1031,
+    "existing_determiner_mismatch": 364,
+    "fragment_or_format": 5856,
+    "known_misspelling": 1,
+    "length": 7390,
+    "near_duplicate": 89,
+    "no_finite_main_verb": 634,
+    "no_licensed_corruption": 34039,
+    "no_main_subject": 3089,
+    "no_verbal_root": 1339,
+    "nonprose": 978,
+    "quotation_or_ellipsis": 7320,
+    "text_collision": 119,
+    "unknown_non_name_word": 1457
+  },
+  "eligible_sentences_by_type": {
+    "modal_verb_form": 3026,
+    "demonstrative_number": 4663,
+    "subject_verb_agreement": 2427,
+    "spelling": 12097,
+    "do_support_form": 205,
+    "noun_number": 106,
+    "perfect_participle": 105
+  },
+  "selected_edits_by_type": {
+    "spelling": 9864,
+    "modal_verb_form": 1181,
+    "demonstrative_number": 2195,
+    "subject_verb_agreement": 1880,
+    "do_support_form": 123,
+    "noun_number": 92,
+    "perfect_participle": 78
+  },
+  "verification": {
+    "pairs": 14103,
+    "unique_documents": 1642,
+    "exact_edit_reconstruction": true,
+    "correction_roundtrip": true,
+    "document_split_isolation": true,
+    "exported_text_unique": true,
+    "at_most_one_grammar_edit": true
+  },
+  "splits": {
+    "train": {
+      "pairs": 11212,
+      "acceptability_rows": 22424,
+      "correction_rows": 22424,
+      "edits_by_type": {
+        "demonstrative_number": 1776,
+        "do_support_form": 98,
+        "modal_verb_form": 942,
+        "noun_number": 69,
+        "perfect_participle": 59,
+        "spelling": 7823,
+        "subject_verb_agreement": 1496
+      },
+      "pairs_by_error_count": {
+        "1": 10161,
+        "2": 1051
+      },
+      "pairs_by_source": {
+        "360info": 8800,
+        "public_domain_review_essays": 2412
+      }
+    },
+    "validation": {
+      "pairs": 1367,
+      "acceptability_rows": 2734,
+      "correction_rows": 2734,
+      "edits_by_type": {
+        "demonstrative_number": 189,
+        "do_support_form": 17,
+        "modal_verb_form": 119,
+        "noun_number": 17,
+        "perfect_participle": 9,
+        "spelling": 953,
+        "subject_verb_agreement": 181
+      },
+      "pairs_by_error_count": {
+        "1": 1249,
+        "2": 118
+      },
+      "pairs_by_source": {
+        "360info": 987,
+        "public_domain_review_essays": 380
+      }
+    },
+    "test": {
+      "pairs": 1524,
+      "acceptability_rows": 3048,
+      "correction_rows": 3048,
+      "edits_by_type": {
+        "demonstrative_number": 230,
+        "do_support_form": 8,
+        "modal_verb_form": 120,
+        "noun_number": 6,
+        "perfect_participle": 10,
+        "spelling": 1088,
+        "subject_verb_agreement": 203
+      },
+      "pairs_by_error_count": {
+        "1": 1383,
+        "2": 141
+      },
+      "pairs_by_source": {
+        "360info": 1226,
+        "public_domain_review_essays": 298
+      }
+    }
+  },
+  "artifacts": {
+    "README.md": {
+      "sha256": "a91b49764e900a3d8bde14bd9af25ab4e83bcdd529e1646e94a238ab08bfcdea",
+      "bytes": 2501
+    },
+    "documents.jsonl": {
+      "sha256": "2bac441ed2e1666479c36013cc5795bb1bf387fa3b0185ea752d8aa6ed50533f",
+      "bytes": 952238
+    },
+    "review.csv": {
+      "sha256": "c3ee07d7a6592cdd6250b71026109ba5d2bd09a9baa4b06faf0d613d12103a2e",
+      "bytes": 633813
+    },
+    "rules.json": {
+      "sha256": "cb33db5b156b7ff03ec887932f4ad961ce876a3ad79b0f623c5850e1d1c6c9e4",
+      "bytes": 97891
+    },
+    "test/acceptability.csv": {
+      "sha256": "5d3c5b0d3dfbd51743b9ffc9f35451401ff79ca04485798438388afce69c1ff3",
+      "bytes": 842826
+    },
+    "test/acceptability.jsonl": {
+      "sha256": "e0117d4daff39440e9e9177fc1a64e49120a333eb370150f601e97f4ca0246f6",
+      "bytes": 1234722
+    },
+    "test/acceptability_it.jsonl": {
+      "sha256": "34e41824fab54398786610dae84b12fd59b54258f00111e1c72bc5ce3bce06e6",
+      "bytes": 1722466
+    },
+    "test/correction_it.jsonl": {
+      "sha256": "88a8cfb05c031dbd205898d4a17fd9ffdf9fc178cee28f16c12f7794df8be0e8",
+      "bytes": 3027906
+    },
+    "test/pairs.jsonl": {
+      "sha256": "dff8a53cc66b09dd413e7a5b06afe6a1495cc17e42b9a46ab997f51e707ca577",
+      "bytes": 2542990
+    },
+    "train/acceptability.csv": {
+      "sha256": "edd8e46b1ea63fe7f83ccd931d3dad46e0dc6c38b9e9fb057bad040798cc5f74",
+      "bytes": 6181053
+    },
+    "train/acceptability.jsonl": {
+      "sha256": "b1367104335665bea596560d5411cf916c690b69bba86f06ebd6da0bb8b335e9",
+      "bytes": 9066703
+    },
+    "train/acceptability_it.jsonl": {
+      "sha256": "f4ad369d94d14093d02ab368b89efc9d239941e90ac4bb1c4a5b0835f416205d",
+      "bytes": 12655416
+    },
+    "train/correction_it.jsonl": {
+      "sha256": "fd555f5a06fff65134adb76f957dba1d59f0e315345f66b88a2c05fbb3aedc2c",
+      "bytes": 22244448
+    },
+    "train/pairs.jsonl": {
+      "sha256": "74831a5cb654ad3a308f361007a2afce2a669389c5fa68bd46b1d3c5d9abb6df",
+      "bytes": 18749068
+    },
+    "validation/acceptability.csv": {
+      "sha256": "582a0087ee30eb2908460ddc6ee04140e8c00f03d6991a461cd687f2e5519f89",
+      "bytes": 748681
+    },
+    "validation/acceptability.jsonl": {
+      "sha256": "27ac496ebba815422bc1162317596262075554e6bd95e5da520a0f69dc73c0c9",
+      "bytes": 1100327
+    },
+    "validation/acceptability_it.jsonl": {
+      "sha256": "0f3a87b971909999619065c0ae201a49f4bacd08f2665773ef16c228532382fa",
+      "bytes": 1537691
+    },
+    "validation/correction_it.jsonl": {
+      "sha256": "850431a061d4e67d351c2b1180e9059523ed4526ed163e477e1d69a1bd56fa25",
+      "bytes": 2699113
+    },
+    "validation/pairs.jsonl": {
+      "sha256": "21bf3f86705ed79a0fdc2de03ed076effae24dbc46811aa4a6f43dfcf7c8561a",
+      "bytes": 2286854
+    }
+  }
+}

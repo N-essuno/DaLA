@@ -1,0 +1,6 @@
+{
+  "language": "nb",
+  "exit_code": 0,
+  "log": "wiki/artifacts/six-language-expansion/nb-audit_v13.log",
+  "output": "la_output/nb_dynaword_audit_v13"
+}

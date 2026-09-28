@@ -1,0 +1,24 @@
+{
+  "pairs": 7543,
+  "removed": 142,
+  "sources": {
+    "officiele_bekendmakingen": 5307,
+    "de_rechtspraak": 2236
+  },
+  "validation": {
+    "pairs": 7543,
+    "unique_documents": 351,
+    "exact_edit_reconstruction": true,
+    "correction_roundtrip": true,
+    "document_split_isolation": true,
+    "exported_text_unique": true,
+    "at_most_one_grammar_edit": true,
+    "artifact_checksums": true,
+    "task_views_match_pairs": true,
+    "balanced_labels": true,
+    "source_provenance_consistent": true
+  },
+  "parent_source_checks": "wiki/artifacts/dutch-extension-pilot-assessment/summary.json",
+  "unchanged_subset": true,
+  "manifest_sha256": "4b39348eda7fd0fad48e290a89373cb0ad6f923f08a5d14cc602f403f2fb898b"
+}

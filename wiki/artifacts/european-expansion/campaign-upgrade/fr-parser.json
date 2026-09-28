@@ -1,0 +1,34 @@
+{
+  "language": "fr",
+  "paragraphs": 40,
+  "accepted_sources_equal": true,
+  "grammar_candidates_equal": true,
+  "runs": [
+    {
+      "accepted_sources": 17,
+      "grammar_candidates": 20,
+      "candidates": 228,
+      "seconds": 3.4006638440769166,
+      "timings": {
+        "tokenize": 0.387356712250039,
+        "syntax": 2.292994837742299
+      },
+      "rejections": {}
+    },
+    {
+      "accepted_sources": 17,
+      "grammar_candidates": 20,
+      "candidates": 228,
+      "seconds": 1.9195621791295707,
+      "timings": {
+        "tokenize": 0.399428992299363,
+        "syntax": 1.4855715360026807
+      },
+      "rejections": {
+        "parser_prefilter_punctuation_spacing": 3,
+        "parser_prefilter_fragment_or_format": 20,
+        "parser_prefilter_length": 2
+      }
+    }
+  ]
+}

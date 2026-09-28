@@ -1,0 +1,9 @@
+{
+  "prior_launch_receipts": [
+    "wiki/artifacts/six-language-expansion/scaled64_v2/builds-launch.json",
+    "wiki/artifacts/six-language-expansion/screening_v1/builds-launch.json",
+    "wiki/artifacts/six-language-expansion/screening_v1/finalizer-launch.json"
+  ],
+  "live_processes": [],
+  "all_checkpoints_preserved": true
+}

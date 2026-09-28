@@ -1,0 +1,2807 @@
+{
+  "seed": "dala-dutch-dynaword-audit-v1",
+  "method": "Uniform sample without replacement of frozen build pairs; judgments added separately",
+  "rows": [
+    {
+      "sample_id": "nl-000",
+      "pair_id": "4b93a395d9e93af248f0eb16",
+      "split": "train",
+      "document_id": "4f781d0e434d2effb980ea8b51a0f934cb9c30572eb0a96227a0d748c5035cc5",
+      "original": "Het maximaal aantal bezoekers per gedetineerde blijft gehandhaafd.",
+      "corrupted": "Het maximaal aantal bezoekers per gedetineerde blijfft gehandhaafd.",
+      "edits": [
+        {
+          "corrupted_end": 54,
+          "corrupted_start": 47,
+          "corruption_type": "spelling",
+          "end": 53,
+          "original": "blijft",
+          "protected_tokens": [
+            39
+          ],
+          "replacement": "blijfft",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 47
+        }
+      ],
+      "source_judgment": "uncertain",
+      "intended_edits_judgment": "valid_error",
+      "notes": "The uninflected adjective in het maximaal aantal needs native adjudication; do not certify this as a clean target.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-001",
+      "pair_id": "b6203c69be2ec117845a604e",
+      "split": "train",
+      "document_id": "a896fdc983a230bd2e3c65a98bcc18b08072f869ab62fa4d7e4341ae77c68548",
+      "original": "Telkens worden stappen gezet om de leefsituatie verder te verbeteren.",
+      "corrupted": "Telkens worden stappen gezet om de leefsituatie verder te verbeteern.",
+      "edits": [
+        {
+          "corrupted_end": 68,
+          "corrupted_start": 58,
+          "corruption_type": "spelling",
+          "end": 68,
+          "original": "verbeteren",
+          "protected_tokens": [
+            96
+          ],
+          "replacement": "verbeteern",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 58
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-002",
+      "pair_id": "c33011ea801afc04cb18d88c",
+      "split": "train",
+      "document_id": "7ddad1364f88ccffcb40b1162df3ab02aec655aba5bd1a39afd0a6d995385ef7",
+      "original": "Ik snap ook wel dat het niet 1 op 1 kan, een opvoedhulp kan je niet zo bij de GGZ zetten, maar een beetje flexibiliteit kan geen kwaad.",
+      "corrupted": "Ik snap ook wel dat het niet 1 op 1 kan, een opvoedhulp kan je niet zo bij de GGZ zetten, maar een beejte flexibiliteit kan geen kwaad.",
+      "edits": [
+        {
+          "corrupted_end": 105,
+          "corrupted_start": 99,
+          "corruption_type": "spelling",
+          "end": 105,
+          "original": "beetje",
+          "protected_tokens": [
+            184
+          ],
+          "replacement": "beejte",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 99
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-003",
+      "pair_id": "580427aef68d4800929ec4d4",
+      "split": "train",
+      "document_id": "d12cb4c63df314505c76a7a07eb4698ea76667e7379eecdf5daacc20dff0654c",
+      "original": "Je hoeft je niet te laten vertellen wat je wel en niet kan.",
+      "corrupted": "Je hoeft je niet te laten vretellen wat je wel en niet kan.",
+      "edits": [
+        {
+          "corrupted_end": 35,
+          "corrupted_start": 26,
+          "corruption_type": "spelling",
+          "end": 35,
+          "original": "vertellen",
+          "protected_tokens": [
+            67
+          ],
+          "replacement": "vretellen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 26
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-004",
+      "pair_id": "8cb6f59621dca78e4ed426bf",
+      "split": "validation",
+      "document_id": "43ac791be22adc287f44e45570d46b5a6cfe66a05233d236bca726745958f898",
+      "original": "Ik had Robert zelf binnengelaten, hij gebruikte geen geweld, ik had niks gedaan om het te stoppen.",
+      "corrupted": "Ik had Robert zelf binengelaten, hij gebruikte geen geweld, ik had niks gedaan om het te stoppen.",
+      "edits": [
+        {
+          "corrupted_end": 31,
+          "corrupted_start": 19,
+          "corruption_type": "spelling",
+          "end": 32,
+          "original": "binnengelaten",
+          "protected_tokens": [
+            102
+          ],
+          "replacement": "binengelaten",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:delete_doubled_consonant",
+          "start": 19
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-005",
+      "pair_id": "d81f6253726326f89d0daff3",
+      "split": "train",
+      "document_id": "ed870e92fd7a40080e0164bd37d111ea271f82f409425cb4edc7dd4bd8782135",
+      "original": "De directie is leidend bij het sturen op de rechtmatige en doelmatige besteding van financiële middelen die door het Rijksvastgoedbedrijf stromen.",
+      "corrupted": "De directie is leidend bij het sturen op de rechtmatige en doelmatige bestedding van financiële middelen die door het Rijksvastgoedbedrijf stromen.",
+      "edits": [
+        {
+          "corrupted_end": 80,
+          "corrupted_start": 70,
+          "corruption_type": "spelling",
+          "end": 79,
+          "original": "besteding",
+          "protected_tokens": [
+            46
+          ],
+          "replacement": "bestedding",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 70
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-006",
+      "pair_id": "7b67c15902109039c83713b0",
+      "split": "test",
+      "document_id": "920ce80def85d68f01cff1decdc8ea78fa76558afb8dd027e1bf3a64fcee05c0",
+      "original": "De Duitse ontwikkelingsorganisatie Gesellschaft für Technische Zusammenarbeit (GTZ) heeft deze week een kantoor in Tarin Kowt geopend.",
+      "corrupted": "De Duitse ontwikkelingsorganisatie Gesellschaft für Technische Zusammenarbeit (GTZ) heeft deze week een kanntoor in Tarin Kowt geopend.",
+      "edits": [
+        {
+          "corrupted_end": 112,
+          "corrupted_start": 104,
+          "corruption_type": "spelling",
+          "end": 111,
+          "original": "kantoor",
+          "protected_tokens": [
+            14
+          ],
+          "replacement": "kanntoor",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 104
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-007",
+      "pair_id": "2e6db3f7ec8e61cdde3c56a9",
+      "split": "train",
+      "document_id": "35104432c2dd37cf67bc60c4f08ca1eec62ab7209dab005d514b69db3c52a4d5",
+      "original": "Hiermee waarderen we kwaliteit in het belang van de huurder en geldt voor die woningen dat een investeerder meer ruimte heeft om zijn investering terug te verdienen.",
+      "corrupted": "Hiermee waarderen we kwaliteit in het belang van de huurder en geldt voor die woningen dat een investeerder meer ruimte heeft om zijn investering terrug te verdienen.",
+      "edits": [
+        {
+          "corrupted_end": 152,
+          "corrupted_start": 146,
+          "corruption_type": "spelling",
+          "end": 151,
+          "original": "terug",
+          "protected_tokens": [
+            101
+          ],
+          "replacement": "terrug",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 146
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-008",
+      "pair_id": "8f838679f45baa656d06f4af",
+      "split": "test",
+      "document_id": "0d722a98ee1d0c72e7b22448af2f647aeef9975429b4740a14082ba3fde752a7",
+      "original": "We werken binnen Emissiehandel uiteindelijk met verschillende teams allemaal aan hetzelfde gezamenlijke doel.",
+      "corrupted": "We werkt binnen Emissiehandel uiteindelijk met verschillende teams allemaal aan hetzelfde gezamenlijke doel.",
+      "edits": [
+        {
+          "corrupted_end": 8,
+          "corrupted_start": 3,
+          "corruption_type": "subject_verb_agreement",
+          "end": 9,
+          "original": "werken",
+          "protected_tokens": [
+            39,
+            40
+          ],
+          "replacement": "werkt",
+          "rule_id": "subject_verb_agreement:we:werken>werkt",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-009",
+      "pair_id": "2aceeb708822c02efb14280b",
+      "split": "test",
+      "document_id": "0d722a98ee1d0c72e7b22448af2f647aeef9975429b4740a14082ba3fde752a7",
+      "original": "Gelukkig is daar een studie voor: Technische Bedrijfskunde.",
+      "corrupted": "Gelukkig is daar een sutdie voor: Technische Bedrijfskunde.",
+      "edits": [
+        {
+          "corrupted_end": 27,
+          "corrupted_start": 21,
+          "corruption_type": "spelling",
+          "end": 27,
+          "original": "studie",
+          "protected_tokens": [
+            52
+          ],
+          "replacement": "sutdie",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 21
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-010",
+      "pair_id": "943f52232d34c80cd4b301d9",
+      "split": "train",
+      "document_id": "ac67473e7e1f5d5bc0c35f1189dcb881a99b905362fed5f244fb20e1fa90289d",
+      "original": "Als die uitkomst voor patiënten het startpunt is, dan moet preventie wel meer onderdeel worden van de zorg.",
+      "corrupted": "Als die uitkomst voor patiënten het satrtpunt is, dan moet preventie wel meer onderdeel worden van de zorg.",
+      "edits": [
+        {
+          "corrupted_end": 45,
+          "corrupted_start": 36,
+          "corruption_type": "spelling",
+          "end": 45,
+          "original": "startpunt",
+          "protected_tokens": [
+            35
+          ],
+          "replacement": "satrtpunt",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 36
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-011",
+      "pair_id": "5cbd275cfbedc1a1f85f7280",
+      "split": "train",
+      "document_id": "c029c01f4f35b3ea4a955cbedd3af532bc8572278c898fb01b245589f9813e50",
+      "original": "Ze komen vooral voor langs rivieren en in het kustgebied.",
+      "corrupted": "Ze komen voorral voor langs rivieren en in het kustgebied.",
+      "edits": [
+        {
+          "corrupted_end": 16,
+          "corrupted_start": 9,
+          "corruption_type": "spelling",
+          "end": 15,
+          "original": "vooral",
+          "protected_tokens": [
+            23
+          ],
+          "replacement": "voorral",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 9
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-012",
+      "pair_id": "f8053296de2ca6241e509648",
+      "split": "train",
+      "document_id": "08fab1544377fa41ac14d8295599c325e8629accc8c0610b67170b6d14567854",
+      "original": "Het fabriekscomplex is inmiddels getransformeerd tot een woonwijk, waarbij verschillende industriële monumenten zijn behouden.",
+      "corrupted": "Het fabriekscomplex is inmiddels getransformeerd tot een woonwijk, warabij verschillende industriële monumenten zijn behouden.",
+      "edits": [
+        {
+          "corrupted_end": 74,
+          "corrupted_start": 67,
+          "corruption_type": "spelling",
+          "end": 74,
+          "original": "waarbij",
+          "protected_tokens": [
+            76
+          ],
+          "replacement": "warabij",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 67
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-013",
+      "pair_id": "509fcfbb8132a371209fd37a",
+      "split": "validation",
+      "document_id": "6e59cd1e6fbf1b816a1b434fe6374695e876c5dd6fe52c5546203d981f983dba",
+      "original": "Voor de EU-afdracht van Nederland gaat het niet alleen om brexit, maar ook om het Meerjarig Financieel Kader 2021-2027 van de EU.",
+      "corrupted": "Voor de EU-afdracht van Nederland gaat het niet alelen om brexit, maar ook om het Meerjarig Financieel Kader 2021-2027 van de EU.",
+      "edits": [
+        {
+          "corrupted_end": 54,
+          "corrupted_start": 48,
+          "corruption_type": "spelling",
+          "end": 54,
+          "original": "alleen",
+          "protected_tokens": [
+            58
+          ],
+          "replacement": "alelen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 48
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-014",
+      "pair_id": "2a604fcb10060c434f3905c3",
+      "split": "test",
+      "document_id": "d1dd0f127fd93d8d09d4d1de868f00b28752f70d453500ca8e0f351d5e74323f",
+      "original": "Ook in het landschap is dit onderscheid in type bedrijven terug te zien.",
+      "corrupted": "Ook in het landschap is dit onderscheid in type bedrijvven terug te zien.",
+      "edits": [
+        {
+          "corrupted_end": 58,
+          "corrupted_start": 48,
+          "corruption_type": "spelling",
+          "end": 57,
+          "original": "bedrijven",
+          "protected_tokens": [
+            9
+          ],
+          "replacement": "bedrijvven",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 48
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-015",
+      "pair_id": "09f0b8ce8266460892cdabf8",
+      "split": "train",
+      "document_id": "c83f4e7c39d5f79e27893dcf7b3eef5dc3245b7ea865033d62a6fd3eb5da22fb",
+      "original": "Als overheid moeten we de centrale duider proberen te blijven', gaf Leonie aan.",
+      "corrupted": "Als overheid moeten we de centtrale duider proberen te blijven', gaf Leonie aan.",
+      "edits": [
+        {
+          "corrupted_end": 35,
+          "corrupted_start": 26,
+          "corruption_type": "spelling",
+          "end": 34,
+          "original": "centrale",
+          "protected_tokens": [
+            42
+          ],
+          "replacement": "centtrale",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 26
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Sentence extraction leaves a closing quotation mark with no opening quotation boundary.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-016",
+      "pair_id": "f31d79f5593fe594c2178048",
+      "split": "train",
+      "document_id": "d12cb4c63df314505c76a7a07eb4698ea76667e7379eecdf5daacc20dff0654c",
+      "original": "Daarom hebben de jongeren een centrale positie in alles wat de University doet.",
+      "corrupted": "Daarom hebben de jnogeren een centrale positie in alles wat de University doet.",
+      "edits": [
+        {
+          "corrupted_end": 25,
+          "corrupted_start": 17,
+          "corruption_type": "spelling",
+          "end": 25,
+          "original": "jongeren",
+          "protected_tokens": [
+            31
+          ],
+          "replacement": "jnogeren",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 17
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-017",
+      "pair_id": "60ddd7a19105727f01975447",
+      "split": "train",
+      "document_id": "23f61488423bf94d2d97f60a6d0f028c96c752b0091baf952376211b9849d8b4",
+      "original": "Vervolgens nemen zij de bom mee voor onderzoek om achter de identiteit van de legger te komen.",
+      "corrupted": "Vervolgens nemen zij de bom mee voor onderzoek om achter de identitteit van de legger te komen.",
+      "edits": [
+        {
+          "corrupted_end": 71,
+          "corrupted_start": 60,
+          "corruption_type": "spelling",
+          "end": 70,
+          "original": "identiteit",
+          "protected_tokens": [
+            406
+          ],
+          "replacement": "identitteit",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 60
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-018",
+      "pair_id": "8758a16c3d2c03b087f40232",
+      "split": "train",
+      "document_id": "2e52410f739827668a854d91aee5f77297843f27d1ffdb53e68bbeba4336906e",
+      "original": "Zo is de meest recente brief over de Continuïteitsparagraaf opgenomen en ook de in het vorige punt genoemde brief van het Ministerie van Financiën (Normenkader).",
+      "corrupted": "Zo is de meest recente brief over de Continuïteitsparagraaf opgenommen en ook de in het vorige punt genoemde brief van het Ministerie van Financiën (Normenkader).",
+      "edits": [
+        {
+          "corrupted_end": 70,
+          "corrupted_start": 60,
+          "corruption_type": "spelling",
+          "end": 69,
+          "original": "opgenomen",
+          "protected_tokens": [
+            42
+          ],
+          "replacement": "opgenommen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 60
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-019",
+      "pair_id": "915f23967fab25f6027ef952",
+      "split": "train",
+      "document_id": "91f6463e39593149511b3d56ccc2619829db1d31e288496a9dc3db9c929de5a9",
+      "original": "Tegelijkertijd horen we in interviews (sporadisch) dat verbeteringen merkbaar zijn.",
+      "corrupted": "Tegelijkertijd hoern we in interviews (sporadisch) dat verbeteringen merkbaar zijn.",
+      "edits": [
+        {
+          "corrupted_end": 20,
+          "corrupted_start": 15,
+          "corruption_type": "spelling",
+          "end": 20,
+          "original": "horen",
+          "protected_tokens": [
+            1
+          ],
+          "replacement": "hoern",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 15
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-020",
+      "pair_id": "8c6a44e11553a9387bc47c0d",
+      "split": "train",
+      "document_id": "a9ea262fc032bff9dc82d0c05454acda1f92e484f6440b6dd91ed37e916eb539",
+      "original": "Met zijn tienen draaien we mee in hun team.",
+      "corrupted": "Met zijn tiennen draaien we mee in hun team.",
+      "edits": [
+        {
+          "corrupted_end": 16,
+          "corrupted_start": 9,
+          "corruption_type": "spelling",
+          "end": 15,
+          "original": "tienen",
+          "protected_tokens": [
+            68
+          ],
+          "replacement": "tiennen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 9
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-021",
+      "pair_id": "1e9e3c218583191f89424d71",
+      "split": "train",
+      "document_id": "90627663e3c2e9d89ef84e92a93e4f7821afa4e777dc7a71655d7a1ff6352336",
+      "original": "DCS telt vijf afdelingen die integraal worden aangestuurd door afdelingshoofden.",
+      "corrupted": "DCS telt vijf afdelinngen die integraal worden aangestuurd door afdelingshoofden.",
+      "edits": [
+        {
+          "corrupted_end": 25,
+          "corrupted_start": 14,
+          "corruption_type": "spelling",
+          "end": 24,
+          "original": "afdelingen",
+          "protected_tokens": [
+            23
+          ],
+          "replacement": "afdelinngen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 14
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-022",
+      "pair_id": "e28276238cbcebad9d1fc2c6",
+      "split": "train",
+      "document_id": "3a82ec67c190b064da66e8ab079e573096bd65d731e4e41903e5ae7182333ddb",
+      "original": "Of omdat de gemeente te weinig capaciteit heeft om plannen te ontwikkelen.",
+      "corrupted": "Of omdat de gemeetne te weinig capaciteit heeft om plannen te ontwikkelen.",
+      "edits": [
+        {
+          "corrupted_end": 20,
+          "corrupted_start": 12,
+          "corruption_type": "spelling",
+          "end": 20,
+          "original": "gemeente",
+          "protected_tokens": [
+            106
+          ],
+          "replacement": "gemeetne",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 12
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Standalone Of omdat subordinate clause; fails the complete-sentence source contract even if acceptable in discourse.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-023",
+      "pair_id": "ef1728bd158891b1acc9a7c4",
+      "split": "validation",
+      "document_id": "15015a21109d84dba67f932b73d252cba169a78c1de5e7b843c9181708dc340b",
+      "original": "Een team van Rijksconsultants en Delta Review maakte een evaluatie van de aanpak en opzet van de programmadirectie Oekraïense Ontheemden en de Nationale Opvang Organisatie sinds het uitbreken van de oorlog.",
+      "corrupted": "Een team van Rijksconsultants en Delta Review makate een evaluatie van de aanpak en opzet van de programmadirectie Oekraïense Ontheemden en de Nationale Opvang Organisatie sinds het uitbreken van de oorlog.",
+      "edits": [
+        {
+          "corrupted_end": 52,
+          "corrupted_start": 46,
+          "corruption_type": "spelling",
+          "end": 52,
+          "original": "maakte",
+          "protected_tokens": [
+            27
+          ],
+          "replacement": "makate",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 46
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-024",
+      "pair_id": "70bb26b702825f19dcf814ec",
+      "split": "train",
+      "document_id": "0742746fb53232121647e1df0f6a3aa8cc5658def2801fad37e53c418ec43d05",
+      "original": "Niet zelden gebeurde dat door de plaatsing van een compleet voorhuis in de dwarsrichting, waardoor sprake is van een dwarshuis.",
+      "corrupted": "Niet zelden gebeurde dat door de pllaatsing van een compleet voorhuis in de dwarsrichting, waardoor sprake is van een dwarshuis.",
+      "edits": [
+        {
+          "corrupted_end": 43,
+          "corrupted_start": 33,
+          "corruption_type": "spelling",
+          "end": 42,
+          "original": "plaatsing",
+          "protected_tokens": [
+            683
+          ],
+          "replacement": "pllaatsing",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 33
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-025",
+      "pair_id": "700b717ad0b526f9d612191d",
+      "split": "train",
+      "document_id": "dc83d687ffc413d27a1b1914b3f533c4908862f8c517d2306eaaced375232cbb",
+      "original": "Daarnaast gaan we ook een online zelfscan aanbieden voor bedrijven.",
+      "corrupted": "Daarnaast gaan we ook een onilne zelfscan aanbieden voor bedrijven.",
+      "edits": [
+        {
+          "corrupted_end": 32,
+          "corrupted_start": 26,
+          "corruption_type": "spelling",
+          "end": 32,
+          "original": "online",
+          "protected_tokens": [
+            5
+          ],
+          "replacement": "onilne",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 26
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-026",
+      "pair_id": "30915dacaee52da0b84eb7bc",
+      "split": "train",
+      "document_id": "b58bd7bc5c5138ef7f985c28b2ec0124fd84ce60cd18972dfc1ee1e3ba0cc41e",
+      "original": "De kern van de taakgroep in Mali bestaat uit verkenners en luchtmobiele infanteristen die informatie verzamelen voor MINUSMA.",
+      "corrupted": "De kern van de taakgroep in Mali bestaat uit verkkenners en luchtmobiele infanteristen die informatie verzamelen voor MINUSMA.",
+      "edits": [
+        {
+          "corrupted_end": 56,
+          "corrupted_start": 45,
+          "corruption_type": "spelling",
+          "end": 55,
+          "original": "verkenners",
+          "protected_tokens": [
+            9
+          ],
+          "replacement": "verkkenners",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 45
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-027",
+      "pair_id": "cc427e8bf89253f0228c75d3",
+      "split": "test",
+      "document_id": "b3cf3ad2f96bf5c6ca5d31969eff62ed370addc4b3a62a50e26e6257f974a698",
+      "original": "Voor meer U moet zich laten uitschrijven uit de Basisregistratie Personen (BRP) als u in een periode van een jaar meer dan 8 maanden in het buitenland verblijft.",
+      "corrupted": "Voor meer U moet zich laten uitschrijven uit de Basisregistratie Personen (BRP) als u in een periode van een jaar meer dan 8 maanden in het buitneland verblijft.",
+      "edits": [
+        {
+          "corrupted_end": 150,
+          "corrupted_start": 140,
+          "corruption_type": "spelling",
+          "end": 150,
+          "original": "buitenland",
+          "protected_tokens": [
+            131
+          ],
+          "replacement": "buitneland",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 140
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Extraction debris Voor meer is joined to U moet ... at the start.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-028",
+      "pair_id": "358e5174f9eb0ce4d2c169a6",
+      "split": "train",
+      "document_id": "6422abf8242fb85baf076a5051569536455e348d75c7856d4ef5d94360e002a7",
+      "original": "De Kooy blijft in 2005 als enige marinevliegkamp over, als Valkenburg door bezuinigingen moet sluiten en de P-3C Orion patrouillevliegtuigen worden verkocht.",
+      "corrupted": "De Kooy blijft in 2005 als enige marinevliegkamp over, als Valkenburg door bezuinigingen moet sluitten en de P-3C Orion patrouillevliegtuigen worden verkocht.",
+      "edits": [
+        {
+          "corrupted_end": 102,
+          "corrupted_start": 94,
+          "corruption_type": "spelling",
+          "end": 101,
+          "original": "sluiten",
+          "protected_tokens": [
+            157
+          ],
+          "replacement": "sluitten",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 94
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-029",
+      "pair_id": "737e8a98c5767ee91430997e",
+      "split": "train",
+      "document_id": "2fc09b1f4e08b73073db119f717adb6887f98524d75ff5603c2b02ec72ebada8",
+      "original": "Op het terrein wordt grove steenslag gestort, waarna fijne steenslag en zand volgen.",
+      "corrupted": "Op het terrein wordt grove steenslag gestort, waarna fijne steenslag en zand voglen.",
+      "edits": [
+        {
+          "corrupted_end": 83,
+          "corrupted_start": 77,
+          "corruption_type": "spelling",
+          "end": 83,
+          "original": "volgen",
+          "protected_tokens": [
+            71
+          ],
+          "replacement": "voglen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 77
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-030",
+      "pair_id": "da24c1615d142ec0096268f4",
+      "split": "train",
+      "document_id": "9cda05d09ad04d1974424c9f075264f48397d875488e7bbc436a5f7b0bf88b9b",
+      "original": "Er is een risico op vulkaanuitbarstingen, orkanen en zware regenval.",
+      "corrupted": "Er is een risico op vulkaanuitbarstingen, okranen en zware regenval.",
+      "edits": [
+        {
+          "corrupted_end": 49,
+          "corrupted_start": 42,
+          "corruption_type": "spelling",
+          "end": 49,
+          "original": "orkanen",
+          "protected_tokens": [
+            15
+          ],
+          "replacement": "okranen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 42
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-031",
+      "pair_id": "418ede1674f238b217446b88",
+      "split": "train",
+      "document_id": "11e740c45d98a7fca08ade4b58a845743eb4cecb410dcfee16d78b5d547620eb",
+      "original": "De winnende foto maakte ik met mijn mobiel vanaf de pier in Scheveningen.",
+      "corrupted": "De winnennde foto maakte ik met mijn mobiel vanaf de pier in Scheveningen.",
+      "edits": [
+        {
+          "corrupted_end": 12,
+          "corrupted_start": 3,
+          "corruption_type": "spelling",
+          "end": 11,
+          "original": "winnende",
+          "protected_tokens": [
+            73
+          ],
+          "replacement": "winnennde",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-032",
+      "pair_id": "e2876fec1e51198f7a78f7ce",
+      "split": "train",
+      "document_id": "bc1f0a17ca7440ed531d5f4f4e950b6e95f5f0a24b6e021a23f3d21a9ed61b19",
+      "original": "Een onderdeel van hun aanpak richt zich op het voorkomen van voedselverspilling.",
+      "corrupted": "Een onedrdeel van hun aanpak richt zich op het voorkomen van voedselverspilling.",
+      "edits": [
+        {
+          "corrupted_end": 13,
+          "corrupted_start": 4,
+          "corruption_type": "spelling",
+          "end": 13,
+          "original": "onderdeel",
+          "protected_tokens": [
+            72
+          ],
+          "replacement": "onedrdeel",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 4
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-033",
+      "pair_id": "13b6f0bf0a19170d122d6d33",
+      "split": "train",
+      "document_id": "ff4b2b56281866af38915b2aadc7dc47614b35af0089f460eab24c495dfddefd",
+      "original": "Hij zag er collega's op afhaken, maar voelt zichzelf niet onveilig.",
+      "corrupted": "Hij zag er collega's op afhaken, maar voelt zichzelf niet onveillig.",
+      "edits": [
+        {
+          "corrupted_end": 67,
+          "corrupted_start": 58,
+          "corruption_type": "spelling",
+          "end": 66,
+          "original": "onveilig",
+          "protected_tokens": [
+            314
+          ],
+          "replacement": "onveillig",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 58
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-034",
+      "pair_id": "77d434fd067c38eda5d26617",
+      "split": "train",
+      "document_id": "caf678a953801ca52b9c86e36c5460f5ebfd6c2b87ee992955defb36f283afc4",
+      "original": "Er staan zware straffen op het bezit en verhandelen van verdovende middelen.",
+      "corrupted": "Er staan zwware straffen op het bezit en verhandelen van verdovende middelen.",
+      "edits": [
+        {
+          "corrupted_end": 15,
+          "corrupted_start": 9,
+          "corruption_type": "spelling",
+          "end": 14,
+          "original": "zware",
+          "protected_tokens": [
+            15
+          ],
+          "replacement": "zwware",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 9
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-035",
+      "pair_id": "a181f1804f14bf749a8ebfef",
+      "split": "train",
+      "document_id": "05bb2c7606c4760e7c695108995e29c0c0756febd5e2015d06e81bbbbebd8a40",
+      "original": "Daarnaast zocht het CBG naar een andere benadering en samenwerking.",
+      "corrupted": "Daarnaast zocht het CBG naar een andere benadering en sammenwerking.",
+      "edits": [
+        {
+          "corrupted_end": 67,
+          "corrupted_start": 54,
+          "corruption_type": "spelling",
+          "end": 66,
+          "original": "samenwerking",
+          "protected_tokens": [
+            105
+          ],
+          "replacement": "sammenwerking",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 54
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-036",
+      "pair_id": "a5acf7689d85abe197c60721",
+      "split": "train",
+      "document_id": "11cfdced710ce85c42be2c9371116b3136d807f943f87b15305adb340530196b",
+      "original": "Op de lijst staan inmiddels ruim 70 kentekens en dit aantal blijft groeien.",
+      "corrupted": "Op de lisjt staan inmiddels ruim 70 kentekens en dit aantal blijft groeien.",
+      "edits": [
+        {
+          "corrupted_end": 11,
+          "corrupted_start": 6,
+          "corruption_type": "spelling",
+          "end": 11,
+          "original": "lijst",
+          "protected_tokens": [
+            170
+          ],
+          "replacement": "lisjt",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 6
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-037",
+      "pair_id": "99ee00662ef2b3d23482e69b",
+      "split": "train",
+      "document_id": "f9d2936e5300532c49f8a48a88c446f6c4459a03dd682abe6245b33ea0f55cc1",
+      "original": "Verder moeten zorgaanbieders maatregelen nemen om de veiligheid van persoonsgegevens te garanderen.",
+      "corrupted": "Verder moeten zorgaanbieders maatregelen nemmen om de veiligheid van persoonsgegevens te garanderen.",
+      "edits": [
+        {
+          "corrupted_end": 47,
+          "corrupted_start": 41,
+          "corruption_type": "spelling",
+          "end": 46,
+          "original": "nemen",
+          "protected_tokens": [
+            108
+          ],
+          "replacement": "nemmen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 41
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-038",
+      "pair_id": "2a56733459cbc31783bc8fc4",
+      "split": "train",
+      "document_id": "5fa313f775a861b4305fc0e88a1e92afda54208214d76fbe53ebe53f65ddb777",
+      "original": "Ze vormt één geheel met een decentraal karakter, bestaande uit veel losse delen, die in grote mate zelfsturend zijn.",
+      "corrupted": "Ze vormt één geheel met een decentraal karaktter, bestaande uit veel losse delen, die in grote mate zelfsturend zijn.",
+      "edits": [
+        {
+          "corrupted_end": 48,
+          "corrupted_start": 39,
+          "corruption_type": "spelling",
+          "end": 47,
+          "original": "karakter",
+          "protected_tokens": [
+            77
+          ],
+          "replacement": "karaktter",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 39
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-039",
+      "pair_id": "2ef275d98f10ac35aa1c1459",
+      "split": "train",
+      "document_id": "0f2a50e951a97103ea4fec0ee2d42915f60062a83eadc75b9f40b8b9385dec22",
+      "original": "Om de trein waar mogelijk te versnellen worden de komende tijd invulsessies en spreekuren georganiseerd.",
+      "corrupted": "Om de trein waar mogelijk te versnellen worden de komende tijd invulsessies en spreekuren georganiseerrd.",
+      "edits": [
+        {
+          "corrupted_end": 104,
+          "corrupted_start": 90,
+          "corruption_type": "spelling",
+          "end": 103,
+          "original": "georganiseerd",
+          "protected_tokens": [
+            14
+          ],
+          "replacement": "georganiseerrd",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 90
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-040",
+      "pair_id": "b23c7e5892557ef01f85b166",
+      "split": "test",
+      "document_id": "d696b078f6a1097f740aba63eaff73759f9a322ac83798fa39e71c46d2074993",
+      "original": "Eerst en vooral willen we collega's die racisme hebben ondervonden nu steun bieden.",
+      "corrupted": "Eerst en vooral willen we collega's die rcaisme hebben ondervonden nu steun bieden.",
+      "edits": [
+        {
+          "corrupted_end": 47,
+          "corrupted_start": 40,
+          "corruption_type": "spelling",
+          "end": 47,
+          "original": "racisme",
+          "protected_tokens": [
+            126
+          ],
+          "replacement": "rcaisme",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 40
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-041",
+      "pair_id": "92617e2a067d6ac479492113",
+      "split": "train",
+      "document_id": "4d5c48edeb86549997257f2d4f8b6871b2040bf4a95db1cd540f9f96f161dca4",
+      "original": "Met deze wet krijgt de overheid weer het stuur in handen op de woningbouw.",
+      "corrupted": "Met deze wet krjigt de overheid weer het stuur in handen op de woningbouw.",
+      "edits": [
+        {
+          "corrupted_end": 19,
+          "corrupted_start": 13,
+          "corruption_type": "spelling",
+          "end": 19,
+          "original": "krijgt",
+          "protected_tokens": [
+            212
+          ],
+          "replacement": "krjigt",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 13
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-042",
+      "pair_id": "2da62a31645f9fe5c5ac8971",
+      "split": "train",
+      "document_id": "06534b54fe9e7ca978086e60d60babddf88067aea7c5fda43474743e83d706a9",
+      "original": "Veel voorstellingen, festivals en concerten worden noodgedwongen verplaatst of afgelast.",
+      "corrupted": "Veel voorstellingen, festivals en concerten worden noodgedwongen vreplaatst of afgelast.",
+      "edits": [
+        {
+          "corrupted_end": 75,
+          "corrupted_start": 65,
+          "corruption_type": "spelling",
+          "end": 75,
+          "original": "verplaatst",
+          "protected_tokens": [
+            8
+          ],
+          "replacement": "vreplaatst",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 65
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-043",
+      "pair_id": "25f7be2ea2e5d1ed1bb3d306",
+      "split": "train",
+      "document_id": "c83f4e7c39d5f79e27893dcf7b3eef5dc3245b7ea865033d62a6fd3eb5da22fb",
+      "original": "Ook het NOS Journaal zet live verslaggeving steeds vaker in, vertelde hoofdredacteur Marcel Gelauff tijdens een verdiepingssessie.",
+      "corrupted": "Ook het NOS Journaal zet live verslaggeving steeds vaker in, vertelde hoofddredacteur Marcel Gelauff tijdens een verdiepingssessie.",
+      "edits": [
+        {
+          "corrupted_end": 85,
+          "corrupted_start": 70,
+          "corruption_type": "spelling",
+          "end": 84,
+          "original": "hoofdredacteur",
+          "protected_tokens": [
+            12
+          ],
+          "replacement": "hoofddredacteur",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 70
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-044",
+      "pair_id": "5c10a028abc01bd35f06cde6",
+      "split": "train",
+      "document_id": "cd174b08f86154cf43226e300b5c28277d3e8152501436c329b91c5c143af452",
+      "original": "Bij het verhogen van het organische stofgehalte kijken we vooral naar reststromen uit de Bollenstreek.",
+      "corrupted": "Bij het verohgen van het organische stofgehalte kijken we vooral naar reststromen uit de Bollenstreek.",
+      "edits": [
+        {
+          "corrupted_end": 16,
+          "corrupted_start": 8,
+          "corruption_type": "spelling",
+          "end": 16,
+          "original": "verhogen",
+          "protected_tokens": [
+            24
+          ],
+          "replacement": "verohgen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 8
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-045",
+      "pair_id": "9d03d9d19d4a15b354242e69",
+      "split": "train",
+      "document_id": "11e740c45d98a7fca08ade4b58a845743eb4cecb410dcfee16d78b5d547620eb",
+      "original": "Ik fotografeer wat me raakt, waarvan ik in vervoering raak.",
+      "corrupted": "Ik fotografeer wat me raakkt, waarvan ik in vervoering raak.",
+      "edits": [
+        {
+          "corrupted_end": 28,
+          "corrupted_start": 22,
+          "corruption_type": "spelling",
+          "end": 27,
+          "original": "raakt",
+          "protected_tokens": [
+            20
+          ],
+          "replacement": "raakkt",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 22
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-046",
+      "pair_id": "307657d5e5ef159b27ea6c2b",
+      "split": "train",
+      "document_id": "ff4b2b56281866af38915b2aadc7dc47614b35af0089f460eab24c495dfddefd",
+      "original": "Bij het OM is daar de kennis over de opsporing en vervolging bij gekomen.",
+      "corrupted": "Bij het OM is daar de kennis over de opsporing en verovlging bij gekomen.",
+      "edits": [
+        {
+          "corrupted_end": 60,
+          "corrupted_start": 50,
+          "corruption_type": "spelling",
+          "end": 60,
+          "original": "vervolging",
+          "protected_tokens": [
+            116
+          ],
+          "replacement": "verovlging",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 50
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-047",
+      "pair_id": "0e31c408dbb6362f48e78c02",
+      "split": "train",
+      "document_id": "06534b54fe9e7ca978086e60d60babddf88067aea7c5fda43474743e83d706a9",
+      "original": "Het gaat dan bijvoorbeeld om het niet terugvorderen van subsidie bij tegenvallende prestaties vanwege deze crisis.",
+      "corrupted": "Het gaat dan bijvoorbeeld om het niet terugvorderen van subssidie bij tegenvallende prestaties vanwege deze crisis.",
+      "edits": [
+        {
+          "corrupted_end": 65,
+          "corrupted_start": 56,
+          "corruption_type": "spelling",
+          "end": 64,
+          "original": "subsidie",
+          "protected_tokens": [
+            36
+          ],
+          "replacement": "subssidie",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 56
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-048",
+      "pair_id": "1d4769a6052a998e3a4bd194",
+      "split": "train",
+      "document_id": "4f781d0e434d2effb980ea8b51a0f934cb9c30572eb0a96227a0d748c5035cc5",
+      "original": "Bent u advocaat en wilt u uw cliënt in de justitiële inrichting ontmoeten, dan moet u hiervoor een afspraak maken.",
+      "corrupted": "Bent u advcoaat en wilt u uw cliënt in de justitiële inrichting ontmoeten, dan moet u hiervoor een afspraak maken.",
+      "edits": [
+        {
+          "corrupted_end": 15,
+          "corrupted_start": 7,
+          "corruption_type": "spelling",
+          "end": 15,
+          "original": "advocaat",
+          "protected_tokens": [
+            2
+          ],
+          "replacement": "advcoaat",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 7
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-049",
+      "pair_id": "a49732a8532f32f9e6adc1fb",
+      "split": "train",
+      "document_id": "35104432c2dd37cf67bc60c4f08ca1eec62ab7209dab005d514b69db3c52a4d5",
+      "original": "Door deze twee aanpassingen gaat op termijn de huur van ruim 300.000 woningen gemiddeld met 190 euro omlaag.",
+      "corrupted": "Door deze twee aanpasisngen gaat op termijn de huur van ruim 300.000 woningen gemiddeld met 190 euro omlaag.",
+      "edits": [
+        {
+          "corrupted_end": 27,
+          "corrupted_start": 15,
+          "corruption_type": "spelling",
+          "end": 27,
+          "original": "aanpassingen",
+          "protected_tokens": [
+            101
+          ],
+          "replacement": "aanpasisngen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 15
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-050",
+      "pair_id": "96a80deb83358e83c22b3d4d",
+      "split": "train",
+      "document_id": "90627663e3c2e9d89ef84e92a93e4f7821afa4e777dc7a71655d7a1ff6352336",
+      "original": "Daarvoor moeten er keuzes worden gemaakt en wordt ingegrepen als dat nodig is.",
+      "corrupted": "Daarvoor moeten er keuzes worden gemaakt en wordt ingegrepen als dat noidg is.",
+      "edits": [
+        {
+          "corrupted_end": 74,
+          "corrupted_start": 69,
+          "corruption_type": "spelling",
+          "end": 74,
+          "original": "nodig",
+          "protected_tokens": [
+            120
+          ],
+          "replacement": "noidg",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 69
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-051",
+      "pair_id": "40c956193ed11843d211384b",
+      "split": "validation",
+      "document_id": "d4405266654e7f21f1ff121f2fceb7b4331cc9b941c22d5fe559c2a5331460e0",
+      "original": "Oppelaar vertelt dat reserve officieren een belangrijke bijdrage leveren aan de momenteel in aanbouw zijnde schaalbare krijgsmacht.",
+      "corrupted": "Oppelaar vertelt dat reserve officieren een belangrijke bijdrage leevren aan de momenteel in aanbouw zijnde schaalbare krijgsmacht.",
+      "edits": [
+        {
+          "corrupted_end": 72,
+          "corrupted_start": 65,
+          "corruption_type": "spelling",
+          "end": 72,
+          "original": "leveren",
+          "protected_tokens": [
+            8
+          ],
+          "replacement": "leevren",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 65
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid_error",
+      "notes": "The compound reserveofficieren is incorrectly separated as reserve officieren.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-052",
+      "pair_id": "e03fb7542a99389cce6fc82e",
+      "split": "train",
+      "document_id": "efba1bccc6b0740262d3008dd8cf10b2cc057ae8469763bd422acd630eb61a80",
+      "original": "De gealarmeerde Marechaussee was snel ter plaatse en kon de man snel overmeesteren.",
+      "corrupted": "De gealarmeerdde Marechaussee was snel ter plaatse en kon de man snel overmeesteren.",
+      "edits": [
+        {
+          "corrupted_end": 16,
+          "corrupted_start": 3,
+          "corruption_type": "spelling",
+          "end": 15,
+          "original": "gealarmeerde",
+          "protected_tokens": [
+            26
+          ],
+          "replacement": "gealarmeerdde",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-053",
+      "pair_id": "1c2f8a9043ab10c357e678de",
+      "split": "train",
+      "document_id": "c83f4e7c39d5f79e27893dcf7b3eef5dc3245b7ea865033d62a6fd3eb5da22fb",
+      "original": "Crisiscommunicatie gaat over veel meer dan het overbrengen van zakelijke feiten.",
+      "corrupted": "Crisiscommunicatie gaat over veel meer dan het overbrengen van zakelijjke feiten.",
+      "edits": [
+        {
+          "corrupted_end": 73,
+          "corrupted_start": 63,
+          "corruption_type": "spelling",
+          "end": 72,
+          "original": "zakelijke",
+          "protected_tokens": [
+            13
+          ],
+          "replacement": "zakelijjke",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 63
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-054",
+      "pair_id": "ef3975b6fde321e657fe7461",
+      "split": "train",
+      "document_id": "a9ea262fc032bff9dc82d0c05454acda1f92e484f6440b6dd91ed37e916eb539",
+      "original": "Het 'belevingsgerichte' verplegen op De Veldspaat moest plaatsmaken voor een aanpak zoals die in het ziekenhuis gebeurt.",
+      "corrupted": "Het 'belevingsgerichte' verplegen op De Veldspaat moest plaatsmaekn voor een aanpak zoals die in het ziekenhuis gebeurt.",
+      "edits": [
+        {
+          "corrupted_end": 67,
+          "corrupted_start": 56,
+          "corruption_type": "spelling",
+          "end": 67,
+          "original": "plaatsmaken",
+          "protected_tokens": [
+            108
+          ],
+          "replacement": "plaatsmaekn",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 56
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-055",
+      "pair_id": "b9f9f878c8acc178201da855",
+      "split": "train",
+      "document_id": "07f4612db992e49ea4e386e602110ed2d9fd5b662f78e8e1458179eeaf7dbb41",
+      "original": "Om deze functie bij de Koninklijke Marechaussee uit te voeren zijn een aantal opleidingen vereist.",
+      "corrupted": "Om deze functie bij de Koninklijke Marechaussee uit te voeren zijn een aantal opelidingen vereist.",
+      "edits": [
+        {
+          "corrupted_end": 89,
+          "corrupted_start": 78,
+          "corruption_type": "spelling",
+          "end": 89,
+          "original": "opleidingen",
+          "protected_tokens": [
+            13
+          ],
+          "replacement": "opelidingen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 78
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-056",
+      "pair_id": "fab92d62d658eeb8c614efb5",
+      "split": "train",
+      "document_id": "c83f4e7c39d5f79e27893dcf7b3eef5dc3245b7ea865033d62a6fd3eb5da22fb",
+      "original": "We moeten sneller communiceren, vaker ook met moderne media, en zo stoorzenders voorblijven.",
+      "corrupted": "We moeten sneller communiceren, vaker ook met moderne media, en zo stoorzennders voorblijven.",
+      "edits": [
+        {
+          "corrupted_end": 80,
+          "corrupted_start": 67,
+          "corruption_type": "spelling",
+          "end": 79,
+          "original": "stoorzenders",
+          "protected_tokens": [
+            88
+          ],
+          "replacement": "stoorzennders",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 67
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-057",
+      "pair_id": "8c7a3d4fa317da9521040d2b",
+      "split": "train",
+      "document_id": "fdcb85f49453bbd32c182dc649623b7fb28eca85e66555c15cd522c7fe2ee431",
+      "original": "Heeft u een andere vraag over bijvoorbeeld het uitvoeren van uw privéauto, het transport hiervan of de verzekering, kijk dan op Veelgestelde vragen (FAQ) over auto's.",
+      "corrupted": "Heeft u een andere vraag over bijvoorbeeld het uittvoeren van uw privéauto, het transport hiervan of de verzekering, kijk dan op Veelgestelde vragen (FAQ) over auto's.",
+      "edits": [
+        {
+          "corrupted_end": 57,
+          "corrupted_start": 47,
+          "corruption_type": "spelling",
+          "end": 56,
+          "original": "uitvoeren",
+          "protected_tokens": [
+            50
+          ],
+          "replacement": "uittvoeren",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 47
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-058",
+      "pair_id": "a2c0c9c8a4baaf8bc0f88173",
+      "split": "train",
+      "document_id": "c12f8ee4ab1e8351d40265b09775e23b477c20704aee9f4e88283bd2034bb5c0",
+      "original": "De demonstratievrijheid vestigt een negatieve verplichting voor de staat, namelijk om zich in principe te onthouden van beperking van vreedzame demonstraties.",
+      "corrupted": "De demonstratievrijheid vestigt een negatieve verplichting voor de staat, namelijk om zich in principe te onthouden van beperrking van vreedzame demonstraties.",
+      "edits": [
+        {
+          "corrupted_end": 130,
+          "corrupted_start": 120,
+          "corruption_type": "spelling",
+          "end": 129,
+          "original": "beperking",
+          "protected_tokens": [
+            18
+          ],
+          "replacement": "beperrking",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 120
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-059",
+      "pair_id": "19ff5806450c4ec8dd414450",
+      "split": "train",
+      "document_id": "d95f1e38d51b35e953c8e0d8a9ecc9ec5618bc58180b910f04a2366a2d8e3dce",
+      "original": "Preventie zit vooral in bewustwording, geeft hij aan.",
+      "corrupted": "Preventie zit voorral in bewustwording, geeft hij aan.",
+      "edits": [
+        {
+          "corrupted_end": 21,
+          "corrupted_start": 14,
+          "corruption_type": "spelling",
+          "end": 20,
+          "original": "vooral",
+          "protected_tokens": [
+            7
+          ],
+          "replacement": "voorral",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 14
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-060",
+      "pair_id": "1b7dd6d3163c2f255761ce3b",
+      "split": "train",
+      "document_id": "f3c5b4b78a77a2d15944b27e7577570a660b0018d8a6370eee75c70ab9529f56",
+      "original": "Januari 2016 presenteerde het College het onderzoeksrapport over gelijke beloning van mannen en vrouwen bij Nederlandse hogescholen.",
+      "corrupted": "Januari 2016 presenteerde het College het onderzoeksrapport over gelijkke beloning van mannen en vrouwen bij Nederlandse hogescholen.",
+      "edits": [
+        {
+          "corrupted_end": 73,
+          "corrupted_start": 65,
+          "corruption_type": "spelling",
+          "end": 72,
+          "original": "gelijke",
+          "protected_tokens": [
+            10
+          ],
+          "replacement": "gelijkke",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 65
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-061",
+      "pair_id": "3b8d68e3244393fb7dd89572",
+      "split": "train",
+      "document_id": "6e72d9c46228dec4f57af5f8785bbebc0019b74f7e50bcb50d523e158edcadf7",
+      "original": "Ons land bevindt zich (met enkele andere landen) in een middenpositie.",
+      "corrupted": "Ons land bevindt zich (met enkele anddere landen) in een middenpositie.",
+      "edits": [
+        {
+          "corrupted_end": 41,
+          "corrupted_start": 34,
+          "corruption_type": "spelling",
+          "end": 40,
+          "original": "andere",
+          "protected_tokens": [
+            182
+          ],
+          "replacement": "anddere",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 34
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-062",
+      "pair_id": "6f93090f2a87a85daf8d305a",
+      "split": "train",
+      "document_id": "f808b93fa4d6dc920d440b7ae1e9c87c30d7e8bde3ed2c372b665eddebea9740",
+      "original": "Veel ambtenaren die ik ken, denken er niet aan om iets anders te gaan doen.",
+      "corrupted": "Veel ambteanren die ik ken, denken er niet aan om iets anders te gaan doen.",
+      "edits": [
+        {
+          "corrupted_end": 15,
+          "corrupted_start": 5,
+          "corruption_type": "spelling",
+          "end": 15,
+          "original": "ambtenaren",
+          "protected_tokens": [
+            94
+          ],
+          "replacement": "ambteanren",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 5
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-063",
+      "pair_id": "5582b39c450245cd791c8202",
+      "split": "train",
+      "document_id": "6422abf8242fb85baf076a5051569536455e348d75c7856d4ef5d94360e002a7",
+      "original": "Starten en landen doen ze op de vaargeul Texelstroom.",
+      "corrupted": "Starten en landen doen ze op de vaarggeul Texelstroom.",
+      "edits": [
+        {
+          "corrupted_end": 41,
+          "corrupted_start": 32,
+          "corruption_type": "spelling",
+          "end": 40,
+          "original": "vaargeul",
+          "protected_tokens": [
+            148
+          ],
+          "replacement": "vaarggeul",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 32
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-064",
+      "pair_id": "0650ae7686c55d82169967e3",
+      "split": "train",
+      "document_id": "4f781d0e434d2effb980ea8b51a0f934cb9c30572eb0a96227a0d748c5035cc5",
+      "original": "Dat wil zeggen dat u bij een volgend bezoek andere kleding dient te dragen.",
+      "corrupted": "Dat wil zeggen dat u bij een volegnd bezoek andere kleding dient te dragen.",
+      "edits": [
+        {
+          "corrupted_end": 36,
+          "corrupted_start": 29,
+          "corruption_type": "spelling",
+          "end": 36,
+          "original": "volgend",
+          "protected_tokens": [
+            99
+          ],
+          "replacement": "volegnd",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 29
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-065",
+      "pair_id": "a4a6a3fc6f4c85fe92d5d7ab",
+      "split": "train",
+      "document_id": "c5390e9144239d60e87cbc91665ebc7e16a800344ae2d2537e070ca796451d9e",
+      "original": "De formulieren voor het omruilen van uw vaarbewijs vindt u op de website van het CBR.",
+      "corrupted": "Het formulieren voor het omruilen van uw vaarbewijs vindt u op de website van het CBR.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_number",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            7,
+            8
+          ],
+          "replacement": "Het",
+          "rule_id": "article_number:plural:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-066",
+      "pair_id": "9df9932e852426360e9d0edc",
+      "split": "validation",
+      "document_id": "15015a21109d84dba67f932b73d252cba169a78c1de5e7b843c9181708dc340b",
+      "original": "Leon begint met een welgemeend compliment aan de zaal, waar met name veel rijksambtenaren van DG Oek en NOO en betrokkenen van het eerste uur zitten.",
+      "corrupted": "Leon begint met een welgemeend complliment aan de zaal, waar met name veel rijksambtenaren van DG Oek en NOO en betrokkenen van het eerste uur zitten.",
+      "edits": [
+        {
+          "corrupted_end": 42,
+          "corrupted_start": 31,
+          "corruption_type": "spelling",
+          "end": 41,
+          "original": "compliment",
+          "protected_tokens": [
+            5
+          ],
+          "replacement": "complliment",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 31
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-067",
+      "pair_id": "dd9181ef5cba707721579125",
+      "split": "train",
+      "document_id": "f8848917f72064de9b39931ee96805a12f68c066e9025a9d2a6a30a53111f607",
+      "original": "U heeft toestemming nodig van de Libanese militaire autoriteiten om in dit gebied te mogen reizen.",
+      "corrupted": "U heeft toestemming nodig van de Libanese militaire autorriteiten om in dit gebied te mogen reizen.",
+      "edits": [
+        {
+          "corrupted_end": 65,
+          "corrupted_start": 52,
+          "corruption_type": "spelling",
+          "end": 64,
+          "original": "autoriteiten",
+          "protected_tokens": [
+            91
+          ],
+          "replacement": "autorriteiten",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 52
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-068",
+      "pair_id": "5b3b3945c8a454e7dd75232b",
+      "split": "train",
+      "document_id": "3a208412d287b04013779c60f9faed92d2821b887d1425b40de47a7186d271ac",
+      "original": "Na afloop van hun presentaties is er tijd voor vragen uit de zaal.",
+      "corrupted": "Na alfoop van hun presentaties is er tijd voor vragen uit de zaal.",
+      "edits": [
+        {
+          "corrupted_end": 9,
+          "corrupted_start": 3,
+          "corruption_type": "spelling",
+          "end": 9,
+          "original": "afloop",
+          "protected_tokens": [
+            108
+          ],
+          "replacement": "alfoop",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-069",
+      "pair_id": "c6265e651276e8984a7bf192",
+      "split": "train",
+      "document_id": "260c23f26f9dcc5846b7435da5844f3ecd2ba8a0ce65239781632726958bdcce",
+      "original": "Projectleider Esther Graaskamp neemt ons mee tijdens haar reis door de pilot.",
+      "corrupted": "Projectleider Esther Graaskamp neemt ons mee tijdens haar reis door de pliot.",
+      "edits": [
+        {
+          "corrupted_end": 76,
+          "corrupted_start": 71,
+          "corruption_type": "spelling",
+          "end": 76,
+          "original": "pilot",
+          "protected_tokens": [
+            67
+          ],
+          "replacement": "pliot",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 71
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-070",
+      "pair_id": "192cb4560ac8964f7ff423b7",
+      "split": "train",
+      "document_id": "b58bd7bc5c5138ef7f985c28b2ec0124fd84ce60cd18972dfc1ee1e3ba0cc41e",
+      "original": "Laatst hadden we tijdens een patrouille te kampen met een luchtlekkage in de tussenbak.",
+      "corrupted": "Laatst hadden we tijdens een patrouille te kampen met een luchtlekage in de tussenbak.",
+      "edits": [
+        {
+          "corrupted_end": 69,
+          "corrupted_start": 58,
+          "corruption_type": "spelling",
+          "end": 70,
+          "original": "luchtlekkage",
+          "protected_tokens": [
+            627
+          ],
+          "replacement": "luchtlekage",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:delete_doubled_consonant",
+          "start": 58
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-071",
+      "pair_id": "fa45a165cf55b220505b120a",
+      "split": "train",
+      "document_id": "5fa313f775a861b4305fc0e88a1e92afda54208214d76fbe53ebe53f65ddb777",
+      "original": "Ook vervlakt het onderscheid tussen dawa en jihadisme.",
+      "corrupted": "Ook vervllakt het onderscheid tussen dawa en jihadisme.",
+      "edits": [
+        {
+          "corrupted_end": 13,
+          "corrupted_start": 4,
+          "corruption_type": "spelling",
+          "end": 12,
+          "original": "vervlakt",
+          "protected_tokens": [
+            70
+          ],
+          "replacement": "vervllakt",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 4
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-072",
+      "pair_id": "d258dfc6441c0a80a515eca8",
+      "split": "test",
+      "document_id": "0d722a98ee1d0c72e7b22448af2f647aeef9975429b4740a14082ba3fde752a7",
+      "original": "Als er nieuwe regels komen dan moeten er voorbereidingen getroffen worden.",
+      "corrupted": "Als er niuewe regels komen dan moeten er voorbereidingen getroffen worden.",
+      "edits": [
+        {
+          "corrupted_end": 13,
+          "corrupted_start": 7,
+          "corruption_type": "spelling",
+          "end": 13,
+          "original": "nieuwe",
+          "protected_tokens": [
+            109
+          ],
+          "replacement": "niuewe",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 7
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-073",
+      "pair_id": "7533f13ff585c112b7f6f595",
+      "split": "train",
+      "document_id": "ed870e92fd7a40080e0164bd37d111ea271f82f409425cb4edc7dd4bd8782135",
+      "original": "Jouw afdeling zorgt ervoor dat processen binnen het Rijksvastgoedbedrijf plaatsvinden volgens de afgesproken (financiële) spelregels.",
+      "corrupted": "Jouw afdeling zorgt ervoor dat procesen binnen het Rijksvastgoedbedrijf plaatsvinden volgens de afgesproken (financiële) spelregels.",
+      "edits": [
+        {
+          "corrupted_end": 39,
+          "corrupted_start": 31,
+          "corruption_type": "spelling",
+          "end": 40,
+          "original": "processen",
+          "protected_tokens": [
+            37
+          ],
+          "replacement": "procesen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:delete_doubled_consonant",
+          "start": 31
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-074",
+      "pair_id": "d6d7f636553cf84c3cb0e8bb",
+      "split": "train",
+      "document_id": "1d86e4665a329f1251a3518a5cb585be33c70af7105ee44a78b07d1f8e896686",
+      "original": "Uiteindelijk gaat het erom dat de positie van arbeidsmigranten wordt verbeterd, benadrukt Zwiers.",
+      "corrupted": "Uiteindelijk gaat het erom dat de positie van arbeidsmigranten wordt verrbeterd, benadrukt Zwiers.",
+      "edits": [
+        {
+          "corrupted_end": 79,
+          "corrupted_start": 69,
+          "corruption_type": "spelling",
+          "end": 78,
+          "original": "verbeterd",
+          "protected_tokens": [
+            10
+          ],
+          "replacement": "verrbeterd",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 69
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-075",
+      "pair_id": "a614099ffd39c3b5ad9da922",
+      "split": "train",
+      "document_id": "2968ad9a2f8661dbfaf03d9ba1a006f95884311de3f304629b914f8c5187c011",
+      "original": "Zonder dat iemand de deur voor je hoeft open te doen of je een drempel over moet tillen.",
+      "corrupted": "Zonder dat iemand het deur voor je hoeft open te doen of je een drempel over moet tillen.",
+      "edits": [
+        {
+          "corrupted_end": 21,
+          "corrupted_start": 18,
+          "corruption_type": "article_gender",
+          "end": 20,
+          "original": "de",
+          "protected_tokens": [
+            32,
+            33
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 18
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Standalone Zonder dat subordinate clause; fails the complete-sentence source contract.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-076",
+      "pair_id": "fd0f5e7f20b9756a97440e89",
+      "split": "train",
+      "document_id": "9cda05d09ad04d1974424c9f075264f48397d875488e7bbc436a5f7b0bf88b9b",
+      "original": "U kunt zich ook gratis registreren bij de ambassade.",
+      "corrupted": "U kunt zich ook gratis reigstreren bij de ambassade.",
+      "edits": [
+        {
+          "corrupted_end": 34,
+          "corrupted_start": 23,
+          "corruption_type": "spelling",
+          "end": 34,
+          "original": "registreren",
+          "protected_tokens": [
+            5
+          ],
+          "replacement": "reigstreren",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 23
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-077",
+      "pair_id": "ba830262ec7cb8cfe9498848",
+      "split": "train",
+      "document_id": "1369ea258dabe2ee2692dfb804fdf432cf9c812c4bf836bf2ae9ebd88e26a457",
+      "original": "Het College benadrukt dat gebruik van etniciteit als selectiecriterium door de overheid aan de meest strikte voorwaarden moet voldoen.",
+      "corrupted": "Het College benadrukt dat gebruik van etniciteit als selectiecriterium door de overheid aan de meest strikte voorwaarden moet voloden.",
+      "edits": [
+        {
+          "corrupted_end": 133,
+          "corrupted_start": 126,
+          "corruption_type": "spelling",
+          "end": 133,
+          "original": "voldoen",
+          "protected_tokens": [
+            182
+          ],
+          "replacement": "voloden",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 126
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-078",
+      "pair_id": "304ba3a75752c2796054aa8e",
+      "split": "train",
+      "document_id": "3b6c24d7348a376afd1de9a9565ab81821c6e10721074a0874e031a26e8c044e",
+      "original": "Ik merk aan mezelf dat ik zeker nog niet alles weet.",
+      "corrupted": "Ik merk aan mezelf dat ik zeekr nog niet alles weet.",
+      "edits": [
+        {
+          "corrupted_end": 31,
+          "corrupted_start": 26,
+          "corruption_type": "spelling",
+          "end": 31,
+          "original": "zeker",
+          "protected_tokens": [
+            29
+          ],
+          "replacement": "zeekr",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 26
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-079",
+      "pair_id": "f54cc9d709ac19aec02927dd",
+      "split": "train",
+      "document_id": "ff4b2b56281866af38915b2aadc7dc47614b35af0089f460eab24c495dfddefd",
+      "original": "Het OM hanteert daarom als uitgangspunt dat als er door een geweldsaanwending nevenschade is ontstaan met ernstige gevolgen, zoals mogelijke burgerdoden, er altijd nader onderzoek wordt ingesteld.",
+      "corrupted": "Het OM hanteert daarom als uitgangspunt dat als er door een geweldsaanwending nevenschade is ontstaan met ernstige gevolgen, zoals mogelijke burgerdoden, er altijd nader onderzoek wordt ingestteld.",
+      "edits": [
+        {
+          "corrupted_end": 196,
+          "corrupted_start": 186,
+          "corruption_type": "spelling",
+          "end": 195,
+          "original": "ingesteld",
+          "protected_tokens": [
+            224
+          ],
+          "replacement": "ingestteld",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 186
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-080",
+      "pair_id": "62969c7ac321aadf561c02a6",
+      "split": "validation",
+      "document_id": "6e59cd1e6fbf1b816a1b434fe6374695e876c5dd6fe52c5546203d981f983dba",
+      "original": "Daarna zijn in de overgangsfase onderhandelingen over de toekomstige relatie tussen de EU en het VK gestart, die op 24 december 2020 zijn afgerond.",
+      "corrupted": "Daarna zijn in de overgangsfase onderhandelingen over de toekomstige relatie tussen de EU en het VK gesstart, die op 24 december 2020 zijn afgerond.",
+      "edits": [
+        {
+          "corrupted_end": 108,
+          "corrupted_start": 100,
+          "corruption_type": "spelling",
+          "end": 107,
+          "original": "gestart",
+          "protected_tokens": [
+            16
+          ],
+          "replacement": "gesstart",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 100
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-081",
+      "pair_id": "f133b9d3a3bdf2cd11160f54",
+      "split": "train",
+      "document_id": "f9d2936e5300532c49f8a48a88c446f6c4459a03dd682abe6245b33ea0f55cc1",
+      "original": "De aanvulling ziet er op toe dat (zorg) partijen elkaar zekerheden moeten bieden als het gaat om onderlinge gegevensuitwisseling, zoals het gebruik van beveiligde verbindingen.",
+      "corrupted": "De aanvulling ziet er op toe dat (zorg) partijjen elkaar zekerheden moeten bieden als het gaat om onderlinge gegevensuitwisseling, zoals het gebruik van beveiligde verbindingen.",
+      "edits": [
+        {
+          "corrupted_end": 49,
+          "corrupted_start": 40,
+          "corruption_type": "spelling",
+          "end": 48,
+          "original": "partijen",
+          "protected_tokens": [
+            143
+          ],
+          "replacement": "partijjen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 40
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Spelling/spacing problems: ziet er op toe should be ziet erop toe; (zorg) partijen also splits the compound.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-082",
+      "pair_id": "5afad6a38a5ed735b39d3563",
+      "split": "train",
+      "document_id": "291a53285322c554639db8225df34e05607def0492ae4b570ab58ad345253a82",
+      "original": "Wageningen Food & Biobased Research adviseert wereldwijd overheden en bedrijven bij de ontwikkeling van logistieke concepten die bijdragen aan minder voedselverspilling en meer voedselzekerheid en werkgelegenheid.",
+      "corrupted": "Wageningen Food & Biobased Research adviseert wereldwijd ovverheden en bedrijven bij de ontwikkeling van logistieke concepten die bijdragen aan minder voedselverspilling en meer voedselzekerheid en werkgelegenheid.",
+      "edits": [
+        {
+          "corrupted_end": 67,
+          "corrupted_start": 57,
+          "corruption_type": "spelling",
+          "end": 66,
+          "original": "overheden",
+          "protected_tokens": [
+            7
+          ],
+          "replacement": "ovverheden",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 57
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-083",
+      "pair_id": "3e5257054b5912417c374918",
+      "split": "train",
+      "document_id": "534abe2304037d6499dc72958be62edc1ea298e033a3b8f94852cf952870eb16",
+      "original": "Het Centraal Orgaan opvang Asielzoekers, het COA,legt hiervoor een maatregel op.",
+      "corrupted": "Het Centraal Orgaan opvang Asielzoekers, het COA,legt hiervoor een maatreggel op.",
+      "edits": [
+        {
+          "corrupted_end": 77,
+          "corrupted_start": 67,
+          "corruption_type": "spelling",
+          "end": 76,
+          "original": "maatregel",
+          "protected_tokens": [
+            12
+          ],
+          "replacement": "maatreggel",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 67
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Missing space in COA,legt.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-084",
+      "pair_id": "53d226668864b1d06c431101",
+      "split": "train",
+      "document_id": "f8848917f72064de9b39931ee96805a12f68c066e9025a9d2a6a30a53111f607",
+      "original": "Er geldt in Libanon een avondklok tussen 19.00 uur 's avonds en 6.00 uur 's ochtends.",
+      "corrupted": "Er geldt in Libanon een avondklok tussen 19.00 uur 's avvonds en 6.00 uur 's ochtends.",
+      "edits": [
+        {
+          "corrupted_end": 61,
+          "corrupted_start": 54,
+          "corruption_type": "spelling",
+          "end": 60,
+          "original": "avonds",
+          "protected_tokens": [
+            10
+          ],
+          "replacement": "avvonds",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 54
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-085",
+      "pair_id": "f8dffedb4b1dac1f6b01bc57",
+      "split": "train",
+      "document_id": "5fa313f775a861b4305fc0e88a1e92afda54208214d76fbe53ebe53f65ddb777",
+      "original": "Diverse losse kleine netwerken komen op deze manier met elkaar in contact.",
+      "corrupted": "Diverse losse kleinne netwerken komen op deze manier met elkaar in contact.",
+      "edits": [
+        {
+          "corrupted_end": 21,
+          "corrupted_start": 14,
+          "corruption_type": "spelling",
+          "end": 20,
+          "original": "kleine",
+          "protected_tokens": [
+            24
+          ],
+          "replacement": "kleinne",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 14
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-086",
+      "pair_id": "8f179466a13b59c06d17baab",
+      "split": "train",
+      "document_id": "4f781d0e434d2effb980ea8b51a0f934cb9c30572eb0a96227a0d748c5035cc5",
+      "original": "U kunt bellen met het algemene nummer van onze inrichting, dat u vindt onder 'contactgegevens' op deze pagina.",
+      "corrupted": "U kunt bellen met het algemene numemr van onze inrichting, dat u vindt onder 'contactgegevens' op deze pagina.",
+      "edits": [
+        {
+          "corrupted_end": 37,
+          "corrupted_start": 31,
+          "corruption_type": "spelling",
+          "end": 37,
+          "original": "nummer",
+          "protected_tokens": [
+            28
+          ],
+          "replacement": "numemr",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 31
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-087",
+      "pair_id": "6c88e9402855e50a747a0929",
+      "split": "train",
+      "document_id": "08fab1544377fa41ac14d8295599c325e8629accc8c0610b67170b6d14567854",
+      "original": "Sinds 2009 is hier het Stedelijk Museum Kampen gehuisvest.",
+      "corrupted": "Sinds 2009 is hier het Stedelijk Museum Kampen gehuisvvest.",
+      "edits": [
+        {
+          "corrupted_end": 58,
+          "corrupted_start": 47,
+          "corruption_type": "spelling",
+          "end": 57,
+          "original": "gehuisvest",
+          "protected_tokens": [
+            148
+          ],
+          "replacement": "gehuisvvest",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 47
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-088",
+      "pair_id": "50db4f62caec9f645716a97d",
+      "split": "train",
+      "document_id": "cef38da156e06274c4484b0dbd4d3467f0d2def12702582dc17d853a78f1155d",
+      "original": "De toegang tot Noord-Korea is volledig verboden voor alle buitenlanders en de grensbewaking kan dodelijk geweld toepassen bij pogingen om illegaal Noord-Korea binnen te komen.",
+      "corrupted": "De toegang tot Noord-Korea is volledig verboden voor alle buitenlanders en de grensbewaking kan dodelijk geweld toepassen bij pogingen om illegaal Noord-Korea binnen te kmoen.",
+      "edits": [
+        {
+          "corrupted_end": 174,
+          "corrupted_start": 169,
+          "corruption_type": "spelling",
+          "end": 174,
+          "original": "komen",
+          "protected_tokens": [
+            34
+          ],
+          "replacement": "kmoen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 169
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-089",
+      "pair_id": "bfbbcc85983b285909f36d51",
+      "split": "train",
+      "document_id": "b861f767671103085437a2009ce7824dc285e384edb40a3a80db3a17eeb3f8dd",
+      "original": "Er is een houten balkenplafond, een eiken parketvloer en een schouw met antieke tegels, die in 1919 op deze wijze is ontworpen.",
+      "corrupted": "Er is een houten balkenplafond, een eiken parketvloer en een schouw met antieke tegels, die in 1919 op deze wjize is ontworpen.",
+      "edits": [
+        {
+          "corrupted_end": 113,
+          "corrupted_start": 108,
+          "corruption_type": "spelling",
+          "end": 113,
+          "original": "wijze",
+          "protected_tokens": [
+            280
+          ],
+          "replacement": "wjize",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 108
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-090",
+      "pair_id": "a1d3a8bf41c79db86d4fed45",
+      "split": "test",
+      "document_id": "eaa91d9e09a4f8281b51e4c7a5b8966a6c0eab1568317773e56d1d4b0e7279f8",
+      "original": "De optelsom van particuliere initiatieven staat aan de basis hiervan.",
+      "corrupted": "De optelsom van particuliere initiatieven staat aan de basis hirevan.",
+      "edits": [
+        {
+          "corrupted_end": 68,
+          "corrupted_start": 61,
+          "corruption_type": "spelling",
+          "end": 68,
+          "original": "hiervan",
+          "protected_tokens": [
+            49
+          ],
+          "replacement": "hirevan",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 61
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-091",
+      "pair_id": "7bb6916eedcfae4dffc4044a",
+      "split": "train",
+      "document_id": "d3df363b417f0032ec60e7e7d67ffc371b4ed98f00e05891b8de71aa16007493",
+      "original": "De variaties staan los van door de mens veroorzaakte klimaatveranderingen.",
+      "corrupted": "Het variaties staan los van door de mens veroorzaakte klimaatveranderingen.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_number",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            45,
+            46
+          ],
+          "replacement": "Het",
+          "rule_id": "article_number:plural:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-092",
+      "pair_id": "b430c2580411d5b241bf7eaa",
+      "split": "train",
+      "document_id": "08fab1544377fa41ac14d8295599c325e8629accc8c0610b67170b6d14567854",
+      "original": "De dubbelschool werd tussen 1926-1928 ontworpen door architect Siebe Jan Bouma en heeft sindsdien verschillende namen gehad.",
+      "corrupted": "De dubbelschool werd tussen 1926-1928 otnworpen door architect Siebe Jan Bouma en heeft sindsdien verschillende namen gehad.",
+      "edits": [
+        {
+          "corrupted_end": 47,
+          "corrupted_start": 38,
+          "corruption_type": "spelling",
+          "end": 47,
+          "original": "ontworpen",
+          "protected_tokens": [
+            5
+          ],
+          "replacement": "otnworpen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 38
+        }
+      ],
+      "source_judgment": "uncertain",
+      "intended_edits_judgment": "valid_error",
+      "notes": "tussen 1926-1928 mixes tussen ... en ... with a dash range; acceptability of this date notation needs adjudication.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-093",
+      "pair_id": "93ab797ba6c6f8059a7729d7",
+      "split": "train",
+      "document_id": "d3df363b417f0032ec60e7e7d67ffc371b4ed98f00e05891b8de71aa16007493",
+      "original": "Een recente studie laat zien dat bij verdere opwarming regen de dominante neerslagvorm kan worden in het Arctische gebied.",
+      "corrupted": "Een recente sutdie laat zien dat bij verdere opwarming regen de dominante neerslagvorm kan worden in het Arctische gebied.",
+      "edits": [
+        {
+          "corrupted_end": 18,
+          "corrupted_start": 12,
+          "corruption_type": "spelling",
+          "end": 18,
+          "original": "studie",
+          "protected_tokens": [
+            47
+          ],
+          "replacement": "sutdie",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 12
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-094",
+      "pair_id": "727a1c23d3633dc2aa5ae21d",
+      "split": "train",
+      "document_id": "b861f767671103085437a2009ce7824dc285e384edb40a3a80db3a17eeb3f8dd",
+      "original": "Het exterieur en interieur zijn als een samenhangend geheel door Van Laren ontworpen.",
+      "corrupted": "Het exterieur en intterieur zijn als een samenhangend geheel door Van Laren ontworpen.",
+      "edits": [
+        {
+          "corrupted_end": 27,
+          "corrupted_start": 17,
+          "corruption_type": "spelling",
+          "end": 26,
+          "original": "interieur",
+          "protected_tokens": [
+            166
+          ],
+          "replacement": "intterieur",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 17
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-095",
+      "pair_id": "0d9310e6a361bd848d5b13c5",
+      "split": "train",
+      "document_id": "cd4cdf31a5aefe4516bc780587b9c76aa899360e4c82d29b330d2034fa356edf",
+      "original": "Het Zorginstituut heeft hier een eigenstandige wettelijke bevoegdheid.",
+      "corrupted": "Het Zorginstituut heeft hier een eigenstandige wettelijke bevoegddheid.",
+      "edits": [
+        {
+          "corrupted_end": 70,
+          "corrupted_start": 58,
+          "corruption_type": "spelling",
+          "end": 69,
+          "original": "bevoegdheid",
+          "protected_tokens": [
+            73
+          ],
+          "replacement": "bevoegddheid",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 58
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-096",
+      "pair_id": "73aa8fce01b8e716f02d8a9f",
+      "split": "train",
+      "document_id": "04b3506d9942857cbadb0cb310defb5e829d6f8b5dae9814451e6f1a245aeef1",
+      "original": "De pot met geld waaruit u wordt betaald, staat vanaf het begin dit jaar weer in Den Haag.",
+      "corrupted": "De pot met geld waaruit u wordt betaald, staat vanaf het beggin dit jaar weer in Den Haag.",
+      "edits": [
+        {
+          "corrupted_end": 63,
+          "corrupted_start": 57,
+          "corruption_type": "spelling",
+          "end": 62,
+          "original": "begin",
+          "protected_tokens": [
+            37
+          ],
+          "replacement": "beggin",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 57
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid_error",
+      "notes": "vanaf het begin dit jaar lacks van after het begin; vanaf begin dit jaar would also be possible.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-097",
+      "pair_id": "4196b8cd340b9a703b95d3a5",
+      "split": "test",
+      "document_id": "2c936983b928903f475365aaf55169e23605781d5430b46ebb8563c92290b13a",
+      "original": "Soms werd dit verward met bijvoorbeeld het uitvoeren van interne audits of het louter toezien op zorguitkomsten.",
+      "corrupted": "Soms werd dit verward met bijvoorbeeld het uitvoeren van interne auditts of het louter toezien op zorguitkomsten.",
+      "edits": [
+        {
+          "corrupted_end": 72,
+          "corrupted_start": 65,
+          "corruption_type": "spelling",
+          "end": 71,
+          "original": "audits",
+          "protected_tokens": [
+            21
+          ],
+          "replacement": "auditts",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 65
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-098",
+      "pair_id": "49b47ecc91b5405ee5eebc23",
+      "split": "train",
+      "document_id": "35735d7a6c64028753ca7407a64bdb620fc3f49ffb0ef64917d3308c47868b0b",
+      "original": "Ondernemen is pionieren, testen en constant nieuwe oplossingen verzinnen.",
+      "corrupted": "Ondernemen is pionieren, testen en cosntant nieuwe oplossingen verzinnen.",
+      "edits": [
+        {
+          "corrupted_end": 43,
+          "corrupted_start": 35,
+          "corruption_type": "spelling",
+          "end": 43,
+          "original": "constant",
+          "protected_tokens": [
+            6
+          ],
+          "replacement": "cosntant",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 35
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    },
+    {
+      "sample_id": "nl-099",
+      "pair_id": "0ae557fb6736afde3e541ea4",
+      "split": "train",
+      "document_id": "36a4e86998ab23dd4d2347134973b51d1118fb2211749e219f05a078dc70cc07",
+      "original": "Zijne Majesteit Koning Willem-Alexander ervoer het op 25 maart in Lelystad, tijdens een ontmoeting met bezoekers van de dagbesteding van Woonzorg Flevoland.",
+      "corrupted": "Zijne Majesteit Koning Willem-Alexander ervvoer het op 25 maart in Lelystad, tijdens een ontmoeting met bezoekers van de dagbesteding van Woonzorg Flevoland.",
+      "edits": [
+        {
+          "corrupted_end": 47,
+          "corrupted_start": 40,
+          "corruption_type": "spelling",
+          "end": 46,
+          "original": "ervoer",
+          "protected_tokens": [
+            46
+          ],
+          "replacement": "ervvoer",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 40
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid_error",
+      "notes": "Inspected original and edit; no additional source error identified. The injected spelling or agreement change is invalid in this context.",
+      "reviewer": "codex/gpt-6 (agent inspection; not native-speaker gold)"
+    }
+  ],
+  "review_status": "agent_reviewed_not_human_gold"
+}

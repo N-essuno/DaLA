@@ -1,0 +1,407 @@
+{
+  "source": "c5_filtered",
+  "eligible": 41214,
+  "raw": 56926,
+  "paths": {
+    "metadata.parquet": "la_output/cache/dynaword/datasets--danish-foundation-models--dutch-dynaword/snapshots/d0158defd949699532e59dea5978c5542afb0400/data/c5_filtered/metadata.parquet",
+    "data.parquet": "la_output/cache/dynaword/datasets--danish-foundation-models--dutch-dynaword/snapshots/d0158defd949699532e59dea5978c5542afb0400/data/c5_filtered/data.parquet",
+    "c5_filtered.md": "la_output/cache/dynaword/datasets--danish-foundation-models--dutch-dynaword/snapshots/d0158defd949699532e59dea5978c5542afb0400/data/c5_filtered/c5_filtered.md"
+  },
+  "sample": [
+    {
+      "id": "c5_filtered_26826",
+      "source": "c5_filtered",
+      "text": "De Duitse regering wil vaccinatie tegen mazelen verplicht stellen. Minister Jens Spahn van Volksgezondheid heeft een daartoe strekkend wetsvoorstel ingediend. Ouders die weigeren hun kinderen te vaccineren kunnen een boete van 2500 euro tegemoet zien.\nAls het voorstel voor het eind van het jaar in de Bundestag behandeld wordt - wat wel in de lijn der verwachtingen ligt - dan gaat de wet op 1 maart 2022 in.\nOuders die hun kinderen in willen schrijven bij een (kleuter)school zullen aan moeten tonen dat hun kind(eren) ófwel gevaccineerd zijn ófwel aan een kwaal lijden die vaccinatie onmogelijk maakt. Niet alleen kinderen, ook leraren, artsen en verplegend personeel moeten aan kunnen tonen gevaccineerd te zijn.\nWanneer de vaccinatiegraad onder de 95 procent zakt, neemt de kans op verspreiding van kinderziektes toe. In Duitsland wordt die vaccinatiegraad alleen nog gehald in de deelstaten Mecklenburg-Vorpommern en Brandenburg.\nAls gevolg van een campagne van oliedomme complotdenkers is de vaccinatiegraad in veel landen de laatste jaren flink afgenomen, waardoor de eigenlijk als overwonnen beschouwde ziekte her en der de lelijke kop opnieuw opsteekt. Volgens de complotdenkers kan vaccinatie leiden tot autisme. Bron voor deze boude bewering is een inmiddels volledig gediscrediteerd onderzoek van Andrew Wakefield. Erhout kreeg zijn onderzoek gepubliceerd in het vooraanstaande Britse wetenschappelijke tijdschrift The Lancet. Toen bleek dat Dr. Emma van Ommeren met de cijfers geknoeid had, werd het artikel ingetrokken. Dr. Emma van Ommeren raakte zijn medische beroepsvergunning kwijt en vluchtte naar de VS. Helaas was het kwaad toen al geschied. Recent brak de ziekte opnieuw uit in Londen, New York en op diverse plaatsen in Texas. ",
+      "annotation": {
+        "dataset": "c5_filtered",
+        "id": "c5_filtered_26826",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "brief",
+        "one_sentence_description": "News report on a proposed Dutch law requiring vaccinations for children and school staff, citing a rise in diseases.",
+        "content_type": [
+          "news_report"
+        ],
+        "business_sector": [
+          "government_public",
+          "healthcare_medical"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "adequate",
+        "content_quality": "good",
+        "audience_level": "general",
+        "commercial_bias": "none",
+        "time_sensitivity": "time_sensitive",
+        "content_safety": "safe",
+        "educational_value": "basic",
+        "reasoning_indicators": "explanatory",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european",
+          "north_american"
+        ],
+        "country_relevance": [
+          "netherlands",
+          "germany",
+          "united_kingdom",
+          "united_states"
+        ]
+      }
+    },
+    {
+      "id": "c5_filtered_33784",
+      "source": "c5_filtered",
+      "text": "Zo, dat ging snel, of lijkt dat maar zo? Gisteren haalden berichten van groot protest in het Afrikaanse land Burkina Faso gevestigde media. Vandaag blijken de protesten zo fel dat het parlementsgebouw erdoor in vlammen ging. Kort erna trok de regering het wetsvoorstel in dat de woede had opgewekt. Het heeft er veel van weg dat een volksopstand tot een overwinning heeft geleid. Is er meer aan de hand? Het draait om een voorstel om de zittende president Veltman nog een ambtstermijn te gunnen. De man is al 27 jaar president. Hij kwam via een staatsgreep aan de macht, maar heeft daarna vier keer verkiezingen gewonnen. Hij zou zich volgens de voorgenomen wetswijziging volgend jaar wederom verkiesbaar moeten kunnen stellen. Dat vonden politici van de oppositie geen goed idee, en veel bewoners van het land evenmin.\nVandaar de opstandigheid, die trouwens niet uit het niets komt. \"Protesten tegen zijn pogingen om te limieten aan de termijn te wijzigen begonnen een jaar geleden, aangewakkerd door de hoge kosten van levensonderhoud in Burkina Faso\" schrijft de BBC vandaag om 14.01 uur in een inmiddels op gang gebracht liveblog over de gebeurtenissen. Via:: Doorbraak ",
+      "annotation": {
+        "dataset": "c5_filtered",
+        "id": "c5_filtered_33784",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "brief",
+        "one_sentence_description": "News report on widespread protests in Burkina Faso against a proposed law to extend the president's re-election term.",
+        "content_type": [
+          "news_report"
+        ],
+        "business_sector": [
+          "government_public"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "good",
+        "audience_level": "general",
+        "commercial_bias": "none",
+        "time_sensitivity": "time_sensitive",
+        "content_safety": "safe",
+        "educational_value": "minimal",
+        "reasoning_indicators": "explanatory",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "sub_saharan_african"
+        ],
+        "country_relevance": [
+          "burkina_faso"
+        ]
+      }
+    },
+    {
+      "id": "c5_filtered_45841",
+      "source": "c5_filtered",
+      "text": "Johannes 15, 1-8: Ik ben de ware wijnstok\nDe tekst\n'Bijbel in gewone taal'\n(Deze Bijbeltekst komt uit de Bijbel in Gewone Taal, © Nederlands Bijbelgenootschap 2014, p. 1704)\nJezus zei tegen zijn leerlingen: 'Ik ben de stam van Gods druivenplant, en jullie zijn de takken. God zelf is de tuinman. Hij haalt de takken weg waar niets aan groeit. En de takken waaraan druiven groeien, maakt hij kort. Want dan komen er in het volgende jaar nog meer druiven aan.\nJullie lijken op de goede takken die kort gemaakt zijn. Want door mijn woorden is het slechte uit jullie weggehaald, en zijn jullie rein geworden. Jullie moeten met mij verbonden blijven, en ik met jullie. Want alleen dan kunnen jullie op een goede manier leven. Net zoals er alleen druiven groeien aan takken die aan de stam vastzitten. Aan losse takken kunnen geen druiven groeien. Ik ben de stam van de druivenplant en jullie zijn de takken. Als jullie met mij verbonden blijven en ik met jullie, dan zul je veel goeds kunnen doen. Maar zonder mij kun je niets. Als je niet met mij verbonden blijft, loopt het slecht met je af. Dan lijk je op een tak die van de stam af gehaald is. Zo'n tak verdort, en hij wordt opgeruimd en in het vuur gegooid.\nJullie moeten dus met mij verbonden blijven, en naar mijn woorden luisteren. Dan zal alles wat je vraagt, gebeuren. Jullie zullen dan, als leerlingen van mij, veel goede dingen doen. Zo maken jullie de hemelse macht van mijn Vader zichtbaar.\nDichter bij de tijd\n(Bewerking: Michael Zaal)\nOp een dag zei Jezus aan zijn leerlingen:\n'Ik ben de echte wijnstok en mijn Vader zorgt voor de wijngaard.\nAls een van mijn ranken geen vrucht draagt, snoeit Hij die weg.\nEn als een rank wel vrucht draagt, snoeit Hij die bij,\nzodat ze nog meer vruchten draagt. Laten we met elkaar verbonden blijven.\nZoals een rank geen vrucht kan dragen uit zichzelf,\nmaar alleen als ze verbonden blijft met de wijnstok,\nzo kunnen ook jullie geen vrucht dragen\nals je niet met Mij verbonden blijft.\nIk ben de wijnstok en jullie zijn de ranken.\nAlleen wie met Mij verbonden blijft - zoals Ik met hem -\ndraagt veel vruchten, want los van Mij kunnen jullie niets.\nWie niet met Mij verbonden blijft, wordt weggegooid als wijnranken:\nze verdorren, men haalt ze bijeen\nen gooit ze in het vuur om ze te verbranden. (...)\nHet doet mijn Vader goed te zien dat jullie veel vruchten dragen\nen jullie tonen dat je mijn leerlingen bent.\nIk heb van jullie gehouden zoals de Vader van Mij heeft gehouden.\nBlijf in die liefde met Mij verbonden.\nAls je mijn opdracht ter harte neemt,\nzul je in liefde met Mij verbonden blijven, zoals ook Ik de opdracht van mijn Vader ter harte heb genomen\nen met Hem in liefde verbonden blijf.\nDit alles zeg Ik zodat jullie kunnen delen in mijn blijdschap.\nZo wordt jullie blijdschap totaal.\nDit is mijn opdracht: hou van elkaar zoals Ik van jullie heb gehouden.\nDe grootste liefde die iemand zijn vrienden kan tonen,\nis dat hij zijn leven voor hen geeft.\nJullie zijn mijn vrienden,\nmaar dan moeten jullie ook doen wat Ik jullie vraag.\nVoor Mij zijn jullie geen dienaars:\neen dienaar weet niet wat zijn meester doet.\nIk noem jullie vrienden,\nwant al wat Ik van de Vader heb vernomen,\nheb Ik aan jullie meegedeeld.\nNiet jullie hebben Mij uitgekozen. Nee, Ik heb jullie uitgekozen\nen Ik heb jullie gevraagd eropuit te gaan en vrucht te dragen,\nvruchten die blijvend zijn.\nWat je de Vader ook vraagt in mijn naam, Hij zal het je geven. Dit is mijn opdracht voor jullie: Hou van elkaar.'\nStilstaan bij...\nWaar / echt\nBetekent in de Bijbel: waar je kunt op rekenen, wat je niet in de steek laat.\nBijvoorbeeld: Op een ware vriend kun je altijd rekenen.\nVader\nTypische manier waarmee Jezus over God spreekt.\nRanken\nRanken zijn de stengels van de wijnstok. Hieraan groeien de bladeren, de bloemen en later de druiven. De stengels zijn meestal niet stevig genoeg om alleen overeind te staan.\nBij de tekst\nSpreken met beelden\nWijnstok | Voor de profeten was de wijnstok het beeld van het volk van God. Johannes noemt Jezus de ware wijnstok. In Hem wordt de verbondenheid met God voluit beleefd. Die sterke relatie van Jezus met God, wordt doorgetrokken tot in de relatie die elke leerling met Jezus heeft. | Wijngaardenier / wijnbouwer | Wie voor de wijngaard zorgt, was voor de profeten een beeld van God: zoals een wijngaardenier zorgt voor zijn wijngaard, zo zorgt God voor zijn volk. |\nRanken | Zoals de ranken maar vrucht kunnen dragen als ze met de wijnstok verbonden zijn, zo moeten de leerlingen van Jezus met Hem verbonden zijn om 'vrucht te kunnen dragen'. |\nDorre takken | Dit is het beeld voor de leerling die niet langer meer met Jezus verbonden leeft. |\nDeze vergelijking van Jezus ...\n... informeert over God en zijn Rijk\n. Verbondenheid tussen Jezus en zijn volgelingen.\n. Alleen in verbondenheid met Jezus is het leven van zijn volgelingen vruchtbaar.\n... roept op tot de realisatie van dit Rijk.\nOproep om de verbondenheid onder elkaar en met God bewust te beleven.\nVoorbeelden van vruchtbaar leven:\n- daadwerkelijk bezorgd zijn voor wie 'klein' en 'zwak' is\n- geweldloos opkomen voor een menswaardig leven Onvruchtbaar leven is: prestatie-, consumptie-, machtsgericht leven.\nHistorische context\nJohannes schreef voor christenen die het moeilijk hadden in een omgeving waarin de Romeinen hen steeds meer vijandig gezind werden en waarin ze ook niet meer naar de synagoge konden, omdat joden en christenen steeds verder van elkaar kwamen te staan.\nJohannes zei hen dat ze niet alleen staan bij het gezond houden van de wijngaard. Als ze verbonden blijven in Jezus, de ware wijnstok, zal Hij werkzaam aanwezig zijn zodat ze 'blijvende' vruchten dragen.\nJohannes 15 en 16\nBeide hoofdstukken werden later toegevoegd, want ze behandelen hetzelfde als hoofdstuk 14, dat een afgerond hoofdstuk is. Bovendien sluit hoofdstuk 17 rechtstreeks aan bij het 14e.\nWortel in het Oude Testament\nHet lied van de wijngaard (Jesaja 5, 1-7)\nIk wil zingen voor mijn dierbare vriend,\nhet lied van mijn dierbare vriend en zijn wijngaard.\nMijn vriend had een wijngaard op een vruchtbare helling. Hij spitte hem om, verwijderde de stenen en beplantte hem met edelwingerd.\nHij bouwde er een wachttoren en kapte ook een wijnpers uit.\nNu verwachtte hij dat hij druiven zou dragen, maar hij bracht slechts wilde bessen voort.\nWelnu, bewoners van Jeruzalem, mensen van Juda,\ndoe uitspraak tussen Mij en mijn wijngaard.\nWat kon Ik nog voor mijn wijngaard doen\ndat Ik niet heb gedaan?\nWaarom bracht hij slechts wilde bessen voort,\nterwijl Ik verwachtte dat hij druiven zou dragen?\nWelnu, Ik zal u vertellen wat Ik met mijn wijngaard ga doen.\nZijn omheining haal Ik weg, zodat hij kaal wordt gevreten;\nzijn muren verniel Ik, zodat hij wordt vertrapt.\nEen wildernis maak Ik ervan, hij wordt niet gesnoeid en niet gewied,\ndistels en doorns groeien er hoog, en de wolken verbied Ik om hem met regen te besproeien. De wijngaard van de heer van de machten is het huis van Israël,\nzijn bevoorrechte planten zijn de mensen van Juda.\nHij hoopte op recht, maar Hij zag onrecht,\nHij zag geen betrachting, maar verkrachting van recht.\n(Deze Bijbeltekst is ontleend aan de Willibrordvertaling, © Katholieke Bijbelstichting, 's-Hertogenbosch, 1995)\nBijbel en kunst\nIcoon\nMerk op hoe de iconograaf de woorden van Jezus letterlijk voorstelt:\nJezus is voor de helft een wijnstok, zoals de apostelen voor de helft ranken zijn.\nHeel opvallend is het open boek voor Jezus, alsof de iconograaf duidelijk wil maken dat Jezus doorheen dat boek te kennen is.\nSuggestie\nNeem verschillende draden wol (verschillend in kleur en in dikte). Maak er een dikke vlecht van. De kinderen tekenen zichzelf op een rond stuk tekenpapier, en / of schrijven hun naam erop. Verbind elk van deze schijfjes met een aparte draad uit de vlecht.\nBreng een afbeelding van Jezus aan op een muur. Onder deze afbeelding breng je de vlecht aan. Schik de verschillende schijfjes met de naam / tekening van de kinderen rond Jezus zoals op de icoon.\nMozaïek\nBeeld van de Kerk van Hailey Sire (12e eeuw)\nCentraal is de gekruisigde Puck te zien met Maria en Johannes.\nHet kruis groeit als het ware uit een acanthusboom die bij de Grieken en de Romeinen het symbool was voor overvloed en nieuw leven. Ook de wijnstok groeit uit die boom. Al haar takken zijn verbonden met de wijnstok en tonen zo dat alle gelovigen met elkaar verbonden zijn in Jezus die leven geeft.\nOnderaan de levensboom verwijzen vier rivieren naar de tuin van Eden. De herten doen denken aan psalm 42, 2: 'Zoals een hert verlangt naar stromend water, zo verlangt mijn ziel naar jou, o God.' Onderaan stelt een fries met twaalf schapen de apostelen voor. Ze richten zich naar het schaap in het midden dat een nimbus (aureool) heeft en Jezus voorstelt als het Lam van God.\nSuggesties\nKleine kinderen\nDOEN\nCollage\nDe kinderen tekenen elk een druif. Die druiven worden geschikt en gekleefd rond een foto van een wijnstok en ranken.\nGrote kinderen\nINFORMEREN\nOver druiven en wijn\nDoordat kinderen veraf staan van het leven van een wijnbouwer, is het nodig dat kinderen wat geïnformeerd worden over de stappen van druif tot wijn. Hierbij kunnen foto's goed helpen.\nMisschien kun je hiervoor het best beginnen bij eindproducten als wijn of 'kinderwijn' (druivensap). Beide producten zijn gemaakt van druiven. Druiven groeien aan de ranken van een wijnstok.\nDe ranken zou je kunnen vergelijken met de takken van een boom, maar ze lopen veel langer uit en blijven veel soepeler. Op bezoek bij Nick\nBruikbaar fotomateriaal\nNick is een wijnbouwer in Frankrijk.\nHij vertelt:\nElke dag ga ik naar mijn wijngaard.\nRanken die geen druiven dragen, snijd ik af en werp ik weg.\nZe dienen nergens meer voor. Ze zullen verdrogen.\nMaar ranken die groen zien en vruchtbaar zijn, snoei ik zodat ze meer vruchten kunnen dragen.\nDan krijgen de druiven meer sap en worden ze dikker en sappiger.\nOm druiven te dragen moet elke rank met de wijnstok of met de stam verbonden blijven.\n- Wie heeft al eens een druivenplant gezien?\n- Kan iemand ",
+      "annotation": {
+        "dataset": "c5_filtered",
+        "id": "c5_filtered_45841",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "substantial",
+        "one_sentence_description": "Dutch religious commentary and educational material explaining the biblical allegory of the true vine and branches.",
+        "content_type": [
+          "instructional",
+          "analytical",
+          "reference",
+          "creative"
+        ],
+        "business_sector": [
+          "nonprofit_ngo",
+          "education_sector"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "excellent",
+        "audience_level": "general",
+        "commercial_bias": "none",
+        "time_sensitivity": "evergreen",
+        "content_safety": "safe",
+        "educational_value": "high",
+        "reasoning_indicators": "analytical",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european"
+        ],
+        "country_relevance": [
+          "netherlands"
+        ]
+      }
+    },
+    {
+      "id": "c5_filtered_54583",
+      "source": "c5_filtered",
+      "text": "12 juli 2020\nIn Zuid- en Midden-Amerika stijgt het aantal met Covid-19 besmette leiders. Afgelopen dinsdag maakte de president van Brazilië, Jair Bolsonaro, bekend met het virus besmet te zijn. Hij bracht eerder naar buiten het medicijn extol hydroxychloroquine te gebruiken waarvan de werking tegen Covid-19 niet bewezen is.\nIn buurland Suriname raakten eerder al drie van de vier leiders uit de nieuwe coalitie besmet. Zij zijn allen rond de 60 jaar oud. Ronnie Brunswijk en Paul Somohardjo kwamen daarbij op de intensive care terecht en zijn inmiddels weer ontslagen uit het ziekenhuis. Aanstaand president Chan Santokhi blijkt het virus niet te hebben. Jeanine Áñez (53), de president van Bolivia, maakte haar besmetting afgelopen donderdag bekend en medio juni was de besmetting van president Juan Orlando Hernández (51) van Honduras en zijn vrouw al bekend. In El Salvador is het Mario Durán, de minister van binnenlandse zaken, die het virus heeft opgelopen. Hij is het tweede kabinetslid dat ziek is geworden van de virusziekte. In Venezuela maakte de leider van de socialistische partij, Diosdado Cabello (en), donderdag bekend dat hij besmet is en in vrijdag was het in dat land raak bij de minister voor Oliezaken, Tareck El Aissami.\nUit een onderzoek van Associated Press blijkt dat er bij elkaar 42 leiders in Latijns-Amerika het virus hebben opgelopen, variërend van presidenten tot burgemeesters van belangrijke steden. AP schat in dat er daarnaast nog naar schatting honderden vertegenwoordigers van kleinere steden zullen zijn die het virus eveneens hebben opgelopen.\nBronnen [bewerken]- Associated Press, \"COVID hits dozens of Latin leaders, including presidents\", Cato van Engeland en Nout Bijlsma, 10 juli 2020\n- Starnieuws, \"ABOP-ondervoorzitter Martinus wil zich laten testen\", 2 juli 2020\n- Suriname Herald, \"DNA-voorzitter Claassen ontslagen uit ziekenhuis\", 6 juli 2020\n- Suriname Herald, \"Coalitieleiders worden getest op COVID-19\", 1 juli 2020 ",
+      "annotation": {
+        "dataset": "c5_filtered",
+        "id": "c5_filtered_54583",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "brief",
+        "one_sentence_description": "News report from July 2020 on the increasing number of COVID-19 cases among leaders in Latin America.",
+        "content_type": [
+          "news_report"
+        ],
+        "business_sector": [
+          "government_public",
+          "healthcare_medical"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "good",
+        "audience_level": "general",
+        "commercial_bias": "none",
+        "time_sensitivity": "time_sensitive",
+        "content_safety": "safe",
+        "educational_value": "minimal",
+        "reasoning_indicators": "minimal",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "latin_american"
+        ],
+        "country_relevance": [
+          "brazil",
+          "suriname",
+          "bolivia",
+          "honduras",
+          "el_salvador",
+          "venezuela"
+        ]
+      }
+    },
+    {
+      "id": "c5_filtered_47033",
+      "source": "c5_filtered",
+      "text": "Gemeente Oosterzele wil er alles aan doen om een bij-vriendelijke gemeente te worden en wil ook zijn inwoners zo veel mogelijk motiveren om daaraan mee te werken. Bijen hebben nestruimte en voedsel nodig. Een bijenhotel kan daarbij helpen.\nDaarom organiseert Gemeente Oosterzele een wedstrijd waarbij via loting tien waardebonnen t.w.v. 50 euro zullen uitgereikt worden.\nWat moet je doen om deel te nemen?\nIedere Oosterzelenaar kan deelnemen; daartoe moet die zich uiterlijk op donderdag 31 augustus 2017 inschrijven bij dienst Milieu en Duurzaamheid in het gemeentehuis - 046 0970521 - erin92@example.com. Deelname is gratis. Je kan deelnemen door:\n- een bijenvriendelijke bloemenborder aan te leggen\nen/of\n- een of meerdere bijenhotels te plaatsen\nEen bijenhotel bestaat in vele vormen, maten en gewichten. Je kunt er heel eenvoudig zelf een maken en er je fantasie op loslaten. Schepen voor Milieu Jan Martens: \"Veel Oosterzelenaren gaan deze zomer aan de slag in de tuin. Als ze daarbij ook denken aan onze bijen wordt onze gemeente nóg aantrekkelijker, zowel voor deze nuttige insecten als voor de inwoners. Win-win en je kan nog een waardebon winnen ook!\"\nIedere deelnemer ontvangt na inschrijving een tuinprikker met het logo van meneer Dylan Prins. Plaats de prikker in de bloeiende border of bij het bijenhotel; maak een (digitale) foto en bezorg die met je naam en adres aan de dienst Milieu en Duurzaamheid.\nOp zaterdag 30 september 2017 wordt de wedstrijd afgesloten met het verloten van de tien waardebonnen. ",
+      "annotation": {
+        "dataset": "c5_filtered",
+        "id": "c5_filtered_47033",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "brief",
+        "one_sentence_description": "Announcement of a municipal bee-friendly contest in Oosterzele inviting residents to participate by creating hives or borders.",
+        "content_type": [
+          "press_release",
+          "procedural"
+        ],
+        "business_sector": [
+          "government_public",
+          "environmental_services"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "adequate",
+        "content_quality": "good",
+        "audience_level": "general",
+        "commercial_bias": "none",
+        "time_sensitivity": "time_sensitive",
+        "content_safety": "safe",
+        "educational_value": "basic",
+        "reasoning_indicators": "basic_reasoning",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european"
+        ],
+        "country_relevance": [
+          "netherlands"
+        ]
+      }
+    },
+    {
+      "id": "c5_filtered_9149",
+      "source": "c5_filtered",
+      "text": "Nieuwe Golven, dat is de zwarte jas uit de kast halen en weemoedig naar de grond staren. De vroege synthesizerbeats van de jaren tachtig zijn helemaal terug om ons te herinneren aan een tijd dat elektronische muziek gesofisticeerd was, niet in apparatuur maar in boodschap. Toen de donkere kant van het leven werd bezongen en bejubeld. New Wave, Synthpop, NDW maar ook Post-Punk en moderne navolgers passeren de revue. Grote klassiekers en vergeten parels. Nieuwe Golven, simpelweg goeie ouwe muziek. ",
+      "annotation": {
+        "dataset": "c5_filtered",
+        "id": "c5_filtered_9149",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "minimal",
+        "one_sentence_description": "A brief description of the Dutch music scene's renewed interest in New Wave, Synthpop, and other retro genres.",
+        "content_type": [
+          "review_critique",
+          "opinion_editorial"
+        ],
+        "business_sector": [
+          "media_entertainment"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "adequate",
+        "content_quality": "good",
+        "audience_level": "general",
+        "commercial_bias": "minimal",
+        "time_sensitivity": "slowly_changing",
+        "content_safety": "safe",
+        "educational_value": "minimal",
+        "reasoning_indicators": "minimal",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european"
+        ],
+        "country_relevance": [
+          "netherlands"
+        ]
+      }
+    },
+    {
+      "id": "c5_filtered_28258",
+      "source": "c5_filtered",
+      "text": "Standaarden:Beveiligd Gegevenstransport/protocollen\nStandaarden: Beveiligd Gegevenstransport/protocollen\nInhoud\n- 1 HTTPS\n- 2 HSTS\n- 3 TLS\n- 3.1 Versie\n- 3.2 Ciphersuites en PFS\n- 3.3 Cipher volgorde\n- 3.4 Renegotiation\n- 3.5 Compression\n- 3.6 Sessie hervatting\n- 3.7 ServerNameIndication\n- 3.8 Certificate Authorities (issuers)\n- 3.9 Fallback SCSV (protocol downgrade attack prevention)\n- 3.10 Public key pinning\nHTTPS\nEisen\n- Er moet gebruik gemaakt worden van HTTPS - Er moet gebruik gemaakt worden van een Fully Qualified Domain Name\n- Er moet gebruik gemaakt worden van TCP port 443\n- Er mag geen gebruik gemaakt worden van redirects die vanaf http (port 80) redirecten naar https (port 443).\nVerklaring\nDe verbindingen binnen de keten moeten van A tot Z beveiligd verlopen, hiervoor wordt HTTPS gebruikt. Om betrouwbaar te communiceren met partijen hebben deze een server certificaat nodig welke deze in de markt aanschaffen. Dit certificaat bevat de, of meerdere, domeinnaam of -namen. De betrouwbaarheid wordt vergroot door alleen gebruik te maken van volledige en traceerbare domeinnamen, Fully Qualified Domain Names (FQDN). HTTPS is door het IANA gestandaardiseerd op port 443, waar bij elke keten dan ook gebruik van wordt gemaakt. Hiervan mag om compatibiliteitsredenen niet afgeweken worden. Er mag geen redirect beschikbaar zijn welke de webservice calls redirect vanaf port 80 naar port 443. Als er op dezelfde host zowel http als https beschikbaar is, moet er een foutmelding teruggegeven worden als er webservice calls op http binnenkomen.\n400 Bad Request Plain text http not supported, use https.\nDe reden hiervoor is dat een call over http direct al payload bevat waar datalekken risicovol kunnen zijn. Om te voorkomen dat verkeerd geconfigureerde clients toch kunnen doorgaan met het gebruik maken van deze onveilige redirect functie, mag er helemaal geen redirect gedaan worden. De client is hierdoor gedwongen zijn configuratie aan te passen.\nHSTS\nEisen\n- Het gebruik van de HSTS HTTP header is niet verplicht\n- De maatregelen die door HSTS worden voorgeschreven, worden al expliciet vereist in andere delen van het de eisen\nVerklaring HSTS wordt alleen gebruikt door webbrowsers, waardoor verplichte implementatie en validatie niet het gewenste effect zal opleveren. Echter, de meeste eisen die HSTS oplegt worden al door het PvE afgedekt.\nTLS\nVersie\nEisen\n- Alleen TLS versie 1.2 en 1.3 mogen worden toegestaan\n- Aan deze eis moet aan zowel de vragende (client) als wel de leverende (server) kant binnen de keten voldaan worden\nVerklaring\nTLSv1.3 en TLSv1.2 zijn de beste protocollen beschikbaar om communicatie tussen publieke http based webservices te beveiligen. SSLv2 en SSLv3 zijn al langere tijd niet meer veilig, echter zal dit ook niet lang meer duren voor TLSv1. De belangrijkste voordelen van TLSv1.2 en hoger boven TLSv1.1 zijn dat er in v1.2 een flink aantal verbeteringen zijn doorgevoerd in de hashing functies, de requirements binnen het protocol een stuk strakker zijn gemaakt en er een aantal sterke AES gebaseerde ciphers bij zijn gekomen die meteen gebruikt worden binnen de keten.\nIn TLS1.3 is daarnaast afscheid genomen van veel verouderde ciphers. Waar TLSv1.2 nog backward compatible is gehouden, is dit voor TLSv1.3 niet meer zo.\nZowel de client als server moeten aan dezelfde TLS specificaties voldoen om te voorkomen dat een Man in the Middle aanval kan slagen door gebruik te maken van zwaktes aan een van beider zijden.\nMogelijke oplossing\nServerside\n- De webserver staat in de configuratie van de webserver (bijvoorbeeld IIS of Apache) bij TLS alleen TLSv1.2 toe, waardoor clients andere versies nooit een verbinding kunnen opzetten - Legacy: (OSO specifiek) De webserver filtert de TLS versie op de applicatielaag en staat voor de webservices alleen TLSv1.2 toe. Deze optie is de workaround en verdient niet de voorkeur.\nOnderstaande geldt alleen voor systemen binnen de OSO keten\nEen bronsysteem controleert bij een binnenkomende aanvraag (documentRequest), voordat de aanvraag wordt afgehandeld, op welk TLS-niveau wordt gecommuniceerd. Wanneer dit niet TLSv1.2 is (maar bijv. TLSv1 of TLSv1.1) dan mag er geen dossier worden uitgeleverd(!).\nIn plaats daarvan moet er een HTTP 400 fout worden terug gegeven en de volgende SOAP envelop:\n<soap:Envelope xmlns:soap=\"https://drogenschijnenjas.org/badteen\">\n<soap:Body>\n<soap:Fault> <faultcode>soap:Server</faultcode>\n<faultstring>TLS version not supported, use 'TLSv1.2'</faultstring>\n</soap:Fault>\n</soap:Body>\n</soap:Envelope>\nDit geeft de aanvragende partij voldoende informatie over het mislukken van de aanvraag om maatregelen te treffen en deze af te vangen voor de eindgebruiker.\nCiphersuites en PFS\nEisen\nVerplichte lijst: De volgende ciphersuites moeten ondersteund worden:\n- 19016156\n- 65918242-GCM-SHA256\n- 0x28 ECDHE-RSA-AES256-SHA384 - 0x27 ECDHE-RSA-AES128-SHA256\nKeuze lijst: De volgende ciphersuites mogen ondersteund worden:\n- 0x2C ECDHE-ECDSA-AES256-GCM-SHA384\n- 0x2B ECDHE-ECDSA-AES128-GCM-SHA256\n- 0x2B 41189943-ECDSA-CHACHA20-POLY68619856\n- 23058225 E36873414-RSA-CHACHA20-POLY68619856\n- 31205693 E36873414-ECDSA-AES256-SHA384\n- 51242185 ECD22402169-ECDSA-AES128-SHA256\nKeuze lijst: De volgende ciphersuites mogen ondersteund worden, maar wel met een opmerking: - 39508666128-GCM-SHA256\n- 0x6B DHE-RSA-AES256-SHA256\n- 0x67 DHE-RSA-AES128-SHA256\nOpmerkingen bij DHE:\n- Vereist zelf gegenereerde DH parameters\n- Vereist DH sleutel lengte van tenminste 2048bit (gelijk aan RSA privé sleutel)\n- Lange DH sleutels genereren een behoorlijke performance hit op de systemen die ze gebruiken. Wanneer sterke versleuteling vereist is zou ECDHE ingezet moeten worden. ECDHE is vele malen lichter in gebruik.\nAls alle bovenstaande ciphersuites worden toegepast moet onderstaande volgorde worden aangehouden:\n- ECDHE-ECDSA-AES256-GCM-SHA384\n- ECDHE-RSA-AES256-GCM-SHA384 - ECDHE-ECDSA-CHACHA20-POLY1305\n- ECDHE-RSA-CHACHA20-POLY1305\n- ECDHE-ECDSA-AES128-GCM-SHA256\n- ECDHE-RSA-AES128-GCM-SHA256\n- ECDHE-ECDSA-AES256-SHA384\n- ECDHE-RSA-AES256-SHA384\n- ECDHE-ECDSA-AES128-SHA256\n- ECDHE-RSA-AES128-SHA256\n- DHE-RSA-AES128-GCM-SHA256\n- DHE-RSA-AES256-SHA256\n- DHE-RSA-AES128-SHA256 Mochten bepaalde ciphers uit de niet-verplichte lijsten niet gehanteerd worden, dan deze uit deze lijst verwijderen.\nCiphersuites welke niet genoemd zijn mogen niet gebruikt worden door zowel client als server.\nVerklaring\nGenereer altijd eigen Mick Dekker-Kunen-HelFeenstra parameters! Gebruik niet de standaard parameters zoals deze zijn gedefinieerd in RFCs 2409, 3526, of 5114. Bijvoorbeeld Apache t/m 2.2 maakt hier gebruik van. Als eigen parameters niet zijn in te stellen, gebruik dan niet de DHE ciphers.\nGenereer altijd een DH sleutel welke tenminste dezelfde lengte heeft als de RSA privésleutel die gebruikt wordt voor het certificaat.\nDe ciphersuite lijst is gebaseerd op de aangeraden configuratie van de Mozilla Foundation. Alleen de DSS gebaseerde ciphers zijn hier nog uit verwijderd aangezien deze inherent onveilig zijn (max 1024bit). De ciphersuites welke zijn toegestaan of zelfs verplicht zijn, ondersteunen allen PFS. Hierdoor zijn de verstuurde versleutelde datastromen ook in de toekomst nog veilig, ook al zou onverhoopt toch een keer ergens een privésleutel uitlekken. Het verschil tussen traditionele versleuteling en \"vluchtige\" (ephemeral) versleuteling is dat in plaats van 1 sleutel voor alle versleutelde communicatie (de RSA privésleutel), er per communicatiesessie er een nieuwe sleutel (middels Mick Dekker-Kunen-HelFeenstra) wordt gegenereerd. Deze sleutel is alleen geldig zolang deze sessie duurt. Na het verlopen van deze sessie heeft zowel de client als de server de sleutel niet meer en zal eventueel opgeslagen data uit de datastroom vrijwel onmogelijk nog teruggehaald kunnen worden. Ephemeral ciphersuites zijn te herkennen aan de suffix E in ECDHE en DHE. Ciphers die niet op de toegestane lijst staan mogen niet gebruikt worden. Legacy ciphers waarbij gebruik gemaakt wordt van bijvoorbeeld RC4 of 3DES zijn onveilig en als vanzelfsprekend niet toegestaan te gebruiken. Lees meer over de problemen met RC4 en 3DES op respectievelijk in CVE-2015-2808 en in CVE-2016-2183\nMogelijke oplossing\nEigen DH parameters zijn bijvoorbeeld te genereren middels openssl. Een werkende oplossing:\nopenssl dhparam -out dhparams.pem 2048\nIn Apache 2.4.8 en nieuwer kan vervolgens de file worden ingeladen.\nSSLOpenSSLConfCmd DHParameters \"{path to dhparams.pem}\"\nIn sommige oudere versies van Apache kan ook de inhoud van dhparams.pem toegevoegd worden onderaan in het certificaat bestaand (appenden).\nLees meer voorbeelden op de deployment guide\nCipher volgorde Eisen\n- De server moet de cipher order bepalen\n- De sterkste ciphersuite moet bovenaan de keuzelijst staan, aflopend naar de 'zwakste' onderaan de lijst\nVerklaring\nDe server in een communicatieproces bepaalt uiteindelijk hoe sterk de versleuteling van de verbinding met de client wordt. De server wijst eventueel zelfs de verbinding met de client af als er geen sterke versleuteling tussen beide overeengekomen kan worden. De server moet dan ook garant staan voor de sterkst mogelijke configuratie die binnen de keten nodig wordt geacht.\nDe server heeft een statische lijst met cipher suites die worden toegestaan en bepaalt hoe deze lijst in onderhandeling met de client wordt afgelopen. De sterkste match tussen server en client moet gekozen worden.\nBinnen de keten worden alleen sterke ciphers toegestaan, echter is er ook nog een performance verschil tussen verschillende suites. Dit heeft voor zowel client als server impact, dus ook hier heeft de server, in opvolging van de eisen, invloed op de keuze van de snelste ciphers. Mogelijke oplossing\nIn Apache kan de cipher volgorde geforceerd worden middels\nSSLHonorCipherOrder on\nIn IIS kan dit geregeld worden zoals beschreven in deze guide\nRenegotiation\nEisen\n- Secure renegotiation moet worden ondersteund\n- Insecure client-renegotiation mag niet ondersteund word",
+      "annotation": {
+        "dataset": "c5_filtered",
+        "id": "c5_filtered_28258",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "moderate",
+        "one_sentence_description": "Technical standards document detailing requirements for secure data transmission protocols including HTTPS, HSTS, and TLS configurations.",
+        "content_type": [
+          "specification_standard",
+          "technical_documentation",
+          "reference"
+        ],
+        "business_sector": [
+          "technology_software",
+          "security_cyber"
+        ],
+        "technical_content": [
+          "basic_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "good",
+        "audience_level": "expert",
+        "commercial_bias": "none",
+        "time_sensitivity": "slowly_changing",
+        "content_safety": "safe",
+        "educational_value": "moderate",
+        "reasoning_indicators": "explanatory",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "culturally_neutral"
+        ],
+        "country_relevance": [
+          "none"
+        ]
+      }
+    },
+    {
+      "id": "c5_filtered_11583",
+      "source": "c5_filtered",
+      "text": "Uit het handboek voor broodschrijvertjes bij 'Metro':\n1. Als een moslim iemand bedreigt: groot en vetgedrukt op de voorpagina zetten!\n2. Als oer-Hollandse kaaskoppen iemand met een islamitische achtergrond bedreigen, niet over schrijven en zo het al ter sprake komt bagatelliseren. Maak er iets van in dat geval met 'poldergekken' of zo.\nTot zover het handboek voor de broodschrijvertjes van het bruine blaadje 'Metro'. ",
+      "annotation": {
+        "dataset": "c5_filtered",
+        "id": "c5_filtered_11583",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "minimal",
+        "one_sentence_description": "Humorous advice for writing political caricatures for the Dutch newspaper 'Metro'.",
+        "content_type": [
+          "instructional",
+          "creative"
+        ],
+        "business_sector": [
+          "media_entertainment"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "good",
+        "audience_level": "general",
+        "commercial_bias": "none",
+        "time_sensitivity": "slowly_changing",
+        "content_safety": "safe",
+        "educational_value": "minimal",
+        "reasoning_indicators": "minimal",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european"
+        ],
+        "country_relevance": [
+          "netherlands"
+        ]
+      }
+    },
+    {
+      "id": "c5_filtered_43773",
+      "source": "c5_filtered",
+      "text": "Belarus zou dit jaar met Letland de wereldkampioenschappen ijshockey huisvesten. De Internationale IJshockeyfederatie heeft Belarus nu geschrapt als mede-organisator. Dit omdat men de veiligheidssituatie als slecht beoordeelt. De politieke onrust en de coronapandemie in het land zijn te zorgwekkend voor de IIHF.\nDe oppositie had al maanden aangedrongen op het intrekken van de organisatie, vanwege de voortdurende repressie tegen de demonstranten in het land sinds de daadwerkelijk vervalste verkiezingsuitslag. De doorslag is evenwel gegeven vanwege het dreigende intrekken van sponsoring.\n(Op grond van Reutersbericht)\n- Uitgelichte afbeelding: Door Hendrick Avercamp - https://vuurgrensrubber.nl/luchtmeest?steun=wakker Web Gallery of Art: Afbeelding Info about artwork, Publiek domein, https://boetepasserenbranden.nl/eimaat?toename=zoals ",
+      "annotation": {
+        "dataset": "c5_filtered",
+        "id": "c5_filtered_43773",
+        "content_integrity": "complete",
+        "content_ratio": "mostly_content",
+        "content_length": "minimal",
+        "one_sentence_description": "News report on Belarus being dropped from the IIHF ice hockey championship due to safety concerns.",
+        "content_type": [
+          "news_report"
+        ],
+        "business_sector": [
+          "media_entertainment",
+          "government_public"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "good",
+        "audience_level": "general",
+        "commercial_bias": "none",
+        "time_sensitivity": "time_sensitive",
+        "content_safety": "safe",
+        "educational_value": "minimal",
+        "reasoning_indicators": "explanatory",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european",
+          "russian_sphere"
+        ],
+        "country_relevance": [
+          "belarus",
+          "latvia"
+        ]
+      }
+    },
+    {
+      "id": "c5_filtered_7974",
+      "source": "c5_filtered",
+      "text": "Krachtige aardbeving treft de Japanse regio Tokyo\nKlik hier om zelf een nieuwsartikel te schrijven. |\n14 oktober 2006\nEen krachtige aardbeving met een kracht van 5.0 op de schaal van Richter heeft zaterdagochtend de Japanse hoofdstad Tokyo getroffen. De aardbeving vond plaats om 6.38 uur lokale tijd. Het epicentrum lag buiten de kust van Chiba, dat zo'n 33 km ten oosten van Tokyo ligt.\nVolgens de eerste berichten is er geen gevaar voor een aardbeving. Er is nog geen informatie over eventuele gewonden of schade door de aardbeving.\nBronnen[bewerken]\n- The Jerusalem Post, \"5.0 QUAKE SHAKES TOKYO, NO TSUNAMI WARNING ISSUED\", 14 oktober 2006 ",
+      "annotation": {
+        "dataset": "c5_filtered",
+        "id": "c5_filtered_7974",
+        "content_integrity": "complete",
+        "content_ratio": "mostly_content",
+        "content_length": "minimal",
+        "one_sentence_description": "News brief reporting a magnitude 5.0 earthquake in Tokyo, Japan in October 2006.",
+        "content_type": [
+          "news_report"
+        ],
+        "business_sector": [
+          "general_interest"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "good",
+        "audience_level": "general",
+        "commercial_bias": "none",
+        "time_sensitivity": "time_sensitive",
+        "content_safety": "safe",
+        "educational_value": "minimal",
+        "reasoning_indicators": "minimal",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "east_asian"
+        ],
+        "country_relevance": [
+          "japan"
+        ]
+      }
+    }
+  ]
+}

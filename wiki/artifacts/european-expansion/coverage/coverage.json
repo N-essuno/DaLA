@@ -1,0 +1,854 @@
+{
+  "ca": {
+    "dataset": "la_output/european_pilots/audited_cpu_v1/ca",
+    "pairs": 125,
+    "sources": {
+      "Wikipedia_ca": 125
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 80,
+    "spelling_pairs": 45,
+    "selected_families": {
+      "determiner_gender": 26,
+      "determiner_number": 30,
+      "adjective_gender": 6,
+      "governed_infinitive": 9,
+      "spelling": 45,
+      "adjective_number": 6,
+      "perfect_verb_form": 3
+    },
+    "selected_rules": {
+      "ca_determiner_gender_ud": 26,
+      "ca_determiner_number_ud": 30,
+      "ca_adjective_gender_ud": 6,
+      "ca_governed_infinitive_ud": 9,
+      "ca_spelling_delete_internal": 24,
+      "ca_spelling_transpose_internal": 19,
+      "ca_adjective_number_ud": 6,
+      "ca_perfect_verb_form_ud": 3,
+      "ca_spelling_substitute_character": 2
+    },
+    "distinct_original_words": {
+      "determiner_gender": 6,
+      "determiner_number": 10,
+      "adjective_gender": 4,
+      "governed_infinitive": 5,
+      "spelling": 45,
+      "adjective_number": 6,
+      "perfect_verb_form": 2
+    },
+    "distinct_substitutions": {
+      "determiner_gender": 6,
+      "determiner_number": 10,
+      "adjective_gender": 4,
+      "governed_infinitive": 5,
+      "spelling": 45,
+      "adjective_number": 6,
+      "perfect_verb_form": 2
+    },
+    "configured_unselected": [
+      "ca_verb_number_agreement_ud",
+      "ca_verb_person_agreement_ud"
+    ],
+    "active_grammar_families": [
+      "adjective_gender",
+      "adjective_number",
+      "determiner_gender",
+      "determiner_number",
+      "governed_infinitive",
+      "perfect_verb_form"
+    ],
+    "sample_rows": 110,
+    "sample_sha256": "c99b7b7527c5129cd348a85091a85443565b12f963133aff6e85bd5d7d81a500",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  },
+  "cs": {
+    "dataset": "la_output/european_pilots/audited_cpu_review_v3/cs",
+    "pairs": 184,
+    "sources": {
+      "Wikipedia_cs": 184
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 75,
+    "spelling_pairs": 109,
+    "selected_families": {
+      "adjective_case": 36,
+      "spelling": 109,
+      "adjective_gender": 3,
+      "governed_infinitive": 1,
+      "adjective_number": 8,
+      "preposition_case": 18,
+      "determiner_case": 7,
+      "determiner_number": 2
+    },
+    "selected_rules": {
+      "cs_adjective_case_ud": 36,
+      "cs_spelling_transpose_internal": 35,
+      "cs_adjective_gender_ud": 3,
+      "cs_observed_spelling_001": 3,
+      "cs_spelling_delete_internal": 42,
+      "cs_spelling_substitute_character": 25,
+      "cs_governed_infinitive_ud": 1,
+      "cs_adjective_number_ud": 8,
+      "cs_preposition_case_gen": 14,
+      "cs_observed_spelling_005": 1,
+      "cs_observed_spelling_010": 1,
+      "cs_preposition_case_ins": 2,
+      "cs_determiner_case_ud": 7,
+      "cs_preposition_case_dat": 2,
+      "cs_determiner_number_ud": 2,
+      "cs_observed_spelling_008": 2
+    },
+    "distinct_original_words": {
+      "adjective_case": 35,
+      "spelling": 101,
+      "adjective_gender": 3,
+      "governed_infinitive": 1,
+      "adjective_number": 7,
+      "preposition_case": 13,
+      "determiner_case": 5,
+      "determiner_number": 2
+    },
+    "distinct_substitutions": {
+      "adjective_case": 36,
+      "spelling": 104,
+      "adjective_gender": 3,
+      "governed_infinitive": 1,
+      "adjective_number": 7,
+      "preposition_case": 13,
+      "determiner_case": 6,
+      "determiner_number": 2
+    },
+    "configured_unselected": [
+      "cs_determiner_gender_ud",
+      "cs_verb_number_agreement_ud",
+      "cs_verb_person_agreement_ud",
+      "cs_observed_spelling_002",
+      "cs_observed_spelling_003",
+      "cs_observed_spelling_004",
+      "cs_observed_spelling_006",
+      "cs_observed_spelling_007",
+      "cs_observed_spelling_009",
+      "cs_observed_spelling_011",
+      "cs_observed_spelling_012",
+      "cs_observed_spelling_013",
+      "cs_observed_spelling_014",
+      "cs_observed_spelling_015",
+      "cs_observed_spelling_016",
+      "cs_observed_spelling_017",
+      "cs_observed_spelling_018",
+      "cs_observed_spelling_019",
+      "cs_observed_spelling_020",
+      "cs_observed_spelling_021",
+      "cs_observed_spelling_022",
+      "cs_observed_spelling_023",
+      "cs_observed_spelling_024",
+      "cs_observed_spelling_025",
+      "cs_observed_spelling_026",
+      "cs_observed_spelling_027",
+      "cs_observed_spelling_028",
+      "cs_observed_spelling_029",
+      "cs_observed_spelling_030",
+      "cs_observed_spelling_031",
+      "cs_observed_spelling_032",
+      "cs_observed_spelling_033",
+      "cs_observed_spelling_034",
+      "cs_observed_spelling_035",
+      "cs_observed_spelling_036",
+      "cs_observed_spelling_037",
+      "cs_observed_spelling_038",
+      "cs_observed_spelling_039",
+      "cs_observed_spelling_040",
+      "cs_observed_spelling_041",
+      "cs_observed_spelling_042",
+      "cs_observed_spelling_043",
+      "cs_observed_spelling_044",
+      "cs_observed_spelling_045",
+      "cs_observed_spelling_046",
+      "cs_observed_spelling_047",
+      "cs_observed_spelling_048",
+      "cs_observed_spelling_049",
+      "cs_observed_spelling_050"
+    ],
+    "active_grammar_families": [
+      "adjective_case",
+      "adjective_gender",
+      "adjective_number",
+      "determiner_case",
+      "determiner_number",
+      "governed_infinitive",
+      "preposition_case"
+    ],
+    "sample_rows": 128,
+    "sample_sha256": "397f2bce5c1c128c61840fc17cfb69305430311e240826b66cc24f3371169eaf",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  },
+  "de": {
+    "dataset": "la_output/european_pilots/audited_cpu_review_v3/de",
+    "pairs": 415,
+    "sources": {
+      "Wikipedia_de": 415
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 165,
+    "spelling_pairs": 250,
+    "selected_families": {
+      "spelling": 250,
+      "determiner_gender": 93,
+      "determiner_case": 16,
+      "adjective_gender": 15,
+      "verb_number_agreement": 14,
+      "verb_person_agreement": 14,
+      "governed_infinitive": 3,
+      "adjective_number": 1,
+      "preposition_case": 7,
+      "determiner_number": 2
+    },
+    "selected_rules": {
+      "de_spelling_delete_internal": 113,
+      "de_spelling_transpose_internal": 116,
+      "de_spelling_substitute_character": 16,
+      "de_determiner_gender_ud": 93,
+      "de_determiner_case_ud": 16,
+      "de_adjective_gender_ud": 15,
+      "de_verb_number_agreement_ud": 14,
+      "de_verb_person_agreement_ud": 14,
+      "de_governed_infinitive_ud": 3,
+      "de_adjective_number_ud": 1,
+      "de_observed_spelling_025": 3,
+      "de_preposition_case_acc": 5,
+      "de_determiner_number_ud": 2,
+      "de_observed_spelling_041": 1,
+      "de_observed_spelling_045": 1,
+      "de_preposition_case_dat": 2
+    },
+    "distinct_original_words": {
+      "spelling": 238,
+      "determiner_gender": 12,
+      "determiner_case": 7,
+      "adjective_gender": 15,
+      "verb_number_agreement": 13,
+      "verb_person_agreement": 12,
+      "governed_infinitive": 3,
+      "adjective_number": 1,
+      "preposition_case": 7,
+      "determiner_number": 1
+    },
+    "distinct_substitutions": {
+      "spelling": 246,
+      "determiner_gender": 15,
+      "determiner_case": 9,
+      "adjective_gender": 15,
+      "verb_number_agreement": 13,
+      "verb_person_agreement": 12,
+      "governed_infinitive": 3,
+      "adjective_number": 1,
+      "preposition_case": 7,
+      "determiner_number": 1
+    },
+    "configured_unselected": [
+      "de_adjective_case_ud",
+      "de_perfect_verb_form_ud",
+      "de_observed_spelling_001",
+      "de_observed_spelling_002",
+      "de_observed_spelling_003",
+      "de_observed_spelling_004",
+      "de_observed_spelling_005",
+      "de_observed_spelling_006",
+      "de_observed_spelling_007",
+      "de_observed_spelling_008",
+      "de_observed_spelling_009",
+      "de_observed_spelling_010",
+      "de_observed_spelling_011",
+      "de_observed_spelling_012",
+      "de_observed_spelling_013",
+      "de_observed_spelling_014",
+      "de_observed_spelling_015",
+      "de_observed_spelling_016",
+      "de_observed_spelling_017",
+      "de_observed_spelling_018",
+      "de_observed_spelling_019",
+      "de_observed_spelling_020",
+      "de_observed_spelling_021",
+      "de_observed_spelling_022",
+      "de_observed_spelling_023",
+      "de_observed_spelling_024",
+      "de_observed_spelling_026",
+      "de_observed_spelling_027",
+      "de_observed_spelling_028",
+      "de_observed_spelling_029",
+      "de_observed_spelling_030",
+      "de_observed_spelling_031",
+      "de_observed_spelling_032",
+      "de_observed_spelling_033",
+      "de_observed_spelling_034",
+      "de_observed_spelling_035",
+      "de_observed_spelling_036",
+      "de_observed_spelling_037",
+      "de_observed_spelling_038",
+      "de_observed_spelling_039",
+      "de_observed_spelling_040",
+      "de_observed_spelling_042",
+      "de_observed_spelling_043",
+      "de_observed_spelling_044",
+      "de_observed_spelling_046",
+      "de_observed_spelling_047"
+    ],
+    "active_grammar_families": [
+      "adjective_gender",
+      "adjective_number",
+      "determiner_case",
+      "determiner_gender",
+      "determiner_number",
+      "governed_infinitive",
+      "preposition_case",
+      "verb_number_agreement",
+      "verb_person_agreement"
+    ],
+    "sample_rows": 143,
+    "sample_sha256": "b90b01f0751b590c9baad48f5024a8b8ec5e7ef96d9d008bb799c20d0678141a",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  },
+  "el": {
+    "dataset": "la_output/european_pilots/audited_cpu_review_v3/el",
+    "pairs": 185,
+    "sources": {
+      "Wikipedia_el": 185
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 78,
+    "spelling_pairs": 107,
+    "selected_families": {
+      "spelling": 107,
+      "determiner_case": 24,
+      "determiner_number": 42,
+      "determiner_gender": 10,
+      "adjective_case": 1,
+      "adjective_gender": 1
+    },
+    "selected_rules": {
+      "el_spelling_transpose_internal": 31,
+      "el_determiner_case_ud": 24,
+      "el_spelling_substitute_character": 29,
+      "el_determiner_number_ud": 42,
+      "el_spelling_delete_internal": 47,
+      "el_determiner_gender_ud": 10,
+      "el_adjective_case_ud": 1,
+      "el_adjective_gender_ud": 1
+    },
+    "distinct_original_words": {
+      "spelling": 104,
+      "determiner_case": 8,
+      "determiner_number": 6,
+      "determiner_gender": 5,
+      "adjective_case": 1,
+      "adjective_gender": 1
+    },
+    "distinct_substitutions": {
+      "spelling": 107,
+      "determiner_case": 9,
+      "determiner_number": 6,
+      "determiner_gender": 6,
+      "adjective_case": 1,
+      "adjective_gender": 1
+    },
+    "configured_unselected": [
+      "el_adjective_number_ud",
+      "el_verb_number_agreement_ud",
+      "el_verb_person_agreement_ud"
+    ],
+    "active_grammar_families": [
+      "adjective_case",
+      "adjective_gender",
+      "determiner_case",
+      "determiner_gender",
+      "determiner_number"
+    ],
+    "sample_rows": 118,
+    "sample_sha256": "616ff5880d87d9a735e5e2269532248d91c5d7137e68e0e0e5ab2da35d96def6",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  },
+  "es": {
+    "dataset": "la_output/european_pilots/audited_cpu_v1/es",
+    "pairs": 194,
+    "sources": {
+      "Wikipedia_es": 194
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 170,
+    "spelling_pairs": 24,
+    "selected_families": {
+      "determiner_number": 81,
+      "spelling": 24,
+      "determiner_gender": 60,
+      "adjective_gender": 4,
+      "adjective_number": 19,
+      "perfect_verb_form": 3,
+      "governed_infinitive": 3
+    },
+    "selected_rules": {
+      "es_determiner_number_ud": 81,
+      "es_spelling_transpose_internal": 10,
+      "es_determiner_gender_ud": 60,
+      "es_spelling_substitute_character": 1,
+      "es_spelling_delete_internal": 13,
+      "es_adjective_gender_ud": 4,
+      "es_adjective_number_ud": 19,
+      "es_perfect_verb_form_ud": 3,
+      "es_governed_infinitive_ud": 3
+    },
+    "distinct_original_words": {
+      "determiner_number": 15,
+      "spelling": 24,
+      "determiner_gender": 10,
+      "adjective_gender": 4,
+      "adjective_number": 19,
+      "perfect_verb_form": 3,
+      "governed_infinitive": 3
+    },
+    "distinct_substitutions": {
+      "determiner_number": 15,
+      "spelling": 24,
+      "determiner_gender": 10,
+      "adjective_gender": 4,
+      "adjective_number": 19,
+      "perfect_verb_form": 3,
+      "governed_infinitive": 3
+    },
+    "configured_unselected": [
+      "es_verb_number_agreement_ud",
+      "es_verb_person_agreement_ud"
+    ],
+    "active_grammar_families": [
+      "adjective_gender",
+      "adjective_number",
+      "determiner_gender",
+      "determiner_number",
+      "governed_infinitive",
+      "perfect_verb_form"
+    ],
+    "sample_rows": 116,
+    "sample_sha256": "26983b8441904ab440891ffa44264efbb4cac6652e82109380a356f25e64d680",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  },
+  "et": {
+    "dataset": "la_output/european_pilots/audited_cpu_v1/et",
+    "pairs": 411,
+    "sources": {
+      "Wikipedia_et": 411
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 89,
+    "spelling_pairs": 322,
+    "selected_families": {
+      "spelling": 322,
+      "adjective_case": 20,
+      "determiner_case": 23,
+      "adjective_number": 9,
+      "determiner_number": 8,
+      "verb_person_agreement": 18,
+      "verb_number_agreement": 11
+    },
+    "selected_rules": {
+      "et_spelling_delete_internal": 153,
+      "et_spelling_transpose_internal": 146,
+      "et_adjective_case_ud": 20,
+      "et_determiner_case_ud": 23,
+      "et_spelling_substitute_character": 23,
+      "et_adjective_number_ud": 9,
+      "et_determiner_number_ud": 8,
+      "et_verb_person_agreement_ud": 18,
+      "et_verb_number_agreement_ud": 11
+    },
+    "distinct_original_words": {
+      "spelling": 297,
+      "adjective_case": 19,
+      "determiner_case": 17,
+      "adjective_number": 8,
+      "determiner_number": 6,
+      "verb_person_agreement": 11,
+      "verb_number_agreement": 8
+    },
+    "distinct_substitutions": {
+      "spelling": 315,
+      "adjective_case": 19,
+      "determiner_case": 20,
+      "adjective_number": 8,
+      "determiner_number": 6,
+      "verb_person_agreement": 11,
+      "verb_number_agreement": 8
+    },
+    "configured_unselected": [],
+    "active_grammar_families": [
+      "adjective_case",
+      "adjective_number",
+      "determiner_case",
+      "determiner_number",
+      "verb_number_agreement",
+      "verb_person_agreement"
+    ],
+    "sample_rows": 134,
+    "sample_sha256": "8e6fab48b330c1052e533bfae51d1dc91e23e35a0353dce2b2064e829d550c42",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  },
+  "fi": {
+    "dataset": "la_output/european_pilots/audited_cpu_v1/fi",
+    "pairs": 589,
+    "sources": {
+      "Wikipedia_fi": 589
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 121,
+    "spelling_pairs": 468,
+    "selected_families": {
+      "spelling": 468,
+      "adjective_case": 59,
+      "verb_number_agreement": 11,
+      "adjective_number": 39,
+      "verb_person_agreement": 12
+    },
+    "selected_rules": {
+      "fi_spelling_transpose_internal": 225,
+      "fi_spelling_delete_internal": 202,
+      "fi_adjective_case_ud": 59,
+      "fi_verb_number_agreement_ud": 11,
+      "fi_spelling_substitute_character": 41,
+      "fi_adjective_number_ud": 39,
+      "fi_verb_person_agreement_ud": 12
+    },
+    "distinct_original_words": {
+      "spelling": 432,
+      "adjective_case": 50,
+      "verb_number_agreement": 8,
+      "adjective_number": 38,
+      "verb_person_agreement": 9
+    },
+    "distinct_substitutions": {
+      "spelling": 450,
+      "adjective_case": 51,
+      "verb_number_agreement": 8,
+      "adjective_number": 38,
+      "verb_person_agreement": 9
+    },
+    "configured_unselected": [
+      "fi_determiner_number_ud",
+      "fi_determiner_case_ud"
+    ],
+    "active_grammar_families": [
+      "adjective_case",
+      "adjective_number",
+      "verb_number_agreement",
+      "verb_person_agreement"
+    ],
+    "sample_rows": 131,
+    "sample_sha256": "6e4d910bf89ff6019708e968eecd9e4aa01c1c47e5c8d4de128f39297f144d72",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  },
+  "fr": {
+    "dataset": "la_output/european_pilots/audited_cpu_v1/fr",
+    "pairs": 250,
+    "sources": {
+      "Wikipedia_fr": 250
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 67,
+    "spelling_pairs": 183,
+    "selected_families": {
+      "adjective_number": 13,
+      "perfect_verb_form": 12,
+      "spelling": 183,
+      "verb_person_agreement": 21,
+      "verb_number_agreement": 15,
+      "governed_infinitive": 6
+    },
+    "selected_rules": {
+      "fr_adjective_number_ud": 13,
+      "fr_perfect_verb_form_ud": 12,
+      "fr_spelling_delete_internal": 82,
+      "fr_verb_person_agreement_ud": 21,
+      "fr_spelling_substitute_character": 27,
+      "fr_verb_number_agreement_ud": 15,
+      "fr_spelling_transpose_internal": 74,
+      "fr_governed_infinitive_ud": 6
+    },
+    "distinct_original_words": {
+      "adjective_number": 6,
+      "perfect_verb_form": 12,
+      "spelling": 175,
+      "verb_person_agreement": 13,
+      "verb_number_agreement": 12,
+      "governed_infinitive": 6
+    },
+    "distinct_substitutions": {
+      "adjective_number": 6,
+      "perfect_verb_form": 12,
+      "spelling": 180,
+      "verb_person_agreement": 13,
+      "verb_number_agreement": 12,
+      "governed_infinitive": 6
+    },
+    "configured_unselected": [
+      "fr_adjective_gender_ud",
+      "fr_determiner_number_ud",
+      "fr_determiner_gender_ud"
+    ],
+    "active_grammar_families": [
+      "adjective_number",
+      "governed_infinitive",
+      "perfect_verb_form",
+      "verb_number_agreement",
+      "verb_person_agreement"
+    ],
+    "sample_rows": 122,
+    "sample_sha256": "46f05362987c8a9112bc2189f569cb5446d39e0e6fe1f969649e921aac208d48",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  },
+  "it": {
+    "dataset": "la_output/european_pilots/audited_cpu_v1/it",
+    "pairs": 55,
+    "sources": {
+      "Wikipedia_it": 55
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 36,
+    "spelling_pairs": 19,
+    "selected_families": {
+      "spelling": 19,
+      "determiner_gender": 23,
+      "perfect_verb_form": 1,
+      "determiner_number": 6,
+      "adjective_gender": 4,
+      "adjective_number": 1,
+      "governed_infinitive": 1
+    },
+    "selected_rules": {
+      "it_spelling_delete_internal": 9,
+      "it_determiner_gender_ud": 23,
+      "it_perfect_verb_form_ud": 1,
+      "it_spelling_transpose_internal": 10,
+      "it_determiner_number_ud": 6,
+      "it_adjective_gender_ud": 4,
+      "it_adjective_number_ud": 1,
+      "it_governed_infinitive_ud": 1
+    },
+    "distinct_original_words": {
+      "spelling": 19,
+      "determiner_gender": 6,
+      "perfect_verb_form": 1,
+      "determiner_number": 4,
+      "adjective_gender": 4,
+      "adjective_number": 1,
+      "governed_infinitive": 1
+    },
+    "distinct_substitutions": {
+      "spelling": 19,
+      "determiner_gender": 6,
+      "perfect_verb_form": 1,
+      "determiner_number": 4,
+      "adjective_gender": 4,
+      "adjective_number": 1,
+      "governed_infinitive": 1
+    },
+    "configured_unselected": [
+      "it_verb_number_agreement_ud",
+      "it_verb_person_agreement_ud",
+      "it_spelling_substitute_character"
+    ],
+    "active_grammar_families": [
+      "adjective_gender",
+      "adjective_number",
+      "determiner_gender",
+      "determiner_number",
+      "governed_infinitive",
+      "perfect_verb_form"
+    ],
+    "sample_rows": 55,
+    "sample_sha256": "eb64dc5ac85de988bf449724067ace8a79174e830717e1efa478676653794a63",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  },
+  "pt-PT": {
+    "dataset": "la_output/european_pilots/audited_cpu_gap_v2/pt-PT",
+    "pairs": 140,
+    "sources": {
+      "Europarl_pt": 140
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 84,
+    "spelling_pairs": 56,
+    "selected_families": {
+      "determiner_number": 44,
+      "spelling": 56,
+      "determiner_gender": 36,
+      "adjective_gender": 2,
+      "verb_person_agreement": 1,
+      "governed_infinitive": 1
+    },
+    "selected_rules": {
+      "pt-PT_determiner_number_ud": 44,
+      "pt-PT_spelling_transpose_internal": 16,
+      "pt-PT_spelling_delete_internal": 35,
+      "pt-PT_spelling_substitute_character": 5,
+      "pt-PT_determiner_gender_ud": 36,
+      "pt-PT_adjective_gender_ud": 2,
+      "pt-PT_verb_person_agreement_ud": 1,
+      "pt-PT_governed_infinitive_ud": 1
+    },
+    "distinct_original_words": {
+      "determiner_number": 10,
+      "spelling": 53,
+      "determiner_gender": 9,
+      "adjective_gender": 1,
+      "verb_person_agreement": 1,
+      "governed_infinitive": 1
+    },
+    "distinct_substitutions": {
+      "determiner_number": 10,
+      "spelling": 56,
+      "determiner_gender": 9,
+      "adjective_gender": 1,
+      "verb_person_agreement": 1,
+      "governed_infinitive": 1
+    },
+    "configured_unselected": [
+      "pt-PT_adjective_number_ud",
+      "pt-PT_verb_number_agreement_ud",
+      "pt-PT_perfect_verb_form_ud"
+    ],
+    "active_grammar_families": [
+      "adjective_gender",
+      "determiner_gender",
+      "determiner_number",
+      "governed_infinitive",
+      "verb_person_agreement"
+    ],
+    "sample_rows": 111,
+    "sample_sha256": "559338b3cb2377faa7401a7c257a8b1fcfc35718ea50a05c6fa1f3cd7697e2de",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  },
+  "ro": {
+    "dataset": "la_output/european_pilots/audited_cpu_v1/ro",
+    "pairs": 104,
+    "sources": {
+      "Wikipedia_ro": 104
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 24,
+    "spelling_pairs": 80,
+    "selected_families": {
+      "spelling": 80,
+      "determiner_gender": 18,
+      "determiner_number": 2,
+      "adjective_number": 2,
+      "adjective_gender": 1,
+      "verb_person_agreement": 1
+    },
+    "selected_rules": {
+      "ro_spelling_substitute_character": 8,
+      "ro_spelling_transpose_internal": 27,
+      "ro_spelling_delete_internal": 45,
+      "ro_determiner_gender_ud": 18,
+      "ro_determiner_number_ud": 2,
+      "ro_adjective_number_ud": 2,
+      "ro_adjective_gender_ud": 1,
+      "ro_verb_person_agreement_ud": 1
+    },
+    "distinct_original_words": {
+      "spelling": 78,
+      "determiner_gender": 6,
+      "determiner_number": 1,
+      "adjective_number": 2,
+      "adjective_gender": 1,
+      "verb_person_agreement": 1
+    },
+    "distinct_substitutions": {
+      "spelling": 80,
+      "determiner_gender": 6,
+      "determiner_number": 1,
+      "adjective_number": 2,
+      "adjective_gender": 1,
+      "verb_person_agreement": 1
+    },
+    "configured_unselected": [
+      "ro_adjective_case_ud",
+      "ro_determiner_case_ud",
+      "ro_verb_number_agreement_ud"
+    ],
+    "active_grammar_families": [
+      "adjective_gender",
+      "adjective_number",
+      "determiner_gender",
+      "determiner_number",
+      "verb_person_agreement"
+    ],
+    "sample_rows": 102,
+    "sample_sha256": "f3311e0080aa1d87a11eda73abb57fcfd58c73badd51e5cff0e16ba2178c97b9",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  },
+  "uk": {
+    "dataset": "la_output/european_pilots/audited_cpu_v1/uk",
+    "pairs": 380,
+    "sources": {
+      "Wikipedia_uk": 380
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 92,
+    "spelling_pairs": 288,
+    "selected_families": {
+      "spelling": 288,
+      "adjective_case": 17,
+      "preposition_case": 35,
+      "determiner_case": 29,
+      "determiner_gender": 6,
+      "adjective_gender": 4,
+      "verb_number_agreement": 1
+    },
+    "selected_rules": {
+      "uk_spelling_transpose_internal": 141,
+      "uk_adjective_case_ud": 17,
+      "uk_spelling_delete_internal": 141,
+      "uk_preposition_case_gen": 35,
+      "uk_determiner_case_ud": 29,
+      "uk_determiner_gender_ud": 6,
+      "uk_adjective_gender_ud": 4,
+      "uk_spelling_substitute_character": 6,
+      "uk_verb_number_agreement_ud": 1
+    },
+    "distinct_original_words": {
+      "spelling": 273,
+      "adjective_case": 14,
+      "preposition_case": 24,
+      "determiner_case": 19,
+      "determiner_gender": 6,
+      "adjective_gender": 4,
+      "verb_number_agreement": 1
+    },
+    "distinct_substitutions": {
+      "spelling": 286,
+      "adjective_case": 14,
+      "preposition_case": 24,
+      "determiner_case": 21,
+      "determiner_gender": 6,
+      "adjective_gender": 4,
+      "verb_number_agreement": 1
+    },
+    "configured_unselected": [
+      "uk_adjective_number_ud",
+      "uk_determiner_number_ud",
+      "uk_verb_person_agreement_ud",
+      "uk_preposition_case_dat",
+      "uk_observed_spelling_001",
+      "uk_observed_spelling_002"
+    ],
+    "active_grammar_families": [
+      "adjective_case",
+      "adjective_gender",
+      "determiner_case",
+      "determiner_gender",
+      "preposition_case",
+      "verb_number_agreement"
+    ],
+    "sample_rows": 127,
+    "sample_sha256": "5618943b14f913b175728537386d2b187450f058129c12c6d594b518d11e85a1",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  }
+}

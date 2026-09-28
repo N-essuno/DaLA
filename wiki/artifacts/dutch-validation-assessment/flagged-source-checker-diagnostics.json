@@ -1,0 +1,80 @@
+[
+  {
+    "sample_id": "nl-003",
+    "judgment": "erroneous",
+    "cached": true,
+    "diagnostics": []
+  },
+  {
+    "sample_id": "nl-014",
+    "judgment": "uncertain",
+    "cached": true,
+    "diagnostics": []
+  },
+  {
+    "sample_id": "nl-018",
+    "judgment": "erroneous",
+    "cached": true,
+    "diagnostics": []
+  },
+  {
+    "sample_id": "nl-022",
+    "judgment": "uncertain",
+    "cached": true,
+    "diagnostics": []
+  },
+  {
+    "sample_id": "nl-026",
+    "judgment": "erroneous",
+    "cached": true,
+    "diagnostics": []
+  },
+  {
+    "sample_id": "nl-028",
+    "judgment": "erroneous",
+    "cached": true,
+    "diagnostics": []
+  },
+  {
+    "sample_id": "nl-058",
+    "judgment": "erroneous",
+    "cached": true,
+    "diagnostics": []
+  },
+  {
+    "sample_id": "nl-094",
+    "judgment": "uncertain",
+    "cached": true,
+    "diagnostics": []
+  },
+  {
+    "sample_id": "nl-097",
+    "judgment": "erroneous",
+    "cached": true,
+    "diagnostics": []
+  },
+  {
+    "sample_id": "nl-104",
+    "judgment": "uncertain",
+    "cached": true,
+    "diagnostics": []
+  },
+  {
+    "sample_id": "nl-172",
+    "judgment": "uncertain",
+    "cached": true,
+    "diagnostics": []
+  },
+  {
+    "sample_id": "nl-190",
+    "judgment": "erroneous",
+    "cached": true,
+    "diagnostics": []
+  },
+  {
+    "sample_id": "nl-extra-005",
+    "judgment": "erroneous",
+    "cached": true,
+    "diagnostics": []
+  }
+]

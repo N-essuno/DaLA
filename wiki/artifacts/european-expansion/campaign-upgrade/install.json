@@ -1,0 +1,32 @@
+{
+  "installed_files": {
+    "dala/parsing.py": "bc0d3e93924ab35324bcfaf941dc03278f45a9e562bbaa4507af81d00377e78e",
+    "dala/surface_syntax.py": "a9a97077dd03fadbb9f09a04b705105783b8bbcb3530cbe50b730c56a622fd80",
+    "dala/source_screen.py": "f9283e0b0d6f498e18b40a8da0a6ac9069b23b76fac4e1a7e333bb9f8d3301b5",
+    "dala/language_packs/morphology.py": "9bf2f0dbe1ccbac7e3342e4eccc219f77529c4e5a4ea39f6d084f46b0844946f",
+    "dala/morphology_check.py": "4fb8ec55f5f24c77418c7a38c8dda4f974c009b383abc933dd82eff0c2754226",
+    "dala/batch_pipeline.py": "8ab42e2073e9a01a61308ca4e28016e0cdeab9e6904e29379ed272d0530d07b4",
+    "scripts/upgrade_campaign_checkpoints.py": "572fa4992a748f678158b5933300805fa1604cb3445283606ed07773fecc83dd",
+    "scripts/verify_campaign_parser_upgrade.py": "0136f7081f44169d67839f020aa1ebf7157ff7225754f4cb47ced963bad04c71",
+    "scripts/report_european_scale_status.py": "0dbb4af809bb3375e14293844413b296ca2a16b0b95e3103b6e3bf1fb1fd4009",
+    "scripts/diagnose_mwt_recovery.py": "d0349dfc732b01acdd55f09dd79eb95f5a9097cc0f8dad4ad544035cf1be00ab",
+    "tests/test_surface_syntax.py": "49486b49770a54901d8eb45a3851fc8ab58b261afccacf2ecd2bc61aee2d0f9b",
+    "tests/test_morphology_checker_pool.py": "804f95957cc4d46dcb40d6db80f187d3a0a577ca61423bd7e43ed5f937cf7c3f",
+    "tests/test_source_prefilter.py": "813cf0e76bf2b7c31f4e723d3bbdc8c39f158e8ac71ae482398f5b1877a4b7d4",
+    "tests/test_generation_upgrade.py": "e897e281f6b873a5c02c3bfb4b00814022aa16495d4bd8adfdc925f0050d3f83"
+  },
+  "parser_allocation": {
+    "ca": 16,
+    "cs": 16,
+    "de": 20,
+    "el": 20,
+    "es": 16,
+    "et": 16,
+    "fr": 12,
+    "it": 20,
+    "ro": 16,
+    "uk": 20,
+    "pt-PT": 20
+  },
+  "retained_completed_language": "fi"
+}

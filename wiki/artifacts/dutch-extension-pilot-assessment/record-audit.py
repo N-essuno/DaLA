@@ -1,0 +1,20 @@
+import json,hashlib,datetime
+from pathlib import Path
+from collections import Counter,defaultdict
+r=Path('wiki/artifacts/dutch-extension-pilot-assessment')
+errors={3:'De kader is an article/noun mismatch; expected het kader or plural de kaders.',11:'The entity string Tygo le Matelotnsteder appears damaged by name substitution; not a clean source.',14:'Space before the final period is a source punctuation defect.',41:'Trailing 2.9 is a joined section marker, not part of the sentence.',72:'A noun phrase with a relative clause, without a main finite clause.',86:'Bijzondere persoonsgegeven has incorrect number/inflection and lacks the determiner required for a singular count reading.',88:'Opiumwet is a stranded heading/fragment before is in die wet ... .',101:'Quantitative at least twice requires ten minste, not tenminste.',102:'Plaats gevonden must be plaatsgevonden for the verb plaatsvinden.',112:'De verschuldigd eigen bijdrage needs verschuldigde; zak en kleedgeld also lacks a suspended-compound hyphen.',133:'Plural overschrijdingen requires zullen zorgen, not zal zorgen.',154:'Quantitative excess requires te veel, not the noun teveel.',157:'Awb30 joins a footnote marker directly to the law abbreviation.',196:'A section marker 3. is appended after the sentence.',197:'Two numbered clauses are joined without sentence whitespace: overdraagbaar.6.De.'}
+uncertain={8:'Bij Jeugdwet appears to omit the article de; uncertain legal shorthand.',57:'Singular gemeenschap is resumed by zij pleiten; possible semantic agreement, not an unambiguously clean target.',69:'Bij te dragen om ... voorkomen has questionable complement structure; would normally express contribution with eraan/toe.',145:'Tenslotte versus ten slotte depends on whether the intended meaning is after all or finally; context does not settle the spelling.',148:'Stap 1 tot en met 5 bepaalt / stap 6 tot en met 8 gaat may require plural agreement when referring to multiple steps.'}
+review=dict(reviewer='Codex agent',native_speaker_gold=False,completed_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),scope='All 200 originals and recorded edits inspected, with full grammar-corrupted strings; separate 15-family supplement. Grammatical/spelling/extraction quality, not factual or legal verification.')
+for name in ['sample.json','family-supplement.json']:
+ p=r/name;a=json.loads(p.read_text());a['review']=review
+ for row in a['rows']:
+  i=int(row['sample_id'].split('-')[-1]);e=errors if name=='sample.json' else {};u=uncertain if name=='sample.json' else {}
+  row.update(source_judgment='erroneous' if i in e else 'uncertain' if i in u else 'acceptable',intended_edits_judgment='valid',notes=e.get(i,u.get(i,'Acceptable source; substitution introduces a clear grammar or spelling error.')))
+ p.write_text(json.dumps(a,ensure_ascii=False,indent=2)+'\n')
+a=json.loads((r/'sample.json').read_text());b=json.loads((r/'family-supplement.json').read_text());by=defaultdict(Counter)
+for p in a['rows']:by[p['source_name']][p['source_judgment']]+=1
+summary=dict(review=review,uniform_sources=dict(Counter(p['source_judgment'] for p in a['rows'])),uniform_edits=dict(Counter(p['intended_edits_judgment'] for p in a['rows'])),by_source={k:dict(v) for k,v in by.items()},supplement_sources=dict(Counter(p['source_judgment'] for p in b['rows'])),supplement_edits=dict(Counter(p['intended_edits_judgment'] for p in b['rows'])),language_advice=['https://taaladvies.net/ten-slotte-of-tenslotte-ten-minste-of-tenminste-ten-einde-of-teneinde/','https://taaladvies.net/te-kort-of-tekort-te-veel-of-teveel-te-goed-of-tegoed/'])
+(r/'review-summary.json').write_text(json.dumps(summary,indent=2)+'\n')
+flags=[dict(sentence_sha256=hashlib.sha256(p['original'].encode()).hexdigest(),reason=p['notes'],evidence=str(r/'sample.json')+'#'+p['sample_id']) for p in a['rows'] if p['source_judgment']!='acceptable'];(r/'source-exclusions.json').write_text(json.dumps(flags,indent=2)+'\n')
+p=Path('config/dutch_extension_source_exclusions.json');allflags=json.loads(p.read_text())+flags;p.write_text(json.dumps(allflags,ensure_ascii=False,indent=2)+'\n')
+print(json.dumps(summary,indent=2))

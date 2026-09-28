@@ -1,0 +1,16 @@
+{
+  "repo_id": "schneiderkamplab/dala-english-common-pile",
+  "url": "https://huggingface.co/datasets/schneiderkamplab/dala-english-common-pile",
+  "revision": "243eaa2b50d740611db42b6b17e67c6e2fd2cfbf",
+  "private": false,
+  "files": 41,
+  "bytes": 562325671,
+  "remote_file_set_and_hashes_verified": true,
+  "rows_per_configuration": 957860,
+  "configurations": [
+    "acceptability",
+    "correction"
+  ],
+  "manifest_sha256": "e6db639c0d317b988a0bae9ba4e283ca7c7a4395be12e1b463710df434b43704",
+  "remote_streaming_load_verified": true
+}

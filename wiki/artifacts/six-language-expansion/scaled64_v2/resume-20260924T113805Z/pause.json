@@ -1,0 +1,1100 @@
+{
+  "at": "2026-09-24T11:30:08.500726+00:00",
+  "status": "paused",
+  "languages": [
+    "pl",
+    "sv",
+    "is"
+  ],
+  "run_id": "scaled64_v2",
+  "process_groups": [
+    1066888,
+    1066889
+  ],
+  "stopped_processes": [
+    {
+      "pid": 1066888,
+      "pgid": 1066888,
+      "state": "Ssl"
+    },
+    {
+      "pid": 1066889,
+      "pgid": 1066889,
+      "state": "Ss"
+    },
+    {
+      "pid": 1066893,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1066894,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1066895,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1066938,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067033,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067841,
+      "pgid": 1066888,
+      "state": "S"
+    },
+    {
+      "pid": 1067842,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067845,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067846,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067847,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1067848,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067849,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067850,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067851,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067852,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067853,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067854,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067855,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067856,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067857,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067859,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067860,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067861,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1067862,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067863,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1067864,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067865,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067866,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067868,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067869,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1067870,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067871,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067872,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067873,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067874,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067875,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1067876,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067877,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067878,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067879,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067880,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1067881,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067882,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1067883,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1067884,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067885,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1067886,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067887,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1067888,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1067889,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067890,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067891,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067892,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067893,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067894,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1067895,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067896,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067897,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067898,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067899,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067900,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067901,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067902,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067903,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067904,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067905,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067906,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067907,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067908,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1067909,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1072654,
+      "pgid": 1066888,
+      "state": "S"
+    },
+    {
+      "pid": 1072655,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072658,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072659,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072660,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072661,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072662,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072663,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072664,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072665,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072666,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072667,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072668,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072669,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1072670,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1072671,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1072672,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072673,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072674,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1072675,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1072676,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072677,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072678,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1072679,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072680,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072681,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072682,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072683,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072684,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072685,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1072686,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072687,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072688,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072689,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072690,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072691,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072692,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072693,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1072694,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072695,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072696,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072697,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072698,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072699,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1072700,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072701,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1072702,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072703,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072704,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072705,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072706,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072707,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072708,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1072709,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072710,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072711,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1072712,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1072713,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072714,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072715,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1072716,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1072717,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072718,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1072719,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1072720,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077189,
+      "pgid": 1066888,
+      "state": "S"
+    },
+    {
+      "pid": 1077190,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077193,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077194,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077195,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077196,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077197,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077198,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077199,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077200,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077201,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077202,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077203,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077204,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077205,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077206,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077207,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077208,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077209,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077210,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077211,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077212,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077213,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077214,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077215,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077216,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077217,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077218,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077219,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077220,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077221,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077222,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077223,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077224,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077225,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077226,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077227,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077228,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077229,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077230,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077231,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077232,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077233,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077234,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077235,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077236,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077237,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077238,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077239,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077240,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077241,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077242,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077243,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077244,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077245,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077246,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077249,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077250,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077251,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077252,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077253,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077254,
+      "pgid": 1066888,
+      "state": "Rl"
+    },
+    {
+      "pid": 1077255,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077256,
+      "pgid": 1066888,
+      "state": "Sl"
+    },
+    {
+      "pid": 1077257,
+      "pgid": 1066888,
+      "state": "Sl"
+    }
+  ],
+  "resume_launches": {
+    "builds": {
+      "at": "2026-09-24T11:01:32.000298+00:00",
+      "pid": 1066888,
+      "command": [
+        "-m",
+        "scripts.run_six_language_scale",
+        "--languages",
+        "pl",
+        "sv",
+        "is",
+        "--run-id",
+        "scaled64_v2",
+        "--tools-dir",
+        "/tmp/dala-six-tools"
+      ],
+      "log": "/tmp/dala-six-scaled64_v2-builds.log"
+    },
+    "finalizer": {
+      "at": "2026-09-24T11:01:32.002014+00:00",
+      "pid": 1066889,
+      "command": [
+        "-m",
+        "scripts.finish_six_language_scale",
+        "--run-id",
+        "recovery_v1",
+        "--language-runs",
+        "pl=scaled64_v2",
+        "sv=scaled64_v2",
+        "is=scaled64_v2",
+        "--review-exclusions",
+        "wiki/artifacts/six-language-expansion/scale_v1/late-review-exclusions.json",
+        "--pair-caps",
+        "nn=478930",
+        "is=478930"
+      ],
+      "log": "/tmp/dala-six-scaled64_v2-finalizer.log"
+    }
+  },
+  "nothing_deleted": true,
+  "verified_at": "2026-09-24T11:30:43.596248+00:00",
+  "counts": {
+    "pl": {
+      "pairs": 123655,
+      "splits": {
+        "test": 13824,
+        "train": 99174,
+        "validation": 10657
+      },
+      "processed_batches": 4108,
+      "last_batch_checksum_verified": true
+    },
+    "sv": {
+      "pairs": 164392,
+      "splits": {
+        "validation": 17200,
+        "train": 125382,
+        "test": 21810
+      },
+      "processed_batches": 3443,
+      "last_batch_checksum_verified": true
+    },
+    "is": {
+      "pairs": 128744,
+      "splits": {
+        "train": 102802,
+        "test": 12288,
+        "validation": 13654
+      },
+      "processed_batches": 8225,
+      "last_batch_checksum_verified": true
+    }
+  },
+  "live_processes_remaining": 0
+}

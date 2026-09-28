@@ -1,0 +1,47 @@
+{
+  "sha": "b9655efb0e5ce0f99809badaa7f4e93017ab8430",
+  "url": "https://api.github.com/repos/unimorph/spa/git/trees/b9655efb0e5ce0f99809badaa7f4e93017ab8430",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8873c464c789389a602231fde5632d04cbaa8c1a",
+      "size": 439,
+      "url": "https://api.github.com/repos/unimorph/spa/git/blobs/8873c464c789389a602231fde5632d04cbaa8c1a"
+    },
+    {
+      "path": "spa",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "715b9b2e8120a824ef5653a9d7fbf872fc02924d",
+      "size": 50335761,
+      "url": "https://api.github.com/repos/unimorph/spa/git/blobs/715b9b2e8120a824ef5653a9d7fbf872fc02924d"
+    },
+    {
+      "path": "spa.derivations",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e11e883bd5a70637b330c93c3e0054268aed48c",
+      "size": 971387,
+      "url": "https://api.github.com/repos/unimorph/spa/git/blobs/9e11e883bd5a70637b330c93c3e0054268aed48c"
+    },
+    {
+      "path": "spa.segmentations.part1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a31dc048a9035fef7e6d8047cc2bfd6d1565b155",
+      "size": 29299778,
+      "url": "https://api.github.com/repos/unimorph/spa/git/blobs/a31dc048a9035fef7e6d8047cc2bfd6d1565b155"
+    },
+    {
+      "path": "spa.segmentations.part2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1befbe5bdba18a8aac5c0b8c409ce0bcdc854a18",
+      "size": 45309915,
+      "url": "https://api.github.com/repos/unimorph/spa/git/blobs/1befbe5bdba18a8aac5c0b8c409ce0bcdc854a18"
+    }
+  ],
+  "truncated": false
+}

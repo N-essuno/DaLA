@@ -1,0 +1,352 @@
+[
+  {
+    "rule_id": "spelling:lexical:hogedrukgebied>hoogdrukgebied",
+    "correct": "hogedrukgebied",
+    "incorrect": "hoogdrukgebied",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:lexical:onmiddellijk>onmiddelijk",
+    "correct": "onmiddellijk",
+    "incorrect": "onmiddelijk",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:lexical:kinderlijk>kinderelijk",
+    "correct": "kinderlijk",
+    "incorrect": "kinderelijk",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:lexical:openlijk>openelijk",
+    "correct": "openlijk",
+    "incorrect": "openelijk",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:lexical:adellijk>adelelijk",
+    "correct": "adellijk",
+    "incorrect": "adelelijk",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:lexical:sowieso>zowiezo",
+    "correct": "sowieso",
+    "incorrect": "zowiezo",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:kunnen>kunen",
+    "correct": "kunnen",
+    "incorrect": "kunen",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:hebben>heben",
+    "correct": "hebben",
+    "incorrect": "heben",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:maken>maaken",
+    "correct": "maken",
+    "incorrect": "maaken",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:binnen>binen",
+    "correct": "binnen",
+    "incorrect": "binen",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:eigen>ijgen",
+    "correct": "eigen",
+    "incorrect": "ijgen",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:eerste>irste",
+    "correct": "eerste",
+    "incorrect": "irste",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:aantal>aantap",
+    "correct": "aantal",
+    "incorrect": "aantap",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:altijd>altij",
+    "correct": "altijd",
+    "incorrect": "altij",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:altijd>altijt",
+    "correct": "altijd",
+    "incorrect": "altijt",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:geven>geefen",
+    "correct": "geven",
+    "incorrect": "geefen",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:krijgen>kijgen",
+    "correct": "krijgen",
+    "incorrect": "kijgen",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:maakt>makat",
+    "correct": "maakt",
+    "incorrect": "makat",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:blijven>blijfen",
+    "correct": "blijven",
+    "incorrect": "blijfen",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:terug>tereg",
+    "correct": "terug",
+    "incorrect": "tereg",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:water>waater",
+    "correct": "water",
+    "incorrect": "waater",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:vraag>fraag",
+    "correct": "vraag",
+    "incorrect": "fraag",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:vraagt>fraagt",
+    "correct": "vraagt",
+    "incorrect": "fraagt",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:laatste>laaste",
+    "correct": "laatste",
+    "incorrect": "laaste",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:laatste>laatse",
+    "correct": "laatste",
+    "incorrect": "laatse",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:zitten>siten",
+    "correct": "zitten",
+    "incorrect": "siten",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:vertelt>fertelt",
+    "correct": "vertelt",
+    "incorrect": "fertelt",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:vandaag>fandaag",
+    "correct": "vandaag",
+    "incorrect": "fandaag",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:bezoek>besoek",
+    "correct": "bezoek",
+    "incorrect": "besoek",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:gezien>gesien",
+    "correct": "gezien",
+    "incorrect": "gesien",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:uitgevoerd>uitgeboerd",
+    "correct": "uitgevoerd",
+    "incorrect": "uitgeboerd",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:kamer>kaamer",
+    "correct": "kamer",
+    "incorrect": "kaamer",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:gevallen>gevalen",
+    "correct": "gevallen",
+    "incorrect": "gevalen",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:handen>hanten",
+    "correct": "handen",
+    "incorrect": "hanten",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:bewoners>bewoonders",
+    "correct": "bewoners",
+    "incorrect": "bewoonders",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:kenmerken>kernmerken",
+    "correct": "kenmerken",
+    "incorrect": "kernmerken",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:omstandigheden>opstandigheden",
+    "correct": "omstandigheden",
+    "incorrect": "opstandigheden",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:grond>gront",
+    "correct": "grond",
+    "incorrect": "gront",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:waarom>warom",
+    "correct": "waarom",
+    "incorrect": "warom",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:gebeurt>geburt",
+    "correct": "gebeurt",
+    "incorrect": "geburt",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:ontstaan>onstaan",
+    "correct": "ontstaan",
+    "incorrect": "onstaan",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:gelukkig>gelukig",
+    "correct": "gelukkig",
+    "incorrect": "gelukig",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:misschien>mischien",
+    "correct": "misschien",
+    "incorrect": "mischien",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:beginnen>beginen",
+    "correct": "beginnen",
+    "incorrect": "beginen",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:allemaal>alemaal",
+    "correct": "allemaal",
+    "incorrect": "alemaal",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:balans>ballans",
+    "correct": "balans",
+    "incorrect": "ballans",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:verkiezingen>verliezingen",
+    "correct": "verkiezingen",
+    "incorrect": "verliezingen",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:creëren>creëeren",
+    "correct": "creëren",
+    "incorrect": "creëeren",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:aanwijzingen>aanwijzigingen",
+    "correct": "aanwijzingen",
+    "incorrect": "aanwijzigingen",
+    "source_recognized": true,
+    "replacement_nonword": true
+  },
+  {
+    "rule_id": "spelling:curated:begonnen>begonen",
+    "correct": "begonnen",
+    "incorrect": "begonen",
+    "source_recognized": true,
+    "replacement_nonword": true
+  }
+]

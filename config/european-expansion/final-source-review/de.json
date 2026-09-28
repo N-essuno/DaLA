@@ -1,0 +1,14 @@
+{
+  "language": "de",
+  "source_sha256": [
+    "66694965d12dcfb01856ac70ed38bb0a637c9e5e6d340ff9164799259d3284b7"
+  ],
+  "review_type": "agent inspection, not native validation",
+  "judgments": [
+    {
+      "original": "Auch der Kampf um den Eisplaneten Hoth aus Das Imperium schlägt zurück ist enthalten.",
+      "reason": "Edit lies within an unmarked film title; proper-name protection is uncertain.",
+      "judgment": "uncertain"
+    }
+  ]
+}

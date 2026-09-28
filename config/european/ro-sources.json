@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "pilot_max_sentences": 3000,
+      "name": "UD_Romanian-RRT",
+      "language": "ro",
+      "path": "/work/mimir/DaLA/la_output/resources/european/ro/ro_rrt-ud-train.conllu",
+      "revision": "a1bd569722e2a4b445dd76a4787bb0c6474ecdc3",
+      "sha256": "4a26cd02ade256384eebc3f93d423115cafa7c6342f00afc98ff071fe841c5ff",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Romanian-RRT/a1bd569722e2a4b445dd76a4787bb0c6474ecdc3/ro_rrt-ud-train.conllu",
+      "license": "CC BY-SA 4.0"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "language": "uk",
+  "rule_overrides": {
+    "verb_number_agreement": {
+      "noun_subject": {
+        "lemmas": [
+          "чоловік",
+          "жінка",
+          "учитель",
+          "студент",
+          "автор",
+          "письменник",
+          "місто",
+          "школа",
+          "підприємство",
+          "будинок",
+          "книга",
+          "дерево"
+        ],
+        "review": "agent conservative count-noun inventory; no native validation"
+      }
+    },
+    "adjective_number": {
+      "feature_applicability": {
+        "Gender": {
+          "Number": [
+            "Plur"
+          ]
+        }
+      }
+    },
+    "determiner_number": {
+      "feature_applicability": {
+        "Gender": {
+          "Number": [
+            "Plur"
+          ]
+        }
+      }
+    }
+  },
+  "status": "candidate_only_agent_reviewed",
+  "reason": "Explicit conservative coverage extensions; shared code, isolated linguistic constraints",
+  "profile_overrides": {
+    "personal_pronoun_features": {
+      "я": {
+        "Number": "Sing",
+        "Person": "1"
+      },
+      "ти": {
+        "Number": "Sing",
+        "Person": "2"
+      },
+      "він": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "вона": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "воно": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "ми": {
+        "Number": "Plur",
+        "Person": "1"
+      },
+      "ви": {
+        "Number": "Plur",
+        "Person": "2"
+      },
+      "вони": {
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    "personal_pronoun_by_dependency": true
+  }
+}

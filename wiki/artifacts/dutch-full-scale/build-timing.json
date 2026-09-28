@@ -1,0 +1,24 @@
+{
+  "checkpoint_start_utc": "2026-09-22T04:58:26.889993+00:00",
+  "screening_complete_utc": "2026-09-22T05:29:21.248274+00:00",
+  "processing_seconds": 1854.358281135559,
+  "batches": 103,
+  "counts": {
+    "documents": 10273,
+    "paragraphs": 733575,
+    "sentences": 1818573,
+    "candidates": 378653
+  },
+  "pairs": 188182,
+  "families": {
+    "article_gender": 71156,
+    "spelling": 100269,
+    "article_number": 6573,
+    "adjective_inflection": 6165,
+    "demonstrative_agreement": 2293,
+    "possessive_agreement": 567,
+    "verb_dt": 9,
+    "subject_verb_agreement": 1126,
+    "relative_pronoun_agreement": 24
+  }
+}

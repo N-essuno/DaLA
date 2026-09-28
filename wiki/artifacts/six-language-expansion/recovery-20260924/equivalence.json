@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "pairs": 206,
+  "unchanged_from_pre_recovery_build": true,
+  "fragmented_and_resumed_equivalence": "../fragment-equivalence_recovery.json"
+}

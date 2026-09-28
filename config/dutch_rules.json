@@ -1,0 +1,704 @@
+{
+  "schema_version": 1,
+  "language": "nl",
+  "edit_validator": "dala.language_packs.dutch:permits",
+  "sources": {
+    "gender": {
+      "url": "https://taaladvies.net/woordgeslacht-algemeen/",
+      "kind": "normative_grammar"
+    },
+    "articles": {
+      "url": "https://taaladvies.net/termen-lidwoord/",
+      "kind": "normative_grammar"
+    },
+    "worden": {
+      "url": "https://www.vlaanderen.be/team-taaladvies/taaladviezen/worden-vervoegen",
+      "kind": "normative_grammar"
+    },
+    "lt": {
+      "url": "https://github.com/languagetool-org/languagetool/blob/v6.6/languagetool-language-modules/nl/src/main/resources/org/languagetool/rules/nl/grammar.xml",
+      "kind": "curated_checker_examples_not_observed_counts",
+      "local_sha256": "9022baad79a0cb0db35cf2ea6e636f9dd9f972e6b5f48316760eb72f5bbe933f"
+    },
+    "onmiddellijk": {
+      "url": "https://onzetaal.nl/taalloket/onmiddelijk-onmiddellijk",
+      "kind": "published_spelling_advice"
+    },
+    "sowieso": {
+      "url": "https://onzetaal.nl/taalloket/sowieso",
+      "kind": "published_spelling_advice"
+    },
+    "opentaal": {
+      "url": "https://github.com/OpenTaal/opentaal-wordlist/tree/b250510dda431785f962019167d1415198ff3905",
+      "kind": "wordlist"
+    }
+  },
+  "rules": [
+    {
+      "id": "subject_verb_agreement:ik:ben>is",
+      "family": "subject_verb_agreement",
+      "correct": "ben",
+      "incorrect": "is",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "ik"
+    },
+    {
+      "id": "subject_verb_agreement:ik:heb>heeft",
+      "family": "subject_verb_agreement",
+      "correct": "heb",
+      "incorrect": "heeft",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "ik"
+    },
+    {
+      "id": "subject_verb_agreement:ik:kan>kunnen",
+      "family": "subject_verb_agreement",
+      "correct": "kan",
+      "incorrect": "kunnen",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "ik"
+    },
+    {
+      "id": "subject_verb_agreement:ik:moet>moeten",
+      "family": "subject_verb_agreement",
+      "correct": "moet",
+      "incorrect": "moeten",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "ik"
+    },
+    {
+      "id": "subject_verb_agreement:ik:ga>gaat",
+      "family": "subject_verb_agreement",
+      "correct": "ga",
+      "incorrect": "gaat",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "ik"
+    },
+    {
+      "id": "subject_verb_agreement:ik:kom>komt",
+      "family": "subject_verb_agreement",
+      "correct": "kom",
+      "incorrect": "komt",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "ik"
+    },
+    {
+      "id": "subject_verb_agreement:ik:werk>werkt",
+      "family": "subject_verb_agreement",
+      "correct": "werk",
+      "incorrect": "werkt",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "ik"
+    },
+    {
+      "id": "verb_dt:ik:word>wordt",
+      "family": "verb_dt",
+      "correct": "word",
+      "incorrect": "wordt",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "ik"
+    },
+    {
+      "id": "verb_dt:ik:vind>vindt",
+      "family": "verb_dt",
+      "correct": "vind",
+      "incorrect": "vindt",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "ik"
+    },
+    {
+      "id": "subject_verb_agreement:hij:is>zijn",
+      "family": "subject_verb_agreement",
+      "correct": "is",
+      "incorrect": "zijn",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "hij"
+    },
+    {
+      "id": "subject_verb_agreement:hij:heeft>hebben",
+      "family": "subject_verb_agreement",
+      "correct": "heeft",
+      "incorrect": "hebben",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "hij"
+    },
+    {
+      "id": "subject_verb_agreement:hij:kan>kunnen",
+      "family": "subject_verb_agreement",
+      "correct": "kan",
+      "incorrect": "kunnen",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "hij"
+    },
+    {
+      "id": "subject_verb_agreement:hij:moet>moeten",
+      "family": "subject_verb_agreement",
+      "correct": "moet",
+      "incorrect": "moeten",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "hij"
+    },
+    {
+      "id": "subject_verb_agreement:hij:gaat>gaan",
+      "family": "subject_verb_agreement",
+      "correct": "gaat",
+      "incorrect": "gaan",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "hij"
+    },
+    {
+      "id": "subject_verb_agreement:hij:komt>komen",
+      "family": "subject_verb_agreement",
+      "correct": "komt",
+      "incorrect": "komen",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "hij"
+    },
+    {
+      "id": "subject_verb_agreement:hij:werkt>werken",
+      "family": "subject_verb_agreement",
+      "correct": "werkt",
+      "incorrect": "werken",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "hij"
+    },
+    {
+      "id": "verb_dt:hij:wordt>word",
+      "family": "verb_dt",
+      "correct": "wordt",
+      "incorrect": "word",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "hij"
+    },
+    {
+      "id": "verb_dt:hij:vindt>vind",
+      "family": "verb_dt",
+      "correct": "vindt",
+      "incorrect": "vind",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "hij"
+    },
+    {
+      "id": "subject_verb_agreement:wij:zijn>is",
+      "family": "subject_verb_agreement",
+      "correct": "zijn",
+      "incorrect": "is",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "wij"
+    },
+    {
+      "id": "subject_verb_agreement:wij:hebben>heeft",
+      "family": "subject_verb_agreement",
+      "correct": "hebben",
+      "incorrect": "heeft",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "wij"
+    },
+    {
+      "id": "subject_verb_agreement:wij:kunnen>kan",
+      "family": "subject_verb_agreement",
+      "correct": "kunnen",
+      "incorrect": "kan",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "wij"
+    },
+    {
+      "id": "subject_verb_agreement:wij:moeten>moet",
+      "family": "subject_verb_agreement",
+      "correct": "moeten",
+      "incorrect": "moet",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "wij"
+    },
+    {
+      "id": "subject_verb_agreement:wij:gaan>gaat",
+      "family": "subject_verb_agreement",
+      "correct": "gaan",
+      "incorrect": "gaat",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "wij"
+    },
+    {
+      "id": "subject_verb_agreement:wij:komen>komt",
+      "family": "subject_verb_agreement",
+      "correct": "komen",
+      "incorrect": "komt",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "wij"
+    },
+    {
+      "id": "subject_verb_agreement:wij:werken>werkt",
+      "family": "subject_verb_agreement",
+      "correct": "werken",
+      "incorrect": "werkt",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "wij"
+    },
+    {
+      "id": "subject_verb_agreement:wij:worden>wordt",
+      "family": "subject_verb_agreement",
+      "correct": "worden",
+      "incorrect": "wordt",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "wij"
+    },
+    {
+      "id": "subject_verb_agreement:we:zijn>is",
+      "family": "subject_verb_agreement",
+      "correct": "zijn",
+      "incorrect": "is",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "we"
+    },
+    {
+      "id": "subject_verb_agreement:we:hebben>heeft",
+      "family": "subject_verb_agreement",
+      "correct": "hebben",
+      "incorrect": "heeft",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "we"
+    },
+    {
+      "id": "subject_verb_agreement:we:kunnen>kan",
+      "family": "subject_verb_agreement",
+      "correct": "kunnen",
+      "incorrect": "kan",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "we"
+    },
+    {
+      "id": "subject_verb_agreement:we:moeten>moet",
+      "family": "subject_verb_agreement",
+      "correct": "moeten",
+      "incorrect": "moet",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "we"
+    },
+    {
+      "id": "subject_verb_agreement:we:gaan>gaat",
+      "family": "subject_verb_agreement",
+      "correct": "gaan",
+      "incorrect": "gaat",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "we"
+    },
+    {
+      "id": "subject_verb_agreement:we:komen>komt",
+      "family": "subject_verb_agreement",
+      "correct": "komen",
+      "incorrect": "komt",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "we"
+    },
+    {
+      "id": "subject_verb_agreement:we:werken>werkt",
+      "family": "subject_verb_agreement",
+      "correct": "werken",
+      "incorrect": "werkt",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "we"
+    },
+    {
+      "id": "subject_verb_agreement:we:worden>wordt",
+      "family": "subject_verb_agreement",
+      "correct": "worden",
+      "incorrect": "wordt",
+      "sources": [
+        "lt",
+        "worden"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "we"
+    },
+    {
+      "id": "article_gender:de:de>het",
+      "family": "article_gender",
+      "correct": "de",
+      "incorrect": "het",
+      "sources": [
+        "gender",
+        "articles"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "de"
+    },
+    {
+      "id": "article_gender:het:het>de",
+      "family": "article_gender",
+      "correct": "het",
+      "incorrect": "de",
+      "sources": [
+        "gender",
+        "articles"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "het"
+    },
+    {
+      "id": "article_number:plural:de>het",
+      "family": "article_number",
+      "correct": "de",
+      "incorrect": "het",
+      "sources": [
+        "articles"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "plural"
+    },
+    {
+      "id": "demonstrative_agreement:de:deze>dit",
+      "family": "demonstrative_agreement",
+      "correct": "deze",
+      "incorrect": "dit",
+      "sources": [
+        "gender"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "de"
+    },
+    {
+      "id": "demonstrative_agreement:plural:deze>dit",
+      "family": "demonstrative_agreement",
+      "correct": "deze",
+      "incorrect": "dit",
+      "sources": [
+        "gender"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "plural"
+    },
+    {
+      "id": "demonstrative_agreement:het:dit>deze",
+      "family": "demonstrative_agreement",
+      "correct": "dit",
+      "incorrect": "deze",
+      "sources": [
+        "gender"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "het"
+    },
+    {
+      "id": "demonstrative_agreement:het:dat>die",
+      "family": "demonstrative_agreement",
+      "correct": "dat",
+      "incorrect": "die",
+      "sources": [
+        "gender"
+      ],
+      "evidence_kind": "normative_guarded_generalization",
+      "distinct_sentence_support": null,
+      "context": "het"
+    },
+    {
+      "id": "spelling:lexical:hogedrukgebied>hoogdrukgebied",
+      "family": "spelling",
+      "correct": "hogedrukgebied",
+      "incorrect": "hoogdrukgebied",
+      "sources": [
+        "lt"
+      ],
+      "evidence_kind": "curated_spelling_example",
+      "distinct_sentence_support": null,
+      "requires_lexical_screen": true
+    },
+    {
+      "id": "spelling:lexical:onmiddellijk>onmiddelijk",
+      "family": "spelling",
+      "correct": "onmiddellijk",
+      "incorrect": "onmiddelijk",
+      "sources": [
+        "onmiddellijk"
+      ],
+      "evidence_kind": "curated_spelling_example",
+      "distinct_sentence_support": null,
+      "requires_lexical_screen": true
+    },
+    {
+      "id": "spelling:lexical:kinderlijk>kinderelijk",
+      "family": "spelling",
+      "correct": "kinderlijk",
+      "incorrect": "kinderelijk",
+      "sources": [
+        "onmiddellijk"
+      ],
+      "evidence_kind": "curated_spelling_example",
+      "distinct_sentence_support": null,
+      "requires_lexical_screen": true
+    },
+    {
+      "id": "spelling:lexical:openlijk>openelijk",
+      "family": "spelling",
+      "correct": "openlijk",
+      "incorrect": "openelijk",
+      "sources": [
+        "onmiddellijk"
+      ],
+      "evidence_kind": "curated_spelling_example",
+      "distinct_sentence_support": null,
+      "requires_lexical_screen": true
+    },
+    {
+      "id": "spelling:lexical:adellijk>adelelijk",
+      "family": "spelling",
+      "correct": "adellijk",
+      "incorrect": "adelelijk",
+      "sources": [
+        "onmiddellijk"
+      ],
+      "evidence_kind": "curated_spelling_example",
+      "distinct_sentence_support": null,
+      "requires_lexical_screen": true
+    },
+    {
+      "id": "spelling:lexical:sowieso>zowiezo",
+      "family": "spelling",
+      "correct": "sowieso",
+      "incorrect": "zowiezo",
+      "sources": [
+        "sowieso"
+      ],
+      "evidence_kind": "curated_spelling_example",
+      "distinct_sentence_support": null,
+      "requires_lexical_screen": true
+    },
+    {
+      "id": "spelling:productive:transpose_internal",
+      "family": "spelling",
+      "operator": "character_edit",
+      "operation": "transpose_internal",
+      "min_length": 5,
+      "max_length": 16,
+      "consonants": "bcdfghjklmnpqrstvwxz",
+      "allowed_pos": [
+        "NOUN",
+        "VERB",
+        "ADJ",
+        "ADV"
+      ],
+      "protected_doubling_suffixes": [],
+      "requires_lexical_screen": true,
+      "sources": [
+        "onmiddellijk",
+        "opentaal"
+      ],
+      "evidence_kind": "synthetic_character_extension_not_observed_frequency"
+    },
+    {
+      "id": "spelling:productive:duplicate_consonant",
+      "family": "spelling",
+      "operator": "character_edit",
+      "operation": "duplicate_consonant",
+      "min_length": 5,
+      "max_length": 16,
+      "consonants": "bcdfghjklmnpqrstvwxz",
+      "allowed_pos": [
+        "NOUN",
+        "VERB",
+        "ADJ",
+        "ADV"
+      ],
+      "protected_doubling_suffixes": [],
+      "requires_lexical_screen": true,
+      "sources": [
+        "onmiddellijk",
+        "opentaal"
+      ],
+      "evidence_kind": "synthetic_character_extension_not_observed_frequency"
+    },
+    {
+      "id": "spelling:productive:delete_doubled_consonant",
+      "family": "spelling",
+      "operator": "character_edit",
+      "operation": "delete_doubled_consonant",
+      "min_length": 5,
+      "max_length": 16,
+      "consonants": "bcdfghjklmnpqrstvwxz",
+      "allowed_pos": [
+        "NOUN",
+        "VERB",
+        "ADJ",
+        "ADV"
+      ],
+      "protected_doubling_suffixes": [],
+      "requires_lexical_screen": true,
+      "sources": [
+        "onmiddellijk",
+        "opentaal"
+      ],
+      "evidence_kind": "synthetic_character_extension_not_observed_frequency"
+    }
+  ]
+}

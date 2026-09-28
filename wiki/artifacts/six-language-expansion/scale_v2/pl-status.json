@@ -1,0 +1,7 @@
+{
+  "language": "pl",
+  "exit_code": 1,
+  "log": "wiki/artifacts/six-language-expansion/scale_v2/pl.log",
+  "output": "la_output/pl_dynaword_scale_v2",
+  "status": "failed_checkpoints_preserved"
+}

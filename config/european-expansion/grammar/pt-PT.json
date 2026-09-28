@@ -1,0 +1,64 @@
+{
+  "language": "pt-PT",
+  "rule_overrides": {
+    "verb_number_agreement": {
+      "noun_subject": {
+        "lemmas": [
+          "criança",
+          "homem",
+          "mulher",
+          "professor",
+          "estudante",
+          "autor",
+          "escritor",
+          "cidade",
+          "escola",
+          "empresa",
+          "edifício",
+          "livro",
+          "árvore"
+        ],
+        "review": "agent conservative count-noun inventory; no native validation"
+      }
+    }
+  },
+  "status": "candidate_only_agent_reviewed",
+  "reason": "Explicit conservative coverage extensions; shared code, isolated linguistic constraints",
+  "profile_overrides": {
+    "personal_pronoun_features": {
+      "eu": {
+        "Number": "Sing",
+        "Person": "1"
+      },
+      "tu": {
+        "Number": "Sing",
+        "Person": "2"
+      },
+      "ele": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "ela": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "nós": {
+        "Number": "Plur",
+        "Person": "1"
+      },
+      "vós": {
+        "Number": "Plur",
+        "Person": "2"
+      },
+      "eles": {
+        "Number": "Plur",
+        "Person": "3"
+      },
+      "elas": {
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    "personal_pronoun_by_dependency": true
+  }
+}

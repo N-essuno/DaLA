@@ -1,0 +1,6 @@
+{
+  "language": "fo",
+  "exit_code": 0,
+  "log": "wiki/artifacts/six-language-expansion/fo-audit_v10.log",
+  "output": "la_output/fo_dynaword_audit_v10"
+}

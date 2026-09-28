@@ -1,0 +1,1119 @@
+{
+  "baseline": {
+    "path": "la_output/english_productive",
+    "manifest_sha256": "aaf99ebe123a54f5d54be00d1e18c7ad1527fcd903232f228f3c8d6d4005f472",
+    "pairs": 18958,
+    "rows_per_task": 37916,
+    "source_documents": 1659,
+    "splits": {
+      "train": {
+        "pairs": 15021,
+        "acceptability_rows": 30042,
+        "correction_rows": 30042,
+        "edits_by_type": {
+          "demonstrative_number": 1049,
+          "do_support_form": 604,
+          "modal_verb_form": 4714,
+          "noun_number": 235,
+          "perfect_participle": 1034,
+          "spelling": 6933,
+          "subject_verb_agreement": 2163
+        },
+        "pairs_by_error_count": {
+          "1": 13310,
+          "2": 1711
+        },
+        "pairs_by_source": {
+          "360info": 11942,
+          "public_domain_review_essays": 3079
+        }
+      },
+      "validation": {
+        "pairs": 1866,
+        "acceptability_rows": 3732,
+        "correction_rows": 3732,
+        "edits_by_type": {
+          "demonstrative_number": 103,
+          "do_support_form": 97,
+          "modal_verb_form": 536,
+          "noun_number": 33,
+          "perfect_participle": 138,
+          "spelling": 835,
+          "subject_verb_agreement": 314
+        },
+        "pairs_by_error_count": {
+          "1": 1676,
+          "2": 190
+        },
+        "pairs_by_source": {
+          "360info": 1368,
+          "public_domain_review_essays": 498
+        }
+      },
+      "test": {
+        "pairs": 2071,
+        "acceptability_rows": 4142,
+        "correction_rows": 4142,
+        "edits_by_type": {
+          "demonstrative_number": 119,
+          "do_support_form": 90,
+          "modal_verb_form": 622,
+          "noun_number": 30,
+          "perfect_participle": 157,
+          "spelling": 959,
+          "subject_verb_agreement": 325
+        },
+        "pairs_by_error_count": {
+          "1": 1840,
+          "2": 231
+        },
+        "pairs_by_source": {
+          "360info": 1669,
+          "public_domain_review_essays": 402
+        }
+      }
+    },
+    "pairs_by_source": {
+      "360info": 14979,
+      "public_domain_review_essays": 3979
+    },
+    "pairs_by_error_count": {
+      "1": 16826,
+      "2": 2132
+    },
+    "all_edits": {
+      "edits": 21090,
+      "distinct_surface_substitutions": 2038,
+      "distinct_original_forms": 1584,
+      "top_substitution_share": 0.2603129445234708,
+      "entropy_bits": 6.729890588620263,
+      "effective_substitutions": 106.14485172563091,
+      "top_substitutions": [
+        {
+          "original": "that",
+          "replacement": "taht",
+          "count": 5490
+        },
+        {
+          "original": "government",
+          "replacement": "goverment",
+          "count": 1016
+        },
+        {
+          "original": "these",
+          "replacement": "this",
+          "count": 944
+        },
+        {
+          "original": "public",
+          "replacement": "puplic",
+          "count": 865
+        },
+        {
+          "original": "is",
+          "replacement": "are",
+          "count": 788
+        },
+        {
+          "original": "been",
+          "replacement": "was",
+          "count": 621
+        },
+        {
+          "original": "technology",
+          "replacement": "technolgy",
+          "count": 395
+        },
+        {
+          "original": "this",
+          "replacement": "these",
+          "count": 290
+        },
+        {
+          "original": "help",
+          "replacement": "helping",
+          "count": 279
+        },
+        {
+          "original": "have",
+          "replacement": "having",
+          "count": 250
+        }
+      ]
+    },
+    "families": {
+      "demonstrative_number": {
+        "edits": 1271,
+        "distinct_surface_substitutions": 3,
+        "distinct_original_forms": 3,
+        "top_substitution_share": 0.7427222659323367,
+        "entropy_bits": 0.9536535477113474,
+        "effective_substitutions": 1.9367712216616855,
+        "top_substitutions": [
+          {
+            "original": "these",
+            "replacement": "this",
+            "count": 944
+          },
+          {
+            "original": "this",
+            "replacement": "these",
+            "count": 290
+          },
+          {
+            "original": "that",
+            "replacement": "those",
+            "count": 37
+          }
+        ]
+      },
+      "do_support_form": {
+        "edits": 791,
+        "distinct_surface_substitutions": 302,
+        "distinct_original_forms": 302,
+        "top_substitution_share": 0.08596713021491782,
+        "entropy_bits": 7.215019213093004,
+        "effective_substitutions": 148.57207963679684,
+        "top_substitutions": [
+          {
+            "original": "have",
+            "replacement": "had",
+            "count": 68
+          },
+          {
+            "original": "mean",
+            "replacement": "meant",
+            "count": 43
+          },
+          {
+            "original": "know",
+            "replacement": "knew",
+            "count": 24
+          },
+          {
+            "original": "receive",
+            "replacement": "received",
+            "count": 22
+          },
+          {
+            "original": "seem",
+            "replacement": "seemed",
+            "count": 17
+          },
+          {
+            "original": "take",
+            "replacement": "took",
+            "count": 16
+          },
+          {
+            "original": "want",
+            "replacement": "wanted",
+            "count": 13
+          },
+          {
+            "original": "see",
+            "replacement": "saw",
+            "count": 13
+          },
+          {
+            "original": "go",
+            "replacement": "went",
+            "count": 13
+          },
+          {
+            "original": "need",
+            "replacement": "needed",
+            "count": 12
+          }
+        ]
+      },
+      "modal_verb_form": {
+        "edits": 5872,
+        "distinct_surface_substitutions": 967,
+        "distinct_original_forms": 967,
+        "top_substitution_share": 0.047513623978201636,
+        "entropy_bits": 8.29367432502761,
+        "effective_substitutions": 313.79408008590366,
+        "top_substitutions": [
+          {
+            "original": "help",
+            "replacement": "helping",
+            "count": 279
+          },
+          {
+            "original": "have",
+            "replacement": "having",
+            "count": 250
+          },
+          {
+            "original": "need",
+            "replacement": "needing",
+            "count": 137
+          },
+          {
+            "original": "make",
+            "replacement": "making",
+            "count": 125
+          },
+          {
+            "original": "become",
+            "replacement": "becoming",
+            "count": 120
+          },
+          {
+            "original": "lead",
+            "replacement": "leading",
+            "count": 105
+          },
+          {
+            "original": "take",
+            "replacement": "taking",
+            "count": 94
+          },
+          {
+            "original": "continue",
+            "replacement": "continuing",
+            "count": 79
+          },
+          {
+            "original": "provide",
+            "replacement": "providing",
+            "count": 78
+          },
+          {
+            "original": "see",
+            "replacement": "seeing",
+            "count": 70
+          }
+        ]
+      },
+      "noun_number": {
+        "edits": 298,
+        "distinct_surface_substitutions": 140,
+        "distinct_original_forms": 140,
+        "top_substitution_share": 0.06711409395973154,
+        "entropy_bits": 6.487963355312392,
+        "effective_substitutions": 89.75767215275474,
+        "top_substitutions": [
+          {
+            "original": "women",
+            "replacement": "woman",
+            "count": 20
+          },
+          {
+            "original": "others",
+            "replacement": "other",
+            "count": 19
+          },
+          {
+            "original": "nations",
+            "replacement": "nation",
+            "count": 12
+          },
+          {
+            "original": "cases",
+            "replacement": "case",
+            "count": 11
+          },
+          {
+            "original": "factors",
+            "replacement": "factor",
+            "count": 11
+          },
+          {
+            "original": "regions",
+            "replacement": "region",
+            "count": 8
+          },
+          {
+            "original": "cities",
+            "replacement": "city",
+            "count": 8
+          },
+          {
+            "original": "years",
+            "replacement": "year",
+            "count": 6
+          },
+          {
+            "original": "sectors",
+            "replacement": "sector",
+            "count": 5
+          },
+          {
+            "original": "instances",
+            "replacement": "instance",
+            "count": 5
+          }
+        ]
+      },
+      "perfect_participle": {
+        "edits": 1329,
+        "distinct_surface_substitutions": 44,
+        "distinct_original_forms": 44,
+        "top_substitution_share": 0.4672686230248307,
+        "entropy_bits": 3.101233357277812,
+        "effective_substitutions": 8.58152089135261,
+        "top_substitutions": [
+          {
+            "original": "been",
+            "replacement": "was",
+            "count": 621
+          },
+          {
+            "original": "become",
+            "replacement": "became",
+            "count": 194
+          },
+          {
+            "original": "taken",
+            "replacement": "took",
+            "count": 73
+          },
+          {
+            "original": "seen",
+            "replacement": "saw",
+            "count": 60
+          },
+          {
+            "original": "come",
+            "replacement": "came",
+            "count": 55
+          },
+          {
+            "original": "grown",
+            "replacement": "grew",
+            "count": 43
+          },
+          {
+            "original": "gone",
+            "replacement": "went",
+            "count": 38
+          },
+          {
+            "original": "given",
+            "replacement": "gave",
+            "count": 34
+          },
+          {
+            "original": "done",
+            "replacement": "did",
+            "count": 30
+          },
+          {
+            "original": "begun",
+            "replacement": "began",
+            "count": 26
+          }
+        ]
+      },
+      "spelling": {
+        "edits": 8727,
+        "distinct_surface_substitutions": 13,
+        "distinct_original_forms": 11,
+        "top_substitution_share": 0.6290821588174631,
+        "entropy_bits": 1.9640052181610963,
+        "effective_substitutions": 3.90143595739808,
+        "top_substitutions": [
+          {
+            "original": "that",
+            "replacement": "taht",
+            "count": 5490
+          },
+          {
+            "original": "government",
+            "replacement": "goverment",
+            "count": 1016
+          },
+          {
+            "original": "public",
+            "replacement": "puplic",
+            "count": 865
+          },
+          {
+            "original": "technology",
+            "replacement": "technolgy",
+            "count": 395
+          },
+          {
+            "original": "because",
+            "replacement": "becasue",
+            "count": 240
+          },
+          {
+            "original": "because",
+            "replacement": "beacuse",
+            "count": 239
+          },
+          {
+            "original": "pollution",
+            "replacement": "polution",
+            "count": 167
+          },
+          {
+            "original": "environment",
+            "replacement": "envirnoment",
+            "count": 97
+          },
+          {
+            "original": "environment",
+            "replacement": "enviromment",
+            "count": 88
+          },
+          {
+            "original": "famous",
+            "replacement": "fameous",
+            "count": 67
+          }
+        ]
+      },
+      "subject_verb_agreement": {
+        "edits": 2802,
+        "distinct_surface_substitutions": 575,
+        "distinct_original_forms": 575,
+        "top_substitution_share": 0.28122769450392576,
+        "entropy_bits": 6.091321755069146,
+        "effective_substitutions": 68.1821295469144,
+        "top_substitutions": [
+          {
+            "original": "is",
+            "replacement": "are",
+            "count": 788
+          },
+          {
+            "original": "are",
+            "replacement": "is",
+            "count": 212
+          },
+          {
+            "original": "has",
+            "replacement": "have",
+            "count": 159
+          },
+          {
+            "original": "have",
+            "replacement": "has",
+            "count": 158
+          },
+          {
+            "original": "need",
+            "replacement": "needs",
+            "count": 72
+          },
+          {
+            "original": "comes",
+            "replacement": "come",
+            "count": 51
+          },
+          {
+            "original": "seems",
+            "replacement": "seem",
+            "count": 46
+          },
+          {
+            "original": "know",
+            "replacement": "knows",
+            "count": 27
+          },
+          {
+            "original": "see",
+            "replacement": "sees",
+            "count": 21
+          },
+          {
+            "original": "do",
+            "replacement": "does",
+            "count": 21
+          }
+        ]
+      }
+    },
+    "held_out_edit_instances": 2302,
+    "held_out_edits_unseen_surface_pair_in_train": 147,
+    "quality_status": "checker_screened",
+    "rejections": {
+      "audited_source_exclusion": 6,
+      "boilerplate": 227,
+      "checker_missed_edit": 4032,
+      "checker_source_error": 1319,
+      "existing_determiner_mismatch": 364,
+      "fragment_or_format": 5856,
+      "known_misspelling": 1,
+      "length": 7390,
+      "near_duplicate": 101,
+      "no_finite_main_verb": 634,
+      "no_licensed_corruption": 28497,
+      "no_main_subject": 3089,
+      "no_verbal_root": 1339,
+      "nonprose": 978,
+      "quotation_or_ellipsis": 7320,
+      "text_collision": 181,
+      "unknown_non_name_word": 1457
+    },
+    "human_precision": null
+  },
+  "current": {
+    "path": "la_output/english_spelling_expanded",
+    "manifest_sha256": "c738fd4c0eac969dd69d3d7224dc8fcb736ca17e432e55e0c31eb93bf7db3479",
+    "pairs": 21090,
+    "rows_per_task": 42180,
+    "source_documents": 1665,
+    "splits": {
+      "train": {
+        "pairs": 16696,
+        "acceptability_rows": 33392,
+        "correction_rows": 33392,
+        "edits_by_type": {
+          "demonstrative_number": 1048,
+          "do_support_form": 598,
+          "modal_verb_form": 4697,
+          "noun_number": 231,
+          "perfect_participle": 1026,
+          "spelling": 9242,
+          "subject_verb_agreement": 2163
+        },
+        "pairs_by_error_count": {
+          "1": 14387,
+          "2": 2309
+        },
+        "pairs_by_source": {
+          "360info": 13220,
+          "public_domain_review_essays": 3476
+        }
+      },
+      "validation": {
+        "pairs": 2097,
+        "acceptability_rows": 4194,
+        "correction_rows": 4194,
+        "edits_by_type": {
+          "demonstrative_number": 103,
+          "do_support_form": 97,
+          "modal_verb_form": 536,
+          "noun_number": 33,
+          "perfect_participle": 137,
+          "spelling": 1161,
+          "subject_verb_agreement": 314
+        },
+        "pairs_by_error_count": {
+          "1": 1813,
+          "2": 284
+        },
+        "pairs_by_source": {
+          "360info": 1521,
+          "public_domain_review_essays": 576
+        }
+      },
+      "test": {
+        "pairs": 2297,
+        "acceptability_rows": 4594,
+        "correction_rows": 4594,
+        "edits_by_type": {
+          "demonstrative_number": 119,
+          "do_support_form": 90,
+          "modal_verb_form": 623,
+          "noun_number": 30,
+          "perfect_participle": 155,
+          "spelling": 1262,
+          "subject_verb_agreement": 325
+        },
+        "pairs_by_error_count": {
+          "1": 1990,
+          "2": 307
+        },
+        "pairs_by_source": {
+          "360info": 1852,
+          "public_domain_review_essays": 445
+        }
+      }
+    },
+    "pairs_by_source": {
+      "360info": 16593,
+      "public_domain_review_essays": 4497
+    },
+    "pairs_by_error_count": {
+      "1": 18190,
+      "2": 2900
+    },
+    "all_edits": {
+      "edits": 23990,
+      "distinct_surface_substitutions": 2088,
+      "distinct_original_forms": 1624,
+      "top_substitution_share": 0.22042517715714882,
+      "entropy_bits": 7.069027636710572,
+      "effective_substitutions": 134.27320608385017,
+      "top_substitutions": [
+        {
+          "original": "that",
+          "replacement": "taht",
+          "count": 5288
+        },
+        {
+          "original": "government",
+          "replacement": "goverment",
+          "count": 969
+        },
+        {
+          "original": "these",
+          "replacement": "this",
+          "count": 943
+        },
+        {
+          "original": "public",
+          "replacement": "puplic",
+          "count": 834
+        },
+        {
+          "original": "is",
+          "replacement": "are",
+          "count": 788
+        },
+        {
+          "original": "been",
+          "replacement": "was",
+          "count": 611
+        },
+        {
+          "original": "country",
+          "replacement": "contry",
+          "count": 431
+        },
+        {
+          "original": "different",
+          "replacement": "diferent",
+          "count": 390
+        },
+        {
+          "original": "technology",
+          "replacement": "technolgy",
+          "count": 383
+        },
+        {
+          "original": "especially",
+          "replacement": "expecially",
+          "count": 294
+        }
+      ]
+    },
+    "families": {
+      "demonstrative_number": {
+        "edits": 1270,
+        "distinct_surface_substitutions": 3,
+        "distinct_original_forms": 3,
+        "top_substitution_share": 0.74251968503937,
+        "entropy_bits": 0.9540664229593564,
+        "effective_substitutions": 1.9373255725877254,
+        "top_substitutions": [
+          {
+            "original": "these",
+            "replacement": "this",
+            "count": 943
+          },
+          {
+            "original": "this",
+            "replacement": "these",
+            "count": 290
+          },
+          {
+            "original": "that",
+            "replacement": "those",
+            "count": 37
+          }
+        ]
+      },
+      "do_support_form": {
+        "edits": 785,
+        "distinct_surface_substitutions": 301,
+        "distinct_original_forms": 301,
+        "top_substitution_share": 0.08535031847133757,
+        "entropy_bits": 7.217401075600182,
+        "effective_substitutions": 148.8175719550544,
+        "top_substitutions": [
+          {
+            "original": "have",
+            "replacement": "had",
+            "count": 67
+          },
+          {
+            "original": "mean",
+            "replacement": "meant",
+            "count": 43
+          },
+          {
+            "original": "know",
+            "replacement": "knew",
+            "count": 24
+          },
+          {
+            "original": "receive",
+            "replacement": "received",
+            "count": 22
+          },
+          {
+            "original": "seem",
+            "replacement": "seemed",
+            "count": 17
+          },
+          {
+            "original": "take",
+            "replacement": "took",
+            "count": 15
+          },
+          {
+            "original": "want",
+            "replacement": "wanted",
+            "count": 13
+          },
+          {
+            "original": "see",
+            "replacement": "saw",
+            "count": 13
+          },
+          {
+            "original": "need",
+            "replacement": "needed",
+            "count": 12
+          },
+          {
+            "original": "work",
+            "replacement": "worked",
+            "count": 12
+          }
+        ]
+      },
+      "modal_verb_form": {
+        "edits": 5856,
+        "distinct_surface_substitutions": 965,
+        "distinct_original_forms": 965,
+        "top_substitution_share": 0.04747267759562841,
+        "entropy_bits": 8.29267844215339,
+        "effective_substitutions": 313.57754484646495,
+        "top_substitutions": [
+          {
+            "original": "help",
+            "replacement": "helping",
+            "count": 278
+          },
+          {
+            "original": "have",
+            "replacement": "having",
+            "count": 248
+          },
+          {
+            "original": "need",
+            "replacement": "needing",
+            "count": 135
+          },
+          {
+            "original": "make",
+            "replacement": "making",
+            "count": 125
+          },
+          {
+            "original": "become",
+            "replacement": "becoming",
+            "count": 120
+          },
+          {
+            "original": "lead",
+            "replacement": "leading",
+            "count": 105
+          },
+          {
+            "original": "take",
+            "replacement": "taking",
+            "count": 94
+          },
+          {
+            "original": "continue",
+            "replacement": "continuing",
+            "count": 79
+          },
+          {
+            "original": "provide",
+            "replacement": "providing",
+            "count": 78
+          },
+          {
+            "original": "see",
+            "replacement": "seeing",
+            "count": 70
+          }
+        ]
+      },
+      "noun_number": {
+        "edits": 294,
+        "distinct_surface_substitutions": 139,
+        "distinct_original_forms": 139,
+        "top_substitution_share": 0.06802721088435375,
+        "entropy_bits": 6.475409293778583,
+        "effective_substitutions": 88.98000619090789,
+        "top_substitutions": [
+          {
+            "original": "women",
+            "replacement": "woman",
+            "count": 20
+          },
+          {
+            "original": "others",
+            "replacement": "other",
+            "count": 19
+          },
+          {
+            "original": "factors",
+            "replacement": "factor",
+            "count": 11
+          },
+          {
+            "original": "cases",
+            "replacement": "case",
+            "count": 11
+          },
+          {
+            "original": "nations",
+            "replacement": "nation",
+            "count": 11
+          },
+          {
+            "original": "regions",
+            "replacement": "region",
+            "count": 8
+          },
+          {
+            "original": "cities",
+            "replacement": "city",
+            "count": 8
+          },
+          {
+            "original": "years",
+            "replacement": "year",
+            "count": 6
+          },
+          {
+            "original": "sectors",
+            "replacement": "sector",
+            "count": 5
+          },
+          {
+            "original": "children",
+            "replacement": "child",
+            "count": 5
+          }
+        ]
+      },
+      "perfect_participle": {
+        "edits": 1318,
+        "distinct_surface_substitutions": 44,
+        "distinct_original_forms": 44,
+        "top_substitution_share": 0.4635811836115326,
+        "entropy_bits": 3.1139449851833985,
+        "effective_substitutions": 8.657467011561327,
+        "top_substitutions": [
+          {
+            "original": "been",
+            "replacement": "was",
+            "count": 611
+          },
+          {
+            "original": "become",
+            "replacement": "became",
+            "count": 194
+          },
+          {
+            "original": "taken",
+            "replacement": "took",
+            "count": 73
+          },
+          {
+            "original": "seen",
+            "replacement": "saw",
+            "count": 60
+          },
+          {
+            "original": "come",
+            "replacement": "came",
+            "count": 55
+          },
+          {
+            "original": "grown",
+            "replacement": "grew",
+            "count": 43
+          },
+          {
+            "original": "gone",
+            "replacement": "went",
+            "count": 38
+          },
+          {
+            "original": "given",
+            "replacement": "gave",
+            "count": 34
+          },
+          {
+            "original": "done",
+            "replacement": "did",
+            "count": 30
+          },
+          {
+            "original": "begun",
+            "replacement": "began",
+            "count": 26
+          }
+        ]
+      },
+      "spelling": {
+        "edits": 11665,
+        "distinct_surface_substitutions": 67,
+        "distinct_original_forms": 61,
+        "top_substitution_share": 0.45332190312901843,
+        "entropy_bits": 3.581631120353147,
+        "effective_substitutions": 11.972322325155147,
+        "top_substitutions": [
+          {
+            "original": "that",
+            "replacement": "taht",
+            "count": 5288
+          },
+          {
+            "original": "government",
+            "replacement": "goverment",
+            "count": 969
+          },
+          {
+            "original": "public",
+            "replacement": "puplic",
+            "count": 834
+          },
+          {
+            "original": "country",
+            "replacement": "contry",
+            "count": 431
+          },
+          {
+            "original": "different",
+            "replacement": "diferent",
+            "count": 390
+          },
+          {
+            "original": "technology",
+            "replacement": "technolgy",
+            "count": 383
+          },
+          {
+            "original": "especially",
+            "replacement": "expecially",
+            "count": 294
+          },
+          {
+            "original": "although",
+            "replacement": "allthought",
+            "count": 243
+          },
+          {
+            "original": "until",
+            "replacement": "untill",
+            "count": 183
+          },
+          {
+            "original": "address",
+            "replacement": "adress",
+            "count": 166
+          }
+        ]
+      },
+      "subject_verb_agreement": {
+        "edits": 2802,
+        "distinct_surface_substitutions": 575,
+        "distinct_original_forms": 575,
+        "top_substitution_share": 0.28122769450392576,
+        "entropy_bits": 6.091321755069146,
+        "effective_substitutions": 68.1821295469144,
+        "top_substitutions": [
+          {
+            "original": "is",
+            "replacement": "are",
+            "count": 788
+          },
+          {
+            "original": "are",
+            "replacement": "is",
+            "count": 212
+          },
+          {
+            "original": "has",
+            "replacement": "have",
+            "count": 159
+          },
+          {
+            "original": "have",
+            "replacement": "has",
+            "count": 158
+          },
+          {
+            "original": "need",
+            "replacement": "needs",
+            "count": 72
+          },
+          {
+            "original": "comes",
+            "replacement": "come",
+            "count": 51
+          },
+          {
+            "original": "seems",
+            "replacement": "seem",
+            "count": 46
+          },
+          {
+            "original": "know",
+            "replacement": "knows",
+            "count": 27
+          },
+          {
+            "original": "face",
+            "replacement": "faces",
+            "count": 21
+          },
+          {
+            "original": "see",
+            "replacement": "sees",
+            "count": 21
+          }
+        ]
+      }
+    },
+    "held_out_edit_instances": 2604,
+    "held_out_edits_unseen_surface_pair_in_train": 149,
+    "quality_status": "checker_screened",
+    "rejections": {
+      "audited_source_exclusion": 6,
+      "boilerplate": 227,
+      "checker_missed_edit": 4095,
+      "checker_source_error": 1482,
+      "existing_determiner_mismatch": 364,
+      "fragment_or_format": 5856,
+      "known_misspelling": 1,
+      "length": 7390,
+      "near_duplicate": 107,
+      "no_finite_main_verb": 634,
+      "no_licensed_corruption": 26123,
+      "no_main_subject": 3089,
+      "no_verbal_root": 1339,
+      "nonprose": 978,
+      "quotation_or_ellipsis": 7320,
+      "text_collision": 191,
+      "unknown_non_name_word": 1457
+    },
+    "human_precision": null
+  },
+  "pair_increase": 2132,
+  "pair_growth_percent": 11.245912016035442,
+  "new_original_sentences": 2174,
+  "previous_originals_not_retained": 42,
+  "edit_instances_with_new_surface_substitution": 3467,
+  "distinct_new_surface_substitutions": 54,
+  "limitations": [
+    "Checker agreement is not human precision.",
+    "Family and lexical frequencies reflect source and rule selection.",
+    "The manual queue is family-stratified; unweighted results are not corpus-wide estimates."
+  ]
+}

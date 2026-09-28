@@ -1,0 +1,18 @@
+{
+  "eligible_unique_documents": 12916,
+  "eligible_characters": 140656324,
+  "source_files": [
+    {
+      "repo_id": "danish-foundation-models/dutch-dynaword",
+      "revision": "d0158defd949699532e59dea5978c5542afb0400",
+      "file": "data/dienst_publiek_en_communicatie/data.parquet",
+      "sha256": "46ea593ea7f37857eb22e8dfe726d6e59b9a735b00855b7bbb53ea7f6a535725",
+      "annotations": {
+        "repo_id": "danish-foundation-models/dutch-dynaword",
+        "revision": "d0158defd949699532e59dea5978c5542afb0400",
+        "file": "data/dienst_publiek_en_communicatie/metadata.parquet",
+        "sha256": "b9366ffe711d593848759f78515e915c94b03d208f25db1aee2af6306d0212a5"
+      }
+    }
+  ]
+}

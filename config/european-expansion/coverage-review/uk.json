@@ -1,0 +1,14 @@
+{
+  "language": "uk",
+  "source_sha256": [
+    "36799edcc8c15c34741e695fdd82df95f08d6479325349339eceb3d9bda0d2fe"
+  ],
+  "review_type": "agent inspection, not native validation",
+  "judgments": [
+    {
+      "original": "У результаті поразки в цьому бою Угорщина втратила свою державну і політичну самостійність — дві третини її території відійшло до Османської імперії, а решта стала володінням Австрії.",
+      "judgment": "uncertain",
+      "reason": "Fractional-subject agreement in original needs native review."
+    }
+  ]
+}

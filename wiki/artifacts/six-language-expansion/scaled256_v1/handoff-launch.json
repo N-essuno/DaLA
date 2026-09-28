@@ -1,0 +1,9 @@
+{
+  "at": "2026-09-24T19:53:47.273092+00:00",
+  "pid": 1743967,
+  "command": [
+    "-m",
+    "scripts.handoff_icelandic_workers"
+  ],
+  "log": "/tmp/dala-six-scaled256_v1-handoff.log"
+}

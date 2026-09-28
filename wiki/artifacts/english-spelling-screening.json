@@ -1,0 +1,1024 @@
+{
+  "at": "2026-09-21T17:32:34.256772+00:00",
+  "software": {
+    "name": "LanguageTool",
+    "version": "6.6",
+    "buildDate": "2025-03-27 20:50:25 +0100",
+    "apiVersion": 1,
+    "premium": false,
+    "premiumHint": "You might be missing errors only the Premium version can find. Contact us at support<at>languagetoolplus.com.",
+    "status": ""
+  },
+  "rulebook_sha256": "7636bddb4c314ea4632951dc96f18e38ce675b581be0a805b0ab1d1172226782",
+  "method": "Exact token misspelling diagnostic in The word is WORD.; both en-US and en-GB; automatic evidence, not human precision",
+  "rows": [
+    {
+      "id": "spelling:comfortable:confortable",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:because:becasue",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:because:beacuse",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:pollution:polution",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:technology:technolgy",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:environment:envirnoment",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:environment:enviromment",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:government:goverment",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:library:libabry",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:famous:fameous",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:public:puplic",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:that:taht",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:football:footbal",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:accommodation:acomodation",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:address:adress",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:advertisement:advertisment",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:although:allthought",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:always:allways",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:appreciate:apreciate",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:available:avaliable",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:beautiful:beatifull",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:because:becouse",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:beginning:begining",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:bicycle:bicicle",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:career:carreer",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:colleagues:collegues",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:committee:commitee",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:convenient:convinient",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:country:contry",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:decide:dicide",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:definitely:definately",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:different:diferent",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:disappointed:dissapointed",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:embarrassing:embarrasing",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:environment:enviroment",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:especially:expecially",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:excellent:excelent",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:exercise:excersise",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:forward:foward",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:friend:freind",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:grateful:greatful",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:necessary:neccesary",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:nowadays:nowdays",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:opinion:oppinion",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:opportunity:oportunity",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:prefer:prefere",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:prepare:prepar",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:receive:recieve",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:recommend:recomend",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:responsibility:responsability",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:responsible:responsable",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:restaurant:resturant",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:sincerely:sinserely",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:successful:succesfull",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:until:untill",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:absence:absense",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:accommodate:accomodate",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:basically:basicly",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:broccoli:brocolli",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:zucchini:zuchinni",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:cemetery:cemetary",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:consensus:concensus",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:definite:definate",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:misspell:mispell",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:plagiarism:plagarism",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:plagiarize:plagarize",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:tomorrow:tommorrow",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:vacuum:vaccum",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:opportunity:oppotunity",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:successful:succesful",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:independent:independant",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "spelling:separate:seperate",
+      "checks": {
+        "en-US": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        },
+        "en-GB": {
+          "correct_flagged": false,
+          "incorrect_flagged": true
+        }
+      },
+      "passed": true
+    }
+  ]
+}

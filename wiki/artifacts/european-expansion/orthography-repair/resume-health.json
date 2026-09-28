@@ -1,0 +1,83 @@
+{
+  "at": "2026-09-26T18:59:33.225120+00:00",
+  "configured_workers": 156,
+  "live_workers": 156,
+  "uk_retained_pairs": 181756,
+  "uk_processed_batches": 10186,
+  "uk_documented_checker_failure_rejections": 1,
+  "uk_passed_original_failure": true,
+  "languages": {
+    "ca": {
+      "phase": "complete",
+      "pairs": 478930,
+      "reconstructed_pairs": 478930,
+      "parser_workers": 0
+    },
+    "cs": {
+      "phase": "complete",
+      "pairs": 478930,
+      "reconstructed_pairs": 478930,
+      "parser_workers": 0
+    },
+    "de": {
+      "phase": "generating",
+      "pairs": 8401,
+      "reconstructed_pairs": 8401,
+      "parser_workers": 40
+    },
+    "el": {
+      "phase": "generating",
+      "pairs": 4247,
+      "reconstructed_pairs": 4247,
+      "parser_workers": 40
+    },
+    "es": {
+      "phase": "complete",
+      "pairs": 478930,
+      "reconstructed_pairs": 478930,
+      "parser_workers": 0
+    },
+    "et": {
+      "phase": "generating",
+      "pairs": 47398,
+      "reconstructed_pairs": 47398,
+      "parser_workers": 40
+    },
+    "fr": {
+      "phase": "generating",
+      "pairs": 238436,
+      "reconstructed_pairs": 238436,
+      "parser_workers": 12
+    },
+    "it": {
+      "phase": "complete",
+      "pairs": 478930,
+      "reconstructed_pairs": 478930,
+      "parser_workers": 0
+    },
+    "pt-PT": {
+      "phase": "complete",
+      "pairs": 436051,
+      "reconstructed_pairs": 436051,
+      "parser_workers": 0
+    },
+    "ro": {
+      "phase": "complete",
+      "pairs": 377246,
+      "reconstructed_pairs": 377246,
+      "parser_workers": 0
+    },
+    "uk": {
+      "phase": "generating",
+      "pairs": 181756,
+      "reconstructed_pairs": 181756,
+      "parser_workers": 24
+    },
+    "fi": {
+      "phase": "complete",
+      "pairs": 478930,
+      "reconstructed_pairs": 478930,
+      "parser_workers": 0
+    }
+  }
+}

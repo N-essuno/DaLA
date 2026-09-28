@@ -1,0 +1,230 @@
+{
+  "language": "it",
+  "name": "Italian",
+  "treebank": "Italian-ISDT",
+  "prefix": "it_isdt",
+  "dictionary": "it",
+  "grammar": [
+    {
+      "family": "adjective_number",
+      "context": "nominal_agreement",
+      "feature": "Number",
+      "pos": [
+        "ADJ"
+      ],
+      "relations": [
+        "amod"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "adjective_gender",
+      "context": "nominal_agreement",
+      "feature": "Gender",
+      "pos": [
+        "ADJ"
+      ],
+      "relations": [
+        "amod"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "determiner_number",
+      "context": "nominal_agreement",
+      "feature": "Number",
+      "pos": [
+        "DET"
+      ],
+      "relations": [
+        "det"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "determiner_gender",
+      "context": "nominal_agreement",
+      "feature": "Gender",
+      "pos": [
+        "DET"
+      ],
+      "relations": [
+        "det"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "verb_number_agreement",
+      "context": "finite_agreement",
+      "feature": "Number",
+      "pos": [
+        "VERB",
+        "AUX"
+      ],
+      "subjects": [
+        "io",
+        "tu",
+        "lui",
+        "lei",
+        "noi",
+        "voi",
+        "loro"
+      ]
+    },
+    {
+      "family": "verb_person_agreement",
+      "context": "finite_agreement",
+      "feature": "Person",
+      "pos": [
+        "VERB",
+        "AUX"
+      ],
+      "subjects": [
+        "io",
+        "tu",
+        "lui",
+        "lei",
+        "noi",
+        "voi",
+        "loro"
+      ]
+    },
+    {
+      "family": "governed_infinitive",
+      "context": "governed_verb",
+      "feature": "VerbForm",
+      "pos": [
+        "VERB"
+      ],
+      "from_values": [
+        "Inf"
+      ],
+      "to_values": [
+        "Fin"
+      ],
+      "controllers": [
+        "può",
+        "possono",
+        "deve",
+        "devono"
+      ]
+    },
+    {
+      "family": "perfect_verb_form",
+      "context": "governed_verb",
+      "feature": "VerbForm",
+      "pos": [
+        "VERB"
+      ],
+      "from_values": [
+        "Part"
+      ],
+      "to_values": [
+        "Inf"
+      ],
+      "controllers": [
+        "ha",
+        "hanno",
+        "aveva",
+        "avevano"
+      ]
+    }
+  ],
+  "spelling": [
+    {
+      "operation": "transpose_internal",
+      "min_length": 5,
+      "max_length": 24,
+      "unicode_letters": true
+    },
+    {
+      "operation": "delete_internal",
+      "min_length": 5,
+      "max_length": 24,
+      "unicode_letters": true
+    },
+    {
+      "operation": "substitute_character",
+      "min_length": 4,
+      "max_length": 24,
+      "unicode_letters": true,
+      "substitutions": {
+        "à": [
+          "a"
+        ],
+        "è": [
+          "e"
+        ],
+        "é": [
+          "e"
+        ],
+        "ì": [
+          "i"
+        ],
+        "ò": [
+          "o"
+        ],
+        "ù": [
+          "u"
+        ]
+      }
+    }
+  ],
+  "compiler_options": {
+    "ignore_gender_animacy_features": [],
+    "preserve_all_features": true
+  },
+  "prompts": {
+    "acceptability": "Is this sentence grammatically correct and correctly spelled in Italian? Reply only yes or no.",
+    "correction": "Correct grammatical and spelling errors in this Italian sentence. Return correct input unchanged. Preserve Italian, meaning and style. Return only the sentence."
+  },
+  "release_policy": {
+    "status": "candidate_only",
+    "pilot_target_pairs": 1000,
+    "production_target_pairs": 478930,
+    "require_audit_per_family": true
+  },
+  "limitations": [
+    "UD observed forms are not an exhaustive normative paradigm",
+    "Grammar constraints and spelling generators are synthetic; not observed-error frequencies"
+  ],
+  "source_risk_patterns": [
+    "\\.\\.\\.|…"
+  ],
+  "morphology_options": {
+    "source_nominal_pos": [
+      "ADJ",
+      "DET"
+    ],
+    "source_nominal_relations": [
+      "amod",
+      "det"
+    ]
+  },
+  "production_parser": {
+    "language": "it",
+    "processors": {
+      "tokenize": "combined",
+      "mwt": "combined",
+      "lemma": "combined_nocharlm",
+      "pos": "combined_nocharlm",
+      "depparse": "combined_nocharlm"
+    }
+  }
+}

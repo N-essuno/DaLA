@@ -1,0 +1,20 @@
+{
+  "language": "cs",
+  "source_sha256": [
+    "201d41bde2c9f206acb9e2f12b4c594883229b4b1a62a29f0ca5bb1913eef497",
+    "885916495035c00c809a803d07829609fbba5846b6ed020079822e3a4a0551b3"
+  ],
+  "review_type": "agent inspection, not native validation",
+  "judgments": [
+    {
+      "original": "Autor má možnost být ji nablízku v posledních okamžicích jejího života.",
+      "judgment": "reject",
+      "reason": "Source ji should be dative jí in být jí nablízku."
+    },
+    {
+      "original": "My jsme svět – svět jsme my – název školního časopisu, který je na škole žáky a učiteli vydáván už od roku 1993.",
+      "judgment": "uncertain",
+      "reason": "Unmarked school-magazine title and following nominal fragment; not ordinary clean declarative prose."
+    }
+  ]
+}

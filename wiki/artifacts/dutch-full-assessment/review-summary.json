@@ -1,0 +1,44 @@
+{
+  "review": {
+    "reviewer": "Codex agent",
+    "native_speaker_gold": false,
+    "completed_at": "2026-09-22T05:45:58.196322+00:00",
+    "scope": "All 200 previously unreviewed originals, recorded edits and grammar-corrupted sentences inspected; 22 separate family supplements inspected. Grammatical/spelling acceptability, not factual verification or style preference. Uncertain sources counted as not strictly usable."
+  },
+  "uniform_sources": {
+    "acceptable": 190,
+    "uncertain": 4,
+    "erroneous": 6
+  },
+  "uniform_edits": {
+    "valid": 200
+  },
+  "by_source": {
+    "eurlex": {
+      "acceptable": 109,
+      "uncertain": 1,
+      "erroneous": 3
+    },
+    "dienst_publiek_en_communicatie": {
+      "acceptable": 81,
+      "uncertain": 3,
+      "erroneous": 3
+    }
+  },
+  "supplement_sources": {
+    "acceptable": 22
+  },
+  "supplement_edits": {
+    "valid": 22
+  },
+  "strict_usable_pairs": 190,
+  "sample_population": 187807,
+  "excluded_previously_reviewed": 375,
+  "language_advice": [
+    {
+      "url": "https://www.vlaanderen.be/team-taaladvies/taaladviezen/allen-alle",
+      "applies_to": "nl-060",
+      "finding": "Independent allen requires reference to persons; non-person references use alle, including corporate entities."
+    }
+  ]
+}

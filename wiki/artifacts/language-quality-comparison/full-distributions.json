@@ -1,0 +1,33 @@
+{
+  "danish_negative_rows": 492063,
+  "danish_types": {
+    "flip_han_hun_to_det": 11304,
+    "flip_far_for": 50889,
+    "delete": 26632,
+    "flip_pronouns": 35640,
+    "corrupt_noun_r": 60824,
+    "corrupt_verb_r": 39431,
+    "flip_indefinite_article": 66972,
+    "corrupt_ende_ene": 38775,
+    "flip_en_et_suffix": 69229,
+    "corrupt_spelling": 15048,
+    "corrupt_adjective_r": 28735,
+    "flip_neighbours": 26929,
+    "flip_som_der": 5929,
+    "flip_ligge_laegge": 7760,
+    "flip_nogle_nogen": 6350,
+    "corrupt_genitive": 1616
+  },
+  "english_edits": {
+    "spelling": 506887,
+    "perfect_participle": 19200,
+    "word_swap": 31195,
+    "subject_verb_agreement": 49846,
+    "modal_verb_form": 54277,
+    "noun_number": 3715,
+    "do_support_form": 14669,
+    "demonstrative_number": 11525,
+    "word_deletion": 231
+  },
+  "note": "Danish one corruption label per negative row; English up to two edits per pair. Morphological Danish errors can also resemble spelling errors; spelling percentages refer to named generator families."
+}

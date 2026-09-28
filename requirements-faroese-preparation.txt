@@ -1,0 +1,5 @@
+# Separate resource-preparation environment: Python 3.11.
+# The dataset generation runtime consumes JSON and does not import HFST.
+hfst==3.16.0.1
+PyYAML==6.0.3
+requests==2.34.2

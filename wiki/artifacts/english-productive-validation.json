@@ -1,0 +1,20 @@
+{
+  "pairs": 18958,
+  "unique_documents": 1659,
+  "exact_edit_reconstruction": true,
+  "correction_roundtrip": true,
+  "document_split_isolation": true,
+  "exported_text_unique": true,
+  "at_most_one_grammar_edit": true,
+  "artifact_checksums": true,
+  "task_views_match_pairs": true,
+  "balanced_labels": true,
+  "source_provenance_consistent": true,
+  "all_source_spans_match": true,
+  "implementation_hashes_match": true,
+  "profile_and_exclusion_hashes_match": true,
+  "reviewed_source_flags_excluded": 3,
+  "retained_agent_reviewed_pairs": 67,
+  "tests_passed": 52,
+  "human_precision": null
+}

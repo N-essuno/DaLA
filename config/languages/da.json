@@ -1,0 +1,475 @@
+{
+  "schema_version": 1,
+  "language": "da",
+  "name": "Danish DaLA compatibility",
+  "mode": "legacy",
+  "parser": "da_core_news_md",
+  "parser_version": "3.8.0",
+  "sources": {
+    "adapter": "ud_pos",
+    "url_template": "https://github.com/UniversalDependencies/UD_Danish-DDT/raw/master/da_ddt-ud-{}.conllu",
+    "splits": {
+      "train": "train",
+      "val": "dev",
+      "test": "test"
+    }
+  },
+  "filters": {
+    "min_tokens_exclusive": 5,
+    "min_distinct_pos_exclusive": 5,
+    "quote": "\"",
+    "forbidden_initial_pos": [
+      "PUNCT",
+      "SYM"
+    ],
+    "max_character_counts": {
+      "=": 1
+    },
+    "exclude_patterns": [
+      "SLUTORD"
+    ],
+    "min_chars": 2,
+    "max_chars": 5000
+  },
+  "splits": {
+    "seed": 4242,
+    "train_size": 512,
+    "test_size": 1024,
+    "val_size": 128,
+    "min_test_size": 128,
+    "train_proportion": 0.6,
+    "test_proportion": 0.35
+  },
+  "selection": {
+    "strategy": "first_success",
+    "max_errors": 1,
+    "flip_probability": 1.0
+  },
+  "rules": [
+    {
+      "id": "corrupt_genitive",
+      "operator": "genitive",
+      "morph_feature": "case=Gen",
+      "pos": [
+        "PROPN",
+        "NOUN"
+      ],
+      "suffixes": [
+        "s",
+        "'",
+        "'s"
+      ],
+      "detect_order": [
+        2,
+        0,
+        1
+      ],
+      "fallback_detect_order": [
+        2,
+        1
+      ],
+      "exclude_if_stem_ends": [
+        "s",
+        "S"
+      ],
+      "exclude_suffix": 0
+    },
+    {
+      "id": "flip_som_der",
+      "operator": "lookup",
+      "branches": [
+        {
+          "when": {
+            "lower": [
+              "som"
+            ],
+            "dep": [
+              "obj",
+              "iobj",
+              "obl"
+            ]
+          },
+          "mapping": {
+            "som": "der"
+          }
+        }
+      ],
+      "draw_before_condition": true
+    },
+    {
+      "id": "flip_nogle_nogen",
+      "operator": "next_nominal",
+      "mapping": {
+        "nogle": "nogen",
+        "nogen": "nogle"
+      },
+      "pos": [
+        "NOUN"
+      ],
+      "number": {
+        "nogle": "Plur",
+        "nogen": "Sing"
+      },
+      "positive_only": [
+        "nogle"
+      ],
+      "negations": [
+        "ikke",
+        "aldrig",
+        "ingen",
+        "intet",
+        "ingenting"
+      ],
+      "negation_feature": "Polarity=Neg",
+      "question": "?"
+    },
+    {
+      "id": "flip_ligge_laegge",
+      "operator": "lookup",
+      "branches": [
+        {
+          "when": {},
+          "mapping": {
+            "ligger": "lægger",
+            "lægger": "ligger",
+            "lå": "lagde",
+            "lagde": "lå",
+            "ligge": "lægge",
+            "lægge": "ligge"
+          }
+        }
+      ]
+    },
+    {
+      "id": "corrupt_spelling",
+      "operator": "lookup",
+      "branches": [
+        {
+          "when": {},
+          "mapping": {
+            "sgisme": "skisme",
+            "vegne": "vejne",
+            "møg": "møj",
+            "absolut": "abselut",
+            "anerkendelse": "anderkendelse",
+            "diskussion": "diskution",
+            "eksplicit": "explicit",
+            "ekstra": "extra",
+            "prakke": "pragge",
+            "investere": "invistere",
+            "alligevel": "aligevel",
+            "aggressiv": "agressiv",
+            "smøre": "smørre",
+            "familie": "famillie",
+            "interessant": "interesant",
+            "uddannelse": "uddanelse",
+            "terrasse": "terasse",
+            "stanniol": "staniol",
+            "professionel": "proffesionel",
+            "nærig": "nærrig",
+            "kæreste": "kærste",
+            "rimelig": "rimlig",
+            "nederen": "nedern",
+            "ligesom": "ligsom",
+            "penicillin": "pencilin",
+            "grineren": "grinern",
+            "klæder": "klær",
+            "kraftedeme": "kraftedme",
+            "overhovedet": "overhovdet",
+            "anderledes": "anerledes",
+            "hoved": "hovede",
+            "omgås": "omgåes",
+            "egentligt": "engenligt",
+            "undgås": "undgåes",
+            "anbefale": "anbefalde",
+            "forhåbentlig": "forhåbenlig",
+            "øjnene": "øjenene",
+            "overhoved": "overhovede",
+            "større": "størrere",
+            "hundredvis": "hundredevis",
+            "dyrlægen": "dyrelægen",
+            "jordemoder": "jordmoder",
+            "ægløsning": "æggeløsning",
+            "retssag": "retsag",
+            "henholdsvis": "henholdvis"
+          }
+        }
+      ]
+    },
+    {
+      "id": "flip_han_hun_to_det",
+      "operator": "antecedent",
+      "pronouns": [
+        "han",
+        "hun"
+      ],
+      "replacement": "det"
+    },
+    {
+      "id": "corrupt_adjective_r",
+      "operator": "suffix",
+      "gate": {
+        "pos": [
+          "ADJ"
+        ]
+      },
+      "case": "capitalize_stem",
+      "branches": [
+        {
+          "when": {
+            "suffix": "ere",
+            "min_length": 4
+          },
+          "remove": 3,
+          "append": "er"
+        },
+        {
+          "when": {
+            "suffix": "er"
+          },
+          "remove": 2,
+          "append": "ere"
+        }
+      ]
+    },
+    {
+      "id": "corrupt_verb_r",
+      "operator": "suffix",
+      "gate": {
+        "pos": [
+          "VERB"
+        ],
+        "exclude_lemma": [
+          "gøre",
+          "være",
+          "have",
+          "kunne",
+          "skulle",
+          "ville"
+        ]
+      },
+      "case": "capitalize_stem",
+      "branches": [
+        {
+          "when": {
+            "morph": [
+              "Tense=Pres"
+            ],
+            "suffix": "rer",
+            "min_length": 4
+          },
+          "remove": 3,
+          "append": "re"
+        },
+        {
+          "when": {
+            "morph": [
+              "VerbForm=Inf"
+            ],
+            "suffix": "re",
+            "min_length": 3
+          },
+          "remove": 2,
+          "append": "rer"
+        }
+      ]
+    },
+    {
+      "id": "corrupt_ende_ene",
+      "operator": "suffix",
+      "gate": {},
+      "case": "capitalize_stem",
+      "branches": [
+        {
+          "when": {
+            "pos": [
+              "NOUN"
+            ],
+            "suffix": "ene",
+            "min_length": 3
+          },
+          "remove": 3,
+          "append": "ende"
+        },
+        {
+          "when": {
+            "pos": [
+              "ADJ",
+              "VERB"
+            ],
+            "suffix": "ende",
+            "min_length": 4
+          },
+          "remove": 4,
+          "append": "ene"
+        }
+      ]
+    },
+    {
+      "id": "corrupt_noun_r",
+      "operator": "suffix",
+      "gate": {
+        "pos": [
+          "NOUN"
+        ]
+      },
+      "case": "capitalize_stem_then_upper",
+      "branches": [
+        {
+          "when": {
+            "morph": [
+              "Number=Plur",
+              "Definite=Def"
+            ],
+            "suffix": "erne"
+          },
+          "remove": 4,
+          "append": "ene"
+        },
+        {
+          "when": {
+            "morph": [
+              "Number=Plur",
+              "Definite=Ind"
+            ],
+            "suffix": "ere"
+          },
+          "remove": 3,
+          "append": "er"
+        },
+        {
+          "when": {
+            "morph": [
+              "Number=Sing",
+              "Definite=Def"
+            ],
+            "suffix": "eren"
+          },
+          "remove": 4,
+          "append": "ern"
+        }
+      ]
+    },
+    {
+      "id": "flip_far_for",
+      "operator": "lookup",
+      "branches": [
+        {
+          "when": {},
+          "mapping": {
+            "får": "for",
+            "for": "får"
+          }
+        }
+      ]
+    },
+    {
+      "id": "flip_indefinite_article",
+      "operator": "child_lookup",
+      "parent": {
+        "pos": [
+          "NOUN"
+        ]
+      },
+      "child": {
+        "dep": [
+          "det"
+        ]
+      },
+      "mapping": {
+        "en": "et",
+        "et": "en"
+      },
+      "legacy_report_parent": true
+    },
+    {
+      "id": "flip_pronouns",
+      "operator": "lookup",
+      "branches": [
+        {
+          "when": {
+            "dep": [
+              "nsubj",
+              "nsubj:pass",
+              "conj"
+            ]
+          },
+          "mapping": {
+            "jeg": "mig",
+            "du": "dig",
+            "han": "ham",
+            "hun": "hende",
+            "vi": "os",
+            "i": "jer",
+            "de": "dem"
+          }
+        },
+        {
+          "when": {
+            "dep": [
+              "obj",
+              "iobj",
+              "obl"
+            ]
+          },
+          "mapping": {
+            "mig": "jeg",
+            "dig": "du",
+            "ham": "han",
+            "hende": "hun",
+            "os": "vi",
+            "jer": "i",
+            "dem": "de"
+          }
+        }
+      ]
+    },
+    {
+      "id": "flip_en_et_suffix",
+      "operator": "suffix",
+      "gate": {
+        "pos": [
+          "NOUN"
+        ],
+        "morph_exact": {
+          "Definite": [
+            "Def"
+          ],
+          "Number": [
+            "Sing"
+          ]
+        },
+        "suffix_any": [
+          "en",
+          "et"
+        ],
+        "min_length": 3
+      },
+      "case": "preserve_stem",
+      "branches": [
+        {
+          "when": {
+            "suffix": "en"
+          },
+          "remove": 2,
+          "append": "et"
+        },
+        {
+          "when": {
+            "suffix": "et"
+          },
+          "remove": 2,
+          "append": "en"
+        }
+      ]
+    },
+    {
+      "id": "corrupt_basic",
+      "operator": "token_fallback",
+      "operators": [
+        "flip_neighbours",
+        "delete"
+      ]
+    }
+  ]
+}

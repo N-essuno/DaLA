@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "pilot_max_sentences": 3000,
+      "name": "UD_Czech-CAC",
+      "language": "cs",
+      "path": "/work/mimir/DaLA/la_output/resources/european/cs/cs_cac-ud-train.conllu",
+      "revision": "414d8497523be1df3b23d153755c16d1fd15855f",
+      "sha256": "b089aeebc4a2a32b0cc07767e2704dc2ea61410970c45f0ff8b01e223c12d154",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Czech-CAC/414d8497523be1df3b23d153755c16d1fd15855f/cs_cac-ud-train.conllu",
+      "license": "CC BY-SA 4.0"
+    }
+  ]
+}

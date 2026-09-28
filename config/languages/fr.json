@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "language": "fr",
+  "name": "DaLA French pilot",
+  "mode": "pairs",
+  "parser": "annotated-conllu",
+  "parser_backend": "conllu",
+  "sources": {
+    "adapter": "conllu"
+  },
+  "sources_config": "/work/mimir/DaLA/config/european/fr-sources.json",
+  "rulebook": "/work/mimir/DaLA/la_output/resources/european/fr/rules.json.gz",
+  "exclusions": "/work/mimir/DaLA/config/european/fr-exclusions.json",
+  "resource_directory": "/work/mimir/DaLA/la_output/resources/european/fr",
+  "adapter": "dala.language_packs.morphology:MorphologyPack",
+  "selection": {
+    "strategy": "hash_rotate_grammar_then_spelling",
+    "max_errors": 1,
+    "priority": [
+      "adjective_number",
+      "adjective_gender",
+      "determiner_number",
+      "determiner_gender",
+      "verb_number_agreement",
+      "verb_person_agreement",
+      "governed_infinitive",
+      "perfect_verb_form",
+      "spelling"
+    ]
+  },
+  "checker": {
+    "mode": "morphology",
+    "workers": 1
+  },
+  "prompts": {
+    "acceptability": "Is this sentence grammatically correct and correctly spelled in French? Reply only yes or no.",
+    "correction": "Correct grammatical and spelling errors in this French sentence. Return correct input unchanged. Preserve French, meaning and style. Return only the sentence."
+  },
+  "curation": {
+    "min_words": 7,
+    "max_words": 35,
+    "max_sentence_chars": 320,
+    "max_paragraph_chars": 6000,
+    "source_risk_patterns": [
+      "\\.\\.\\.|…"
+    ]
+  },
+  "description": "Pinned UD training prose pilot; annotations are not a guarantee of correct originals. Incomplete attested morphology, synthetic constraints and independently screened nonword spelling. Unknown source-document boundaries are grouped conservatively by file. No human linguistic validation.",
+  "dependencies": [
+    "requests",
+    "spacy",
+    "spylls"
+  ],
+  "export_used_rule_mappings": true,
+  "release_policy": {
+    "status": "candidate_only",
+    "pilot_target_pairs": 1000,
+    "production_target_pairs": 478930,
+    "require_audit_per_family": true
+  },
+  "morphology_options": {
+    "source_nominal_pos": [
+      "ADJ",
+      "DET"
+    ],
+    "source_nominal_relations": [
+      "amod",
+      "det"
+    ]
+  },
+  "dictionary_case_variants": false,
+  "capitalized_corruption_pos": []
+}

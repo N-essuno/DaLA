@@ -1,0 +1,229 @@
+{
+  "dataset": "la_output/dutch_dynaword_pilot",
+  "manifest_sha256": "d692e3a4cf15b7eeaf74f64150bbbfdba32d5a08c5d774ce5143a28ebe49e6a2",
+  "pairs": 2495,
+  "task_rows_each": 4990,
+  "contributing_documents": 149,
+  "max_pairs_per_document": 39,
+  "families": {
+    "spelling": 2427,
+    "article_number": 33,
+    "article_gender": 11,
+    "subject_verb_agreement": 24
+  },
+  "active_rules": 15,
+  "configured_rules": 50,
+  "rule_counts": {
+    "spelling:productive:transpose_internal": 1246,
+    "spelling:productive:duplicate_consonant": 1113,
+    "spelling:productive:delete_doubled_consonant": 63,
+    "spelling:lexical:openlijk>openelijk": 4,
+    "article_number:plural:de>het": 33,
+    "article_gender:de:de>het": 11,
+    "subject_verb_agreement:we:gaan>gaat": 3,
+    "subject_verb_agreement:we:werken>werkt": 4,
+    "subject_verb_agreement:ik:heb>heeft": 7,
+    "subject_verb_agreement:we:hebben>heeft": 4,
+    "spelling:lexical:hogedrukgebied>hoogdrukgebied": 1,
+    "subject_verb_agreement:we:kunnen>kan": 1,
+    "subject_verb_agreement:we:moeten>moet": 3,
+    "subject_verb_agreement:we:zijn>is": 1,
+    "subject_verb_agreement:wij:zijn>is": 1
+  },
+  "distinct_substitutions": 1938,
+  "top_substitutions": [
+    {
+      "original": "de",
+      "replacement": "het",
+      "count": 44
+    },
+    {
+      "original": "maken",
+      "replacement": "mkaen",
+      "count": 11
+    },
+    {
+      "original": "nieuwe",
+      "replacement": "niuewe",
+      "count": 10
+    },
+    {
+      "original": "andere",
+      "replacement": "anddere",
+      "count": 8
+    },
+    {
+      "original": "alleen",
+      "replacement": "alelen",
+      "count": 7
+    },
+    {
+      "original": "komen",
+      "replacement": "kmoen",
+      "count": 7
+    },
+    {
+      "original": "heb",
+      "replacement": "heeft",
+      "count": 7
+    },
+    {
+      "original": "andere",
+      "replacement": "adnere",
+      "count": 7
+    },
+    {
+      "original": "moment",
+      "replacement": "momennt",
+      "count": 7
+    },
+    {
+      "original": "verschillende",
+      "replacement": "vreschillende",
+      "count": 6
+    },
+    {
+      "original": "mensen",
+      "replacement": "menesn",
+      "count": 6
+    },
+    {
+      "original": "heeft",
+      "replacement": "heefft",
+      "count": 6
+    },
+    {
+      "original": "houden",
+      "replacement": "houedn",
+      "count": 6
+    },
+    {
+      "original": "vooral",
+      "replacement": "voorral",
+      "count": 6
+    },
+    {
+      "original": "nieuwe",
+      "replacement": "nieuwwe",
+      "count": 5
+    },
+    {
+      "original": "bijvoorbeeld",
+      "replacement": "bijvoorrbeeld",
+      "count": 5
+    },
+    {
+      "original": "hebben",
+      "replacement": "hbeben",
+      "count": 5
+    },
+    {
+      "original": "blijven",
+      "replacement": "blijevn",
+      "count": 5
+    },
+    {
+      "original": "samen",
+      "replacement": "saemn",
+      "count": 5
+    },
+    {
+      "original": "bedrijf",
+      "replacement": "bedirjf",
+      "count": 5
+    }
+  ],
+  "validation": {
+    "pairs": 2495,
+    "unique_documents": 149,
+    "exact_edit_reconstruction": true,
+    "correction_roundtrip": true,
+    "document_split_isolation": true,
+    "exported_text_unique": true,
+    "at_most_one_grammar_edit": true,
+    "artifact_checksums": true,
+    "task_views_match_pairs": true,
+    "balanced_labels": true,
+    "source_provenance_consistent": true
+  },
+  "source_text_roundtrips": 2495,
+  "opentaal_spelling_checks": 2427,
+  "splits": {
+    "train": {
+      "pairs": 2000,
+      "acceptability_rows": 4000,
+      "correction_rows": 4000,
+      "edits_by_type": {
+        "article_gender": 7,
+        "article_number": 30,
+        "spelling": 1944,
+        "subject_verb_agreement": 19
+      },
+      "pairs_by_error_count": {
+        "1": 2000
+      },
+      "pairs_by_source": {
+        "dienst_publiek_en_communicatie": 2000
+      }
+    },
+    "validation": {
+      "pairs": 202,
+      "acceptability_rows": 404,
+      "correction_rows": 404,
+      "edits_by_type": {
+        "spelling": 201,
+        "subject_verb_agreement": 1
+      },
+      "pairs_by_error_count": {
+        "1": 202
+      },
+      "pairs_by_source": {
+        "dienst_publiek_en_communicatie": 202
+      }
+    },
+    "test": {
+      "pairs": 293,
+      "acceptability_rows": 586,
+      "correction_rows": 586,
+      "edits_by_type": {
+        "article_gender": 4,
+        "article_number": 3,
+        "spelling": 282,
+        "subject_verb_agreement": 4
+      },
+      "pairs_by_error_count": {
+        "1": 293
+      },
+      "pairs_by_source": {
+        "dienst_publiek_en_communicatie": 293
+      }
+    }
+  },
+  "rejections": {
+    "boilerplate": 9,
+    "checker_lexical_guard": 10,
+    "checker_missed_edit": 430,
+    "checker_source_error": 237,
+    "fragment_or_format": 1298,
+    "length": 2400,
+    "no_finite_main_verb": 71,
+    "no_licensed_corruption": 14,
+    "no_main_subject": 409,
+    "no_verbal_root": 898,
+    "nonprose": 366,
+    "quotation_or_ellipsis": 70,
+    "text_collision": 6
+  },
+  "agent_audit": {
+    "uniform_sample": 100,
+    "source_acceptable": 90,
+    "source_erroneous": 8,
+    "source_uncertain": 2,
+    "intended_errors_valid": 100,
+    "strict_usable_pairs": 90,
+    "supplement": 11,
+    "supplement_source_erroneous": 1,
+    "supplement_wrong_family_label": 1,
+    "note": "Initial audit preserved before fixes and exclusions; not human gold. All 111 intended changes introduce errors, but one supplementary family label is wrong."
+  }
+}

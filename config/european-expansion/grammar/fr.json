@@ -1,0 +1,64 @@
+{
+  "language": "fr",
+  "rule_overrides": {
+    "verb_number_agreement": {
+      "noun_subject": {
+        "lemmas": [
+          "enfant",
+          "homme",
+          "femme",
+          "professeur",
+          "étudiant",
+          "auteur",
+          "écrivain",
+          "ville",
+          "école",
+          "entreprise",
+          "bâtiment",
+          "livre",
+          "arbre"
+        ],
+        "review": "agent conservative count-noun inventory; no native validation"
+      }
+    }
+  },
+  "status": "candidate_only_agent_reviewed",
+  "reason": "Explicit conservative coverage extensions; shared code, isolated linguistic constraints",
+  "profile_overrides": {
+    "personal_pronoun_features": {
+      "je": {
+        "Number": "Sing",
+        "Person": "1"
+      },
+      "tu": {
+        "Number": "Sing",
+        "Person": "2"
+      },
+      "il": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "elle": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "nous": {
+        "Number": "Plur",
+        "Person": "1"
+      },
+      "vous": {
+        "Number": "Plur",
+        "Person": "2"
+      },
+      "ils": {
+        "Number": "Plur",
+        "Person": "3"
+      },
+      "elles": {
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    "personal_pronoun_by_dependency": true
+  }
+}

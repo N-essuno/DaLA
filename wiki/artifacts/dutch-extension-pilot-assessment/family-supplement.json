@@ -1,0 +1,431 @@
+{
+  "method": "Separate coverage supplement: up to five reviewed examples per family including the uniform sample; do not pool for precision estimates",
+  "rows": [
+    {
+      "sample_id": "nl-extra-000",
+      "pair_id": "88b63e18b8d8468440070b83",
+      "split": "test",
+      "document_id": "d80f18a02f220140a741f5365761d78a3002bd49177093cb3907fa7ed31027e4",
+      "source_name": "officiele_bekendmakingen",
+      "original": "De activiteiten dienen binnen 1 jaar na vaststelling van de subsidie uitgevoerd te worden.",
+      "corrupted": "Het activiteiten dienen binnen 1 jaar na vaststelling van de subsidie uitgevoerd te worden.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_number",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            0,
+            1
+          ],
+          "replacement": "Het",
+          "rule_id": "article_number:plural:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-001",
+      "pair_id": "84ade34064a2de137e0d4c59",
+      "split": "validation",
+      "document_id": "99d6a751cb3656312dc287465d0a0951f7ac61eab03d0d8c317dacfc5a44e194",
+      "source_name": "officiele_bekendmakingen",
+      "original": "De tegemoetkomingen maken integraal onderdeel uit van het ondersteuningsplan en kunnen dan ook niet worden gezien als op zichzelf staande zaken.",
+      "corrupted": "Het tegemoetkomingen maken integraal onderdeel uit van het ondersteuningsplan en kunnen dan ook niet worden gezien als op zichzelf staande zaken.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_number",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            0,
+            1
+          ],
+          "replacement": "Het",
+          "rule_id": "article_number:plural:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-002",
+      "pair_id": "9914624396d0aa6386831f19",
+      "split": "train",
+      "document_id": "e99791fb5f4a2ec525b1d2b95d27fb9b5a0afccc8d04c2c2bea6c9734e2b5ab6",
+      "source_name": "officiele_bekendmakingen",
+      "original": "De polders strekken zich in noordelijke richting verder uit tot aan de Daveweg 60.",
+      "corrupted": "Het polders strekken zich in noordelijke richting verder uit tot aan de Daveweg 60.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_number",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            52,
+            53
+          ],
+          "replacement": "Het",
+          "rule_id": "article_number:plural:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-003",
+      "pair_id": "91a482dd2fa9c791c581517f",
+      "split": "validation",
+      "document_id": "0bb382cf909e10f5a9094e565076ff14a51c085e59e9c5bad3e84c0f5d98f2f3",
+      "source_name": "officiele_bekendmakingen",
+      "original": "De controles kunnen wat betreft diepgang en reikwijdte verschillen.",
+      "corrupted": "Het controles kunnen wat betreft diepgang en reikwijdte verschillen.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_number",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            24,
+            25
+          ],
+          "replacement": "Het",
+          "rule_id": "article_number:plural:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-004",
+      "pair_id": "1beb0c1bfe2008c8067fc015",
+      "split": "train",
+      "document_id": "4e0aaec9533ea3bc0841565fb284a77689e8a0f1d8c2f18542eb5b84250ee5e4",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Dit beleidskader richt zich op kleine windturbines in landelijk gebied.",
+      "corrupted": "Deze beleidskader richt zich op kleine windturbines in landelijk gebied.",
+      "edits": [
+        {
+          "corrupted_end": 4,
+          "corrupted_start": 0,
+          "corruption_type": "demonstrative_agreement",
+          "end": 3,
+          "original": "Dit",
+          "protected_tokens": [
+            35,
+            36
+          ],
+          "replacement": "Deze",
+          "rule_id": "demonstrative_agreement:het:dit>deze",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-005",
+      "pair_id": "d9477f504c0febfcd7136061",
+      "split": "train",
+      "document_id": "20b7a566035e4bf884356c35f639c6e770b487c7b611c327cf69f67c96d06087",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Dit toezichtkader geeft de provincie ruimte om maatwerk toe te passen.",
+      "corrupted": "Deze toezichtkader geeft de provincie ruimte om maatwerk toe te passen.",
+      "edits": [
+        {
+          "corrupted_end": 4,
+          "corrupted_start": 0,
+          "corruption_type": "demonstrative_agreement",
+          "end": 3,
+          "original": "Dit",
+          "protected_tokens": [
+            9,
+            10
+          ],
+          "replacement": "Deze",
+          "rule_id": "demonstrative_agreement:het:dit>deze",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-006",
+      "pair_id": "ef862a095bf2f5cb21306832",
+      "split": "train",
+      "document_id": "2854d785bae720e64771efacbdf65c5439f4444215d4e661a970b8526648f66e",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Dit verslag wordt ook wel het Leefzorgplan genoemd.",
+      "corrupted": "Deze verslag wordt ook wel het Leefzorgplan genoemd.",
+      "edits": [
+        {
+          "corrupted_end": 4,
+          "corrupted_start": 0,
+          "corruption_type": "demonstrative_agreement",
+          "end": 3,
+          "original": "Dit",
+          "protected_tokens": [
+            10,
+            11
+          ],
+          "replacement": "Deze",
+          "rule_id": "demonstrative_agreement:het:dit>deze",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-007",
+      "pair_id": "88f65c01bf6e25e71d444fb4",
+      "split": "train",
+      "document_id": "0473222337306400b6b33613a9b21bd5b78ab0c1ca05dbb48e5d0756ce1debf0",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Ons ambitieniveau geeft aan in welke mate we onze toekomstvisie nastreven in deze planperiode.",
+      "corrupted": "Onze ambitieniveau geeft aan in welke mate we onze toekomstvisie nastreven in deze planperiode.",
+      "edits": [
+        {
+          "corrupted_end": 4,
+          "corrupted_start": 0,
+          "corruption_type": "possessive_agreement",
+          "end": 3,
+          "original": "Ons",
+          "protected_tokens": [
+            23,
+            24
+          ],
+          "replacement": "Onze",
+          "rule_id": "possessive_agreement:ons>onze",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-008",
+      "pair_id": "12c77ae67cf329a3ed07b441",
+      "split": "test",
+      "document_id": "01e724838a46bc2a1539fe7c415bdd47dfff980940a68747d3e7f991acda55a5",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Voorschoolse educatiegroepen in onze gemeente moeten aan de voorwaarden van dit besluit voldoen.",
+      "corrupted": "Voorschoolse educatiegroepen in ons gemeente moeten aan de voorwaarden van dit besluit voldoen.",
+      "edits": [
+        {
+          "corrupted_end": 35,
+          "corrupted_start": 32,
+          "corruption_type": "possessive_agreement",
+          "end": 36,
+          "original": "onze",
+          "protected_tokens": [
+            21,
+            22
+          ],
+          "replacement": "ons",
+          "rule_id": "possessive_agreement:onze>ons",
+          "start": 32
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-009",
+      "pair_id": "a95c5e871783d872dfccb25b",
+      "split": "train",
+      "document_id": "e76c338f83e8d3f790626f2a8b186c230487ac2144a1116af924357b88ab8113",
+      "source_name": "officiele_bekendmakingen",
+      "original": "De greppel ligt geheel op ons grondgebied dus van de aanliggende eigenaren valt niets te verwachten.",
+      "corrupted": "De greppel ligt geheel op onze grondgebied dus van de aanliggende eigenaren valt niets te verwachten.",
+      "edits": [
+        {
+          "corrupted_end": 30,
+          "corrupted_start": 26,
+          "corruption_type": "possessive_agreement",
+          "end": 29,
+          "original": "ons",
+          "protected_tokens": [
+            16,
+            17
+          ],
+          "replacement": "onze",
+          "rule_id": "possessive_agreement:ons>onze",
+          "start": 26
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-010",
+      "pair_id": "d1a7cbb54f6c3d733f2d5b0d",
+      "split": "train",
+      "document_id": "7974548e07a4f5b58393828b8cb248d46e7232d63fe6280fea0c01bb1ad43a30",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Voor opdrachten die zich daarvoor lenen, stellen we samen met de inwoners van onze gemeente het programma van eisen op en/of beoordelen we samen met hen de aanbiedingen.",
+      "corrupted": "Voor opdrachten die zich daarvoor lenen, stellen we samen met de inwoners van ons gemeente het programma van eisen op en/of beoordelen we samen met hen de aanbiedingen.",
+      "edits": [
+        {
+          "corrupted_end": 81,
+          "corrupted_start": 78,
+          "corruption_type": "possessive_agreement",
+          "end": 82,
+          "original": "onze",
+          "protected_tokens": [
+            14,
+            15
+          ],
+          "replacement": "ons",
+          "rule_id": "possessive_agreement:onze>ons",
+          "start": 78
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-011",
+      "pair_id": "6c54025664cd1300b51b097c",
+      "split": "train",
+      "document_id": "0473222337306400b6b33613a9b21bd5b78ab0c1ca05dbb48e5d0756ce1debf0",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Aanpassingen in ons rioolstelsel voeren we consequent door in ons beheersysteem en in de rioleringsmodellen.",
+      "corrupted": "Aanpassingen in onze rioolstelsel voeren we consequent door in ons beheersysteem en in de rioleringsmodellen.",
+      "edits": [
+        {
+          "corrupted_end": 20,
+          "corrupted_start": 16,
+          "corruption_type": "possessive_agreement",
+          "end": 19,
+          "original": "ons",
+          "protected_tokens": [
+            2,
+            3
+          ],
+          "replacement": "onze",
+          "rule_id": "possessive_agreement:ons>onze",
+          "start": 16
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-012",
+      "pair_id": "a74af35dad445518683e53e9",
+      "split": "train",
+      "document_id": "0473222337306400b6b33613a9b21bd5b78ab0c1ca05dbb48e5d0756ce1debf0",
+      "source_name": "officiele_bekendmakingen",
+      "original": "We krijgen hierdoor de handen vrij om meer proactief te handelen en waarden te optimaliseren binnen de waterketen en de leefomgeving.",
+      "corrupted": "We krijgt hierdoor de handen vrij om meer proactief te handelen en waarden te optimaliseren binnen de waterketen en de leefomgeving.",
+      "edits": [
+        {
+          "corrupted_end": 9,
+          "corrupted_start": 3,
+          "corruption_type": "subject_verb_agreement",
+          "end": 10,
+          "original": "krijgen",
+          "protected_tokens": [
+            36,
+            37
+          ],
+          "replacement": "krijgt",
+          "rule_id": "subject_verb_agreement:dictionary:plural",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-013",
+      "pair_id": "c3a0915f44c15853c11483c3",
+      "split": "train",
+      "document_id": "0b7ab441870389bc0b4aa29776bafaa2ee68267b9db1a717503d757a7c2f2937",
+      "source_name": "officiele_bekendmakingen",
+      "original": "We dienen onze medewerkers hiervoor handvatten te bieden.",
+      "corrupted": "We dient onze medewerkers hiervoor handvatten te bieden.",
+      "edits": [
+        {
+          "corrupted_end": 8,
+          "corrupted_start": 3,
+          "corruption_type": "subject_verb_agreement",
+          "end": 9,
+          "original": "dienen",
+          "protected_tokens": [
+            32,
+            33
+          ],
+          "replacement": "dient",
+          "rule_id": "subject_verb_agreement:dictionary:plural",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-014",
+      "pair_id": "debac447cc1a4716b9fe64ef",
+      "split": "train",
+      "document_id": "09aad0157b171b7e80df1b4b35858839a0993c0dcc70ff8f80192c20b3128c21",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Wij zien voor ons een belangrijke rol als verbinder.",
+      "corrupted": "Wij ziet voor ons een belangrijke rol als verbinder.",
+      "edits": [
+        {
+          "corrupted_end": 8,
+          "corrupted_start": 4,
+          "corruption_type": "subject_verb_agreement",
+          "end": 8,
+          "original": "zien",
+          "protected_tokens": [
+            8,
+            9
+          ],
+          "replacement": "ziet",
+          "rule_id": "subject_verb_agreement:dictionary:plural",
+          "start": 4
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; substitution introduces a clear grammar or spelling error."
+    }
+  ],
+  "review": {
+    "reviewer": "Codex agent",
+    "native_speaker_gold": false,
+    "completed_at": "2026-09-22T06:07:31.471081+00:00",
+    "scope": "All 200 originals and recorded edits inspected, with full grammar-corrupted strings; separate 15-family supplement. Grammatical/spelling/extraction quality, not factual or legal verification."
+  }
+}

@@ -1,0 +1,665 @@
+{
+  "pl": [
+    {
+      "id": "pl_adjective_gender_ud",
+      "family": "adjective_gender",
+      "active": true,
+      "mappings": 80585,
+      "audit_status": "pending"
+    },
+    {
+      "id": "pl_adjective_number_ud",
+      "family": "adjective_number",
+      "active": true,
+      "mappings": 119499,
+      "audit_status": "pending"
+    },
+    {
+      "id": "pl_adjective_case_ud",
+      "family": "adjective_case",
+      "active": true,
+      "mappings": 190427,
+      "audit_status": "pending"
+    },
+    {
+      "id": "pl_adjective_definite_ud",
+      "family": "adjective_definite",
+      "active": false,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "pl_determiner_gender_ud",
+      "family": "determiner_gender",
+      "active": true,
+      "mappings": 604,
+      "audit_status": "pending"
+    },
+    {
+      "id": "pl_determiner_number_ud",
+      "family": "determiner_number",
+      "active": true,
+      "mappings": 893,
+      "audit_status": "pending"
+    },
+    {
+      "id": "pl_determiner_case_ud",
+      "family": "determiner_case",
+      "active": true,
+      "mappings": 1380,
+      "audit_status": "pending"
+    },
+    {
+      "id": "pl_verb_number_agreement_ud",
+      "family": "verb_number_agreement",
+      "active": true,
+      "mappings": 95350,
+      "audit_status": "pending"
+    },
+    {
+      "id": "pl_verb_person_agreement_ud",
+      "family": "verb_person_agreement",
+      "active": true,
+      "mappings": 64416,
+      "audit_status": "pending"
+    },
+    {
+      "id": "pl_governed_infinitive_ud",
+      "family": "governed_infinitive",
+      "active": true,
+      "mappings": 57899,
+      "audit_status": "pending"
+    },
+    {
+      "id": "pl_preposition_case_gen",
+      "family": "preposition_case",
+      "active": true,
+      "mappings": 58448,
+      "audit_status": "pending"
+    },
+    {
+      "id": "pl_preposition_case_dat",
+      "family": "preposition_case",
+      "active": true,
+      "mappings": 60576,
+      "audit_status": "pending"
+    },
+    {
+      "id": "pl_subject_pronoun_case",
+      "family": "pronoun_case",
+      "active": true,
+      "mappings": 4,
+      "audit_status": "pending"
+    },
+    {
+      "id": "pl_spelling_transpose_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "pl_spelling_delete_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "pl_spelling_delete_doubled_consonant",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "pl_spelling_duplicate_consonant",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "pl_spelling_substitute_character",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    }
+  ],
+  "sv": [
+    {
+      "id": "sv_adjective_gender_ud",
+      "family": "adjective_gender",
+      "active": true,
+      "mappings": 72876,
+      "audit_status": "pending"
+    },
+    {
+      "id": "sv_adjective_number_ud",
+      "family": "adjective_number",
+      "active": true,
+      "mappings": 103965,
+      "audit_status": "pending"
+    },
+    {
+      "id": "sv_adjective_definite_ud",
+      "family": "adjective_definite",
+      "active": true,
+      "mappings": 236490,
+      "audit_status": "pending"
+    },
+    {
+      "id": "sv_determiner_gender_ud",
+      "family": "determiner_gender",
+      "active": true,
+      "mappings": 4,
+      "audit_status": "pending"
+    },
+    {
+      "id": "sv_determiner_number_ud",
+      "family": "determiner_number",
+      "active": true,
+      "mappings": 24,
+      "audit_status": "pending"
+    },
+    {
+      "id": "sv_governed_infinitive_ud",
+      "family": "governed_infinitive",
+      "active": true,
+      "mappings": 37392,
+      "audit_status": "pending"
+    },
+    {
+      "id": "sv_perfect_verb_form_ud",
+      "family": "perfect_verb_form",
+      "active": true,
+      "mappings": 30858,
+      "audit_status": "pending"
+    },
+    {
+      "id": "sv_subject_pronoun_case",
+      "family": "pronoun_case",
+      "active": true,
+      "mappings": 3,
+      "audit_status": "pending"
+    },
+    {
+      "id": "sv_spelling_transpose_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "sv_spelling_delete_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "sv_spelling_delete_doubled_consonant",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "sv_spelling_duplicate_consonant",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "sv_spelling_substitute_character",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    }
+  ],
+  "nb": [
+    {
+      "id": "nb_adjective_gender_ud",
+      "family": "adjective_gender",
+      "active": true,
+      "mappings": 10202,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nb_adjective_number_ud",
+      "family": "adjective_number",
+      "active": true,
+      "mappings": 41901,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nb_adjective_definite_ud",
+      "family": "adjective_definite",
+      "active": true,
+      "mappings": 44116,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nb_determiner_gender_ud",
+      "family": "determiner_gender",
+      "active": true,
+      "mappings": 97,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nb_determiner_number_ud",
+      "family": "determiner_number",
+      "active": true,
+      "mappings": 62,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nb_governed_infinitive_ud",
+      "family": "governed_infinitive",
+      "active": true,
+      "mappings": 59659,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nb_perfect_verb_form_ud",
+      "family": "perfect_verb_form",
+      "active": true,
+      "mappings": 26803,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nb_subject_pronoun_case",
+      "family": "pronoun_case",
+      "active": true,
+      "mappings": 3,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nb_spelling_transpose_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nb_spelling_delete_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nb_spelling_delete_doubled_consonant",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nb_spelling_duplicate_consonant",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nb_spelling_substitute_character",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    }
+  ],
+  "nn": [
+    {
+      "id": "nn_adjective_gender_ud",
+      "family": "adjective_gender",
+      "active": true,
+      "mappings": 16820,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nn_adjective_number_ud",
+      "family": "adjective_number",
+      "active": true,
+      "mappings": 26577,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nn_adjective_definite_ud",
+      "family": "adjective_definite",
+      "active": true,
+      "mappings": 32167,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nn_determiner_gender_ud",
+      "family": "determiner_gender",
+      "active": true,
+      "mappings": 118,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nn_determiner_number_ud",
+      "family": "determiner_number",
+      "active": true,
+      "mappings": 57,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nn_governed_infinitive_ud",
+      "family": "governed_infinitive",
+      "active": true,
+      "mappings": 63033,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nn_perfect_verb_form_ud",
+      "family": "perfect_verb_form",
+      "active": true,
+      "mappings": 23047,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nn_subject_pronoun_case",
+      "family": "pronoun_case",
+      "active": true,
+      "mappings": 4,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nn_spelling_transpose_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nn_spelling_delete_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nn_spelling_delete_doubled_consonant",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nn_spelling_duplicate_consonant",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "nn_spelling_substitute_character",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    }
+  ],
+  "fo": [
+    {
+      "id": "fo_adjective_gender_ud",
+      "family": "adjective_gender",
+      "active": true,
+      "mappings": 434090,
+      "audit_status": "pending"
+    },
+    {
+      "id": "fo_adjective_number_ud",
+      "family": "adjective_number",
+      "active": true,
+      "mappings": 414577,
+      "audit_status": "pending"
+    },
+    {
+      "id": "fo_adjective_case_ud",
+      "family": "adjective_case",
+      "active": true,
+      "mappings": 1022984,
+      "audit_status": "pending"
+    },
+    {
+      "id": "fo_adjective_definite_ud",
+      "family": "adjective_definite",
+      "active": true,
+      "mappings": 832266,
+      "audit_status": "pending"
+    },
+    {
+      "id": "fo_determiner_gender_ud",
+      "family": "determiner_gender",
+      "active": true,
+      "mappings": 151,
+      "audit_status": "pending"
+    },
+    {
+      "id": "fo_determiner_number_ud",
+      "family": "determiner_number",
+      "active": true,
+      "mappings": 162,
+      "audit_status": "pending"
+    },
+    {
+      "id": "fo_determiner_case_ud",
+      "family": "determiner_case",
+      "active": true,
+      "mappings": 326,
+      "audit_status": "pending"
+    },
+    {
+      "id": "fo_verb_number_agreement_ud",
+      "family": "verb_number_agreement",
+      "active": true,
+      "mappings": 36236,
+      "audit_status": "pending"
+    },
+    {
+      "id": "fo_verb_person_agreement_ud",
+      "family": "verb_person_agreement",
+      "active": true,
+      "mappings": 12371,
+      "audit_status": "pending"
+    },
+    {
+      "id": "fo_governed_infinitive_ud",
+      "family": "governed_infinitive",
+      "active": true,
+      "mappings": 23302,
+      "audit_status": "pending"
+    },
+    {
+      "id": "fo_perfect_verb_form_ud",
+      "family": "perfect_verb_form",
+      "active": true,
+      "mappings": 11319,
+      "audit_status": "pending"
+    },
+    {
+      "id": "fo_preposition_case_dat",
+      "family": "preposition_case",
+      "active": true,
+      "mappings": 405208,
+      "audit_status": "pending"
+    },
+    {
+      "id": "fo_preposition_case_gen",
+      "family": "preposition_case",
+      "active": true,
+      "mappings": 394060,
+      "audit_status": "pending"
+    },
+    {
+      "id": "fo_spelling_transpose_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "fo_spelling_delete_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "fo_spelling_delete_doubled_consonant",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "fo_spelling_duplicate_consonant",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "fo_spelling_substitute_character",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    }
+  ],
+  "is": [
+    {
+      "id": "is_adjective_gender_ud",
+      "family": "adjective_gender",
+      "active": true,
+      "mappings": 132566,
+      "audit_status": "pending"
+    },
+    {
+      "id": "is_adjective_number_ud",
+      "family": "adjective_number",
+      "active": true,
+      "mappings": 149862,
+      "audit_status": "pending"
+    },
+    {
+      "id": "is_adjective_case_ud",
+      "family": "adjective_case",
+      "active": true,
+      "mappings": 263384,
+      "audit_status": "pending"
+    },
+    {
+      "id": "is_adjective_definite_ud",
+      "family": "adjective_definite",
+      "active": true,
+      "mappings": 149974,
+      "audit_status": "pending"
+    },
+    {
+      "id": "is_determiner_gender_ud",
+      "family": "determiner_gender",
+      "active": true,
+      "mappings": 460,
+      "audit_status": "pending"
+    },
+    {
+      "id": "is_determiner_number_ud",
+      "family": "determiner_number",
+      "active": true,
+      "mappings": 460,
+      "audit_status": "pending"
+    },
+    {
+      "id": "is_determiner_case_ud",
+      "family": "determiner_case",
+      "active": true,
+      "mappings": 939,
+      "audit_status": "pending"
+    },
+    {
+      "id": "is_verb_number_agreement_ud",
+      "family": "verb_number_agreement",
+      "active": true,
+      "mappings": 37545,
+      "audit_status": "pending"
+    },
+    {
+      "id": "is_verb_person_agreement_ud",
+      "family": "verb_person_agreement",
+      "active": true,
+      "mappings": 57800,
+      "audit_status": "pending"
+    },
+    {
+      "id": "is_governed_infinitive_ud",
+      "family": "governed_infinitive",
+      "active": true,
+      "mappings": 56830,
+      "audit_status": "pending"
+    },
+    {
+      "id": "is_perfect_verb_form_ud",
+      "family": "perfect_verb_form",
+      "active": true,
+      "mappings": 42854,
+      "audit_status": "pending"
+    },
+    {
+      "id": "is_preposition_case_dat",
+      "family": "preposition_case",
+      "active": true,
+      "mappings": 74810,
+      "audit_status": "pending"
+    },
+    {
+      "id": "is_preposition_case_gen",
+      "family": "preposition_case",
+      "active": true,
+      "mappings": 76252,
+      "audit_status": "pending"
+    },
+    {
+      "id": "is_spelling_transpose_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "is_spelling_delete_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "is_spelling_delete_doubled_consonant",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "is_spelling_duplicate_consonant",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    },
+    {
+      "id": "is_spelling_substitute_character",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0,
+      "audit_status": "pending"
+    }
+  ]
+}

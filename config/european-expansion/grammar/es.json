@@ -1,0 +1,73 @@
+{
+  "language": "es",
+  "rule_overrides": {
+    "verb_number_agreement": {
+      "noun_subject": {
+        "lemmas": [
+          "niño",
+          "niña",
+          "hombre",
+          "mujer",
+          "profesor",
+          "estudiante",
+          "autor",
+          "escritor",
+          "ciudad",
+          "escuela",
+          "empresa",
+          "edificio",
+          "libro",
+          "árbol"
+        ],
+        "review": "agent conservative count-noun inventory; no native validation"
+      }
+    }
+  },
+  "status": "candidate_only_agent_reviewed",
+  "reason": "Explicit conservative coverage extensions; shared code, isolated linguistic constraints",
+  "profile_overrides": {
+    "personal_pronoun_features": {
+      "yo": {
+        "Number": "Sing",
+        "Person": "1"
+      },
+      "tú": {
+        "Number": "Sing",
+        "Person": "2"
+      },
+      "él": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "ella": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "nosotros": {
+        "Number": "Plur",
+        "Person": "1"
+      },
+      "nosotras": {
+        "Number": "Plur",
+        "Person": "1"
+      },
+      "vosotros": {
+        "Number": "Plur",
+        "Person": "2"
+      },
+      "vosotras": {
+        "Number": "Plur",
+        "Person": "2"
+      },
+      "ellos": {
+        "Number": "Plur",
+        "Person": "3"
+      },
+      "ellas": {
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    "personal_pronoun_by_dependency": true
+  }
+}

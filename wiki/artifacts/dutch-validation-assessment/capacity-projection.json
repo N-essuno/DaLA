@@ -1,0 +1,36 @@
+{
+  "method": "Source-stratified 500-document-per-source extrapolation to the selected 10273-document pool at cap 12. Approximate continuous cap calculation; ignores additional full-corpus duplicate losses, source heterogeneity and split rounding. Not a guaranteed quota.",
+  "observed_by_source": {
+    "dienst_publiek_en_communicatie": {
+      "article_gender": 2110,
+      "spelling": 2929,
+      "adjective_inflection": 140,
+      "subject_verb_agreement": 111,
+      "demonstrative_agreement": 26,
+      "article_number": 39,
+      "possessive_agreement": 37,
+      "relative_pronoun_agreement": 1,
+      "verb_dt": 1
+    },
+    "eurlex": {
+      "article_gender": 498,
+      "spelling": 517,
+      "article_number": 32,
+      "demonstrative_agreement": 11,
+      "adjective_inflection": 22
+    }
+  },
+  "projected_raw_pairs": 47806.212,
+  "projected_raw_families": {
+    "article_gender": 19803.964,
+    "spelling": 24944.737999999998,
+    "adjective_inflection": 1152.696,
+    "subject_verb_agreement": 659.118,
+    "demonstrative_agreement": 315.076,
+    "article_number": 699.038,
+    "possessive_agreement": 219.706,
+    "relative_pronoun_agreement": 5.938,
+    "verb_dt": 5.938
+  },
+  "projected_balanced_pairs": 15723.14667259082
+}

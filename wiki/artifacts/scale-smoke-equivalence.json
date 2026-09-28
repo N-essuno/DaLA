@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "documents": 100,
+  "pairs": 1550,
+  "serial_checkpointed_resume_pairs_exactly_equal": true
+}

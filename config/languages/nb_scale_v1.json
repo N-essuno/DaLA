@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "language": "nb",
+  "name": "DaLA Norwegian Bokmål — DynaWord",
+  "mode": "pairs",
+  "parser": "stanza",
+  "parser_backend": "stanza",
+  "parser_settings": {
+    "directory": "la_output/resources/multilingual/stanza",
+    "processors": {
+      "tokenize": "bokmaal",
+      "pos": "bokmaal_nocharlm",
+      "depparse": "bokmaal_nocharlm",
+      "lemma": "bokmaal_nocharlm"
+    },
+    "model_sha256": {
+      "nb/depparse/bokmaal_nocharlm.pt": "a11b44c567424d827e49e5b0109de7c36875038e9a17148408bcc6f6581c30e6",
+      "nb/lemma/bokmaal_nocharlm.pt": "41bd420a19897d9577725fe126ab85758be50ba52d63b07e37dbcc0a780394e2",
+      "nb/pos/bokmaal_nocharlm.pt": "8b58f6c0731b872f44804e4a989dcb1b3aa7c5f4ddb9f02f6f15ce9711ff387e",
+      "nb/pretrain/conll17.pt": "3e9e8864b7179e85bdec6621d952948658c1c0758c1eec5139ffacbb238b6b92",
+      "nb/tokenize/bokmaal.pt": "4cd4f91a47650294c75d2bd9251c0c71afe0e706f9b0a1f198869b25c4277523"
+    },
+    "stanza_version": "1.11.0"
+  },
+  "parser_threads": 2,
+  "sources": {
+    "adapter": "dynaword"
+  },
+  "sources_config": "../nb_sources.json",
+  "rulebook": "../../la_output/resources/multilingual/nb/rules.json.gz",
+  "exclusions": "../nb_source_exclusions.json",
+  "resource_directory": "../../la_output/resources/multilingual/nb",
+  "adapter": "dala.language_packs.morphology:MorphologyPack",
+  "selection": {
+    "strategy": "hash_rotate_grammar_then_spelling",
+    "max_errors": 1,
+    "priority": [
+      "adjective_gender",
+      "adjective_number",
+      "adjective_definite",
+      "determiner_gender",
+      "determiner_number",
+      "governed_infinitive",
+      "perfect_verb_form",
+      "pronoun_case",
+      "spelling"
+    ]
+  },
+  "checker": {
+    "mode": "morphology",
+    "workers": 8
+  },
+  "prompts": {
+    "acceptability": "Er denne setningen grammatisk korrekt og riktig stavet på norsk bokmål? Svar bare med yes eller no.",
+    "correction": "Rett grammatikk- og stavefeil i denne setningen på norsk bokmål. Hvis setningen allerede er korrekt, gjengi den uendret. Behold bokmål, betydningen og stilen. Svar bare med setningen."
+  },
+  "standard_exclusions": [
+    "eg",
+    "ikkje",
+    "kva",
+    "korleis",
+    "desse",
+    "deira"
+  ],
+  "curation": {
+    "min_words": 7,
+    "max_words": 35,
+    "max_sentence_chars": 320,
+    "max_paragraph_chars": 6000,
+    "source_risk_patterns": [
+      "(?i)\\b(?:pkt|kap|jf|nr|meld|pst|mill)\\.$",
+      "^(?:[IVXLCDM]+|[A-Z])[.)]\\s"
+    ]
+  },
+  "description": "Pinned DynaWord prose. Candidate dataset: dictionary and syntactic-rule screening; independent linguistic audit required.",
+  "dependencies": [
+    "requests",
+    "pyarrow",
+    "huggingface-hub",
+    "stanza",
+    "spylls"
+  ],
+  "source_sampling": "round_robin",
+  "export_used_rule_mappings": true,
+  "release_policy": {
+    "status": "candidate_only",
+    "require_audit_per_family": true,
+    "target": {
+      "name": "Norwegian Bokmål",
+      "dataset_id": "dala-norwegian-bokmaal-dynaword",
+      "target_pairs": 478930,
+      "size_policy": "target_without_relaxing_quality"
+    }
+  },
+  "indefinite_articles": [
+    "en",
+    "ei",
+    "et"
+  ],
+  "build": {
+    "parser_processes": 16,
+    "document_batch_size": 2,
+    "max_task_chars": 30000,
+    "checkpoint_dir": "la_output/nb_scale_v1_checkpoints",
+    "allow_shortfall": true,
+    "target_pairs": 478930,
+    "split_targets": {
+      "train": 383144,
+      "validation": 47893,
+      "test": 47893
+    }
+  },
+  "morphology_options": {
+    "lemma_strategy": "parsed",
+    "source_pronoun_agreement": false,
+    "complete_verb_agreement_from_subject": false,
+    "gender_equivalences": [
+      [
+        "Masc",
+        "Fem"
+      ]
+    ]
+  }
+}

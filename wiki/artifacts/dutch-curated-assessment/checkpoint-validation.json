@@ -1,0 +1,36 @@
+{
+  "validation": {
+    "pairs": 1448,
+    "unique_documents": 176,
+    "exact_edit_reconstruction": true,
+    "correction_roundtrip": true,
+    "document_split_isolation": true,
+    "exported_text_unique": true,
+    "at_most_one_grammar_edit": true,
+    "artifact_checksums": true,
+    "task_views_match_pairs": true,
+    "balanced_labels": true,
+    "source_provenance_consistent": true
+  },
+  "ordinary_checkpoint_records_equal": true,
+  "pairs": 1448,
+  "resume_validation": {
+    "pairs": 1448,
+    "unique_documents": 176,
+    "exact_edit_reconstruction": true,
+    "correction_roundtrip": true,
+    "document_split_isolation": true,
+    "exported_text_unique": true,
+    "at_most_one_grammar_edit": true,
+    "artifact_checksums": true,
+    "task_views_match_pairs": true,
+    "balanced_labels": true,
+    "source_provenance_consistent": true
+  },
+  "resumed_records_equal": true,
+  "test_suite": {
+    "tests": 96,
+    "result": "passed"
+  },
+  "pilot_manifest_sha256": "5b88845d27887448d0f04a2867157d67abc0696c22c5dddcb9634f5237dbc297"
+}

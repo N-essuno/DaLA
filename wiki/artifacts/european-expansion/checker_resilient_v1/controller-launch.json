@@ -1,0 +1,21 @@
+{
+  "pid": 3438044,
+  "at": "2026-09-27T05:27:16.857076+00:00",
+  "command": [
+    "/home/ucloud/miniforge3/bin/python",
+    "-u",
+    "-m",
+    "scripts.autoscale_european_checkers",
+    "/work/mimir/DaLA/wiki/artifacts/european-expansion/checker_resilient_v1/launch.json",
+    "--languages",
+    "uk"
+  ],
+  "scope": [
+    "uk"
+  ],
+  "mode": "parser_and_checker",
+  "cpu_budget_fraction": 0.9,
+  "memory_reserve_fraction": 0.05,
+  "status_path": "/work/mimir/DaLA/wiki/artifacts/european-expansion/checker-autoscaling/status.json",
+  "history_path": "/work/mimir/DaLA/wiki/artifacts/european-expansion/checker-autoscaling/history.jsonl"
+}

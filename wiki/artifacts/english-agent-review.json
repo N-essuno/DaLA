@@ -1,0 +1,1597 @@
+{
+  "method": "Agent linguistic inspection queue, not human validation",
+  "seed": 20260921,
+  "per_family": 10,
+  "rows": [
+    {
+      "pair_id": "3f430233563242401e58c3bc",
+      "stratum": "demonstrative_number",
+      "split": "train",
+      "source_url": "https://360info.org/australias-world-class-democracy-has-a-trust-issue/",
+      "original": "Government and opposition in Australia have remained silent on questions of democratic renewal in response to these sources of democratic deficit.",
+      "corrupted": "Government and opposition in Australia have remained silent on questions of democratic renewal in response to this sources of democratic deficit.",
+      "edits": [
+        {
+          "type": "demonstrative_number",
+          "original": "these",
+          "replacement": "this"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "44557b32c5c632e21cd868e6",
+      "stratum": "demonstrative_number",
+      "split": "train",
+      "source_url": "https://360info.org/robots-at-work-from-museums-to-mines/",
+      "original": "The challenge for researchers and software developers is to make these technologies intelligible and accessible.",
+      "corrupted": "The challenge for researchers and software developers is to make this technologies intelligible and accessible.",
+      "edits": [
+        {
+          "type": "demonstrative_number",
+          "original": "these",
+          "replacement": "this"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "eb237189eae0981cd153ea9c",
+      "stratum": "demonstrative_number",
+      "split": "test",
+      "source_url": "https://360info.org/bland-warehouses-hide-the-heart-of-a-city/",
+      "original": "These cities have also instituted programmes and incentives to deliberately attract this kind of logistical business and infrastructure.",
+      "corrupted": "This cities have also instituted programmes and incentives to deliberately attract this kind of logistical business and infrastructure.",
+      "edits": [
+        {
+          "type": "demonstrative_number",
+          "original": "These",
+          "replacement": "This"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "8a5c9979189d443742daa867",
+      "stratum": "demonstrative_number",
+      "split": "train",
+      "source_url": "https://360info.org/this-is-how-to-increase-ev-uptake/",
+      "original": "This strategy provides vehicle makers the opportunity to build cars more cheaply while benefiting from the subsidies and the opportunity to sell their cars in an emerging market.",
+      "corrupted": "These strategy provides vehicle makers the opportunity to build cars more cheaply while benefiting from the subsidies and the opportunity to sell their cars in an emerging market.",
+      "edits": [
+        {
+          "type": "demonstrative_number",
+          "original": "This",
+          "replacement": "These"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "b7785882d0a89a65b9626793",
+      "stratum": "demonstrative_number",
+      "split": "train",
+      "source_url": "https://360info.org/the-insidious-take-over-of-mexicos-police/",
+      "original": "The most alarming part of this story is that it is not an exception.",
+      "corrupted": "The most alarming part of these story is taht it is not an exception.",
+      "edits": [
+        {
+          "type": "demonstrative_number",
+          "original": "this",
+          "replacement": "these"
+        },
+        {
+          "type": "spelling",
+          "original": "that",
+          "replacement": "taht"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "f5a00536f10832196ef139ff",
+      "stratum": "demonstrative_number",
+      "split": "test",
+      "source_url": "https://360info.org/why-social-media-health-check-must-include-global-south/",
+      "original": "A systematic review underscored social media’s role in exacerbating these issues.",
+      "corrupted": "A systematic review underscored social media’s role in exacerbating this issues.",
+      "edits": [
+        {
+          "type": "demonstrative_number",
+          "original": "these",
+          "replacement": "this"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "f9c334350e5534cccd0c376b",
+      "stratum": "demonstrative_number",
+      "split": "train",
+      "source_url": "https://360info.org/from-cape-town-to-santa-cruz-urban-drought-lessons/",
+      "original": "This committee was supported by the Santa Cruz Water Department; the head of the Water Department, Rosemary Menard, was an ex-officio non-voting member.",
+      "corrupted": "These committee was supported by the Santa Cruz Water Department; the head of the Water Department, Rosemary Menard, was an ex-officio non-voting member.",
+      "edits": [
+        {
+          "type": "demonstrative_number",
+          "original": "This",
+          "replacement": "These"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "4adb6c22982e3da066179517",
+      "stratum": "demonstrative_number",
+      "split": "train",
+      "source_url": "https://360info.org/australian-law-enables-state-authorised-hacking-and-surveillance/",
+      "original": "With the parliamentary oversight process largely sidelined, it raises the question: who is watching to ensure responsible use of these powers?",
+      "corrupted": "With the parliamentary oversight process largely sidelined, it raises the question: who is watching to ensure responsible use of this powers?",
+      "edits": [
+        {
+          "type": "demonstrative_number",
+          "original": "these",
+          "replacement": "this"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "6d6ab70fc5283d5d9bbb8968",
+      "stratum": "demonstrative_number",
+      "split": "train",
+      "source_url": "https://360info.org/how-climate-change-is-killing-languages/",
+      "original": "These languages also hold knowledge on animals and how to live sustainably in the local environment.",
+      "corrupted": "This languages also hold knowledge on animals and how to live sustainably in the local environment.",
+      "edits": [
+        {
+          "type": "demonstrative_number",
+          "original": "These",
+          "replacement": "This"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "97d9382fae07fe157c704cc6",
+      "stratum": "demonstrative_number",
+      "split": "validation",
+      "source_url": "https://360info.org/the-harsh-reality-of-quantum-batteries/",
+      "original": "To formally prove these relationships, they made use of a quantum phenomenon known as the quantum speed limit.",
+      "corrupted": "To formally prove this relationships, they made use of a quantum phenomenon known as the quantum speed limit.",
+      "edits": [
+        {
+          "type": "demonstrative_number",
+          "original": "these",
+          "replacement": "this"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "a76e65d01059e31145bf2c13",
+      "stratum": "do_support_form",
+      "split": "train",
+      "source_url": "https://360info.org/pacific-digital-toolbox-needs-expanding-to-hammer-out-misinformation/",
+      "original": "They do not invest in developing language-specific algorithms for languages like Tongan, Bislama, or Chuukese, which have a smaller user base.",
+      "corrupted": "They do not invested in developing language-specific algorithms for languages like Tongan, Bislama, or Chuukese, which have a smaller user base.",
+      "edits": [
+        {
+          "type": "do_support_form",
+          "original": "invest",
+          "replacement": "invested"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "4673a02b7729dba7a4051d8a",
+      "stratum": "do_support_form",
+      "split": "train",
+      "source_url": "https://360info.org/delivery-drivers-dicing-with-death/",
+      "original": "To be clear, this does not mean drivers parked illegally most of the time, but rather they were concerned they sometimes had to.",
+      "corrupted": "To be clear, this does not meant drivers parked illegally most of the time, but rather they were concerned they sometimes had to.",
+      "edits": [
+        {
+          "type": "do_support_form",
+          "original": "mean",
+          "replacement": "meant"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "2913d6f92cddfb7c3feaff1b",
+      "stratum": "do_support_form",
+      "split": "test",
+      "source_url": "https://360info.org/the-ethics-of-mind-reading/",
+      "original": "In the US, brain-machine interfaces which do not require implantation in the brain, such as wearable helmets and headbands, are already marketed as consumer products with claims including that they support meditation and wellness, or improve learning efficiency or enhance brain health.",
+      "corrupted": "In the US, brain-machine interfaces which do not required implantation in the brain, such as wearable helmets and headbands, are already marketed as consumer products with claims including that they support meditation and wellness, or improve learning efficiency or enhance brain health.",
+      "edits": [
+        {
+          "type": "do_support_form",
+          "original": "require",
+          "replacement": "required"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "a4fd7682eee863cb96ef1c35",
+      "stratum": "do_support_form",
+      "split": "train",
+      "source_url": "https://360info.org/global-crypto-regulations-focus-at-g20-summit/",
+      "original": "The coordinated effort will lead to rules that countries can follow to ensure digital currencies are used safely and don’t cause big problems for the economy.",
+      "corrupted": "The coordinated effort will lead to rules taht countries can follow to ensure digital currencies are used safely and don’t caused big problems for the economy.",
+      "edits": [
+        {
+          "type": "spelling",
+          "original": "that",
+          "replacement": "taht"
+        },
+        {
+          "type": "do_support_form",
+          "original": "cause",
+          "replacement": "caused"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "5b9586a23ddcfe67df9e27dd",
+      "stratum": "do_support_form",
+      "split": "train",
+      "source_url": "https://360info.org/obsolete-law-is-costing-indonesian-wildlife/",
+      "original": "Despite being recorded as the biggest verdict of a wildlife-smuggling case, Shia’s prison time does not even reach the maximum term under the 1990 Conservation Law, which various observers considered too lenient.",
+      "corrupted": "Despite being recorded as the biggest verdict of a wildlife-smuggling case, Shia’s prison time does not even reached the maximum term under the 1990 Conservation Law, which various observers considered too lenient.",
+      "edits": [
+        {
+          "type": "do_support_form",
+          "original": "reach",
+          "replacement": "reached"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "8fdc3f6fb154db0dc00eb963",
+      "stratum": "do_support_form",
+      "split": "validation",
+      "source_url": "https://360info.org/kolkatas-domestic-workers-left-insecure/",
+      "original": "Some of the apartments did not even allow me to enter the premises.",
+      "corrupted": "Some of the apartments did not even allowed me to enter the premises.",
+      "edits": [
+        {
+          "type": "do_support_form",
+          "original": "allow",
+          "replacement": "allowed"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "72059e8433d9e5e203b11d68",
+      "stratum": "do_support_form",
+      "split": "train",
+      "source_url": "https://360info.org/the-race-to-improve-dna-sequencing/",
+      "original": "It does not come without disadvantages, particularly the length of the sequences that can be generated when scaling to millions or billions of reads is often in the order of only 150 nucleotides.",
+      "corrupted": "It does not came without disadvantages, particularly the length of the sequences taht can be generated when scaling to millions or billions of reads is often in the order of only 150 nucleotides.",
+      "edits": [
+        {
+          "type": "do_support_form",
+          "original": "come",
+          "replacement": "came"
+        },
+        {
+          "type": "spelling",
+          "original": "that",
+          "replacement": "taht"
+        }
+      ],
+      "source_judgment": "reject",
+      "edit_judgment": "accept",
+      "notes": "Comma-splice/malformed transition: introductory disadvantages clause joined directly to a new finite clause about sequence length.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "48d8106c6dedd4c7e774e591",
+      "stratum": "do_support_form",
+      "split": "train",
+      "source_url": "https://publicdomainreview.org/essay/julia-margaret-cameron-in-ceylon-idylls-of-freshwater-vs-idylls-of-rathoongodde/",
+      "original": "Nevertheless, the coffins did not go to waste (though there is no information about the cow): Julia Margaret died in 1879, Charles the following year.",
+      "corrupted": "Nevertheless, the coffins did not went to waste (though there is no information about the cow): Julia Margaret died in 1879, Charles the following year.",
+      "edits": [
+        {
+          "type": "do_support_form",
+          "original": "go",
+          "replacement": "went"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "pair_id": "e13232987e9a4d41f6dfe20a",
+      "stratum": "do_support_form",
+      "split": "train",
+      "source_url": "https://360info.org/smog-clouds-the-sustainability-of-asian-cities/",
+      "original": "Asian cities are increasingly falling victim to unhealthy air quality levels and this does not bode well for long-term sustainability.",
+      "corrupted": "Asian cities are increasingly falling victim to unhealthy air quality levels and this does not boded well for long-term sustainability.",
+      "edits": [
+        {
+          "type": "do_support_form",
+          "original": "bode",
+          "replacement": "boded"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "e681ccc64961878cfcdd4506",
+      "stratum": "do_support_form",
+      "split": "train",
+      "source_url": "https://360info.org/unnecessary-hysterectomies-are-still-happening/",
+      "original": "Nonetheless, a gynaecologist may more often recommend hysterectomy to older women and to those who do not intend to have children, in the view that their uterus is a useless organ, representing merely a liability for future cancer risk.",
+      "corrupted": "Nonetheless, a gynaecologist may more often recommend hysterectomy to older women and to those who do not intended to have children, in the view that their uterus is a useless organ, representing merely a liability for future cancer risk.",
+      "edits": [
+        {
+          "type": "do_support_form",
+          "original": "intend",
+          "replacement": "intended"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "a6dd6c09e3dbe9528ffcf37a",
+      "stratum": "modal_verb_form",
+      "split": "train",
+      "source_url": "https://publicdomainreview.org/essay/lost-libraries/",
+      "original": "Perhaps the most significant item among these is Seneca’s epistles to St Paul, a correspondence which, if it existed, would answer the yearning of Christian Stoics.",
+      "corrupted": "Perhaps the most significant item among these is Seneca’s epistles to St Paul, a correspondence which, if it existed, would answering the yearning of Christian Stoics.",
+      "edits": [
+        {
+          "type": "modal_verb_form",
+          "original": "answer",
+          "replacement": "answering"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "pair_id": "6327bc3475d1036d7aa0e370",
+      "stratum": "modal_verb_form",
+      "split": "validation",
+      "source_url": "https://360info.org/new-power-plans-could-change-the-tide/",
+      "original": "New developments in the power market could end the energy compromise and usher in a more sustainable future.",
+      "corrupted": "New developments in the power market could ending the energy compromise and usher in a more sustainable future.",
+      "edits": [
+        {
+          "type": "modal_verb_form",
+          "original": "end",
+          "replacement": "ending"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "1d2e84061663e48bb4fea9e7",
+      "stratum": "modal_verb_form",
+      "split": "train",
+      "source_url": "https://360info.org/putting-trust-in-science-by-design/",
+      "original": "Colour choices in particular can inadvertently affect how messages are perceived.",
+      "corrupted": "Colour choices in particular can inadvertently affecting how messages are perceived.",
+      "edits": [
+        {
+          "type": "modal_verb_form",
+          "original": "affect",
+          "replacement": "affecting"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "1e46101ffd595cf9ada95d3b",
+      "stratum": "modal_verb_form",
+      "split": "train",
+      "source_url": "https://360info.org/renters-in-older-homes-feeling-the-heat/",
+      "original": "Without action to mitigate climate change, parts of Australia that previously needed a mix of both may shift to predominantly require cooling, while areas where cooling was of little concern may soon need more of it.",
+      "corrupted": "Without action to mitigate climate change, parts of Australia that previously needed a mix of both may shifting to predominantly require cooling, while areas where cooling was of little concern may soon need more of it.",
+      "edits": [
+        {
+          "type": "modal_verb_form",
+          "original": "shift",
+          "replacement": "shifting"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "216734beb5b53cd8ea07792a",
+      "stratum": "modal_verb_form",
+      "split": "train",
+      "source_url": "https://360info.org/meet-the-meat-that-tells-you-when-its-going-bad/",
+      "original": "The customer only needs to scan the provided label on the packaging into the app and input the temperature of the fridge, and their smartphone will calculate a more exact expiration date and remind them before it is due.",
+      "corrupted": "The customer only needs to scan the provided label on the packaging into the app and input the temperature of the fridge, and their smartphone will calculating a more exact expiration date and remind them before it is due.",
+      "edits": [
+        {
+          "type": "modal_verb_form",
+          "original": "calculate",
+          "replacement": "calculating"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "4e859fe393ee24ba8787324b",
+      "stratum": "modal_verb_form",
+      "split": "train",
+      "source_url": "https://360info.org/scrolling-into-stress-how-climate-fears-hit-youth/",
+      "original": "A 2022 study found that positive news stories about climate action can help young people’s mental and social well-being.",
+      "corrupted": "A 2022 study found taht positive news stories about climate action can helping young people’s mental and social well-being.",
+      "edits": [
+        {
+          "type": "spelling",
+          "original": "that",
+          "replacement": "taht"
+        },
+        {
+          "type": "modal_verb_form",
+          "original": "help",
+          "replacement": "helping"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "9f791a5ce8936f2d56789f49",
+      "stratum": "modal_verb_form",
+      "split": "validation",
+      "source_url": "https://publicdomainreview.org/essay/from-snowdrop-to-nightjar/",
+      "original": "This may say little more than that we experienced a cold snap in January followed by an unusually mild first half of February.",
+      "corrupted": "This may saying little more than that we experienced a cold snap in January followed by an unusually mild first half of February.",
+      "edits": [
+        {
+          "type": "modal_verb_form",
+          "original": "say",
+          "replacement": "saying"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "pair_id": "481cd6f98b89eeb60d571b9a",
+      "stratum": "modal_verb_form",
+      "split": "test",
+      "source_url": "https://publicdomainreview.org/essay/primary-sources/",
+      "original": "You can compare azurite and ultramarine side by side in Titian’s explosion of Renaissance colour, Bacchus and Ariadne (1523).",
+      "corrupted": "You can comparing azurite and ultramarine side by side in Titian’s explosion of Renaissance colour, Bacchus and Ariadne (1523).",
+      "edits": [
+        {
+          "type": "modal_verb_form",
+          "original": "compare",
+          "replacement": "comparing"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "pair_id": "51d9819ff2dc5a998c474e6c",
+      "stratum": "modal_verb_form",
+      "split": "train",
+      "source_url": "https://360info.org/australias-bid-to-navigate-troubled-waters-in-red-sea/",
+      "original": "It can secure supply chains against fraud and disruptions.",
+      "corrupted": "It can securing supply chains against fraud and disruptions.",
+      "edits": [
+        {
+          "type": "modal_verb_form",
+          "original": "secure",
+          "replacement": "securing"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "35271a6769cf9caacfcfa222",
+      "stratum": "modal_verb_form",
+      "split": "train",
+      "source_url": "https://360info.org/the-risks-of-a-digital-cold-war/",
+      "original": "The bottom line is, platforms or governments should act as intermediaries when it comes to data.",
+      "corrupted": "The bottom line is, platforms or governments should acting as intermediaries when it comes to data.",
+      "edits": [
+        {
+          "type": "modal_verb_form",
+          "original": "act",
+          "replacement": "acting"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "d534abee8172306e8ed21f79",
+      "stratum": "noun_number",
+      "split": "train",
+      "source_url": "https://360info.org/uttarakhands-civil-code-breeds-an-indian-surveillance-state/",
+      "original": "To avoid inflicting harm on many couples, policymakers have to approach the issue of live-in relationships under the Uttarakhand Uniform Civil Code with sensitivity and caution.",
+      "corrupted": "To avoid inflicting harm on many couple, policymakers have to approach the issue of live-in relationships under the Uttarakhand Uniform Civil Code with sensitivity and caution.",
+      "edits": [
+        {
+          "type": "noun_number",
+          "original": "couples",
+          "replacement": "couple"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "e22faae09551512824347e56",
+      "stratum": "noun_number",
+      "split": "train",
+      "source_url": "https://360info.org/why-do-some-filipinos-support-police-shoot-to-kill-policy/",
+      "original": "In many cases, ambiguity was made possible by grey areas created by two crucial factors.",
+      "corrupted": "In many case, ambiguity was made possible by grey areas created by two crucial factors.",
+      "edits": [
+        {
+          "type": "noun_number",
+          "original": "cases",
+          "replacement": "case"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "985753daf7cff78f5adb9b00",
+      "stratum": "noun_number",
+      "split": "train",
+      "source_url": "https://360info.org/is-there-an-ai-in-the-house/",
+      "original": "The goal and expectation is that in fully integrating AI into research about disease development, many unknowns will become known.",
+      "corrupted": "The goal and expectation is taht in fully integrating AI into research about disease development, many unknown will become known.",
+      "edits": [
+        {
+          "type": "spelling",
+          "original": "that",
+          "replacement": "taht"
+        },
+        {
+          "type": "noun_number",
+          "original": "unknowns",
+          "replacement": "unknown"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "525f08b6f0a993bd8c5a7a8e",
+      "stratum": "noun_number",
+      "split": "test",
+      "source_url": "https://360info.org/banning-tiktok-will-take-away-once-silenced-voices/",
+      "original": "Instead of depicting the conventional imagery of injured or dead bodies of Palestinians, many users opted for artistic renditions, symbolising the inflicted violence upon them.",
+      "corrupted": "Instead of depicting the conventional imagery of injured or dead bodies of Palestinians, many user opted for artistic renditions, symbolising the inflicted violence upon them.",
+      "edits": [
+        {
+          "type": "noun_number",
+          "original": "users",
+          "replacement": "user"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "ee606ba7570a493d9d5ab659",
+      "stratum": "noun_number",
+      "split": "train",
+      "source_url": "https://360info.org/mobile-indonesians-powering-the-economy/",
+      "original": "Compared with western Indonesia, the labour market in the east is less competitive, allowing many migrants to develop careers in a relatively short time.",
+      "corrupted": "Compared with western Indonesia, the labour market in the east is less competitive, allowing many migrant to develop careers in a relatively short time.",
+      "edits": [
+        {
+          "type": "noun_number",
+          "original": "migrants",
+          "replacement": "migrant"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "f451da5c26b6e167aa376f09",
+      "stratum": "noun_number",
+      "split": "test",
+      "source_url": "https://360info.org/special-report-standing-up-to-violence-against-women/",
+      "original": "At least 155 countries have passed laws addressing domestic violence, but there are many barriers to the implementation of these laws.",
+      "corrupted": "At least 155 countries have passed laws addressing domestic violence, but there are many barrier to the implementation of these laws.",
+      "edits": [
+        {
+          "type": "noun_number",
+          "original": "barriers",
+          "replacement": "barrier"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "6de776f45d14d93f2ad69197",
+      "stratum": "noun_number",
+      "split": "train",
+      "source_url": "https://360info.org/strengthening-cybersecurity-frameworks-remains-a-global-challenge/",
+      "original": "Technology is often many steps ahead of regulatory capacities of countries to monitor and secure data and protect user identities.",
+      "corrupted": "Technology is often many step ahead of regulatory capacities of countries to monitor and secure data and protect user identities.",
+      "edits": [
+        {
+          "type": "noun_number",
+          "original": "steps",
+          "replacement": "step"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "98591f19cfd3f8697f2bd604",
+      "stratum": "noun_number",
+      "split": "train",
+      "source_url": "https://360info.org/why-stigma-remains-the-biggest-challenge-in-the-fight-against-hiv/",
+      "original": "People living with HIV are living longer nowadays, thanks to several factors, including the successful implementation of public health interventions and campaigns, advances in science and technology, and strong global leadership and advocacy.",
+      "corrupted": "People living with HIV are living longer nowadays, thanks to several factor, including the successful implementation of public health interventions and campaigns, advances in science and technology, and strong global leadership and advocacy.",
+      "edits": [
+        {
+          "type": "noun_number",
+          "original": "factors",
+          "replacement": "factor"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "10c2ee1231dcb926388f6244",
+      "stratum": "noun_number",
+      "split": "train",
+      "source_url": "https://publicdomainreview.org/essay/silent-treatment/",
+      "original": "In addition to decrying traditional methods of punishment, Rush offered specific proposals for a penitentiary in which silence would be put toward many ends — ideas that were inextricable from the city’s Quaker roots.",
+      "corrupted": "In addition to decrying traditional methods of punishment, Rush offered specific proposals for a penitentiary in which silence would be put toward many end — ideas that were inextricable from the city’s Quaker roots.",
+      "edits": [
+        {
+          "type": "noun_number",
+          "original": "ends",
+          "replacement": "end"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "pair_id": "cabbd6568500905e33b33646",
+      "stratum": "noun_number",
+      "split": "validation",
+      "source_url": "https://publicdomainreview.org/essay/handy-mnemonics/",
+      "original": "This number tracks the metonic cycle: how many years it takes for the moon to return to the same phase on the same calendrical day.",
+      "corrupted": "This number tracks the metonic cycle: how many year it takes for the moon to return to the same phase on the same calendrical day.",
+      "edits": [
+        {
+          "type": "noun_number",
+          "original": "years",
+          "replacement": "year"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "pair_id": "10264c021c2d0982e22d9a66",
+      "stratum": "perfect_participle",
+      "split": "train",
+      "source_url": "https://360info.org/the-invisible-killer-lurking-in-the-air-of-our-cities/",
+      "original": "Countries in southern Asia, like Bangladesh, India and Pakistan, have seen a fast rise in these deaths, climbing up the global ranks.",
+      "corrupted": "Countries in southern Asia, like Bangladesh, India and Pakistan, have saw a fast rise in these deaths, climbing up the global ranks.",
+      "edits": [
+        {
+          "type": "perfect_participle",
+          "original": "seen",
+          "replacement": "saw"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "53242eb1ae0f200f275b271c",
+      "stratum": "perfect_participle",
+      "split": "train",
+      "source_url": "https://360info.org/women-still-do-most-of-the-unpaid-work/",
+      "original": "Similar surveys of Australians break this disparity down even further and show just how little improvement there has been in the last 20 years.",
+      "corrupted": "Similar surveys of Australians break this disparity down even further and show just how little improvement there has was in the last 20 years.",
+      "edits": [
+        {
+          "type": "perfect_participle",
+          "original": "been",
+          "replacement": "was"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "88ea4da1988b59dc0f1bfde6",
+      "stratum": "perfect_participle",
+      "split": "train",
+      "source_url": "https://360info.org/poor-quality-medicines-are-everyones-problem/",
+      "original": "A growing volume of falsified medicines associated with the novel coronavirus – for example, chloroquine – has been on sale, especially in regions such as Africa.",
+      "corrupted": "A growing volume of falsified medicines associated with the novel coronavirus – for example, chloroquine – has was on sale, especially in regions such as Africa.",
+      "edits": [
+        {
+          "type": "perfect_participle",
+          "original": "been",
+          "replacement": "was"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "f52ae1c89937d345b29230ac",
+      "stratum": "perfect_participle",
+      "split": "train",
+      "source_url": "https://360info.org/interactive-trust-in-the-police-around-the-world/",
+      "original": "Trust in police forces has fallen since the pandemic in many of the countries surveyed by Ipsos.",
+      "corrupted": "Trust in police forces has fell since the pandemic in many of the countries surveyed by Ipsos.",
+      "edits": [
+        {
+          "type": "perfect_participle",
+          "original": "fallen",
+          "replacement": "fell"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "5282d6b694b424ac19415fb7",
+      "stratum": "perfect_participle",
+      "split": "train",
+      "source_url": "https://360info.org/the-plastics-and-fish-dilemma-to-eat-or-not-to-eat/",
+      "original": "The sight of people throwing plastic waste over bridges has become a common in Indonesia.",
+      "corrupted": "The sight of people throwing plastic waste over bridges has became a common in Indonesia.",
+      "edits": [
+        {
+          "type": "perfect_participle",
+          "original": "become",
+          "replacement": "became"
+        }
+      ],
+      "source_judgment": "reject",
+      "edit_judgment": "accept",
+      "notes": "Missing noun after \"a common\" in the intended occurrence/frequency construction.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "1a5711041077d9e2e8953d08",
+      "stratum": "perfect_participle",
+      "split": "train",
+      "source_url": "https://360info.org/how-a-cost-of-living-crisis-can-fuel-extremism-among-young-men/",
+      "original": "From the more than 200 Australians who joined ISIS in Syria and Iraq, to the rise of neo-Nazi groups taking to the streets of Melbourne and Sydney, the world is facing a collective anger problem and has been for at least a decade.",
+      "corrupted": "From the more than 200 Australians who joined ISIS in Syria and Iraq, to the rise of neo-Nazi groups taking to the streets of Melbourne and Sydney, the world is facing a collective anger problem and has was for at least a decade.",
+      "edits": [
+        {
+          "type": "perfect_participle",
+          "original": "been",
+          "replacement": "was"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "875aa535862029ee4d2d5aba",
+      "stratum": "perfect_participle",
+      "split": "train",
+      "source_url": "https://360info.org/bridging-the-fertility-care-gap-in-india/",
+      "original": "The future looks promising as the Indian fertility industry has grown 20 percent in the last five years and is expected to grow at the same pace in the next five years.",
+      "corrupted": "The future looks promising as the Indian fertility industry has grew 20 percent in the last five years and is expected to grow at the same pace in the next five years.",
+      "edits": [
+        {
+          "type": "perfect_participle",
+          "original": "grown",
+          "replacement": "grew"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "4e39748d172ec18fc53ce67d",
+      "stratum": "perfect_participle",
+      "split": "train",
+      "source_url": "https://publicdomainreview.org/essay/inside-the-empty-house-sherlock-holmes-for-king-and-country/",
+      "original": "Holmes’s inability to come up with a credible motive for the murder of Adair forces us to conclude that his partnership with Moran was a partnership in crime that had gone sour.",
+      "corrupted": "Holmes’s inability to come up with a credible motive for the murder of Adair forces us to conclude that his partnership with Moran was a partnership in crime that had went sour.",
+      "edits": [
+        {
+          "type": "perfect_participle",
+          "original": "gone",
+          "replacement": "went"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "pair_id": "23e042913149ec3b84025529",
+      "stratum": "perfect_participle",
+      "split": "validation",
+      "source_url": "https://360info.org/how-the-pandemic-set-back-drug-safety/",
+      "original": "He has written more than 470 published research articles assessing the safety and effectiveness of prescription and over-the-counter drugs, substances of abuse, and dietary supplements, including articles in JAMA, Annals of Internal Medicine and The Lancet.",
+      "corrupted": "He has wrote more than 470 published research articles assessing the safety and effectiveness of prescription and over-the-counter drugs, substances of abuse, and dietary supplements, including articles in JAMA, Annals of Internal Medicine and The Lancet.",
+      "edits": [
+        {
+          "type": "perfect_participle",
+          "original": "written",
+          "replacement": "wrote"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "bff0d7f974a69b17c4818fd4",
+      "stratum": "perfect_participle",
+      "split": "train",
+      "source_url": "https://360info.org/ngos-help-forced-migrants-integrate/",
+      "original": "Their efforts have been important in the distribution of humanitarian aid to refugees and to ensure access to education, employment and healthcare services.",
+      "corrupted": "Their efforts have was important in the distribution of humanitarian aid to refugees and to ensure access to education, employment and healthcare services.",
+      "edits": [
+        {
+          "type": "perfect_participle",
+          "original": "been",
+          "replacement": "was"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "414cbb5f3c25abf6d784ff8a",
+      "stratum": "spelling",
+      "split": "train",
+      "source_url": "https://360info.org/what-happens-to-australias-covid-19-data-after-the-pandemic/",
+      "original": "Businesses scrambled to figure out how they would address new government rules, with very little notice or guidance, before more prescriptive directions were delivered.",
+      "corrupted": "Businesses scrambled to figure out how they would addressing new goverment rules, with very little notice or guidance, before more prescriptive directions were delivered.",
+      "edits": [
+        {
+          "type": "modal_verb_form",
+          "original": "address",
+          "replacement": "addressing"
+        },
+        {
+          "type": "spelling",
+          "original": "government",
+          "replacement": "goverment"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "89e96b8550b8a29c96b3a962",
+      "stratum": "spelling",
+      "split": "validation",
+      "source_url": "https://360info.org/war-threatens-food-security-in-russia-and-beyond/",
+      "original": "One survey showed that 50 percent of the 1600 respondents aged under the age of 30 ate fast food every day.",
+      "corrupted": "One survey showed taht 50 percent of the 1600 respondents aged under the age of 30 ate fast food every day.",
+      "edits": [
+        {
+          "type": "spelling",
+          "original": "that",
+          "replacement": "taht"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "b3a67b21976e032c8cec210a",
+      "stratum": "spelling",
+      "split": "train",
+      "source_url": "https://360info.org/asia-less-brain-drain-more-global-consciousness/",
+      "original": "Dr. Rakhmani declared that she has no conflict of interest.",
+      "corrupted": "Dr. Rakhmani declared taht she has no conflict of interest.",
+      "edits": [
+        {
+          "type": "spelling",
+          "original": "that",
+          "replacement": "taht"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "5488a581e552b6dab2487899",
+      "stratum": "spelling",
+      "split": "train",
+      "source_url": "https://360info.org/four-simple-lessons-for-effective-online-schooling/",
+      "original": "He has a strong academic background in mathematics, engineering, and technology, with extensive teaching and leadership experience in schools.",
+      "corrupted": "He have a strong academic background in mathematics, engineering, and technolgy, with extensive teaching and leadership experience in schools.",
+      "edits": [
+        {
+          "type": "subject_verb_agreement",
+          "original": "has",
+          "replacement": "have"
+        },
+        {
+          "type": "spelling",
+          "original": "technology",
+          "replacement": "technolgy"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "ee0dd8c496c877c9f2cd00dc",
+      "stratum": "spelling",
+      "split": "train",
+      "source_url": "https://publicdomainreview.org/essay/the-lost-world-of-the-london-coffeehouse/",
+      "original": "Despite this colourful diversity, early coffeehouses all followed the same blueprint, maximising the interaction between customers and forging a creative, convivial environment.",
+      "corrupted": "Despite this colourful diversity, early coffeehouses all followed the same blueprint, maximising the interaction between customers and forging a creative, convivial envirnoment.",
+      "edits": [
+        {
+          "type": "spelling",
+          "original": "environment",
+          "replacement": "envirnoment"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "pair_id": "048433a7f617c70b6b068706",
+      "stratum": "spelling",
+      "split": "train",
+      "source_url": "https://publicdomainreview.org/essay/julia-pastrana-a-monster-to-the-whole-world/",
+      "original": "It’s worth noting that the idea that Julia was half-human didn’t originate with the press.",
+      "corrupted": "It’s worth noting that the idea taht Julia was half-human didn’t originate with the press.",
+      "edits": [
+        {
+          "type": "spelling",
+          "original": "that",
+          "replacement": "taht"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "pair_id": "edef7767def367d50dec34d2",
+      "stratum": "spelling",
+      "split": "train",
+      "source_url": "https://360info.org/health-must-be-fast-tracked-for-2030/",
+      "original": "Global attention is still on pandemic prevention, preparedness and response, with microbial surveillance and One Health — an approach that recognizes the health of people being closely connected to the health of animals and environments — emerging as major themes of ongoing global health discourse.",
+      "corrupted": "Global attention is still on pandemic prevention, preparedness and response, with microbial surveillance and One Health — an approach taht recognizes the health of people being closely connected to the health of animals and environments — emerging as major themes of ongoing global health discourse.",
+      "edits": [
+        {
+          "type": "spelling",
+          "original": "that",
+          "replacement": "taht"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "a2a4bd985b6d26ddc627b238",
+      "stratum": "spelling",
+      "split": "train",
+      "source_url": "https://360info.org/sponge-cities-beating-urban-heat-in-china/",
+      "original": "Sponge city construction is capable of connecting different government departments and enhancing synergies, but only if there is a clear division of responsibilities.",
+      "corrupted": "Sponge city construction is capable of connecting different goverment departments and enhancing synergies, but only if there is a clear division of responsibilities.",
+      "edits": [
+        {
+          "type": "spelling",
+          "original": "government",
+          "replacement": "goverment"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "7d1611c448c0f42d8dbf6f9f",
+      "stratum": "spelling",
+      "split": "test",
+      "source_url": "https://360info.org/the-fix-for-stem-workplace-inequity-change-the-system/",
+      "original": "The most recent figures show that only 27 percent of Australia’s 2021 STEM workforce were women, with women earning 23.5 percent less – in line with global data showing women are significantly underrepresented in STEM careers, comprising only about 29 percent of the workforce.",
+      "corrupted": "The most recent figures show taht only 27 percent of Australia’s 2021 STEM workforce were women, with women earning 23.5 percent less – in line with global data showing women are significantly underrepresented in STEM careers, comprising only about 29 percent of the workforce.",
+      "edits": [
+        {
+          "type": "spelling",
+          "original": "that",
+          "replacement": "taht"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "593e573ecd3989b80551ad18",
+      "stratum": "spelling",
+      "split": "train",
+      "source_url": "https://publicdomainreview.org/essay/hypnerotomachia-poliphili-and-the-architecture-of-dreams/",
+      "original": "It is interesting to note, however, that in the Aldine edition of Hypnerotomachia, woodcuts flatten the voluminous splendor of these objects into linear compositions.",
+      "corrupted": "It is interesting to note, however, taht in the Aldine edition of Hypnerotomachia, woodcuts flatten the voluminous splendor of this objects into linear compositions.",
+      "edits": [
+        {
+          "type": "spelling",
+          "original": "that",
+          "replacement": "taht"
+        },
+        {
+          "type": "demonstrative_number",
+          "original": "these",
+          "replacement": "this"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "pair_id": "31bf65cfc70e4def11a6bbf7",
+      "stratum": "subject_verb_agreement",
+      "split": "train",
+      "source_url": "https://publicdomainreview.org/essay/the-poetry-of-victorian-science/",
+      "original": "If we pass a steel wire through one of those floating spheres of oil, and make it revolve rapidly, thus imitating the motion of a planet on its axis, the oil spreads out, and we have the spheroidal form of our earth.",
+      "corrupted": "If we pass a steel wire through one of those floating spheres of oil, and make it revolve rapidly, thus imitating the motion of a planet on its axis, the oil spreads out, and we has the spheroidal form of our earth.",
+      "edits": [
+        {
+          "type": "subject_verb_agreement",
+          "original": "have",
+          "replacement": "has"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "pair_id": "4aaef6ad3d4191a53d5934c7",
+      "stratum": "subject_verb_agreement",
+      "split": "train",
+      "source_url": "https://360info.org/red-tape-is-strangling-kuwaits-infant-foi-law/",
+      "original": "He is also a board member of the Kuwait Transparency Society (KTS), Transparency International’s Kuwait Chapter.",
+      "corrupted": "He are also a board member of the Kuwait Transparency Society (KTS), Transparency International’s Kuwait Chapter.",
+      "edits": [
+        {
+          "type": "subject_verb_agreement",
+          "original": "is",
+          "replacement": "are"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "1df7569b54f16bc4e5739359",
+      "stratum": "subject_verb_agreement",
+      "split": "train",
+      "source_url": "https://360info.org/the-foreign-policy-fallout-of-covid-19/",
+      "original": "It is now proposing an EU global health strategy in support of multilateral action in health.",
+      "corrupted": "It are now proposing an EU global health strategy in support of multilateral action in health.",
+      "edits": [
+        {
+          "type": "subject_verb_agreement",
+          "original": "is",
+          "replacement": "are"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "d424358d31d87dee652c6258",
+      "stratum": "subject_verb_agreement",
+      "split": "validation",
+      "source_url": "https://360info.org/special-report-changing-climate-changing-diseases/",
+      "original": "Many diseases such as malaria, leishmaniasis and Lyme disease are predicted to infect cooler parts of the world where they are not commonly native to.",
+      "corrupted": "Many diseases such as malaria, leishmaniasis and Lyme disease are predicted to infect cooler parts of the world where they is not commonly native to.",
+      "edits": [
+        {
+          "type": "subject_verb_agreement",
+          "original": "are",
+          "replacement": "is"
+        }
+      ],
+      "source_judgment": "uncertain",
+      "edit_judgment": "accept",
+      "notes": "Locative \"where\" combined with stranded \"native to\" is suspect in the intended standard written register; conservatively exclude.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "5d6d1f7053654123dd33a6c4",
+      "stratum": "subject_verb_agreement",
+      "split": "train",
+      "source_url": "https://360info.org/the-set-and-forget-of-medication-in-aged-care/",
+      "original": "In other cases, it is possible to use long-acting formulations dosed once per day instead of using multiple short-acting products requiring multiple daily dosing.",
+      "corrupted": "In other cases, it are possible to use long-acting formulations dosed once per day instead of using multiple short-acting products requiring multiple daily dosing.",
+      "edits": [
+        {
+          "type": "subject_verb_agreement",
+          "original": "is",
+          "replacement": "are"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "24a225038e55cae17f25e863",
+      "stratum": "subject_verb_agreement",
+      "split": "train",
+      "source_url": "https://publicdomainreview.org/essay/was-charles-darwin-an-atheist/",
+      "original": "It is curious that this passage has not been noticed before.",
+      "corrupted": "It are curious that this passage has not been noticed before.",
+      "edits": [
+        {
+          "type": "subject_verb_agreement",
+          "original": "is",
+          "replacement": "are"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution Share-Alike - https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "pair_id": "e77cf2069147bc48e2d69f77",
+      "stratum": "subject_verb_agreement",
+      "split": "train",
+      "source_url": "https://360info.org/how-the-indo-pacific-can-beat-the-sdg-cash-crunch/",
+      "original": "At the midpoint of the 2030 Agenda, we are also far off track on achieving the United Nations Sustainable Development Goals and fulfilling the commitments agreed by member states for the Paris Agreement in 2015.",
+      "corrupted": "At the midpoint of the 2030 Agenda, we is also far off track on achieving the United Nations Sustainable Development Goals and fulfilling the commitments agreed by member states for the Paris Agreement in 2015.",
+      "edits": [
+        {
+          "type": "subject_verb_agreement",
+          "original": "are",
+          "replacement": "is"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "b5c2532c9d2bfbfcad17b0d4",
+      "stratum": "subject_verb_agreement",
+      "split": "train",
+      "source_url": "https://360info.org/airbnb-has-driven-up-rents-in-india/",
+      "original": "She is among the top 10 percent of authors globally on the Social Science Research Network.",
+      "corrupted": "She are among the top 10 percent of authors globally on the Social Science Research Network.",
+      "edits": [
+        {
+          "type": "subject_verb_agreement",
+          "original": "is",
+          "replacement": "are"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "3c6a0bbaca4bc50f74c02272",
+      "stratum": "subject_verb_agreement",
+      "split": "train",
+      "source_url": "https://360info.org/you-cant-mine-the-seabed-without-proper-rules/",
+      "original": "Although the assembly bears the responsibility to approve mining regulations, it is the Council that has the power to negotiate, adopt and apply them.",
+      "corrupted": "Although the assembly bears the responsibility to approve mining regulations, it are the Council that has the power to negotiate, adopt and apply them.",
+      "edits": [
+        {
+          "type": "subject_verb_agreement",
+          "original": "is",
+          "replacement": "are"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "pair_id": "8fac7a18025585cce7b14cab",
+      "stratum": "subject_verb_agreement",
+      "split": "test",
+      "source_url": "https://360info.org/southeast-asias-three-nation-partnership-to-fight-cyber-threats/",
+      "original": "It is an opportune time for these three nations to discuss strengthening their digital security, part of Australia’s 2040 Southeast Asia Economic Strategy.",
+      "corrupted": "It are an opportune time for these three nations to discuss strengthening their digital security, part of Australia’s 2040 Southeast Asia Economic Strategy.",
+      "edits": [
+        {
+          "type": "subject_verb_agreement",
+          "original": "is",
+          "replacement": "are"
+        }
+      ],
+      "source_judgment": "accept",
+      "edit_judgment": "accept",
+      "notes": "No clear grammar/spelling problem identified; no factual or style judgment made.",
+      "edit_notes": "Injected edit creates the intended number/agreement/verb-form or nonword spelling error in this context.",
+      "reviewer": "codex/gpt-6",
+      "review_type": "agent_linguistic_inspection",
+      "license": "Creative Commons - Attribution - https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "completed_at": "2026-09-21T17:02:32+00:00",
+  "summary": {
+    "rows": 70,
+    "source_accepted": 67,
+    "source_rejected": 2,
+    "source_uncertain": 1,
+    "injected_edit_judgments_accepted": 70,
+    "human_precision": null,
+    "scope": "Family-stratified agent inspection; all edits in each row inspected. Not a random corpus-wide or blinded human precision estimate."
+  }
+}

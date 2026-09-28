@@ -1,0 +1,19 @@
+{
+  "pid": 2917864,
+  "command": [
+    "/home/ucloud/miniforge3/envs/hrm/bin/python",
+    "/work/mimir/DaLA/wiki/artifacts/european-audit/20260927/audit_european_pairs_recovery.py",
+    "--output",
+    "/work/mimir/DaLA/la_output/european_audit/full_20260927",
+    "--concurrency",
+    "128"
+  ],
+  "started": "2026-09-28T14:35:29.708563+00:00",
+  "output": "/work/mimir/DaLA/la_output/european_audit/full_20260927",
+  "scope": "automated_pair_audit_only",
+  "target_pairs": 5602597,
+  "previous_pid": 2855403,
+  "resize_receipt": "/work/mimir/DaLA/wiki/artifacts/european-audit/20260927/resize-recovery-128.json",
+  "outage_recovery_receipt": "/work/mimir/DaLA/wiki/artifacts/european-audit/20260927/outage-recovery.json",
+  "response_recovery_receipt": "/work/mimir/DaLA/wiki/artifacts/european-audit/20260927/response-recovery.json"
+}

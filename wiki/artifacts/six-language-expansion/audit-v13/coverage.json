@@ -1,0 +1,477 @@
+{
+  "pl": {
+    "dataset": "la_output/pl_dynaword_audit_v13",
+    "pairs": 118,
+    "sources": {
+      "eurlex": 32,
+      "samorzad_gov_pl": 22,
+      "biblioteka_nauki": 33,
+      "govpl": 31
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 98,
+    "spelling_pairs": 20,
+    "selected_families": {
+      "adjective_number": 26,
+      "adjective_case": 28,
+      "adjective_gender": 14,
+      "determiner_number": 4,
+      "determiner_case": 7,
+      "spelling": 20,
+      "preposition_case": 8,
+      "determiner_gender": 5,
+      "verb_number_agreement": 3,
+      "governed_infinitive": 3
+    },
+    "selected_rules": {
+      "pl_adjective_number_ud": 26,
+      "pl_adjective_case_ud": 28,
+      "pl_adjective_gender_ud": 14,
+      "pl_determiner_number_ud": 4,
+      "pl_determiner_case_ud": 7,
+      "pl_spelling_delete_internal": 5,
+      "pl_spelling_duplicate_consonant": 10,
+      "pl_preposition_case_gen": 8,
+      "pl_determiner_gender_ud": 5,
+      "pl_spelling_substitute_character": 1,
+      "pl_spelling_transpose_internal": 4,
+      "pl_verb_number_agreement_ud": 3,
+      "pl_governed_infinitive_ud": 3
+    },
+    "distinct_original_words": {
+      "adjective_number": 25,
+      "adjective_case": 28,
+      "adjective_gender": 14,
+      "determiner_number": 3,
+      "determiner_case": 6,
+      "spelling": 20,
+      "preposition_case": 8,
+      "determiner_gender": 5,
+      "verb_number_agreement": 3,
+      "governed_infinitive": 3
+    },
+    "distinct_substitutions": {
+      "adjective_number": 26,
+      "adjective_case": 28,
+      "adjective_gender": 14,
+      "determiner_number": 3,
+      "determiner_case": 6,
+      "spelling": 20,
+      "preposition_case": 8,
+      "determiner_gender": 5,
+      "verb_number_agreement": 3,
+      "governed_infinitive": 3
+    },
+    "configured_unselected": [
+      "pl_adjective_definite_ud",
+      "pl_verb_person_agreement_ud",
+      "pl_preposition_case_dat",
+      "pl_subject_pronoun_case",
+      "pl_spelling_delete_doubled_consonant"
+    ],
+    "active_grammar_families": [
+      "adjective_case",
+      "adjective_gender",
+      "adjective_number",
+      "determiner_case",
+      "determiner_gender",
+      "determiner_number",
+      "governed_infinitive",
+      "preposition_case",
+      "verb_number_agreement"
+    ],
+    "sample_rows": 115,
+    "sample_sha256": "05cbbd0f576dc6596a7f097c38613dc876d88e8fa8dcb34ccc5f2a84646f4c39",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  },
+  "sv": {
+    "dataset": "la_output/sv_dynaword_audit_v13",
+    "pairs": 212,
+    "sources": {
+      "cellar": 204,
+      "akademiliv": 3,
+      "forskning-framsteg": 5
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 164,
+    "spelling_pairs": 48,
+    "selected_families": {
+      "adjective_gender": 26,
+      "governed_infinitive": 82,
+      "adjective_number": 21,
+      "determiner_gender": 20,
+      "determiner_number": 7,
+      "adjective_definite": 4,
+      "spelling": 48,
+      "perfect_verb_form": 4
+    },
+    "selected_rules": {
+      "sv_adjective_gender_ud": 26,
+      "sv_governed_infinitive_ud": 82,
+      "sv_adjective_number_ud": 21,
+      "sv_determiner_gender_ud": 20,
+      "sv_determiner_number_ud": 7,
+      "sv_adjective_definite_ud": 4,
+      "sv_spelling_delete_internal": 12,
+      "sv_spelling_duplicate_consonant": 13,
+      "sv_spelling_transpose_internal": 17,
+      "sv_perfect_verb_form_ud": 4,
+      "sv_spelling_substitute_character": 4,
+      "sv_spelling_delete_doubled_consonant": 2
+    },
+    "distinct_original_words": {
+      "adjective_gender": 23,
+      "governed_infinitive": 65,
+      "adjective_number": 19,
+      "determiner_gender": 2,
+      "determiner_number": 2,
+      "adjective_definite": 4,
+      "spelling": 47,
+      "perfect_verb_form": 4
+    },
+    "distinct_substitutions": {
+      "adjective_gender": 23,
+      "governed_infinitive": 65,
+      "adjective_number": 19,
+      "determiner_gender": 2,
+      "determiner_number": 3,
+      "adjective_definite": 4,
+      "spelling": 47,
+      "perfect_verb_form": 4
+    },
+    "configured_unselected": [
+      "sv_subject_pronoun_case"
+    ],
+    "active_grammar_families": [
+      "adjective_definite",
+      "adjective_gender",
+      "adjective_number",
+      "determiner_gender",
+      "determiner_number",
+      "governed_infinitive",
+      "perfect_verb_form"
+    ],
+    "sample_rows": 136,
+    "sample_sha256": "176ef653a29b3b7c692fd002f260766bc7d757eb726067b8c1952879ea46cdc0",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  },
+  "nb": {
+    "dataset": "la_output/nb_dynaword_audit_v13",
+    "pairs": 1335,
+    "sources": {
+      "government-nob": 1335
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 913,
+    "spelling_pairs": 422,
+    "selected_families": {
+      "governed_infinitive": 373,
+      "spelling": 422,
+      "determiner_gender": 186,
+      "adjective_definite": 64,
+      "adjective_number": 152,
+      "perfect_verb_form": 79,
+      "adjective_gender": 13,
+      "determiner_number": 46
+    },
+    "selected_rules": {
+      "nb_governed_infinitive_ud": 373,
+      "nb_spelling_duplicate_consonant": 120,
+      "nb_spelling_transpose_internal": 107,
+      "nb_determiner_gender_ud": 186,
+      "nb_adjective_definite_ud": 64,
+      "nb_spelling_delete_internal": 159,
+      "nb_adjective_number_ud": 152,
+      "nb_perfect_verb_form_ud": 79,
+      "nb_spelling_substitute_character": 14,
+      "nb_adjective_gender_ud": 13,
+      "nb_spelling_delete_doubled_consonant": 22,
+      "nb_determiner_number_ud": 46
+    },
+    "distinct_original_words": {
+      "governed_infinitive": 172,
+      "spelling": 332,
+      "determiner_gender": 9,
+      "adjective_definite": 44,
+      "adjective_number": 76,
+      "perfect_verb_form": 45,
+      "adjective_gender": 9,
+      "determiner_number": 10
+    },
+    "distinct_substitutions": {
+      "governed_infinitive": 172,
+      "spelling": 405,
+      "determiner_gender": 10,
+      "adjective_definite": 44,
+      "adjective_number": 77,
+      "perfect_verb_form": 45,
+      "adjective_gender": 9,
+      "determiner_number": 11
+    },
+    "configured_unselected": [
+      "nb_subject_pronoun_case"
+    ],
+    "active_grammar_families": [
+      "adjective_definite",
+      "adjective_gender",
+      "adjective_number",
+      "determiner_gender",
+      "determiner_number",
+      "governed_infinitive",
+      "perfect_verb_form"
+    ],
+    "sample_rows": 153,
+    "sample_sha256": "029127663fd24a0831917d2d70966ac5962d979045f1f9242d2df6c73be8cbb0",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  },
+  "nn": {
+    "dataset": "la_output/nn_dynaword_audit_v13",
+    "pairs": 246,
+    "sources": {
+      "government-nno": 244,
+      "wikipedia-nno": 2
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 168,
+    "spelling_pairs": 78,
+    "selected_families": {
+      "determiner_gender": 17,
+      "spelling": 78,
+      "governed_infinitive": 108,
+      "determiner_number": 4,
+      "adjective_number": 30,
+      "perfect_verb_form": 8,
+      "pronoun_case": 1
+    },
+    "selected_rules": {
+      "nn_determiner_gender_ud": 17,
+      "nn_spelling_transpose_internal": 27,
+      "nn_governed_infinitive_ud": 108,
+      "nn_spelling_duplicate_consonant": 19,
+      "nn_determiner_number_ud": 4,
+      "nn_spelling_delete_internal": 26,
+      "nn_adjective_number_ud": 30,
+      "nn_spelling_delete_doubled_consonant": 5,
+      "nn_perfect_verb_form_ud": 8,
+      "nn_spelling_substitute_character": 1,
+      "nn_subject_pronoun_case": 1
+    },
+    "distinct_original_words": {
+      "determiner_gender": 3,
+      "spelling": 70,
+      "governed_infinitive": 40,
+      "determiner_number": 3,
+      "adjective_number": 20,
+      "perfect_verb_form": 7,
+      "pronoun_case": 1
+    },
+    "distinct_substitutions": {
+      "determiner_gender": 4,
+      "spelling": 76,
+      "governed_infinitive": 40,
+      "determiner_number": 3,
+      "adjective_number": 20,
+      "perfect_verb_form": 7,
+      "pronoun_case": 1
+    },
+    "configured_unselected": [
+      "nn_adjective_gender_ud",
+      "nn_adjective_definite_ud"
+    ],
+    "active_grammar_families": [
+      "adjective_number",
+      "determiner_gender",
+      "determiner_number",
+      "governed_infinitive",
+      "perfect_verb_form",
+      "pronoun_case"
+    ],
+    "sample_rows": 128,
+    "sample_sha256": "a03e246119757942edcccff5fd7d08bef50dfbc00f749356d9758f8b3fb8b424",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  },
+  "fo": {
+    "dataset": "la_output/fo_dynaword_audit_v13",
+    "pairs": 338,
+    "sources": {
+      "faroese-blark-small": 212,
+      "sosialurin-faroese-pos": 126
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 204,
+    "spelling_pairs": 134,
+    "selected_families": {
+      "governed_infinitive": 53,
+      "spelling": 134,
+      "verb_number_agreement": 45,
+      "adjective_case": 5,
+      "determiner_gender": 15,
+      "determiner_number": 8,
+      "preposition_case": 17,
+      "determiner_case": 21,
+      "verb_person_agreement": 14,
+      "perfect_verb_form": 20,
+      "adjective_gender": 4,
+      "adjective_definite": 1,
+      "adjective_number": 1
+    },
+    "selected_rules": {
+      "fo_governed_infinitive_ud": 53,
+      "fo_spelling_duplicate_consonant": 41,
+      "fo_verb_number_agreement_ud": 45,
+      "fo_adjective_case_ud": 5,
+      "fo_spelling_substitute_character": 7,
+      "fo_determiner_gender_ud": 15,
+      "fo_determiner_number_ud": 8,
+      "fo_spelling_delete_internal": 37,
+      "fo_preposition_case_dat": 17,
+      "fo_spelling_delete_doubled_consonant": 5,
+      "fo_determiner_case_ud": 21,
+      "fo_verb_person_agreement_ud": 14,
+      "fo_spelling_transpose_internal": 44,
+      "fo_perfect_verb_form_ud": 20,
+      "fo_adjective_gender_ud": 4,
+      "fo_adjective_definite_ud": 1,
+      "fo_adjective_number_ud": 1
+    },
+    "distinct_original_words": {
+      "governed_infinitive": 39,
+      "spelling": 131,
+      "verb_number_agreement": 36,
+      "adjective_case": 5,
+      "determiner_gender": 5,
+      "determiner_number": 7,
+      "preposition_case": 17,
+      "determiner_case": 9,
+      "verb_person_agreement": 12,
+      "perfect_verb_form": 14,
+      "adjective_gender": 4,
+      "adjective_definite": 1,
+      "adjective_number": 1
+    },
+    "distinct_substitutions": {
+      "governed_infinitive": 39,
+      "spelling": 134,
+      "verb_number_agreement": 37,
+      "adjective_case": 5,
+      "determiner_gender": 5,
+      "determiner_number": 7,
+      "preposition_case": 17,
+      "determiner_case": 11,
+      "verb_person_agreement": 12,
+      "perfect_verb_form": 14,
+      "adjective_gender": 4,
+      "adjective_definite": 1,
+      "adjective_number": 1
+    },
+    "configured_unselected": [
+      "fo_preposition_case_gen"
+    ],
+    "active_grammar_families": [
+      "adjective_case",
+      "adjective_definite",
+      "adjective_gender",
+      "adjective_number",
+      "determiner_case",
+      "determiner_gender",
+      "determiner_number",
+      "governed_infinitive",
+      "perfect_verb_form",
+      "preposition_case",
+      "verb_number_agreement",
+      "verb_person_agreement"
+    ],
+    "sample_rows": 191,
+    "sample_sha256": "21e94ff40563934e8b76f38ee03844050f832b404c21b49326c0b3eaf6f0f651",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  },
+  "is": {
+    "dataset": "la_output/is_dynaword_audit_v13",
+    "pairs": 384,
+    "sources": {
+      "stjornartidindi": 25,
+      "igc-adjud": 286,
+      "igc-law": 64,
+      "wikipedia": 9
+    },
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "grammatical_pairs": 264,
+    "spelling_pairs": 120,
+    "selected_families": {
+      "spelling": 120,
+      "determiner_case": 15,
+      "determiner_number": 8,
+      "governed_infinitive": 63,
+      "adjective_number": 5,
+      "determiner_gender": 12,
+      "verb_number_agreement": 107,
+      "preposition_case": 18,
+      "adjective_case": 8,
+      "perfect_verb_form": 20,
+      "adjective_gender": 8
+    },
+    "selected_rules": {
+      "is_spelling_delete_doubled_consonant": 4,
+      "is_determiner_case_ud": 15,
+      "is_determiner_number_ud": 8,
+      "is_governed_infinitive_ud": 63,
+      "is_adjective_number_ud": 5,
+      "is_determiner_gender_ud": 12,
+      "is_spelling_substitute_character": 20,
+      "is_spelling_duplicate_consonant": 25,
+      "is_spelling_delete_internal": 41,
+      "is_spelling_transpose_internal": 30,
+      "is_verb_number_agreement_ud": 107,
+      "is_preposition_case_gen": 12,
+      "is_adjective_case_ud": 8,
+      "is_perfect_verb_form_ud": 20,
+      "is_adjective_gender_ud": 8,
+      "is_preposition_case_dat": 6
+    },
+    "distinct_original_words": {
+      "spelling": 108,
+      "determiner_case": 9,
+      "determiner_number": 7,
+      "governed_infinitive": 45,
+      "adjective_number": 5,
+      "determiner_gender": 9,
+      "verb_number_agreement": 15,
+      "preposition_case": 16,
+      "adjective_case": 8,
+      "perfect_verb_form": 17,
+      "adjective_gender": 8
+    },
+    "distinct_substitutions": {
+      "spelling": 120,
+      "determiner_case": 10,
+      "determiner_number": 7,
+      "governed_infinitive": 45,
+      "adjective_number": 5,
+      "determiner_gender": 9,
+      "verb_number_agreement": 15,
+      "preposition_case": 16,
+      "adjective_case": 8,
+      "perfect_verb_form": 17,
+      "adjective_gender": 8
+    },
+    "configured_unselected": [
+      "is_adjective_definite_ud",
+      "is_verb_person_agreement_ud"
+    ],
+    "active_grammar_families": [
+      "adjective_case",
+      "adjective_gender",
+      "adjective_number",
+      "determiner_case",
+      "determiner_gender",
+      "determiner_number",
+      "governed_infinitive",
+      "perfect_verb_form",
+      "preposition_case",
+      "verb_number_agreement"
+    ],
+    "sample_rows": 206,
+    "sample_sha256": "f495a453ad5790768cbc6bc3278f462d322ea6ae45f2bcf33869e04ef8d6c969",
+    "linguistic_audit": "pending; automatic counts are not a precision estimate"
+  }
+}

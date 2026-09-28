@@ -1,0 +1,102 @@
+[
+  {
+    "sentence_sha256": "666a3183e15338d9e70b00f8655020b47dc8845bbccf26f575704fc42b601c38",
+    "reason": "De kader is an article/noun mismatch; expected het kader or plural de kaders.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-003"
+  },
+  {
+    "sentence_sha256": "602df2e303c1cb69810103c68d84f6863faabd552438883e83c82eccfa38ff4d",
+    "reason": "Bij Jeugdwet appears to omit the article de; uncertain legal shorthand.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-008"
+  },
+  {
+    "sentence_sha256": "559ba3c65de9f7ca208a015fc75f2cba31e5cd568cd3a5207d58ec74558dd8a7",
+    "reason": "The entity string Tygo le Matelotnsteder appears damaged by name substitution; not a clean source.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-011"
+  },
+  {
+    "sentence_sha256": "1079dd40ce6488046e85dced6660a6c881a405bff4166c99073c00245843dcf1",
+    "reason": "Space before the final period is a source punctuation defect.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-014"
+  },
+  {
+    "sentence_sha256": "d324c8b331eac3c4605822ddad5444788f20bb09d5bbd047360b36ae0f6a4278",
+    "reason": "Trailing 2.9 is a joined section marker, not part of the sentence.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-041"
+  },
+  {
+    "sentence_sha256": "df42c53f4d4683794cbe36d68fffbec5ca193c145a8bb93ab7276d9435eb64f9",
+    "reason": "Singular gemeenschap is resumed by zij pleiten; possible semantic agreement, not an unambiguously clean target.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-057"
+  },
+  {
+    "sentence_sha256": "f1dafbeef6d2471a5dd6c7d2cc2dd395cf6906f096dda21d9dcf03157b60687b",
+    "reason": "Bij te dragen om ... voorkomen has questionable complement structure; would normally express contribution with eraan/toe.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-069"
+  },
+  {
+    "sentence_sha256": "4009a5a2169b0d6cffbe1e9dd9c4126a6f3cc607c112693e5ce9d33167ee51d3",
+    "reason": "A noun phrase with a relative clause, without a main finite clause.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-072"
+  },
+  {
+    "sentence_sha256": "18204fdf8c8b1384784761cf609ee13beea3ceb2dae7188921bbe05a13b7e68a",
+    "reason": "Bijzondere persoonsgegeven has incorrect number/inflection and lacks the determiner required for a singular count reading.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-086"
+  },
+  {
+    "sentence_sha256": "d77598f3906fc96f55e69fdc174228f650f4bd0d3aa9ed917df35ef8d1576656",
+    "reason": "Opiumwet is a stranded heading/fragment before is in die wet ... .",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-088"
+  },
+  {
+    "sentence_sha256": "fbdc814c6b18e925ee0914ecf57f51c322f6038d361e0a1083f59997040afbd0",
+    "reason": "Quantitative at least twice requires ten minste, not tenminste.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-101"
+  },
+  {
+    "sentence_sha256": "02632f36bbed1011b4d7ee30849a6da7f37d0ac625cc1ea64b8e56f294e7bce6",
+    "reason": "Plaats gevonden must be plaatsgevonden for the verb plaatsvinden.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-102"
+  },
+  {
+    "sentence_sha256": "8b2dc20e9c47a682ec84e92ded1aa33e93f96ef2aeeebdbfe321b7d049ad6ef4",
+    "reason": "De verschuldigd eigen bijdrage needs verschuldigde; zak en kleedgeld also lacks a suspended-compound hyphen.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-112"
+  },
+  {
+    "sentence_sha256": "48012d1de50933456af8fa6cb4e6050674d61f1eda9dc2e5316644acdb9aa5a3",
+    "reason": "Plural overschrijdingen requires zullen zorgen, not zal zorgen.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-133"
+  },
+  {
+    "sentence_sha256": "a4cf6d8d7b2c4d4433fb354971ebc8517efd349f9ee1481829f938f2cb06e623",
+    "reason": "Tenslotte versus ten slotte depends on whether the intended meaning is after all or finally; context does not settle the spelling.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-145"
+  },
+  {
+    "sentence_sha256": "b8ec43885869360d11797af0e334bb3210bd02cff47d50440801e9211c8960c3",
+    "reason": "Stap 1 tot en met 5 bepaalt / stap 6 tot en met 8 gaat may require plural agreement when referring to multiple steps.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-148"
+  },
+  {
+    "sentence_sha256": "e0bd475316f422a8a9615a3b046cb4810d2f3e926c6ff61f8ce7834618831fb1",
+    "reason": "Quantitative excess requires te veel, not the noun teveel.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-154"
+  },
+  {
+    "sentence_sha256": "e36f55affad7343f9b0a9dd3cdb07940f01e0135fa43013d2147765da68aed08",
+    "reason": "Awb30 joins a footnote marker directly to the law abbreviation.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-157"
+  },
+  {
+    "sentence_sha256": "f59c8a366b263ca0740dc6a9f820853223e2b2055e1062098c65ecdeaec0f0f5",
+    "reason": "A section marker 3. is appended after the sentence.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-196"
+  },
+  {
+    "sentence_sha256": "61513dc1ade6e63e07f8a59c2c0612bba900c9f1c7e6a4adf24926bf6f8780fe",
+    "reason": "Two numbered clauses are joined without sentence whitespace: overdraagbaar.6.De.",
+    "evidence": "wiki/artifacts/dutch-extension-pilot-assessment/sample.json#nl-197"
+  }
+]

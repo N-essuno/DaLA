@@ -1,0 +1,3223 @@
+{
+  "version": "1",
+  "evidence_corpus": "BEA-2019 W&I v2.1, learner training A/B/C",
+  "evidence_url": "https://www.cl.cam.ac.uk/research/nl/bea2019st/",
+  "curation": "Agent-screened exact mappings plus syntactic guards; not human precision validation.",
+  "scope": "Contemporary standard written English; grammar and spelling only.",
+  "support_unit": "distinct source sentences, not independent writers; lowercase word forms pooled",
+  "sources": [
+    {
+      "file": "A.train.gold.bea19.m2",
+      "sha256": "79cf56f7bd2ab22624e0308c205722ba9e2fe9a1b9dc1df7b35c3f9dba3a8497"
+    },
+    {
+      "file": "B.train.gold.bea19.m2",
+      "sha256": "22465faee67ca87329d5fde7555e8a24fcf6d968511b13ebf74882eccd3a836f"
+    },
+    {
+      "file": "C.train.gold.bea19.m2",
+      "sha256": "66aea2af43dcf7e0022dcfd703743e802076149f4d6433d82b758d74e123ecd3"
+    }
+  ],
+  "rules": [
+    {
+      "id": "spelling:comfortable:confortable",
+      "family": "spelling",
+      "error_type": "R:SPELL",
+      "correct": "comfortable",
+      "incorrect": "confortable",
+      "distinct_sentence_support": 5,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 4,
+        "C.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2285,
+          "sentence_sha256": "bdc913344334bf994766285408052acf110efd76e15a2590b97dbf80077a4110",
+          "start": 7,
+          "end": 8,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2982,
+          "sentence_sha256": "13e3d66055ea145f36e7ce77949c2e3bcd9ff8a85153fa1990f4e5b6f3bd3c7c",
+          "start": 53,
+          "end": 54,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3594,
+          "sentence_sha256": "09a2d88b01448fe62a1b820b308c66595672fba06249d09ff2d26506aa081ae6",
+          "start": 7,
+          "end": 8,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "spelling:because:becasue",
+      "family": "spelling",
+      "error_type": "R:SPELL",
+      "correct": "because",
+      "incorrect": "becasue",
+      "distinct_sentence_support": 4,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 3,
+        "C.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 10126,
+          "sentence_sha256": "cb64e6b383cd6d6276dcf7e32013d23fdcdf33541852595f98db4408f28e7389",
+          "start": 20,
+          "end": 21,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 10385,
+          "sentence_sha256": "03a04f794bd75783799c364ae98bdb6b149ab2e7fc550ce224170236762c0a1b",
+          "start": 8,
+          "end": 9,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 10386,
+          "sentence_sha256": "8acfdc4708d16ab412d58ff46198cbaa204b7df555be50e2bb818dde0132b0ec",
+          "start": 7,
+          "end": 8,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "spelling:because:beacuse",
+      "family": "spelling",
+      "error_type": "R:SPELL",
+      "correct": "because",
+      "incorrect": "beacuse",
+      "distinct_sentence_support": 5,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 2,
+        "B.train.gold.bea19.m2": 3
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3385,
+          "sentence_sha256": "38838bcecfa838d2e5189bc475a158b622f81c73fe777b6d2f7f4cec5edbcf43",
+          "start": 11,
+          "end": 12,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 6013,
+          "sentence_sha256": "7727a47c1adb18c7db184b9d46f1f2449068ea98b5c15203d70183fd4eb457e8",
+          "start": 0,
+          "end": 1,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 1594,
+          "sentence_sha256": "668350d455b052aa4cb6f2d7a5868b7c3ed46b7c515cbe2aba46cb5a8861c9c8",
+          "start": 12,
+          "end": 13,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "spelling:pollution:polution",
+      "family": "spelling",
+      "error_type": "R:SPELL",
+      "correct": "pollution",
+      "incorrect": "polution",
+      "distinct_sentence_support": 4,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 4
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2296,
+          "sentence_sha256": "29b0de04c186b35b98c982179224b8b56d37fd079e2b71b14a787f33f59cb050",
+          "start": 9,
+          "end": 10,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 4138,
+          "sentence_sha256": "a8984e92e04bc778aeea2f31388f301b624398b1407ff39b047686231c69c656",
+          "start": 23,
+          "end": 24,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 4171,
+          "sentence_sha256": "e13958aa5b66b78e0216a882dd87220f0ecb0f5fbd03269216266ef4f972fbb2",
+          "start": 26,
+          "end": 27,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "spelling:technology:technolgy",
+      "family": "spelling",
+      "error_type": "R:SPELL",
+      "correct": "technology",
+      "incorrect": "technolgy",
+      "distinct_sentence_support": 4,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 3,
+        "B.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3764,
+          "sentence_sha256": "5e2f52bccd0d031408f60003c51b4b5af969d435241bee275012aa5965c2e66d",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3765,
+          "sentence_sha256": "ff5b19da36bf2405d633f8920669bda02064968fcf908669d92be306285b01ff",
+          "start": 14,
+          "end": 15,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3767,
+          "sentence_sha256": "0a89e4a2abdab377192650d2be987ff4c5494198cd3b693047c615f40189ee71",
+          "start": 27,
+          "end": 28,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "spelling:environment:envirnoment",
+      "family": "spelling",
+      "error_type": "R:SPELL",
+      "correct": "environment",
+      "incorrect": "envirnoment",
+      "distinct_sentence_support": 3,
+      "support_by_file": {
+        "B.train.gold.bea19.m2": 3
+      },
+      "evidence_locations": [
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 10630,
+          "sentence_sha256": "bc56d28e9edc36b2d63451f6727f3459f4608afb7f02586cd3aa8843ce15295d",
+          "start": 43,
+          "end": 44,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 10750,
+          "sentence_sha256": "cd8c9a284af43ed9ab73c0ce8d53fb0000c89c6b7acabe37ea42eedef12e830d",
+          "start": 17,
+          "end": 18,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 10761,
+          "sentence_sha256": "c9151108b7a3419819f800a710a8a7e1f6d92452a620b3e7db214f4b3145216a",
+          "start": 12,
+          "end": 13,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "spelling:environment:enviromment",
+      "family": "spelling",
+      "error_type": "R:SPELL",
+      "correct": "environment",
+      "incorrect": "enviromment",
+      "distinct_sentence_support": 3,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 3
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3443,
+          "sentence_sha256": "a0a2fc43e92d119a164509a54e6aeeb39da253de402c6882ec697f2ca2c27cf3",
+          "start": 12,
+          "end": 13,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3444,
+          "sentence_sha256": "dbcdbd0c4a6a6b35132061d3a2e34976885bd8bdd39284af5afe50c164271223",
+          "start": 47,
+          "end": 48,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 6987,
+          "sentence_sha256": "341c9fd01eb01c0b38cbded3941cdcef1065240b18e9ac4723553faf5ee8bc13",
+          "start": 10,
+          "end": 11,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "spelling:government:goverment",
+      "family": "spelling",
+      "error_type": "R:SPELL",
+      "correct": "government",
+      "incorrect": "goverment",
+      "distinct_sentence_support": 3,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 2,
+        "B.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 416,
+          "sentence_sha256": "47c77e8d9ea24ee7296151987688c471ee2b6c37593086663811228a3a9d3ae4",
+          "start": 31,
+          "end": 32,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3592,
+          "sentence_sha256": "d6e65f0c8773fa600060d13149a217fed62d71104bc27656085e190b2f176994",
+          "start": 4,
+          "end": 5,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 10648,
+          "sentence_sha256": "f8af9d1323e1700adce82e126dc17ea3a365a5923137508f96699b26ee8f788f",
+          "start": 56,
+          "end": 57,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "spelling:library:libabry",
+      "family": "spelling",
+      "error_type": "R:SPELL",
+      "correct": "library",
+      "incorrect": "libabry",
+      "distinct_sentence_support": 3,
+      "support_by_file": {
+        "B.train.gold.bea19.m2": 3
+      },
+      "evidence_locations": [
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 3947,
+          "sentence_sha256": "e3d3daacc34bc1ae0ddd6c34cda6f6e753a7f8e1b652eef675b3a65dbce95980",
+          "start": 19,
+          "end": 20,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 3949,
+          "sentence_sha256": "1dcc702444157d78787133220902f09716057516e87e5c7b0a02c907cefe3561",
+          "start": 21,
+          "end": 22,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 3953,
+          "sentence_sha256": "331fd4b538ec16a37d6eb44d9b71fe024130bbdc0543121a5adb1111bce929b5",
+          "start": 16,
+          "end": 17,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "spelling:famous:fameous",
+      "family": "spelling",
+      "error_type": "R:SPELL",
+      "correct": "famous",
+      "incorrect": "fameous",
+      "distinct_sentence_support": 3,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 3
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 6440,
+          "sentence_sha256": "4c20d66d94805bea59ec62d7d0d7968550a41582acbe794743437bc67c9f444d",
+          "start": 3,
+          "end": 4,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 6441,
+          "sentence_sha256": "583a44fdf47eecb241921a2aad5ea08eb269b65ddd5066981e7c75e655e8b5b4",
+          "start": 8,
+          "end": 9,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 6443,
+          "sentence_sha256": "2286467b64eb0303da69c8649b66981b486aefda8fe2d5246eb86b64c8fdd959",
+          "start": 11,
+          "end": 12,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "spelling:public:puplic",
+      "family": "spelling",
+      "error_type": "R:SPELL",
+      "correct": "public",
+      "incorrect": "puplic",
+      "distinct_sentence_support": 3,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 3
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1502,
+          "sentence_sha256": "28942e61695335844a1d90fc3ebf97babed583f576727fa2d0daa4a585b61e8a",
+          "start": 18,
+          "end": 19,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2034,
+          "sentence_sha256": "85c952a3dd9acea50a01426dbb2bcd0a54b72b0795dee52d68e1604130b0f67d",
+          "start": 21,
+          "end": 22,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2037,
+          "sentence_sha256": "f821c8adc20d6bcd7d017349e1bc4ad757d49f6a20b29b19a7e5948e3d10fe4b",
+          "start": 7,
+          "end": 8,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "spelling:that:taht",
+      "family": "spelling",
+      "error_type": "R:SPELL",
+      "correct": "that",
+      "incorrect": "taht",
+      "distinct_sentence_support": 3,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 2,
+        "B.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2419,
+          "sentence_sha256": "db6b070f47dd7c843dcd6131f9b08fa451eeecb8e1622e99e36a40fad29a86dd",
+          "start": 32,
+          "end": 33,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 6969,
+          "sentence_sha256": "c7c14c15110faaa51366a9815650c6b003e6191a69769da9d7df93608ec5b94b",
+          "start": 3,
+          "end": 4,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 9477,
+          "sentence_sha256": "71030554b97133527aa518115d4c1c4162ce1aa209f282a79bffd8cc67c2e29f",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "spelling:football:footbal",
+      "family": "spelling",
+      "error_type": "R:SPELL",
+      "correct": "football",
+      "incorrect": "footbal",
+      "distinct_sentence_support": 4,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 2,
+        "C.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2378,
+          "sentence_sha256": "741d12b208c053c724b65b17d7dfed998de255b7429d45e2d40e8c3850ed8fa4",
+          "start": 3,
+          "end": 4,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3786,
+          "sentence_sha256": "4fc96c7397577536f9bc95679117f04e016c5563de611b6efa558f988c22e5a7",
+          "start": 0,
+          "end": 1,
+          "annotator": "0"
+        },
+        {
+          "file": "C.train.gold.bea19.m2",
+          "sentence_number": 4882,
+          "sentence_sha256": "780b407dafea2e7c410d772087ce9329dbaf3ec4e840907e3d0d16191781ee34",
+          "start": 3,
+          "end": 4,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:go:goes",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "go",
+      "incorrect": "goes",
+      "distinct_sentence_support": 2,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1769,
+          "sentence_sha256": "ecaa6c1fe502a798f78de05c47bedeccbd8453dc549cc448b71f6ec8e282a735",
+          "start": 2,
+          "end": 3,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 6945,
+          "sentence_sha256": "7d4cead7f07c8ee98bce0049e9cd8852f3e5a9dbca6a7c94976d7b37753344aa",
+          "start": 10,
+          "end": 11,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:goes:go",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "goes",
+      "incorrect": "go",
+      "distinct_sentence_support": 8,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 5,
+        "B.train.gold.bea19.m2": 1,
+        "C.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1013,
+          "sentence_sha256": "e0f9ca3b09c624de89a112a9dcb8a6e887fd38ffe29eb32db5cdfa0762640c1f",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2648,
+          "sentence_sha256": "f4077b7f2a808c902b9d6c9ef424810839ab39f85a16e89c44951a81003b3491",
+          "start": 2,
+          "end": 3,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2976,
+          "sentence_sha256": "89bc07a089272e6a3337a2b5003db2fb150f3a4eafaec8117b02b95ac7df5f35",
+          "start": 13,
+          "end": 14,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:sees:see",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "sees",
+      "incorrect": "see",
+      "distinct_sentence_support": 1,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 257,
+          "sentence_sha256": "b56eb7365858f88fd0a347fb23dfabf13a652d751f4905d62cd4494b00768cc8",
+          "start": 20,
+          "end": 21,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:take:takes",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "take",
+      "incorrect": "takes",
+      "distinct_sentence_support": 7,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 6,
+        "B.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2162,
+          "sentence_sha256": "37e3daa620af8df484605a5aab2e2002bbaa3c12b7ed2787b68e38f58d7d9169",
+          "start": 10,
+          "end": 11,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2750,
+          "sentence_sha256": "16e61dc736bce880944d885cb3ea5317a5e2b7dd3f82f155b7b010e419149e23",
+          "start": 16,
+          "end": 17,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2848,
+          "sentence_sha256": "e2afe383d0943ee10caab8904945c3857c9a9b527bcf675893dc3ae49f620764",
+          "start": 9,
+          "end": 10,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:takes:take",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "takes",
+      "incorrect": "take",
+      "distinct_sentence_support": 16,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 10,
+        "B.train.gold.bea19.m2": 6
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3453,
+          "sentence_sha256": "ca70a8c6ac292775500f4c7f8b3d4bb1a157fee6f585a69eee5d10beed4be3ab",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 5453,
+          "sentence_sha256": "0e5292031870fbbd21b82051c3561726fd8fc3ac0a35d5c6123a8c1a6ea69cdc",
+          "start": 5,
+          "end": 6,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 7108,
+          "sentence_sha256": "df7264cbef0d4b2933d1caf2b01bf2a5171ebca1cae3316c27cba512a5941076",
+          "start": 8,
+          "end": 9,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:make:makes",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "make",
+      "incorrect": "makes",
+      "distinct_sentence_support": 10,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 1,
+        "B.train.gold.bea19.m2": 5,
+        "C.train.gold.bea19.m2": 4
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 5061,
+          "sentence_sha256": "35a54746768659291dbb1bf33035e3112c6164f101d4150e5f13253558a58bed",
+          "start": 11,
+          "end": 12,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 2181,
+          "sentence_sha256": "f0e36095bb6329b00750f40cdb3ead548715e79226486f97858ab2b79bf3c37f",
+          "start": 2,
+          "end": 3,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 2618,
+          "sentence_sha256": "6fbadc6bdae08e77b377d880ae29066f82819b035f1b458ae9cdcc8b4b72f8be",
+          "start": 9,
+          "end": 10,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:makes:make",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "makes",
+      "incorrect": "make",
+      "distinct_sentence_support": 40,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 24,
+        "B.train.gold.bea19.m2": 13,
+        "C.train.gold.bea19.m2": 3
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 961,
+          "sentence_sha256": "7112d86995fb951f707ccccff07445a9aba2081d8e0fe7e0aa18632e2a419d3d",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1130,
+          "sentence_sha256": "a837e1a10ddc8fb20fd0b1502e209c3f62cb0601b547e67bcc738354e7c67a5f",
+          "start": 59,
+          "end": 60,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1141,
+          "sentence_sha256": "ec613b615262f8e9a7c153dee125511504f25eefe93ae52b05e048604554cce1",
+          "start": 5,
+          "end": 6,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:give:gives",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "give",
+      "incorrect": "gives",
+      "distinct_sentence_support": 7,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 3,
+        "B.train.gold.bea19.m2": 3,
+        "C.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1153,
+          "sentence_sha256": "f9f22a3f6097b53b18878382e96bde31a7ac4f234e1d0f63c17569e42922640b",
+          "start": 38,
+          "end": 39,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 5655,
+          "sentence_sha256": "230ba987a5f8745e78a97bb6fa8048490801a4f3f83c4d25eb96724af77154e1",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 5891,
+          "sentence_sha256": "b35c48d77d9d2523aff915bbb275ea8e51adef1e7840e1400d7e55287abc1c38",
+          "start": 7,
+          "end": 8,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:gives:give",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "gives",
+      "incorrect": "give",
+      "distinct_sentence_support": 18,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 10,
+        "B.train.gold.bea19.m2": 8
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 970,
+          "sentence_sha256": "e5d850e60c76f740babf1a59724c309e16e647a7c5f5f492aa2d9d70369e37a3",
+          "start": 2,
+          "end": 3,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 4913,
+          "sentence_sha256": "f618ebb11437c1cddf9be6fc91d625cf62f48f22ea22a1172531fe3e5a8cc9b3",
+          "start": 4,
+          "end": 5,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 6166,
+          "sentence_sha256": "5bb8d7a6a0b0f16b6710057843c2a9149fb300d17a464c39b5477c253db0de94",
+          "start": 8,
+          "end": 9,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:write:writes",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "write",
+      "incorrect": "writes",
+      "distinct_sentence_support": 1,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 6277,
+          "sentence_sha256": "6fb30a434b64fdef30001524f0897e0cddf9ff699761517d0669fe6ee1de81b1",
+          "start": 2,
+          "end": 3,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:eats:eat",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "eats",
+      "incorrect": "eat",
+      "distinct_sentence_support": 1,
+      "support_by_file": {
+        "C.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "C.train.gold.bea19.m2",
+          "sentence_number": 2194,
+          "sentence_sha256": "398fff94a6233f4baef997b28c18ecaa6bdd042d86ffde1bdcce1fc21456e799",
+          "start": 21,
+          "end": 22,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:know:knows",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "know",
+      "incorrect": "knows",
+      "distinct_sentence_support": 1,
+      "support_by_file": {
+        "B.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 10435,
+          "sentence_sha256": "433df3a2e82891eec3348b37ad08ff6642530e923136af49d17611e015a2d2b8",
+          "start": 9,
+          "end": 10,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:knows:know",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "knows",
+      "incorrect": "know",
+      "distinct_sentence_support": 7,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 4,
+        "B.train.gold.bea19.m2": 2,
+        "C.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3204,
+          "sentence_sha256": "85f34fdc8c696347e59fa199a2e4e98286527175e811263c40af3332e45dca8e",
+          "start": 12,
+          "end": 13,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3232,
+          "sentence_sha256": "526c95ff7526d29a7c6ff983a797b1bd1a744eb512ed82f18f705d86a46d1037",
+          "start": 9,
+          "end": 10,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 7690,
+          "sentence_sha256": "b5e955c5669825c333af28328ce6a24e79d5b76dd54f317c3fcb74b463c3eb81",
+          "start": 8,
+          "end": 9,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:finds:find",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "finds",
+      "incorrect": "find",
+      "distinct_sentence_support": 2,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 7758,
+          "sentence_sha256": "816af8aeea3b1b6780f9519f8d69ed62d9473d04867d3d82c32ab50b7d586a56",
+          "start": 4,
+          "end": 5,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 8537,
+          "sentence_sha256": "4db04a3960a264e4df15e0f1ae30caeb54728c0e807a22d398ca51dd4038ff68",
+          "start": 9,
+          "end": 10,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:leaves:leave",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "leaves",
+      "incorrect": "leave",
+      "distinct_sentence_support": 1,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 7261,
+          "sentence_sha256": "8755f49217aca2714dfb319de206cb681cc6259c8d18b478892fe15e639f875e",
+          "start": 12,
+          "end": 13,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:come:comes",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "come",
+      "incorrect": "comes",
+      "distinct_sentence_support": 2,
+      "support_by_file": {
+        "B.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 9075,
+          "sentence_sha256": "74fa48c588c877f360a45f277ff9ea1d13192662189620ef192db3a208a420ce",
+          "start": 5,
+          "end": 6,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 12240,
+          "sentence_sha256": "d10c75ffd7b213db849a532355c331fdf5e763c2bdfd1b0c9f56e41be2a52f67",
+          "start": 11,
+          "end": 12,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:comes:come",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "comes",
+      "incorrect": "come",
+      "distinct_sentence_support": 3,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 2,
+        "B.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 403,
+          "sentence_sha256": "13fcf5b920019aca9592dad94ca34e8bed951db2bb6526df9bc77011d9f1d803",
+          "start": 21,
+          "end": 22,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 9222,
+          "sentence_sha256": "7a48e67fd955264564612e08a8ae66bc2471a98015d925f2e9caec06e99ac585",
+          "start": 18,
+          "end": 19,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 2160,
+          "sentence_sha256": "3a963ab96c6541688a945552f9c8e65cbfd41c11d8081ad331f2cf751c8a9dd5",
+          "start": 4,
+          "end": 5,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:speak:speaks",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "speak",
+      "incorrect": "speaks",
+      "distinct_sentence_support": 1,
+      "support_by_file": {
+        "B.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 12895,
+          "sentence_sha256": "f1f76b0bd075cea7e6d8e279fb6cee4c8c9f2d2e700c58482cdb8eb28a5bbef7",
+          "start": 30,
+          "end": 31,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:work:works",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "work",
+      "incorrect": "works",
+      "distinct_sentence_support": 4,
+      "support_by_file": {
+        "B.train.gold.bea19.m2": 4
+      },
+      "evidence_locations": [
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 3125,
+          "sentence_sha256": "43148dd90a6f9c3e94d0f7fe4835ed9b4a28091bceca2080ada001eae2dd5706",
+          "start": 4,
+          "end": 5,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 4339,
+          "sentence_sha256": "a73951b0504c61f1785ca8e4af97857d60508b3b8bf490592f6003cd1bc0ba97",
+          "start": 65,
+          "end": 66,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 9086,
+          "sentence_sha256": "c953c4d470a10b18901328519956216a92c2a73db5b671978dcffd304d9e7062",
+          "start": 19,
+          "end": 20,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:works:work",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "works",
+      "incorrect": "work",
+      "distinct_sentence_support": 6,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 5,
+        "C.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1842,
+          "sentence_sha256": "d26dd3a2e61ea9f8a250060d66222327c55cade87b6f16f1d04150e4d7d2e87e",
+          "start": 2,
+          "end": 3,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 5896,
+          "sentence_sha256": "d37bca740f4370108813452367c6fdbb86aa332b1bcef6907bbbb12fbd489a4d",
+          "start": 18,
+          "end": 19,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 8082,
+          "sentence_sha256": "fa021a5680aa19389f2681fc0a6d38ebfe33eaeac1ac530c1ed6d0a23c43eae3",
+          "start": 2,
+          "end": 3,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:want:wants",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "want",
+      "incorrect": "wants",
+      "distinct_sentence_support": 5,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 4,
+        "B.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3636,
+          "sentence_sha256": "ff9fa5af0939146a42de854fac871bcba42daa7840bd53c669e8ccb31102d459",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 5921,
+          "sentence_sha256": "9dbc4de38450a29007efd1f1da10530db1e04a221f30babf8256a5b80f61e2d4",
+          "start": 4,
+          "end": 5,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 5964,
+          "sentence_sha256": "fb65b8488e82f5665981c3db51e7747380d5fa6a8dd2d8d168d1599d40f99a67",
+          "start": 6,
+          "end": 7,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:wants:want",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "wants",
+      "incorrect": "want",
+      "distinct_sentence_support": 14,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 9,
+        "B.train.gold.bea19.m2": 4,
+        "C.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3291,
+          "sentence_sha256": "e211dec49a6a18e2ecc0824408f7561d8b1f2bfbb3ac50b7cb43e4fe433a3c92",
+          "start": 23,
+          "end": 24,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3442,
+          "sentence_sha256": "68dc7f7b936267dbebfcaa6b76dffc7759562c3f1e69dc3b13af9fc1126a3b55",
+          "start": 4,
+          "end": 5,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 4080,
+          "sentence_sha256": "a0b27c295d757140725dc21426fbae38a57005a562fee4e1e2ee51ce2eb20284",
+          "start": 8,
+          "end": 9,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:need:needs",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "need",
+      "incorrect": "needs",
+      "distinct_sentence_support": 6,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 4,
+        "B.train.gold.bea19.m2": 1,
+        "C.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2213,
+          "sentence_sha256": "b1db4f965b41e3ba3c26a2078cdb2b670b975e959620f02f3e5c0a3ceaaaf81f",
+          "start": 9,
+          "end": 10,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3688,
+          "sentence_sha256": "139a80056de8bc3f7c230061ab410022a0e1bec12dbfe3ef0052f6b69d7ad1a3",
+          "start": 9,
+          "end": 10,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 5524,
+          "sentence_sha256": "3d72310ab28916b2a4fd6c0c5761cc4d4b46ecc3d544cdf1e5139a291f663e05",
+          "start": 24,
+          "end": 25,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:needs:need",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "needs",
+      "incorrect": "need",
+      "distinct_sentence_support": 19,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 10,
+        "B.train.gold.bea19.m2": 7,
+        "C.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 252,
+          "sentence_sha256": "06f5a8323a00b565c596a3ee4e60824597a88249709f09153da2027508094785",
+          "start": 7,
+          "end": 8,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 842,
+          "sentence_sha256": "ace910311e1240f23366c3add94bd43c0af7499a9eab898d0d8337ff58e9a05f",
+          "start": 6,
+          "end": 7,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2154,
+          "sentence_sha256": "036d289f435c9db4e76b5826045f3a254f580d178e06cb9a6d40f728ad8891ae",
+          "start": 10,
+          "end": 11,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:like:likes",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "like",
+      "incorrect": "likes",
+      "distinct_sentence_support": 3,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 2,
+        "B.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2599,
+          "sentence_sha256": "ad95de2a49bd5b93fa61d80a1f7a31814bf46375b24bbd8ad8ddcede0f60547e",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2926,
+          "sentence_sha256": "a08953aad231c7e3e0c4c341f69c49ec0ba9920ad40d3d6db106fda2e8043a7d",
+          "start": 14,
+          "end": 15,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 4567,
+          "sentence_sha256": "5f8e438b7f70d0a5788a52d26095915c776e1b7a85dc6be835891732713943e0",
+          "start": 14,
+          "end": 15,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:likes:like",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "likes",
+      "incorrect": "like",
+      "distinct_sentence_support": 1,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 8473,
+          "sentence_sha256": "e882803a0c71c820da3e3a8646b46de42ba37fc05bdab8e0271fb84b79401c33",
+          "start": 113,
+          "end": 114,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:use:uses",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "use",
+      "incorrect": "uses",
+      "distinct_sentence_support": 4,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 3,
+        "B.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3548,
+          "sentence_sha256": "5f5cf3a4f46c424742238a0a4b408f4eed60f8917aae719113cf73eb872e7d02",
+          "start": 8,
+          "end": 9,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 4992,
+          "sentence_sha256": "28b3c706b6bfc261ae7b78fed6bf6fa0df0c9dae5a885d9b99b9c6539dc27f65",
+          "start": 2,
+          "end": 3,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 4994,
+          "sentence_sha256": "0853c27e130d148e321fa4c2b7338b34483d5cbb0740e1115764e6664ace4606",
+          "start": 19,
+          "end": 20,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:uses:use",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "uses",
+      "incorrect": "use",
+      "distinct_sentence_support": 11,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 5,
+        "B.train.gold.bea19.m2": 4,
+        "C.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2923,
+          "sentence_sha256": "991b8282b2261dbb11c1946b94033853a6f6cb6de9d6513193633049e29b78db",
+          "start": 8,
+          "end": 9,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3978,
+          "sentence_sha256": "755e114f86bcce704c4fb1321be91a37671b5c454f7b5628d75efeb4892eb73f",
+          "start": 2,
+          "end": 3,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 4377,
+          "sentence_sha256": "b4acef0e06ea95317af0baba93d161f9126672c0334fd48e719431068cc8d809",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:help:helps",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "help",
+      "incorrect": "helps",
+      "distinct_sentence_support": 5,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 2,
+        "B.train.gold.bea19.m2": 2,
+        "C.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 7524,
+          "sentence_sha256": "592c15bfcc5e0bb4ac853dd71efd5055a47ced8cd02cd5425080330b400db4c0",
+          "start": 8,
+          "end": 9,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 10187,
+          "sentence_sha256": "1c7448d78edd3f29f98e5f99682f2d97b832876c66f056d895577c33a6c60f3d",
+          "start": 9,
+          "end": 10,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 6792,
+          "sentence_sha256": "c849f60c911695b807f9f96fb029cd41b1fe7fef6593f672e2cb7740a3fc3ec2",
+          "start": 26,
+          "end": 27,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:helps:help",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "helps",
+      "incorrect": "help",
+      "distinct_sentence_support": 33,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 16,
+        "B.train.gold.bea19.m2": 11,
+        "C.train.gold.bea19.m2": 6
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 503,
+          "sentence_sha256": "ab7591d65840eb42d73bd24cb3e9e8d06c933d2c3c6e2cdb979f75c742a77baf",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 885,
+          "sentence_sha256": "cfa7f5681db08f9b275b25badb74b5dac775459a181add1e5747bfc5f62ca8f9",
+          "start": 27,
+          "end": 28,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1201,
+          "sentence_sha256": "04acd2789f0e231318f109e2bd87a3db7c821496156a226f1c8091bf84f4cce4",
+          "start": 3,
+          "end": 4,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:have:has",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "have",
+      "incorrect": "has",
+      "distinct_sentence_support": 61,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 21,
+        "B.train.gold.bea19.m2": 30,
+        "C.train.gold.bea19.m2": 10
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 633,
+          "sentence_sha256": "f0c29b3a5b166d0b2dbc1da79ff67a23a4332ed81bf42c8f567a1fea956b4242",
+          "start": 6,
+          "end": 7,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 729,
+          "sentence_sha256": "cc6fa4b2bfe60d2fa7212f1c9ebd5317fc06b26d35a5ea343d87c4995f81bee9",
+          "start": 4,
+          "end": 5,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 801,
+          "sentence_sha256": "daa8508153190f005c4a1fe9b194958ea596aadf18eecd449e13e9d97dae28c9",
+          "start": 25,
+          "end": 26,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:has:have",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "has",
+      "incorrect": "have",
+      "distinct_sentence_support": 100,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 48,
+        "B.train.gold.bea19.m2": 45,
+        "C.train.gold.bea19.m2": 7
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 345,
+          "sentence_sha256": "2fc6e9bf1d8a2eea21e4bfd77bc02659398f7e7a2339f04e45a28cca134fba7e",
+          "start": 10,
+          "end": 11,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 416,
+          "sentence_sha256": "47c77e8d9ea24ee7296151987688c471ee2b6c37593086663811228a3a9d3ae4",
+          "start": 3,
+          "end": 4,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 516,
+          "sentence_sha256": "2535711ca633a4b628545350762f6823abb26ce8f549361bfb39fd946a427f3b",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:is:are",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "is",
+      "incorrect": "are",
+      "distinct_sentence_support": 180,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 86,
+        "B.train.gold.bea19.m2": 79,
+        "C.train.gold.bea19.m2": 15
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 6,
+          "sentence_sha256": "2a25bbb84520fec8b7eb48ffd24bb119ec0357df3cd9e573b7dff9b7a3832e54",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 8,
+          "sentence_sha256": "f566595222e0d78eb88313bf3348d76c980bca3232931ffc41bd0528d53f4557",
+          "start": 7,
+          "end": 8,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 110,
+          "sentence_sha256": "8977177b69ae19b49e2ca1e3ad8a6b5fda2c36b8b4cec58d3d132dd9a762ea0f",
+          "start": 2,
+          "end": 3,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:are:is",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "are",
+      "incorrect": "is",
+      "distinct_sentence_support": 208,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 113,
+        "B.train.gold.bea19.m2": 71,
+        "C.train.gold.bea19.m2": 24
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 394,
+          "sentence_sha256": "6c8b72e585d544eef8c637cbbbc1597afced8db23fa18778d3638b6027dfe39f",
+          "start": 60,
+          "end": 61,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 482,
+          "sentence_sha256": "4f743ecd64801eabf3248f75189591c7c05ab2a674baaf76629b5b1ad9dd3758",
+          "start": 3,
+          "end": 4,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 543,
+          "sentence_sha256": "5069a48108e16258f95e5dc031d5745e4f58f8fb27c2b729ff7eda8fede60858",
+          "start": 2,
+          "end": 3,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "subject_verb_agreement:am:is",
+      "family": "subject_verb_agreement",
+      "error_type": "R:VERB:SVA",
+      "correct": "am",
+      "incorrect": "is",
+      "distinct_sentence_support": 3,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 1,
+        "B.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 10465,
+          "sentence_sha256": "64abbd88047a1f08cb7e49fc43ac24459f18fd7756ae10fdc22b9092f7bd345f",
+          "start": 12,
+          "end": 13,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 3507,
+          "sentence_sha256": "76fe3fd65e741a1619b74edfd4e32609b8d331da0cb4cfc02358e58a6756184b",
+          "start": 13,
+          "end": 14,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 12867,
+          "sentence_sha256": "c30ab142d6273f4258c89d0c5a73534aec8a8a411e1d8ed41ad43fc85f57fb38",
+          "start": 11,
+          "end": 12,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "demonstrative_number:this:these",
+      "family": "demonstrative_number",
+      "error_type": "R:DET",
+      "correct": "this",
+      "incorrect": "these",
+      "distinct_sentence_support": 24,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 9,
+        "B.train.gold.bea19.m2": 12,
+        "C.train.gold.bea19.m2": 3
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 820,
+          "sentence_sha256": "177efc6d892057e3f6c79745e9bd70123c92f79d07524e287d21777418fbe9fb",
+          "start": 2,
+          "end": 3,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2000,
+          "sentence_sha256": "189e13989aad6b4ee9657197d71348ab4e44dd8a156c722c252cef4b6a594e9b",
+          "start": 9,
+          "end": 10,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2915,
+          "sentence_sha256": "bd7ddc1d6090b161d7a30e2b18d5a6a6c4a436a1dde08f0306732aef6fee8444",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "demonstrative_number:these:this",
+      "family": "demonstrative_number",
+      "error_type": "R:DET",
+      "correct": "these",
+      "incorrect": "this",
+      "distinct_sentence_support": 60,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 23,
+        "B.train.gold.bea19.m2": 27,
+        "C.train.gold.bea19.m2": 10
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 281,
+          "sentence_sha256": "effca22847ec28d0378477de5bcd354b6a8fcf118228dc7628f024e61800ce05",
+          "start": 30,
+          "end": 31,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 516,
+          "sentence_sha256": "2535711ca633a4b628545350762f6823abb26ce8f549361bfb39fd946a427f3b",
+          "start": 26,
+          "end": 27,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1355,
+          "sentence_sha256": "0a37b14a373b6f686d0c9fd84bbee7cdcc3fec55dd486e1850466735a40fefbc",
+          "start": 0,
+          "end": 1,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "demonstrative_number:that:those",
+      "family": "demonstrative_number",
+      "error_type": "R:DET",
+      "correct": "that",
+      "incorrect": "those",
+      "distinct_sentence_support": 2,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 1,
+        "B.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 4104,
+          "sentence_sha256": "6e598d1e5a5b45e7077e20dfb914a2f91325e0c175a19a6791c57f60854f57a3",
+          "start": 21,
+          "end": 22,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 5166,
+          "sentence_sha256": "f02b8f268f1d0b6d11d0bc6b858309872cdccdd71b4c7ed6a9d58f56739914af",
+          "start": 5,
+          "end": 6,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "demonstrative_number:those:that",
+      "family": "demonstrative_number",
+      "error_type": "R:DET",
+      "correct": "those",
+      "incorrect": "that",
+      "distinct_sentence_support": 11,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 6,
+        "B.train.gold.bea19.m2": 2,
+        "C.train.gold.bea19.m2": 3
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2767,
+          "sentence_sha256": "331def6f099f2ab43f5b24f27993db7c35fca99a46c57dcc541d22607de561be",
+          "start": 6,
+          "end": 7,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 6456,
+          "sentence_sha256": "97a77a13d0b9ec60db8eb5ba8a7c42c0a1b33599a5fc9fb83a4d5285fa8773b5",
+          "start": 16,
+          "end": 17,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 7080,
+          "sentence_sha256": "3fef600c00a43798d553855ef77d2da9a3e3cc3bd1c594f8f3e3c2189822a432",
+          "start": 0,
+          "end": 1,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "modal_verb_form:go:going",
+      "family": "modal_verb_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "go",
+      "incorrect": "going",
+      "distinct_sentence_support": 15,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 11,
+        "B.train.gold.bea19.m2": 2,
+        "C.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 503,
+          "sentence_sha256": "ab7591d65840eb42d73bd24cb3e9e8d06c933d2c3c6e2cdb979f75c742a77baf",
+          "start": 3,
+          "end": 4,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 791,
+          "sentence_sha256": "711f47bebff1ec4c5f5d03c864e9b8ce8ce3fd0c04c6de90d7d96da448986132",
+          "start": 5,
+          "end": 6,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1514,
+          "sentence_sha256": "b1d88da5491dd2899f5dd318f9232d042fa16056ed012b7e309fc0f20de1641f",
+          "start": 9,
+          "end": 10,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "modal_verb_form:be:being",
+      "family": "modal_verb_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "be",
+      "incorrect": "being",
+      "distinct_sentence_support": 13,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 5,
+        "B.train.gold.bea19.m2": 2,
+        "C.train.gold.bea19.m2": 6
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3699,
+          "sentence_sha256": "75cb8f8e1874185cf3ba04c7b9b3c95329f306b9de606391852cb34c3b1d4513",
+          "start": 15,
+          "end": 16,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 8107,
+          "sentence_sha256": "af9a48b32bf15a1edad6de0304220c632a3f40ac97c80ee69a95cab4b871c4cd",
+          "start": 53,
+          "end": 54,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 8628,
+          "sentence_sha256": "3628af93838d84c903dd9e073f5effd850a985626e23ea18aff9be6b531157d9",
+          "start": 14,
+          "end": 15,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "modal_verb_form:have:having",
+      "family": "modal_verb_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "have",
+      "incorrect": "having",
+      "distinct_sentence_support": 8,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 6,
+        "B.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1055,
+          "sentence_sha256": "19864e37158e3d2b02337287cbc9aec434543db7810280a8f2c12bba9a3184f8",
+          "start": 10,
+          "end": 11,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 4172,
+          "sentence_sha256": "977b9227047fd707e7013db11bb402868fe95f56d1bc6998afeda87e7eea84c9",
+          "start": 16,
+          "end": 17,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 4174,
+          "sentence_sha256": "b4234660af53839d55e7876b05f9f350a437a3482211e0862b6be3fb6e794e98",
+          "start": 9,
+          "end": 10,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "modal_verb_form:do:doing",
+      "family": "modal_verb_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "do",
+      "incorrect": "doing",
+      "distinct_sentence_support": 7,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 3,
+        "B.train.gold.bea19.m2": 4
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1130,
+          "sentence_sha256": "a837e1a10ddc8fb20fd0b1502e209c3f62cb0601b547e67bcc738354e7c67a5f",
+          "start": 26,
+          "end": 27,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 8436,
+          "sentence_sha256": "92b2235e03ce195efcc6cb0826085fd3c7a760c041824414d9517f8c3d8d7083",
+          "start": 30,
+          "end": 31,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 10366,
+          "sentence_sha256": "3b36319a3832c655d5141689ca831583f55b3f9d7fdc13ec074a2ed8180c4d26",
+          "start": 42,
+          "end": 43,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "modal_verb_form:work:working",
+      "family": "modal_verb_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "work",
+      "incorrect": "working",
+      "distinct_sentence_support": 8,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 1,
+        "B.train.gold.bea19.m2": 5,
+        "C.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3807,
+          "sentence_sha256": "c3892b34fc60e6d6694198c137edc2ff177fe7ea5500b76459d06e6f7f2ca3bb",
+          "start": 9,
+          "end": 10,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 72,
+          "sentence_sha256": "557c9ddd005ca9281e234265d9ab7712d7a4e52f4c25ff2886885b671ed6648d",
+          "start": 4,
+          "end": 5,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 6831,
+          "sentence_sha256": "6ed9ce203a40dcdb084aa461ee3d1f29e486f68b5b610bd11f1e0f30a2fac73f",
+          "start": 15,
+          "end": 16,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "modal_verb_form:make:making",
+      "family": "modal_verb_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "make",
+      "incorrect": "making",
+      "distinct_sentence_support": 8,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 3,
+        "C.train.gold.bea19.m2": 5
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2725,
+          "sentence_sha256": "8276467eb76ad5bee0ada5257d8bfe369ceb0d604c8de1a5b7ba7e3c4301d8aa",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 5226,
+          "sentence_sha256": "89c999d9c42f561e296cef4888652163a4ca0b81dcacaf91607ebcd020cf49ae",
+          "start": 25,
+          "end": 26,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 10329,
+          "sentence_sha256": "021cb0ed1f648bcd449c5beaf6e4571ed5ae1ab26db17f1f989e37437fcd39d5",
+          "start": 22,
+          "end": 23,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "modal_verb_form:help:helping",
+      "family": "modal_verb_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "help",
+      "incorrect": "helping",
+      "distinct_sentence_support": 3,
+      "support_by_file": {
+        "B.train.gold.bea19.m2": 3
+      },
+      "evidence_locations": [
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 8779,
+          "sentence_sha256": "268afe3716299a6a509051ad8c54b8f4523a0bcd75526e3f8d7d9f22b0070684",
+          "start": 3,
+          "end": 4,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 8786,
+          "sentence_sha256": "a7f8f59c8dc335996e0cb839b36df985f92949ca324a866ba33f088d78de59b3",
+          "start": 13,
+          "end": 14,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 10621,
+          "sentence_sha256": "fa1b7805e35e655ea9e419afee941dd999791eaa8baf5bb52e95650387597c51",
+          "start": 6,
+          "end": 7,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "modal_verb_form:use:using",
+      "family": "modal_verb_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "use",
+      "incorrect": "using",
+      "distinct_sentence_support": 9,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 2,
+        "B.train.gold.bea19.m2": 6,
+        "C.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 6425,
+          "sentence_sha256": "ce95deaf59da6c0470f01e62dcd5e91b6860ffd95eb373fe203fbc8bf98b47e7",
+          "start": 17,
+          "end": 18,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 9884,
+          "sentence_sha256": "a296c1551d1aab6d84e07e44d3330524173e098fa2afe888c29ef8f491a1122e",
+          "start": 6,
+          "end": 7,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 2557,
+          "sentence_sha256": "a1a996206ba894e1dfe98ed39f9474c0db611d48981cca8993dcdee1a392684d",
+          "start": 13,
+          "end": 14,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "modal_verb_form:take:taking",
+      "family": "modal_verb_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "take",
+      "incorrect": "taking",
+      "distinct_sentence_support": 12,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 4,
+        "B.train.gold.bea19.m2": 6,
+        "C.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2546,
+          "sentence_sha256": "50b753dab530055f307dcb9ecb29f6521dab4347bb0dc47965fcb3f730592659",
+          "start": 24,
+          "end": 25,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 6424,
+          "sentence_sha256": "e1f1d8ea5f24319d7677adcc5fff9d612d26cae5109a87db4c0ea7a0ad0a5d4d",
+          "start": 7,
+          "end": 8,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 8025,
+          "sentence_sha256": "e8387ae6a74342c4de241d76fcab53f7b4b2bac568ee8cded1feb54a18a16019",
+          "start": 14,
+          "end": 15,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "modal_verb_form:give:giving",
+      "family": "modal_verb_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "give",
+      "incorrect": "giving",
+      "distinct_sentence_support": 4,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 1,
+        "B.train.gold.bea19.m2": 2,
+        "C.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 5120,
+          "sentence_sha256": "c11dc94bb192fa78aef1bb25ce034f7ee104073956978ca2fa9c6ae8417d82f3",
+          "start": 9,
+          "end": 10,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 6963,
+          "sentence_sha256": "2b0c905e67ede3469c914f1f0063c2005a4537f443b3f1b315e56007d1b7b2cb",
+          "start": 11,
+          "end": 12,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 7741,
+          "sentence_sha256": "7af9b56556bb9c1c6af1775f981aa0940d7cf51a21aa0e710770df8b1fd90b5e",
+          "start": 14,
+          "end": 15,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "modal_verb_form:know:knowing",
+      "family": "modal_verb_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "know",
+      "incorrect": "knowing",
+      "distinct_sentence_support": 1,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1111,
+          "sentence_sha256": "90bf61580a4e49e9180564f2388b34670d45b32bc557f1de12ed73b334e103c5",
+          "start": 20,
+          "end": 21,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "modal_verb_form:find:finding",
+      "family": "modal_verb_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "find",
+      "incorrect": "finding",
+      "distinct_sentence_support": 2,
+      "support_by_file": {
+        "B.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 7761,
+          "sentence_sha256": "2f8878a9a7356c3baa6c7e110878693475dcb9dc3a9623b519895d62097d793d",
+          "start": 18,
+          "end": 19,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 8784,
+          "sentence_sha256": "871d9b6d5217d2c9f09a73da1de93c7bddefc1f33a3768feafe8c6ca7811cea1",
+          "start": 46,
+          "end": 47,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "modal_verb_form:come:coming",
+      "family": "modal_verb_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "come",
+      "incorrect": "coming",
+      "distinct_sentence_support": 1,
+      "support_by_file": {
+        "B.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 1530,
+          "sentence_sha256": "9a5abfcf85f9b8cea838cd1661af6225a1004b21a8a4bef56f6006af1788a543",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "modal_verb_form:speak:speaking",
+      "family": "modal_verb_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "speak",
+      "incorrect": "speaking",
+      "distinct_sentence_support": 3,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 1,
+        "B.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1095,
+          "sentence_sha256": "f1f83dcec45427060bd44bc443f9e9200a1d57a89f9660a12e5590ad9c02b2d4",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 7640,
+          "sentence_sha256": "5efe0692635d00d1d3b34d1f1510a294a50c9b230ded20b7a089a02d2acacac1",
+          "start": 26,
+          "end": 27,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 11451,
+          "sentence_sha256": "054f70c3a35353821a4967b75a92a487573c7f41a4b0e44f767d9776ac628128",
+          "start": 12,
+          "end": 13,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "modal_verb_form:eat:eating",
+      "family": "modal_verb_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "eat",
+      "incorrect": "eating",
+      "distinct_sentence_support": 4,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 3,
+        "C.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1130,
+          "sentence_sha256": "a837e1a10ddc8fb20fd0b1502e209c3f62cb0601b547e67bcc738354e7c67a5f",
+          "start": 32,
+          "end": 33,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 4198,
+          "sentence_sha256": "fd266f9d802560979d0f8baf5a95fdee9b40db1dec0039225ac81a062efb5d24",
+          "start": 3,
+          "end": 4,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 5989,
+          "sentence_sha256": "8ef0e03a2e1261172a9605edd4f1a2223b0eb5e96afcfa32c94c3134a6a5b1b4",
+          "start": 12,
+          "end": 13,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "do_support_form:see:saw",
+      "family": "do_support_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "see",
+      "incorrect": "saw",
+      "distinct_sentence_support": 1,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 5235,
+          "sentence_sha256": "3ee439fdaad9e83c94a4b670c5c67f9750cbfb2efb264b3f534b04ab5ec5cbca",
+          "start": 15,
+          "end": 16,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "do_support_form:give:gave",
+      "family": "do_support_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "give",
+      "incorrect": "gave",
+      "distinct_sentence_support": 2,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 258,
+          "sentence_sha256": "aee708b61605e107ec355f286b234a43fe96bc31f5e03fbed8b3d53da0c9b0c6",
+          "start": 8,
+          "end": 9,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 4511,
+          "sentence_sha256": "22ad824689d2ff933f47aba97dd4cfff2d6fe298dbb81de45a8713b39ede2c45",
+          "start": 3,
+          "end": 4,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "do_support_form:eat:ate",
+      "family": "do_support_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "eat",
+      "incorrect": "ate",
+      "distinct_sentence_support": 1,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 9431,
+          "sentence_sha256": "192ca085af07bb0f3926009c7fff6a61b8253ef3966264166494801b1ed08c5f",
+          "start": 54,
+          "end": 55,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "do_support_form:know:knew",
+      "family": "do_support_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "know",
+      "incorrect": "knew",
+      "distinct_sentence_support": 1,
+      "support_by_file": {
+        "B.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 1897,
+          "sentence_sha256": "5c6dfcd9c11bb4e04e5cd218b70eeb5744aea59b0dc0d7a23c9530bcdee27429",
+          "start": 4,
+          "end": 5,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "do_support_form:find:found",
+      "family": "do_support_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "find",
+      "incorrect": "found",
+      "distinct_sentence_support": 8,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 4,
+        "B.train.gold.bea19.m2": 2,
+        "C.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2734,
+          "sentence_sha256": "1a8bf4172d7777f5feeae2dd3ed185dd58ad1167f1d6df178742d1298b3efb94",
+          "start": 10,
+          "end": 11,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 5723,
+          "sentence_sha256": "e5add55c14e47b965451c7263a9bbc2a7b8c389dffc7979e9c62305dd7e6d89e",
+          "start": 24,
+          "end": 25,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 5766,
+          "sentence_sha256": "0617b978ed41a6538ca833f453ee73dd5b6a49c43cbd67c8ba13259f024fb2eb",
+          "start": 25,
+          "end": 26,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "do_support_form:come:came",
+      "family": "do_support_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "come",
+      "incorrect": "came",
+      "distinct_sentence_support": 2,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 5747,
+          "sentence_sha256": "fc904761d53ecadae3faaa1ac506b9539c8ab3622f7891c1435f65203766562a",
+          "start": 27,
+          "end": 28,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 8274,
+          "sentence_sha256": "3fcbddc27efa5df9d408aa833fc83e8e209ae016d04b3b506bbf5e7db71815b7",
+          "start": 18,
+          "end": 19,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "do_support_form:use:used",
+      "family": "do_support_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "use",
+      "incorrect": "used",
+      "distinct_sentence_support": 1,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 6088,
+          "sentence_sha256": "0b496122a8f21cd086cce5d0562d9cfffbe25c85a1cfe0e0fc324235a3a01a15",
+          "start": 27,
+          "end": 28,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "do_support_form:have:had",
+      "family": "do_support_form",
+      "error_type": "R:VERB:FORM",
+      "correct": "have",
+      "incorrect": "had",
+      "distinct_sentence_support": 5,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 4,
+        "C.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1776,
+          "sentence_sha256": "a48de736c736fde289fcf5e396f3709fd19c2f1675363d54088e180fcd37d539",
+          "start": 15,
+          "end": 16,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2034,
+          "sentence_sha256": "85c952a3dd9acea50a01426dbb2bcd0a54b72b0795dee52d68e1604130b0f67d",
+          "start": 13,
+          "end": 14,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 5234,
+          "sentence_sha256": "cc53f1c86170d39c717018d9d882ba7bf0617d05b46c254af04349213c0d4138",
+          "start": 25,
+          "end": 26,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "perfect_participle:seen:saw",
+      "family": "perfect_participle",
+      "error_type": "R:VERB:FORM",
+      "correct": "seen",
+      "incorrect": "saw",
+      "distinct_sentence_support": 1,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 7849,
+          "sentence_sha256": "11d7fba8c7c97253fd1fc3c08719d7135ccf2610ef4daf32f10056435857dd75",
+          "start": 31,
+          "end": 32,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "perfect_participle:known:knew",
+      "family": "perfect_participle",
+      "error_type": "R:VERB:FORM",
+      "correct": "known",
+      "incorrect": "knew",
+      "distinct_sentence_support": 1,
+      "support_by_file": {
+        "C.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "C.train.gold.bea19.m2",
+          "sentence_number": 4518,
+          "sentence_sha256": "9e0b424a647b44346cb509bd5ec5bfd246cf27e09e69ad4f1ce2e4ea0a9163a2",
+          "start": 20,
+          "end": 21,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "noun_number:children:child",
+      "family": "noun_number",
+      "error_type": "R:NOUN:NUM",
+      "correct": "children",
+      "incorrect": "child",
+      "distinct_sentence_support": 7,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 5,
+        "B.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 5460,
+          "sentence_sha256": "6e66cc05a3136368be4d8a68ee739063292d41e171ac85548697c25664e33f68",
+          "start": 16,
+          "end": 17,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 8486,
+          "sentence_sha256": "27cdfb39e86d90b52920d4d66066316422ac60c8546b1cb1c00b88cf7fa259bd",
+          "start": 13,
+          "end": 14,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 9340,
+          "sentence_sha256": "5652d4529854f6cfe926d023a5221d961646ebca74051dcd722f7a25436adbda",
+          "start": 3,
+          "end": 4,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "noun_number:men:man",
+      "family": "noun_number",
+      "error_type": "R:NOUN:NUM",
+      "correct": "men",
+      "incorrect": "man",
+      "distinct_sentence_support": 5,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 4,
+        "B.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3800,
+          "sentence_sha256": "3ba7c5a14c756caaa802e7ef9e14fbdc736a845c02032541cfe15b16f51f160f",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 4515,
+          "sentence_sha256": "ba81d6f133e99dfe5998abb0c6dc16a258ffdf1945bc4bf1a18ea0ba8c72e95d",
+          "start": 15,
+          "end": 16,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 4749,
+          "sentence_sha256": "37bcbbddfe91b652ea0fa7eba89b38ca33b959449dba212f4f72e23972c1214b",
+          "start": 0,
+          "end": 1,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "noun_number:women:woman",
+      "family": "noun_number",
+      "error_type": "R:NOUN:NUM",
+      "correct": "women",
+      "incorrect": "woman",
+      "distinct_sentence_support": 3,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 3
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 908,
+          "sentence_sha256": "c558b49f1eedfdbc1b10eb3e622584a2e1850effd6caee1b853c34a047f889b3",
+          "start": 19,
+          "end": 20,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1498,
+          "sentence_sha256": "840c2b0ab1ba409509373deefd573e0ad650f79899425a0322f8c58e0315b6b8",
+          "start": 20,
+          "end": 21,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3800,
+          "sentence_sha256": "3ba7c5a14c756caaa802e7ef9e14fbdc736a845c02032541cfe15b16f51f160f",
+          "start": 9,
+          "end": 10,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "noun_number:books:book",
+      "family": "noun_number",
+      "error_type": "R:NOUN:NUM",
+      "correct": "books",
+      "incorrect": "book",
+      "distinct_sentence_support": 9,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 8,
+        "C.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1073,
+          "sentence_sha256": "bd27bb2b2a11089c632417e492ec0f8cdc21680214bbdcbc9e03504bc9f8ff81",
+          "start": 11,
+          "end": 12,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2600,
+          "sentence_sha256": "eec93a324cf20857f02bfcba3b1998ba441d824519599e4eebca73c698ff96f2",
+          "start": 3,
+          "end": 4,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2729,
+          "sentence_sha256": "ba6e8ae1ab5b0a211b9157cca99fcbe0ef91d170607bb81ec3011391ddb7973f",
+          "start": 17,
+          "end": 18,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "noun_number:students:student",
+      "family": "noun_number",
+      "error_type": "R:NOUN:NUM",
+      "correct": "students",
+      "incorrect": "student",
+      "distinct_sentence_support": 21,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 11,
+        "B.train.gold.bea19.m2": 7,
+        "C.train.gold.bea19.m2": 3
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 995,
+          "sentence_sha256": "ad099d33a9f7579ab4de9983bb8c49edf01a2480999edb1a4a80e4132eaed33b",
+          "start": 6,
+          "end": 7,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1531,
+          "sentence_sha256": "4352f9c6329db312be82d48094ea61268a26b94e033bed765b58d1187fa0be4f",
+          "start": 8,
+          "end": 9,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2130,
+          "sentence_sha256": "e250d618cc5d295ce9c72b4eec30bd5367c9cc327160bc9b8e12a0f8aadc7c03",
+          "start": 9,
+          "end": 10,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "noun_number:problems:problem",
+      "family": "noun_number",
+      "error_type": "R:NOUN:NUM",
+      "correct": "problems",
+      "incorrect": "problem",
+      "distinct_sentence_support": 20,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 13,
+        "B.train.gold.bea19.m2": 6,
+        "C.train.gold.bea19.m2": 1
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 655,
+          "sentence_sha256": "bc2d36506979d7e9d5325f37094d3f502481e8a38d7381f786e52e6acf9e53ef",
+          "start": 7,
+          "end": 8,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 783,
+          "sentence_sha256": "850aa6596b5fd8bec94bf98ddea98af52bbdc56767191188b429635dcf9beb51",
+          "start": 7,
+          "end": 8,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2394,
+          "sentence_sha256": "45a6e1781134c939fe3b6bbf3adeccc02303f2b6abc24ebf5b4718e0d9d6055b",
+          "start": 10,
+          "end": 11,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "noun_number:reasons:reason",
+      "family": "noun_number",
+      "error_type": "R:NOUN:NUM",
+      "correct": "reasons",
+      "incorrect": "reason",
+      "distinct_sentence_support": 8,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 3,
+        "B.train.gold.bea19.m2": 3,
+        "C.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 19,
+          "sentence_sha256": "b1bf1ed4038ca36f51508f20a32caa7e34ceff1c32ff9deab9684c8e8b17a288",
+          "start": 19,
+          "end": 20,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2000,
+          "sentence_sha256": "189e13989aad6b4ee9657197d71348ab4e44dd8a156c722c252cef4b6a594e9b",
+          "start": 3,
+          "end": 4,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 8321,
+          "sentence_sha256": "021a92efd870b8aab6f15468b7816479cb14b669c2a176dac314e66bccb03dca",
+          "start": 8,
+          "end": 9,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "noun_number:questions:question",
+      "family": "noun_number",
+      "error_type": "R:NOUN:NUM",
+      "correct": "questions",
+      "incorrect": "question",
+      "distinct_sentence_support": 3,
+      "support_by_file": {
+        "B.train.gold.bea19.m2": 3
+      },
+      "evidence_locations": [
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 2751,
+          "sentence_sha256": "8b832e85d3fc2294df52b61b1a51cbae6228d5a9539dc973737e45c7d7d34136",
+          "start": 14,
+          "end": 15,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 10422,
+          "sentence_sha256": "ff3ba1ef1294c2210e6da53d9ddbb5d74185669f40e4fe80e0f0681eea60b33f",
+          "start": 11,
+          "end": 12,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 12389,
+          "sentence_sha256": "0927d2890b7b079b6f73412714c42fac1caa42467c69efa4c62afd96cc3cfcec",
+          "start": 6,
+          "end": 7,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "noun_number:animals:animal",
+      "family": "noun_number",
+      "error_type": "R:NOUN:NUM",
+      "correct": "animals",
+      "incorrect": "animal",
+      "distinct_sentence_support": 4,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 4
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1505,
+          "sentence_sha256": "3ccd8c02183f5efc6b5be41a1b7796217185df174a326ab6c93de89c5a57e0f1",
+          "start": 4,
+          "end": 5,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3744,
+          "sentence_sha256": "2eed0b1a79269becd624dd2a7138bfb770a6fc61418011fa04a0e81d50322290",
+          "start": 14,
+          "end": 15,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 4550,
+          "sentence_sha256": "bf7fd1c7e2d38d6fb9c9d1efac0d84c94fa0756b7937096b0345de6cc73bd94b",
+          "start": 27,
+          "end": 28,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "noun_number:years:year",
+      "family": "noun_number",
+      "error_type": "R:NOUN:NUM",
+      "correct": "years",
+      "incorrect": "year",
+      "distinct_sentence_support": 11,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 7,
+        "B.train.gold.bea19.m2": 4
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 392,
+          "sentence_sha256": "c14f3fcbce500dcc2d458bf58f6b93ded2173513b8e6d7161f9af6b6b988e20e",
+          "start": 34,
+          "end": 35,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 516,
+          "sentence_sha256": "2535711ca633a4b628545350762f6823abb26ce8f549361bfb39fd946a427f3b",
+          "start": 41,
+          "end": 42,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2525,
+          "sentence_sha256": "502abb5d921c174f86f2d37a696b613750b671190fe5f15ce71f378b0ced8abf",
+          "start": 6,
+          "end": 7,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "noun_number:things:thing",
+      "family": "noun_number",
+      "error_type": "R:NOUN:NUM",
+      "correct": "things",
+      "incorrect": "thing",
+      "distinct_sentence_support": 29,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 15,
+        "B.train.gold.bea19.m2": 10,
+        "C.train.gold.bea19.m2": 4
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2254,
+          "sentence_sha256": "22a1918ecec056edba8ddf7e40c951bd83420b322f93c7074f43f9c6e1d13642",
+          "start": 8,
+          "end": 9,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 2257,
+          "sentence_sha256": "3adc2936d440d4e9914b1a61f65880a9e9cc67f1426189eb4800c66817796161",
+          "start": 8,
+          "end": 9,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3669,
+          "sentence_sha256": "eb2e004bd6fb7b20c982cdfd4331c6ea7ff0a8e9735e5556d6f4a874448db927",
+          "start": 19,
+          "end": 20,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "noun_number:ways:way",
+      "family": "noun_number",
+      "error_type": "R:NOUN:NUM",
+      "correct": "ways",
+      "incorrect": "way",
+      "distinct_sentence_support": 7,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 3,
+        "B.train.gold.bea19.m2": 4
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1920,
+          "sentence_sha256": "18bc68850a03099e3b43702c33b2a61100ab2a1be20b5b3445d86d86c7442250",
+          "start": 6,
+          "end": 7,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1922,
+          "sentence_sha256": "4aafab637f7bb9ef388f0eef058b6d19fb0be06595b9977c293d94dfcf2b0f2a",
+          "start": 7,
+          "end": 8,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 8473,
+          "sentence_sha256": "e882803a0c71c820da3e3a8646b46de42ba37fc05bdab8e0271fb84b79401c33",
+          "start": 72,
+          "end": 73,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "noun_number:days:day",
+      "family": "noun_number",
+      "error_type": "R:NOUN:NUM",
+      "correct": "days",
+      "incorrect": "day",
+      "distinct_sentence_support": 8,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 2,
+        "B.train.gold.bea19.m2": 6
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 4329,
+          "sentence_sha256": "7d56695ae6515852453e6e3aa413ab30cd6ce6d630bf34c8f9bf6e49d5550351",
+          "start": 18,
+          "end": 19,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 7080,
+          "sentence_sha256": "3fef600c00a43798d553855ef77d2da9a3e3cc3bd1c594f8f3e3c2189822a432",
+          "start": 1,
+          "end": 2,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 3598,
+          "sentence_sha256": "37ff2d0261a75bf3b4b17e74d8f5da32db6fe7390547647bc05b68e93d0fccab",
+          "start": 6,
+          "end": 7,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "noun_number:friends:friend",
+      "family": "noun_number",
+      "error_type": "R:NOUN:NUM",
+      "correct": "friends",
+      "incorrect": "friend",
+      "distinct_sentence_support": 21,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 10,
+        "B.train.gold.bea19.m2": 7,
+        "C.train.gold.bea19.m2": 4
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 756,
+          "sentence_sha256": "320d23953b4176f1d1b3467d03f9b30ac1010346e10913f7f420a38aca7e8e32",
+          "start": 16,
+          "end": 17,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 853,
+          "sentence_sha256": "7d8bb503dcfd4e18fe784111b0b3e1db14a1f5733be7d97a442e76add8d375a4",
+          "start": 8,
+          "end": 9,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 3607,
+          "sentence_sha256": "467d31837cdfd6caa170de4ee0209a80407fd0dd268ede770f020f32392d1f28",
+          "start": 15,
+          "end": 16,
+          "annotator": "0"
+        }
+      ]
+    },
+    {
+      "id": "noun_number:jobs:job",
+      "family": "noun_number",
+      "error_type": "R:NOUN:NUM",
+      "correct": "jobs",
+      "incorrect": "job",
+      "distinct_sentence_support": 7,
+      "support_by_file": {
+        "A.train.gold.bea19.m2": 2,
+        "B.train.gold.bea19.m2": 3,
+        "C.train.gold.bea19.m2": 2
+      },
+      "evidence_locations": [
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 384,
+          "sentence_sha256": "2d79c9a260b24bbed939ad9dc3f5b0b0f7295c3c37ebc44d9e5daedc34c1dd08",
+          "start": 16,
+          "end": 17,
+          "annotator": "0"
+        },
+        {
+          "file": "A.train.gold.bea19.m2",
+          "sentence_number": 1529,
+          "sentence_sha256": "3da4541d1b41d53eb2d037440fde8cf53311314b9455a70f9a2df8f3b40d0dcf",
+          "start": 19,
+          "end": 20,
+          "annotator": "0"
+        },
+        {
+          "file": "B.train.gold.bea19.m2",
+          "sentence_number": 2259,
+          "sentence_sha256": "0cb29989e07acfa20960b7c7fae24cae080abef5276da84314ed003b9eed6cd7",
+          "start": 23,
+          "end": 24,
+          "annotator": "0"
+        }
+      ]
+    }
+  ]
+}

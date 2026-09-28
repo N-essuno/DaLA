@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "language": "fo",
+  "name": "DaLA Faroese \u2014 DynaWord",
+  "mode": "pairs",
+  "parser": "stanza",
+  "parser_backend": "stanza",
+  "parser_settings": {
+    "directory": "la_output/resources/multilingual/stanza",
+    "processors": {
+      "tokenize": "farpahc",
+      "pos": "farpahc_nocharlm",
+      "depparse": "farpahc_nocharlm",
+      "lemma": "identity",
+      "mwt": "farpahc"
+    },
+    "model_sha256": {
+      "fo/depparse/farpahc_nocharlm.pt": "06530980a362486e1f607da372fdfabae602d3289602e606b077d51104c1a009",
+      "fo/mwt/farpahc.pt": "c2c1146ed0a8b045215668271d11fb89924c3a156fb334b61dff25bdff5e9e4b",
+      "fo/pos/farpahc_nocharlm.pt": "5f628859d6930bd46ae395ce36c52556586c238513d7fafdbb55b0bf5148bc2a",
+      "fo/pretrain/fasttextwiki.pt": "f49c196ecbe8b6e767a654a1d148b418404507f643c1b67f156bd9ebfd4ad06b",
+      "fo/tokenize/farpahc.pt": "2733bc23955fceffe83c8cf936c3c4bd852ab6bd61a656392d7e12a068f9f8d2"
+    },
+    "stanza_version": "1.11.0"
+  },
+  "parser_threads": 2,
+  "sources": {
+    "adapter": "dynaword"
+  },
+  "sources_config": "../fo_sources.json",
+  "rulebook": "../../la_output/resources/multilingual/fo/rules.json.gz",
+  "exclusions": "../fo_source_exclusions.json",
+  "resource_directory": "../../la_output/resources/multilingual/fo",
+  "adapter": "dala.language_packs.morphology:MorphologyPack",
+  "selection": {
+    "strategy": "hash_rotate_grammar_then_spelling",
+    "max_errors": 1,
+    "priority": [
+      "adjective_gender",
+      "adjective_number",
+      "adjective_case",
+      "adjective_definite",
+      "determiner_gender",
+      "determiner_number",
+      "determiner_case",
+      "verb_number_agreement",
+      "verb_person_agreement",
+      "governed_infinitive",
+      "perfect_verb_form",
+      "preposition_case",
+      "spelling"
+    ]
+  },
+  "checker": {
+    "mode": "morphology",
+    "workers": 8
+  },
+  "prompts": {
+    "acceptability": "Er hesin f\u00f8royski setningurin m\u00e1ll\u00e6ruliga r\u00e6ttur og r\u00e6tt stava\u00f0ur? Svara bara vi\u00f0 yes ella no.",
+    "correction": "R\u00e6tta m\u00e1ll\u00e6ru- og stavivillur \u00ed hesum f\u00f8royska setninginum. Er setningurin longu r\u00e6ttur, gev hann aftur \u00f3broyttan. Var\u00f0veit f\u00f8royskt m\u00e1l, t\u00fddning og st\u00edl. Svara bara vi\u00f0 setninginum."
+  },
+  "standard_exclusions": [],
+  "curation": {
+    "min_words": 7,
+    "max_words": 35,
+    "max_sentence_chars": 320,
+    "max_paragraph_chars": 6000,
+    "source_risk_patterns": [
+      "^(?:[IVXLCDM]+|[A-Z])[.)]\\s"
+    ]
+  },
+  "description": "Pinned DynaWord prose. Candidate dataset: dictionary and syntactic-rule screening; independent linguistic audit required.",
+  "dependencies": [
+    "requests",
+    "pyarrow",
+    "huggingface-hub",
+    "stanza",
+    "spylls"
+  ],
+  "source_sampling": "round_robin",
+  "export_used_rule_mappings": true,
+  "release_policy": {
+    "status": "candidate_only",
+    "require_audit_per_family": true,
+    "target": {
+      "name": "Faroese",
+      "dataset_id": "dala-faroese-dynaword",
+      "target_pairs": null,
+      "size_policy": "exhaust_suitable_sources"
+    }
+  },
+  "indefinite_articles": [
+    "ein",
+    "eina",
+    "einum",
+    "eini",
+    "eitt",
+    "einar",
+    "einari"
+  ],
+  "personal_pronoun_features": {
+    "eg": {
+      "Person": "1",
+      "Number": "Sing"
+    },
+    "t\u00fa": {
+      "Person": "2",
+      "Number": "Sing"
+    },
+    "hann": {
+      "Person": "3",
+      "Number": "Sing"
+    },
+    "hon": {
+      "Person": "3",
+      "Number": "Sing"
+    },
+    "vit": {
+      "Person": "1",
+      "Number": "Plur"
+    },
+    "tit": {
+      "Person": "2",
+      "Number": "Plur"
+    },
+    "teir": {
+      "Person": "3",
+      "Number": "Plur"
+    },
+    "t\u00e6r": {
+      "Person": "3",
+      "Number": "Plur"
+    }
+  },
+  "build": {
+    "parser_processes": 8,
+    "document_batch_size": 32,
+    "max_task_chars": 30000,
+    "checkpoint_dir": "la_output/fo_recovery_v1_checkpoints",
+    "allow_shortfall": true
+  },
+  "morphology_options": {
+    "lemma_strategy": "surface_unique",
+    "source_pronoun_agreement": true,
+    "complete_verb_agreement_from_subject": true,
+    "gender_equivalences": []
+  }
+}

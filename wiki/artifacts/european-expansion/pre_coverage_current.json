@@ -1,0 +1,17 @@
+{
+  "datasets": {
+    "ca": "/work/mimir/DaLA/la_output/european_pilots/audited_cpu_v1/ca",
+    "cs": "/work/mimir/DaLA/la_output/european_pilots/audited_cpu_review_v3/cs",
+    "de": "/work/mimir/DaLA/la_output/european_pilots/audited_cpu_review_v3/de",
+    "el": "/work/mimir/DaLA/la_output/european_pilots/audited_cpu_review_v3/el",
+    "es": "/work/mimir/DaLA/la_output/european_pilots/audited_cpu_v1/es",
+    "et": "/work/mimir/DaLA/la_output/european_pilots/audited_cpu_v1/et",
+    "fi": "/work/mimir/DaLA/la_output/european_pilots/audited_cpu_v1/fi",
+    "fr": "/work/mimir/DaLA/la_output/european_pilots/audited_cpu_v1/fr",
+    "it": "/work/mimir/DaLA/la_output/european_pilots/audited_cpu_v1/it",
+    "pt-PT": "/work/mimir/DaLA/la_output/european_pilots/audited_cpu_gap_v2/pt-PT",
+    "ro": "/work/mimir/DaLA/la_output/european_pilots/audited_cpu_v1/ro",
+    "uk": "/work/mimir/DaLA/la_output/european_pilots/audited_cpu_v1/uk"
+  },
+  "assessment": "assessment.json"
+}

@@ -1,0 +1,224 @@
+{
+  "at": "2026-09-24T06:44:40.190997+00:00",
+  "method": "seed 240924, six samples per language from first 50 screened checkpoints, before final selection",
+  "human_linguistic_validation": false,
+  "precision_estimate": false,
+  "rows": [
+    {
+      "language": "pl",
+      "pair_id": "bc0be6764b06637783d31257",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "pl",
+      "pair_id": "a0820204f96d400f666da55c",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "pl",
+      "pair_id": "86367f2db6f76b4b8fbf875d",
+      "judgment": "reject",
+      "reason": "Potential correct-to-correct: native SGJP admits singular genitive słodyczy; missing from seed-limited compiled lexicon. Rebuild with surface-analysis closure."
+    },
+    {
+      "language": "pl",
+      "pair_id": "849e5624dddf6ba48a8ef194",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "pl",
+      "pair_id": "ff13dea4074416af0432949b",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "pl",
+      "pair_id": "99436f7608ab23b1d5614fd2",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "sv",
+      "pair_id": "a5135ca219eff83a0e509536",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "sv",
+      "pair_id": "6ad366cb8fdbce9e76304ade",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "sv",
+      "pair_id": "ea373bc360d589e19132f6ca",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "sv",
+      "pair_id": "e7edbeff992fd934d7977641",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "sv",
+      "pair_id": "7265954e847def688c3a2181",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "sv",
+      "pair_id": "3811448af520255cc5d9e227",
+      "judgment": "reject",
+      "reason": "Source appears to omit att before principen om likabehandling upprätthålls; not a reliable clean control."
+    },
+    {
+      "language": "nb",
+      "pair_id": "ea8aede13d172f0ef65d8c8d",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "nb",
+      "pair_id": "048b6f61b786667cf53b18e1",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "nb",
+      "pair_id": "9874c1b7260bdaa8a6bfd900",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "nb",
+      "pair_id": "3c1a3c435893deb463667f3c",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "nb",
+      "pair_id": "861b24949022672eb582a1c4",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "nb",
+      "pair_id": "bbc44aade5514a9cb661c617",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "nn",
+      "pair_id": "acc25daae3622fef130044cf",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "nn",
+      "pair_id": "11e341f01e6d22965c83db23",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "nn",
+      "pair_id": "595ec0b1c577de7eff13cd1e",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "nn",
+      "pair_id": "14d3e13c538b5ce3aede3aad",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "nn",
+      "pair_id": "464845232dff758d93d33b07",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "nn",
+      "pair_id": "426abd6f98f3b553081c472c",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "fo",
+      "pair_id": "581a5691a6db9fb0e1c151bb",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "fo",
+      "pair_id": "0f83a91dab64665eabd39b45",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "fo",
+      "pair_id": "53290372f42ed3c979874588",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "fo",
+      "pair_id": "fd415c3a7d1d9c75646cc6a7",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "fo",
+      "pair_id": "5204ec09f751de41370b9a3a",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "fo",
+      "pair_id": "08006b315c4e7882aae0a644",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "is",
+      "pair_id": "4036aded29f855ccf8e5f818",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "is",
+      "pair_id": "2fb78d4553ed457ba0cd05a4",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "is",
+      "pair_id": "1cd2c09a44aa4cc79aa7d09d",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "is",
+      "pair_id": "017f9e6dbc4b52ff17e3aee3",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "is",
+      "pair_id": "4fcac140b80b87df77a440f9",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    },
+    {
+      "language": "is",
+      "pair_id": "e01a769e713c3e45108c1655",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source or edit defect found in agent inspection; not native-speaker gold."
+    }
+  ]
+}

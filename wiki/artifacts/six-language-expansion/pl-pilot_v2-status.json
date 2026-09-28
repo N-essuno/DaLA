@@ -1,0 +1,6 @@
+{
+  "language": "pl",
+  "exit_code": 0,
+  "log": "wiki/artifacts/six-language-expansion/pl-pilot_v2.log",
+  "output": "la_output/pl_dynaword_pilot_v2"
+}
