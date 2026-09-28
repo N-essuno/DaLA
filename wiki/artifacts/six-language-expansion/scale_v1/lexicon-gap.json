@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-24T06:42:25.230097+00:00",
+  "affected": [
+    "pl",
+    "is"
+  ],
+  "reason": "UD-seeded lemma expansion is not surface-analysis closure: s\u0142odyczy omitted valid singular s\u0142odycz readings. Restart these two builds after closing all retained surface analyses against native lexicons.",
+  "example_pair_id": "86367f2db6f76b4b8fbf875d",
+  "superseded_runs": [
+    "pl_scale_v1",
+    "is_scale_v1"
+  ]
+}

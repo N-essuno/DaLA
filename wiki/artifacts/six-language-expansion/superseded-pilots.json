@@ -1,0 +1,15 @@
+{
+  "status": "superseded_diagnostic_only",
+  "reason": "Morphology conversion, ambiguity and source-quality fixes after inspection; do not use as production data.",
+  "runs": [
+    "pilot_v1",
+    "pilot_v2",
+    "pilot_v3",
+    "pilot_v4",
+    "pilot_v5",
+    "pilot_v8",
+    "pilot_v9"
+  ],
+  "replacement_run": "audit_v10",
+  "human_linguistic_validation": false
+}

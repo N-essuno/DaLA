@@ -1,0 +1,95 @@
+{
+  "dataset": "la_output/dutch_validation_curated",
+  "pairs": 2312,
+  "task_rows_each": 4624,
+  "families": {
+    "spelling": 1387,
+    "demonstrative_agreement": 37,
+    "article_gender": 507,
+    "article_number": 71,
+    "adjective_inflection": 161,
+    "possessive_agreement": 36,
+    "subject_verb_agreement": 111,
+    "relative_pronoun_agreement": 1,
+    "verb_dt": 1
+  },
+  "sources": {
+    "eurlex": 380,
+    "dienst_publiek_en_communicatie": 1932
+  },
+  "contributing_documents": 680,
+  "distinct_substitutions": 1210,
+  "active_rules": 50,
+  "top_substitutions": [
+    {
+      "original": "de",
+      "replacement": "het",
+      "count": 428
+    },
+    {
+      "original": "het",
+      "replacement": "de",
+      "count": 150
+    },
+    {
+      "original": "maken",
+      "replacement": "maaken",
+      "count": 40
+    },
+    {
+      "original": "dit",
+      "replacement": "deze",
+      "count": 34
+    },
+    {
+      "original": "hebben",
+      "replacement": "heben",
+      "count": 32
+    },
+    {
+      "original": "grond",
+      "replacement": "gront",
+      "count": 21
+    },
+    {
+      "original": "onze",
+      "replacement": "ons",
+      "count": 19
+    },
+    {
+      "original": "ons",
+      "replacement": "onze",
+      "count": 17
+    },
+    {
+      "original": "geven",
+      "replacement": "geefen",
+      "count": 16
+    },
+    {
+      "original": "ontstaan",
+      "replacement": "onstaan",
+      "count": 13
+    }
+  ],
+  "validation": {
+    "pairs": 2312,
+    "unique_documents": 680,
+    "exact_edit_reconstruction": true,
+    "correction_roundtrip": true,
+    "document_split_isolation": true,
+    "exported_text_unique": true,
+    "at_most_one_grammar_edit": true,
+    "artifact_checksums": true,
+    "task_views_match_pairs": true,
+    "balanced_labels": true,
+    "source_provenance_consistent": true
+  },
+  "parent_source_text_roundtrips": 6474,
+  "parent_opentaal_checks": 3446,
+  "unchanged_subset_of_parent": true,
+  "review_exclusions_absent": true,
+  "per_split_caps_verified": true,
+  "manifest_sha256": "1afbe0a0765c7ff197d2098bb741e9e5748fc6523addc0a143cca7875faed80b",
+  "quality_note": "Review-informed filtered subset; fresh audit estimate belongs to the pre-removal balanced dataset, not an independent audit of this final subset."
+}

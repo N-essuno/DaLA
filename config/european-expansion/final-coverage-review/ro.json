@@ -1,0 +1,18 @@
+{
+  "language": "ro",
+  "source_sha256": [
+    "b774e1da3455684282700b3cd70e6917151cdf022c37f092103e4316dde0ca5e"
+  ],
+  "review_type": "automatic source-boundary risk filter plus explicitly recorded agent judgments; not native validation",
+  "source_risk_patterns": [
+    "[!?]"
+  ],
+  "judgments": [
+    {
+      "pair_id": "d3c3eb6aa12603f535135cd6",
+      "original": "Este posibil, deci, de a-l considera un rege domnind în ținuturile de deal și munte ale Olteniei (și Banatului?).",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    }
+  ]
+}

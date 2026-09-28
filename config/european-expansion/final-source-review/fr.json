@@ -1,0 +1,14 @@
+{
+  "language": "fr",
+  "source_sha256": [
+    "1628683ded377121d8e09d99f9f64db7c560901ad1fe9c06cdb2cd71bfb4154c"
+  ],
+  "review_type": "agent inspection, not native validation",
+  "judgments": [
+    {
+      "original": "Des nombreuses nouvelles options de contrôles rendent le jeu plus réaliste.",
+      "reason": "Indefinite plural article before prenominal adjective should be de nombreuses here; reject the malformed source.",
+      "judgment": "reject"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "review": {
+    "reviewer": "Codex agent",
+    "native_speaker_gold": false,
+    "completed_at": "2026-09-22T06:07:31.471081+00:00",
+    "scope": "All 200 originals and recorded edits inspected, with full grammar-corrupted strings; separate 15-family supplement. Grammatical/spelling/extraction quality, not factual or legal verification."
+  },
+  "uniform_sources": {
+    "acceptable": 180,
+    "erroneous": 15,
+    "uncertain": 5
+  },
+  "uniform_edits": {
+    "valid": 200
+  },
+  "by_source": {
+    "officiele_bekendmakingen": {
+      "acceptable": 118,
+      "erroneous": 9,
+      "uncertain": 4
+    },
+    "de_rechtspraak": {
+      "acceptable": 62,
+      "erroneous": 6,
+      "uncertain": 1
+    }
+  },
+  "supplement_sources": {
+    "acceptable": 15
+  },
+  "supplement_edits": {
+    "valid": 15
+  },
+  "language_advice": [
+    "https://taaladvies.net/ten-slotte-of-tenslotte-ten-minste-of-tenminste-ten-einde-of-teneinde/",
+    "https://taaladvies.net/te-kort-of-tekort-te-veel-of-teveel-te-goed-of-tegoed/"
+  ]
+}

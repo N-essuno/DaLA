@@ -1,0 +1,50 @@
+{
+  "fi": {
+    "screened_pairs": 3816,
+    "families": {
+      "spelling": 3066,
+      "adjective_case": 303,
+      "verb_person_agreement": 63,
+      "adjective_number": 215,
+      "determiner_number": 25,
+      "verb_number_agreement": 122,
+      "determiner_case": 22
+    },
+    "rules": {
+      "fi_spelling_transpose_internal": 1371,
+      "fi_spelling_delete_internal": 1452,
+      "fi_adjective_case_ud": 303,
+      "fi_spelling_substitute_character": 243,
+      "fi_verb_person_agreement_ud": 63,
+      "fi_adjective_number_ud": 215,
+      "fi_determiner_number_ud": 25,
+      "fi_verb_number_agreement_ud": 122,
+      "fi_determiner_case_ud": 22
+    },
+    "qualification": "Sampled committed screened batches, before final quota/dedup selection. Not precision validation."
+  },
+  "et": {
+    "screened_pairs": 2166,
+    "families": {
+      "spelling": 1697,
+      "determiner_case": 100,
+      "adjective_case": 113,
+      "verb_number_agreement": 63,
+      "adjective_number": 68,
+      "verb_person_agreement": 76,
+      "determiner_number": 49
+    },
+    "rules": {
+      "et_spelling_delete_internal": 778,
+      "et_spelling_substitute_character": 111,
+      "et_spelling_transpose_internal": 808,
+      "et_determiner_case_ud": 100,
+      "et_adjective_case_ud": 113,
+      "et_verb_number_agreement_ud": 63,
+      "et_adjective_number_ud": 68,
+      "et_verb_person_agreement_ud": 76,
+      "et_determiner_number_ud": 49
+    },
+    "qualification": "Sampled committed screened batches, before final quota/dedup selection. Not precision validation."
+  }
+}

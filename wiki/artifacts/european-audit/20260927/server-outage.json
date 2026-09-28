@@ -1,0 +1,69 @@
+{
+  "time": "2026-09-28T13:35:22.567639+00:00",
+  "jobs": {
+    "done": 5518894,
+    "failed": 22329,
+    "pending": 2254
+  },
+  "client_alive": false,
+  "endpoint_health": "All eight localhost ports 8600\u20138607 refused connections",
+  "action": "SIGTERM audit client; borrowed servers untouched",
+  "errors": [
+    [
+      "ValueError: Truncated model response",
+      5861
+    ],
+    [
+      "ClientConnectorError: Cannot connect to host 127.0.0.1:8600 ssl:default [Connect call failed ('127.0.0.1', 8600)]",
+      2239
+    ],
+    [
+      "ClientConnectorError: Cannot connect to host 127.0.0.1:8601 ssl:default [Connect call failed ('127.0.0.1', 8601)]",
+      2175
+    ],
+    [
+      "ClientConnectorError: Cannot connect to host 127.0.0.1:8602 ssl:default [Connect call failed ('127.0.0.1', 8602)]",
+      2112
+    ],
+    [
+      "ClientConnectorError: Cannot connect to host 127.0.0.1:8603 ssl:default [Connect call failed ('127.0.0.1', 8603)]",
+      2109
+    ],
+    [
+      "ClientConnectorError: Cannot connect to host 127.0.0.1:8604 ssl:default [Connect call failed ('127.0.0.1', 8604)]",
+      1985
+    ],
+    [
+      "ClientConnectorError: Cannot connect to host 127.0.0.1:8605 ssl:default [Connect call failed ('127.0.0.1', 8605)]",
+      1984
+    ],
+    [
+      "ClientConnectorError: Cannot connect to host 127.0.0.1:8607 ssl:default [Connect call failed ('127.0.0.1', 8607)]",
+      1920
+    ],
+    [
+      "ClientConnectorError: Cannot connect to host 127.0.0.1:8606 ssl:default [Connect call failed ('127.0.0.1', 8606)]",
+      1920
+    ],
+    [
+      "ServerDisconnectedError: Server disconnected",
+      9
+    ],
+    [
+      "TimeoutError: ",
+      6
+    ],
+    [
+      "JSONDecodeError: Unterminated string starting at: line 1 column 134 (char 133)",
+      6
+    ],
+    [
+      "JSONDecodeError: Unterminated string starting at: line 1 column 135 (char 134)",
+      2
+    ],
+    [
+      "ClientResponseError: 500, message='Internal Server Error', url='http://127.0.0.1:8600/v1/chat/completions'",
+      1
+    ]
+  ]
+}

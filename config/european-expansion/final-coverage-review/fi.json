@@ -1,0 +1,67 @@
+{
+  "language": "fi",
+  "source_sha256": [
+    "0d42d434a29e456de22ee2577a3a10c56bfc3827bd09f13f1fa219236884fe5d",
+    "0ef6b33c0798b81d072b2dc49a78f339a1822cecffe6a15db70795f3699e4826",
+    "29593c76dd06570df17c00d667acd642ccb23a523ea1b1cf087fa1d120334355",
+    "9a3c88694c7c2e10efe92caae95876ae1e70a1861a23990df0ca9ab082a19621",
+    "a0ae7a82b4abcdcdb63d6cc4e3f9d3f51c3bf441ab55895ad762ec0ddcba8794",
+    "c472b315e542f5d1e9c575d5a03913668b6ec5860c30f74defb78487200b1e88",
+    "d5a7e7a1d3f758e0a510f0db97a3e94768681df74c1e4dbac30b1cc63bb8d714",
+    "d5d3a6f3aeac3b3cf3c914c8417ad9bee876fc15bc754aa584fe050a6bb3c150"
+  ],
+  "review_type": "automatic source-boundary risk filter plus explicitly recorded agent judgments; not native validation",
+  "source_risk_patterns": [
+    "[!?]"
+  ],
+  "judgments": [
+    {
+      "pair_id": "ba283328897e4f831f477b59",
+      "original": "Justicella oli pääroolit Nickelodeonin elokuvissa Spectacular! (2009) ja The Boy Who Cried Werewolf (2010), jotka olivat arvostelu- ja katsojamenestyksiä.",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    },
+    {
+      "pair_id": "413aed6e66d8bf4464cc34ac",
+      "original": "Myöhemmin osa yhtiön perustajista teki yhtiöstä elokuvan Riot-On!, jossa kuvattiin yhtiön hulppeaa rahankäyttöä ja juhlimista.",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    },
+    {
+      "pair_id": "a80abf7a3c0c882aa4f6db8c",
+      "original": "Vuonna 2013 Yle Radio 1 esitti Pulkkisen lähihistorian uudelleenkirjoittamista käsittelevän monologikuunnelman Wunderbar!, jonka esitti Krista Kosonen.",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    },
+    {
+      "pair_id": "da8c884c22411a2a055bb7d9",
+      "original": "Hän asuu teltassa joen rannalla aivan Muumitalon liepeillä ja soittaa huuliharppua (Janssonin sarjakuvassa hän soittaa myös haitaria ja Kuka lohduttaisi Nyytiä? -kirjassa poikkihuilua).",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    },
+    {
+      "pair_id": "6c5600498c634d9c74d16fc5",
+      "original": "Tuolloin Atwood kirjoitti kanadalaiseen Globe and Mail -lehteen esseen Am I a bad feminist?.",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    },
+    {
+      "pair_id": "14515c2f0f0c82caca297018",
+      "original": "Teoskokonaisuuden laajimpia teoksia olivat muun muassa Kakolan kukkulalle sijoittunut, 420 metriä pitkä Paraatimatto Joutomaalle, Pallivahan Pitsihuntu, Torkkutyynyt Aurajokivarressa sekä Taidetta Kansalle! -teos, jossa 82 taideteosta jaettiin yleisölle hakemusten perusteella.",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    },
+    {
+      "pair_id": "71a5b30b23920623b6dbffcc",
+      "original": "Pulkkinen oli keväällä 2007 vakiokeskustelijana Nelosen Kuka, mitä, häh? -ohjelmassa.",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    },
+    {
+      "pair_id": "e1771da8d0321d6d8bafe23d",
+      "original": "Fall Out Boy -yhtyeen laulajana tunnetun Patrick Stumpin tuottama ¡Viva La Cobra! -albumi ilmestyi 23. lokakuuta 2007.",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    }
+  ]
+}

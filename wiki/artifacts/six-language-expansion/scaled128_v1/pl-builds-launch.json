@@ -1,0 +1,17 @@
+{
+  "pid": 1698333,
+  "command": [
+    "-m",
+    "scripts.run_six_language_scale",
+    "--languages",
+    "pl",
+    "--run-id",
+    "scaled128_v1",
+    "--tools-dir",
+    "/tmp/dala-six-tools",
+    "--parser-workers",
+    "128"
+  ],
+  "log": "/tmp/dala-six-scaled128_v1-pl-builds.log",
+  "at": "2026-09-24T19:08:19.090131+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "language": "el",
+  "source_sha256": [
+    "a41a8660ee0c9f2f17c1122ec883754992d624cd7b2be856bd99d1f94937a484"
+  ],
+  "review_type": "agent inspection, not native validation",
+  "judgments": [
+    {
+      "original": "Το έργο αυτό που διαπνέεται από θρησκευτικό πνεύμα, είναι νεκρική ηρωική στήλη.",
+      "reason": "Uncertain source comma separating subject and predicate; excluded conservatively.",
+      "judgment": "uncertain"
+    }
+  ]
+}

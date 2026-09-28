@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "name": "DaLA English \u2014 Common Pile",
+  "mode": "pairs",
+  "parser": "en_core_web_md",
+  "parser_version": "3.8.0",
+  "sources": {
+    "adapter": "common_pile"
+  },
+  "sources_config": "../english_sources_scale.json",
+  "rulebook": "../english_productive_rules.json",
+  "exclusions": "../english_source_exclusions.json",
+  "adapter": "dala.language_packs.english:EnglishPack",
+  "selection": {
+    "strategy": "rare_first",
+    "max_errors": 2,
+    "priority": [
+      "perfect_participle",
+      "do_support_form",
+      "noun_number",
+      "modal_verb_form",
+      "demonstrative_number",
+      "subject_verb_agreement",
+      "spelling",
+      "word_deletion",
+      "word_swap"
+    ],
+    "max_replacement_pairs": null,
+    "token_fallback": "no_targeted_grammar_or_lexical",
+    "spelling_operator_priority": [
+      "lexical",
+      "character_edit"
+    ]
+  },
+  "checker": {
+    "mode": "local",
+    "dialects": [
+      "en-US",
+      "en-GB"
+    ],
+    "workers": 64,
+    "server_threads": 16,
+    "heap": "6g",
+    "cache_commit_batch_size": 128
+  },
+  "prompts": {
+    "acceptability": "Is this English sentence correct in grammar and spelling? Answer only yes or no.",
+    "correction": "Correct any grammar or spelling errors in this English sentence. If it is already correct, return it unchanged. Preserve its meaning and formatting. Output only the sentence."
+  },
+  "description": "Pinned Common Pile 360info, Public Domain Review essays and Global Voices long-form articles. Original authors, source URLs and source-specific licenses accompany each document. Global Voices publisher states CC BY 3.0; captured Common Pile metadata says BY 4.0 and is preserved separately.",
+  "grammar": {
+    "singular_pronouns": [
+      "he",
+      "she",
+      "it"
+    ],
+    "other_pronouns": [
+      "i",
+      "we",
+      "they",
+      "you"
+    ],
+    "singular_determiners": [
+      "each",
+      "every"
+    ],
+    "plural_determiners": [
+      "these",
+      "those",
+      "many",
+      "several"
+    ],
+    "quantifiers": [
+      "many",
+      "several"
+    ],
+    "modals": [
+      "can",
+      "could",
+      "may",
+      "might",
+      "must",
+      "shall",
+      "should",
+      "will",
+      "would"
+    ],
+    "do_forms": [
+      "do",
+      "does",
+      "did"
+    ],
+    "have_forms": [
+      "have",
+      "has",
+      "had"
+    ],
+    "demonstratives": {
+      "this": "NN",
+      "that": "NN",
+      "these": "NNS",
+      "those": "NNS"
+    },
+    "exclude_agreement_lemmas": [
+      "team",
+      "staff",
+      "committee",
+      "government",
+      "family",
+      "audience",
+      "board",
+      "council",
+      "company",
+      "group",
+      "majority",
+      "minority",
+      "couple",
+      "police",
+      "people",
+      "data",
+      "media",
+      "number",
+      "rest",
+      "lot",
+      "series",
+      "species",
+      "means",
+      "headquarters",
+      "news",
+      "politics"
+    ],
+    "exclude_number_lemmas": [
+      "people",
+      "police",
+      "clothes",
+      "scissors",
+      "trousers",
+      "pants",
+      "glasses",
+      "news",
+      "means",
+      "series",
+      "species",
+      "data",
+      "media"
+    ],
+    "replacement_overrides": {
+      "be": {
+        "VBP": [
+          "are"
+        ],
+        "VBZ": [
+          "is"
+        ]
+      }
+    }
+  },
+  "dependencies": [
+    "requests",
+    "lemminflect"
+  ],
+  "build": {
+    "document_batch_size": 1000,
+    "parser_processes": 8,
+    "target_pairs": 492063,
+    "split_targets": {
+      "train": 393650,
+      "validation": 24604,
+      "test": 73809
+    },
+    "checkpoint_dir": "la_output/english_scale_checkpoints",
+    "review_exclusions": "config/english_scale_review_exclusions.json"
+  },
+  "splits": {
+    "train_percent": 80,
+    "validation_percent": 5
+  }
+}

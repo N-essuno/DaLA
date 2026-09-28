@@ -1,0 +1,643 @@
+[
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "pt-PT",
+      "lexical_checks": [
+        {
+          "corrupted_end": 13,
+          "corrupted_start": 12,
+          "original_recognized": true,
+          "replacement_recognized": true,
+          "rule_id": "pt-PT_determiner_number_ud"
+        }
+      ]
+    },
+    "corrupted": "Como sabem, a alterações propostas são de compromisso.",
+    "document_boundary_status": "source_document",
+    "document_id": "d022f40c16db25b5efe9c45bdc870e1825e878743d99594978966d2c52747acb",
+    "document_sha256": "9e0b0a894c9450f8ea63079e365f84cbb8cd9b2df65aaddde94e1c3d569d5841",
+    "edits": [
+      {
+        "corrupted_end": 13,
+        "corrupted_start": 12,
+        "corruption_type": "determiner_number",
+        "end": 14,
+        "original": "as",
+        "protected_tokens": [
+          9,
+          10,
+          11
+        ],
+        "replacement": "a",
+        "rule_id": "pt-PT_determiner_number_ud",
+        "start": 12
+      }
+    ],
+    "language": "pt-PT",
+    "license": "Original European Parliament source terms; redistribution review pending",
+    "original": "Como sabem, as alterações propostas são de compromisso.",
+    "pair_id": "e867a7d747c623ded0ee0e52",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 2726,
+    "sentence_start": 2671,
+    "source_dataset": "OPUS-Europarl-v8:pt",
+    "source_document_id": "08-07-09",
+    "source_document_scope": "one_complete_chapter_grouped_by_sitting_date",
+    "source_file": "Europarl/raw/pt/ep-08-07-09-005-14.xml",
+    "source_name": "Europarl_pt",
+    "source_revision": "v8-sha256:40032ce314c42098b02c96549b66c1fe213257174b2542f3c19656206bf37f56",
+    "split": "validation",
+    "url": "https://www.statmt.org/europarl/",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "pt-PT",
+      "lexical_checks": [
+        {
+          "corrupted_end": 21,
+          "corrupted_start": 19,
+          "original_recognized": true,
+          "replacement_recognized": true,
+          "rule_id": "pt-PT_determiner_gender_ud"
+        }
+      ]
+    },
+    "corrupted": "Presidente, esta é um questão muito difícil.",
+    "document_boundary_status": "source_document",
+    "document_id": "12f17380ad88b4ca6f256ef78effafad8ea5e76e76f2f6d8194254790bd4d7a4",
+    "document_sha256": "a5a9b02605438326ecba2ce8411a42f90be8222e587fb286e165e482c3967e2a",
+    "edits": [
+      {
+        "corrupted_end": 21,
+        "corrupted_start": 19,
+        "corruption_type": "determiner_gender",
+        "end": 22,
+        "original": "uma",
+        "protected_tokens": [
+          13,
+          14,
+          15
+        ],
+        "replacement": "um",
+        "rule_id": "pt-PT_determiner_gender_ud",
+        "start": 19
+      }
+    ],
+    "language": "pt-PT",
+    "license": "Original European Parliament source terms; redistribution review pending",
+    "original": "Presidente, esta é uma questão muito difícil.",
+    "pair_id": "b6dcdbb4db77a22302353276",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 2036,
+    "sentence_start": 1991,
+    "source_dataset": "OPUS-Europarl-v8:pt",
+    "source_document_id": "06-12-11",
+    "source_document_scope": "one_complete_chapter_grouped_by_sitting_date",
+    "source_file": "Europarl/raw/pt/ep-06-12-11-012.xml",
+    "source_name": "Europarl_pt",
+    "source_revision": "v8-sha256:40032ce314c42098b02c96549b66c1fe213257174b2542f3c19656206bf37f56",
+    "split": "train",
+    "url": "https://www.statmt.org/europarl/",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "pt-PT",
+      "lexical_checks": [
+        {
+          "corrupted_end": 9,
+          "corrupted_start": 0,
+          "original_recognized": true,
+          "replacement_recognized": false,
+          "rule_id": "pt-PT_spelling_delete_internal"
+        }
+      ]
+    },
+    "corrupted": "Prsidente, gostaria de defender que as votações tenham lugar hoje.",
+    "document_boundary_status": "source_document",
+    "document_id": "d1c84fc2be34d0c38653318aaed8110ce65a4bb6e59a1e8e8095f33d828d13c1",
+    "document_sha256": "d95df329696e1739707c195db9acd305129477763e70918896e17794feb3e736",
+    "edits": [
+      {
+        "corrupted_end": 9,
+        "corrupted_start": 0,
+        "corruption_type": "spelling",
+        "end": 10,
+        "original": "Presidente",
+        "protected_tokens": [
+          6,
+          7,
+          9
+        ],
+        "replacement": "Prsidente",
+        "requires_lexical_screen": true,
+        "rule_id": "pt-PT_spelling_delete_internal",
+        "start": 0
+      }
+    ],
+    "language": "pt-PT",
+    "license": "Original European Parliament source terms; redistribution review pending",
+    "original": "Presidente, gostaria de defender que as votações tenham lugar hoje.",
+    "pair_id": "987bde6826ccf9b1475de9f5",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 2903,
+    "sentence_start": 2836,
+    "source_dataset": "OPUS-Europarl-v8:pt",
+    "source_document_id": "10-06-16",
+    "source_document_scope": "one_complete_chapter_grouped_by_sitting_date",
+    "source_file": "Europarl/raw/pt/ep-10-06-16-008-10.xml",
+    "source_name": "Europarl_pt",
+    "source_revision": "v8-sha256:40032ce314c42098b02c96549b66c1fe213257174b2542f3c19656206bf37f56",
+    "split": "validation",
+    "url": "https://www.statmt.org/europarl/",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "pt-PT",
+      "lexical_checks": [
+        {
+          "corrupted_end": 8,
+          "corrupted_start": 7,
+          "original_recognized": true,
+          "replacement_recognized": true,
+          "rule_id": "pt-PT_determiner_gender_ud"
+        }
+      ]
+    },
+    "corrupted": "Esta é o diferença entre um estado de direito e o poder arbitrário.",
+    "document_boundary_status": "source_document",
+    "document_id": "d022f40c16db25b5efe9c45bdc870e1825e878743d99594978966d2c52747acb",
+    "document_sha256": "9e0b0a894c9450f8ea63079e365f84cbb8cd9b2df65aaddde94e1c3d569d5841",
+    "edits": [
+      {
+        "corrupted_end": 8,
+        "corrupted_start": 7,
+        "corruption_type": "determiner_gender",
+        "end": 8,
+        "original": "a",
+        "protected_tokens": [
+          57,
+          58,
+          59
+        ],
+        "replacement": "o",
+        "rule_id": "pt-PT_determiner_gender_ud",
+        "start": 7
+      }
+    ],
+    "language": "pt-PT",
+    "license": "Original European Parliament source terms; redistribution review pending",
+    "original": "Esta é a diferença entre um estado de direito e o poder arbitrário.",
+    "pair_id": "bb9c3ca71a80615e9c285277",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 1650,
+    "sentence_start": 1583,
+    "source_dataset": "OPUS-Europarl-v8:pt",
+    "source_document_id": "08-07-09",
+    "source_document_scope": "one_complete_chapter_grouped_by_sitting_date",
+    "source_file": "Europarl/raw/pt/ep-08-07-09-005-14.xml",
+    "source_name": "Europarl_pt",
+    "source_revision": "v8-sha256:40032ce314c42098b02c96549b66c1fe213257174b2542f3c19656206bf37f56",
+    "split": "validation",
+    "url": "https://www.statmt.org/europarl/",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "pt-PT",
+      "lexical_checks": [
+        {
+          "corrupted_end": 30,
+          "corrupted_start": 26,
+          "original_recognized": true,
+          "replacement_recognized": true,
+          "rule_id": "pt-PT_determiner_gender_ud"
+        }
+      ]
+    },
+    "corrupted": "Aprovar uma tal resolução este semana seria muito perigoso; faria mais mal que bem.",
+    "document_boundary_status": "source_document",
+    "document_id": "12f17380ad88b4ca6f256ef78effafad8ea5e76e76f2f6d8194254790bd4d7a4",
+    "document_sha256": "a5a9b02605438326ecba2ce8411a42f90be8222e587fb286e165e482c3967e2a",
+    "edits": [
+      {
+        "corrupted_end": 30,
+        "corrupted_start": 26,
+        "corruption_type": "determiner_gender",
+        "end": 30,
+        "original": "esta",
+        "protected_tokens": [
+          37,
+          38,
+          39
+        ],
+        "replacement": "este",
+        "rule_id": "pt-PT_determiner_gender_ud",
+        "start": 26
+      }
+    ],
+    "language": "pt-PT",
+    "license": "Original European Parliament source terms; redistribution review pending",
+    "original": "Aprovar uma tal resolução esta semana seria muito perigoso; faria mais mal que bem.",
+    "pair_id": "2ca1538d9ff825673aef7756",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 2869,
+    "sentence_start": 2786,
+    "source_dataset": "OPUS-Europarl-v8:pt",
+    "source_document_id": "06-12-11",
+    "source_document_scope": "one_complete_chapter_grouped_by_sitting_date",
+    "source_file": "Europarl/raw/pt/ep-06-12-11-012.xml",
+    "source_name": "Europarl_pt",
+    "source_revision": "v8-sha256:40032ce314c42098b02c96549b66c1fe213257174b2542f3c19656206bf37f56",
+    "split": "train",
+    "url": "https://www.statmt.org/europarl/",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "pt-PT",
+      "lexical_checks": [
+        {
+          "corrupted_end": 51,
+          "corrupted_start": 41,
+          "original_recognized": true,
+          "replacement_recognized": false,
+          "rule_id": "pt-PT_spelling_delete_internal"
+        }
+      ]
+    },
+    "corrupted": "Mais de três quartos de todos os Estados ratiicaram a Convenção de Otava.",
+    "document_boundary_status": "source_document",
+    "document_id": "7377daef05000e4f7999d6c97332fa4068f6b10213efac90999f2707d94f630f",
+    "document_sha256": "6dad61a6040b25da83381d2431409a29613a76f278567c39cedda3c872cb3b04",
+    "edits": [
+      {
+        "corrupted_end": 51,
+        "corrupted_start": 41,
+        "corruption_type": "spelling",
+        "end": 52,
+        "original": "ratificaram",
+        "protected_tokens": [
+          41,
+          51,
+          52,
+          55,
+          60
+        ],
+        "replacement": "ratiicaram",
+        "requires_lexical_screen": true,
+        "rule_id": "pt-PT_spelling_delete_internal",
+        "start": 41
+      }
+    ],
+    "language": "pt-PT",
+    "license": "Original European Parliament source terms; redistribution review pending",
+    "original": "Mais de três quartos de todos os Estados ratificaram a Convenção de Otava.",
+    "pair_id": "fc7c75c53c7fb02d1e4ca7ce",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 1949,
+    "sentence_start": 1875,
+    "source_dataset": "OPUS-Europarl-v8:pt",
+    "source_document_id": "07-11-12",
+    "source_document_scope": "one_complete_chapter_grouped_by_sitting_date",
+    "source_file": "Europarl/raw/pt/ep-07-11-12-002.xml",
+    "source_name": "Europarl_pt",
+    "source_revision": "v8-sha256:40032ce314c42098b02c96549b66c1fe213257174b2542f3c19656206bf37f56",
+    "split": "train",
+    "url": "https://www.statmt.org/europarl/",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "pt-PT",
+      "lexical_checks": [
+        {
+          "corrupted_end": 23,
+          "corrupted_start": 15,
+          "original_recognized": true,
+          "replacement_recognized": true,
+          "rule_id": "pt-PT_adjective_gender_ud"
+        }
+      ]
+    },
+    "corrupted": "Presidente, em primeira lugar, gostaria de expressar os meus sinceros agradecimentos a todos os colegas que votaram a favor.",
+    "document_boundary_status": "source_document",
+    "document_id": "e12e5d7fb80c9dc8068745d382ee763a060034100f2faf62d1cbf70db2bac5d0",
+    "document_sha256": "44c9b705bf1375ab2a8d5ffd9bff9e8ce24e8739ede590ef6c974bfa621e5f19",
+    "edits": [
+      {
+        "corrupted_end": 23,
+        "corrupted_start": 15,
+        "corruption_type": "adjective_gender",
+        "end": 23,
+        "original": "primeiro",
+        "protected_tokens": [
+          16,
+          17,
+          18
+        ],
+        "replacement": "primeira",
+        "rule_id": "pt-PT_adjective_gender_ud",
+        "start": 15
+      }
+    ],
+    "language": "pt-PT",
+    "license": "Original European Parliament source terms; redistribution review pending",
+    "original": "Presidente, em primeiro lugar, gostaria de expressar os meus sinceros agradecimentos a todos os colegas que votaram a favor.",
+    "pair_id": "a57891b23f3f83e7da3b1be5",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 179,
+    "sentence_start": 55,
+    "source_dataset": "OPUS-Europarl-v8:pt",
+    "source_document_id": "11-03-24",
+    "source_document_scope": "one_complete_chapter_grouped_by_sitting_date",
+    "source_file": "Europarl/raw/pt/ep-11-03-24-006-13.xml",
+    "source_name": "Europarl_pt",
+    "source_revision": "v8-sha256:40032ce314c42098b02c96549b66c1fe213257174b2542f3c19656206bf37f56",
+    "split": "train",
+    "url": "https://www.statmt.org/europarl/",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "pt-PT",
+      "lexical_checks": [
+        {
+          "corrupted_end": 64,
+          "corrupted_start": 60,
+          "original_recognized": true,
+          "replacement_recognized": true,
+          "rule_id": "pt-PT_determiner_number_ud"
+        }
+      ]
+    },
+    "corrupted": "Chegou a hora de a Comissão começar a fazer imediatamente o seus trabalho de revisão para que a nanotecnologia possa ser regulamentada de modo a proteger os cidadãos.",
+    "document_boundary_status": "source_document",
+    "document_id": "77c5e91ad065d7fdfe5af8a2cb7ed521354252eea87ebc0dc7a3dffe892e4b59",
+    "document_sha256": "e57100de4cc2bfe91cd3149996d2c9ad0c9e222db18bdbb966e80ff35235a1ae",
+    "edits": [
+      {
+        "corrupted_end": 64,
+        "corrupted_start": 60,
+        "corruption_type": "determiner_number",
+        "end": 63,
+        "original": "seu",
+        "protected_tokens": [
+          22,
+          23,
+          24
+        ],
+        "replacement": "seus",
+        "rule_id": "pt-PT_determiner_number_ud",
+        "start": 60
+      }
+    ],
+    "language": "pt-PT",
+    "license": "Original European Parliament source terms; redistribution review pending",
+    "original": "Chegou a hora de a Comissão começar a fazer imediatamente o seu trabalho de revisão para que a nanotecnologia possa ser regulamentada de modo a proteger os cidadãos.",
+    "pair_id": "d2b611d4967a09153976dc84",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 1001,
+    "sentence_start": 836,
+    "source_dataset": "OPUS-Europarl-v8:pt",
+    "source_document_id": "09-04-24",
+    "source_document_scope": "one_complete_chapter_grouped_by_sitting_date",
+    "source_file": "Europarl/raw/pt/ep-09-04-24-007-20.xml",
+    "source_name": "Europarl_pt",
+    "source_revision": "v8-sha256:40032ce314c42098b02c96549b66c1fe213257174b2542f3c19656206bf37f56",
+    "split": "test",
+    "url": "https://www.statmt.org/europarl/",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "pt-PT",
+      "lexical_checks": [
+        {
+          "corrupted_end": 22,
+          "corrupted_start": 8,
+          "original_recognized": true,
+          "replacement_recognized": false,
+          "rule_id": "pt-PT_spelling_delete_internal"
+        }
+      ]
+    },
+    "corrupted": "Estamos vedadeiramente confiantes em que irá ser um êxito.",
+    "document_boundary_status": "source_document",
+    "document_id": "6cc26a2242716c79fe3f4242092deb4eaf18bb9b7b1408c8ed1a2cd7f7f6c946",
+    "document_sha256": "fc0f8d55c20d529c44f030d548ddf773b05536ec378e406b6748199f9bb16a39",
+    "edits": [
+      {
+        "corrupted_end": 22,
+        "corrupted_start": 8,
+        "corruption_type": "spelling",
+        "end": 23,
+        "original": "verdadeiramente",
+        "protected_tokens": [
+          29,
+          30,
+          31
+        ],
+        "replacement": "vedadeiramente",
+        "requires_lexical_screen": true,
+        "rule_id": "pt-PT_spelling_delete_internal",
+        "start": 8
+      }
+    ],
+    "language": "pt-PT",
+    "license": "Original European Parliament source terms; redistribution review pending",
+    "original": "Estamos verdadeiramente confiantes em que irá ser um êxito.",
+    "pair_id": "719d2fec268f41cc2bf1c04e",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 1564,
+    "sentence_start": 1505,
+    "source_dataset": "OPUS-Europarl-v8:pt",
+    "source_document_id": "10-02-11",
+    "source_document_scope": "one_complete_chapter_grouped_by_sitting_date",
+    "source_file": "Europarl/raw/pt/ep-10-02-11-006-03.xml",
+    "source_name": "Europarl_pt",
+    "source_revision": "v8-sha256:40032ce314c42098b02c96549b66c1fe213257174b2542f3c19656206bf37f56",
+    "split": "train",
+    "url": "https://www.statmt.org/europarl/",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "pt-PT",
+      "lexical_checks": [
+        {
+          "corrupted_end": 13,
+          "corrupted_start": 11,
+          "original_recognized": true,
+          "replacement_recognized": true,
+          "rule_id": "pt-PT_determiner_number_ud"
+        }
+      ]
+    },
+    "corrupted": "Este não é os momento de iniciar um debate sobre uma questão que ainda ontem foi aqui discutida.",
+    "document_boundary_status": "source_document",
+    "document_id": "70a02f7f22c03cb569545c34e2fd822377dc8bf1169e337c434a6450f3162a0b",
+    "document_sha256": "16f2b854e16bcb0b46a883c7785c035133afca222d021c4fcecb286b1331d4d6",
+    "edits": [
+      {
+        "corrupted_end": 13,
+        "corrupted_start": 11,
+        "corruption_type": "determiner_number",
+        "end": 12,
+        "original": "o",
+        "protected_tokens": [
+          6,
+          7,
+          8
+        ],
+        "replacement": "os",
+        "rule_id": "pt-PT_determiner_number_ud",
+        "start": 11
+      }
+    ],
+    "language": "pt-PT",
+    "license": "Original European Parliament source terms; redistribution review pending",
+    "original": "Este não é o momento de iniciar um debate sobre uma questão que ainda ontem foi aqui discutida.",
+    "pair_id": "a05efd20cfb53ee29b4cd222",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 3321,
+    "sentence_start": 3226,
+    "source_dataset": "OPUS-Europarl-v8:pt",
+    "source_document_id": "11-04-06",
+    "source_document_scope": "one_complete_chapter_grouped_by_sitting_date",
+    "source_file": "Europarl/raw/pt/ep-11-04-06-007.xml",
+    "source_name": "Europarl_pt",
+    "source_revision": "v8-sha256:40032ce314c42098b02c96549b66c1fe213257174b2542f3c19656206bf37f56",
+    "split": "test",
+    "url": "https://www.statmt.org/europarl/",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "pt-PT",
+      "lexical_checks": [
+        {
+          "corrupted_end": 32,
+          "corrupted_start": 31,
+          "original_recognized": true,
+          "replacement_recognized": true,
+          "rule_id": "pt-PT_determiner_number_ud"
+        }
+      ]
+    },
+    "corrupted": "São particularmente alarmantes a penas capitais que estão a ser aplicadas a dissidentes políticos.",
+    "document_boundary_status": "source_document",
+    "document_id": "b85f9ccd23651d8aff231a60ea980e2f5df9d0e30a43dcde5fa8b0eaf8110acf",
+    "document_sha256": "67e5455b991e125b75fd317c200eee388a3ecb8323aa7499baa73b939cbadcd3",
+    "edits": [
+      {
+        "corrupted_end": 32,
+        "corrupted_start": 31,
+        "corruption_type": "determiner_number",
+        "end": 33,
+        "original": "as",
+        "protected_tokens": [
+          10,
+          11,
+          12
+        ],
+        "replacement": "a",
+        "rule_id": "pt-PT_determiner_number_ud",
+        "start": 31
+      }
+    ],
+    "language": "pt-PT",
+    "license": "Original European Parliament source terms; redistribution review pending",
+    "original": "São particularmente alarmantes as penas capitais que estão a ser aplicadas a dissidentes políticos.",
+    "pair_id": "9b7841cb949128efd6c73776",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 2567,
+    "sentence_start": 2468,
+    "source_dataset": "OPUS-Europarl-v8:pt",
+    "source_document_id": "11-02-14",
+    "source_document_scope": "one_complete_chapter_grouped_by_sitting_date",
+    "source_file": "Europarl/raw/pt/ep-11-02-14-003.xml",
+    "source_name": "Europarl_pt",
+    "source_revision": "v8-sha256:40032ce314c42098b02c96549b66c1fe213257174b2542f3c19656206bf37f56",
+    "split": "train",
+    "url": "https://www.statmt.org/europarl/",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  },
+  {
+    "checker": {
+      "grammatical_validity": "generator_constraint_only_requires_audit",
+      "language": "pt-PT",
+      "lexical_checks": [
+        {
+          "corrupted_end": 55,
+          "corrupted_start": 50,
+          "original_recognized": true,
+          "replacement_recognized": true,
+          "rule_id": "pt-PT_determiner_number_ud"
+        }
+      ]
+    },
+    "corrupted": "Senhoras e Senhores Deputados, sejam bem-vindos a estes Parlamento.",
+    "document_boundary_status": "source_document",
+    "document_id": "c3b947967a411cc02604b4d3e9cfa4653b1a0b247a7cfdd389fa93443c08cbb0",
+    "document_sha256": "58d147335750751618331a51bb69198dad7c1bccc4248c655d518cc02f509497",
+    "edits": [
+      {
+        "corrupted_end": 55,
+        "corrupted_start": 50,
+        "corruption_type": "determiner_number",
+        "end": 54,
+        "original": "este",
+        "protected_tokens": [
+          15,
+          16,
+          17
+        ],
+        "replacement": "estes",
+        "rule_id": "pt-PT_determiner_number_ud",
+        "start": 50
+      }
+    ],
+    "language": "pt-PT",
+    "license": "Original European Parliament source terms; redistribution review pending",
+    "original": "Senhoras e Senhores Deputados, sejam bem-vindos a este Parlamento.",
+    "pair_id": "7f3192df0fe36c6a889e33d9",
+    "quality_status": "candidate_rule_and_dictionary_screened",
+    "sentence_end": 906,
+    "sentence_start": 840,
+    "source_dataset": "OPUS-Europarl-v8:pt",
+    "source_document_id": "06-10-23",
+    "source_document_scope": "one_complete_chapter_grouped_by_sitting_date",
+    "source_file": "Europarl/raw/pt/ep-06-10-23-003.xml",
+    "source_name": "Europarl_pt",
+    "source_revision": "v8-sha256:40032ce314c42098b02c96549b66c1fe213257174b2542f3c19656206bf37f56",
+    "split": "train",
+    "url": "https://www.statmt.org/europarl/",
+    "agent_judgment": "provisional_accept",
+    "native_validation": false
+  }
+]

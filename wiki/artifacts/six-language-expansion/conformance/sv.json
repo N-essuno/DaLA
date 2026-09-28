@@ -1,0 +1,53 @@
+{
+  "language": "sv",
+  "passed": true,
+  "fixtures": [
+    {
+      "text": "En liten flicka läser en spännande bok i skolan.",
+      "rejection": null,
+      "families": [
+        "adjective_definite",
+        "adjective_gender",
+        "adjective_number",
+        "determiner_gender",
+        "determiner_number",
+        "spelling"
+      ],
+      "missing": [],
+      "forbidden": [],
+      "passed": true,
+      "lexical_conflicts": []
+    },
+    {
+      "text": "Vi har byggt nya hus nära den gamla skolan.",
+      "rejection": null,
+      "families": [
+        "determiner_gender",
+        "determiner_number",
+        "perfect_verb_form",
+        "pronoun_case",
+        "spelling"
+      ],
+      "missing": [],
+      "forbidden": [],
+      "passed": true,
+      "lexical_conflicts": []
+    },
+    {
+      "text": "Jag har skrivit ett långt brev till min syster.",
+      "rejection": null,
+      "families": [
+        "adjective_definite",
+        "adjective_gender",
+        "determiner_gender",
+        "perfect_verb_form",
+        "pronoun_case",
+        "spelling"
+      ],
+      "missing": [],
+      "forbidden": [],
+      "passed": true,
+      "lexical_conflicts": []
+    }
+  ]
+}

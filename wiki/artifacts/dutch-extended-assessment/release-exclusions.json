@@ -1,0 +1,86 @@
+[
+  {
+    "sentence_sha256": "7a474fd4475aa5be26b25d1fd547f942e3251fdf8c6ee5470e8ae1d5c73a21b4",
+    "reason": "Broken compounds inkoop startformulier and inkoop pagina; expected joined compounds.",
+    "evidence": "wiki/artifacts/dutch-extended-assessment/sample.json#nl-005",
+    "pair_id": "50654dcccb5f6b3bd1cfcf92"
+  },
+  {
+    "sentence_sha256": "6198038f9c3cc42bf8d2c72f91a69fcc7a3f5c3f499730ff0c5466964c39bf61",
+    "reason": "Toegang and gebruik require different prepositions: toegang tot en gebruik van de ruimte.",
+    "evidence": "wiki/artifacts/dutch-extended-assessment/sample.json#nl-029",
+    "pair_id": "f1ae4fcd9ebd3ebe288b6a5f"
+  },
+  {
+    "sentence_sha256": "01c1af94f5fef46b20354055fb0d5064f51b83237207d3ae0fc1779411eb3369",
+    "reason": "Stray de in omdat zij de in de relevante periode geen eigenaar is geweest.",
+    "evidence": "wiki/artifacts/dutch-extended-assessment/sample.json#nl-039",
+    "pair_id": "ce15c1b15e9c39a131749b58"
+  },
+  {
+    "sentence_sha256": "0bf5616defc9a88500c41865d5dd89044dc64226b35676900ee80704189742ae",
+    "reason": "Merged heading Termijnen binnen een selectieprocedure directly precedes De te hanteren ... .",
+    "evidence": "wiki/artifacts/dutch-extended-assessment/sample.json#nl-049",
+    "pair_id": "d0e648db3f39019c0f97cf3a"
+  },
+  {
+    "sentence_sha256": "082a9bd5bf534770003009e4729e29c19bffa21c1e681c1f371576bf9e0c5cb3",
+    "reason": "Missing indefinite article before singular count noun bestuursmodel.",
+    "evidence": "wiki/artifacts/dutch-extended-assessment/sample.json#nl-050",
+    "pair_id": "c7963d858baac8e884af215b"
+  },
+  {
+    "sentence_sha256": "505defa6058efffe999805d523ddfc9f21004898e43d4e34a079d20af251f08a",
+    "reason": "Het bedrijf shifts to zij; possible institutional/collective gender usage but not unambiguously clean.",
+    "evidence": "wiki/artifacts/dutch-extended-assessment/sample.json#nl-077",
+    "pair_id": "a5d5968615df016e6b11c880"
+  },
+  {
+    "sentence_sha256": "3c3383bde467c710d298cb32927ea090aabc4737520fb23c686b3007f4c31a6c",
+    "reason": "Wat may refer to the whole situation or incorrectly to psychische problematiek; uncertain antecedent/punctuation.",
+    "evidence": "wiki/artifacts/dutch-extended-assessment/sample.json#nl-094",
+    "pair_id": "ac9856fa05cb75534b8d9dea"
+  },
+  {
+    "sentence_sha256": "cfd781061bd736155c2dea65f40f53b26d12cdf13181ce78850ae7098e267a5a",
+    "reason": "Stop gezet should be stopgezet for the verb stopzetten.",
+    "evidence": "wiki/artifacts/dutch-extended-assessment/sample.json#nl-097",
+    "pair_id": "bcef7747cc532fe6cfc7ed36"
+  },
+  {
+    "sentence_sha256": "7422d5e0571623690dceab5c08ea1b7a49a780953f36b1662c29d3e7ff59c3a4",
+    "reason": "Adjacent er onder should be eronder in this pronominal-adverb construction.",
+    "evidence": "wiki/artifacts/dutch-extended-assessment/sample.json#nl-106",
+    "pair_id": "6620cdd8465991549adc79b4"
+  },
+  {
+    "sentence_sha256": "8a0cedd1b77afaaf65541ec541ede91b52d1d07f09dc1a333b7e911873da6f76",
+    "reason": "Ize Hofmanhaëlstichting appears damaged by personal-name substitution into an institution name.",
+    "evidence": "wiki/artifacts/dutch-extended-assessment/sample.json#nl-112",
+    "pair_id": "db9f17980ce59f51fc51e0bc"
+  },
+  {
+    "sentence_sha256": "b2d998ddb15a87a56adcde2df5f526a1e260cf2e68306432f2a2f1644e400b1b",
+    "reason": "Passive worden ... weergeven requires past participle weergegeven.",
+    "evidence": "wiki/artifacts/dutch-extended-assessment/sample.json#nl-141",
+    "pair_id": "c1f7649aa01f9c48a16c1c63"
+  },
+  {
+    "sentence_sha256": "8e264202726e726af3801f4641cfccbac13974ee178868ed302d6bcc23b3d3d3",
+    "reason": "Beroep van op leaves an incomplete van phrase / stray van.",
+    "evidence": "wiki/artifacts/dutch-extended-assessment/sample.json#nl-146",
+    "pair_id": "fd221c571cd0e85d79f14a03"
+  },
+  {
+    "sentence_sha256": "6b72d412ffa46b29e1661c2ad39e795674b145932431b73f7b9398e86f27fe03",
+    "reason": "Dat in voor zover dat betrekking heeft has an unclear antecedent after feminine schade.",
+    "evidence": "wiki/artifacts/dutch-extended-assessment/sample.json#nl-159",
+    "pair_id": "0e7a30339a76fe443cc6ba59"
+  },
+  {
+    "sentence_sha256": "f73293ccb29aefb062973825a705a592d5ca028909e1a771ba46f154913d4bad",
+    "reason": "The 5 between essentiele and duurzame gebruiksgoederen may be an attached footnote or a literal count; not an unambiguous clean extraction.",
+    "evidence": "wiki/artifacts/dutch-extended-assessment/family-supplement.json#nl-extra-002",
+    "pair_id": "30e8f08b6903d9f0bc316212"
+  }
+]

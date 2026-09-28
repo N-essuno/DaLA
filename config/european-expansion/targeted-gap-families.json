@@ -1,0 +1,28 @@
+{
+  "languages": {
+    "es": [
+      {
+        "family": "verb_person_agreement"
+      }
+    ],
+    "el": [
+      {
+        "family": "adjective_case"
+      },
+      {
+        "family": "verb_number_agreement"
+      },
+      {
+        "family": "verb_person_agreement"
+      }
+    ],
+    "pt-PT": [
+      {
+        "family": "adjective_gender"
+      },
+      {
+        "family": "verb_person_agreement"
+      }
+    ]
+  }
+}

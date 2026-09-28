@@ -1,0 +1,23 @@
+{
+  "language": "is",
+  "passed": false,
+  "fixtures": [
+    {
+      "text": "Hún hefur skrifað langt bréf til sveitarfélagsins.",
+      "rejection": null,
+      "families": [
+        "adjective_case",
+        "adjective_gender",
+        "perfect_verb_form",
+        "spelling",
+        "verb_number_agreement"
+      ],
+      "missing": [
+        "preposition_case"
+      ],
+      "forbidden": [],
+      "passed": false,
+      "lexical_conflicts": []
+    }
+  ]
+}

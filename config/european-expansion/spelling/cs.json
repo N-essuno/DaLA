@@ -1,0 +1,309 @@
+{
+  "language": "cs",
+  "candidates_sha256": "025e917b9d826f1e89fdde6d8387feba72b3c5855d6675e68239df18404ada4a",
+  "review_type": "agent inspection of observed word pairs; not native validation or precision estimate",
+  "accepted": [
+    {
+      "correct": "také",
+      "incorrect": "take",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "jídlo",
+      "incorrect": "jidlo",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "každý",
+      "incorrect": "každy",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "něco",
+      "incorrect": "neco",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "ještě",
+      "incorrect": "ješte",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "kamarády",
+      "incorrect": "kamarady",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "není",
+      "incorrect": "neni",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "velmi",
+      "incorrect": "velmí",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "ráno",
+      "incorrect": "rano",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "už",
+      "incorrect": "uz",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "tatínek",
+      "incorrect": "tatinek",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "mít",
+      "incorrect": "mit",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "léto",
+      "incorrect": "leto",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "můžeme",
+      "incorrect": "mužeme",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "problémy",
+      "incorrect": "problemy",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "týden",
+      "incorrect": "tyden",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "práce",
+      "incorrect": "prace",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "úplně",
+      "incorrect": "uplně",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "hrát",
+      "incorrect": "hrat",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "myslím",
+      "incorrect": "myslim",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "krásné",
+      "incorrect": "krasné",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "hodně",
+      "incorrect": "hodne",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "který",
+      "incorrect": "ktery",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "můžu",
+      "incorrect": "mužu",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "říct",
+      "incorrect": "řict",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "chodím",
+      "incorrect": "chodim",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "prázdniny",
+      "incorrect": "prazdniny",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "jít",
+      "incorrect": "jit",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "jméno",
+      "incorrect": "jmeno",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "například",
+      "incorrect": "napřiklad",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "peníze",
+      "incorrect": "penize",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "chtěla",
+      "incorrect": "chtela",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "chtěl",
+      "incorrect": "chtel",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "dárky",
+      "incorrect": "darky",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "musím",
+      "incorrect": "musim",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "člověk",
+      "incorrect": "človek",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "máme",
+      "incorrect": "mame",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "procházku",
+      "incorrect": "prochazku",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "krásná",
+      "incorrect": "krasná",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "mají",
+      "incorrect": "maji",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "hrála",
+      "incorrect": "hrala",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "návštěvu",
+      "incorrect": "navštěvu",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "odpočívat",
+      "incorrect": "odpočivat",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "nevím",
+      "incorrect": "nevim",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "výlet",
+      "incorrect": "vylet",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "krásný",
+      "incorrect": "krasný",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "velký",
+      "incorrect": "velky",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "dárek",
+      "incorrect": "darek",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "náměstí",
+      "incorrect": "naměstí",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "půjdu",
+      "incorrect": "pujdu",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    }
+  ],
+  "unreviewed_or_unresolved": 2283,
+  "policy": "No automatic promotion of other candidates; German ae/oe/ue transliterations, names, colloquial forms and uncertain variants excluded from this reviewed subset."
+}

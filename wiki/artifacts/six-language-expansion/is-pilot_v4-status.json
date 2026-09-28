@@ -1,0 +1,6 @@
+{
+  "language": "is",
+  "exit_code": 1,
+  "log": "wiki/artifacts/six-language-expansion/is-pilot_v4.log",
+  "output": "la_output/is_dynaword_pilot_v4"
+}

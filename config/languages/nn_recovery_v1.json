@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "language": "nn",
+  "name": "DaLA Norwegian Nynorsk \u2014 DynaWord",
+  "mode": "pairs",
+  "parser": "stanza",
+  "parser_backend": "stanza",
+  "parser_settings": {
+    "directory": "la_output/resources/multilingual/stanza",
+    "processors": {
+      "tokenize": "nynorsk",
+      "pos": "nynorsk_nocharlm",
+      "depparse": "nynorsk_nocharlm",
+      "lemma": "nynorsk_nocharlm"
+    },
+    "model_sha256": {
+      "nn/depparse/nynorsk_nocharlm.pt": "7a32e175cf4dac6be02687a69dabf7a9ecefacbdd7509fbec8b9bd8b3ca3f0e8",
+      "nn/lemma/nynorsk_nocharlm.pt": "a29643f337789b909c77f4b83706a712a0ddb79e77f16ea86bb33706263c8d31",
+      "nn/pos/nynorsk_nocharlm.pt": "78ff563b503340078e80246910a68248eea6dbd66c6ff641212abd095a1cca75",
+      "nn/pretrain/conll17.pt": "828264b93f5f8adc9dfcc0bd6d2445a8d0df9af169fdf15b44d28a9eef36af88",
+      "nn/tokenize/nynorsk.pt": "1368f3fcb268022ae437f205c429b9e26590cf9fd140f9ab92b63ed74a901ef4"
+    },
+    "stanza_version": "1.11.0"
+  },
+  "parser_threads": 2,
+  "sources": {
+    "adapter": "dynaword"
+  },
+  "sources_config": "../nn_sources.json",
+  "rulebook": "../../la_output/resources/multilingual/nn/rules.json.gz",
+  "exclusions": "../nn_source_exclusions.json",
+  "resource_directory": "../../la_output/resources/multilingual/nn",
+  "adapter": "dala.language_packs.morphology:MorphologyPack",
+  "selection": {
+    "strategy": "hash_rotate_grammar_then_spelling",
+    "max_errors": 1,
+    "priority": [
+      "adjective_gender",
+      "adjective_number",
+      "adjective_definite",
+      "determiner_gender",
+      "determiner_number",
+      "governed_infinitive",
+      "perfect_verb_form",
+      "pronoun_case",
+      "spelling"
+    ]
+  },
+  "checker": {
+    "mode": "morphology",
+    "workers": 8
+  },
+  "prompts": {
+    "acceptability": "Er denne setninga grammatisk korrekt og rett stava p\u00e5 nynorsk? Svar berre med yes eller no.",
+    "correction": "Rett grammatikk- og stavefeil i denne setninga p\u00e5 nynorsk. Dersom setninga alt er korrekt, gje henne att uendra. Hald p\u00e5 nynorsk, tydinga og stilen. Svar berre med setninga."
+  },
+  "standard_exclusions": [
+    "jeg",
+    "ikke",
+    "hva",
+    "hvordan",
+    "disse"
+  ],
+  "curation": {
+    "min_words": 7,
+    "max_words": 35,
+    "max_sentence_chars": 320,
+    "max_paragraph_chars": 6000,
+    "source_risk_patterns": [
+      "(?i)\\b(?:pkt|kap|jf|nr|meld|pst|mill)\\.$",
+      "^(?:[IVXLCDM]+|[A-Z])[.)]\\s"
+    ]
+  },
+  "description": "Pinned DynaWord prose. Candidate dataset: dictionary and syntactic-rule screening; independent linguistic audit required.",
+  "dependencies": [
+    "requests",
+    "pyarrow",
+    "huggingface-hub",
+    "stanza",
+    "spylls"
+  ],
+  "source_sampling": "round_robin",
+  "export_used_rule_mappings": true,
+  "release_policy": {
+    "status": "candidate_only",
+    "require_audit_per_family": true,
+    "target": {
+      "name": "Norwegian Nynorsk",
+      "dataset_id": "dala-norwegian-nynorsk-dynaword",
+      "target_pairs": null,
+      "size_policy": "exhaust_suitable_sources"
+    }
+  },
+  "indefinite_articles": [
+    "ein",
+    "ei",
+    "eit",
+    "eitt"
+  ],
+  "build": {
+    "parser_processes": 12,
+    "document_batch_size": 2,
+    "max_task_chars": 30000,
+    "checkpoint_dir": "la_output/nn_recovery_v1_checkpoints",
+    "allow_shortfall": true
+  },
+  "morphology_options": {
+    "lemma_strategy": "parsed",
+    "source_pronoun_agreement": false,
+    "complete_verb_agreement_from_subject": false,
+    "gender_equivalences": []
+  }
+}

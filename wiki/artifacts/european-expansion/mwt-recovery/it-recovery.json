@@ -1,0 +1,62 @@
+{
+  "False": {
+    "counts": {
+      "sentences": 568,
+      "eligible_sources": 28,
+      "candidate_pairs": 28
+    },
+    "families": {
+      "determiner_number": 7,
+      "spelling": 7,
+      "adjective_number": 5,
+      "adjective_gender": 1,
+      "determiner_gender": 7,
+      "perfect_verb_form": 1
+    },
+    "rejections": {
+      "source_dictionary_unknown": 4,
+      "length": 476,
+      "no_main_subject": 17,
+      "nonprose_or_quotation": 5,
+      "fragment_or_format": 29,
+      "source_morphology_conflict": 5,
+      "source_extraction_risk": 4
+    },
+    "seconds": 37.42808192386292
+  },
+  "True": {
+    "counts": {
+      "sentences": 568,
+      "eligible_sources": 139,
+      "candidate_pairs": 139,
+      "recovered_candidate_pairs": 111
+    },
+    "families": {
+      "spelling": 28,
+      "adjective_number": 11,
+      "determiner_gender": 61,
+      "determiner_number": 31,
+      "adjective_gender": 5,
+      "perfect_verb_form": 2,
+      "governed_infinitive": 1
+    },
+    "rejections": {
+      "source_dictionary_unknown": 26,
+      "nonprose_or_quotation": 29,
+      "length": 152,
+      "source_morphology_conflict": 72,
+      "no_main_subject": 65,
+      "fragment_or_format": 71,
+      "source_nominal_agreement_conflict": 5,
+      "source_extraction_risk": 8,
+      "no_finite_main_verb": 1
+    },
+    "seconds": 39.2795227188617
+  },
+  "recovered_screening": {
+    "accepted": 86,
+    "independent_source_checker_error": 25
+  },
+  "language": "it",
+  "paragraphs": 300
+}

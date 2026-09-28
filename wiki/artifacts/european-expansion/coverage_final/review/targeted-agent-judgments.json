@@ -1,0 +1,186 @@
+[
+  {
+    "language": "cs",
+    "pair_id": "21e84b2b44902b13a68dd60e",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "d5fff5f15a98b9554106a870",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "130d42e077b4bdbde14de577",
+    "family": "verb_person_agreement",
+    "judgment": "reject",
+    "reason": "Unmarked film title or fragment, not ordinary clean declarative source.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "f1ed415c4b877c42e9f32a0f",
+    "family": "verb_person_agreement",
+    "judgment": "reject",
+    "reason": "Unmarked film title or fragment, not ordinary clean declarative source.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "3f76556ed863fd83e6380cc0",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "88679ba4843ba53b76576684",
+    "family": "verb_number_agreement",
+    "judgment": "reject",
+    "reason": "Malformed Czech source Já jsem se začalo ... v se třicátých letech.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "45d82f92f3f3e37701a575be",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "2023deb32c890f392b1338af",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "7f291db57de2b3cc685867ae",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "5f6608eaf7e7e42581a7d454",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "7d919c91f669a90d21333294",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "41a894c13f66cbc79bb7b30e",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "1bc275bb260ba208b22b9aa8",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "77916c611b3846aa81e7a0dc",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "5e375566a3b5419cc44b8781",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "0b46c372917f88eec9eb2027",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "f086f8628da25c55e26edb40",
+    "family": "verb_person_agreement",
+    "judgment": "uncertain",
+    "reason": "Source comma before additive a needs native judgment; exclude conservatively.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "4297b7e0de303d1ffe9eb667",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "d0601453cdad057a42d87a3a",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "el",
+    "pair_id": "e25dc7cadea90fabf4bf6a34",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "el",
+    "pair_id": "205849474e4e6bf2a571b025",
+    "family": "verb_person_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "el",
+    "pair_id": "187946cec1ad027fd331a2b9",
+    "family": "verb_person_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  },
+  {
+    "language": "el",
+    "pair_id": "e969a536711b570c615f64fd",
+    "family": "verb_person_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection of source and local agreement; not native validation.",
+    "native_validation": false
+  }
+]

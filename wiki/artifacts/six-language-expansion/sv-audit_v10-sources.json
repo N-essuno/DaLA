@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "name": "akademiliv",
+      "source_value": "akademiliv",
+      "repo_id": "danish-foundation-models/swedish-dynaword",
+      "revision": "f7cf2952b597eee76d8a3bddaa732ca6788b51c1",
+      "data_file": "data/akademiliv/akademiliv.parquet",
+      "metadata_file": null,
+      "license": "CC-BY 4.0",
+      "license_evidence_url": "https://huggingface.co/datasets/danish-foundation-models/swedish-dynaword/blob/f7cf2952b597eee76d8a3bddaa732ca6788b51c1/data/akademiliv/akademiliv.md",
+      "min_document_chars": 35,
+      "annotation_filters": {},
+      "quality_policy": "source_and_sentence_screening",
+      "language": "sv"
+    },
+    {
+      "name": "forskning-framsteg",
+      "source_value": "forskning-framsteg",
+      "repo_id": "danish-foundation-models/swedish-dynaword",
+      "revision": "f7cf2952b597eee76d8a3bddaa732ca6788b51c1",
+      "data_file": "data/forskning-framsteg/forskning-framsteg.parquet",
+      "metadata_file": null,
+      "license": "CC-BY 4.0",
+      "license_evidence_url": "https://huggingface.co/datasets/danish-foundation-models/swedish-dynaword/blob/f7cf2952b597eee76d8a3bddaa732ca6788b51c1/data/forskning-framsteg/forskning-framsteg.md",
+      "min_document_chars": 35,
+      "annotation_filters": {},
+      "quality_policy": "source_and_sentence_screening",
+      "language": "sv"
+    },
+    {
+      "name": "cellar",
+      "source_value": "cellar",
+      "repo_id": "danish-foundation-models/swedish-dynaword",
+      "revision": "f7cf2952b597eee76d8a3bddaa732ca6788b51c1",
+      "data_file": "data/cellar/cellar.parquet",
+      "metadata_file": null,
+      "license": "CC-BY-SA 4.0",
+      "license_evidence_url": "https://huggingface.co/datasets/danish-foundation-models/swedish-dynaword/blob/f7cf2952b597eee76d8a3bddaa732ca6788b51c1/data/cellar/cellar.md",
+      "min_document_chars": 35,
+      "annotation_filters": {},
+      "quality_policy": "source_and_sentence_screening",
+      "language": "sv"
+    }
+  ]
+}

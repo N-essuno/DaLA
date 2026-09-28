@@ -1,0 +1,36 @@
+{
+  "at": "2026-09-24T09:17:05.606288+00:00",
+  "run_id": "recovery_v1",
+  "languages": {
+    "pl": {
+      "pairs": 44602,
+      "batches": 1456,
+      "completed": false
+    },
+    "sv": {
+      "pairs": 51552,
+      "batches": 991,
+      "completed": false
+    },
+    "nb": {
+      "pairs": 478930,
+      "batches": 3156,
+      "completed": true
+    },
+    "nn": {
+      "pairs": 613558,
+      "batches": 37445,
+      "completed": false
+    },
+    "fo": {
+      "pairs": 88237,
+      "batches": 6163,
+      "completed": true
+    },
+    "is": {
+      "pairs": 61269,
+      "batches": 3684,
+      "completed": false
+    }
+  }
+}

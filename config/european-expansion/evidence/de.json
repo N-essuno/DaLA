@@ -1,0 +1,16 @@
+{
+  "language": "de",
+  "split": "train",
+  "format": "m2",
+  "min_support": 3,
+  "spelling_categories": [
+    "R:SPELL"
+  ],
+  "files": {
+    "/work/mimir/DaLA/la_output/resources/european-expansion/evidence/boyd/fm-train.m2": "c555ddf98af689e7613b596c18f2461f1b03fab286599866ba5a0907ea555ed7"
+  },
+  "taxonomy": "Automatic ERRANT categories over human corrections",
+  "url": "https://github.com/adrianeboyd/boyd-wnut2018",
+  "revision": "wnut2018 archive sha256:55210ac71a939d61bea61713bc256c84b4574be7ecce4e64ac3da105968a61bc",
+  "license": "Falko CC-BY-3.0; MERLIN CC-BY-SA-4.0"
+}

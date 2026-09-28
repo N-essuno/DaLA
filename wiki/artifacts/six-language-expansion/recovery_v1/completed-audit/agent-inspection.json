@@ -1,0 +1,252 @@
+{
+  "at": "2026-09-24T09:16:09.603728+00:00",
+  "sampling": "20 uniform samples per completed candidate dataset, seed 240926; before cross-dataset isolation and late exclusions",
+  "human_linguistic_validation": false,
+  "counts": {
+    "provisionally_acceptable": 39,
+    "uncertain": 1
+  },
+  "rows": [
+    {
+      "language": "fo",
+      "pair_id": "2e74998cdd97c9f7d7cd745a",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "c01d326e6a6db7167b823e2b",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "a2ea8f539e949720e0a036a5",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "c73f9ffa6e55a7b81a970f1d",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "2a409b7a14357f2911285660",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "a5ff5ec6bdc2d54e722a06b6",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "bd2f296b59a5970f7fe427fd",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "752f7a64ad93ebf19ab3ba60",
+      "judgment": "uncertain",
+      "reason": "Source phrase eitt av allar bestu kórum needs native review of superlative/definiteness; excluded conservatively."
+    },
+    {
+      "language": "fo",
+      "pair_id": "889459dadcc413024d95dd6c",
+      "judgment": "provisionally_acceptable",
+      "reason": "Initial case concern resolved: pinned GiellaLT normative inventory attests nominative singular pabba. Do not reject an accepted native variant."
+    },
+    {
+      "language": "fo",
+      "pair_id": "bde021a9acf25f7e1b228e72",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "8b6cf76ac2cdc43d94e0818d",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "3a2319b4fd87433c5b475d9b",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "c0a153fabda4fb98384be1e6",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "cdd7d3024a1d16c31803e729",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "ae70aac73893df62415a1fc0",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "5fdb0646528ae7f024df0b98",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "5595ed5b37d4230b72f5c2b4",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "00cb19af5470a5e47932c1a7",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "e8209d72649c082b69e65c44",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "fefe06bca9f101a84cb08121",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "1194d822b4f89470df1f2e30",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "feebbd444a0608a053c47a02",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "f35a5192630cdd7f2ee16275",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "a7fed491803102a41bf4bdb8",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "adae1ad1608555b8a1e1875f",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "57df14556c7e09a6ca990267",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "1f1cd6e1de954b178d667062",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "f93f8574cc28f8ffc1a6c263",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "bfe2c23535084d3c2cc05285",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "eec983fa78e95dc51c77ac0d",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "8d3a9d855b1a8aaa58f180d9",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "42ffbd359e50757bfc204aca",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "3dffca66cac4ffad366a9ccf",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "7fe4ae1cda1c51b9c678567f",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "17acbd0c2bf04966d3b9f376",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "876d5d0cf9a8ace18110ee1a",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "9bfa4b8a3d6662d7ebacd981",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "26b3a00cfa4b58668b8e61c5",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "6e9b479320504b5dbc72c979",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "b85f6cced088c14aa86cd39b",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear source/edit defect found by agent; not native-speaker validation."
+    }
+  ],
+  "audit_revision": "Native dictionary evidence resolved an initial pabba case concern; only one uncertain source remains in this 40-pair sample."
+}

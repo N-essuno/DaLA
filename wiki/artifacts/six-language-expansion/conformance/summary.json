@@ -1,0 +1,14 @@
+{
+  "at": "2026-09-24T06:47:10.866314+00:00",
+  "passed": true,
+  "languages": {
+    "pl": true,
+    "sv": true,
+    "nb": true,
+    "nn": true,
+    "fo": true,
+    "is": true
+  },
+  "surface_closure_regression": true,
+  "human_linguistic_validation": false
+}

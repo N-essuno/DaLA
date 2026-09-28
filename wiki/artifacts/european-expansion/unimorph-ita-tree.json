@@ -1,0 +1,39 @@
+{
+  "sha": "fa2cc6ce173643e748bd8f4162709365bdc98805",
+  "url": "https://api.github.com/repos/unimorph/ita/git/trees/fa2cc6ce173643e748bd8f4162709365bdc98805",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf165a0d5c33184d226577210713da21d655f52a",
+      "size": 96,
+      "url": "https://api.github.com/repos/unimorph/ita/git/blobs/bf165a0d5c33184d226577210713da21d655f52a"
+    },
+    {
+      "path": "ita",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4a62123c6aa98be9b633afa4fc6bc2e16834b50",
+      "size": 19801423,
+      "url": "https://api.github.com/repos/unimorph/ita/git/blobs/d4a62123c6aa98be9b633afa4fc6bc2e16834b50"
+    },
+    {
+      "path": "ita.args",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1ef25d3a640529565dcb00dc5afad1ed83653d4",
+      "size": 22149272,
+      "url": "https://api.github.com/repos/unimorph/ita/git/blobs/c1ef25d3a640529565dcb00dc5afad1ed83653d4"
+    },
+    {
+      "path": "ita.segmentations",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d7bbb7f223a098926cc92d026c3b0e50644c853",
+      "size": 36471316,
+      "url": "https://api.github.com/repos/unimorph/ita/git/blobs/3d7bbb7f223a098926cc92d026c3b0e50644c853"
+    }
+  ],
+  "truncated": false
+}

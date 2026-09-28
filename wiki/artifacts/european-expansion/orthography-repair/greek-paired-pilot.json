@@ -1,0 +1,30 @@
+{
+  "documents": 100,
+  "seed": 4242,
+  "old_pairs": 37,
+  "new_pairs": 374,
+  "old_dictionary_rejections": 600,
+  "new_dictionary_rejections": 133,
+  "old_selected": {
+    "spelling": 19,
+    "determiner_case": 6,
+    "verb_number_agreement": 1,
+    "determiner_gender": 1,
+    "determiner_number": 7,
+    "adjective_case": 2,
+    "adjective_gender": 1
+  },
+  "new_selected": {
+    "determiner_gender": 24,
+    "spelling": 138,
+    "determiner_number": 103,
+    "determiner_case": 95,
+    "adjective_number": 5,
+    "adjective_case": 7,
+    "verb_number_agreement": 1,
+    "adjective_gender": 1
+  },
+  "old_manifest_sha256": "a1bc99687f2d88ee932e26f27b461b3f40c33c941fe6f449a628dd9090241e55",
+  "new_manifest_sha256": "c2a97d9eff4ccd43f329aaaf5eabd0e6e9f5bbfa4399023f6239cb8103bdb596",
+  "interpretation": "Bounded yield comparison; not full-corpus forecast or linguistic precision estimate"
+}

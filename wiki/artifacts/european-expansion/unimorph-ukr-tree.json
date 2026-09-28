@@ -1,0 +1,39 @@
+{
+  "sha": "d7d0284e926b7d4947c52aaafd1d7f8a40a2dec0",
+  "url": "https://api.github.com/repos/unimorph/ukr/git/trees/d7d0284e926b7d4947c52aaafd1d7f8a40a2dec0",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "233344b8da39ba8cb83f0196643d8f8992167f4a",
+      "size": 1218,
+      "url": "https://api.github.com/repos/unimorph/ukr/git/blobs/233344b8da39ba8cb83f0196643d8f8992167f4a"
+    },
+    {
+      "path": "ukr",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ad59b4f4b77fdb9a042171c81578180397e80bb",
+      "size": 870660,
+      "url": "https://api.github.com/repos/unimorph/ukr/git/blobs/8ad59b4f4b77fdb9a042171c81578180397e80bb"
+    },
+    {
+      "path": "ukr.derivations",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d860684a06f031402aaa6eb8f999d52d9bdb494",
+      "size": 352155,
+      "url": "https://api.github.com/repos/unimorph/ukr/git/blobs/5d860684a06f031402aaa6eb8f999d52d9bdb494"
+    },
+    {
+      "path": "ukr.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6d3a9caea2e23ca4d67c0a222d8c6d1b786fe4a",
+      "size": 24018336,
+      "url": "https://api.github.com/repos/unimorph/ukr/git/blobs/f6d3a9caea2e23ca4d67c0a222d8c6d1b786fe4a"
+    }
+  ],
+  "truncated": false
+}

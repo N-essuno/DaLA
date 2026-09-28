@@ -1,0 +1,322 @@
+{
+  "_id": "6a45637dd404177f07e12c84",
+  "id": "danish-foundation-models/faroese-dynaword",
+  "author": "danish-foundation-models",
+  "sha": "41cdd41007ff3d787beb6e602bdbac131a2cd3ee",
+  "lastModified": "2026-09-15T17:59:07.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:text-generation",
+    "task_ids:language-modeling",
+    "annotations_creators:machine-generated",
+    "language_creators:crowdsourced",
+    "multilinguality:monolingual",
+    "source_datasets:original",
+    "language:fo",
+    "language:fao",
+    "license:cc0-1.0",
+    "size_categories:1M<n<10M",
+    "format:parquet",
+    "modality:image",
+    "modality:text",
+    "library:datasets",
+    "library:dask",
+    "library:polars",
+    "library:mlcroissant",
+    "arxiv:2508.02271",
+    "region:us",
+    "text-corpus",
+    "continual-development",
+    "community-collaboration",
+    "synthetic-annotations"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\t\ud83e\udde8 Faroese Dynaword\n\t\n\n\n\n\t\n\t\t\n\n\n\n\n\t\t\nVersion\n0.0.7 (Changelog)\n\n\nLanguage\nFaroese (fo, fao)\n\n\nLicense\nOpenly Licensed, See the respective dataset\n\n\nModels\nCurrently there are no models trained on this dataset\n\n\nContact\nIf you have question about this project please create an issue here\n\n\n\t\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nNumber of samples: 405.81K\nNumber of tokens (Llama 3): 45.40M\nAverage document length in tokens (min, max): 111.87 (2, 109.50K)\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset\u2026 See the full description on the dataset page: https://huggingface.co/datasets/danish-foundation-models/faroese-dynaword.",
+  "downloads": 656,
+  "likes": 3,
+  "cardData": {
+    "annotations_creators": [
+      "machine-generated"
+    ],
+    "language_creators": [
+      "crowdsourced"
+    ],
+    "language": [
+      "fo",
+      "fao"
+    ],
+    "license": "cc0-1.0",
+    "multilinguality": [
+      "monolingual"
+    ],
+    "source_datasets": [
+      "original"
+    ],
+    "task_categories": [
+      "text-generation"
+    ],
+    "task_ids": [
+      "language-modeling"
+    ],
+    "tags": [
+      "text-corpus",
+      "continual-development",
+      "community-collaboration",
+      "synthetic-annotations"
+    ],
+    "pretty_name": "Faroese Dynaword",
+    "configs": [
+      {
+        "config_name": "default",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/*/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "meta",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/*/metadata.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "sosialurin-faroese-pos",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/sosialurin-faroese-pos/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "wikipedia",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/wikipedia/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "ravnursson-asr",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/ravnursson-asr/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "fpsc",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/fpsc/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "faroese-blark-small",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/faroese-blark-small/data.parquet"
+          }
+        ]
+      }
+    ],
+    "language_bcp47": [
+      "fao-Latn"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": ".gitignore"
+    },
+    {
+      "rfilename": "CHANGELOG.md"
+    },
+    {
+      "rfilename": "CONTRIBUTING.md"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "data/.gitkeep"
+    },
+    {
+      "rfilename": "data/faroese-blark-small/create.py"
+    },
+    {
+      "rfilename": "data/faroese-blark-small/data.parquet"
+    },
+    {
+      "rfilename": "data/faroese-blark-small/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/faroese-blark-small/faroese-blark-small.md"
+    },
+    {
+      "rfilename": "data/faroese-blark-small/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/faroese-blark-small/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/faroese-blark-small/metadata.parquet"
+    },
+    {
+      "rfilename": "data/fpsc/create.py"
+    },
+    {
+      "rfilename": "data/fpsc/data.parquet"
+    },
+    {
+      "rfilename": "data/fpsc/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/fpsc/fpsc.md"
+    },
+    {
+      "rfilename": "data/fpsc/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/fpsc/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/fpsc/metadata.parquet"
+    },
+    {
+      "rfilename": "data/ravnursson-asr/create.py"
+    },
+    {
+      "rfilename": "data/ravnursson-asr/data.parquet"
+    },
+    {
+      "rfilename": "data/ravnursson-asr/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/ravnursson-asr/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/ravnursson-asr/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/ravnursson-asr/metadata.parquet"
+    },
+    {
+      "rfilename": "data/ravnursson-asr/ravnursson-asr.md"
+    },
+    {
+      "rfilename": "data/sosialurin-faroese-pos/create.py"
+    },
+    {
+      "rfilename": "data/sosialurin-faroese-pos/data.parquet"
+    },
+    {
+      "rfilename": "data/sosialurin-faroese-pos/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/sosialurin-faroese-pos/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/sosialurin-faroese-pos/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/sosialurin-faroese-pos/metadata.parquet"
+    },
+    {
+      "rfilename": "data/sosialurin-faroese-pos/sosialurin-faroese-pos.md"
+    },
+    {
+      "rfilename": "data/wikipedia/create.py"
+    },
+    {
+      "rfilename": "data/wikipedia/data.parquet"
+    },
+    {
+      "rfilename": "data/wikipedia/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/wikipedia/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/wikipedia/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/wikipedia/metadata.parquet"
+    },
+    {
+      "rfilename": "data/wikipedia/parser/package-lock.json"
+    },
+    {
+      "rfilename": "data/wikipedia/parser/package.json"
+    },
+    {
+      "rfilename": "data/wikipedia/parser/wtf_bridge.js"
+    },
+    {
+      "rfilename": "data/wikipedia/wikipedia.md"
+    },
+    {
+      "rfilename": "descriptive_stats.json"
+    },
+    {
+      "rfilename": "docs/icon.png"
+    },
+    {
+      "rfilename": "dynaword.toml"
+    },
+    {
+      "rfilename": "images/.gitkeep"
+    },
+    {
+      "rfilename": "images/annotation_profile.png"
+    },
+    {
+      "rfilename": "images/dataset_size_plot.html"
+    },
+    {
+      "rfilename": "images/dataset_size_plot.svg"
+    },
+    {
+      "rfilename": "images/domain_distribution.png"
+    },
+    {
+      "rfilename": "images/language_distribution.html"
+    },
+    {
+      "rfilename": "images/language_distribution.svg"
+    },
+    {
+      "rfilename": "images/tokens_over_time.html"
+    },
+    {
+      "rfilename": "images/tokens_over_time.svg"
+    },
+    {
+      "rfilename": "makefile"
+    },
+    {
+      "rfilename": "pyproject.toml"
+    },
+    {
+      "rfilename": "skills.md"
+    },
+    {
+      "rfilename": "uv.lock"
+    }
+  ],
+  "createdAt": "2026-07-01T18:59:09.000Z",
+  "usedStorage": 98195530
+}

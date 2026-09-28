@@ -1,0 +1,20 @@
+{
+  "at": "2026-09-24T11:01:32.002014+00:00",
+  "pid": 1066889,
+  "command": [
+    "-m",
+    "scripts.finish_six_language_scale",
+    "--run-id",
+    "recovery_v1",
+    "--language-runs",
+    "pl=scaled64_v2",
+    "sv=scaled64_v2",
+    "is=scaled64_v2",
+    "--review-exclusions",
+    "wiki/artifacts/six-language-expansion/scale_v1/late-review-exclusions.json",
+    "--pair-caps",
+    "nn=478930",
+    "is=478930"
+  ],
+  "log": "/tmp/dala-six-scaled64_v2-finalizer.log"
+}

@@ -1,0 +1,8 @@
+# Optional six-language extension; install an appropriate CPU/GPU PyTorch wheel first.
+stanza==1.11.0
+spylls==0.1.7
+islenska==1.4.0
+morfeusz2==1.99.15
+reynir-correct==4.1.3
+# GreynirCorrect's bundled grammar is incompatible with reynir 3.9.
+reynir==3.6.1

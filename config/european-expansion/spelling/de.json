@@ -1,0 +1,291 @@
+{
+  "language": "de",
+  "candidates_sha256": "0c6d212b8c92a7fefb19887c0dcb17fc4b18dbdcb3f13d9032b98214b0222316",
+  "review_type": "agent inspection of observed word pairs; not native validation or precision estimate",
+  "accepted": [
+    {
+      "correct": "müssen",
+      "incorrect": "mussen",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "können",
+      "incorrect": "konnen",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "bisschen",
+      "incorrect": "bischen",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Kenntnisse",
+      "incorrect": "Kentnisse",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "beherrschen",
+      "incorrect": "beherschen",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "jetzt",
+      "incorrect": "jetz",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "nützlich",
+      "incorrect": "nutzlich",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "wünsche",
+      "incorrect": "wünche",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "kümmern",
+      "incorrect": "kummern",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "vielleicht",
+      "incorrect": "veilleicht",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Universitätsabschluss",
+      "incorrect": "Universitätsabschlüss",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Damen",
+      "incorrect": "Dammen",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Geburtstag",
+      "incorrect": "Geburstag",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Katze",
+      "incorrect": "Kätze",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Männer",
+      "incorrect": "Männe",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "vielleicht",
+      "incorrect": "vielleich",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "zukünftigen",
+      "incorrect": "zukunftigen",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Familie",
+      "incorrect": "Famile",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "gelesen",
+      "incorrect": "gelessen",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "interessiere",
+      "incorrect": "interesiere",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "natürlich",
+      "incorrect": "naturlich",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "nämlich",
+      "incorrect": "nähmlich",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "völlig",
+      "incorrect": "vollig",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "wollte",
+      "incorrect": "wolte",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "zusammen",
+      "incorrect": "zusamen",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Anzeige",
+      "incorrect": "Anziege",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Arzt",
+      "incorrect": "Artz",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Beispiel",
+      "incorrect": "Beispeil",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Beispiel",
+      "incorrect": "Bespiel",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Familien",
+      "incorrect": "Famielien",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Gesellschaft",
+      "incorrect": "Geselschaft",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Praktikum",
+      "incorrect": "Pratikum",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Traditionen",
+      "incorrect": "Tradizionen",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Zukunft",
+      "incorrect": "Zukunf",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "bezahlt",
+      "incorrect": "bezaht",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "kämpfen",
+      "incorrect": "kampfen",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "sinnvoll",
+      "incorrect": "sinvoll",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "theoretische",
+      "incorrect": "teoretische",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "trainieren",
+      "incorrect": "tranieren",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "vielleicht",
+      "incorrect": "villeicht",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "zurück",
+      "incorrect": "zuruck",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Beispiel",
+      "incorrect": "Beipsiel",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Betreuung",
+      "incorrect": "Betreung",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Erfahrungen",
+      "incorrect": "Erfarungen",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Konkurrenz",
+      "incorrect": "Konkurenz",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Silvesternacht",
+      "incorrect": "Silvesternach",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "Studenten",
+      "incorrect": "Stundenten",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    }
+  ],
+  "unreviewed_or_unresolved": 208,
+  "policy": "No automatic promotion of other candidates; German ae/oe/ue transliterations, names, colloquial forms and uncertain variants excluded from this reviewed subset."
+}

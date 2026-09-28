@@ -1,0 +1,38 @@
+{
+  "language": "pt-PT",
+  "paragraphs": 40,
+  "accepted_sources_equal": true,
+  "grammar_candidates_equal": true,
+  "runs": [
+    {
+      "accepted_sources": 25,
+      "grammar_candidates": 57,
+      "candidates": 400,
+      "seconds": 6.370927463052794,
+      "timings": {
+        "tokenize": 1.2464732052758336,
+        "syntax": 4.9151693331077695
+      },
+      "rejections": {
+        "parser_overlength_sentence": 6
+      }
+    },
+    {
+      "accepted_sources": 25,
+      "grammar_candidates": 57,
+      "candidates": 400,
+      "seconds": 4.324394345050678,
+      "timings": {
+        "tokenize": 1.170257923193276,
+        "syntax": 3.0630291723646224
+      },
+      "rejections": {
+        "parser_prefilter_fragment_or_format": 12,
+        "parser_prefilter_length": 23,
+        "parser_prefilter_source_extraction_risk": 10,
+        "parser_overlength_sentence": 6,
+        "parser_prefilter_truncated_initial_reference": 1
+      }
+    }
+  ]
+}

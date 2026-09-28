@@ -1,0 +1,18 @@
+{
+  "pid": 3019338,
+  "at": "2026-09-26T20:22:22.101111+00:00",
+  "command": [
+    "/home/ucloud/miniforge3/bin/python",
+    "-u",
+    "-m",
+    "scripts.autoscale_european_checkers",
+    "/work/mimir/DaLA/wiki/artifacts/european-expansion/checker_scale_v1/launch.json"
+  ],
+  "scope": [
+    "fr",
+    "uk",
+    "el"
+  ],
+  "interval_seconds": 60,
+  "steady_window_seconds": 180
+}

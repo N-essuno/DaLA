@@ -1,0 +1,98 @@
+[
+  {
+    "original": "Het beleid geldt voor alle bedrijven in het land.",
+    "corrupted": "De beleid geldt voor alle bedrijven in het land.",
+    "source": [],
+    "flags": [
+      {
+        "id": "DE_IPV_HET",
+        "type": "uncategorized",
+        "message": "Bij beleid hoort meestal “het”; het kan ook een spatiefout zijn."
+      }
+    ]
+  },
+  {
+    "original": "De regering neemt morgen een nieuwe belangrijke beslissing.",
+    "corrupted": "Het regering neemt morgen een nieuwe belangrijke beslissing.",
+    "source": [],
+    "flags": [
+      {
+        "id": "HET_FIETS",
+        "type": "uncategorized",
+        "message": "‘Het’ is hier waarschijnlijk niet het juiste lidwoord omdat regering een de-woord is."
+      }
+    ]
+  },
+  {
+    "original": "Onze regering neemt morgen een nieuwe belangrijke beslissing.",
+    "corrupted": "Ons regering neemt morgen een nieuwe belangrijke beslissing.",
+    "source": [],
+    "flags": [
+      {
+        "id": "POSS_PRON_PLUS_NOUN",
+        "type": "uncategorized",
+        "message": "Ons is hier waarschijnlijk niet juist omdat regering een de-woord is."
+      }
+    ]
+  },
+  {
+    "original": "Ons bedrijf werkt aan een nieuw systeem voor betalingen.",
+    "corrupted": "Onze bedrijf werkt aan een nieuw systeem voor betalingen.",
+    "source": [],
+    "flags": [
+      {
+        "id": "POSS_PRON_PLUS_NOUN",
+        "type": "uncategorized",
+        "message": "Onze is hier niet juist omdat bedrijf een het-woord is. Misschien bedoelt u ook het meervoud."
+      }
+    ]
+  },
+  {
+    "original": "Elk bedrijf moet voldoen aan de nieuwe wettelijke eisen.",
+    "corrupted": "Elke bedrijf moet voldoen aan de nieuwe wettelijke eisen.",
+    "source": [],
+    "flags": []
+  },
+  {
+    "original": "Iedere organisatie moet voldoen aan de nieuwe wettelijke eisen.",
+    "corrupted": "Ieder organisatie moet voldoen aan de nieuwe wettelijke eisen.",
+    "source": [],
+    "flags": []
+  },
+  {
+    "original": "De organisatie kan morgen alle documenten aanleveren.",
+    "corrupted": "De organisatie kan morgen alle documenten aanlevert.",
+    "source": [],
+    "flags": []
+  },
+  {
+    "original": "De bedrijven hebben alle nodige documenten gisteren ingediend.",
+    "corrupted": "De bedrijven hebben alle nodige documenten gisteren indienen.",
+    "source": [],
+    "flags": []
+  },
+  {
+    "original": "De regering heeft gisteren een belangrijk besluit genomen.",
+    "corrupted": "De regering heeft gisteren een belangrijke besluit genomen.",
+    "source": [],
+    "flags": []
+  },
+  {
+    "original": "De regering heeft gisteren een belangrijk besluit genomen.",
+    "corrupted": "De regering hebben gisteren een belangrijk besluit genomen.",
+    "source": [],
+    "flags": []
+  },
+  {
+    "original": "Deze regels gelden voor alle bedrijven in het land.",
+    "corrupted": "Dit regels gelden voor alle bedrijven in het land.",
+    "source": [],
+    "flags": []
+  },
+  {
+    "original": "Dit besluit geldt voor alle bedrijven in het land.",
+    "corrupted": "Deze besluit geldt voor alle bedrijven in het land.",
+    "source": [],
+    "flags": []
+  }
+]

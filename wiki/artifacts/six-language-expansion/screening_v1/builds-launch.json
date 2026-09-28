@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-24T14:10:08.498030+00:00",
+  "pid": 1502658,
+  "command": [
+    "-m",
+    "scripts.run_six_language_scale",
+    "--languages",
+    "pl",
+    "sv",
+    "--run-id",
+    "screening_v1",
+    "--tools-dir",
+    "/tmp/dala-six-tools"
+  ],
+  "log": "/tmp/dala-six-screening_v1-builds.log"
+}

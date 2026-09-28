@@ -1,0 +1,75 @@
+{
+  "dataset": "la_output/dutch_uncapped_probe",
+  "manifest_sha256": "7ae939ba911bafc8c0c864b13e83f78ce7cfbcfe2f1c04e227570fd13e089b31",
+  "documents": 20,
+  "sources": {
+    "dienst_publiek_en_communicatie": 10,
+    "eurlex": 10
+  },
+  "capped_eligible_paragraphs": 240,
+  "uncapped_eligible_paragraphs": 1019,
+  "old_capped_pairs_same_documents": 136,
+  "uncapped_pairs": 342,
+  "task_rows_each": 684,
+  "families": {
+    "spelling": 197,
+    "article_gender": 119,
+    "demonstrative_agreement": 5,
+    "adjective_inflection": 11,
+    "article_number": 7,
+    "subject_verb_agreement": 1,
+    "verb_dt": 1,
+    "possessive_agreement": 1
+  },
+  "old_families": {
+    "spelling": 63,
+    "article_gender": 62,
+    "adjective_inflection": 3,
+    "demonstrative_agreement": 3,
+    "article_number": 3,
+    "verb_dt": 1,
+    "possessive_agreement": 1
+  },
+  "counts": {
+    "documents": 20,
+    "paragraphs": 1019,
+    "sentences": 2370,
+    "candidates": 557
+  },
+  "rejections": {
+    "no_main_subject": 69,
+    "length": 784,
+    "nonprose": 182,
+    "source_extraction_risk": 125,
+    "fragment_or_format": 400,
+    "no_verbal_root": 138,
+    "missing_subordinate_finite_verb": 15,
+    "quotation_or_ellipsis": 46,
+    "no_finite_main_verb": 12,
+    "source_number_disagreement": 12,
+    "standalone_subordinate_clause": 29,
+    "checker_missed_edit": 177,
+    "checker_source_error": 31,
+    "text_collision": 6,
+    "near_duplicate": 1,
+    "audited_source_exclusion": 1
+  },
+  "validation": {
+    "pairs": 342,
+    "unique_documents": 20,
+    "exact_edit_reconstruction": true,
+    "correction_roundtrip": true,
+    "document_split_isolation": true,
+    "exported_text_unique": true,
+    "at_most_one_grammar_edit": true,
+    "artifact_checksums": true,
+    "task_views_match_pairs": true,
+    "balanced_labels": true,
+    "source_provenance_consistent": true
+  },
+  "source_text_roundtrips": 342,
+  "spelling_checks": 197,
+  "reviewed_sources_excluded": true,
+  "no_percentage_downsampling": true,
+  "comparison_note": "Same deterministic 20-document prefix; previous capped raw output, restricted to the current 46 exclusions, versus uncapped lower-article-priority output. Joint change, not isolated paragraph-cap effect. No fresh linguistic audit or full-source yield claim."
+}

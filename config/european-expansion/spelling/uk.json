@@ -1,0 +1,21 @@
+{
+  "language": "uk",
+  "candidates_sha256": "49835b6c917db97159401cfadc04f97830545bcc7d7a958d4c722dc7bee6b7a0",
+  "review_type": "agent inspection of observed word pairs; not native validation or precision estimate",
+  "accepted": [
+    {
+      "correct": "доларів",
+      "incorrect": "долларів",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    },
+    {
+      "correct": "чесно",
+      "incorrect": "честно",
+      "judgment": "provisional_accept",
+      "reason": "Observed repeated nonword spelling; no known accepted standard variant identified in agent inspection. Runtime dictionary rejection remains required."
+    }
+  ],
+  "unreviewed_or_unresolved": 10,
+  "policy": "No automatic promotion of other candidates; German ae/oe/ue transliterations, names, colloquial forms and uncertain variants excluded from this reviewed subset."
+}

@@ -1,0 +1,2108 @@
+{
+  "method": "Recheck final output for the previously inspected original sentences after selection-priority change; this is not a fresh random sample.",
+  "rows": [
+    {
+      "pair_id": "3f77b790617e94b077db8861",
+      "original": "We were heading to our favourite coastal destination in eastern Australia, our final break before becoming parents.",
+      "corrupted": "We heading to our favourite coastal destination in eastern Australia, our final break before becoming parents.",
+      "edits": [
+        {
+          "corrupted_end": 10,
+          "corrupted_start": 3,
+          "corruption_type": "word_deletion",
+          "end": 15,
+          "original": "were heading",
+          "protected_tokens": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "replacement": "heading",
+          "rule_id": "fallback:delete_progressive_auxiliary",
+          "start": 3
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "6efd1184e47c233d83110a6c",
+      "original": "They were trying to solve a local, seriously important Australian problem: how to manage one of our most scarce resources, water.",
+      "corrupted": "They trying to solve a local, seriously important Australian problem: how to manage one of our most scarce resources, water.",
+      "edits": [
+        {
+          "corrupted_end": 11,
+          "corrupted_start": 5,
+          "corruption_type": "word_deletion",
+          "end": 16,
+          "original": "were trying",
+          "protected_tokens": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "replacement": "trying",
+          "rule_id": "fallback:delete_progressive_auxiliary",
+          "start": 5
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "f7fcff087437cca405e31cd7",
+      "original": "For example, they were setting clear classroom rules, implementing rewards and consequences for behaviour, using interactive and engaging teaching methods and providing visual aids.",
+      "corrupted": "For example, they setting clear classroom rules, implementing rewards and consequences for behaviour, using interactive and engaging teaching methods and providing visual aids.",
+      "edits": [
+        {
+          "corrupted_end": 25,
+          "corrupted_start": 18,
+          "corruption_type": "word_deletion",
+          "end": 30,
+          "original": "were setting",
+          "protected_tokens": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ],
+          "replacement": "setting",
+          "rule_id": "fallback:delete_progressive_auxiliary",
+          "start": 18
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "168fa383da9627292a5251a6",
+      "original": "Additionally, she was visiting faculty at NLSIU, Bangalore.",
+      "corrupted": "Additionally, she visiting faculty at NLSIU, Bangalore.",
+      "edits": [
+        {
+          "corrupted_end": 26,
+          "corrupted_start": 18,
+          "corruption_type": "word_deletion",
+          "end": 30,
+          "original": "was visiting",
+          "protected_tokens": [
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "replacement": "visiting",
+          "rule_id": "fallback:delete_progressive_auxiliary",
+          "start": 18
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "e42168f6d23d5dbc59a3b526",
+      "original": "Like many other New Yorkers, he was carrying a copy of The World, the most widely read and influential newspaper of its time.",
+      "corrupted": "Like many other New Yorkers, he carrying a copy of The World, the most widely read and influential newspaper of its time.",
+      "edits": [
+        {
+          "corrupted_end": 40,
+          "corrupted_start": 32,
+          "corruption_type": "word_deletion",
+          "end": 44,
+          "original": "was carrying",
+          "protected_tokens": [
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "replacement": "carrying",
+          "rule_id": "fallback:delete_progressive_auxiliary",
+          "start": 32
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "84aa91f9d318393f5b29f2de",
+      "original": "He was devoting his energies to another cause \u2014 spiritualism.",
+      "corrupted": "He devoting his energies to another cause \u2014 spiritualism.",
+      "edits": [
+        {
+          "corrupted_end": 11,
+          "corrupted_start": 3,
+          "corruption_type": "word_deletion",
+          "end": 15,
+          "original": "was devoting",
+          "protected_tokens": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "replacement": "devoting",
+          "rule_id": "fallback:delete_progressive_auxiliary",
+          "start": 3
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "b49a7672b4841a12e75e12d7",
+      "original": "This time four years ago, before the heartbreak of lockdowns and forced separations, my husband and I were preparing to go on holiday.",
+      "corrupted": "This time four years ago, before the heartbreak of lockdowns and forced separations, my husband and I preparing to go on holiday.",
+      "edits": [
+        {
+          "corrupted_end": 111,
+          "corrupted_start": 102,
+          "corruption_type": "word_deletion",
+          "end": 116,
+          "original": "were preparing",
+          "protected_tokens": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "replacement": "preparing",
+          "rule_id": "fallback:delete_progressive_auxiliary",
+          "start": 102
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "75453b7b79fb426f4c1bc06c",
+      "original": "She was describing me, my childhood, my unique weirdness.",
+      "corrupted": "She describing me, my childhood, my unique weirdness.",
+      "edits": [
+        {
+          "corrupted_end": 14,
+          "corrupted_start": 4,
+          "corruption_type": "word_deletion",
+          "end": 18,
+          "original": "was describing",
+          "protected_tokens": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "replacement": "describing",
+          "rule_id": "fallback:delete_progressive_auxiliary",
+          "start": 4
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "54ee4505cfa37fae3d509fed",
+      "original": "He was earning his living by offering lessons at the renowned riding academy of Antoine Pluvinel in the old palace of the Louvre.",
+      "corrupted": "He earning his living by offering lessons at the renowned riding academy of Antoine Pluvinel in the old palace of the Louvre.",
+      "edits": [
+        {
+          "corrupted_end": 10,
+          "corrupted_start": 3,
+          "corruption_type": "word_deletion",
+          "end": 14,
+          "original": "was earning",
+          "protected_tokens": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "replacement": "earning",
+          "rule_id": "fallback:delete_progressive_auxiliary",
+          "start": 3
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "777cf52b7de2540c61a04d25",
+      "original": "He was referring to Marsham\u2019s choice of predominantly deciduous planting as well as his method of grouping and rooting the saplings.",
+      "corrupted": "He referring to Marsham\u2019s choice of predominantly deciduous planting as well as his method of grouping and rooting the saplings.",
+      "edits": [
+        {
+          "corrupted_end": 12,
+          "corrupted_start": 3,
+          "corruption_type": "word_deletion",
+          "end": 16,
+          "original": "was referring",
+          "protected_tokens": [
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93
+          ],
+          "replacement": "referring",
+          "rule_id": "fallback:delete_progressive_auxiliary",
+          "start": 3
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "f1313a595434d98db9f699cd",
+      "original": "In November 1867, he was negotiating with his supplier of wild animals, Charles Jamrach.",
+      "corrupted": "In November 1867, he negotiating with his supplier of wild animals, Charles Jamrach.",
+      "edits": [
+        {
+          "corrupted_end": 32,
+          "corrupted_start": 21,
+          "corruption_type": "word_deletion",
+          "end": 36,
+          "original": "was negotiating",
+          "protected_tokens": [
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ],
+          "replacement": "negotiating",
+          "rule_id": "fallback:delete_progressive_auxiliary",
+          "start": 21
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "4bc492b2cc6a1922a1177dd6",
+      "original": "As Frederick Wedmore perceived it, such borrowings were standard fare in the theatre, a comment supported by the sheer number of texts cited as sources for Wilde\u2019s play.",
+      "corrupted": "As Frederick Wedmore perceived it, such borrowings were standard fare in theatre the, a comment supported by the sheer number of texts cited as sources for Wilde\u2019s play.",
+      "edits": [
+        {
+          "corrupted_end": 84,
+          "corrupted_start": 73,
+          "corruption_type": "word_swap",
+          "end": 84,
+          "original": "the theatre",
+          "protected_tokens": [
+            199,
+            200,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229,
+            230
+          ],
+          "replacement": "theatre the",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 73
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "ddcbad26cbee0adfaaefb5eb",
+      "original": "The gig economy has shifted the way people commute, order food, run businesses and make a living.",
+      "corrupted": "The gig economy has shifted the way people commute, order food, run businesses and make living a.",
+      "edits": [
+        {
+          "corrupted_end": 96,
+          "corrupted_start": 88,
+          "corruption_type": "word_swap",
+          "end": 96,
+          "original": "a living",
+          "protected_tokens": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "replacement": "living a",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 88
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "3d9d4c43bf7d463bd606599e",
+      "original": "Few Tribal leaders are able to guide the burn, given the certification standards required to be on the front line of the fire, and cultural knowledge may at times not be permitted to be shared outside the Tribal laws and traditions.",
+      "corrupted": "Few Tribal leaders are able to guide the burn, given the certification standards required to be on the front line of fire the, and cultural knowledge may at times not be permitted to be shared outside the Tribal laws and traditions.",
+      "edits": [
+        {
+          "corrupted_end": 125,
+          "corrupted_start": 117,
+          "corruption_type": "word_swap",
+          "end": 125,
+          "original": "the fire",
+          "protected_tokens": [
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113
+          ],
+          "replacement": "fire the",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 117
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "643877935c929051660419a8",
+      "original": "Wang secured 52 bilateral economic and security deals following the visit, consolidating Beijing\u2019s status as a regional partner.",
+      "corrupted": "Wang secured 52 bilateral economic and security deals following visit the, consolidating Beijing\u2019s status as a regional partner.",
+      "edits": [
+        {
+          "corrupted_end": 73,
+          "corrupted_start": 64,
+          "corruption_type": "word_swap",
+          "end": 73,
+          "original": "the visit",
+          "protected_tokens": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "replacement": "visit the",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 64
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "306f9ba5ef6cb262d38bfc60",
+      "original": "The solutions vary food by food across the world.",
+      "corrupted": "The solutions vary food by food across world the.",
+      "edits": [
+        {
+          "corrupted_end": 48,
+          "corrupted_start": 39,
+          "corruption_type": "word_swap",
+          "end": 48,
+          "original": "the world",
+          "protected_tokens": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89
+          ],
+          "replacement": "world the",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 39
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "0b10055f9708662afa958604",
+      "original": "Amid stooping figures and grasping hands I caught a glimpse of the haggard, yellow face, the glazed, expressionless eyes, the lank black hair streaked across the brow.",
+      "corrupted": "Amid stooping figures and grasping hands I caught a glimpse of the haggard, yellow face, the glazed, expressionless eyes, the lank black hair streaked across brow the.",
+      "edits": [
+        {
+          "corrupted_end": 166,
+          "corrupted_start": 158,
+          "corruption_type": "word_swap",
+          "end": 166,
+          "original": "the brow",
+          "protected_tokens": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "replacement": "brow the",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 158
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "74f0d4b49782f16d1d7034d8",
+      "original": "So Clarke\u2019s Terenure Crucifixion, modeled off his own body, becomes a self-portrait \u2014 of a sort.",
+      "corrupted": "So Clarke\u2019s Terenure Crucifixion, modeled off his own body, becomes a self-portrait \u2014 of sort a.",
+      "edits": [
+        {
+          "corrupted_end": 95,
+          "corrupted_start": 89,
+          "corruption_type": "word_swap",
+          "end": 95,
+          "original": "a sort",
+          "protected_tokens": [
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177
+          ],
+          "replacement": "sort a",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 89
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "0cbeb93f30b3cb9515b193c8",
+      "original": "Before the war, Russia\u2019s 2022 harvest was estimated at 125 million to 130 million tonnes, including 80 million to 83 million tonnes of wheat.",
+      "corrupted": "Before war the, Russia\u2019s 2022 harvest was estimated at 125 million to 130 million tonnes, including 80 million to 83 million tonnes of wheat.",
+      "edits": [
+        {
+          "corrupted_end": 14,
+          "corrupted_start": 7,
+          "corruption_type": "word_swap",
+          "end": 14,
+          "original": "the war",
+          "protected_tokens": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+          ],
+          "replacement": "war the",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 7
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "13ad0f5bc1650c0ab67e8e69",
+      "original": "As a result, authorities have embraced a more developmental approach such as involving local councils in managing informal economies and considering the informal economy in local planning.",
+      "corrupted": "As result a, authorities have embraced a more developmental approach such as involving local councils in managing informal economies and considering the informal economy in local planning.",
+      "edits": [
+        {
+          "corrupted_end": 11,
+          "corrupted_start": 3,
+          "corruption_type": "word_swap",
+          "end": 11,
+          "original": "a result",
+          "protected_tokens": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "replacement": "result a",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 3
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "4060665ba31ddb15e985a393",
+      "original": "Meat from gene edited animals is also on the horizon.",
+      "corrupted": "Meat from gene edited animals is also on horizon the.",
+      "edits": [
+        {
+          "corrupted_end": 52,
+          "corrupted_start": 41,
+          "corruption_type": "word_swap",
+          "end": 52,
+          "original": "the horizon",
+          "protected_tokens": [
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77
+          ],
+          "replacement": "horizon the",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 41
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "515e18030f5171ab27a1be6c",
+      "original": "The meat can be grown even in confined areas such as space shuttles.",
+      "corrupted": "The meat can be grown even in cnofined areas such as space shutles.",
+      "edits": [
+        {
+          "corrupted_end": 38,
+          "corrupted_start": 30,
+          "corruption_type": "spelling",
+          "end": 38,
+          "original": "confined",
+          "protected_tokens": [
+            24
+          ],
+          "replacement": "cnofined",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 30
+        },
+        {
+          "corrupted_end": 66,
+          "corrupted_start": 59,
+          "corruption_type": "spelling",
+          "end": 67,
+          "original": "shuttles",
+          "protected_tokens": [
+            29
+          ],
+          "replacement": "shutles",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:delete_doubled_consonant",
+          "start": 59
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "3763eeeea053507a714a2f47",
+      "original": "A pivotal figure in the Red Siam movement, Jakrapob\u2019s bold stances against Thailand\u2019s entrenched power structures earned him both acclaim and peril.",
+      "corrupted": "A pivottal figure in the Red Siam movement, Jakrapob\u2019s bold stances against Thailand\u2019s entrenched power structures earned him both aclaim and peril.",
+      "edits": [
+        {
+          "corrupted_end": 10,
+          "corrupted_start": 2,
+          "corruption_type": "spelling",
+          "end": 9,
+          "original": "pivotal",
+          "protected_tokens": [
+            1
+          ],
+          "replacement": "pivottal",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 2
+        },
+        {
+          "corrupted_end": 137,
+          "corrupted_start": 131,
+          "corruption_type": "spelling",
+          "end": 137,
+          "original": "acclaim",
+          "protected_tokens": [
+            22
+          ],
+          "replacement": "aclaim",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:delete_doubled_consonant",
+          "start": 130
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "2a5d21f4e208cddb40ec58fb",
+      "original": "The statistics are worrying: the India Employment Report 2024 revealed that the number of educated unemployed youth had nearly doubled to 65.7 percent in 2022 from 35.2 percent in 2000.",
+      "corrupted": "The statisttics are worrying: the India Employment Report 2024 revealed taht the number of educated unemployed youth had nearly doubled to 65.7 percent in 2022 from 35.2 percent in 2000.",
+      "edits": [
+        {
+          "corrupted_end": 15,
+          "corrupted_start": 4,
+          "corruption_type": "spelling",
+          "end": 14,
+          "original": "statistics",
+          "protected_tokens": [
+            1
+          ],
+          "replacement": "statisttics",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 4
+        },
+        {
+          "corrupted_end": 76,
+          "corrupted_start": 72,
+          "corruption_type": "spelling",
+          "end": 75,
+          "original": "that",
+          "protected_tokens": [
+            11
+          ],
+          "replacement": "taht",
+          "rule_id": "spelling:that:taht",
+          "start": 71
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "e618430915a59f4e48d612f6",
+      "original": "Microplastic particles have been discovered in human lung tissue.",
+      "corrupted": "Microplastic particles have been discovered in human lung tisue.",
+      "edits": [
+        {
+          "corrupted_end": 63,
+          "corrupted_start": 58,
+          "corruption_type": "spelling",
+          "end": 64,
+          "original": "tissue",
+          "protected_tokens": [
+            34
+          ],
+          "replacement": "tisue",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:delete_doubled_consonant",
+          "start": 58
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "301eecf76e69757287786394",
+      "original": "The first decades of the twentieth century saw an increased fascination with mythology, the occult, and the archaic.",
+      "corrupted": "The first decades of the twentieth century saw an increased fascination with mytholgoy, the ocult, and the archaic.",
+      "edits": [
+        {
+          "corrupted_end": 86,
+          "corrupted_start": 77,
+          "corruption_type": "spelling",
+          "end": 86,
+          "original": "mythology",
+          "protected_tokens": [
+            102
+          ],
+          "replacement": "mytholgoy",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 77
+        },
+        {
+          "corrupted_end": 97,
+          "corrupted_start": 92,
+          "corruption_type": "spelling",
+          "end": 98,
+          "original": "occult",
+          "protected_tokens": [
+            105
+          ],
+          "replacement": "ocult",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:delete_doubled_consonant",
+          "start": 92
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "bf7503b082352fbd62615e26",
+      "original": "Over the centuries, artists accumulated a few other blues too.",
+      "corrupted": "Over the centuries, artists acumulated a few other blues too.",
+      "edits": [
+        {
+          "corrupted_end": 38,
+          "corrupted_start": 28,
+          "corruption_type": "spelling",
+          "end": 39,
+          "original": "accumulated",
+          "protected_tokens": [
+            5
+          ],
+          "replacement": "acumulated",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:delete_doubled_consonant",
+          "start": 28
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "9772c11743be241408992330",
+      "original": "Myths perpetuate people feeling pain, when their pain could have been relieved, or at least managed, if they had more critically weighed up different approaches.",
+      "corrupted": "Myths perpetuate people feeling pain, when their pain could have been relieved, or at least managed, if they had more criticaly weighed up diferent approaches.",
+      "edits": [
+        {
+          "corrupted_end": 127,
+          "corrupted_start": 118,
+          "corruption_type": "spelling",
+          "end": 128,
+          "original": "critically",
+          "protected_tokens": [
+            23
+          ],
+          "replacement": "criticaly",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:delete_doubled_consonant",
+          "start": 118
+        },
+        {
+          "corrupted_end": 147,
+          "corrupted_start": 139,
+          "corruption_type": "spelling",
+          "end": 149,
+          "original": "different",
+          "protected_tokens": [
+            26
+          ],
+          "replacement": "diferent",
+          "rule_id": "spelling:different:diferent",
+          "start": 140
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "3a292f93c02e06b124523a84",
+      "original": "Breast cancer screening is grossly neglected at household, state and national level.",
+      "corrupted": "Breast cancer screening is grosly neglected at household, state and naitonal level.",
+      "edits": [
+        {
+          "corrupted_end": 33,
+          "corrupted_start": 27,
+          "corruption_type": "spelling",
+          "end": 34,
+          "original": "grossly",
+          "protected_tokens": [
+            4
+          ],
+          "replacement": "grosly",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:delete_doubled_consonant",
+          "start": 27
+        },
+        {
+          "corrupted_end": 76,
+          "corrupted_start": 68,
+          "corruption_type": "spelling",
+          "end": 77,
+          "original": "national",
+          "protected_tokens": [
+            11
+          ],
+          "replacement": "naitonal",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 69
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "6e138c116e31ec91eda91cdc",
+      "original": "But biases against accents persist with dire effects.",
+      "corrupted": "But biases against acents persist with dire effeccts.",
+      "edits": [
+        {
+          "corrupted_end": 25,
+          "corrupted_start": 19,
+          "corruption_type": "spelling",
+          "end": 26,
+          "original": "accents",
+          "protected_tokens": [
+            13
+          ],
+          "replacement": "acents",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:delete_doubled_consonant",
+          "start": 19
+        },
+        {
+          "corrupted_end": 52,
+          "corrupted_start": 44,
+          "corruption_type": "spelling",
+          "end": 52,
+          "original": "effects",
+          "protected_tokens": [
+            17
+          ],
+          "replacement": "effeccts",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 45
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "d8430914b6c84bf0195a78e0",
+      "original": "ASEAN was not invited to tackle regional issues collaboratively with the Quad, an indication of how smaller countries are discounted.",
+      "corrupted": "ASEAN was not invited to tackle regional issues colaboratively with the Quad, an indication of how smaller countries are discounted.",
+      "edits": [
+        {
+          "corrupted_end": 62,
+          "corrupted_start": 48,
+          "corruption_type": "spelling",
+          "end": 63,
+          "original": "collaboratively",
+          "protected_tokens": [
+            8
+          ],
+          "replacement": "colaboratively",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:delete_doubled_consonant",
+          "start": 48
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "95ce695c60f65e0281e35ae2",
+      "original": "We can look on, amused or bemused, at their foreignness amid the familiar.",
+      "corrupted": "We can looking on, amused or bemused, at their foreigness amid the familiar.",
+      "edits": [
+        {
+          "corrupted_end": 14,
+          "corrupted_start": 7,
+          "corruption_type": "modal_verb_form",
+          "end": 11,
+          "original": "look",
+          "protected_tokens": [
+            79,
+            80
+          ],
+          "replacement": "looking",
+          "rule_id": "modal_verb_form:productive",
+          "start": 7
+        },
+        {
+          "corrupted_end": 57,
+          "corrupted_start": 47,
+          "corruption_type": "spelling",
+          "end": 55,
+          "original": "foreignness",
+          "protected_tokens": [
+            89
+          ],
+          "replacement": "foreigness",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:delete_doubled_consonant",
+          "start": 44
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "f9f36979ae1540d269e96cf9",
+      "original": "But the PhD experience in developed economies is often geared towards research training involving sophisticated techniques and equipment unavailable at home.",
+      "corrupted": "But the PhD experience in developed economies is often geared towards research trraining involving sophistticated techniques and equipment unavailable at home.",
+      "edits": [
+        {
+          "corrupted_end": 88,
+          "corrupted_start": 79,
+          "corruption_type": "spelling",
+          "end": 87,
+          "original": "training",
+          "protected_tokens": [
+            40
+          ],
+          "replacement": "trraining",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 79
+        },
+        {
+          "corrupted_end": 113,
+          "corrupted_start": 99,
+          "corruption_type": "spelling",
+          "end": 111,
+          "original": "sophisticated",
+          "protected_tokens": [
+            42
+          ],
+          "replacement": "sophistticated",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 98
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "e38ba30a286ef52a2cb479b5",
+      "original": "Dr Debbie Ling is a compassion researcher and educator and Lecturer in the Department of Social Work, Faculty of Medicine, Nursing and Health Sciences at Monash University.",
+      "corrupted": "Dr Debbie Ling is a compassion researcher and educcator and Lecturer in the Department of Social Work, Faculty of Medicine, Nursing and Health Sciences at Monash University.",
+      "edits": [
+        {
+          "corrupted_end": 55,
+          "corrupted_start": 46,
+          "corruption_type": "spelling",
+          "end": 54,
+          "original": "educator",
+          "protected_tokens": [
+            8
+          ],
+          "replacement": "educcator",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 46
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "86a31af9840322b637480dc4",
+      "original": "How these two parts of the brain interact to produce swallowing was largely a mystery.",
+      "corrupted": "How these two parts of the brain interact to produce swallowinng was largely a mystrey.",
+      "edits": [
+        {
+          "corrupted_end": 64,
+          "corrupted_start": 53,
+          "corruption_type": "spelling",
+          "end": 63,
+          "original": "swallowing",
+          "protected_tokens": [
+            80
+          ],
+          "replacement": "swallowinng",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 53
+        },
+        {
+          "corrupted_end": 86,
+          "corrupted_start": 79,
+          "corruption_type": "spelling",
+          "end": 85,
+          "original": "mystery",
+          "protected_tokens": [
+            84
+          ],
+          "replacement": "mystrey",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 78
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "0a635e548869d07be69d9028",
+      "original": "The rule of Russian President Vladimir Putin has been threatened by Ukraine as the latter has democratised and sought closer relations with Europe.",
+      "corrupted": "The rule of Russian President Vladimir Putin has been threatened by Ukraine as the latter has democratised and sought clloser reltaions with Europe.",
+      "edits": [
+        {
+          "corrupted_end": 125,
+          "corrupted_start": 118,
+          "corruption_type": "spelling",
+          "end": 124,
+          "original": "closer",
+          "protected_tokens": [
+            19
+          ],
+          "replacement": "clloser",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 118
+        },
+        {
+          "corrupted_end": 135,
+          "corrupted_start": 126,
+          "corruption_type": "spelling",
+          "end": 134,
+          "original": "relations",
+          "protected_tokens": [
+            20
+          ],
+          "replacement": "reltaions",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 125
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "7b9beb02fdbd25e7218d3c2d",
+      "original": "The provisions in the TRIPS Agreement were largely the result of the pharmaceutical industry acting in concert with the software and music industries.",
+      "corrupted": "The provisions in the TRIPS Agreement were larrgely the result of the pharmaceutical industry acting in concert with the software and music industries.",
+      "edits": [
+        {
+          "corrupted_end": 51,
+          "corrupted_start": 43,
+          "corruption_type": "spelling",
+          "end": 50,
+          "original": "largely",
+          "protected_tokens": [
+            7
+          ],
+          "replacement": "larrgely",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 43
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "c04db5c6853e8d01b266ddea",
+      "original": "The US and China are key to tackling the global climate crisis.",
+      "corrupted": "The US and China are key to tackling the globbal climatte crisis.",
+      "edits": [
+        {
+          "corrupted_end": 48,
+          "corrupted_start": 41,
+          "corruption_type": "spelling",
+          "end": 47,
+          "original": "global",
+          "protected_tokens": [
+            9
+          ],
+          "replacement": "globbal",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 41
+        },
+        {
+          "corrupted_end": 57,
+          "corrupted_start": 49,
+          "corruption_type": "spelling",
+          "end": 55,
+          "original": "climate",
+          "protected_tokens": [
+            10
+          ],
+          "replacement": "climatte",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 48
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "c8029eac1b279648b4a1a7e0",
+      "original": "These figures would indicate there may be factors other than criminalising suicide attempts which contributed to the suicide rates of these countries.",
+      "corrupted": "These figures would indicating there may be factors other than criminalising suicide attempts which contributed to the suicidde rates of these countries.",
+      "edits": [
+        {
+          "corrupted_end": 30,
+          "corrupted_start": 20,
+          "corruption_type": "modal_verb_form",
+          "end": 28,
+          "original": "indicate",
+          "protected_tokens": [
+            62,
+            63
+          ],
+          "replacement": "indicating",
+          "rule_id": "modal_verb_form:productive",
+          "start": 20
+        },
+        {
+          "corrupted_end": 127,
+          "corrupted_start": 119,
+          "corruption_type": "spelling",
+          "end": 124,
+          "original": "suicide",
+          "protected_tokens": [
+            77
+          ],
+          "replacement": "suicidde",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 117
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "406ceebaebacb998eb557f58",
+      "original": "Dr Theseira also received consultancy fees for related research from the Land Transport Authority, Singapore, the government authority responsible for Singapore\u2019s congestion charging and management system.",
+      "corrupted": "Dr Theseira also received consultancy fees for related research from the Land Transport Authority, Singapore, the goverment authority responsable for Singapore\u2019s congestion charging and management system.",
+      "edits": [
+        {
+          "corrupted_end": 123,
+          "corrupted_start": 114,
+          "corruption_type": "spelling",
+          "end": 124,
+          "original": "government",
+          "protected_tokens": [
+            41
+          ],
+          "replacement": "goverment",
+          "rule_id": "spelling:government:goverment",
+          "start": 114
+        },
+        {
+          "corrupted_end": 145,
+          "corrupted_start": 134,
+          "corruption_type": "spelling",
+          "end": 146,
+          "original": "responsible",
+          "protected_tokens": [
+            43
+          ],
+          "replacement": "responsable",
+          "rule_id": "spelling:responsible:responsable",
+          "start": 135
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "655eb00b16dfb98430316035",
+      "original": "The traditional model assumes consulting services can be purchased just like any other good.",
+      "corrupted": "The traditional model assummes consulting services can be purchased just like any other good.",
+      "edits": [
+        {
+          "corrupted_end": 30,
+          "corrupted_start": 22,
+          "corruption_type": "spelling",
+          "end": 29,
+          "original": "assumes",
+          "protected_tokens": [
+            12
+          ],
+          "replacement": "assummes",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 22
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "bf24b2ff4a26b22770800c44",
+      "original": "Two lovers might as easily be embracing on the ground because one has fallen ill: one image with various possible meanings.",
+      "corrupted": "Two lovers might as easily be embracing on the ground becouse one has fell ill: one image with various possible meanings.",
+      "edits": [
+        {
+          "corrupted_end": 61,
+          "corrupted_start": 54,
+          "corruption_type": "spelling",
+          "end": 61,
+          "original": "because",
+          "protected_tokens": [
+            64
+          ],
+          "replacement": "becouse",
+          "rule_id": "spelling:because:becouse",
+          "start": 54
+        },
+        {
+          "corrupted_end": 74,
+          "corrupted_start": 70,
+          "corruption_type": "perfect_participle",
+          "end": 76,
+          "original": "fallen",
+          "protected_tokens": [
+            66,
+            67
+          ],
+          "replacement": "fell",
+          "rule_id": "perfect_participle:productive",
+          "start": 70
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "d107182c18db9f236459fb0e",
+      "original": "India\u2019s first attempt to reach the Moon with Chandrayaan-1 succeeded in almost all of its mission objectives and scientific goals, including detecting evidence of water on the lunar surface for the first time.",
+      "corrupted": "India\u2019s first attempt to reach the Moon with Chandrayaan-1 succeeded in almost all of its mission objectives and scientific goals, inncluding detecting evidence of water on the lunar surface for the first time.",
+      "edits": [
+        {
+          "corrupted_end": 141,
+          "corrupted_start": 131,
+          "corruption_type": "spelling",
+          "end": 140,
+          "original": "including",
+          "protected_tokens": [
+            22
+          ],
+          "replacement": "inncluding",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 131
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "e771b7cd3ae38cc59a21c639",
+      "original": "Many of the survivors returned to Europe, and in fact, the majority of 17th-century colonies in North America were abandoned.",
+      "corrupted": "Many of the survivors retturned to Europe, and in fact, the majority of 17th-century colonies in North America were abandoend.",
+      "edits": [
+        {
+          "corrupted_end": 31,
+          "corrupted_start": 22,
+          "corruption_type": "spelling",
+          "end": 30,
+          "original": "returned",
+          "protected_tokens": [
+            107
+          ],
+          "replacement": "retturned",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 22
+        },
+        {
+          "corrupted_end": 125,
+          "corrupted_start": 116,
+          "corruption_type": "spelling",
+          "end": 124,
+          "original": "abandoned",
+          "protected_tokens": [
+            126
+          ],
+          "replacement": "abandoend",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 115
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "5b4fa28d0f87301941d8575d",
+      "original": "This means that vulnerable communities can be supported financially to evacuate, or immediate needs such as clean water and sanitation supplies can be provided.",
+      "corrupted": "This means taht vulnerable communities can be supported financially to evacuate, or immediate needs such as clean water and sanitation supplies can be provided.",
+      "edits": [
+        {
+          "corrupted_end": 15,
+          "corrupted_start": 11,
+          "corruption_type": "spelling",
+          "end": 15,
+          "original": "that",
+          "protected_tokens": [
+            22
+          ],
+          "replacement": "taht",
+          "rule_id": "spelling:that:taht",
+          "start": 11
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "192ee7696c47c36fd997e2c3",
+      "original": "Some seem to forget that the prisoner is a rational being, of like feeling and passions with themselves.",
+      "corrupted": "Some seem to forget taht the prsioner is a rational being, of like feeling and passions with themselves.",
+      "edits": [
+        {
+          "corrupted_end": 24,
+          "corrupted_start": 20,
+          "corruption_type": "spelling",
+          "end": 24,
+          "original": "that",
+          "protected_tokens": [
+            4
+          ],
+          "replacement": "taht",
+          "rule_id": "spelling:that:taht",
+          "start": 20
+        },
+        {
+          "corrupted_end": 37,
+          "corrupted_start": 29,
+          "corruption_type": "spelling",
+          "end": 37,
+          "original": "prisoner",
+          "protected_tokens": [
+            6
+          ],
+          "replacement": "prsioner",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 29
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "cddb91c10a8c17a321113621",
+      "original": "As farmers retire, fewer and fewer young farmers are taking their place.",
+      "corrupted": "As farmers rteire, fewer and fewer young farmers are takinng their place.",
+      "edits": [
+        {
+          "corrupted_end": 17,
+          "corrupted_start": 11,
+          "corruption_type": "spelling",
+          "end": 17,
+          "original": "retire",
+          "protected_tokens": [
+            39
+          ],
+          "replacement": "rteire",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 11
+        },
+        {
+          "corrupted_end": 60,
+          "corrupted_start": 53,
+          "corruption_type": "spelling",
+          "end": 59,
+          "original": "taking",
+          "protected_tokens": [
+            47
+          ],
+          "replacement": "takinng",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 53
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "fcbc0af248b58d87d423d5b6",
+      "original": "It is no coincidence that most of the large academic publishers are in Europe.",
+      "corrupted": "It are no coincidence taht most of the large academic publishers are in Europe.",
+      "edits": [
+        {
+          "corrupted_end": 6,
+          "corrupted_start": 3,
+          "corruption_type": "subject_verb_agreement",
+          "end": 5,
+          "original": "is",
+          "protected_tokens": [
+            31,
+            32
+          ],
+          "replacement": "are",
+          "rule_id": "subject_verb_agreement:productive",
+          "start": 3
+        },
+        {
+          "corrupted_end": 26,
+          "corrupted_start": 22,
+          "corruption_type": "spelling",
+          "end": 25,
+          "original": "that",
+          "protected_tokens": [
+            35
+          ],
+          "replacement": "taht",
+          "rule_id": "spelling:that:taht",
+          "start": 21
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "861174ed95bc075e1b20507b",
+      "original": "In terms of navigating, not solving, a water crisis, South Africa\u2019s 2018 Day Zero is often viewed as a gold standard.",
+      "corrupted": "In terms of navigating, not sovling, a water crisis, South Africa\u2019s 2018 Day Zero is often vieewd as a gold standard.",
+      "edits": [
+        {
+          "corrupted_end": 35,
+          "corrupted_start": 28,
+          "corruption_type": "spelling",
+          "end": 35,
+          "original": "solving",
+          "protected_tokens": [
+            6
+          ],
+          "replacement": "sovling",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 28
+        },
+        {
+          "corrupted_end": 97,
+          "corrupted_start": 91,
+          "corruption_type": "spelling",
+          "end": 97,
+          "original": "viewed",
+          "protected_tokens": [
+            20
+          ],
+          "replacement": "vieewd",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 91
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "f22b1bc261e91f1299bfe720",
+      "original": "She is a leading legal scholar on Tongan constitutional law.",
+      "corrupted": "She are a leading legal scholar on Tongan constittuional law.",
+      "edits": [
+        {
+          "corrupted_end": 7,
+          "corrupted_start": 4,
+          "corruption_type": "subject_verb_agreement",
+          "end": 6,
+          "original": "is",
+          "protected_tokens": [
+            24,
+            25
+          ],
+          "replacement": "are",
+          "rule_id": "subject_verb_agreement:productive",
+          "start": 4
+        },
+        {
+          "corrupted_end": 56,
+          "corrupted_start": 42,
+          "corruption_type": "spelling",
+          "end": 55,
+          "original": "constitutional",
+          "protected_tokens": [
+            32
+          ],
+          "replacement": "constittuional",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 41
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "b3bf3f091992667de3061c45",
+      "original": "The problem of too much plastic packaging will not be solved without addressing its larger twin: food waste.",
+      "corrupted": "The prbolem of too much plastic packaging will not be solved without addressing its larger twin: food waste.",
+      "edits": [
+        {
+          "corrupted_end": 11,
+          "corrupted_start": 4,
+          "corruption_type": "spelling",
+          "end": 11,
+          "original": "problem",
+          "protected_tokens": [
+            1
+          ],
+          "replacement": "prbolem",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 4
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "e6e578e96493dc366610184b",
+      "original": "They also thrust technology\u2019s potential to help prevent domestic violence into the public eye.",
+      "corrupted": "They also thrust technology\u2019s potential to help prevent domestic violence into the puplic eye.",
+      "edits": [
+        {
+          "corrupted_end": 89,
+          "corrupted_start": 83,
+          "corruption_type": "spelling",
+          "end": 89,
+          "original": "public",
+          "protected_tokens": [
+            13
+          ],
+          "replacement": "puplic",
+          "rule_id": "spelling:public:puplic",
+          "start": 83
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "657bfc2aa29b4d3f04525dff",
+      "original": "The Hippocratic Aphorisms include advice on urine-based diagnosis and prognosis.",
+      "corrupted": "The Hippocratic Aphorisms icnlude advice on urine-based diangosis and prognosis.",
+      "edits": [
+        {
+          "corrupted_end": 33,
+          "corrupted_start": 26,
+          "corruption_type": "spelling",
+          "end": 33,
+          "original": "include",
+          "protected_tokens": [
+            40
+          ],
+          "replacement": "icnlude",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 26
+        },
+        {
+          "corrupted_end": 65,
+          "corrupted_start": 56,
+          "corruption_type": "spelling",
+          "end": 65,
+          "original": "diagnosis",
+          "protected_tokens": [
+            46
+          ],
+          "replacement": "diangosis",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 56
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "5726831f914ab39112240127",
+      "original": "The year 2011 marked the 100th anniversary of the children's classic The Secret Garden.",
+      "corrupted": "The year 2011 marked the 100th annivesrary of the children's classic The Secret Garden.",
+      "edits": [
+        {
+          "corrupted_end": 42,
+          "corrupted_start": 31,
+          "corruption_type": "spelling",
+          "end": 42,
+          "original": "anniversary",
+          "protected_tokens": [
+            6
+          ],
+          "replacement": "annivesrary",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 31
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "25cb8a9bad438590d768c90f",
+      "original": "State surveillance can be poorly regulated, sometimes deliberately so.",
+      "corrupted": "State surveillance can be poorly regulated, sometmies deliberately so.",
+      "edits": [
+        {
+          "corrupted_end": 53,
+          "corrupted_start": 44,
+          "corruption_type": "spelling",
+          "end": 53,
+          "original": "sometimes",
+          "protected_tokens": [
+            7
+          ],
+          "replacement": "sometmies",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 44
+        }
+      ],
+      "original_correct": true,
+      "edits_valid": true,
+      "corrupted_incorrect": true,
+      "reviewer": "codex/gpt-6"
+    }
+  ]
+}

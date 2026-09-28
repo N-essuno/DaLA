@@ -1,0 +1,1826 @@
+[
+  {
+    "correct": "kunnen",
+    "incorrect": "kunen",
+    "line": 64119,
+    "count": 128
+  },
+  {
+    "correct": "hebben",
+    "incorrect": "heben",
+    "line": 64101,
+    "count": 114
+  },
+  {
+    "correct": "mensen",
+    "incorrect": "mansen",
+    "line": 63755,
+    "count": 74
+  },
+  {
+    "correct": "maken",
+    "incorrect": "maake",
+    "line": 64045,
+    "count": 70
+  },
+  {
+    "correct": "maken",
+    "incorrect": "maaken",
+    "line": 63809,
+    "count": 70
+  },
+  {
+    "correct": "moeten",
+    "incorrect": "mieten",
+    "line": 63745,
+    "count": 70
+  },
+  {
+    "correct": "komen",
+    "incorrect": "koome",
+    "line": 64112,
+    "count": 60
+  },
+  {
+    "correct": "samen",
+    "incorrect": "tesaam",
+    "line": 63923,
+    "count": 52
+  },
+  {
+    "correct": "binnen",
+    "incorrect": "binen",
+    "line": 64098,
+    "count": 50
+  },
+  {
+    "correct": "eigen",
+    "incorrect": "ijgen",
+    "line": 63954,
+    "count": 40
+  },
+  {
+    "correct": "eerste",
+    "incorrect": "irste",
+    "line": 64000,
+    "count": 38
+  },
+  {
+    "correct": "aantal",
+    "incorrect": "aantap",
+    "line": 63833,
+    "count": 35
+  },
+  {
+    "correct": "altijd",
+    "incorrect": "altij",
+    "line": 63990,
+    "count": 34
+  },
+  {
+    "correct": "altijd",
+    "incorrect": "altijt",
+    "line": 63906,
+    "count": 34
+  },
+  {
+    "correct": "nodig",
+    "incorrect": "noodig",
+    "line": 63766,
+    "count": 33
+  },
+  {
+    "correct": "geven",
+    "incorrect": "geefen",
+    "line": 63829,
+    "count": 29
+  },
+  {
+    "correct": "tegen",
+    "incorrect": "teegen",
+    "line": 63750,
+    "count": 27
+  },
+  {
+    "correct": "krijgen",
+    "incorrect": "kijgen",
+    "line": 63824,
+    "count": 27
+  },
+  {
+    "correct": "maakt",
+    "incorrect": "makat",
+    "line": 64064,
+    "count": 26
+  },
+  {
+    "correct": "vinden",
+    "incorrect": "finden",
+    "line": 63781,
+    "count": 25
+  },
+  {
+    "correct": "kijken",
+    "incorrect": "kijke",
+    "line": 64008,
+    "count": 21
+  },
+  {
+    "correct": "kinderen",
+    "incorrect": "kindere",
+    "line": 63588,
+    "count": 21
+  },
+  {
+    "correct": "beter",
+    "incorrect": "beeter",
+    "line": 63931,
+    "count": 20
+  },
+  {
+    "correct": "blijven",
+    "incorrect": "blijfen",
+    "line": 63610,
+    "count": 20
+  },
+  {
+    "correct": "terug",
+    "incorrect": "tereg",
+    "line": 64047,
+    "count": 19
+  },
+  {
+    "correct": "afgelopen",
+    "incorrect": "afgeloopen",
+    "line": 62800,
+    "count": 19
+  },
+  {
+    "correct": "meerdere",
+    "incorrect": "meerders",
+    "line": 63434,
+    "count": 18
+  },
+  {
+    "correct": "achter",
+    "incorrect": "agter",
+    "line": 64156,
+    "count": 17
+  },
+  {
+    "correct": "mogen",
+    "incorrect": "moogen",
+    "line": 63838,
+    "count": 16
+  },
+  {
+    "correct": "vraag",
+    "incorrect": "fraag",
+    "line": 64084,
+    "count": 16
+  },
+  {
+    "correct": "water",
+    "incorrect": "waater",
+    "line": 63840,
+    "count": 16
+  },
+  {
+    "correct": "vraagt",
+    "incorrect": "fraagt",
+    "line": 63800,
+    "count": 16
+  },
+  {
+    "correct": "laatste",
+    "incorrect": "laaste",
+    "line": 63830,
+    "count": 16
+  },
+  {
+    "correct": "laatste",
+    "incorrect": "laatse",
+    "line": 63867,
+    "count": 16
+  },
+  {
+    "correct": "zitten",
+    "incorrect": "siten",
+    "line": 64049,
+    "count": 15
+  },
+  {
+    "correct": "vertelt",
+    "incorrect": "fertelt",
+    "line": 63679,
+    "count": 15
+  },
+  {
+    "correct": "vandaag",
+    "incorrect": "fandaag",
+    "line": 63606,
+    "count": 14
+  },
+  {
+    "correct": "weten",
+    "incorrect": "weeten",
+    "line": 63763,
+    "count": 13
+  },
+  {
+    "correct": "spelen",
+    "incorrect": "speelen",
+    "line": 63703,
+    "count": 13
+  },
+  {
+    "correct": "bezoek",
+    "incorrect": "besoek",
+    "line": 63899,
+    "count": 12
+  },
+  {
+    "correct": "gezien",
+    "incorrect": "gesien",
+    "line": 63854,
+    "count": 12
+  },
+  {
+    "correct": "uitgevoerd",
+    "incorrect": "uitgeboerd",
+    "line": 63062,
+    "count": 12
+  },
+  {
+    "correct": "kamer",
+    "incorrect": "kaamer",
+    "line": 63894,
+    "count": 11
+  },
+  {
+    "correct": "weken",
+    "incorrect": "weeken",
+    "line": 63837,
+    "count": 11
+  },
+  {
+    "correct": "gevallen",
+    "incorrect": "gevalen",
+    "line": 63612,
+    "count": 11
+  },
+  {
+    "correct": "boven",
+    "incorrect": "boofen",
+    "line": 63843,
+    "count": 10
+  },
+  {
+    "correct": "boven",
+    "incorrect": "boove",
+    "line": 63971,
+    "count": 10
+  },
+  {
+    "correct": "handen",
+    "incorrect": "hanten",
+    "line": 63920,
+    "count": 10
+  },
+  {
+    "correct": "bewoners",
+    "incorrect": "bewoonders",
+    "line": 63089,
+    "count": 10
+  },
+  {
+    "correct": "kenmerken",
+    "incorrect": "kernmerken",
+    "line": 66334,
+    "count": 10
+  },
+  {
+    "correct": "omstandigheden",
+    "incorrect": "opstandigheden",
+    "line": 60792,
+    "count": 10
+  },
+  {
+    "correct": "grond",
+    "incorrect": "gront",
+    "line": 64086,
+    "count": 9
+  },
+  {
+    "correct": "lopen",
+    "incorrect": "loopen",
+    "line": 63764,
+    "count": 9
+  },
+  {
+    "correct": "kwamen",
+    "incorrect": "kwaame",
+    "line": 63797,
+    "count": 9
+  },
+  {
+    "correct": "lessen",
+    "incorrect": "lesen",
+    "line": 64151,
+    "count": 9
+  },
+  {
+    "correct": "waarom",
+    "incorrect": "warom",
+    "line": 63996,
+    "count": 9
+  },
+  {
+    "correct": "gebeurt",
+    "incorrect": "geburt",
+    "line": 63871,
+    "count": 9
+  },
+  {
+    "correct": "visie",
+    "incorrect": "fiesie",
+    "line": 63877,
+    "count": 8
+  },
+  {
+    "correct": "gewoon",
+    "incorrect": "gwoon",
+    "line": 64002,
+    "count": 8
+  },
+  {
+    "correct": "ontstaan",
+    "incorrect": "onstaan",
+    "line": 66504,
+    "count": 8
+  },
+  {
+    "correct": "kiezen",
+    "incorrect": "kiesen",
+    "line": 63852,
+    "count": 7
+  },
+  {
+    "correct": "wachten",
+    "incorrect": "wagten",
+    "line": 63820,
+    "count": 7
+  },
+  {
+    "correct": "gelukkig",
+    "incorrect": "gelukig",
+    "line": 63684,
+    "count": 7
+  },
+  {
+    "correct": "helemaal",
+    "incorrect": "heelemaal",
+    "line": 63221,
+    "count": 7
+  },
+  {
+    "correct": "misschien",
+    "incorrect": "meschie",
+    "line": 63675,
+    "count": 7
+  },
+  {
+    "correct": "misschien",
+    "incorrect": "mesgien",
+    "line": 63701,
+    "count": 7
+  },
+  {
+    "correct": "misschien",
+    "incorrect": "mischien",
+    "line": 63445,
+    "count": 7
+  },
+  {
+    "correct": "huisvesting",
+    "incorrect": "housing",
+    "line": 63643,
+    "count": 7
+  },
+  {
+    "correct": "gebouw",
+    "incorrect": "gehouw",
+    "line": 63905,
+    "count": 6
+  },
+  {
+    "correct": "volgen",
+    "incorrect": "volten",
+    "line": 63832,
+    "count": 6
+  },
+  {
+    "correct": "beginnen",
+    "incorrect": "begine",
+    "line": 63796,
+    "count": 6
+  },
+  {
+    "correct": "beginnen",
+    "incorrect": "beginen",
+    "line": 63719,
+    "count": 6
+  },
+  {
+    "correct": "eigenlijk",
+    "incorrect": "ijgelek",
+    "line": 63689,
+    "count": 6
+  },
+  {
+    "correct": "allemaal",
+    "incorrect": "alemaal",
+    "line": 63685,
+    "count": 5
+  },
+  {
+    "correct": "hoort",
+    "incorrect": "horet",
+    "line": 63973,
+    "count": 4
+  },
+  {
+    "correct": "mooie",
+    "incorrect": "mooije",
+    "line": 63743,
+    "count": 4
+  },
+  {
+    "correct": "vroeg",
+    "incorrect": "froeg",
+    "line": 64121,
+    "count": 4
+  },
+  {
+    "correct": "balans",
+    "incorrect": "ballans",
+    "line": 66156,
+    "count": 4
+  },
+  {
+    "correct": "beetje",
+    "incorrect": "beete",
+    "line": 63987,
+    "count": 4
+  },
+  {
+    "correct": "morgen",
+    "incorrect": "morge",
+    "line": 64150,
+    "count": 4
+  },
+  {
+    "correct": "gehaald",
+    "incorrect": "gehaalt",
+    "line": 63598,
+    "count": 4
+  },
+  {
+    "correct": "verkiezingen",
+    "incorrect": "verliezingen",
+    "line": 61902,
+    "count": 4
+  },
+  {
+    "correct": "roept",
+    "incorrect": "toept",
+    "line": 64015,
+    "count": 3
+  },
+  {
+    "correct": "tafel",
+    "incorrect": "taafel",
+    "line": 63811,
+    "count": 3
+  },
+  {
+    "correct": "gingen",
+    "incorrect": "ginen",
+    "line": 64094,
+    "count": 3
+  },
+  {
+    "correct": "gingen",
+    "incorrect": "ginge",
+    "line": 64085,
+    "count": 3
+  },
+  {
+    "correct": "akkoord",
+    "incorrect": "accoord",
+    "line": 63700,
+    "count": 3
+  },
+  {
+    "correct": "creëren",
+    "incorrect": "creëeren",
+    "line": 66488,
+    "count": 3
+  },
+  {
+    "correct": "misbruik",
+    "incorrect": "abuse",
+    "line": 64116,
+    "count": 3
+  },
+  {
+    "correct": "uitsluitend",
+    "incorrect": "uitspuitend",
+    "line": 62493,
+    "count": 3
+  },
+  {
+    "correct": "aanwijzingen",
+    "incorrect": "aanwijzigingen",
+    "line": 66494,
+    "count": 3
+  },
+  {
+    "correct": "zoekt",
+    "incorrect": "soekt",
+    "line": 63964,
+    "count": 2
+  },
+  {
+    "correct": "indruk",
+    "incorrect": "indrum",
+    "line": 63758,
+    "count": 2
+  },
+  {
+    "correct": "winkel",
+    "incorrect": "winken",
+    "line": 63731,
+    "count": 2
+  },
+  {
+    "correct": "beneden",
+    "incorrect": "benee",
+    "line": 65608,
+    "count": 2
+  },
+  {
+    "correct": "beneden",
+    "incorrect": "beneede",
+    "line": 63617,
+    "count": 2
+  },
+  {
+    "correct": "beneden",
+    "incorrect": "beneeden",
+    "line": 63438,
+    "count": 2
+  },
+  {
+    "correct": "omgezet",
+    "incorrect": "ongezet",
+    "line": 63631,
+    "count": 2
+  },
+  {
+    "correct": "begonnen",
+    "incorrect": "begonen",
+    "line": 63686,
+    "count": 2
+  },
+  {
+    "correct": "openbare",
+    "incorrect": "opbare",
+    "line": 63909,
+    "count": 2
+  },
+  {
+    "correct": "seksueel",
+    "incorrect": "seksjuweel",
+    "line": 62792,
+    "count": 2
+  },
+  {
+    "correct": "telefoon",
+    "incorrect": "teelefoon",
+    "line": 63147,
+    "count": 2
+  },
+  {
+    "correct": "uitleggen",
+    "incorrect": "uitlegen",
+    "line": 63482,
+    "count": 2
+  },
+  {
+    "correct": "verblijft",
+    "incorrect": "verblijt",
+    "line": 63548,
+    "count": 2
+  },
+  {
+    "correct": "centimeter",
+    "incorrect": "centimer",
+    "line": 66543,
+    "count": 2
+  },
+  {
+    "correct": "rechtstreeks",
+    "incorrect": "rechtreeks",
+    "line": 62916,
+    "count": 2
+  },
+  {
+    "correct": "uiteindelijke",
+    "incorrect": "uiteindelike",
+    "line": 65974,
+    "count": 2
+  },
+  {
+    "correct": "forse",
+    "incorrect": "forste",
+    "line": 63757,
+    "count": 1
+  },
+  {
+    "correct": "ouder",
+    "incorrect": "auder",
+    "line": 64079,
+    "count": 1
+  },
+  {
+    "correct": "banken",
+    "incorrect": "hanken",
+    "line": 63879,
+    "count": 1
+  },
+  {
+    "correct": "blauwe",
+    "incorrect": "blaue",
+    "line": 63958,
+    "count": 1
+  },
+  {
+    "correct": "borden",
+    "incorrect": "borde",
+    "line": 64027,
+    "count": 1
+  },
+  {
+    "correct": "handje",
+    "incorrect": "hantje",
+    "line": 63849,
+    "count": 1
+  },
+  {
+    "correct": "juicht",
+    "incorrect": "juigt",
+    "line": 64090,
+    "count": 1
+  },
+  {
+    "correct": "slapen",
+    "incorrect": "slaape",
+    "line": 63935,
+    "count": 1
+  },
+  {
+    "correct": "slapen",
+    "incorrect": "slaapen",
+    "line": 63602,
+    "count": 1
+  },
+  {
+    "correct": "slapen",
+    "incorrect": "slape",
+    "line": 64018,
+    "count": 1
+  },
+  {
+    "correct": "vielen",
+    "incorrect": "fiele",
+    "line": 64082,
+    "count": 1
+  },
+  {
+    "correct": "beelden",
+    "incorrect": "veelden",
+    "line": 63707,
+    "count": 1
+  },
+  {
+    "correct": "gelopen",
+    "incorrect": "geloopen",
+    "line": 63553,
+    "count": 1
+  },
+  {
+    "correct": "gezicht",
+    "incorrect": "gesigt",
+    "line": 63753,
+    "count": 1
+  },
+  {
+    "correct": "knuffel",
+    "incorrect": "knufel",
+    "line": 63818,
+    "count": 1
+  },
+  {
+    "correct": "ochtend",
+    "incorrect": "ogtent",
+    "line": 63790,
+    "count": 1
+  },
+  {
+    "correct": "sowieso",
+    "incorrect": "zoiezo",
+    "line": 63807,
+    "count": 1
+  },
+  {
+    "correct": "gespeeld",
+    "incorrect": "gespleed",
+    "line": 63379,
+    "count": 1
+  },
+  {
+    "correct": "schoppen",
+    "incorrect": "schopen",
+    "line": 63616,
+    "count": 1
+  },
+  {
+    "correct": "achteraan",
+    "incorrect": "agteraan",
+    "line": 63452,
+    "count": 1
+  },
+  {
+    "correct": "overgrote",
+    "incorrect": "overgrootte",
+    "line": 62631,
+    "count": 1
+  },
+  {
+    "correct": "formulieren",
+    "incorrect": "forms",
+    "line": 64014,
+    "count": 1
+  },
+  {
+    "correct": "wenkbrauwen",
+    "incorrect": "brauwen",
+    "line": 63670,
+    "count": 1
+  },
+  {
+    "correct": "gebruikmakend",
+    "incorrect": "gebruiksmakend",
+    "line": 66167,
+    "count": 1
+  },
+  {
+    "correct": "bebop",
+    "incorrect": "bibob",
+    "line": 63965,
+    "count": 0
+  },
+  {
+    "correct": "chips",
+    "incorrect": "sjips",
+    "line": 63981,
+    "count": 0
+  },
+  {
+    "correct": "cokes",
+    "incorrect": "kooks",
+    "line": 66435,
+    "count": 0
+  },
+  {
+    "correct": "kleed",
+    "incorrect": "kleet",
+    "line": 64069,
+    "count": 0
+  },
+  {
+    "correct": "mokka",
+    "incorrect": "mocca",
+    "line": 64016,
+    "count": 0
+  },
+  {
+    "correct": "móést",
+    "incorrect": "móest",
+    "line": 64054,
+    "count": 0
+  },
+  {
+    "correct": "móést",
+    "incorrect": "móest",
+    "line": 66509,
+    "count": 0
+  },
+  {
+    "correct": "níéts",
+    "incorrect": "niéts",
+    "line": 66503,
+    "count": 0
+  },
+  {
+    "correct": "patat",
+    "incorrect": "petat",
+    "line": 64148,
+    "count": 0
+  },
+  {
+    "correct": "ruzie",
+    "incorrect": "rusie",
+    "line": 64089,
+    "count": 0
+  },
+  {
+    "correct": "sorry",
+    "incorrect": "sorie",
+    "line": 64048,
+    "count": 0
+  },
+  {
+    "correct": "urnen",
+    "incorrect": "urnes",
+    "line": 66533,
+    "count": 0
+  },
+  {
+    "correct": "attent",
+    "incorrect": "attend",
+    "line": 63734,
+    "count": 0
+  },
+  {
+    "correct": "bekers",
+    "incorrect": "beekers",
+    "line": 63638,
+    "count": 0
+  },
+  {
+    "correct": "boerde",
+    "incorrect": "burde",
+    "line": 64104,
+    "count": 0
+  },
+  {
+    "correct": "dromen",
+    "incorrect": "droome",
+    "line": 63880,
+    "count": 0
+  },
+  {
+    "correct": "geijkt",
+    "incorrect": "geëikt",
+    "line": 63795,
+    "count": 0
+  },
+  {
+    "correct": "getagd",
+    "incorrect": "getagged",
+    "line": 63503,
+    "count": 0
+  },
+  {
+    "correct": "geuren",
+    "incorrect": "guren",
+    "line": 63960,
+    "count": 0
+  },
+  {
+    "correct": "honden",
+    "incorrect": "honde",
+    "line": 64017,
+    "count": 0
+  },
+  {
+    "correct": "huilen",
+    "incorrect": "huile",
+    "line": 64092,
+    "count": 0
+  },
+  {
+    "correct": "jammer",
+    "incorrect": "jamer",
+    "line": 64070,
+    "count": 0
+  },
+  {
+    "correct": "jassen",
+    "incorrect": "jasen",
+    "line": 64030,
+    "count": 0
+  },
+  {
+    "correct": "jullie",
+    "incorrect": "jeulie",
+    "line": 63898,
+    "count": 0
+  },
+  {
+    "correct": "kalium",
+    "incorrect": "potassium",
+    "line": 63193,
+    "count": 0
+  },
+  {
+    "correct": "klaver",
+    "incorrect": "laver",
+    "line": 63989,
+    "count": 0
+  },
+  {
+    "correct": "kwarts",
+    "incorrect": "quartz",
+    "line": 63921,
+    "count": 0
+  },
+  {
+    "correct": "meisje",
+    "incorrect": "mijsje",
+    "line": 63901,
+    "count": 0
+  },
+  {
+    "correct": "muizen",
+    "incorrect": "muisen",
+    "line": 63802,
+    "count": 0
+  },
+  {
+    "correct": "nummer",
+    "incorrect": "numer",
+    "line": 63969,
+    "count": 0
+  },
+  {
+    "correct": "paarse",
+    "incorrect": "paarsen",
+    "line": 63690,
+    "count": 0
+  },
+  {
+    "correct": "pyjama",
+    "incorrect": "pjama",
+    "line": 63963,
+    "count": 0
+  },
+  {
+    "correct": "scrolt",
+    "incorrect": "scrollt",
+    "line": 66499,
+    "count": 0
+  },
+  {
+    "correct": "sieren",
+    "incorrect": "zieren",
+    "line": 63857,
+    "count": 0
+  },
+  {
+    "correct": "sjeiks",
+    "incorrect": "sheiks",
+    "line": 63791,
+    "count": 0
+  },
+  {
+    "correct": "steile",
+    "incorrect": "stijle",
+    "line": 63926,
+    "count": 0
+  },
+  {
+    "correct": "tanden",
+    "incorrect": "tande",
+    "line": 63966,
+    "count": 0
+  },
+  {
+    "correct": "tekent",
+    "incorrect": "teekent",
+    "line": 63615,
+    "count": 0
+  },
+  {
+    "correct": "teleur",
+    "incorrect": "telur",
+    "line": 63985,
+    "count": 0
+  },
+  {
+    "correct": "vieren",
+    "incorrect": "fieren",
+    "line": 63740,
+    "count": 0
+  },
+  {
+    "correct": "zelfde",
+    "incorrect": "selfde",
+    "line": 63848,
+    "count": 0
+  },
+  {
+    "correct": "zielig",
+    "incorrect": "sielig",
+    "line": 63738,
+    "count": 0
+  },
+  {
+    "correct": "aandoen",
+    "incorrect": "andoen",
+    "line": 63770,
+    "count": 0
+  },
+  {
+    "correct": "balkons",
+    "incorrect": "balkonnen",
+    "line": 63237,
+    "count": 0
+  },
+  {
+    "correct": "bedacht",
+    "incorrect": "bedagt",
+    "line": 63823,
+    "count": 0
+  },
+  {
+    "correct": "begrijp",
+    "incorrect": "gegrijp",
+    "line": 63692,
+    "count": 0
+  },
+  {
+    "correct": "bloemen",
+    "incorrect": "bloeme",
+    "line": 63892,
+    "count": 0
+  },
+  {
+    "correct": "boetiek",
+    "incorrect": "boutique",
+    "line": 63474,
+    "count": 0
+  },
+  {
+    "correct": "bonbons",
+    "incorrect": "bombons",
+    "line": 66335,
+    "count": 0
+  },
+  {
+    "correct": "cruiset",
+    "incorrect": "cruist",
+    "line": 63883,
+    "count": 0
+  },
+  {
+    "correct": "gebeten",
+    "incorrect": "gebeete",
+    "line": 63716,
+    "count": 0
+  },
+  {
+    "correct": "gehaast",
+    "incorrect": "gehaasd",
+    "line": 63594,
+    "count": 0
+  },
+  {
+    "correct": "geijkte",
+    "incorrect": "geëikte",
+    "line": 63629,
+    "count": 0
+  },
+  {
+    "correct": "geliket",
+    "incorrect": "geliked",
+    "line": 66544,
+    "count": 0
+  },
+  {
+    "correct": "gevatte",
+    "incorrect": "gevatten",
+    "line": 63510,
+    "count": 0
+  },
+  {
+    "correct": "huppelt",
+    "incorrect": "hupelt",
+    "line": 63891,
+    "count": 0
+  },
+  {
+    "correct": "jaloers",
+    "incorrect": "jarloers",
+    "line": 63492,
+    "count": 0
+  },
+  {
+    "correct": "keihard",
+    "incorrect": "keihart",
+    "line": 63596,
+    "count": 0
+  },
+  {
+    "correct": "knikken",
+    "incorrect": "kniken",
+    "line": 63862,
+    "count": 0
+  },
+  {
+    "correct": "natrium",
+    "incorrect": "sodium",
+    "line": 63933,
+    "count": 0
+  },
+  {
+    "correct": "platina",
+    "incorrect": "platinum",
+    "line": 66412,
+    "count": 0
+  },
+  {
+    "correct": "poetsen",
+    "incorrect": "poetse",
+    "line": 63842,
+    "count": 0
+  },
+  {
+    "correct": "schrikt",
+    "incorrect": "srikt",
+    "line": 63991,
+    "count": 0
+  },
+  {
+    "correct": "sieraad",
+    "incorrect": "sierraad",
+    "line": 66225,
+    "count": 0
+  },
+  {
+    "correct": "springt",
+    "incorrect": "sprinkt",
+    "line": 63676,
+    "count": 0
+  },
+  {
+    "correct": "stoelen",
+    "incorrect": "stoele",
+    "line": 63754,
+    "count": 0
+  },
+  {
+    "correct": "tekenen",
+    "incorrect": "teekenen",
+    "line": 63488,
+    "count": 0
+  },
+  {
+    "correct": "vorsten",
+    "incorrect": "vosten",
+    "line": 63828,
+    "count": 0
+  },
+  {
+    "correct": "zijwand",
+    "incorrect": "zijwant",
+    "line": 63604,
+    "count": 0
+  },
+  {
+    "correct": "betaalde",
+    "incorrect": "getaalde",
+    "line": 63527,
+    "count": 0
+  },
+  {
+    "correct": "blaadjes",
+    "incorrect": "blaatjes",
+    "line": 63533,
+    "count": 0
+  },
+  {
+    "correct": "boerkini",
+    "incorrect": "burkini",
+    "line": 63634,
+    "count": 0
+  },
+  {
+    "correct": "boterham",
+    "incorrect": "booterham",
+    "line": 63245,
+    "count": 0
+  },
+  {
+    "correct": "dadelijk",
+    "incorrect": "dalijk",
+    "line": 63732,
+    "count": 0
+  },
+  {
+    "correct": "ergernis",
+    "incorrect": "ergenis",
+    "line": 63609,
+    "count": 0
+  },
+  {
+    "correct": "eventjes",
+    "incorrect": "effetjes",
+    "line": 63576,
+    "count": 0
+  },
+  {
+    "correct": "hoogmoed",
+    "incorrect": "hoogmoet",
+    "line": 66151,
+    "count": 0
+  },
+  {
+    "correct": "katernen",
+    "incorrect": "katerns",
+    "line": 63622,
+    "count": 0
+  },
+  {
+    "correct": "kwartier",
+    "incorrect": "kwartie",
+    "line": 63580,
+    "count": 0
+  },
+  {
+    "correct": "maanstof",
+    "incorrect": "maandstof",
+    "line": 65434,
+    "count": 0
+  },
+  {
+    "correct": "mierzoet",
+    "incorrect": "mierenzoet",
+    "line": 66220,
+    "count": 0
+  },
+  {
+    "correct": "oliepeil",
+    "incorrect": "oliepijl",
+    "line": 63561,
+    "count": 0
+  },
+  {
+    "correct": "pilletje",
+    "incorrect": "piletje",
+    "line": 63593,
+    "count": 0
+  },
+  {
+    "correct": "raceauto",
+    "incorrect": "reesauto",
+    "line": 63447,
+    "count": 0
+  },
+  {
+    "correct": "sieraden",
+    "incorrect": "sierraden",
+    "line": 66228,
+    "count": 0
+  },
+  {
+    "correct": "spottend",
+    "incorrect": "spottent",
+    "line": 63432,
+    "count": 0
+  },
+  {
+    "correct": "stamcafé",
+    "incorrect": "standcafé",
+    "line": 66165,
+    "count": 0
+  },
+  {
+    "correct": "tekening",
+    "incorrect": "teekening",
+    "line": 63138,
+    "count": 0
+  },
+  {
+    "correct": "verbaast",
+    "incorrect": "werbaast",
+    "line": 63405,
+    "count": 0
+  },
+  {
+    "correct": "wandelen",
+    "incorrect": "wandele",
+    "line": 63662,
+    "count": 0
+  },
+  {
+    "correct": "ambulance",
+    "incorrect": "ambulanse",
+    "line": 63170,
+    "count": 0
+  },
+  {
+    "correct": "boemerang",
+    "incorrect": "boomerang",
+    "line": 66486,
+    "count": 0
+  },
+  {
+    "correct": "ellebogen",
+    "incorrect": "ellenbogen",
+    "line": 62957,
+    "count": 0
+  },
+  {
+    "correct": "gegoogeld",
+    "incorrect": "gegoogled",
+    "line": 66537,
+    "count": 0
+  },
+  {
+    "correct": "hoofdstuk",
+    "incorrect": "hooftstuk",
+    "line": 63311,
+    "count": 0
+  },
+  {
+    "correct": "kunststof",
+    "incorrect": "kunstof",
+    "line": 63589,
+    "count": 0
+  },
+  {
+    "correct": "levenloos",
+    "incorrect": "levensloos",
+    "line": 66152,
+    "count": 0
+  },
+  {
+    "correct": "levenloze",
+    "incorrect": "levensloze",
+    "line": 66153,
+    "count": 0
+  },
+  {
+    "correct": "lusteloos",
+    "incorrect": "lustloos",
+    "line": 66265,
+    "count": 0
+  },
+  {
+    "correct": "lusteloze",
+    "incorrect": "lustloze",
+    "line": 66266,
+    "count": 0
+  },
+  {
+    "correct": "mierzoete",
+    "incorrect": "mierenzoete",
+    "line": 66221,
+    "count": 0
+  },
+  {
+    "correct": "misselijk",
+    "incorrect": "miselijk",
+    "line": 63380,
+    "count": 0
+  },
+  {
+    "correct": "schrokken",
+    "incorrect": "sroken",
+    "line": 63762,
+    "count": 0
+  },
+  {
+    "correct": "terugkomt",
+    "incorrect": "trugkomt",
+    "line": 63519,
+    "count": 0
+  },
+  {
+    "correct": "tijdsduur",
+    "incorrect": "tijdsdeur",
+    "line": 63260,
+    "count": 0
+  },
+  {
+    "correct": "wedstrijd",
+    "incorrect": "wedstijd",
+    "line": 66495,
+    "count": 0
+  },
+  {
+    "correct": "barbecueën",
+    "incorrect": "barbecuen",
+    "line": 63115,
+    "count": 0
+  },
+  {
+    "correct": "benchmarks",
+    "incorrect": "benchmarkten",
+    "line": 62086,
+    "count": 0
+  },
+  {
+    "correct": "botgevierd",
+    "incorrect": "gebotvierd",
+    "line": 62702,
+    "count": 0
+  },
+  {
+    "correct": "christenen",
+    "incorrect": "kristenen",
+    "line": 63225,
+    "count": 0
+  },
+  {
+    "correct": "doorstuurt",
+    "incorrect": "doorstuurd",
+    "line": 62717,
+    "count": 0
+  },
+  {
+    "correct": "downgraden",
+    "incorrect": "downgarden",
+    "line": 66336,
+    "count": 0
+  },
+  {
+    "correct": "gelukzalig",
+    "incorrect": "gelukszalig",
+    "line": 66256,
+    "count": 0
+  },
+  {
+    "correct": "lustelozer",
+    "incorrect": "lustlozer",
+    "line": 66267,
+    "count": 0
+  },
+  {
+    "correct": "modelleren",
+    "incorrect": "modeleren",
+    "line": 66161,
+    "count": 0
+  },
+  {
+    "correct": "nachtegaal",
+    "incorrect": "nachtgaal",
+    "line": 66181,
+    "count": 0
+  },
+  {
+    "correct": "omslagpunt",
+    "incorrect": "tippingpoint",
+    "line": 66434,
+    "count": 0
+  },
+  {
+    "correct": "onttrekken",
+    "incorrect": "ontrekken",
+    "line": 63130,
+    "count": 0
+  },
+  {
+    "correct": "rijstebrij",
+    "incorrect": "rijstbrij",
+    "line": 66277,
+    "count": 0
+  },
+  {
+    "correct": "ruggenmerg",
+    "incorrect": "ruggemerg",
+    "line": 66502,
+    "count": 0
+  },
+  {
+    "correct": "vernacheld",
+    "incorrect": "vernaggeld",
+    "line": 62701,
+    "count": 0
+  },
+  {
+    "correct": "aangeprezen",
+    "incorrect": "aangeprijsd",
+    "line": 62246,
+    "count": 0
+  },
+  {
+    "correct": "beeldentuin",
+    "incorrect": "beeldtuin",
+    "line": 66178,
+    "count": 0
+  },
+  {
+    "correct": "bewerkingen",
+    "incorrect": "edits",
+    "line": 63949,
+    "count": 0
+  },
+  {
+    "correct": "gebruikmaak",
+    "incorrect": "gebruiksmaak",
+    "line": 66168,
+    "count": 0
+  },
+  {
+    "correct": "gelukzalige",
+    "incorrect": "gelukszalige",
+    "line": 66257,
+    "count": 0
+  },
+  {
+    "correct": "gestofzuigd",
+    "incorrect": "stofgezogen",
+    "line": 62486,
+    "count": 0
+  },
+  {
+    "correct": "kaassoufflé",
+    "incorrect": "kaassouffle",
+    "line": 66274,
+    "count": 0
+  },
+  {
+    "correct": "laadstation",
+    "incorrect": "ladestation",
+    "line": 65973,
+    "count": 0
+  },
+  {
+    "correct": "nachtenlang",
+    "incorrect": "nachtlang",
+    "line": 66182,
+    "count": 0
+  },
+  {
+    "correct": "slotenmaker",
+    "incorrect": "slotmaker",
+    "line": 66263,
+    "count": 0
+  },
+  {
+    "correct": "standsbesef",
+    "incorrect": "standbesef",
+    "line": 66145,
+    "count": 0
+  },
+  {
+    "correct": "trendsetter",
+    "incorrect": "trendzetter",
+    "line": 62659,
+    "count": 0
+  },
+  {
+    "correct": "uitgeplozen",
+    "incorrect": "uitgepluisd",
+    "line": 62609,
+    "count": 0
+  },
+  {
+    "correct": "uitgeplozen",
+    "incorrect": "uitgepluist",
+    "line": 62321,
+    "count": 0
+  },
+  {
+    "correct": "voorkomende",
+    "incorrect": "voorkopende",
+    "line": 62309,
+    "count": 0
+  },
+  {
+    "correct": "welterusten",
+    "incorrect": "welteruste",
+    "line": 63019,
+    "count": 0
+  },
+  {
+    "correct": "wereldmacht",
+    "incorrect": "wereldmach",
+    "line": 65976,
+    "count": 0
+  },
+  {
+    "correct": "beeldenstorm",
+    "incorrect": "beeldstorm",
+    "line": 66179,
+    "count": 0
+  },
+  {
+    "correct": "configuratie",
+    "incorrect": "config",
+    "line": 63913,
+    "count": 0
+  },
+  {
+    "correct": "eendeneieren",
+    "incorrect": "eendeieren",
+    "line": 62932,
+    "count": 0
+  },
+  {
+    "correct": "franciscanen",
+    "incorrect": "franciscaners",
+    "line": 61297,
+    "count": 0
+  },
+  {
+    "correct": "gebruikmaken",
+    "incorrect": "gebruiksmaken",
+    "line": 66166,
+    "count": 0
+  },
+  {
+    "correct": "gelukzaligen",
+    "incorrect": "gelukszaligen",
+    "line": 66258,
+    "count": 0
+  },
+  {
+    "correct": "gelukzaliger",
+    "incorrect": "gelukszaliger",
+    "line": 66259,
+    "count": 0
+  },
+  {
+    "correct": "kaassoufflés",
+    "incorrect": "kaassouffles",
+    "line": 66275,
+    "count": 0
+  },
+  {
+    "correct": "lidmaatschap",
+    "incorrect": "ledenmaatschap",
+    "line": 66276,
+    "count": 0
+  },
+  {
+    "correct": "nachtenlange",
+    "incorrect": "nachtlange",
+    "line": 66183,
+    "count": 0
+  },
+  {
+    "correct": "slotenmakers",
+    "incorrect": "slotmakers",
+    "line": 66264,
+    "count": 0
+  },
+  {
+    "correct": "sondevoeding",
+    "incorrect": "zondevoeding",
+    "line": 65971,
+    "count": 0
+  },
+  {
+    "correct": "trendsetters",
+    "incorrect": "trendzetters",
+    "line": 61821,
+    "count": 0
+  },
+  {
+    "correct": "tussentijdse",
+    "incorrect": "tussentijdjes",
+    "line": 66176,
+    "count": 0
+  },
+  {
+    "correct": "vliegensvlug",
+    "incorrect": "vliegvlug",
+    "line": 63173,
+    "count": 0
+  },
+  {
+    "correct": "vrijdagavond",
+    "incorrect": "vrijdagvond",
+    "line": 66496,
+    "count": 0
+  },
+  {
+    "correct": "gelukzaligste",
+    "incorrect": "gelukszaligste",
+    "line": 66261,
+    "count": 0
+  },
+  {
+    "correct": "levenloosheid",
+    "incorrect": "levensloosheid",
+    "line": 66154,
+    "count": 0
+  },
+  {
+    "correct": "lusteloosheid",
+    "incorrect": "lustloosheid",
+    "line": 66270,
+    "count": 0
+  },
+  {
+    "correct": "onlosmakelijk",
+    "incorrect": "onlosmakend",
+    "line": 62406,
+    "count": 0
+  },
+  {
+    "correct": "standsuitgave",
+    "incorrect": "standuitgave",
+    "line": 66148,
+    "count": 0
+  },
+  {
+    "correct": "antidepressiva",
+    "incorrect": "depressiva",
+    "line": 62781,
+    "count": 0
+  },
+  {
+    "correct": "gevangenenruil",
+    "incorrect": "gevangenruil",
+    "line": 66568,
+    "count": 0
+  },
+  {
+    "correct": "oververhitting",
+    "incorrect": "overhitting",
+    "line": 62355,
+    "count": 0
+  },
+  {
+    "correct": "standsverschil",
+    "incorrect": "standverschil",
+    "line": 66149,
+    "count": 0
+  },
+  {
+    "correct": "zekeringenkast",
+    "incorrect": "verzekeringskast",
+    "line": 59009,
+    "count": 0
+  },
+  {
+    "correct": "huurachterstand",
+    "incorrect": "huurachterstal",
+    "line": 60235,
+    "count": 0
+  },
+  {
+    "correct": "paddenstoelwolk",
+    "incorrect": "paddenstoelenwolk",
+    "line": 58560,
+    "count": 0
+  },
+  {
+    "correct": "loonsverhogingen",
+    "incorrect": "loonverhogingen",
+    "line": 66158,
+    "count": 0
+  },
+  {
+    "correct": "loonsverlagingen",
+    "incorrect": "loonverlagingen",
+    "line": 66160,
+    "count": 0
+  },
+  {
+    "correct": "standsbewustzijn",
+    "incorrect": "standbewustzijn",
+    "line": 66146,
+    "count": 0
+  },
+  {
+    "correct": "waarheidsgetrouw",
+    "incorrect": "waarheidsgetouw",
+    "line": 65972,
+    "count": 0
+  },
+  {
+    "correct": "standsorganisatie",
+    "incorrect": "standorganisatie",
+    "line": 66147,
+    "count": 0
+  },
+  {
+    "correct": "vreemdelingenhaat",
+    "incorrect": "vreemdelingshaat",
+    "line": 59063,
+    "count": 0
+  },
+  {
+    "correct": "kunsttentoonstelling",
+    "incorrect": "kusttentoonstelling",
+    "line": 57848,
+    "count": 0
+  }
+]

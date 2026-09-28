@@ -1,0 +1,37 @@
+[
+  {
+    "sentence_sha256": "129866eaabe162afdd9d8bb83551d33762e9664cd7ddf7631a3a862fbced92d1",
+    "reason": "Merged heading Verklaring verdachte directly precedes Verdachte heeft ... .",
+    "evidence": "wiki/artifacts/dutch-extension-validation/sample.json#ev-022"
+  },
+  {
+    "sentence_sha256": "227241bf03822d4ce7597c91020687754efeb2b22dc3f9f765c2036e01acc2a7",
+    "reason": "Bijdragen in het terugdringen has questionable prepositional selection; standard bijdragen aan expected.",
+    "evidence": "wiki/artifacts/dutch-extension-validation/sample.json#ev-050"
+  },
+  {
+    "sentence_sha256": "7297c9914270f3ebb0bad74246231bb1d7e94b3294647c6bc3156c312b6243b7",
+    "reason": "Haar refers to neuter museum; possible institutional collective usage, but not unambiguously standard.",
+    "evidence": "wiki/artifacts/dutch-extension-validation/sample.json#ev-056"
+  },
+  {
+    "sentence_sha256": "02f67bd3ee98516b994184598a6da052c2eca6fc659c16d9fa520d55328be2d5",
+    "reason": "The compound eenzelfde is incorrectly split as een zelfde.",
+    "evidence": "wiki/artifacts/dutch-extension-validation/sample.json#ev-066"
+  },
+  {
+    "sentence_sha256": "57cb13c65fe76b5c221c08cd849d9b600a8c75e22f82ce9d8ecf0b585ddc10fc",
+    "reason": "Dergelijke type mismatches determiner/adjective and singular neuter noun; expected dergelijk type or dergelijke typen.",
+    "evidence": "wiki/artifacts/dutch-extension-validation/sample.json#ev-072"
+  },
+  {
+    "sentence_sha256": "b37e182b81ce570a0f3192aec3fcec4b06fd887f8bab642e82f55aa2c5d60c42",
+    "reason": "Er vanuit gegaan is incorrectly segmented; expected ervan uitgegaan.",
+    "evidence": "wiki/artifacts/dutch-extension-validation/sample.json#ev-085"
+  },
+  {
+    "sentence_sha256": "aab2cb65d02701cf4f1bcc74712f269042989a380c4357b41d530b31aa47281d",
+    "reason": "The compound inspraakavonden is incorrectly split as inspraak avonden.",
+    "evidence": "wiki/artifacts/dutch-extension-validation/sample.json#ev-094"
+  }
+]

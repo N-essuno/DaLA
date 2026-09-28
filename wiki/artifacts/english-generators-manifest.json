@@ -1,0 +1,459 @@
+{
+  "schema_version": "2",
+  "language": "en",
+  "name": "English DaLA",
+  "prompts": {
+    "acceptability": "Is this English sentence correct in grammar and spelling? Answer only yes or no.",
+    "correction": "Correct any grammar or spelling errors in this English sentence. If it is already correct, return it unchanged. Preserve its meaning and formatting. Output only the sentence."
+  },
+  "source_description": "Pinned Common Pile 360info news (CC BY 4.0) and Public Domain Review essays (CC BY-SA 4.0). Preserve the source-specific attribution and license recorded with every document.",
+  "profile": {
+    "schema_version": 1,
+    "language": "en",
+    "name": "English DaLA",
+    "mode": "pairs",
+    "parser": "en_core_web_md",
+    "parser_version": "3.8.0",
+    "sources": {
+      "adapter": "common_pile"
+    },
+    "sources_config": "../english_sources.json",
+    "rulebook": "../english_productive_rules.json",
+    "exclusions": "../english_source_exclusions.json",
+    "adapter": "dala.language_packs.english:EnglishPack",
+    "selection": {
+      "strategy": "rare_first",
+      "max_errors": 2,
+      "priority": [
+        "perfect_participle",
+        "do_support_form",
+        "noun_number",
+        "modal_verb_form",
+        "demonstrative_number",
+        "subject_verb_agreement",
+        "spelling",
+        "word_deletion",
+        "word_swap"
+      ],
+      "max_replacement_pairs": null,
+      "token_fallback": "no_targeted_grammar_or_lexical",
+      "spelling_operator_priority": [
+        "lexical",
+        "character_edit"
+      ]
+    },
+    "checker": {
+      "mode": "local",
+      "dialects": [
+        "en-US",
+        "en-GB"
+      ],
+      "workers": 32
+    },
+    "prompts": {
+      "acceptability": "Is this English sentence correct in grammar and spelling? Answer only yes or no.",
+      "correction": "Correct any grammar or spelling errors in this English sentence. If it is already correct, return it unchanged. Preserve its meaning and formatting. Output only the sentence."
+    },
+    "description": "Pinned Common Pile 360info news (CC BY 4.0) and Public Domain Review essays (CC BY-SA 4.0). Preserve the source-specific attribution and license recorded with every document.",
+    "grammar": {
+      "singular_pronouns": [
+        "he",
+        "she",
+        "it"
+      ],
+      "other_pronouns": [
+        "i",
+        "we",
+        "they",
+        "you"
+      ],
+      "singular_determiners": [
+        "each",
+        "every"
+      ],
+      "plural_determiners": [
+        "these",
+        "those",
+        "many",
+        "several"
+      ],
+      "quantifiers": [
+        "many",
+        "several"
+      ],
+      "modals": [
+        "can",
+        "could",
+        "may",
+        "might",
+        "must",
+        "shall",
+        "should",
+        "will",
+        "would"
+      ],
+      "do_forms": [
+        "do",
+        "does",
+        "did"
+      ],
+      "have_forms": [
+        "have",
+        "has",
+        "had"
+      ],
+      "demonstratives": {
+        "this": "NN",
+        "that": "NN",
+        "these": "NNS",
+        "those": "NNS"
+      },
+      "exclude_agreement_lemmas": [
+        "team",
+        "staff",
+        "committee",
+        "government",
+        "family",
+        "audience",
+        "board",
+        "council",
+        "company",
+        "group",
+        "majority",
+        "minority",
+        "couple",
+        "police",
+        "people",
+        "data",
+        "media",
+        "number",
+        "rest",
+        "lot",
+        "series",
+        "species",
+        "means",
+        "headquarters",
+        "news",
+        "politics"
+      ],
+      "exclude_number_lemmas": [
+        "people",
+        "police",
+        "clothes",
+        "scissors",
+        "trousers",
+        "pants",
+        "glasses",
+        "news",
+        "means",
+        "series",
+        "species",
+        "data",
+        "media"
+      ],
+      "replacement_overrides": {
+        "be": {
+          "VBP": [
+            "are"
+          ],
+          "VBZ": [
+            "is"
+          ]
+        }
+      }
+    },
+    "dependencies": [
+      "requests",
+      "lemminflect"
+    ]
+  },
+  "profile_sha256": "7899b2a337146d60017d5ee355161574c38863fb4dcdb2a1c0cec1c3fcd1e790",
+  "quality_status": "checker_screened",
+  "language_checker": {
+    "name": "LanguageTool",
+    "version": "6.6",
+    "buildDate": "2025-03-27 20:50:25 +0100",
+    "apiVersion": 1,
+    "premium": false,
+    "premiumHint": "You might be missing errors only the Premium version can find. Contact us at support<at>languagetoolplus.com.",
+    "status": ""
+  },
+  "checker_runtime": {
+    "java.tar.gz": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jre_x64_linux_hotspot_17.0.16_8.tar.gz",
+      "sha256": "2885b944da3793144d4a86a29524f4d7b68ba155f5c08afa444a3b40f7071892"
+    },
+    "languagetool.zip": {
+      "url": "https://languagetool.org/download/LanguageTool-6.6.zip",
+      "sha256": "53600506b399bb5ffe1e4c8dec794fd378212f14aaf38ccef9b6f89314d11631"
+    }
+  },
+  "seed": 4242,
+  "max_errors": 2,
+  "max_documents": null,
+  "source_snapshots": [
+    {
+      "repo_id": "common-pile/news",
+      "revision": "13e76bdc8d49ed14d710fac7e3b61186cf74c8d3",
+      "file": "v0/documents/00000_360info.jsonl.gz",
+      "sha256": "6b2f94dd7f79fb72c9765067f6c96549d7e43fe2bc42329ca1fabbe38a78a78c"
+    },
+    {
+      "repo_id": "common-pile/public_domain_review",
+      "revision": "e9c7669206b95871601fe4672a484d8215e6fe6f",
+      "file": "v0/00000_essays.jsonl.gz",
+      "sha256": "825aed6a66ab14f89e1fe3110f67265d511994c52e5aed48b866a9e8a1bdeb4d"
+    }
+  ],
+  "sources_config_sha256": "90c4cf26d3baf84ca317f85553c3b7004e5db2c99a79abe53959cc841dc79649",
+  "rulebook_sha256": "73a5dc026516e4b4a7a0170af5db94251e71bc7413be19d1ba7ae2c79863ceec",
+  "source_exclusions_sha256": "85fd1862ce1e2607066d727866f392a3c7ea6ad2bffd7d189def31dd0b588c96",
+  "parser": {
+    "package": "en_core_web_md",
+    "version": "3.8.0",
+    "spacy": "3.8.16"
+  },
+  "runtime": {
+    "python": "3.13.15",
+    "requests": "2.32.5",
+    "lemminflect": "0.2.3"
+  },
+  "code_sha256": {
+    "build_english.py": "7a04c1afd07a08e02094eccf4121543bde8d24e5f842edca2ec0bc37a3e405fe",
+    "character_operations.py": "a6bee1e7ef3339589dcebbee335891d5d01593139351ab4932385b01ef319971",
+    "common_pile.py": "cdc3946498d5af4c0a77e4459dac5c76137778944dff20f11e43f305edd0031c",
+    "create_dala.py": "c53cd6da1c5b0027a410b2004eaa53c3bb1da10a72388a82932da41369dec0e2",
+    "curation.py": "fd12065ed5935372d4efbe663f7486a5fa20fff543d9c7a088c36cce05b09f76",
+    "dala_corrupt.py": "bc4411d7e28e674deb4c6c689e73898ad102354fad38eb3a47ef448644fa5e34",
+    "dala_enums.py": "1c54d72f9c7306fbf916bfa1f7e51deb050f2e24478d3cc58314132322c06d46",
+    "dala_utils.py": "ee535fe4e45c7b64a3744ce40cffbde0c912c61a2fc0bf42535205a1f93c2445",
+    "dataset_review.py": "ea6e59f20650f9ab284d4dc93d48fa6ae4419e298c350be7206aa3c9386bee73",
+    "edits.py": "c4c69a3d80434d17ed6112ed9c6caa1bdae245930a3377c78fc9d711bfd064e5",
+    "english.py": "58c5841f892f026fa2ce4a974f0530dce1a017ff8dcaad611cf188b82fba55e0",
+    "english_rules.py": "d7fc0ab3df420947631729489475a90e7d982a23d6e4a50450cfbd2db8af7f04",
+    "error_evidence.py": "c54ba9466a03c0a2d0d57fc3db8796b395394f94046037ff9daa9bd7aeab9d91",
+    "language_check.py": "5f4818e5a55d4dcfe7331ed5540ef3c5f682d3b6a93631a02df48bdf8591806b",
+    "language_packs/english.py": "987cd3f5b237206b4236d8f6476f787108a956f5508c1b173280c0d2c8cec474",
+    "language_packs/english_fallback.py": "b9636349aef91c3d9740264bcde241791682fa77dd900fac7525c0e4d5c10aea",
+    "languages.py": "89d04751e1de3935c8dc82a0f0f6698acb3147acad4d83e373ce33c977281009",
+    "legacy_pipeline.py": "13744c02ebb56f79a58b9ff1e64e95793801a5ab48bf50895403ed3e0a40da26",
+    "load_ud.py": "b2ca62712abfe3eefc063a08dcf44c9298229f2a2c55b3e50e7413268a37cf09",
+    "multilingual.py": "6db24f1c3bb171cb5a3321f9ce6ce92b6e22fd7c1f3db18eca259071252433cc",
+    "pair_pipeline.py": "f5396f195f7f70ad4a8dd821292d918769d6f06cb328ce08ce94c412829bcd2d",
+    "pipeline.py": "f3ac3831dded1957fdfc648a824695bea4c51ca721127702291e4a93142b4d46",
+    "profiles.py": "1f7587a6d189d6ca6f7f7ebfa3e2999e73a55fa89327d8de839541a07c919060",
+    "rule_engine.py": "29852af224feb4b345a9197034c1e6a2af8b7787855ce6e1d1a7021065ca4cb4",
+    "text.py": "ee4962aa2842a20a05366af06a85ae17df088e4ee5f401b5f6e4c7f733fd3caa",
+    "token_operations.py": "28c60cae53335830955d8bacedc7f7bf02fbe691c18f7e7030bbeac31a1680c5",
+    "ud_annotations.py": "c1abdaf06aefa3091abcd1ba93ef006f778aae3c52b505ff3fcc432b50f86a48",
+    "validate_dataset.py": "941e3b278dca467080298b4071f8848f8eff5089fa72ddfa5d059261af71179c"
+  },
+  "counts": {
+    "documents": 1939,
+    "paragraphs": 38107,
+    "sentences": 81749
+  },
+  "rejections": {
+    "audited_source_exclusion": 12,
+    "boilerplate": 227,
+    "checker_lexical_guard": 631,
+    "checker_missed_edit": 9984,
+    "checker_source_error": 2940,
+    "existing_determiner_mismatch": 364,
+    "fragment_or_format": 5856,
+    "known_misspelling": 1,
+    "length": 7390,
+    "near_duplicate": 138,
+    "no_finite_main_verb": 634,
+    "no_licensed_corruption": 603,
+    "no_main_subject": 3089,
+    "no_verbal_root": 1339,
+    "nonprose": 978,
+    "quotation_or_ellipsis": 7320,
+    "text_collision": 352,
+    "unknown_non_name_word": 1457
+  },
+  "eligible_sentences_by_type": {
+    "spelling": 44589,
+    "modal_verb_form": 8954,
+    "word_swap": 7415,
+    "demonstrative_number": 3161,
+    "perfect_participle": 1730,
+    "subject_verb_agreement": 4600,
+    "noun_number": 410,
+    "do_support_form": 1189,
+    "word_deletion": 500
+  },
+  "selected_edits_by_type": {
+    "word_swap": 2105,
+    "spelling": 41577,
+    "perfect_participle": 1301,
+    "modal_verb_form": 5685,
+    "subject_verb_agreement": 2769,
+    "demonstrative_number": 1251,
+    "do_support_form": 784,
+    "noun_number": 287,
+    "word_deletion": 11
+  },
+  "verification": {
+    "pairs": 38434,
+    "unique_documents": 1680,
+    "exact_edit_reconstruction": true,
+    "correction_roundtrip": true,
+    "document_split_isolation": true,
+    "exported_text_unique": true,
+    "at_most_one_grammar_edit": true
+  },
+  "splits": {
+    "train": {
+      "pairs": 30544,
+      "acceptability_rows": 61088,
+      "correction_rows": 61088,
+      "edits_by_type": {
+        "demonstrative_number": 1034,
+        "do_support_form": 597,
+        "modal_verb_form": 4563,
+        "noun_number": 227,
+        "perfect_participle": 1015,
+        "spelling": 33040,
+        "subject_verb_agreement": 2138,
+        "word_deletion": 9,
+        "word_swap": 1658
+      },
+      "pairs_by_error_count": {
+        "1": 16807,
+        "2": 13737
+      },
+      "pairs_by_source": {
+        "360info": 23873,
+        "public_domain_review_essays": 6671
+      }
+    },
+    "validation": {
+      "pairs": 3749,
+      "acceptability_rows": 7498,
+      "correction_rows": 7498,
+      "edits_by_type": {
+        "demonstrative_number": 100,
+        "do_support_form": 97,
+        "modal_verb_form": 518,
+        "noun_number": 31,
+        "perfect_participle": 136,
+        "spelling": 4041,
+        "subject_verb_agreement": 310,
+        "word_deletion": 1,
+        "word_swap": 212
+      },
+      "pairs_by_error_count": {
+        "1": 2052,
+        "2": 1697
+      },
+      "pairs_by_source": {
+        "360info": 2716,
+        "public_domain_review_essays": 1033
+      }
+    },
+    "test": {
+      "pairs": 4141,
+      "acceptability_rows": 8282,
+      "correction_rows": 8282,
+      "edits_by_type": {
+        "demonstrative_number": 117,
+        "do_support_form": 90,
+        "modal_verb_form": 604,
+        "noun_number": 29,
+        "perfect_participle": 150,
+        "spelling": 4496,
+        "subject_verb_agreement": 321,
+        "word_deletion": 1,
+        "word_swap": 235
+      },
+      "pairs_by_error_count": {
+        "1": 2239,
+        "2": 1902
+      },
+      "pairs_by_source": {
+        "360info": 3311,
+        "public_domain_review_essays": 830
+      }
+    }
+  },
+  "artifacts": {
+    "README.md": {
+      "sha256": "5efe10e42770700d3857c30e314fee5dd8dc612e36832dfd2488a122404bc294",
+      "bytes": 1422
+    },
+    "documents.jsonl": {
+      "sha256": "bb14d5b7142762fc731a2defb17bc8993c02b19ebbe2d5bb3b19434f2ae43184",
+      "bytes": 973456
+    },
+    "review.csv": {
+      "sha256": "dc15c1c942728927adf6146b7e676bba545b603d339f4c30736fa4d90bae6182",
+      "bytes": 1007684
+    },
+    "rules.json": {
+      "sha256": "73a5dc026516e4b4a7a0170af5db94251e71bc7413be19d1ba7ae2c79863ceec",
+      "bytes": 137973
+    },
+    "test/acceptability.csv": {
+      "sha256": "7e6dd8d71023af4a0f9e777166ef89d1f5da8d8b59b65e5fb2c577caabdea726",
+      "bytes": 2140356
+    },
+    "test/acceptability.jsonl": {
+      "sha256": "4e42d353753ea42baf00607105bf19468c6375825009aac134771774684cbe82",
+      "bytes": 3205066
+    },
+    "test/acceptability_it.jsonl": {
+      "sha256": "6096e2e5258f62a345a0849df312825bc0e7ec776597a73e9ed9423cf1609544",
+      "bytes": 4529936
+    },
+    "test/correction_it.jsonl": {
+      "sha256": "a88003df51e9f5d6e3010778ceabdc1fa501a30a5587b0abc1b086a9860fa5df",
+      "bytes": 8450372
+    },
+    "test/pairs.jsonl": {
+      "sha256": "a37d7c26c2053029b175ee3474dfdf16b2dfcb68ef40c900484c7e886a88081c",
+      "bytes": 8467400
+    },
+    "train/acceptability.csv": {
+      "sha256": "9433337b360afd8661f6eb1b6687b33867b7bda110950a8bdfe66c2b8a3d95f6",
+      "bytes": 15832343
+    },
+    "train/acceptability.jsonl": {
+      "sha256": "7b9fce6e3c588a738738ff526844688877302fafe810bd57abdf769232d73043",
+      "bytes": 23688325
+    },
+    "train/acceptability_it.jsonl": {
+      "sha256": "3dd37ec5e0c8624c51fdd9a30a269149dc9283f6bf8ba29b59199167baabb7c7",
+      "bytes": 33455903
+    },
+    "train/correction_it.jsonl": {
+      "sha256": "89bab3e83d61f10ef543951c398c5c8961564ef2cb44b7394cc56ac2d0dde5b4",
+      "bytes": 62356265
+    },
+    "train/pairs.jsonl": {
+      "sha256": "67bd35f73f5e5ca5eb47a5228cefcb5b44abee4bfa74ae34724f952b1e4b9479",
+      "bytes": 62487615
+    },
+    "validation/acceptability.csv": {
+      "sha256": "9d8db096054b79837cc2c275c51527734d62c96ca5d9be6f5e7188f7935d697b",
+      "bytes": 1936773
+    },
+    "validation/acceptability.jsonl": {
+      "sha256": "a3200b4d7e5a2cd624cc5383e32d91fac8ddd0572d0c565537129e8db395a65d",
+      "bytes": 2900707
+    },
+    "validation/acceptability_it.jsonl": {
+      "sha256": "b88b4317b1749758ed149452223e47a37967ae7a39fc4bdaf3fbb70c5a2a799c",
+      "bytes": 4100117
+    },
+    "validation/correction_it.jsonl": {
+      "sha256": "f6ec1225cecdf64a97867e77dec01a85bc7aa98a182d237349b11eb0fa4ac027",
+      "bytes": 7642383
+    },
+    "validation/pairs.jsonl": {
+      "sha256": "5577a3c4bbbc6c4e2971acd065bae40c1d6326e88eda7d757cf31b53af3e7e94",
+      "bytes": 7684498
+    }
+  }
+}

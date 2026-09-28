@@ -1,0 +1,35 @@
+{
+  "language": "uk",
+  "paragraphs": 40,
+  "accepted_sources_equal": true,
+  "grammar_candidates_equal": true,
+  "runs": [
+    {
+      "accepted_sources": 9,
+      "grammar_candidates": 11,
+      "candidates": 246,
+      "seconds": 3.378097146982327,
+      "timings": {
+        "tokenize": 0.35390634275972843,
+        "syntax": 2.4923264859244227
+      },
+      "rejections": {}
+    },
+    {
+      "accepted_sources": 9,
+      "grammar_candidates": 11,
+      "candidates": 246,
+      "seconds": 1.4714809411671013,
+      "timings": {
+        "tokenize": 0.3118853406049311,
+        "syntax": 1.133567780489102
+      },
+      "rejections": {
+        "parser_prefilter_length": 2,
+        "parser_prefilter_fragment_or_format": 6,
+        "parser_prefilter_punctuation_spacing": 23,
+        "parser_prefilter_source_extraction_risk": 2
+      }
+    }
+  ]
+}

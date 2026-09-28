@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "name": "govpl",
+      "source_value": "govpl",
+      "repo_id": "SlayerLab/polish-dynaword",
+      "revision": "1564cb054434ba049cbd0d355a9bfaf044b6a852",
+      "data_file": "data/govpl/govpl.parquet",
+      "metadata_file": null,
+      "license": "per-record",
+      "license_evidence_url": "https://huggingface.co/datasets/SlayerLab/polish-dynaword/blob/1564cb054434ba049cbd0d355a9bfaf044b6a852/data/govpl/govpl.md",
+      "min_document_chars": 35,
+      "annotation_filters": {},
+      "quality_policy": "source_and_sentence_screening",
+      "language": "pl",
+      "pilot_sample_rows": 100,
+      "pilot_sample_seed": 4242
+    },
+    {
+      "name": "samorzad_gov_pl",
+      "source_value": "samorzad_gov_pl",
+      "repo_id": "SlayerLab/polish-dynaword",
+      "revision": "1564cb054434ba049cbd0d355a9bfaf044b6a852",
+      "data_file": "data/samorzad_gov_pl/samorzad_gov_pl.parquet",
+      "metadata_file": null,
+      "license": "per-record",
+      "license_evidence_url": "https://huggingface.co/datasets/SlayerLab/polish-dynaword/blob/1564cb054434ba049cbd0d355a9bfaf044b6a852/data/samorzad_gov_pl/samorzad_gov_pl.md",
+      "min_document_chars": 35,
+      "annotation_filters": {},
+      "quality_policy": "source_and_sentence_screening",
+      "language": "pl",
+      "pilot_sample_rows": 100,
+      "pilot_sample_seed": 4242
+    },
+    {
+      "name": "eurlex",
+      "source_value": "eurlex",
+      "repo_id": "SlayerLab/polish-dynaword",
+      "revision": "1564cb054434ba049cbd0d355a9bfaf044b6a852",
+      "data_file": "data/eurlex/eurlex.parquet",
+      "metadata_file": null,
+      "license": "per-record",
+      "license_evidence_url": "https://huggingface.co/datasets/SlayerLab/polish-dynaword/blob/1564cb054434ba049cbd0d355a9bfaf044b6a852/data/eurlex/eurlex.md",
+      "min_document_chars": 35,
+      "annotation_filters": {},
+      "quality_policy": "source_and_sentence_screening",
+      "language": "pl",
+      "pilot_sample_rows": 100,
+      "pilot_sample_seed": 4242
+    },
+    {
+      "name": "biblioteka_nauki",
+      "source_value": "biblioteka_nauki",
+      "repo_id": "SlayerLab/polish-dynaword",
+      "revision": "1564cb054434ba049cbd0d355a9bfaf044b6a852",
+      "data_file": "data/biblioteka_nauki/biblioteka_nauki.parquet",
+      "metadata_file": null,
+      "license": "per-record",
+      "license_evidence_url": "https://huggingface.co/datasets/SlayerLab/polish-dynaword/blob/1564cb054434ba049cbd0d355a9bfaf044b6a852/data/biblioteka_nauki/biblioteka_nauki.md",
+      "min_document_chars": 35,
+      "annotation_filters": {},
+      "quality_policy": "source_and_sentence_screening",
+      "language": "pl",
+      "pilot_sample_rows": 100,
+      "pilot_sample_seed": 4242
+    }
+  ]
+}

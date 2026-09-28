@@ -1,0 +1,63 @@
+{
+  "language": "cs",
+  "rule_overrides": {
+    "verb_number_agreement": {
+      "noun_subject": {
+        "lemmas": [
+          "muž",
+          "žena",
+          "učitel",
+          "student",
+          "autor",
+          "spisovatel",
+          "město",
+          "škola",
+          "podnik",
+          "budova",
+          "kniha",
+          "strom"
+        ],
+        "review": "agent conservative count-noun inventory; no native validation"
+      }
+    }
+  },
+  "status": "candidate_only_agent_reviewed",
+  "reason": "Explicit conservative coverage extensions; shared code, isolated linguistic constraints",
+  "profile_overrides": {
+    "personal_pronoun_features": {
+      "já": {
+        "Number": "Sing",
+        "Person": "1"
+      },
+      "ty": {
+        "Number": "Sing",
+        "Person": "2"
+      },
+      "on": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "ono": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "my": {
+        "Number": "Plur",
+        "Person": "1"
+      },
+      "vy": {
+        "Number": "Plur",
+        "Person": "2"
+      },
+      "oni": {
+        "Number": "Plur",
+        "Person": "3"
+      },
+      "ony": {
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    "personal_pronoun_by_dependency": true
+  }
+}

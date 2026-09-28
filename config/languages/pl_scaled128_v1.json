@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "language": "pl",
+  "name": "DaLA Polish — DynaWord",
+  "mode": "pairs",
+  "parser": "stanza",
+  "parser_backend": "stanza",
+  "parser_settings": {
+    "directory": "la_output/resources/multilingual/stanza",
+    "processors": {
+      "tokenize": "pdb",
+      "pos": "pdb_nocharlm",
+      "depparse": "pdb_nocharlm",
+      "lemma": "pdb_nocharlm",
+      "mwt": "pdb"
+    },
+    "model_sha256": {
+      "pl/depparse/pdb_nocharlm.pt": "5d525ea891d65a78e4ef0674d06aaff9790fb8151161df328bd312d5f2b58bd6",
+      "pl/lemma/pdb_nocharlm.pt": "e1ee004fd93f4d1e207623dc550ec7b39f0fcbd36f380603b927ed4649029984",
+      "pl/mwt/pdb.pt": "5ad87d7ea4a5db7169424250751585862f3cab3d5838d82185e69f2c9e5e3387",
+      "pl/pos/pdb_nocharlm.pt": "044e6f2eaf2bf0ac67f5e8b5318e4fff7360f922edd2001122496f70a2b8ca6a",
+      "pl/pretrain/conll17.pt": "086e275b2ea2031c01ca9ddc14f71e76b68aafce839a5025232bc30aa10de451",
+      "pl/tokenize/pdb.pt": "46baa72d2cd1c6cd14bcb6a18641e2f15aa47743ea062aec1bf8b7badc470a48"
+    },
+    "stanza_version": "1.11.0"
+  },
+  "parser_threads": 2,
+  "sources": {
+    "adapter": "dynaword"
+  },
+  "sources_config": "../pl_sources.json",
+  "rulebook": "../../la_output/resources/multilingual/pl/rules.json.gz",
+  "exclusions": "../pl_source_exclusions.json",
+  "resource_directory": "../../la_output/resources/multilingual/pl",
+  "adapter": "dala.language_packs.morphology:MorphologyPack",
+  "selection": {
+    "strategy": "hash_rotate_grammar_then_spelling",
+    "max_errors": 1,
+    "priority": [
+      "adjective_gender",
+      "adjective_number",
+      "adjective_case",
+      "adjective_definite",
+      "determiner_gender",
+      "determiner_number",
+      "determiner_case",
+      "verb_number_agreement",
+      "verb_person_agreement",
+      "governed_infinitive",
+      "preposition_case",
+      "pronoun_case",
+      "spelling"
+    ]
+  },
+  "checker": {
+    "mode": "morphology",
+    "workers": 32,
+    "source_languagetool": true,
+    "tools_dir": "/tmp/dala-six-tools"
+  },
+  "prompts": {
+    "acceptability": "Czy to zdanie jest poprawne gramatycznie i ortograficznie w języku polskim? Odpowiedz wyłącznie yes albo no.",
+    "correction": "Popraw błędy gramatyczne i ortograficzne w tym polskim zdaniu. Jeśli zdanie jest poprawne, zwróć je bez zmian. Zachowaj język polski, znaczenie i styl. Zwróć tylko zdanie."
+  },
+  "standard_exclusions": [],
+  "curation": {
+    "min_words": 7,
+    "max_words": 35,
+    "max_sentence_chars": 320,
+    "max_paragraph_chars": 6000,
+    "source_risk_patterns": [
+      "^(?:[IVXLCDM]+|[A-Z])[.)]\\s"
+    ]
+  },
+  "description": "Pinned DynaWord prose. Candidate dataset: dictionary and syntactic-rule screening; independent linguistic audit required.",
+  "dependencies": [
+    "requests",
+    "pyarrow",
+    "huggingface-hub",
+    "stanza",
+    "spylls"
+  ],
+  "source_sampling": "round_robin",
+  "export_used_rule_mappings": true,
+  "release_policy": {
+    "status": "candidate_only",
+    "require_audit_per_family": true,
+    "target": {
+      "name": "Polish",
+      "dataset_id": "dala-polish-dynaword",
+      "target_pairs": 478930,
+      "size_policy": "target_without_relaxing_quality"
+    }
+  },
+  "indefinite_articles": [],
+  "morphology_options": {
+    "lemma_strategy": "parsed",
+    "source_pronoun_agreement": true,
+    "complete_verb_agreement_from_subject": false,
+    "gender_equivalences": []
+  },
+  "build": {
+    "parser_processes": 128,
+    "document_batch_size": 8,
+    "max_task_chars": 30000,
+    "checkpoint_dir": "la_output/pl_scaled128_v1_checkpoints",
+    "allow_shortfall": true,
+    "prestart_parser_workers": true,
+    "worker_pool_sha256": "b4987c1b544f964f3015691623e46d57dfa0cbcf9d2a66b7b88724ee1f9c5d1f",
+    "target_pairs": 478930,
+    "split_targets": {
+      "train": 383144,
+      "validation": 47893,
+      "test": 47893
+    },
+    "persistent_screening_workers": true,
+    "screening_pool_sha256": "f90d25a17bd88f9d4f6eea536742dfca118996e33baff78a0492bf7f15d88b7b"
+  }
+}

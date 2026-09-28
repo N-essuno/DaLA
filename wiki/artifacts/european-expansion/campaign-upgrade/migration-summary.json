@@ -1,0 +1,57 @@
+[
+  {
+    "language": "ca",
+    "reused_candidates": 9007,
+    "reused_screened": 8994
+  },
+  {
+    "language": "cs",
+    "reused_candidates": 8341,
+    "reused_screened": 8336
+  },
+  {
+    "language": "de",
+    "reused_candidates": 6177,
+    "reused_screened": 6175
+  },
+  {
+    "language": "el",
+    "reused_candidates": 8872,
+    "reused_screened": 8870
+  },
+  {
+    "language": "es",
+    "reused_candidates": 8159,
+    "reused_screened": 8159
+  },
+  {
+    "language": "et",
+    "reused_candidates": 12036,
+    "reused_screened": 12022
+  },
+  {
+    "language": "fr",
+    "reused_candidates": 2461,
+    "reused_screened": 2447
+  },
+  {
+    "language": "it",
+    "reused_candidates": 8360,
+    "reused_screened": 8359
+  },
+  {
+    "language": "pt-PT",
+    "reused_candidates": 1490,
+    "reused_screened": 1490
+  },
+  {
+    "language": "ro",
+    "reused_candidates": 9683,
+    "reused_screened": 9671
+  },
+  {
+    "language": "uk",
+    "reused_candidates": 3797,
+    "reused_screened": 3781
+  }
+]

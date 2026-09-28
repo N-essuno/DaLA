@@ -1,0 +1,216 @@
+[
+  {
+    "original": "Col miglioramento delle comunicazioni e con l'intensificarsi dello sfruttamento coloniale che caratterizzarono gli ultimi decenni dell'Ottocento, i contatti con i popoli primitivi si moltiplicarono.",
+    "edits": [
+      {
+        "rule_id": "it_determiner_number_ud",
+        "corruption_type": "determiner_number",
+        "start": 146,
+        "end": 147,
+        "original": "i",
+        "replacement": "lo",
+        "protected_tokens": [
+          23,
+          24
+        ]
+      }
+    ],
+    "corrupted": "Col miglioramento delle comunicazioni e con l'intensificarsi dello sfruttamento coloniale che caratterizzarono gli ultimi decenni dell'Ottocento, lo contatti con i popoli primitivi si moltiplicarono.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "Una corretta percezione di una costruzione dà luogo alla comprensione della forma architettonica.",
+    "edits": [
+      {
+        "rule_id": "it_determiner_gender_ud",
+        "corruption_type": "determiner_gender",
+        "start": 27,
+        "end": 30,
+        "original": "una",
+        "replacement": "uno",
+        "protected_tokens": [
+          4,
+          5
+        ]
+      }
+    ],
+    "corrupted": "Una corretta percezione di uno costruzione dà luogo alla comprensione della forma architettonica.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "In quel campo, pochi giorni dopo, si sparò un colpo di rivoltella al fianco.",
+    "edits": [
+      {
+        "rule_id": "it_determiner_number_ud",
+        "corruption_type": "determiner_number",
+        "start": 15,
+        "end": 20,
+        "original": "pochi",
+        "replacement": "poco",
+        "protected_tokens": [
+          4,
+          5
+        ]
+      }
+    ],
+    "corrupted": "In quel campo, poco giorni dopo, si sparò un colpo di rivoltella al fianco.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "La concezione dell'opera ne precede l'esecuzione.",
+    "edits": [
+      {
+        "rule_id": "it_determiner_gender_ud",
+        "corruption_type": "determiner_gender",
+        "start": 0,
+        "end": 2,
+        "original": "La",
+        "replacement": "Lo",
+        "protected_tokens": [
+          0,
+          1
+        ]
+      }
+    ],
+    "corrupted": "Lo concezione dell'opera ne precede l'esecuzione.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "Anche se le due discipline hanno un'origine comune e per secoli accomunate, esse sono oggi totalmente differenti: gli astronomi hanno abbracciato il metodo scientifico sin dai tempi di Galileo, a differenza degli astrologi.",
+    "edits": [
+      {
+        "rule_id": "it_determiner_number_ud",
+        "corruption_type": "determiner_number",
+        "start": 146,
+        "end": 148,
+        "original": "il",
+        "replacement": "gli",
+        "protected_tokens": [
+          24,
+          25
+        ]
+      }
+    ],
+    "corrupted": "Anche se le due discipline hanno un'origine comune e per secoli accomunate, esse sono oggi totalmente differenti: gli astronomi hanno abbracciato gli metodo scientifico sin dai tempi di Galileo, a differenza degli astrologi.",
+    "screen_rejection": null,
+    "agent_judgment": "reject_source",
+    "note": "Missing predicate in coordinated clause: e per secoli accomunate. Preserve rejection."
+  },
+  {
+    "original": "Per questa scoperta Riccardo Giacconi ottenne il Premio Nobel di Fisica nel 2002.",
+    "edits": [
+      {
+        "rule_id": "it_determiner_gender_ud",
+        "corruption_type": "determiner_gender",
+        "start": 46,
+        "end": 48,
+        "original": "il",
+        "replacement": "la",
+        "protected_tokens": [
+          6,
+          7
+        ]
+      }
+    ],
+    "corrupted": "Per questa scoperta Riccardo Giacconi ottenne la Premio Nobel di Fisica nel 2002.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "La storia e l'evoluzione dell'agricoltura vanno di pari passo con lo sviluppo tecnologico umano e lo sviluppo di conoscenze o tecniche di coltivazione.",
+    "edits": [
+      {
+        "rule_id": "it_spelling_transpose_internal",
+        "corruption_type": "spelling",
+        "start": 138,
+        "end": 150,
+        "original": "coltivazione",
+        "replacement": "clotivazione",
+        "protected_tokens": [
+          23,
+          24,
+          25
+        ]
+      }
+    ],
+    "corrupted": "La storia e l'evoluzione dell'agricoltura vanno di pari passo con lo sviluppo tecnologico umano e lo sviluppo di conoscenze o tecniche di clotivazione.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "La progettazione architettonica è una delle discipline principali su cui si fonda l'architettura.",
+    "edits": [
+      {
+        "rule_id": "it_spelling_delete_internal",
+        "corruption_type": "spelling",
+        "start": 76,
+        "end": 81,
+        "original": "fonda",
+        "replacement": "fona",
+        "protected_tokens": [
+          7,
+          10,
+          11,
+          12,
+          14
+        ]
+      }
+    ],
+    "corrupted": "La progettazione architettonica è una delle discipline principali su cui si fona l'architettura.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "Venne formulata allora la teoria dell'espansione dell'Universo.",
+    "edits": [
+      {
+        "rule_id": "it_determiner_gender_ud",
+        "corruption_type": "determiner_gender",
+        "start": 23,
+        "end": 25,
+        "original": "la",
+        "replacement": "lo",
+        "protected_tokens": [
+          3,
+          4
+        ]
+      }
+    ],
+    "corrupted": "Venne formulata allora lo teoria dell'espansione dell'Universo.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "I dati astrometrici servono anche per calcolare la distribuzione della materia oscura che si pensa esista nella Galassia.",
+    "edits": [
+      {
+        "rule_id": "it_determiner_number_ud",
+        "corruption_type": "determiner_number",
+        "start": 0,
+        "end": 1,
+        "original": "I",
+        "replacement": "Lo",
+        "protected_tokens": [
+          0,
+          1
+        ]
+      }
+    ],
+    "corrupted": "Lo dati astrometrici servono anche per calcolare la distribuzione della materia oscura che si pensa esista nella Galassia.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  }
+]

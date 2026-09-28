@@ -1,0 +1,18 @@
+[
+  "schneiderkamplab/dala-dutch-dynaword",
+  "schneiderkamplab/dala-english-common-pile",
+  "schneiderkamplab/dfm12-dala-en",
+  "schneiderkamplab/dfm12-dala-fo-acceptability",
+  "schneiderkamplab/dfm12-dala-fo-correction",
+  "schneiderkamplab/dfm12-dala-is-acceptability",
+  "schneiderkamplab/dfm12-dala-is-correction",
+  "schneiderkamplab/dfm12-dala-nb-acceptability",
+  "schneiderkamplab/dfm12-dala-nb-correction",
+  "schneiderkamplab/dfm12-dala-nl",
+  "schneiderkamplab/dfm12-dala-nn-acceptability",
+  "schneiderkamplab/dfm12-dala-nn-correction",
+  "schneiderkamplab/dfm12-dala-pl-acceptability",
+  "schneiderkamplab/dfm12-dala-pl-correction",
+  "schneiderkamplab/dfm12-dala-sv-acceptability",
+  "schneiderkamplab/dfm12-dala-sv-correction"
+]

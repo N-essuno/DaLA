@@ -1,0 +1,10 @@
+{
+  "retained_base_pairs": 188182,
+  "retained_extension_pairs": 0,
+  "rejections": {},
+  "targets": {
+    "train": 151067,
+    "validation": 19552,
+    "test": 17563
+  }
+}

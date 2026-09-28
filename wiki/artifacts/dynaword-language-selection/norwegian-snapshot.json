@@ -1,0 +1,1405 @@
+{
+  "repo": "danish-foundation-models/norwegian-dynaword",
+  "revision": "2bc33815865fb3d610e2a080b19156db8e98feef",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 2419
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 261
+    },
+    {
+      "path": ".vscode/settings.json",
+      "bytes": 152
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 3530
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 7048
+    },
+    {
+      "path": "README.md",
+      "bytes": 44744
+    },
+    {
+      "path": "data/bokselskap/.gitignore",
+      "bytes": 23
+    },
+    {
+      "path": "data/bokselskap/bokselskap.md",
+      "bytes": 2819
+    },
+    {
+      "path": "data/bokselskap/check_duplicates.py",
+      "bytes": 3690
+    },
+    {
+      "path": "data/bokselskap/create.py",
+      "bytes": 1997
+    },
+    {
+      "path": "data/bokselskap/data.parquet",
+      "bytes": 58827494
+    },
+    {
+      "path": "data/bokselskap/descriptive_stats.json",
+      "bytes": 1634
+    },
+    {
+      "path": "data/bokselskap/duplicates.json",
+      "bytes": 288
+    },
+    {
+      "path": "data/bokselskap/images/annotation_profile.png",
+      "bytes": 105158
+    },
+    {
+      "path": "data/bokselskap/images/dist_document_length.png",
+      "bytes": 594081
+    },
+    {
+      "path": "data/bokselskap/metadata.parquet",
+      "bytes": 33713
+    },
+    {
+      "path": "data/cellar/cellar.md",
+      "bytes": 3603
+    },
+    {
+      "path": "data/cellar/create.py",
+      "bytes": 4730
+    },
+    {
+      "path": "data/cellar/data.parquet",
+      "bytes": 3350228
+    },
+    {
+      "path": "data/cellar/descriptive_stats.json",
+      "bytes": 1635
+    },
+    {
+      "path": "data/cellar/images/annotation_profile.png",
+      "bytes": 124106
+    },
+    {
+      "path": "data/cellar/images/dist_document_length.png",
+      "bytes": 576013
+    },
+    {
+      "path": "data/cellar/metadata.parquet",
+      "bytes": 34408
+    },
+    {
+      "path": "data/government-nno/create.py",
+      "bytes": 3777
+    },
+    {
+      "path": "data/government-nno/create.py.lock",
+      "bytes": 462623
+    },
+    {
+      "path": "data/government-nno/create.py.log",
+      "bytes": 4199
+    },
+    {
+      "path": "data/government-nno/data.parquet",
+      "bytes": 62454101
+    },
+    {
+      "path": "data/government-nno/descriptive_stats.json",
+      "bytes": 1636
+    },
+    {
+      "path": "data/government-nno/government-nno.md",
+      "bytes": 6793
+    },
+    {
+      "path": "data/government-nno/images/annotation_profile.png",
+      "bytes": 96118
+    },
+    {
+      "path": "data/government-nno/images/dist_document_length.png",
+      "bytes": 204808
+    },
+    {
+      "path": "data/government-nno/metadata.parquet",
+      "bytes": 81464
+    },
+    {
+      "path": "data/government-nob/create.py",
+      "bytes": 3777
+    },
+    {
+      "path": "data/government-nob/create.py.lock",
+      "bytes": 462623
+    },
+    {
+      "path": "data/government-nob/create.py.log",
+      "bytes": 4406
+    },
+    {
+      "path": "data/government-nob/data.parquet",
+      "bytes": 462551297
+    },
+    {
+      "path": "data/government-nob/descriptive_stats.json",
+      "bytes": 1644
+    },
+    {
+      "path": "data/government-nob/government-nob.md",
+      "bytes": 6796
+    },
+    {
+      "path": "data/government-nob/images/annotation_profile.png",
+      "bytes": 95862
+    },
+    {
+      "path": "data/government-nob/images/dist_document_length.png",
+      "bytes": 204410
+    },
+    {
+      "path": "data/government-nob/metadata.parquet",
+      "bytes": 260108
+    },
+    {
+      "path": "data/gutenberg/create.py",
+      "bytes": 4575
+    },
+    {
+      "path": "data/gutenberg/data.parquet",
+      "bytes": 2810729
+    },
+    {
+      "path": "data/gutenberg/descriptive_stats.json",
+      "bytes": 1603
+    },
+    {
+      "path": "data/gutenberg/gutenberg.md",
+      "bytes": 19827
+    },
+    {
+      "path": "data/gutenberg/images/annotation_profile.png",
+      "bytes": 103577
+    },
+    {
+      "path": "data/gutenberg/images/dist_document_length.png",
+      "bytes": 184250
+    },
+    {
+      "path": "data/gutenberg/metadata.parquet",
+      "bytes": 9205
+    },
+    {
+      "path": "data/lovdata-ncc-lokale-forskrifter/create.py",
+      "bytes": 3534
+    },
+    {
+      "path": "data/lovdata-ncc-lokale-forskrifter/create.py.log",
+      "bytes": 1019
+    },
+    {
+      "path": "data/lovdata-ncc-lokale-forskrifter/data.parquet",
+      "bytes": 8042560
+    },
+    {
+      "path": "data/lovdata-ncc-lokale-forskrifter/descriptive_stats.json",
+      "bytes": 1667
+    },
+    {
+      "path": "data/lovdata-ncc-lokale-forskrifter/images/annotation_profile.png",
+      "bytes": 99985
+    },
+    {
+      "path": "data/lovdata-ncc-lokale-forskrifter/images/dist_document_length.png",
+      "bytes": 193388
+    },
+    {
+      "path": "data/lovdata-ncc-lokale-forskrifter/lovdata-ncc-lokale-forskrifter.md",
+      "bytes": 5747
+    },
+    {
+      "path": "data/lovdata-ncc-lokale-forskrifter/metadata.parquet",
+      "bytes": 1301974
+    },
+    {
+      "path": "data/lovdata-ncc-norgeslover/create.py",
+      "bytes": 3507
+    },
+    {
+      "path": "data/lovdata-ncc-norgeslover/create.py.log",
+      "bytes": 1002
+    },
+    {
+      "path": "data/lovdata-ncc-norgeslover/data.parquet",
+      "bytes": 5484431
+    },
+    {
+      "path": "data/lovdata-ncc-norgeslover/descriptive_stats.json",
+      "bytes": 1642
+    },
+    {
+      "path": "data/lovdata-ncc-norgeslover/images/annotation_profile.png",
+      "bytes": 109669
+    },
+    {
+      "path": "data/lovdata-ncc-norgeslover/images/dist_document_length.png",
+      "bytes": 193402
+    },
+    {
+      "path": "data/lovdata-ncc-norgeslover/lovdata-ncc-norgeslover.md",
+      "bytes": 5544
+    },
+    {
+      "path": "data/lovdata-ncc-norgeslover/metadata.parquet",
+      "bytes": 94067
+    },
+    {
+      "path": "data/lovdata-ncc-odelsting/create.py",
+      "bytes": 3499
+    },
+    {
+      "path": "data/lovdata-ncc-odelsting/create.py.log",
+      "bytes": 998
+    },
+    {
+      "path": "data/lovdata-ncc-odelsting/data.parquet",
+      "bytes": 120884393
+    },
+    {
+      "path": "data/lovdata-ncc-odelsting/descriptive_stats.json",
+      "bytes": 1643
+    },
+    {
+      "path": "data/lovdata-ncc-odelsting/images/annotation_profile.png",
+      "bytes": 99716
+    },
+    {
+      "path": "data/lovdata-ncc-odelsting/images/dist_document_length.png",
+      "bytes": 189192
+    },
+    {
+      "path": "data/lovdata-ncc-odelsting/lovdata-ncc-odelsting.md",
+      "bytes": 5663
+    },
+    {
+      "path": "data/lovdata-ncc-odelsting/metadata.parquet",
+      "bytes": 134980
+    },
+    {
+      "path": "data/lovdata-ncc-rtv-rundskriv/create.py",
+      "bytes": 3515
+    },
+    {
+      "path": "data/lovdata-ncc-rtv-rundskriv/create.py.log",
+      "bytes": 1006
+    },
+    {
+      "path": "data/lovdata-ncc-rtv-rundskriv/data.parquet",
+      "bytes": 5085819
+    },
+    {
+      "path": "data/lovdata-ncc-rtv-rundskriv/descriptive_stats.json",
+      "bytes": 1660
+    },
+    {
+      "path": "data/lovdata-ncc-rtv-rundskriv/images/annotation_profile.png",
+      "bytes": 111034
+    },
+    {
+      "path": "data/lovdata-ncc-rtv-rundskriv/images/dist_document_length.png",
+      "bytes": 188622
+    },
+    {
+      "path": "data/lovdata-ncc-rtv-rundskriv/lovdata-ncc-rtv-rundskriv.md",
+      "bytes": 5707
+    },
+    {
+      "path": "data/lovdata-ncc-rtv-rundskriv/metadata.parquet",
+      "bytes": 639872
+    },
+    {
+      "path": "data/lovdata-ncc-rundskriv-lovavdeling/create.py",
+      "bytes": 3547
+    },
+    {
+      "path": "data/lovdata-ncc-rundskriv-lovavdeling/create.py.log",
+      "bytes": 1018
+    },
+    {
+      "path": "data/lovdata-ncc-rundskriv-lovavdeling/data.parquet",
+      "bytes": 1618747
+    },
+    {
+      "path": "data/lovdata-ncc-rundskriv-lovavdeling/descriptive_stats.json",
+      "bytes": 1614
+    },
+    {
+      "path": "data/lovdata-ncc-rundskriv-lovavdeling/images/annotation_profile.png",
+      "bytes": 94705
+    },
+    {
+      "path": "data/lovdata-ncc-rundskriv-lovavdeling/images/dist_document_length.png",
+      "bytes": 197374
+    },
+    {
+      "path": "data/lovdata-ncc-rundskriv-lovavdeling/lovdata-ncc-rundskriv-lovavdeling.md",
+      "bytes": 5772
+    },
+    {
+      "path": "data/lovdata-ncc-rundskriv-lovavdeling/metadata.parquet",
+      "bytes": 34444
+    },
+    {
+      "path": "data/lovdata-ncc-sentrale-forskrifter/create.py",
+      "bytes": 3543
+    },
+    {
+      "path": "data/lovdata-ncc-sentrale-forskrifter/create.py.log",
+      "bytes": 1024
+    },
+    {
+      "path": "data/lovdata-ncc-sentrale-forskrifter/data.parquet",
+      "bytes": 17409811
+    },
+    {
+      "path": "data/lovdata-ncc-sentrale-forskrifter/descriptive_stats.json",
+      "bytes": 1669
+    },
+    {
+      "path": "data/lovdata-ncc-sentrale-forskrifter/images/annotation_profile.png",
+      "bytes": 108403
+    },
+    {
+      "path": "data/lovdata-ncc-sentrale-forskrifter/images/dist_document_length.png",
+      "bytes": 198906
+    },
+    {
+      "path": "data/lovdata-ncc-sentrale-forskrifter/lovdata-ncc-sentrale-forskrifter.md",
+      "bytes": 5711
+    },
+    {
+      "path": "data/lovdata-ncc-sentrale-forskrifter/metadata.parquet",
+      "bytes": 785217
+    },
+    {
+      "path": "data/lovdata-ncc-skatt-rundskriv/create.py",
+      "bytes": 3523
+    },
+    {
+      "path": "data/lovdata-ncc-skatt-rundskriv/create.py.log",
+      "bytes": 1006
+    },
+    {
+      "path": "data/lovdata-ncc-skatt-rundskriv/data.parquet",
+      "bytes": 3664248
+    },
+    {
+      "path": "data/lovdata-ncc-skatt-rundskriv/descriptive_stats.json",
+      "bytes": 1627
+    },
+    {
+      "path": "data/lovdata-ncc-skatt-rundskriv/images/annotation_profile.png",
+      "bytes": 105268
+    },
+    {
+      "path": "data/lovdata-ncc-skatt-rundskriv/images/dist_document_length.png",
+      "bytes": 196707
+    },
+    {
+      "path": "data/lovdata-ncc-skatt-rundskriv/lovdata-ncc-skatt-rundskriv.md",
+      "bytes": 5575
+    },
+    {
+      "path": "data/lovdata-ncc-skatt-rundskriv/metadata.parquet",
+      "bytes": 33189
+    },
+    {
+      "path": "data/lovdata-ncc-somb-rundskriv/create.py",
+      "bytes": 3519
+    },
+    {
+      "path": "data/lovdata-ncc-somb-rundskriv/create.py.log",
+      "bytes": 1008
+    },
+    {
+      "path": "data/lovdata-ncc-somb-rundskriv/data.parquet",
+      "bytes": 17878491
+    },
+    {
+      "path": "data/lovdata-ncc-somb-rundskriv/descriptive_stats.json",
+      "bytes": 1642
+    },
+    {
+      "path": "data/lovdata-ncc-somb-rundskriv/images/annotation_profile.png",
+      "bytes": 97360
+    },
+    {
+      "path": "data/lovdata-ncc-somb-rundskriv/images/dist_document_length.png",
+      "bytes": 196902
+    },
+    {
+      "path": "data/lovdata-ncc-somb-rundskriv/lovdata-ncc-somb-rundskriv.md",
+      "bytes": 5700
+    },
+    {
+      "path": "data/lovdata-ncc-somb-rundskriv/metadata.parquet",
+      "bytes": 223772
+    },
+    {
+      "path": "data/lovdata/create.py",
+      "bytes": 4541
+    },
+    {
+      "path": "data/lovdata/create.py.lock",
+      "bytes": 493026
+    },
+    {
+      "path": "data/lovdata/create.py.log",
+      "bytes": 4935
+    },
+    {
+      "path": "data/lovdata/data.parquet",
+      "bytes": 45963958
+    },
+    {
+      "path": "data/lovdata/descriptive_stats.json",
+      "bytes": 1654
+    },
+    {
+      "path": "data/lovdata/images/annotation_profile.png",
+      "bytes": 100520
+    },
+    {
+      "path": "data/lovdata/images/dist_document_length.png",
+      "bytes": 185294
+    },
+    {
+      "path": "data/lovdata/lovdata.md",
+      "bytes": 5644
+    },
+    {
+      "path": "data/lovdata/metadata.parquet",
+      "bytes": 377809
+    },
+    {
+      "path": "data/maalfrid/create.py",
+      "bytes": 3976
+    },
+    {
+      "path": "data/maalfrid/create.py.lock",
+      "bytes": 460281
+    },
+    {
+      "path": "data/maalfrid/create.py.log",
+      "bytes": 1207
+    },
+    {
+      "path": "data/maalfrid/data.parquet",
+      "bytes": 3934900914
+    },
+    {
+      "path": "data/maalfrid/descriptive_stats.json",
+      "bytes": 1781
+    },
+    {
+      "path": "data/maalfrid/images/annotation_profile.png",
+      "bytes": 105925
+    },
+    {
+      "path": "data/maalfrid/images/dist_document_length.png",
+      "bytes": 602522
+    },
+    {
+      "path": "data/maalfrid/maalfrid.md",
+      "bytes": 7844
+    },
+    {
+      "path": "data/maalfrid/metadata.parquet",
+      "bytes": 248721118
+    },
+    {
+      "path": "data/nbdigital/.gitignore",
+      "bytes": 23
+    },
+    {
+      "path": "data/nbdigital/check_duplicates.py",
+      "bytes": 3679
+    },
+    {
+      "path": "data/nbdigital/create.py",
+      "bytes": 1932
+    },
+    {
+      "path": "data/nbdigital/data.parquet",
+      "bytes": 2700215155
+    },
+    {
+      "path": "data/nbdigital/descriptive_stats.json",
+      "bytes": 1690
+    },
+    {
+      "path": "data/nbdigital/duplicates.json",
+      "bytes": 9348
+    },
+    {
+      "path": "data/nbdigital/images/annotation_profile.png",
+      "bytes": 103090
+    },
+    {
+      "path": "data/nbdigital/images/dist_document_length.png",
+      "bytes": 606580
+    },
+    {
+      "path": "data/nbdigital/metadata.parquet",
+      "bytes": 1068760
+    },
+    {
+      "path": "data/nbdigital/nbdigital.md",
+      "bytes": 3112
+    },
+    {
+      "path": "data/ncc-books/create.py",
+      "bytes": 3758
+    },
+    {
+      "path": "data/ncc-books/create.py.lock",
+      "bytes": 460281
+    },
+    {
+      "path": "data/ncc-books/create.py.log",
+      "bytes": 1160
+    },
+    {
+      "path": "data/ncc-books/data.parquet",
+      "bytes": 3148293595
+    },
+    {
+      "path": "data/ncc-books/descriptive_stats.json",
+      "bytes": 1697
+    },
+    {
+      "path": "data/ncc-books/images/annotation_profile.png",
+      "bytes": 104742
+    },
+    {
+      "path": "data/ncc-books/images/dist_document_length.png",
+      "bytes": 216819
+    },
+    {
+      "path": "data/ncc-books/metadata.parquet",
+      "bytes": 1947818
+    },
+    {
+      "path": "data/ncc-books/ncc-books.md",
+      "bytes": 6186
+    },
+    {
+      "path": "data/ncc-newspapers/create.py",
+      "bytes": 3959
+    },
+    {
+      "path": "data/ncc-newspapers/create.py.lock",
+      "bytes": 460281
+    },
+    {
+      "path": "data/ncc-newspapers/create.py.log",
+      "bytes": 928
+    },
+    {
+      "path": "data/ncc-newspapers/data.parquet",
+      "bytes": 295127158
+    },
+    {
+      "path": "data/ncc-newspapers/descriptive_stats.json",
+      "bytes": 1735
+    },
+    {
+      "path": "data/ncc-newspapers/images/annotation_profile.png",
+      "bytes": 105270
+    },
+    {
+      "path": "data/ncc-newspapers/images/dist_document_length.png",
+      "bytes": 613399
+    },
+    {
+      "path": "data/ncc-newspapers/metadata.parquet",
+      "bytes": 26471559
+    },
+    {
+      "path": "data/ncc-newspapers/ncc-newspapers.md",
+      "bytes": 7455
+    },
+    {
+      "path": "data/public-reports/create.py",
+      "bytes": 3777
+    },
+    {
+      "path": "data/public-reports/create.py.lock",
+      "bytes": 462623
+    },
+    {
+      "path": "data/public-reports/create.py.log",
+      "bytes": 4199
+    },
+    {
+      "path": "data/public-reports/data.parquet",
+      "bytes": 266166531
+    },
+    {
+      "path": "data/public-reports/descriptive_stats.json",
+      "bytes": 1658
+    },
+    {
+      "path": "data/public-reports/images/annotation_profile.png",
+      "bytes": 94378
+    },
+    {
+      "path": "data/public-reports/images/dist_document_length.png",
+      "bytes": 199082
+    },
+    {
+      "path": "data/public-reports/metadata.parquet",
+      "bytes": 257513
+    },
+    {
+      "path": "data/public-reports/public-reports.md",
+      "bytes": 7408
+    },
+    {
+      "path": "data/stortingsforhandlingerne/create.py",
+      "bytes": 3853
+    },
+    {
+      "path": "data/stortingsforhandlingerne/create.py.lock",
+      "bytes": 460281
+    },
+    {
+      "path": "data/stortingsforhandlingerne/create.py.log",
+      "bytes": 1034
+    },
+    {
+      "path": "data/stortingsforhandlingerne/data.parquet",
+      "bytes": 4403237248
+    },
+    {
+      "path": "data/stortingsforhandlingerne/descriptive_stats.json",
+      "bytes": 1658
+    },
+    {
+      "path": "data/stortingsforhandlingerne/images/annotation_profile.png",
+      "bytes": 98750
+    },
+    {
+      "path": "data/stortingsforhandlingerne/images/dist_document_length.png",
+      "bytes": 612904
+    },
+    {
+      "path": "data/stortingsforhandlingerne/metadata.parquet",
+      "bytes": 699490
+    },
+    {
+      "path": "data/stortingsforhandlingerne/stortingsforhandlingerne.md",
+      "bytes": 6416
+    },
+    {
+      "path": "data/veidemann-municipalities/.gitignore",
+      "bytes": 17
+    },
+    {
+      "path": "data/veidemann-municipalities/check_duplicates.py",
+      "bytes": 3664
+    },
+    {
+      "path": "data/veidemann-municipalities/create.py",
+      "bytes": 1726
+    },
+    {
+      "path": "data/veidemann-municipalities/data.parquet",
+      "bytes": 452986349
+    },
+    {
+      "path": "data/veidemann-municipalities/descriptive_stats.json",
+      "bytes": 1711
+    },
+    {
+      "path": "data/veidemann-municipalities/duplicates.json",
+      "bytes": 242652
+    },
+    {
+      "path": "data/veidemann-municipalities/images/annotation_profile.png",
+      "bytes": 115600
+    },
+    {
+      "path": "data/veidemann-municipalities/images/dist_document_length.png",
+      "bytes": 627566
+    },
+    {
+      "path": "data/veidemann-municipalities/metadata.parquet",
+      "bytes": 3321313
+    },
+    {
+      "path": "data/veidemann-municipalities/veidemann-municipalities.md",
+      "bytes": 3327
+    },
+    {
+      "path": "data/wiki-comments/create.py",
+      "bytes": 6388
+    },
+    {
+      "path": "data/wiki-comments/data.parquet",
+      "bytes": 53199617
+    },
+    {
+      "path": "data/wiki-comments/descriptive_stats.json",
+      "bytes": 1697
+    },
+    {
+      "path": "data/wiki-comments/images/annotation_profile.png",
+      "bytes": 114657
+    },
+    {
+      "path": "data/wiki-comments/images/dist_document_length.png",
+      "bytes": 596273
+    },
+    {
+      "path": "data/wiki-comments/metadata.parquet",
+      "bytes": 1099986
+    },
+    {
+      "path": "data/wiki-comments/wiki-comments.md",
+      "bytes": 4489
+    },
+    {
+      "path": "data/wikibooks/create.py",
+      "bytes": 8941
+    },
+    {
+      "path": "data/wikibooks/data.parquet",
+      "bytes": 3432536
+    },
+    {
+      "path": "data/wikibooks/descriptive_stats.json",
+      "bytes": 1656
+    },
+    {
+      "path": "data/wikibooks/images/annotation_profile.png",
+      "bytes": 122027
+    },
+    {
+      "path": "data/wikibooks/images/dist_document_length.png",
+      "bytes": 588294
+    },
+    {
+      "path": "data/wikibooks/metadata.parquet",
+      "bytes": 105975
+    },
+    {
+      "path": "data/wikibooks/parser/package-lock.json",
+      "bytes": 26566
+    },
+    {
+      "path": "data/wikibooks/parser/package.json",
+      "bytes": 298
+    },
+    {
+      "path": "data/wikibooks/parser/wtf_bridge.js",
+      "bytes": 1304
+    },
+    {
+      "path": "data/wikibooks/wikibooks.md",
+      "bytes": 3419
+    },
+    {
+      "path": "data/wikipedia-nno/create.py",
+      "bytes": 3670
+    },
+    {
+      "path": "data/wikipedia-nno/create.py.lock",
+      "bytes": 460281
+    },
+    {
+      "path": "data/wikipedia-nno/create.py.log",
+      "bytes": 1018
+    },
+    {
+      "path": "data/wikipedia-nno/data.parquet",
+      "bytes": 114814229
+    },
+    {
+      "path": "data/wikipedia-nno/descriptive_stats.json",
+      "bytes": 1709
+    },
+    {
+      "path": "data/wikipedia-nno/images/annotation_profile.png",
+      "bytes": 94055
+    },
+    {
+      "path": "data/wikipedia-nno/images/dist_document_length.png",
+      "bytes": 606270
+    },
+    {
+      "path": "data/wikipedia-nno/metadata.parquet",
+      "bytes": 9618408
+    },
+    {
+      "path": "data/wikipedia-nno/wikipedia-nno.md",
+      "bytes": 6326
+    },
+    {
+      "path": "data/wikipedia-nob/create.py",
+      "bytes": 3669
+    },
+    {
+      "path": "data/wikipedia-nob/create.py.lock",
+      "bytes": 460281
+    },
+    {
+      "path": "data/wikipedia-nob/create.py.log",
+      "bytes": 1018
+    },
+    {
+      "path": "data/wikipedia-nob/data.parquet",
+      "bytes": 478544255
+    },
+    {
+      "path": "data/wikipedia-nob/descriptive_stats.json",
+      "bytes": 1739
+    },
+    {
+      "path": "data/wikipedia-nob/images/annotation_profile.png",
+      "bytes": 96825
+    },
+    {
+      "path": "data/wikipedia-nob/images/dist_document_length.png",
+      "bytes": 623706
+    },
+    {
+      "path": "data/wikipedia-nob/metadata.parquet",
+      "bytes": 37375955
+    },
+    {
+      "path": "data/wikipedia-nob/wikipedia-nob.md",
+      "bytes": 6330
+    },
+    {
+      "path": "data/wikisource/create.py",
+      "bytes": 9820
+    },
+    {
+      "path": "data/wikisource/data.parquet",
+      "bytes": 1817507
+    },
+    {
+      "path": "data/wikisource/descriptive_stats.json",
+      "bytes": 1669
+    },
+    {
+      "path": "data/wikisource/images/annotation_profile.png",
+      "bytes": 102049
+    },
+    {
+      "path": "data/wikisource/images/dist_document_length.png",
+      "bytes": 185191
+    },
+    {
+      "path": "data/wikisource/metadata.parquet",
+      "bytes": 359820
+    },
+    {
+      "path": "data/wikisource/parser/package-lock.json",
+      "bytes": 26204
+    },
+    {
+      "path": "data/wikisource/parser/package.json",
+      "bytes": 270
+    },
+    {
+      "path": "data/wikisource/parser/wtf_bridge.js",
+      "bytes": 1044
+    },
+    {
+      "path": "data/wikisource/wikisource.md",
+      "bytes": 3099
+    },
+    {
+      "path": "descriptive_stats.json",
+      "bytes": 1794
+    },
+    {
+      "path": "docs/icon.png",
+      "bytes": 56349
+    },
+    {
+      "path": "images/annotation_profile.png",
+      "bytes": 112154
+    },
+    {
+      "path": "images/dataset_size_plot.html",
+      "bytes": 4855864
+    },
+    {
+      "path": "images/dataset_size_plot.svg",
+      "bytes": 41889
+    },
+    {
+      "path": "images/domain_distribution.png",
+      "bytes": 319476
+    },
+    {
+      "path": "images/language_distribution.html",
+      "bytes": 4849039
+    },
+    {
+      "path": "images/language_distribution.svg",
+      "bytes": 26945
+    },
+    {
+      "path": "images/tokens_over_time.html",
+      "bytes": 11876
+    },
+    {
+      "path": "images/tokens_over_time.svg",
+      "bytes": 10622
+    },
+    {
+      "path": "makefile",
+      "bytes": 735
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 975
+    },
+    {
+      "path": "skills.md",
+      "bytes": 3730
+    },
+    {
+      "path": "src/dynaword/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "src/dynaword/annotations/__init__.py",
+      "bytes": 62
+    },
+    {
+      "path": "src/dynaword/annotations/annotation_stats.py",
+      "bytes": 2481
+    },
+    {
+      "path": "src/dynaword/annotations/inference.py",
+      "bytes": 926
+    },
+    {
+      "path": "src/dynaword/annotations/propella.py",
+      "bytes": 37977
+    },
+    {
+      "path": "src/dynaword/annotations/property_descriptions.md",
+      "bytes": 58883
+    },
+    {
+      "path": "src/dynaword/bump_version.py",
+      "bytes": 1699
+    },
+    {
+      "path": "src/dynaword/dataset_structure.py",
+      "bytes": 729
+    },
+    {
+      "path": "src/dynaword/datasheet.py",
+      "bytes": 10839
+    },
+    {
+      "path": "src/dynaword/descriptive_stats.py",
+      "bytes": 3660
+    },
+    {
+      "path": "src/dynaword/paths.py",
+      "bytes": 189
+    },
+    {
+      "path": "src/dynaword/plots/annotation_profile_plots.py",
+      "bytes": 6804
+    },
+    {
+      "path": "src/dynaword/plots/descriptive_statistics_plots.py",
+      "bytes": 1120
+    },
+    {
+      "path": "src/dynaword/plots/plot_language_distribution.py",
+      "bytes": 1271
+    },
+    {
+      "path": "src/dynaword/plots/plot_tokens_over_time.py",
+      "bytes": 7530
+    },
+    {
+      "path": "src/dynaword/plots/plots_dataset_size.py",
+      "bytes": 4316
+    },
+    {
+      "path": "src/dynaword/process_dataset.py",
+      "bytes": 2252
+    },
+    {
+      "path": "src/dynaword/tables.py",
+      "bytes": 7018
+    },
+    {
+      "path": "src/dynaword/typings.py",
+      "bytes": 509
+    },
+    {
+      "path": "src/dynaword/update_descriptive_statistics.py",
+      "bytes": 6377
+    },
+    {
+      "path": "src/tests/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "src/tests/conftest.py",
+      "bytes": 352
+    },
+    {
+      "path": "src/tests/test_annotations.py",
+      "bytes": 2050
+    },
+    {
+      "path": "src/tests/test_dataset_schema.py",
+      "bytes": 1922
+    },
+    {
+      "path": "src/tests/test_datasheets.py",
+      "bytes": 2048
+    },
+    {
+      "path": "src/tests/test_load.py",
+      "bytes": 916
+    },
+    {
+      "path": "src/tests/test_quality/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "src/tests/test_quality/test_duplicates.py",
+      "bytes": 688
+    },
+    {
+      "path": "src/tests/test_quality/test_short_texts.py",
+      "bytes": 565
+    },
+    {
+      "path": "src/tests/test_unique_ids.py",
+      "bytes": 513
+    },
+    {
+      "path": "test_results.log",
+      "bytes": 1835
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 213400
+    }
+  ],
+  "card_data": {
+    "annotations_creators": [
+      "machine-generated"
+    ],
+    "language_creators": [
+      "crowdsourced"
+    ],
+    "language": [
+      "no",
+      "nb",
+      "nn",
+      "nor",
+      "nob",
+      "nno"
+    ],
+    "license": "cc0-1.0",
+    "multilinguality": [
+      "monolingual"
+    ],
+    "source_datasets": [
+      "original"
+    ],
+    "task_categories": [
+      "text-generation"
+    ],
+    "task_ids": [
+      "language-modeling"
+    ],
+    "pretty_name": "Norwegian Dynaword",
+    "tags": [
+      "text-corpus",
+      "continual-development",
+      "community-collaboration",
+      "synthetic-annotations"
+    ],
+    "configs": [
+      {
+        "config_name": "default",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/*/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "meta",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/*/metadata.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "maalfrid",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/maalfrid/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "ncc-newspapers",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/ncc-newspapers/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "wikipedia-nno",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/wikipedia-nno/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "wikipedia-nob",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/wikipedia-nob/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "stortingsforhandlingerne",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/stortingsforhandlingerne/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "ncc-books",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/ncc-books/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "government-nob",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/government-nob/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "government-nno",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/government-nno/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "public-reports",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/public-reports/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "lovdata",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/lovdata/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "gutenberg",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/gutenberg/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "wikibooks",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/wikibooks/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "wiki-comments",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/wiki-comments/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "cellar",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/cellar/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "bokselskap",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/bokselskap/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "nbdigital",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/nbdigital/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "veidemann-municipalities",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/veidemann-municipalities/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "wikisource",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/wikisource/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "lovdata-ncc-norgeslover",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/lovdata-ncc-norgeslover/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "lovdata-ncc-sentrale-forskrifter",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/lovdata-ncc-sentrale-forskrifter/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "lovdata-ncc-lokale-forskrifter",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/lovdata-ncc-lokale-forskrifter/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "lovdata-ncc-odelsting",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/lovdata-ncc-odelsting/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "lovdata-ncc-somb-rundskriv",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/lovdata-ncc-somb-rundskriv/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "lovdata-ncc-rtv-rundskriv",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/lovdata-ncc-rtv-rundskriv/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "lovdata-ncc-skatt-rundskriv",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/lovdata-ncc-skatt-rundskriv/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "lovdata-ncc-rundskriv-lovavdeling",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/lovdata-ncc-rundskriv-lovavdeling/data.parquet"
+          }
+        ]
+      }
+    ],
+    "language_bcp47": [
+      "nno",
+      "nob",
+      "nor"
+    ]
+  }
+}

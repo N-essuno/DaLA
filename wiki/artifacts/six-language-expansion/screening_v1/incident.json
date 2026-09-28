@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-24T14:07:25.838740+00:00",
+  "stopped_pairs": {
+    "pl": 225852,
+    "sv": 336166
+  },
+  "is_continues": true,
+  "cause": "Batch-scoped ThreadPoolExecutor created new checker thread-local sessions per batch; LanguageCheck.sessions retained them until end of build. Local client ports exhausted.",
+  "fix": "Pinned persistent screening thread pool; identical request and ordered batch-result semantics.",
+  "generation_rules_changed": false
+}

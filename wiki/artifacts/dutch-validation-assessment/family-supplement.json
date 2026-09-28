@@ -1,0 +1,179 @@
+{
+  "method": "Separate coverage supplement: up to five reviewed examples per family including the uniform sample; do not pool for precision estimates",
+  "rows": [
+    {
+      "sample_id": "nl-extra-000",
+      "pair_id": "9135ef56c68090f6396f6e00",
+      "split": "train",
+      "document_id": "e199f1f9cecefc85133c531ae2087574c6f45359cf1f13c82ff7c01192a0e92d",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Dit type geneesmiddel werkt door genen af te geven in het lichaam.",
+      "corrupted": "Deze type geneesmiddel werkt door genen af te geven in het lichaam.",
+      "edits": [
+        {
+          "corrupted_end": 4,
+          "corrupted_start": 0,
+          "corruption_type": "demonstrative_agreement",
+          "end": 3,
+          "original": "Dit",
+          "protected_tokens": [
+            12,
+            13
+          ],
+          "replacement": "Deze",
+          "rule_id": "demonstrative_agreement:het:dit>deze",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: source and intended error acceptable."
+    },
+    {
+      "sample_id": "nl-extra-001",
+      "pair_id": "759c3351d181eb095b817c34",
+      "split": "train",
+      "document_id": "6596703ea881c53075b1c152cffa63f0b31f77a37241a577cd9c77a381f94113",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Dit beleid leidt weliswaar tot indirect onderscheid, maar hiervoor bestaat een objectieve rechtvaardiging.",
+      "corrupted": "Deze beleid leidt weliswaar tot indirect onderscheid, maar hiervoor bestaat een objectieve rechtvaardiging.",
+      "edits": [
+        {
+          "corrupted_end": 4,
+          "corrupted_start": 0,
+          "corruption_type": "demonstrative_agreement",
+          "end": 3,
+          "original": "Dit",
+          "protected_tokens": [
+            145,
+            146
+          ],
+          "replacement": "Deze",
+          "rule_id": "demonstrative_agreement:het:dit>deze",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: source and intended error acceptable."
+    },
+    {
+      "sample_id": "nl-extra-002",
+      "pair_id": "70cf697bf0956857e53af708",
+      "split": "validation",
+      "document_id": "37f8b0cceac999ca3a3ad964478c651160a53ccde4f8d3cccb6d87686d00dc37",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Dit jaar zijn er opvallend genoeg maar liefst 71 geregistreerd.",
+      "corrupted": "Deze jaar zijn er opvallend genoeg maar liefst 71 geregistreerd.",
+      "edits": [
+        {
+          "corrupted_end": 4,
+          "corrupted_start": 0,
+          "corruption_type": "demonstrative_agreement",
+          "end": 3,
+          "original": "Dit",
+          "protected_tokens": [
+            17,
+            18
+          ],
+          "replacement": "Deze",
+          "rule_id": "demonstrative_agreement:het:dit>deze",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: source and intended error acceptable."
+    },
+    {
+      "sample_id": "nl-extra-003",
+      "pair_id": "01f5e5025a684955a3b27f22",
+      "split": "train",
+      "document_id": "a461fbd4437858a11ef8dbb418e46531ae28b9cc75610c43670853e19baf98f3",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Ons glasvezelnetwerk verbindt objecten als sluizen en dijken, maar ook wegen en tunnels, aan onze datacenters.",
+      "corrupted": "Onze glasvezelnetwerk verbindt objecten als sluizen en dijken, maar ook wegen en tunnels, aan onze datacenters.",
+      "edits": [
+        {
+          "corrupted_end": 4,
+          "corrupted_start": 0,
+          "corruption_type": "possessive_agreement",
+          "end": 3,
+          "original": "Ons",
+          "protected_tokens": [
+            44,
+            45
+          ],
+          "replacement": "Onze",
+          "rule_id": "possessive_agreement:ons>onze",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: source and intended error acceptable."
+    },
+    {
+      "sample_id": "nl-extra-004",
+      "pair_id": "be28ebc4db7c5fdaee2eba4d",
+      "split": "train",
+      "document_id": "eb0b7c38b210e0d6f59d1c39147e8421c09d51556bcf4b51b0c52a1a2dedd452",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "In ons onderzoek vinden we bijvoorbeeld tamelijk sterke invloeden van een partner en de familie op gezondheidsgedrag.",
+      "corrupted": "In onze onderzoek vinden we bijvoorbeeld tamelijk sterke invloeden van een partner en de familie op gezondheidsgedrag.",
+      "edits": [
+        {
+          "corrupted_end": 7,
+          "corrupted_start": 3,
+          "corruption_type": "possessive_agreement",
+          "end": 6,
+          "original": "ons",
+          "protected_tokens": [
+            34,
+            35
+          ],
+          "replacement": "onze",
+          "rule_id": "possessive_agreement:ons>onze",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: source and intended error acceptable."
+    },
+    {
+      "sample_id": "nl-extra-005",
+      "pair_id": "7379959fe57abdae20b77f92",
+      "split": "validation",
+      "document_id": "f042c49c983daf0440975b922b471085d7a29bbbe041d68440284c9ad4888a76",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Onze infrastructuur onderhouden we goed, is van hoge kwaliteit, klimaatadaptief en sluit naadloos op elkaar aan.",
+      "corrupted": "Ons infrastructuur onderhouden we goed, is van hoge kwaliteit, klimaatadaptief en sluit naadloos op elkaar aan.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "possessive_agreement",
+          "end": 4,
+          "original": "Onze",
+          "protected_tokens": [
+            39,
+            40
+          ],
+          "replacement": "Ons",
+          "rule_id": "possessive_agreement:onze>ons",
+          "start": 0
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid",
+      "notes": "Invalid coordination: Onze infrastructuur is the object of onderhouden we and then an omitted subject of is/sluit. Source changes grammatical function without an explicit resumed subject. Normative evidence: https://onzetaal.nl/taalloket/samentrekking-algemeen"
+    }
+  ],
+  "review": {
+    "reviewer": "Codex agent",
+    "native_speaker_gold": false,
+    "completed_at": "2026-09-22T03:29:55.606393+00:00",
+    "scope": "Separate six-pair family supplement; do not pool with the uniform sample for precision estimates."
+  }
+}

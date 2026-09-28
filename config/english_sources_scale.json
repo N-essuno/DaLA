@@ -1,0 +1,53 @@
+{
+  "version": "2-scale",
+  "sources": [
+    {
+      "name": "360info",
+      "repo_id": "common-pile/news",
+      "revision": "13e76bdc8d49ed14d710fac7e3b61186cf74c8d3",
+      "files": [
+        "v0/documents/00000_360info.jsonl.gz"
+      ],
+      "domains": [
+        "360info.org"
+      ],
+      "source_values": [
+        "news-360info"
+      ],
+      "license_contains": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "name": "public_domain_review_essays",
+      "repo_id": "common-pile/public_domain_review",
+      "revision": "e9c7669206b95871601fe4672a484d8215e6fe6f",
+      "files": [
+        "v0/00000_essays.jsonl.gz"
+      ],
+      "domains": [
+        "publicdomainreview.org"
+      ],
+      "source_values": [
+        "public-domain-review"
+      ],
+      "license_contains": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "name": "globalvoices",
+      "repo_id": "common-pile/news",
+      "revision": "13e76bdc8d49ed14d710fac7e3b61186cf74c8d3",
+      "files": [
+        "v0/documents/00000_globalvoices.jsonl.gz"
+      ],
+      "domains": [
+        "globalvoices.org"
+      ],
+      "source_values": [
+        "news-globalvoices"
+      ],
+      "license_contains": "https://creativecommons.org/licenses/by/4.0/",
+      "min_document_chars": 1800,
+      "license_override": "Creative Commons Attribution 3.0 - https://creativecommons.org/licenses/by/3.0/",
+      "license_evidence_url": "https://globalvoices.org/about/global-voices-attribution-policy/"
+    }
+  ]
+}

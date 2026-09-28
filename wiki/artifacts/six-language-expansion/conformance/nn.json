@@ -1,0 +1,47 @@
+{
+  "language": "nn",
+  "passed": true,
+  "fixtures": [
+    {
+      "text": "Ein liten gut les ei spennande bok på skulen.",
+      "rejection": null,
+      "families": [
+        "adjective_definite",
+        "adjective_gender",
+        "adjective_number",
+        "determiner_gender",
+        "spelling"
+      ],
+      "missing": [],
+      "forbidden": [],
+      "passed": true,
+      "lexical_conflicts": []
+    },
+    {
+      "text": "Vi vil skrive eit langt brev til skulen.",
+      "rejection": null,
+      "families": [
+        "governed_infinitive",
+        "pronoun_case",
+        "spelling"
+      ],
+      "missing": [],
+      "forbidden": [],
+      "passed": true,
+      "lexical_conflicts": []
+    },
+    {
+      "text": "Vi har skrive eit langt brev til den nye skulen.",
+      "rejection": null,
+      "families": [
+        "perfect_verb_form",
+        "pronoun_case",
+        "spelling"
+      ],
+      "missing": [],
+      "forbidden": [],
+      "passed": true,
+      "lexical_conflicts": []
+    }
+  ]
+}

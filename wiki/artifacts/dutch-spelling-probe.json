@@ -1,0 +1,54 @@
+{
+  "candidates": 97,
+  "accepted": [
+    {
+      "correct": "gemeentehuizen",
+      "incorrect": "gemeentehuize",
+      "rule": "GEMEENTEHUIZE",
+      "category": "GRAMMAR"
+    },
+    {
+      "correct": "wordt",
+      "incorrect": "wort",
+      "rule": "HET_WORD",
+      "category": "CONSTRUCTIEFOUT"
+    },
+    {
+      "correct": "hogedrukgebied",
+      "incorrect": "hoogdrukgebied",
+      "rule": "HOOGDRUKGEBIED",
+      "category": "CASING"
+    },
+    {
+      "correct": "wordt",
+      "incorrect": "word",
+      "rule": "WORD_ZONDER_IK",
+      "category": "TYPOS"
+    },
+    {
+      "correct": "bent",
+      "incorrect": "ben",
+      "rule": "STAM_ZONDER_IK",
+      "category": "TYPOS"
+    },
+    {
+      "correct": "betekent",
+      "incorrect": "betekend",
+      "rule": "DIT_BETEKEND_DAT",
+      "category": "OVERIG"
+    },
+    {
+      "correct": "platform",
+      "incorrect": "platvorm",
+      "rule": "PLATVORM",
+      "category": "TYPOS"
+    },
+    {
+      "correct": "spreken",
+      "incorrect": "spreke",
+      "rule": "MACHTE",
+      "category": "WOORDGROEPEN"
+    }
+  ],
+  "note": "Curated LanguageTool test examples, not measured learner error frequencies; lexical gate only, contextual review still required."
+}

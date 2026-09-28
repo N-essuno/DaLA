@@ -1,0 +1,49 @@
+{
+  "review": {
+    "reviewer": "Codex agent",
+    "native_speaker_gold": false,
+    "completed_at": "2026-09-22T07:43:30.824003+00:00",
+    "scope": "All 200 sampled originals and all recorded substitutions inspected, including grammar edit contexts; separate 25-family supplement. Grammar/spelling/extraction quality, not factual/legal verification."
+  },
+  "uniform_sources": {
+    "acceptable": 187,
+    "erroneous": 10,
+    "uncertain": 3
+  },
+  "uniform_edits": {
+    "valid": 200
+  },
+  "by_source": {
+    "eurlex": {
+      "acceptable": 43
+    },
+    "de_rechtspraak": {
+      "acceptable": 97,
+      "erroneous": 5,
+      "uncertain": 2
+    },
+    "officiele_bekendmakingen": {
+      "erroneous": 1,
+      "acceptable": 17
+    },
+    "dienst_publiek_en_communicatie": {
+      "acceptable": 30,
+      "erroneous": 4,
+      "uncertain": 1
+    }
+  },
+  "supplement_sources": {
+    "acceptable": 24,
+    "uncertain": 1
+  },
+  "supplement_edits": {
+    "valid": 25
+  },
+  "flagged_originals": 14,
+  "sample_population": 478080,
+  "excluded_previously_reviewed": 850,
+  "language_advice": [
+    "https://taaladvies.net/de-of-het-idee/"
+  ],
+  "note": "Pre-exclusion estimate; removal does not independently establish a new precision rate for the release."
+}

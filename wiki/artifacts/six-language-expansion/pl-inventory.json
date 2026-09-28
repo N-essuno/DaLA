@@ -1,0 +1,631 @@
+{
+  "_id": "6a3013266667d46eafee6941",
+  "id": "SlayerLab/polish-dynaword",
+  "author": "SlayerLab",
+  "sha": "1564cb054434ba049cbd0d355a9bfaf044b6a852",
+  "lastModified": "2026-09-23T12:25:06.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:text-generation",
+    "language:pl",
+    "license:cc-by-sa-4.0",
+    "size_categories:1M<n<10M",
+    "arxiv:2508.02271",
+    "region:us",
+    "polish",
+    "pretraining",
+    "dynaword"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tPolish DynaWord\n\t\n\nA continuously developed, openly-licensed, human-text Polish corpus \u2014 a Polish\nedition in the Dynaword\nfamily (Enevoldsen et al., arXiv:2508.02271).\n\nv0.2.5 stable \u00b7 4,319,200 documents \u00b7 9.64B tokens\n(tiktoken proxy; canonical Llama-3 count at release) \u00b7 18 sources\nUpdated: 2026-08-14\n\n\nv0.3-dev experimental track \u00b7 quality/diversity workflow, source-gate\nvalidation and candidate-data audits. This is development work, not a released\ncorpus version, and it does\u2026 See the full description on the dataset page: https://huggingface.co/datasets/SlayerLab/polish-dynaword.",
+  "downloads": 4669,
+  "likes": 24,
+  "cardData": {
+    "license": "cc-by-sa-4.0",
+    "language": [
+      "pl"
+    ],
+    "pretty_name": "Polish DynaWord",
+    "task_categories": [
+      "text-generation"
+    ],
+    "size_categories": [
+      "1M<n<10M"
+    ],
+    "tags": [
+      "polish",
+      "pretraining",
+      "dynaword"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": ".gitignore"
+    },
+    {
+      "rfilename": "AGENTS.md"
+    },
+    {
+      "rfilename": "BLOGPOST.md"
+    },
+    {
+      "rfilename": "CHANGELOG.md"
+    },
+    {
+      "rfilename": "LICENSE"
+    },
+    {
+      "rfilename": "PAPER.md"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "artifacts/bartek_source_ingestion_plan_2026-07-02.md"
+    },
+    {
+      "rfilename": "artifacts/dataset_size_by_version.png"
+    },
+    {
+      "rfilename": "artifacts/hf_readmes/PleIAs__Polish-PD__README.md"
+    },
+    {
+      "rfilename": "artifacts/hf_readmes/PleIAs__common_corpus__README.md"
+    },
+    {
+      "rfilename": "artifacts/hf_readmes/WiktorS__polish-news__README.md"
+    },
+    {
+      "rfilename": "artifacts/hf_readmes/allegro__polish-question-passage-pairs__README.md"
+    },
+    {
+      "rfilename": "artifacts/hf_readmes/allegro__summarization-polish-summaries-corpus__README.md"
+    },
+    {
+      "rfilename": "artifacts/hf_readmes/ashtok897__european-hplt-v1__README.md"
+    },
+    {
+      "rfilename": "artifacts/hf_readmes/clarin-knext__wsd_polish_datasets__README.md"
+    },
+    {
+      "rfilename": "artifacts/hf_readmes/clarin-pl__ComplexQA__README.md"
+    },
+    {
+      "rfilename": "artifacts/hf_readmes/clarin-pl__PUGG__README.md"
+    },
+    {
+      "rfilename": "artifacts/hf_readmes/clarin-pl__poquad__README.md"
+    },
+    {
+      "rfilename": "artifacts/hf_readmes/ipipan__polqa__README.md"
+    },
+    {
+      "rfilename": "artifacts/hf_readmes/michaljunczyk__pl-asr-bigos__README.md"
+    },
+    {
+      "rfilename": "artifacts/hf_readmes/openlanguagedata__flores_plus__README.md"
+    },
+    {
+      "rfilename": "artifacts/hf_readmes/oscar-corpus__OSCAR-2301__README.md"
+    },
+    {
+      "rfilename": "artifacts/hf_readmes/oscar-corpus__mOSCAR__README.md"
+    },
+    {
+      "rfilename": "artifacts/hf_readmes/pelcra__PLLuMIC__README.md"
+    },
+    {
+      "rfilename": "artifacts/hf_readmes/ptaszynski__PolishCyberbullyingDataset__README.md"
+    },
+    {
+      "rfilename": "artifacts/pattern_frequency_artykul.png"
+    },
+    {
+      "rfilename": "artifacts/pattern_frequency_dzu.png"
+    },
+    {
+      "rfilename": "artifacts/pattern_frequency_hf_snippet.md"
+    },
+    {
+      "rfilename": "artifacts/pattern_frequency_klasyfikacji.png"
+    },
+    {
+      "rfilename": "artifacts/pattern_frequency_mieszka\u0144c\u00f3w.png"
+    },
+    {
+      "rfilename": "artifacts/pattern_frequency_overall.png"
+    },
+    {
+      "rfilename": "artifacts/pattern_frequency_parlament.png"
+    },
+    {
+      "rfilename": "artifacts/pattern_frequency_rozporz\u0105dzenie.png"
+    },
+    {
+      "rfilename": "artifacts/pattern_frequency_ustawa.png"
+    },
+    {
+      "rfilename": "artifacts/pattern_frequency_w_pobli\u017cu.png"
+    },
+    {
+      "rfilename": "artifacts/pattern_frequency_w_roku.png"
+    },
+    {
+      "rfilename": "artifacts/rock_pollub_pl_ontology_manifest.json"
+    },
+    {
+      "rfilename": "artifacts/sejm_api_ontology_manifest.json"
+    },
+    {
+      "rfilename": "artifacts/source_candidate_audit_v0_3.json"
+    },
+    {
+      "rfilename": "artifacts/source_candidate_audit_v0_3.md"
+    },
+    {
+      "rfilename": "artifacts/source_findings.md"
+    },
+    {
+      "rfilename": "artifacts/source_license_review_v0_3.md"
+    },
+    {
+      "rfilename": "artifacts/source_scouting_v0_3.md"
+    },
+    {
+      "rfilename": "artifacts/training_mix_v0_3.json"
+    },
+    {
+      "rfilename": "artifacts/training_mix_v0_3.md"
+    },
+    {
+      "rfilename": "artifacts/uzp_orzeczenia_pl_ontology_manifest.json"
+    },
+    {
+      "rfilename": "configs/source_candidates_v0_3.json"
+    },
+    {
+      "rfilename": "configs/training_mix_v0_3.json"
+    },
+    {
+      "rfilename": "data/1000_novels/1000_novels.md"
+    },
+    {
+      "rfilename": "data/1000_novels/1000_novels.parquet"
+    },
+    {
+      "rfilename": "data/1000_novels/1000_novels.stats.json"
+    },
+    {
+      "rfilename": "data/biblioteka_nauki/biblioteka_nauki.md"
+    },
+    {
+      "rfilename": "data/biblioteka_nauki/biblioteka_nauki.parquet"
+    },
+    {
+      "rfilename": "data/biblioteka_nauki/biblioteka_nauki.stats.json"
+    },
+    {
+      "rfilename": "data/biblioteka_nauki/recover_attribution.py"
+    },
+    {
+      "rfilename": "data/biblioteka_nauki/recover_licenses.py"
+    },
+    {
+      "rfilename": "data/dziennik_ustaw/dziennik_ustaw.md"
+    },
+    {
+      "rfilename": "data/dziennik_ustaw/dziennik_ustaw.parquet"
+    },
+    {
+      "rfilename": "data/dziennik_ustaw/dziennik_ustaw.stats.json"
+    },
+    {
+      "rfilename": "data/eltec_pol/eltec_pol.md"
+    },
+    {
+      "rfilename": "data/eltec_pol/eltec_pol.parquet"
+    },
+    {
+      "rfilename": "data/eltec_pol/eltec_pol.stats.json"
+    },
+    {
+      "rfilename": "data/eurlex/eurlex.md"
+    },
+    {
+      "rfilename": "data/eurlex/eurlex.parquet"
+    },
+    {
+      "rfilename": "data/eurlex/eurlex.stats.json"
+    },
+    {
+      "rfilename": "data/global_voices/NOTICE.md"
+    },
+    {
+      "rfilename": "data/global_voices/global_voices.attribution.jsonl"
+    },
+    {
+      "rfilename": "data/global_voices/global_voices.md"
+    },
+    {
+      "rfilename": "data/global_voices/global_voices.parquet"
+    },
+    {
+      "rfilename": "data/global_voices/global_voices.stats.json"
+    },
+    {
+      "rfilename": "data/govpl/govpl.md"
+    },
+    {
+      "rfilename": "data/govpl/govpl.parquet"
+    },
+    {
+      "rfilename": "data/govpl/govpl.stats.json"
+    },
+    {
+      "rfilename": "data/nkjp1m/nkjp1m.md"
+    },
+    {
+      "rfilename": "data/nkjp1m/nkjp1m.parquet"
+    },
+    {
+      "rfilename": "data/nkjp1m/nkjp1m.stats.json"
+    },
+    {
+      "rfilename": "data/parliamentary/parliamentary.md"
+    },
+    {
+      "rfilename": "data/parliamentary/parliamentary.parquet"
+    },
+    {
+      "rfilename": "data/parliamentary/parliamentary.stats.json"
+    },
+    {
+      "rfilename": "data/rock_pollub_pl/NOTICE.md"
+    },
+    {
+      "rfilename": "data/rock_pollub_pl/rock_pollub_pl.attribution.jsonl"
+    },
+    {
+      "rfilename": "data/rock_pollub_pl/rock_pollub_pl.decisions.jsonl"
+    },
+    {
+      "rfilename": "data/rock_pollub_pl/rock_pollub_pl.md"
+    },
+    {
+      "rfilename": "data/rock_pollub_pl/rock_pollub_pl.overlap_audit.json"
+    },
+    {
+      "rfilename": "data/rock_pollub_pl/rock_pollub_pl.parquet"
+    },
+    {
+      "rfilename": "data/rock_pollub_pl/rock_pollub_pl.qa.json"
+    },
+    {
+      "rfilename": "data/rock_pollub_pl/rock_pollub_pl.sample.jsonl"
+    },
+    {
+      "rfilename": "data/rock_pollub_pl/rock_pollub_pl.stats.json"
+    },
+    {
+      "rfilename": "data/samorzad_gov_pl/NOTICE.md"
+    },
+    {
+      "rfilename": "data/samorzad_gov_pl/samorzad_gov_pl.attribution.jsonl"
+    },
+    {
+      "rfilename": "data/samorzad_gov_pl/samorzad_gov_pl.license-evidence.json"
+    },
+    {
+      "rfilename": "data/samorzad_gov_pl/samorzad_gov_pl.md"
+    },
+    {
+      "rfilename": "data/samorzad_gov_pl/samorzad_gov_pl.parquet"
+    },
+    {
+      "rfilename": "data/samorzad_gov_pl/samorzad_gov_pl.stats.json"
+    },
+    {
+      "rfilename": "data/sejm_api/NOTICE.md"
+    },
+    {
+      "rfilename": "data/sejm_api/sejm_api.attribution.jsonl"
+    },
+    {
+      "rfilename": "data/sejm_api/sejm_api.license-evidence.json"
+    },
+    {
+      "rfilename": "data/sejm_api/sejm_api.md"
+    },
+    {
+      "rfilename": "data/sejm_api/sejm_api.parquet"
+    },
+    {
+      "rfilename": "data/sejm_api/sejm_api.stats.json"
+    },
+    {
+      "rfilename": "data/uzp_orzeczenia_pl/NOTICE.md"
+    },
+    {
+      "rfilename": "data/uzp_orzeczenia_pl/uzp_orzeczenia_pl.attribution.jsonl"
+    },
+    {
+      "rfilename": "data/uzp_orzeczenia_pl/uzp_orzeczenia_pl.checksums.json"
+    },
+    {
+      "rfilename": "data/uzp_orzeczenia_pl/uzp_orzeczenia_pl.decisions.jsonl"
+    },
+    {
+      "rfilename": "data/uzp_orzeczenia_pl/uzp_orzeczenia_pl.md"
+    },
+    {
+      "rfilename": "data/uzp_orzeczenia_pl/uzp_orzeczenia_pl.overlap_audit.json"
+    },
+    {
+      "rfilename": "data/uzp_orzeczenia_pl/uzp_orzeczenia_pl.parquet"
+    },
+    {
+      "rfilename": "data/uzp_orzeczenia_pl/uzp_orzeczenia_pl.qa.json"
+    },
+    {
+      "rfilename": "data/uzp_orzeczenia_pl/uzp_orzeczenia_pl.sample.jsonl"
+    },
+    {
+      "rfilename": "data/uzp_orzeczenia_pl/uzp_orzeczenia_pl.stats.json"
+    },
+    {
+      "rfilename": "data/wikibooks/wikibooks.md"
+    },
+    {
+      "rfilename": "data/wikibooks/wikibooks.parquet"
+    },
+    {
+      "rfilename": "data/wikibooks/wikibooks.stats.json"
+    },
+    {
+      "rfilename": "data/wikinews/wikinews.md"
+    },
+    {
+      "rfilename": "data/wikinews/wikinews.parquet"
+    },
+    {
+      "rfilename": "data/wikinews/wikinews.stats.json"
+    },
+    {
+      "rfilename": "data/wikipedia/wikipedia.md"
+    },
+    {
+      "rfilename": "data/wikipedia/wikipedia.parquet"
+    },
+    {
+      "rfilename": "data/wikipedia/wikipedia.stats.json"
+    },
+    {
+      "rfilename": "data/wikiquote/wikiquote.md"
+    },
+    {
+      "rfilename": "data/wikiquote/wikiquote.parquet"
+    },
+    {
+      "rfilename": "data/wikiquote/wikiquote.stats.json"
+    },
+    {
+      "rfilename": "data/wikisource/wikisource.md"
+    },
+    {
+      "rfilename": "data/wikisource/wikisource.parquet"
+    },
+    {
+      "rfilename": "data/wikisource/wikisource.stats.json"
+    },
+    {
+      "rfilename": "data/wikivoyage/wikivoyage.md"
+    },
+    {
+      "rfilename": "data/wikivoyage/wikivoyage.parquet"
+    },
+    {
+      "rfilename": "data/wikivoyage/wikivoyage.stats.json"
+    },
+    {
+      "rfilename": "data/wiktionary_examples/wiktionary_examples.md"
+    },
+    {
+      "rfilename": "data/wiktionary_examples/wiktionary_examples.parquet"
+    },
+    {
+      "rfilename": "data/wiktionary_examples/wiktionary_examples.stats.json"
+    },
+    {
+      "rfilename": "data/wolne_lektury/wolne_lektury.md"
+    },
+    {
+      "rfilename": "data/wolne_lektury/wolne_lektury.parquet"
+    },
+    {
+      "rfilename": "data/wolne_lektury/wolne_lektury.stats.json"
+    },
+    {
+      "rfilename": "pattern_frequency_report.md"
+    },
+    {
+      "rfilename": "previews/v0.3.1/europeana.parquet"
+    },
+    {
+      "rfilename": "previews/v0.3.1/europeana.stats.json"
+    },
+    {
+      "rfilename": "src/__pycache__/fetch_sejm_api.cpython-311.pyc"
+    },
+    {
+      "rfilename": "src/build_dynaword.py"
+    },
+    {
+      "rfilename": "src/build_uzp_orzeczenia_pl.py"
+    },
+    {
+      "rfilename": "src/clean_hplt_v3.py"
+    },
+    {
+      "rfilename": "src/clean_samorzad_gov_pl.py"
+    },
+    {
+      "rfilename": "src/compare_tokenizers.py"
+    },
+    {
+      "rfilename": "src/count_vocab.py"
+    },
+    {
+      "rfilename": "src/discover_govpl.py"
+    },
+    {
+      "rfilename": "src/eval_bpb.py"
+    },
+    {
+      "rfilename": "src/fetch_eli.py"
+    },
+    {
+      "rfilename": "src/fetch_eltec.py"
+    },
+    {
+      "rfilename": "src/fetch_europeana.py"
+    },
+    {
+      "rfilename": "src/fetch_govpl.py"
+    },
+    {
+      "rfilename": "src/fetch_njkp.py"
+    },
+    {
+      "rfilename": "src/fetch_rock_pollub_pl.py"
+    },
+    {
+      "rfilename": "src/fetch_sejm_api.py"
+    },
+    {
+      "rfilename": "src/fetch_sejm_interpellations.py"
+    },
+    {
+      "rfilename": "src/fetch_wikimedia.py"
+    },
+    {
+      "rfilename": "src/fetch_wiktionary_examples.py"
+    },
+    {
+      "rfilename": "src/filter_common_corpus.py"
+    },
+    {
+      "rfilename": "src/filter_european_hplt.py"
+    },
+    {
+      "rfilename": "src/govpl_subsites.json"
+    },
+    {
+      "rfilename": "src/html_text.py"
+    },
+    {
+      "rfilename": "src/launch_hplt_parallel.py"
+    },
+    {
+      "rfilename": "src/make_docs.py"
+    },
+    {
+      "rfilename": "src/make_linkedin_card.py"
+    },
+    {
+      "rfilename": "src/make_training_mix.py"
+    },
+    {
+      "rfilename": "src/normalize_schema.py"
+    },
+    {
+      "rfilename": "src/pattern_frequency_report.py"
+    },
+    {
+      "rfilename": "src/pii_mixed_regression_cases.json"
+    },
+    {
+      "rfilename": "src/pii_wikivoyage_regression_cases.json"
+    },
+    {
+      "rfilename": "src/plot_version_growth.py"
+    },
+    {
+      "rfilename": "src/review_source_candidates.py"
+    },
+    {
+      "rfilename": "src/rights.py"
+    },
+    {
+      "rfilename": "src/rock_pollub_pl_requirements.txt"
+    },
+    {
+      "rfilename": "src/samorzad_gov_pl_publishers.json"
+    },
+    {
+      "rfilename": "src/sample_quality.py"
+    },
+    {
+      "rfilename": "src/scrub_entities.py"
+    },
+    {
+      "rfilename": "src/scrub_pii.py"
+    },
+    {
+      "rfilename": "src/sources.py"
+    },
+    {
+      "rfilename": "src/test_build_uzp_orzeczenia_pl.py"
+    },
+    {
+      "rfilename": "src/test_europeana_contract.py"
+    },
+    {
+      "rfilename": "src/test_govpl_contract.py"
+    },
+    {
+      "rfilename": "src/test_hplt_v3_contract.py"
+    },
+    {
+      "rfilename": "src/test_pii_mixed_regressions.py"
+    },
+    {
+      "rfilename": "src/test_rock_pollub_contribution.py"
+    },
+    {
+      "rfilename": "src/test_samorzad_gov_pl_contract.py"
+    },
+    {
+      "rfilename": "src/test_scrub_entities.py"
+    },
+    {
+      "rfilename": "src/test_scrub_pii.py"
+    },
+    {
+      "rfilename": "src/test_sejm_api_contract.py"
+    },
+    {
+      "rfilename": "src/test_sejm_interpellations_contract.py"
+    },
+    {
+      "rfilename": "src/test_verify_paper_claims.py"
+    },
+    {
+      "rfilename": "src/tokenize_shards.py"
+    },
+    {
+      "rfilename": "src/train_bpe.py"
+    },
+    {
+      "rfilename": "src/uzp_orzeczenia_requirements.txt"
+    },
+    {
+      "rfilename": "src/verify_paper_claims.py"
+    }
+  ],
+  "createdAt": "2026-06-15T14:58:46.000Z",
+  "usedStorage": 20781076145
+}

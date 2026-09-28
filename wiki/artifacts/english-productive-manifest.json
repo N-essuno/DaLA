@@ -1,0 +1,438 @@
+{
+  "schema_version": "2",
+  "language": "en",
+  "name": "English DaLA",
+  "prompts": {
+    "acceptability": "Is this English sentence correct in grammar and spelling? Answer only yes or no.",
+    "correction": "Correct any grammar or spelling errors in this English sentence. If it is already correct, return it unchanged. Preserve its meaning and formatting. Output only the sentence."
+  },
+  "source_description": "Pinned Common Pile 360info news (CC BY 4.0) and Public Domain Review essays (CC BY-SA 4.0). Preserve the source-specific attribution and license recorded with every document.",
+  "profile": {
+    "schema_version": 1,
+    "language": "en",
+    "name": "English DaLA",
+    "mode": "pairs",
+    "parser": "en_core_web_md",
+    "parser_version": "3.8.0",
+    "sources": {
+      "adapter": "common_pile"
+    },
+    "sources_config": "../english_sources.json",
+    "rulebook": "../english_productive_rules.json",
+    "exclusions": "../english_source_exclusions.json",
+    "adapter": "dala.language_packs.english:EnglishPack",
+    "selection": {
+      "strategy": "rare_first",
+      "max_errors": 2,
+      "priority": [
+        "perfect_participle",
+        "do_support_form",
+        "noun_number",
+        "modal_verb_form",
+        "demonstrative_number",
+        "subject_verb_agreement",
+        "spelling"
+      ],
+      "max_replacement_pairs": null
+    },
+    "checker": {
+      "mode": "local",
+      "dialects": [
+        "en-US",
+        "en-GB"
+      ]
+    },
+    "prompts": {
+      "acceptability": "Is this English sentence correct in grammar and spelling? Answer only yes or no.",
+      "correction": "Correct any grammar or spelling errors in this English sentence. If it is already correct, return it unchanged. Preserve its meaning and formatting. Output only the sentence."
+    },
+    "description": "Pinned Common Pile 360info news (CC BY 4.0) and Public Domain Review essays (CC BY-SA 4.0). Preserve the source-specific attribution and license recorded with every document.",
+    "grammar": {
+      "singular_pronouns": [
+        "he",
+        "she",
+        "it"
+      ],
+      "other_pronouns": [
+        "i",
+        "we",
+        "they",
+        "you"
+      ],
+      "singular_determiners": [
+        "each",
+        "every"
+      ],
+      "plural_determiners": [
+        "these",
+        "those",
+        "many",
+        "several"
+      ],
+      "quantifiers": [
+        "many",
+        "several"
+      ],
+      "modals": [
+        "can",
+        "could",
+        "may",
+        "might",
+        "must",
+        "shall",
+        "should",
+        "will",
+        "would"
+      ],
+      "do_forms": [
+        "do",
+        "does",
+        "did"
+      ],
+      "have_forms": [
+        "have",
+        "has",
+        "had"
+      ],
+      "demonstratives": {
+        "this": "NN",
+        "that": "NN",
+        "these": "NNS",
+        "those": "NNS"
+      },
+      "exclude_agreement_lemmas": [
+        "team",
+        "staff",
+        "committee",
+        "government",
+        "family",
+        "audience",
+        "board",
+        "council",
+        "company",
+        "group",
+        "majority",
+        "minority",
+        "couple",
+        "police",
+        "people",
+        "data",
+        "media",
+        "number",
+        "rest",
+        "lot",
+        "series",
+        "species",
+        "means",
+        "headquarters",
+        "news",
+        "politics"
+      ],
+      "exclude_number_lemmas": [
+        "people",
+        "police",
+        "clothes",
+        "scissors",
+        "trousers",
+        "pants",
+        "glasses",
+        "news",
+        "means",
+        "series",
+        "species",
+        "data",
+        "media"
+      ],
+      "replacement_overrides": {
+        "be": {
+          "VBP": [
+            "are"
+          ],
+          "VBZ": [
+            "is"
+          ]
+        }
+      }
+    },
+    "dependencies": [
+      "requests",
+      "lemminflect"
+    ]
+  },
+  "profile_sha256": "e88c5227ed04ec9cef6a9f763048ca16d16e06689f581acbd1e42fafc975dd50",
+  "quality_status": "checker_screened",
+  "language_checker": {
+    "name": "LanguageTool",
+    "version": "6.6",
+    "buildDate": "2025-03-27 20:50:25 +0100",
+    "apiVersion": 1,
+    "premium": false,
+    "premiumHint": "You might be missing errors only the Premium version can find. Contact us at support<at>languagetoolplus.com.",
+    "status": ""
+  },
+  "checker_runtime": {
+    "java.tar.gz": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jre_x64_linux_hotspot_17.0.16_8.tar.gz",
+      "sha256": "2885b944da3793144d4a86a29524f4d7b68ba155f5c08afa444a3b40f7071892"
+    },
+    "languagetool.zip": {
+      "url": "https://languagetool.org/download/LanguageTool-6.6.zip",
+      "sha256": "53600506b399bb5ffe1e4c8dec794fd378212f14aaf38ccef9b6f89314d11631"
+    }
+  },
+  "seed": 4242,
+  "max_errors": 2,
+  "max_documents": null,
+  "source_snapshots": [
+    {
+      "repo_id": "common-pile/news",
+      "revision": "13e76bdc8d49ed14d710fac7e3b61186cf74c8d3",
+      "file": "v0/documents/00000_360info.jsonl.gz",
+      "sha256": "6b2f94dd7f79fb72c9765067f6c96549d7e43fe2bc42329ca1fabbe38a78a78c"
+    },
+    {
+      "repo_id": "common-pile/public_domain_review",
+      "revision": "e9c7669206b95871601fe4672a484d8215e6fe6f",
+      "file": "v0/00000_essays.jsonl.gz",
+      "sha256": "825aed6a66ab14f89e1fe3110f67265d511994c52e5aed48b866a9e8a1bdeb4d"
+    }
+  ],
+  "sources_config_sha256": "90c4cf26d3baf84ca317f85553c3b7004e5db2c99a79abe53959cc841dc79649",
+  "rulebook_sha256": "8dfc8203bfe6652003746f5d1f6d366688f1060a3f7e9c95bc27e1537176598e",
+  "source_exclusions_sha256": "a7002ce8bfcb686cdd77a08b7d9b33e68fa59c7454079b71b6b6b3b4a96cf77e",
+  "parser": {
+    "package": "en_core_web_md",
+    "version": "3.8.0",
+    "spacy": "3.8.16"
+  },
+  "runtime": {
+    "python": "3.13.15",
+    "requests": "2.32.5",
+    "lemminflect": "0.2.3"
+  },
+  "code_sha256": {
+    "build_english.py": "7a04c1afd07a08e02094eccf4121543bde8d24e5f842edca2ec0bc37a3e405fe",
+    "common_pile.py": "cdc3946498d5af4c0a77e4459dac5c76137778944dff20f11e43f305edd0031c",
+    "create_dala.py": "c53cd6da1c5b0027a410b2004eaa53c3bb1da10a72388a82932da41369dec0e2",
+    "curation.py": "fd12065ed5935372d4efbe663f7486a5fa20fff543d9c7a088c36cce05b09f76",
+    "dala_corrupt.py": "bc4411d7e28e674deb4c6c689e73898ad102354fad38eb3a47ef448644fa5e34",
+    "dala_enums.py": "1c54d72f9c7306fbf916bfa1f7e51deb050f2e24478d3cc58314132322c06d46",
+    "dala_utils.py": "ee535fe4e45c7b64a3744ce40cffbde0c912c61a2fc0bf42535205a1f93c2445",
+    "dataset_review.py": "ea6e59f20650f9ab284d4dc93d48fa6ae4419e298c350be7206aa3c9386bee73",
+    "edits.py": "c4c69a3d80434d17ed6112ed9c6caa1bdae245930a3377c78fc9d711bfd064e5",
+    "english.py": "58c5841f892f026fa2ce4a974f0530dce1a017ff8dcaad611cf188b82fba55e0",
+    "english_rules.py": "223ac066d871ad0552e2b313156c279868f12610778c996c21f40ac0b588dd55",
+    "error_evidence.py": "c54ba9466a03c0a2d0d57fc3db8796b395394f94046037ff9daa9bd7aeab9d91",
+    "language_check.py": "30dc0ebe155911c8698e71f6065f143faaecd8f8dde586b291c593a39782a406",
+    "language_packs/english.py": "15d1fde997b91d0cbe4a33ad9a115f6b6ce5305bd8f7efb367ece3cc575f1edd",
+    "languages.py": "89d04751e1de3935c8dc82a0f0f6698acb3147acad4d83e373ce33c977281009",
+    "legacy_pipeline.py": "13744c02ebb56f79a58b9ff1e64e95793801a5ab48bf50895403ed3e0a40da26",
+    "load_ud.py": "b2ca62712abfe3eefc063a08dcf44c9298229f2a2c55b3e50e7413268a37cf09",
+    "multilingual.py": "6db24f1c3bb171cb5a3321f9ce6ce92b6e22fd7c1f3db18eca259071252433cc",
+    "pair_pipeline.py": "1a310b93eba5b35f1eaeee2c0e0a5ccd068da9c0fe4370dd962a64c09fc2645c",
+    "pipeline.py": "f3ac3831dded1957fdfc648a824695bea4c51ca721127702291e4a93142b4d46",
+    "profiles.py": "1f7587a6d189d6ca6f7f7ebfa3e2999e73a55fa89327d8de839541a07c919060",
+    "rule_engine.py": "29852af224feb4b345a9197034c1e6a2af8b7787855ce6e1d1a7021065ca4cb4",
+    "text.py": "ee4962aa2842a20a05366af06a85ae17df088e4ee5f401b5f6e4c7f733fd3caa",
+    "token_operations.py": "28c60cae53335830955d8bacedc7f7bf02fbe691c18f7e7030bbeac31a1680c5",
+    "ud_annotations.py": "c1abdaf06aefa3091abcd1ba93ef006f778aae3c52b505ff3fcc432b50f86a48",
+    "validate_dataset.py": "54a16947ef8e1dd5ac3ee521ff31ab8163a92d36d7fb17ae7bc2d71784aa8fe4"
+  },
+  "counts": {
+    "documents": 1939,
+    "paragraphs": 38107,
+    "sentences": 81749
+  },
+  "rejections": {
+    "audited_source_exclusion": 6,
+    "boilerplate": 227,
+    "checker_missed_edit": 4032,
+    "checker_source_error": 1319,
+    "existing_determiner_mismatch": 364,
+    "fragment_or_format": 5856,
+    "known_misspelling": 1,
+    "length": 7390,
+    "near_duplicate": 101,
+    "no_finite_main_verb": 634,
+    "no_licensed_corruption": 28497,
+    "no_main_subject": 3089,
+    "no_verbal_root": 1339,
+    "nonprose": 978,
+    "quotation_or_ellipsis": 7320,
+    "text_collision": 181,
+    "unknown_non_name_word": 1457
+  },
+  "eligible_sentences_by_type": {
+    "modal_verb_form": 8955,
+    "demonstrative_number": 3163,
+    "perfect_participle": 1731,
+    "subject_verb_agreement": 4601,
+    "spelling": 12096,
+    "noun_number": 410,
+    "do_support_form": 1189
+  },
+  "selected_edits_by_type": {
+    "perfect_participle": 1329,
+    "modal_verb_form": 5872,
+    "spelling": 8727,
+    "subject_verb_agreement": 2802,
+    "demonstrative_number": 1271,
+    "do_support_form": 791,
+    "noun_number": 298
+  },
+  "verification": {
+    "pairs": 18958,
+    "unique_documents": 1659,
+    "exact_edit_reconstruction": true,
+    "correction_roundtrip": true,
+    "document_split_isolation": true,
+    "exported_text_unique": true,
+    "at_most_one_grammar_edit": true
+  },
+  "splits": {
+    "train": {
+      "pairs": 15021,
+      "acceptability_rows": 30042,
+      "correction_rows": 30042,
+      "edits_by_type": {
+        "demonstrative_number": 1049,
+        "do_support_form": 604,
+        "modal_verb_form": 4714,
+        "noun_number": 235,
+        "perfect_participle": 1034,
+        "spelling": 6933,
+        "subject_verb_agreement": 2163
+      },
+      "pairs_by_error_count": {
+        "1": 13310,
+        "2": 1711
+      },
+      "pairs_by_source": {
+        "360info": 11942,
+        "public_domain_review_essays": 3079
+      }
+    },
+    "validation": {
+      "pairs": 1866,
+      "acceptability_rows": 3732,
+      "correction_rows": 3732,
+      "edits_by_type": {
+        "demonstrative_number": 103,
+        "do_support_form": 97,
+        "modal_verb_form": 536,
+        "noun_number": 33,
+        "perfect_participle": 138,
+        "spelling": 835,
+        "subject_verb_agreement": 314
+      },
+      "pairs_by_error_count": {
+        "1": 1676,
+        "2": 190
+      },
+      "pairs_by_source": {
+        "360info": 1368,
+        "public_domain_review_essays": 498
+      }
+    },
+    "test": {
+      "pairs": 2071,
+      "acceptability_rows": 4142,
+      "correction_rows": 4142,
+      "edits_by_type": {
+        "demonstrative_number": 119,
+        "do_support_form": 90,
+        "modal_verb_form": 622,
+        "noun_number": 30,
+        "perfect_participle": 157,
+        "spelling": 959,
+        "subject_verb_agreement": 325
+      },
+      "pairs_by_error_count": {
+        "1": 1840,
+        "2": 231
+      },
+      "pairs_by_source": {
+        "360info": 1669,
+        "public_domain_review_essays": 402
+      }
+    }
+  },
+  "artifacts": {
+    "README.md": {
+      "sha256": "5505b3c47b57f171daeec4c97a17fe1ed2926112fcfbfb8895e9057bff2f0592",
+      "bytes": 1422
+    },
+    "documents.jsonl": {
+      "sha256": "32ea6eaa5d6e66af559f69d7ebf68c9b6e99514071c3af76903dc80d7ae07819",
+      "bytes": 961754
+    },
+    "review.csv": {
+      "sha256": "1bd7caa426fc40ff1b474ad6b288b8a510df046f24eac105706c6aa5941245ca",
+      "bytes": 826692
+    },
+    "rules.json": {
+      "sha256": "8dfc8203bfe6652003746f5d1f6d366688f1060a3f7e9c95bc27e1537176598e",
+      "bytes": 113558
+    },
+    "test/acceptability.csv": {
+      "sha256": "bc51e397d3e5c43a61d0d65a84a5c84b1488aa11e94a5c990137a054eaf75d7c",
+      "bytes": 1130229
+    },
+    "test/acceptability.jsonl": {
+      "sha256": "2a08f4186cf9513a56d9480e9f112d2e68a6cc2bc95a6513174c3d6cb9fa169c",
+      "bytes": 1662759
+    },
+    "test/acceptability_it.jsonl": {
+      "sha256": "3dcb392cf6234421dd53565ed44dbe52d2340094c015564148fa341574d21467",
+      "bytes": 2330050
+    },
+    "test/correction_it.jsonl": {
+      "sha256": "ee6b1cab52fb05333b083086a9b4d6a302e81f94058c37be8f7f761c8de1c700",
+      "bytes": 4102154
+    },
+    "test/pairs.jsonl": {
+      "sha256": "f7102ffcb58eee4e7b59c2abfc19f9bd8015a44e515b0cf353d8bb8e18ad3a98",
+      "bytes": 3482676
+    },
+    "train/acceptability.csv": {
+      "sha256": "959a09460d193dcc6e37da744c9b20819c62bbf7312cc12c72194e6f598de86a",
+      "bytes": 8214696
+    },
+    "train/acceptability.jsonl": {
+      "sha256": "6a46e96d213f82280ec0528035ca729b9f737f3c2c3320baa60a0350a3c8f5d0",
+      "bytes": 12079220
+    },
+    "train/acceptability_it.jsonl": {
+      "sha256": "ab10ecd86391c527330148c56034a947d703dd5ca3e0a751af623b7da3491c51",
+      "bytes": 16918020
+    },
+    "train/correction_it.jsonl": {
+      "sha256": "76aadab4793cd9924dd72e5a62f02291a2f2f14ee68a446a1bc9b00e6995e4d6",
+      "bytes": 29795883
+    },
+    "train/pairs.jsonl": {
+      "sha256": "153f536fb94e5f6610e620355bbeee7d36f0d3deb2d91a13d62e7ff4f2c9c1ab",
+      "bytes": 25347650
+    },
+    "validation/acceptability.csv": {
+      "sha256": "46ecd954202ac65829a3130c52c85ca3ee619ef7701c558e7be9928e504a50ad",
+      "bytes": 1014118
+    },
+    "validation/acceptability.jsonl": {
+      "sha256": "8129d358a8cb298e74b777690fbe8f8579c6d9de8d4983d2b0f102a3c2f78e25",
+      "bytes": 1494130
+    },
+    "validation/acceptability_it.jsonl": {
+      "sha256": "3c742bb8475f2acbdfd7f74ae18ae5bfa8e2fbd528ef909fcd0641c9eb70f2de",
+      "bytes": 2095346
+    },
+    "validation/correction_it.jsonl": {
+      "sha256": "8e424f98e7499312d4f169072546763a87a07f8ecd5dce3e20f7dbb300311d46",
+      "bytes": 3683870
+    },
+    "validation/pairs.jsonl": {
+      "sha256": "23851735d53650fcab98a0c5c6e482d89a96e322e273b5ecb035ff773016d7b1",
+      "bytes": 3147481
+    }
+  }
+}

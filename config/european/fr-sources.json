@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "pilot_max_sentences": 3000,
+      "name": "UD_French-Sequoia",
+      "language": "fr",
+      "path": "/work/mimir/DaLA/la_output/resources/european/fr/fr_sequoia-ud-train.conllu",
+      "revision": "568f597b7cbc0814d385906695ab6c2e3a4fb2f9",
+      "sha256": "122ba0f3bbeb6e09b034d1f9363503f06c954d7d5c45a2fd088844c488cc84cd",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_French-Sequoia/568f597b7cbc0814d385906695ab6c2e3a4fb2f9/fr_sequoia-ud-train.conllu",
+      "license": "LGPL-LR"
+    }
+  ]
+}

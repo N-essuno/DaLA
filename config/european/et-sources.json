@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "pilot_max_sentences": 3000,
+      "name": "UD_Estonian-EDT",
+      "language": "et",
+      "path": "/work/mimir/DaLA/la_output/resources/european/et/et_edt-ud-train.conllu",
+      "revision": "c11d808dd2e8b645a646ecdc9702c4854cb960ae",
+      "sha256": "b2500587c9e595e268ffc302bf47cd193a0ac597ceb40e5508a1a1cc1dc4d7ac",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Estonian-EDT/c11d808dd2e8b645a646ecdc9702c4854cb960ae/et_edt-ud-train.conllu",
+      "license": "CC BY-NC-SA 4.0"
+    }
+  ]
+}

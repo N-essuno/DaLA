@@ -1,0 +1,34 @@
+{
+  "language": "ca",
+  "paragraphs": 40,
+  "accepted_sources_equal": true,
+  "grammar_candidates_equal": true,
+  "runs": [
+    {
+      "accepted_sources": 38,
+      "grammar_candidates": 154,
+      "candidates": 795,
+      "seconds": 7.034761474002153,
+      "timings": {
+        "tokenize": 0.7853746686596423,
+        "syntax": 4.18757877824828
+      },
+      "rejections": {}
+    },
+    {
+      "accepted_sources": 38,
+      "grammar_candidates": 154,
+      "candidates": 795,
+      "seconds": 4.452455570921302,
+      "timings": {
+        "tokenize": 0.7425184533931315,
+        "syntax": 3.611525742802769
+      },
+      "rejections": {
+        "parser_prefilter_source_extraction_risk": 8,
+        "parser_prefilter_fragment_or_format": 2,
+        "parser_prefilter_length": 1
+      }
+    }
+  ]
+}

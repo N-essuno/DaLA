@@ -1,0 +1,221 @@
+{
+  "language": "ro",
+  "name": "Romanian",
+  "treebank": "Romanian-RRT",
+  "prefix": "ro_rrt",
+  "dictionary": "ro",
+  "grammar": [
+    {
+      "family": "adjective_number",
+      "context": "nominal_agreement",
+      "feature": "Number",
+      "pos": [
+        "ADJ"
+      ],
+      "relations": [
+        "amod"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "adjective_gender",
+      "context": "nominal_agreement",
+      "feature": "Gender",
+      "pos": [
+        "ADJ"
+      ],
+      "relations": [
+        "amod"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "adjective_case",
+      "context": "nominal_agreement",
+      "feature": "Case",
+      "pos": [
+        "ADJ"
+      ],
+      "relations": [
+        "amod"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "determiner_number",
+      "context": "nominal_agreement",
+      "feature": "Number",
+      "pos": [
+        "DET"
+      ],
+      "relations": [
+        "det"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "determiner_gender",
+      "context": "nominal_agreement",
+      "feature": "Gender",
+      "pos": [
+        "DET"
+      ],
+      "relations": [
+        "det"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "determiner_case",
+      "context": "nominal_agreement",
+      "feature": "Case",
+      "pos": [
+        "DET"
+      ],
+      "relations": [
+        "det"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "verb_number_agreement",
+      "context": "finite_agreement",
+      "feature": "Number",
+      "pos": [
+        "VERB",
+        "AUX"
+      ],
+      "subjects": [
+        "eu",
+        "tu",
+        "el",
+        "ea",
+        "noi",
+        "voi",
+        "ei",
+        "ele"
+      ]
+    },
+    {
+      "family": "verb_person_agreement",
+      "context": "finite_agreement",
+      "feature": "Person",
+      "pos": [
+        "VERB",
+        "AUX"
+      ],
+      "subjects": [
+        "eu",
+        "tu",
+        "el",
+        "ea",
+        "noi",
+        "voi",
+        "ei",
+        "ele"
+      ]
+    }
+  ],
+  "spelling": [
+    {
+      "operation": "transpose_internal",
+      "min_length": 5,
+      "max_length": 24,
+      "unicode_letters": true
+    },
+    {
+      "operation": "delete_internal",
+      "min_length": 5,
+      "max_length": 24,
+      "unicode_letters": true
+    },
+    {
+      "operation": "substitute_character",
+      "min_length": 4,
+      "max_length": 24,
+      "unicode_letters": true,
+      "substitutions": {
+        "ă": [
+          "a"
+        ],
+        "â": [
+          "a"
+        ],
+        "î": [
+          "i"
+        ],
+        "ș": [
+          "s"
+        ],
+        "ț": [
+          "t"
+        ]
+      }
+    }
+  ],
+  "compiler_options": {
+    "ignore_gender_animacy_features": [],
+    "preserve_all_features": true
+  },
+  "prompts": {
+    "acceptability": "Is this sentence grammatically correct and correctly spelled in Romanian? Reply only yes or no.",
+    "correction": "Correct grammatical and spelling errors in this Romanian sentence. Return correct input unchanged. Preserve Romanian, meaning and style. Return only the sentence."
+  },
+  "release_policy": {
+    "status": "candidate_only",
+    "pilot_target_pairs": 1000,
+    "production_target_pairs": 478930,
+    "require_audit_per_family": true
+  },
+  "limitations": [
+    "UD observed forms are not an exhaustive normative paradigm",
+    "Grammar constraints and spelling generators are synthetic; not observed-error frequencies"
+  ],
+  "source_risk_patterns": [
+    "\\.\\.\\.|…",
+    "^[A-ZÀ-ÖØ-ÞĂÂÎȘȚ]{2,}(?:\\s+[A-ZÀ-ÖØ-ÞĂÂÎȘȚ]{2,}){2,}\\b"
+  ],
+  "morphology_options": {
+    "source_nominal_pos": [
+      "ADJ",
+      "DET"
+    ],
+    "source_nominal_relations": [
+      "amod",
+      "det"
+    ]
+  },
+  "production_parser": {
+    "language": "ro",
+    "processors": {
+      "tokenize": "rrt",
+      "lemma": "rrt_nocharlm",
+      "pos": "rrt_nocharlm",
+      "depparse": "rrt_nocharlm"
+    }
+  }
+}

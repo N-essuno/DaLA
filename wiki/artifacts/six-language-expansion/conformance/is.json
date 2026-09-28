@@ -1,0 +1,53 @@
+{
+  "language": "is",
+  "passed": true,
+  "fixtures": [
+    {
+      "text": "Hún hefur skrifað langt bréf til sveitarfélagsins.",
+      "rejection": null,
+      "families": [
+        "adjective_case",
+        "adjective_gender",
+        "perfect_verb_form",
+        "spelling",
+        "verb_number_agreement"
+      ],
+      "missing": [],
+      "forbidden": [],
+      "passed": true,
+      "lexical_conflicts": []
+    },
+    {
+      "text": "Hún hefur skrifað langt bréf til föður síns.",
+      "rejection": null,
+      "families": [
+        "adjective_case",
+        "adjective_gender",
+        "perfect_verb_form",
+        "preposition_case",
+        "spelling",
+        "verb_number_agreement"
+      ],
+      "missing": [],
+      "forbidden": [],
+      "passed": true,
+      "lexical_conflicts": []
+    },
+    {
+      "text": "Ég hef skrifað langt bréf til föður míns.",
+      "rejection": null,
+      "families": [
+        "adjective_case",
+        "adjective_gender",
+        "preposition_case",
+        "spelling",
+        "verb_number_agreement",
+        "verb_person_agreement"
+      ],
+      "missing": [],
+      "forbidden": [],
+      "passed": true,
+      "lexical_conflicts": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "failed_requires_investigation",
+  "run_id": "recovery_v1",
+  "language_runs": {
+    "nn": "recovery_v1",
+    "fo": "recovery_v1",
+    "is": "scaled64_v2",
+    "pl": "scaled64_v2",
+    "sv": "scaled64_v2",
+    "nb": "recovery_v1"
+  },
+  "pair_caps": [
+    "nn=478930",
+    "is=478930"
+  ],
+  "human_linguistic_validation": false,
+  "uploaded": false,
+  "error": "Build failed: {\"pl\": {\"language\": \"pl\", \"exit_code\": 1, \"log\": \"wiki/artifacts/six-language-expansion/scaled64_v2/pl.log\", \"output\": \"la_output/pl_dynaword_scaled64_v2\", \"status\": \"failed_checkpoints_preserved\"}}"
+}

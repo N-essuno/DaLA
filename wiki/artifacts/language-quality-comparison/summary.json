@@ -1,0 +1,95 @@
+{
+  "reviewer": "codex/gpt-6 agent inspection; not human gold",
+  "sample_size_per_language": 100,
+  "corpus_modified": false,
+  "confidence_interval": "Wilson 95%; sampling uncertainty only, excludes annotation bias",
+  "en": {
+    "source_judgment": {
+      "acceptable": 80,
+      "uncertain": 9,
+      "erroneous": 11
+    },
+    "corruption_judgment": {
+      "clearly_erroneous": 100
+    },
+    "intended_edits_judgment": {
+      "all_introduce_errors": 100
+    },
+    "source_form": {
+      "sentence": 99,
+      "extraction_damage": 1
+    },
+    "strict_usable_pairs": 80,
+    "strict_usable_wilson95": [
+      0.7112,
+      0.8666
+    ],
+    "formatting_damage": 0,
+    "incidental_formatting_changes": 0,
+    "sources": {
+      "globalvoices": 91,
+      "360info": 8,
+      "public_domain_review_essays": 1
+    },
+    "types": {
+      "word_swap": 9,
+      "spelling": 101,
+      "subject_verb_agreement": 11,
+      "modal_verb_form": 13,
+      "perfect_participle": 5,
+      "demonstrative_number": 4,
+      "do_support_form": 2
+    },
+    "annotation_sha256": "efa001a2d35709a7d1c23408a5b8a0380d1e34db9cb972b4925cb252d8d0a90a"
+  },
+  "da": {
+    "source_judgment": {
+      "acceptable": 83,
+      "uncertain": 3,
+      "erroneous": 14
+    },
+    "corruption_judgment": {
+      "clearly_erroneous": 88,
+      "still_acceptable": 6,
+      "uncertain": 6
+    },
+    "intended_edits_judgment": {
+      "all_introduce_errors": 87,
+      "at_least_one_remains_acceptable": 6,
+      "uncertain": 7
+    },
+    "source_form": {
+      "sentence": 89,
+      "headline_or_fragment": 7,
+      "extraction_damage": 4
+    },
+    "strict_usable_pairs": 71,
+    "strict_usable_wilson95": [
+      0.6146,
+      0.7899
+    ],
+    "formatting_damage": 2,
+    "incidental_formatting_changes": 4,
+    "sources": {
+      "tv2r": 100
+    },
+    "types": {
+      "corrupt_verb_r": 10,
+      "flip_en_et_suffix": 16,
+      "flip_indefinite_article": 12,
+      "flip_far_for": 10,
+      "flip_pronouns": 4,
+      "corrupt_ende_ene": 10,
+      "flip_neighbours": 7,
+      "corrupt_noun_r": 11,
+      "flip_ligge_laegge": 2,
+      "flip_nogle_nogen": 2,
+      "corrupt_adjective_r": 3,
+      "flip_som_der": 2,
+      "delete": 6,
+      "flip_han_hun_to_det": 3,
+      "corrupt_spelling": 2
+    },
+    "annotation_sha256": "ed21bf3d612647ac6bbe99ff0e95453845005abbb21a6c4930f7cda201effe84"
+  }
+}

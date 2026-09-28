@@ -1,0 +1,14 @@
+{
+  "launched_at": "2026-09-22T06:13:09.876551+00:00",
+  "target_combined_pairs": 478930,
+  "target_new_reserve_pairs": 320000,
+  "sha256": {
+    "config/languages/nl_extension_scale.json": "005eb34becee8118fe517a8c67804c0b6b5f3aa2ca4ee3a0fc13bb8999718818",
+    "config/languages/nl_legal_extended.json": "b403f3a867394310db92d4cb52e2fb70bdd45e8a69d337760f451c0b50ee5512",
+    "config/dutch_sources_extension.json": "ae0c5eee16a800d2602240f2ada55ef33225bfe06073553e986dbeb841bc69cc",
+    "config/dutch_sources_extended.json": "af9da565d078ec370a655c166d9ff252e5649bc9693a43d933c0f9608f6a94db",
+    "config/dutch_extension_production_source_exclusions.json": "f4fccaec0cbbbf8b2ccef0a43d244a2123004719b041ecf7389000d0323997c0",
+    "scripts/run_dutch_extension.py": "29aa434985c9cbe1e8d0ae5a6bacfa2a405b59cdaf29984fd82b6711b7b163d5",
+    "scripts/merge_dutch_extension.py": "742e69bbd768cf9020f835785985bacb5ff89b5134fc6dd63fa369c439f4c3c8"
+  }
+}

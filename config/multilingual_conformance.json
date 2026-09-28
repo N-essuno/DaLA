@@ -1,0 +1,142 @@
+{
+  "purpose": "Agent-authored semantic probes, not corpus data or human linguistic gold.",
+  "languages": {
+    "pl": [
+      {
+        "text": "Ona napisała długi list do swojej koleżanki.",
+        "required_families": [
+          "adjective_case",
+          "preposition_case"
+        ]
+      },
+      {
+        "text": "Ja mogę przeczytać tę ciekawą książkę jeszcze dzisiaj.",
+        "required_families": [
+          "verb_person_agreement",
+          "verb_number_agreement",
+          "governed_infinitive"
+        ]
+      },
+      {
+        "text": "Jagody, orzechy, migdały i miód należały do ówczesnych słodyczy.",
+        "forbidden_edits": [
+          [
+            "ówczesnych",
+            "ówczesnej"
+          ]
+        ],
+        "required_families": [
+          "spelling"
+        ]
+      }
+    ],
+    "sv": [
+      {
+        "text": "En liten flicka läser en spännande bok i skolan.",
+        "required_families": [
+          "determiner_gender"
+        ]
+      },
+      {
+        "text": "Vi har byggt nya hus nära den gamla skolan.",
+        "forbidden_edits": [
+          [
+            "nya",
+            "nytt"
+          ]
+        ]
+      },
+      {
+        "text": "Jag har skrivit ett långt brev till min syster.",
+        "required_families": [
+          "pronoun_case",
+          "perfect_verb_form"
+        ]
+      }
+    ],
+    "nb": [
+      {
+        "text": "En liten gutt leser en spennende bok på skolen.",
+        "required_families": [
+          "determiner_gender"
+        ]
+      },
+      {
+        "text": "Hun leser en bok på bussen hver morgen.",
+        "forbidden_edits": [
+          [
+            "en",
+            "ei"
+          ]
+        ]
+      },
+      {
+        "text": "Vi har skrevet et langt brev til den nye skolen.",
+        "required_families": [
+          "pronoun_case",
+          "perfect_verb_form"
+        ]
+      }
+    ],
+    "nn": [
+      {
+        "text": "Ein liten gut les ei spennande bok på skulen.",
+        "required_families": [
+          "determiner_gender"
+        ]
+      },
+      {
+        "text": "Vi vil skrive eit langt brev til skulen.",
+        "required_families": [
+          "governed_infinitive"
+        ],
+        "forbidden_edits": [
+          [
+            "skrive",
+            "skriva"
+          ]
+        ]
+      },
+      {
+        "text": "Vi har skrive eit langt brev til den nye skulen.",
+        "required_families": [
+          "pronoun_case",
+          "perfect_verb_form"
+        ]
+      }
+    ],
+    "fo": [
+      {
+        "text": "Hann hevur skrivað eitt langt bræv til kommununa.",
+        "required_families": [
+          "perfect_verb_form",
+          "verb_number_agreement",
+          "verb_person_agreement"
+        ]
+      }
+    ],
+    "is": [
+      {
+        "text": "Hún hefur skrifað langt bréf til sveitarfélagsins.",
+        "required_families": [
+          "perfect_verb_form",
+          "verb_number_agreement"
+        ],
+        "known_vocabulary_gap": "sveitarfélag is recognized as a word but absent from the current paradigm seeds; no preposition-case corruption is licensed for it."
+      },
+      {
+        "text": "Hún hefur skrifað langt bréf til föður síns.",
+        "required_families": [
+          "preposition_case"
+        ]
+      },
+      {
+        "text": "Ég hef skrifað langt bréf til föður míns.",
+        "required_families": [
+          "verb_person_agreement",
+          "verb_number_agreement"
+        ]
+      }
+    ]
+  }
+}

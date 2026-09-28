@@ -1,0 +1,247 @@
+{
+  "sampling": "Two per family, seed 3; Swedish all realized families and newly realized Faroese verb families. Diagnostic inspection, not a precision estimate.",
+  "decisions": [
+    {
+      "language": "fo",
+      "pair_id": "494900703cc06d60a5cd9105",
+      "family": "perfect_verb_form",
+      "original": "Útflytarar av rundum fiski hava givið hægsta prísin, og tí er rávøruprísurin á upsa hækkaður.",
+      "corrupted": "Útflytarar av rundum fiski hava geva hægsta prísin, og tí er rávøruprísurin á upsa hækkaður.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "fo",
+      "pair_id": "6f1fe486ff6aea3a62d53346",
+      "family": "perfect_verb_form",
+      "original": "Tað hevur ljóðað, at orsøkin er, at ósemja hevur tikið seg upp um, hvar hann skal vera.",
+      "corrupted": "Tað hevur ljóða, at orsøkin er, at ósemja hevur tikið seg upp um, hvar hann skal vera.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "fo",
+      "pair_id": "a2724bdef15fe1f11ddd6f56",
+      "family": "verb_number_agreement",
+      "original": "Heldur ikki hann veit nakað enn, nær hann fær passið aftur.",
+      "corrupted": "Heldur ikki hann vita nakað enn, nær hann fær passið aftur.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "fo",
+      "pair_id": "57bba60a53cd2fbbab23d6c8",
+      "family": "verb_number_agreement",
+      "original": "Men tað verður, eftir tí sum skilst á landsstýrismanninum, ikki við slíkum miðlum, at hann fer í tættari samráðingar við vestmenningar.",
+      "corrupted": "Men tað verður, eftir tí sum skilst á landsstýrismanninum, ikki við slíkum miðlum, at hann fara í tættari samráðingar við vestmenningar.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "fo",
+      "pair_id": "38a5f662a77cd5d09f7e7312",
+      "family": "verb_person_agreement",
+      "original": "Um onkur hoyrir orð Míni og leggur sær tey ikki á hjarta hann dømi ikki Eg; tí Eg eri ikki komin at døma heimin, men at frelsa heimin.",
+      "corrupted": "Um onkur hoyrir orð Míni og leggur sær tey ikki á hjarta hann dømi ikki Eg; tí Eg er ikki komin at døma heimin, men at frelsa heimin.",
+      "decision": "uncertain",
+      "note": "Source appears to join clauses without a separating punctuation mark at hjarta hann.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "fo",
+      "pair_id": "40e06ce973723901aba81bcf",
+      "family": "verb_person_agreement",
+      "original": "Hann sigur, at ætlanin hjá virkinum á Eiði er at bjóða ein prís fyri rávøruna, sum ger tað áhugavert at taka hana til høldar.",
+      "corrupted": "Hann sigi, at ætlanin hjá virkinum á Eiði er at bjóða ein prís fyri rávøruna, sum ger tað áhugavert at taka hana til høldar.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "sv",
+      "pair_id": "95f84caeecc830736d6c2918",
+      "family": "adjective_definite",
+      "original": "Hantering av hushållens livsmedelsavfall är en komplex utmaning som kräver aktiv medverkan av många aktörer och förvaltningsnivåer.",
+      "corrupted": "Hantering av hushållens livsmedelsavfall är en komplexe utmaning som kräver aktiv medverkan av många aktörer och förvaltningsnivåer.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "sv",
+      "pair_id": "412bf3ddd64286b400116fd3",
+      "family": "adjective_definite",
+      "original": "Parlamentet noterar med oro tendensen att finansiera infrastruktur såsom motorvägar, som uppmuntrar till förbrukning av fossila bränslen och därför strider mot unionens långsiktiga mål att närma sig en koldioxidfri ekonomi.",
+      "corrupted": "Parlamentet noterar med oro tendensen att finansiera infrastruktur såsom motorvägar, som uppmuntrar till förbrukning av fossila bränslen och därför strider mot unionens långsiktiga mål att närma sig en koldioxidfrie ekonomi.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "sv",
+      "pair_id": "a6c768add8b57c2ea19701a7",
+      "family": "adjective_gender",
+      "original": "L. På europeisk nivå finns ingen enhetlig mekanism för ingripande i händelse av naturkatastrofer.",
+      "corrupted": "L. På europeiskt nivå finns ingen enhetlig mekanism för ingripande i händelse av naturkatastrofer.",
+      "decision": "reject",
+      "note": "Leading legal list marker L. retained as part of the sentence.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "sv",
+      "pair_id": "b009814da7c5179d0e4e2204",
+      "family": "adjective_gender",
+      "original": "Jämfört med Japan, Förenta staterna och till och med Kina gör EU emellertid mycket färre investeringar i forskning och utveckling av ny teknik, och det finns ingen europeisk agenda för forskning kring jordbävningsrisker.",
+      "corrupted": "Jämfört med Japan, Förenta staterna och till och med Kina gör EU emellertid mycket färre investeringar i forskning och utveckling av ny teknik, och det finns ingen europeiskt agenda för forskning kring jordbävningsrisker.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "sv",
+      "pair_id": "0c634f1f532b4d42544d201c",
+      "family": "adjective_number",
+      "original": "Till följd av detta lämnas europeiska regioner utan EU-stöd.",
+      "corrupted": "Till följd av detta lämnas europeiskt regioner utan EU-stöd.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "sv",
+      "pair_id": "1011b8f2ee5ec4b1bb043f7d",
+      "family": "adjective_number",
+      "original": "Parlamentet framhåller att registeransvariga får använda känsliga uppgifter endast för avgränsade ändamål och under inga omständigheter får föra dem vidare.",
+      "corrupted": "Parlamentet framhåller att registeransvariga får använda känslige uppgifter endast för avgränsade ändamål och under inga omständigheter får föra dem vidare.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "sv",
+      "pair_id": "478b0645171f15812cee40ca",
+      "family": "determiner_gender",
+      "original": "Parlamentet uppmanar kommissionen att hjälpa till med att utforma ett särskilt europeiskt forskningsprogram för jordbävningar.",
+      "corrupted": "Parlamentet uppmanar kommissionen att hjälpa till med att utforma en särskilt europeiskt forskningsprogram för jordbävningar.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "sv",
+      "pair_id": "875889f8bd449affb220f749",
+      "family": "determiner_gender",
+      "original": "Det finns en mängd rapporter som pekar på att detta kan leda till utnyttjande genom att de till exempel tvingas arbeta alltför långa arbetspass.",
+      "corrupted": "Det finns ett mängd rapporter som pekar på att detta kan leda till utnyttjande genom att de till exempel tvingas arbeta alltför långa arbetspass.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "sv",
+      "pair_id": "5c93300444474eb9e48b1f2a",
+      "family": "determiner_number",
+      "original": "Parlamentet betraktar medbestämmande som en modell för bästa praxis för Europas ekonomier.",
+      "corrupted": "Parlamentet betraktar medbestämmande som de modell för bästa praxis för Europas ekonomier.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "sv",
+      "pair_id": "15fe3ec3968416b462a92776",
+      "family": "determiner_number",
+      "original": "Parlamentet betonar att arbetsrelaterade psykiska hälsoproblem såsom utbrändhet, som orsakas av konstant tillgänglighet, utgör en allvarlig risk.",
+      "corrupted": "Parlamentet betonar att arbetsrelaterade psykiska hälsoproblem såsom utbrändhet, som orsakas av konstant tillgänglighet, utgör de allvarlig risk.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "sv",
+      "pair_id": "9820d74902bf963e17f9465c",
+      "family": "governed_infinitive",
+      "original": "Parlamentet uppmanar dessutom medlemsstaterna att i mån av möjlighet börja finansiera skyddsåtgärder för jordbävningar i sina gällande operationella program.",
+      "corrupted": "Parlamentet uppmanar dessutom medlemsstaterna att i mån av möjlighet börjar finansiera skyddsåtgärder för jordbävningar i sina gällande operationella program.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "sv",
+      "pair_id": "eceab7e1f7eee9920125d012",
+      "family": "governed_infinitive",
+      "original": "Parlamentet är dock bekymrat över att kravet på att offentliggöra meritförteckningar och intresseförklaringar inte gäller för experter.",
+      "corrupted": "Parlamentet är dock bekymrat över att kravet på att offentliggörs meritförteckningar och intresseförklaringar inte gäller för experter.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "sv",
+      "pair_id": "ad165aa5d76105a483190d9b",
+      "family": "perfect_verb_form",
+      "original": "Digitala kommunikationsmedel har bidragit till att det blivit vanligt med hatpropaganda och hot mot kvinnor.",
+      "corrupted": "Digitala kommunikationsmedel har bidragas till att det blivit vanligt med hatpropaganda och hot mot kvinnor.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "sv",
+      "pair_id": "009740a8394253b0845192a8",
+      "family": "perfect_verb_form",
+      "original": "Antalet hot mot kvinnor, också mordhot, har ökat.",
+      "corrupted": "Antalet hot mot kvinnor, också mordhot, har ökas.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "sv",
+      "pair_id": "9dfd1a102053fc084c997bb1",
+      "family": "spelling",
+      "original": "Parlamentet uppmärksammar betydelsen av kvinnors tillgång till mikrokrediter inom sitt företagande.",
+      "corrupted": "Parlamentet uppmärksammar betydelsen av kvinnors tillgang till mikrokrediter inom sitt företagande.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    },
+    {
+      "language": "sv",
+      "pair_id": "0ec1a9567c01ad6da3be84d6",
+      "family": "spelling",
+      "original": "Digitaliseringen påverkar inte bara marknaderna, utan hela samhället.",
+      "corrupted": "Digitaliseringen påverkar inte bara marknaerna, utan hela samhället.",
+      "decision": "provisionally_acceptable",
+      "note": "No clear source or corruption defect in agent inspection; not native-speaker gold.",
+      "reviewer": "agent",
+      "human_review": false
+    }
+  ]
+}

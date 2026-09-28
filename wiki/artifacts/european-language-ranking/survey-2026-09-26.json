@@ -1,0 +1,641 @@
+{
+  "at": "2026-09-26T05:26:37.422008+00:00",
+  "assessment": "provisional_resource_readiness_not_measured_precision",
+  "human_linguistic_validation": false,
+  "rule_inventory_implemented": false,
+  "clean_source_yield_audited": false,
+  "excluded_existing": [
+    "da",
+    "en",
+    "nl",
+    "pl",
+    "sv",
+    "nb",
+    "nn",
+    "fo",
+    "is"
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "language": "de",
+      "name": "German",
+      "tier": "A",
+      "observed_or_rule_evidence": "Falko-MERLIN: about 24k sentences; original MERLIN supplies grammar and orthography annotation.",
+      "proposed_grammar": "Case government, determiner/adjective agreement, verb agreement and constrained verb placement.",
+      "proposed_spelling": "Capitalization, compounds, letter confusions and observed misspellings.",
+      "assessment": "LT plus DWDSmor; lexical coverage and German/Austrian/Swiss variants need explicit handling.",
+      "sources": [
+        "de",
+        "merlin",
+        "lt",
+        "dwdsmor"
+      ]
+    },
+    {
+      "rank": 2,
+      "language": "cs",
+      "name": "Czech",
+      "tier": "A",
+      "observed_or_rule_evidence": "GECCC: 83,058 sentences across four domains, with both native and learner errors.",
+      "proposed_grammar": "Case, gender/number agreement, verb agreement, constrained preposition government.",
+      "proposed_spelling": "Diacritics, i/y and other attested spelling confusions.",
+      "assessment": "MorphoDiTa enables morphological checks; corpus breadth is exceptional. Morphological ambiguity still needs vetoes.",
+      "sources": [
+        "cs",
+        "morphodita"
+      ]
+    },
+    {
+      "rank": 3,
+      "language": "uk",
+      "name": "Ukrainian",
+      "tier": "A",
+      "observed_or_rule_evidence": "UA-GEC 2.0: 33,735 sentences; professional corrections, explicit grammar/spelling labels, separate GEC-only version.",
+      "proposed_grammar": "Case, gender, number, verb forms and constrained prepositions.",
+      "proposed_spelling": "Observed spelling, apostrophes and word-boundary errors.",
+      "assessment": "CC BY 4.0; exclude fluency/calque/style tags. Strongest match to the requested annotation contract.",
+      "sources": [
+        "uk",
+        "lt"
+      ]
+    },
+    {
+      "rank": 4,
+      "language": "it",
+      "name": "Italian",
+      "tier": "A",
+      "observed_or_rule_evidence": "MERLIN plus CItA combine L2 and L1 error evidence; MERLIN is openly downloadable.",
+      "proposed_grammar": "Determiner/adjective and subject/verb agreement, constrained clitics and verb constructions.",
+      "proposed_spelling": "Doubled consonants, h, accents, apostrophes and word boundaries.",
+      "assessment": "Morph-it plus checker resources; retain syntactic conditions and avoid changing a valid tense to another valid tense.",
+      "sources": [
+        "merlin",
+        "it",
+        "morphit",
+        "lt"
+      ]
+    },
+    {
+      "rank": 5,
+      "language": "es",
+      "name": "Spanish",
+      "tier": "A",
+      "observed_or_rule_evidence": "COWS-L2H includes error annotations and instructor-corrected essays, some with multiple corrections.",
+      "proposed_grammar": "Gender/number, articles, person agreement, locally constrained prepositions.",
+      "proposed_spelling": "Accents, h and b/v confusion candidates, with lexical/contextual screening.",
+      "assessment": "FreeLing/LT; holistic corrections must be filtered. Broad ser/estar swaps and dialect substitutions are unsafe. Verify data-specific reuse terms.",
+      "sources": [
+        "es",
+        "freeling",
+        "lt"
+      ]
+    },
+    {
+      "rank": 6,
+      "language": "et",
+      "name": "Estonian",
+      "tier": "A",
+      "observed_or_rule_evidence": "EstGEC-L2: 3,721 annotated dev/test sentences from 258 texts; Tartu resources add L1/L2 material. Separate spelling benchmark.",
+      "proposed_grammar": "Nominal and verb inflection, agreement, constrained government and negation.",
+      "proposed_spelling": "Letter quantity, diacritics, capitalization and whitespace.",
+      "assessment": "EstNLTK; reserve existing benchmark tests. EKI corpus is restricted and its MultiGEC references are fluency-oriented, not automatically minimal corrections.",
+      "sources": [
+        "et",
+        "ettrain",
+        "etspell",
+        "eki",
+        "estnltk",
+        "multigec"
+      ]
+    },
+    {
+      "rank": 7,
+      "language": "fr",
+      "name": "French",
+      "tier": "A",
+      "observed_or_rule_evidence": "FRIDA provides error-tagged learner evidence; Grammalecte and LT offer explicit rule resources.",
+      "proposed_grammar": "Determiner/adjective and subject/verb agreement, restricted participle agreement and verb constructions.",
+      "proposed_spelling": "Accents, homophones, doubled letters, elision/apostrophes.",
+      "assessment": "First implementation group by user decision. Strong rule infrastructure; FRIDA bulk access/reuse and context-sensitive corruption checks remain unresolved.",
+      "sources": [
+        "fr",
+        "grammalecte",
+        "lt"
+      ]
+    },
+    {
+      "rank": 8,
+      "language": "tr",
+      "name": "Turkish",
+      "tier": "B",
+      "observed_or_rule_evidence": "GECTurk: 25 expert-curated rules, 138k synthetic sentences reported by repository, plus human-annotated movie-review evaluation.",
+      "proposed_grammar": "Morphology-conditioned suffix and clitic transformations; audit breadth beyond orthography.",
+      "proposed_spelling": "de/da and ki boundaries, question particle, apostrophes and harmony-sensitive writing rules.",
+      "assessment": "Very close to DaLA method. Synthetic counts are not observed-error counts; reversibility alone does not prove incorrectness.",
+      "sources": [
+        "tr"
+      ]
+    },
+    {
+      "rank": 9,
+      "language": "ru",
+      "name": "Russian",
+      "tier": "B",
+      "observed_or_rule_evidence": "RULEC-GEC supplies typed correction edits; direct access requires a request.",
+      "proposed_grammar": "Case government, adjective/noun agreement, person/number, constrained verb constructions.",
+      "proposed_spelling": "Orthographic endings, soft signs and observed misspellings.",
+      "assessment": "Broad potential but access and reuse terms need resolution; avoid blanket tense/aspect swaps and treating optional orthography as errors.",
+      "sources": [
+        "ru",
+        "lt"
+      ]
+    },
+    {
+      "rank": 10,
+      "language": "sl",
+      "name": "Slovenian",
+      "tier": "B",
+      "observed_or_rule_evidence": "Solar 3.0 has 5,485 student texts, teacher corrections and exported correction-frequency lists.",
+      "proposed_grammar": "Case, gender/number including dual, adjective agreement and verb agreement.",
+      "proposed_spelling": "Observed spelling and spacing corrections.",
+      "assessment": "Sloleks helps generation; teacher marking can be incomplete. Check exact corpus release terms, including NC restrictions, separately from article license.",
+      "sources": [
+        "sl",
+        "sloleks"
+      ]
+    },
+    {
+      "rank": 11,
+      "language": "pt-PT",
+      "name": "European Portuguese",
+      "tier": "B",
+      "observed_or_rule_evidence": "COPLE2 documents spelling, grammar and lexical error annotation; Portuguese LT includes spelling dictionaries and replacement pairs.",
+      "proposed_grammar": "Agreement, determiners, contractions and tightly conditioned clitic/preposition constructions.",
+      "proposed_spelling": "Accents, consonant confusions, boundaries and attested misspellings.",
+      "assessment": "Slight lead on observed learner-error evidence via COPLE2; annotated export scope and reuse remain unresolved. Separate standard-specific filters and accepted-variant vetoes required.",
+      "sources": [
+        "pt",
+        "ptspell",
+        "lt"
+      ]
+    },
+    {
+      "rank": 12,
+      "language": "pt-BR",
+      "name": "Brazilian Portuguese",
+      "tier": "B",
+      "observed_or_rule_evidence": "Empirical nonword spelling study; small native-authored GEC benchmark; CoGrOO and Portuguese LanguageTool rule resources.",
+      "proposed_grammar": "Agreement, determiner/adjective forms, constrained contractions/crasis and verb/preposition constructions; contextual lexical confusions audited separately.",
+      "proposed_spelling": "Diacritics and cedilla, insertion/deletion/substitution/transposition, observed confusions and guarded word boundaries.",
+      "assessment": "Close behind pt-PT: useful spelling evidence and rule infrastructure, but broad naturally observed minimal grammar corrections not verified. Benchmark is constructed and Internet normalization is excluded.",
+      "sources": [
+        "brgec",
+        "brspell",
+        "cogroo",
+        "ptspell",
+        "lt",
+        "carolina",
+        "essaybr"
+      ]
+    },
+    {
+      "rank": 13,
+      "language": "ca",
+      "name": "Catalan",
+      "tier": "B",
+      "observed_or_rule_evidence": "Strong Softcatala dictionaries, morphology and LT rule/test infrastructure; broad natural correction corpus not verified here.",
+      "proposed_grammar": "Agreement, determiner/elision and narrowly constrained clitic constructions.",
+      "proposed_spelling": "Accents, diaeresis, apostrophes, geminated l and boundaries.",
+      "assessment": "Promising rule-driven route, but observed-error frequency and independent evaluation need more work; preserve accepted regional forms.",
+      "sources": [
+        "ca",
+        "lt"
+      ]
+    },
+    {
+      "rank": 14,
+      "language": "lv",
+      "name": "Latvian",
+      "tier": "B",
+      "observed_or_rule_evidence": "LaVA has manually checked morphology and manually annotated learner errors; MultiGEC lists 1,015 texts.",
+      "proposed_grammar": "Case, gender/number, agreement and constrained government.",
+      "proposed_spelling": "Diacritics, vowel length and observed spelling patterns.",
+      "assessment": "LUMII morphology analyzes and generates inflections. Confirm bulk annotation access and corpus-specific reuse permission.",
+      "sources": [
+        "lv",
+        "lvmorph",
+        "multigec"
+      ]
+    },
+    {
+      "rank": 15,
+      "language": "el",
+      "name": "Greek",
+      "tier": "B",
+      "observed_or_rule_evidence": "GLC/GNC correction resources; MultiGEC GLCII contains 1,289 texts with minimal corrections.",
+      "proposed_grammar": "Agreement, gender/case and constrained verb morphology.",
+      "proposed_spelling": "Stress marks and homophonous vowel spellings.",
+      "assessment": "Strong empirical spelling evidence; ensure a substantial grammar component and resolve corpus access. Arbitrary aspect changes remain unsafe.",
+      "sources": [
+        "el",
+        "multigec"
+      ]
+    },
+    {
+      "rank": 16,
+      "language": "ro",
+      "name": "Romanian",
+      "tier": "B",
+      "observed_or_rule_evidence": "RONACC/RoGEC provides roughly 10k correction pairs drawn from broadcast errors and written mistakes.",
+      "proposed_grammar": "Agreement, case/article forms and constrained clitic constructions.",
+      "proposed_spelling": "Diacritics, hyphens and i/ii/iii patterns.",
+      "assessment": "Useful observed evidence, but broadcast fragments and scope need filtering; download/license verification and lexical guards still needed.",
+      "sources": [
+        "ro",
+        "ropaper"
+      ]
+    },
+    {
+      "rank": 17,
+      "language": "eu",
+      "name": "Basque",
+      "tier": "C",
+      "observed_or_rule_evidence": "Orai GEC-elh-eu: 9m synthetic training pairs, 672 manually revised evaluation examples.",
+      "proposed_grammar": "Case and auxiliary-agreement candidates, requiring strong syntactic conditions.",
+      "proposed_spelling": "Attested spelling patterns and bounded synthetic operators; mine generators carefully.",
+      "assessment": "A real GEC starting point, but giant synthetic count does not establish natural-error coverage or precision.",
+      "sources": [
+        "eu"
+      ]
+    },
+    {
+      "rank": 18,
+      "language": "fi",
+      "name": "Finnish",
+      "tier": "C",
+      "observed_or_rule_evidence": "ICLFI error-annotation research plus Omorfi analyzer/generator/speller.",
+      "proposed_grammar": "Agreement, case government and constrained negation/verb forms.",
+      "proposed_spelling": "Length distinctions, vowel harmony and compound boundaries.",
+      "assessment": "Excellent morphology, less ready-to-use minimal correction data verified here. Distinguish colloquial forms from errors.",
+      "sources": [
+        "fi",
+        "omorfi"
+      ]
+    },
+    {
+      "rank": 19,
+      "language": "sk",
+      "name": "Slovak",
+      "tier": "C",
+      "observed_or_rule_evidence": "CHIBY revision corpus and ERRKORP learner-error resource.",
+      "proposed_grammar": "Case and agreement candidates derived from verified learner evidence.",
+      "proposed_spelling": "Spelling, diacritics and capitalization revisions.",
+      "assessment": "Revision edits need semantic/style filtering; bulk paired access and broad grammar coverage remain unresolved.",
+      "sources": [
+        "sk",
+        "errkorp"
+      ]
+    },
+    {
+      "rank": 20,
+      "language": "lt",
+      "name": "Lithuanian",
+      "tier": "C",
+      "observed_or_rule_evidence": "Published GEC work releases mistake-generator and typo code.",
+      "proposed_grammar": "Inflection and agreement candidates subject to independent confirmation.",
+      "proposed_spelling": "Language-specific spelling transformations from published code.",
+      "assessment": "Useful engineering starting point; broad human-corrected evidence not established by this survey.",
+      "sources": [
+        "ltgec"
+      ]
+    },
+    {
+      "rank": 21,
+      "language": "bg",
+      "name": "Bulgarian",
+      "tier": "C",
+      "observed_or_rule_evidence": "Published synthetic dataset has four error classes: articles, pronouns, verb suffix and adjective/noun agreement.",
+      "proposed_grammar": "Those four classes are a starting point, not broad coverage.",
+      "proposed_spelling": "Separate empirical spelling evidence needs development.",
+      "assessment": "Explicit rules help, but narrow synthetic categories and source/variant checks require substantial extension.",
+      "sources": [
+        "bg"
+      ]
+    },
+    {
+      "rank": 22,
+      "language": "hu",
+      "name": "Hungarian",
+      "tier": "C",
+      "observed_or_rule_evidence": "Learner-corpus research documents morphological and spelling errors.",
+      "proposed_grammar": "Agreement, case and conjugation candidates need a curated contextual rule inventory.",
+      "proposed_spelling": "Accent, stem/suffix and compound-boundary candidates.",
+      "assessment": "Morphology-rich opportunity; broad accessible correction-pair data not established here.",
+      "sources": [
+        "hu"
+      ]
+    },
+    {
+      "rank": 23,
+      "language": "ga",
+      "name": "Irish",
+      "tier": "C",
+      "observed_or_rule_evidence": "An Gramadoir provides grammar-checking rules and lexical resources.",
+      "proposed_grammar": "Mutation/agreement candidates after linguistic review.",
+      "proposed_spelling": "Spelling and accent candidates supported by checker resources.",
+      "assessment": "Good rule leads, but open annotated correction evidence and independent validation not established here.",
+      "sources": [
+        "ga"
+      ]
+    },
+    {
+      "rank": 24,
+      "language": "cy",
+      "name": "Welsh",
+      "tier": "C",
+      "observed_or_rule_evidence": "Cysill grammar/spelling/mutation checker and Cysill Ar-lein corpus research.",
+      "proposed_grammar": "Mutation and agreement candidates.",
+      "proposed_spelling": "Spelling/accent candidates; register and regional variation require care.",
+      "assessment": "A checker service/corpus is not automatically an exportable human-corrected dataset; access and annotation quality need resolution.",
+      "sources": [
+        "cy",
+        "cypaper"
+      ]
+    }
+  ],
+  "sources": {
+    "lt": {
+      "title": "LanguageTool supported languages and linked rule sources",
+      "url": "https://dev.languagetool.org/languages",
+      "accessed": "2026-09-26"
+    },
+    "de": {
+      "title": "Falko-MERLIN GEC release",
+      "url": "https://github.com/adrianeboyd/boyd-wnut2018",
+      "accessed": "2026-09-26"
+    },
+    "cs": {
+      "title": "GECCC paper and CC BY-SA 4.0 release",
+      "url": "https://arxiv.org/abs/2201.05590",
+      "accessed": "2026-09-26"
+    },
+    "uk": {
+      "title": "UA-GEC 2.0, GEC-only and GEC+Fluency",
+      "url": "https://github.com/grammarly/ua-gec",
+      "accessed": "2026-09-26"
+    },
+    "merlin": {
+      "title": "Original MERLIN resource and CC BY-SA 4.0 terms",
+      "url": "https://lt.eurac.edu/merlin/index.php",
+      "accessed": "2026-09-26"
+    },
+    "it": {
+      "title": "CItA L1 error-annotated corpus",
+      "url": "https://aclanthology.org/L16-1014/",
+      "accessed": "2026-09-26"
+    },
+    "es": {
+      "title": "COWS-L2H original annotations and instructor corrections",
+      "url": "https://github.com/ucdaviscl/cowsl2h",
+      "accessed": "2026-09-26"
+    },
+    "et": {
+      "title": "EstGEC-L2 development/test corpus and error categories",
+      "url": "https://github.com/tlu-dt-nlp/EstGEC-L2-Corpus",
+      "accessed": "2026-09-26"
+    },
+    "ettrain": {
+      "title": "Tartu L1/L2 GEC resources",
+      "url": "https://github.com/TartuNLP/estgec",
+      "accessed": "2026-09-26"
+    },
+    "etspell": {
+      "title": "Estonian spelling benchmark",
+      "url": "https://github.com/tlu-dt-nlp/Spell-testing",
+      "accessed": "2026-09-26"
+    },
+    "eki": {
+      "title": "EKI error-annotated Estonian L2 corpus, CLARIN ACA",
+      "url": "https://metashare.ut.ee/repository/browse/eki-error-annotated-estonian-l2-learner-corpus-version-1/f7df901b9ab511ef85be77e08085ea559ad6a5dd000c454b9cf7180efc11d981/",
+      "accessed": "2026-09-26"
+    },
+    "fr": {
+      "title": "FRIDA learner corpus",
+      "url": "https://uclouvain.be/en/research-institutes/ilc/cecl/frida",
+      "accessed": "2026-09-26"
+    },
+    "grammalecte": {
+      "title": "Grammalecte French grammar and spelling checker",
+      "url": "https://www.grammalecte.net/",
+      "accessed": "2026-09-26"
+    },
+    "tr": {
+      "title": "GECTurk expert-curated transformation pipeline and human test data",
+      "url": "https://github.com/GGLAB-KU/gecturk",
+      "accessed": "2026-09-26"
+    },
+    "ru": {
+      "title": "RULEC-GEC original release and request instructions",
+      "url": "https://github.com/arozovskaya/RULEC-GEC/blob/master/README.md",
+      "accessed": "2026-09-26"
+    },
+    "sl": {
+      "title": "Solar corpus and correction-frequency resources",
+      "url": "https://www.cjvt.si/en/research/cjvt-projects/corpus-solar/",
+      "accessed": "2026-09-26"
+    },
+    "sloleks": {
+      "title": "Sloleks morphological lexicon",
+      "url": "https://viri.cjvt.si/sloleks/slv/about",
+      "accessed": "2026-09-26"
+    },
+    "pt": {
+      "title": "Error annotation in COPLE2",
+      "url": "https://aclanthology.org/L18-1649/",
+      "accessed": "2026-09-26"
+    },
+    "ptspell": {
+      "title": "Portuguese spelling dictionaries and replacement pairs",
+      "url": "https://github.com/languagetool-org/portuguese-pos-dict/blob/main/data/spelling-dict/README.md",
+      "accessed": "2026-09-26"
+    },
+    "ca": {
+      "title": "Softcatala lexical and morphological dictionary tools",
+      "url": "https://github.com/Softcatala/catalan-dict-tools",
+      "accessed": "2026-09-26"
+    },
+    "lv": {
+      "title": "LaVA manually error-annotated learner corpus",
+      "url": "https://repository.clarin.lv/repository/xmlui/handle/20.500.12574/42",
+      "accessed": "2026-09-26"
+    },
+    "lvmorph": {
+      "title": "Latvian morphology current upstream",
+      "url": "https://github.com/LUMII-AILab/Morphology",
+      "accessed": "2026-09-26"
+    },
+    "el": {
+      "title": "Greek GLC/GNC error correction resources",
+      "url": "https://aclanthology.org/2022.lrec-1.532/",
+      "accessed": "2026-09-26"
+    },
+    "ro": {
+      "title": "RoGEC/RONACC original code and data links",
+      "url": "https://github.com/teodor-cotet/RoGEC",
+      "accessed": "2026-09-26"
+    },
+    "ropaper": {
+      "title": "Neural grammatical error correction for Romanian",
+      "url": "https://arxiv.org/abs/2604.23627",
+      "accessed": "2026-09-26"
+    },
+    "eu": {
+      "title": "Orai GEC-elh-eu synthetic training and manually revised evaluation",
+      "url": "https://www.orai.eus/en/resources",
+      "accessed": "2026-09-26"
+    },
+    "fi": {
+      "title": "Finnish learner error annotation research",
+      "url": "https://bells.uib.no/index.php/bells/article/view/812",
+      "accessed": "2026-09-26"
+    },
+    "omorfi": {
+      "title": "Omorfi Finnish analyzer, generator and spelling",
+      "url": "https://github.com/flammie/omorfi",
+      "accessed": "2026-09-26"
+    },
+    "sk": {
+      "title": "Slovak CHIBY revision error corpus",
+      "url": "https://www.juls.savba.sk/errcorp_en.html",
+      "accessed": "2026-09-26"
+    },
+    "errkorp": {
+      "title": "ERRKORP learner Slovak corpus",
+      "url": "https://korpus.sk/en/corpora-and-databases/snc-corpora/errkorp-text-corpus-for-foreigners-learning-slovak-as-a-foreign-language/",
+      "accessed": "2026-09-26"
+    },
+    "ltgec": {
+      "title": "Lithuanian GEC synthetic generator code",
+      "url": "https://github.com/LukasStankevicius/Towards-Lithuanian-Grammatical-Error-Correction",
+      "accessed": "2026-09-26"
+    },
+    "bg": {
+      "title": "Bulgarian Grammar Mistakes synthetic four-class dataset",
+      "url": "https://huggingface.co/datasets/thebogko/bulgarian-grammar-mistakes",
+      "accessed": "2026-09-26"
+    },
+    "hu": {
+      "title": "Hungarian learner morphology and spelling error study",
+      "url": "https://publicatio.bibl.u-szeged.hu/4745/1/using-automatic-morphological-tools-to-process-data-from-a-learner-corpus-of-hungarian.pdf",
+      "accessed": "2026-09-26"
+    },
+    "ga": {
+      "title": "An Gramadoir Irish checker",
+      "url": "https://cadhan.com/gramadoir/",
+      "accessed": "2026-09-26"
+    },
+    "cy": {
+      "title": "Cysill Welsh grammar, mutation and spelling checker",
+      "url": "https://www.cysgliad.com/en/cysill/",
+      "accessed": "2026-09-26"
+    },
+    "cypaper": {
+      "title": "Cysill Ar-lein corpus paper",
+      "url": "https://aclanthology.org/L16-1519/",
+      "accessed": "2026-09-26"
+    },
+    "multigec": {
+      "title": "MultiGEC corpus composition and minimal/fluency distinction",
+      "url": "https://spraakbanken.github.io/multigec-2025/",
+      "accessed": "2026-09-26"
+    },
+    "multiterms": {
+      "title": "MultiGEC distribution terms",
+      "url": "https://spraakbanken.github.io/multigec-2025/terms_of_use.html",
+      "accessed": "2026-09-26"
+    },
+    "morphit": {
+      "title": "Morph-it Italian inflection lexicon",
+      "url": "https://docs.sslmit.unibo.it/doku.php?id=resources%3Amorph-it",
+      "accessed": "2026-09-26"
+    },
+    "dwdsmor": {
+      "title": "DWDSmor open versus restricted editions",
+      "url": "https://github.com/zentrum-lexikographie/dwdsmor",
+      "accessed": "2026-09-26"
+    },
+    "morphodita": {
+      "title": "MorphoDiTa analyzer and generator",
+      "url": "https://ufal.mff.cuni.cz/morphodita",
+      "accessed": "2026-09-26"
+    },
+    "estnltk": {
+      "title": "EstNLTK Estonian tools",
+      "url": "https://github.com/estnltk/estnltk",
+      "accessed": "2026-09-26"
+    },
+    "freeling": {
+      "title": "FreeLing language analysis resources",
+      "url": "https://github.com/TALP-UPC/FreeLing",
+      "accessed": "2026-09-26"
+    },
+    "githubtypos": {
+      "title": "GitHub Typo Corpus, mined rather than uniformly human-labelled",
+      "url": "https://github.com/mhagiwara/github-typo-corpus",
+      "accessed": "2026-09-26"
+    },
+    "brgec": {
+      "title": "Brazilian Portuguese manually constructed GEC benchmark",
+      "url": "https://research.latinxinai.org/papers/icml/2023/pdf/Maria_Penteado.pdf",
+      "accessed": "2026-09-26"
+    },
+    "brspell": {
+      "title": "Spelling Error Patterns in Brazilian Portuguese",
+      "url": "https://aclanthology.org/J15-1011/",
+      "accessed": "2026-09-26"
+    },
+    "cogroo": {
+      "title": "CoGrOO grammar checker source",
+      "url": "https://github.com/cogroo/cogroo4",
+      "accessed": "2026-09-26"
+    },
+    "carolina": {
+      "title": "Carolina corpus downloads and document-specific terms",
+      "url": "https://sites.usp.br/corpuscarolina/corpus/",
+      "accessed": "2026-09-26"
+    },
+    "essaybr": {
+      "title": "Essay-BR graded essay corpus",
+      "url": "https://github.com/rafaelanchieta/essay",
+      "accessed": "2026-09-26"
+    }
+  },
+  "updated_at": "2026-09-26T05:48:46.897124+00:00",
+  "first_implementation_group": [
+    "de",
+    "cs",
+    "uk",
+    "it",
+    "es",
+    "et",
+    "fr"
+  ],
+  "priority_decisions": [
+    {
+      "date": "2026-09-26",
+      "language": "fr",
+      "previous_tier": "B",
+      "tier": "A",
+      "basis": "User confirmed promotion to first implementation group; resource rank remains 7 and access/quality caveats remain unresolved."
+    }
+  ],
+  "portuguese_reassessment": {
+    "date": "2026-09-26",
+    "assessment": "pt-PT rank11/B; pt-BR rank12/B; slight observed-error evidence preference for pt-PT, not measured precision",
+    "human_linguistic_validation": false,
+    "benchmark_candidate_examples_excluding_internet": 242,
+    "benchmark_candidates_verified": false,
+    "shared_rules_require_separate_variant_validation": true
+  }
+}

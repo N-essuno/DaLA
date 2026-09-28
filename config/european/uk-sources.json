@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "pilot_max_sentences": 3000,
+      "name": "UD_Ukrainian-IU",
+      "language": "uk",
+      "path": "/work/mimir/DaLA/la_output/resources/european/uk/uk_iu-ud-train.conllu",
+      "revision": "0d5ed088e959ccfbd933d768114d8503c32c9b37",
+      "sha256": "f7282b32c72a2c6f304f1df13572b7dd9bff370d3da0abf726da00f6a15d1b14",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Ukrainian-IU/0d5ed088e959ccfbd933d768114d8503c32c9b37/uk_iu-ud-train.conllu",
+      "license": "CC BY-NC-SA 4.0"
+    }
+  ]
+}

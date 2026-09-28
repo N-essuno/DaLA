@@ -1,0 +1,4698 @@
+{
+  "language": "en",
+  "seed": "dala-quality-comparison-20260921-v1",
+  "population": 478930,
+  "n": 100,
+  "method": "Uniform reservoir sample of corrupted pairs/incorrect rows across all published splits; before judgments",
+  "rows": [
+    {
+      "pair_id": "40a3071255f46c275d16332e",
+      "split": "test",
+      "original": "Jamaica, when I visited as a child, had major poverty issues and still does to this day.",
+      "corrupted": "Jamaica, when I visited as child a, had major poverty issues and still does to this day.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2023/08/09/as-jamaica-reflects-on-61-years-of-independence-it-also-looks-to-its-future/",
+      "types": [
+        "word_swap"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 34,
+          "corrupted_start": 27,
+          "corruption_type": "word_swap",
+          "end": 34,
+          "original": "a child",
+          "protected_tokens": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "replacement": "child a",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 27
+        }
+      ],
+      "sample_id": "en-000",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "0bd92f3e7bd5fad9ed5cd6d1",
+      "split": "train",
+      "original": "Two opposition figures, Jawar Mohammed, member of Oromo Federalist Congress and Eskinder Nega, a former political prisoner and a chair of a recently formed political party, Balderas for Genuine Democracy, are spokesmen who stand out for the way they use social media to garner support.",
+      "corrupted": "Two opposition figures, Jawar Mohammed, member of Oromo Federalist Congress and Eskinder Nega, a forrmer political prisoner and a chair of a recently formed political party, Balderas for Genuine Democracy, are spokesmen who stand out for the way they uses social media to garner support.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2020/05/25/conflict-of-identities-a-driving-force-behind-ethiopias-incendiary-social-media-rhetoric/",
+      "types": [
+        "spelling",
+        "subject_verb_agreement"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 104,
+          "corrupted_start": 97,
+          "corruption_type": "spelling",
+          "end": 103,
+          "original": "former",
+          "protected_tokens": [
+            17
+          ],
+          "replacement": "forrmer",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 97
+        },
+        {
+          "corrupted_end": 255,
+          "corrupted_start": 251,
+          "corruption_type": "subject_verb_agreement",
+          "end": 253,
+          "original": "use",
+          "protected_tokens": [
+            43,
+            44
+          ],
+          "replacement": "uses",
+          "rule_id": "subject_verb_agreement:productive",
+          "start": 250
+        }
+      ],
+      "sample_id": "en-001",
+      "source_judgment": "uncertain",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Apposition around member of Oromo Federalist Congress lacks a closing comma; complex list punctuation needs adjudication."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "87b7b7aa8e548d7027300a59",
+      "split": "train",
+      "original": "But they are now discovering that their agenda for domestic reform attracts a more mixed response.",
+      "corrupted": "But they are now discovering taht their agenda for domesstic reform attracts a more mixed response.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2020/01/14/ukraines-workers-mobilise-against-controversial-new-labour-law/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 33,
+          "corrupted_start": 29,
+          "corruption_type": "spelling",
+          "end": 33,
+          "original": "that",
+          "protected_tokens": [
+            41
+          ],
+          "replacement": "taht",
+          "rule_id": "spelling:that:taht",
+          "start": 29
+        },
+        {
+          "corrupted_end": 60,
+          "corrupted_start": 51,
+          "corruption_type": "spelling",
+          "end": 59,
+          "original": "domestic",
+          "protected_tokens": [
+            45
+          ],
+          "replacement": "domesstic",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 51
+        }
+      ],
+      "sample_id": "en-002",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "ea45e092a38ff3365a920c52",
+      "split": "test",
+      "original": "Jillian C. York‘s excellent guide to helping refugees, How You Can Help Syrian (and Other) Refugees, is a good place to start.",
+      "corrupted": "Jillian C. York‘s excellent guide to helping refugees, How You Can Helping Syrian (and Other) Refugees, is a good place to start.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/specialcoverage/2016-special-coverage/streams-of-refugees-seek-sanctuary-in-europe/",
+      "types": [
+        "modal_verb_form"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 74,
+          "corrupted_start": 67,
+          "corruption_type": "modal_verb_form",
+          "end": 71,
+          "original": "Help",
+          "protected_tokens": [
+            35,
+            36
+          ],
+          "replacement": "Helping",
+          "rule_id": "modal_verb_form:productive",
+          "start": 67
+        }
+      ],
+      "sample_id": "en-003",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "5da70e09cc653496c1171a10",
+      "split": "train",
+      "original": "While being marred as monsters, they suffer from the piled-up pressure of crafting an elite kid.",
+      "corrupted": "While being marred as monsters, they suffers from the piled-up pressure of crafting an elite kid.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2016/08/04/who-are-hong-kongs-monster-parents/",
+      "types": [
+        "subject_verb_agreement"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 44,
+          "corrupted_start": 37,
+          "corruption_type": "subject_verb_agreement",
+          "end": 43,
+          "original": "suffer",
+          "protected_tokens": [
+            14,
+            15
+          ],
+          "replacement": "suffers",
+          "rule_id": "subject_verb_agreement:productive",
+          "start": 37
+        }
+      ],
+      "sample_id": "en-004",
+      "source_judgment": "uncertain",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Marred as monsters appears to misuse marred for branded/portrayed; lexical rather than clear syntactic error."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "c27595e6be75b7e493508440",
+      "split": "train",
+      "original": "I couldn’t stop laughing, but I was so curious how the monk will react.",
+      "corrupted": "I couldn’t stop laughing, but I was so curious how the monk will reacting.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2008/03/05/korea-religious-encounter-on-the-subway/",
+      "types": [
+        "modal_verb_form"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 73,
+          "corrupted_start": 65,
+          "corruption_type": "modal_verb_form",
+          "end": 70,
+          "original": "react",
+          "protected_tokens": [
+            26,
+            27
+          ],
+          "replacement": "reacting",
+          "rule_id": "modal_verb_form:productive",
+          "start": 65
+        }
+      ],
+      "sample_id": "en-005",
+      "source_judgment": "uncertain",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Past narrative with will react may need would, but an ongoing future reference can license no backshift."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "e840c78f13016f75bd8fa6a0",
+      "split": "train",
+      "original": "Soon after his return home, he was forced to leave again for another foreign country and declined to specify his whereabouts due to safety concerns.",
+      "corrupted": "Soon after his return home, he was forced to leave again for another foreign contry and declined to specify his whereabouts due to safety concerns.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2020/07/29/congolese-journalist-forced-into-exile-for-documentary-on-violent-evictions/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 83,
+          "corrupted_start": 77,
+          "corruption_type": "spelling",
+          "end": 84,
+          "original": "country",
+          "protected_tokens": [
+            32
+          ],
+          "replacement": "contry",
+          "rule_id": "spelling:country:contry",
+          "start": 77
+        }
+      ],
+      "sample_id": "en-006",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "1a65e9402d36d63a03f1aa3b",
+      "split": "train",
+      "original": "Meanwhile, back in Bahrain, Mahmood Al Yousif is worried that Tunisia will now go from one extreme – to the other.",
+      "corrupted": "Meanwhile, back in Bahrain, Mahmood Al Yousif is worried taht Tunisia will now going from one extreme – to the other.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2011/01/19/middle-east-a-closer-look-at-tunisias-uprising/",
+      "types": [
+        "spelling",
+        "modal_verb_form"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 61,
+          "corrupted_start": 57,
+          "corruption_type": "spelling",
+          "end": 61,
+          "original": "that",
+          "protected_tokens": [
+            11
+          ],
+          "replacement": "taht",
+          "rule_id": "spelling:that:taht",
+          "start": 57
+        },
+        {
+          "corrupted_end": 84,
+          "corrupted_start": 79,
+          "corruption_type": "modal_verb_form",
+          "end": 81,
+          "original": "go",
+          "protected_tokens": [
+            13,
+            15
+          ],
+          "replacement": "going",
+          "rule_id": "modal_verb_form:productive",
+          "start": 79
+        }
+      ],
+      "sample_id": "en-007",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "302eb214acc1abcfa9b80588",
+      "split": "train",
+      "original": "Several Georgian businesses or small business owners have also jumped on the bandwagon of anti-Russian sentiments, including the country’s two biggest banks.",
+      "corrupted": "Several Georgian businesses or small business owners have also jumped on the bandwagon of anti-Russian sentiments, including the contry’s two biggesst banks.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2022/04/22/russian-emigres-face-chilly-reception-in-georgia/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 135,
+          "corrupted_start": 129,
+          "corruption_type": "spelling",
+          "end": 136,
+          "original": "country",
+          "protected_tokens": [
+            21
+          ],
+          "replacement": "contry",
+          "rule_id": "spelling:country:contry",
+          "start": 129
+        },
+        {
+          "corrupted_end": 150,
+          "corrupted_start": 142,
+          "corruption_type": "spelling",
+          "end": 150,
+          "original": "biggest",
+          "protected_tokens": [
+            24
+          ],
+          "replacement": "biggesst",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 143
+        }
+      ],
+      "sample_id": "en-008",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "fc89f9c5a9410bf47ea6c85a",
+      "split": "train",
+      "original": "In 2011, Iran began a second wave of targeting activists.",
+      "corrupted": "In 2011, Iran began a second wave of targetinng acctivists.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2016/11/03/my-life-for-iran-the-4th-anniversary-of-iranian-activist-sattar-beheshtis-death/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 47,
+          "corrupted_start": 37,
+          "corruption_type": "spelling",
+          "end": 46,
+          "original": "targeting",
+          "protected_tokens": [
+            9
+          ],
+          "replacement": "targetinng",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 37
+        },
+        {
+          "corrupted_end": 58,
+          "corrupted_start": 48,
+          "corruption_type": "spelling",
+          "end": 56,
+          "original": "activists",
+          "protected_tokens": [
+            10
+          ],
+          "replacement": "acctivists",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 47
+        }
+      ],
+      "sample_id": "en-009",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "7058c8f3101ebe9c06d26001",
+      "split": "train",
+      "original": "The recently published Pandora Papers, a global investigation by the International Consortium of Investigative Journalists (ICIJ), in collaboration with more than 140 media outlets around the world, has identified Chaudhary Group and Golchha Organisation, among others, as involved in such activities.",
+      "corrupted": "The recently published Pandora Papers, a global investigation by the International Consortium of Investigative Journalists (ICIJ), in collaboration with more than 140 media outlets around world the, has identified Chaudhary Group and Golchha Organisation, among others, as involved in such activities.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2021/10/06/pandora-papers-sixteen-nepalis-have-illegally-invested-in-offshore-companies-in-overseas-tax-havens/",
+      "types": [
+        "word_swap"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 197,
+          "corrupted_start": 188,
+          "corruption_type": "word_swap",
+          "end": 197,
+          "original": "the world",
+          "protected_tokens": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94
+          ],
+          "replacement": "world the",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 188
+        }
+      ],
+      "sample_id": "en-010",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "17de93978721dc235e83ddba",
+      "split": "train",
+      "original": "It’s clear that some of the budget initiatives are aimed at the Singapore property market, which has been in a bit of a bubble lately, with house prices increasing much faster than income.",
+      "corrupted": "It’s clear that some of the budget initiatives are aimed at the Singapore property market, which has were in a bit of a bubble lately, with house prices increasing much faster than income.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2013/03/17/will-singapore-2013-budget-promote-inclusive-society/",
+      "types": [
+        "perfect_participle"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 105,
+          "corrupted_start": 101,
+          "corruption_type": "perfect_participle",
+          "end": 105,
+          "original": "been",
+          "protected_tokens": [
+            18,
+            19
+          ],
+          "replacement": "were",
+          "rule_id": "perfect_participle:productive",
+          "start": 101
+        }
+      ],
+      "sample_id": "en-011",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "f60fd25135f2196e08c6dd09",
+      "split": "train",
+      "original": "The song's lyrics are heavily loaded with political satire, something that is rarely witnessed in Pakistan in recent years.",
+      "corrupted": "The song's lyrics are heavily loaded with political satire, something taht is rarely witnessed in Pakistan in recent years.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2011/10/26/pakistan-political-satire-becomes-internet-sensation/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 74,
+          "corrupted_start": 70,
+          "corruption_type": "spelling",
+          "end": 74,
+          "original": "that",
+          "protected_tokens": [
+            34
+          ],
+          "replacement": "taht",
+          "rule_id": "spelling:that:taht",
+          "start": 70
+        }
+      ],
+      "sample_id": "en-012",
+      "source_judgment": "uncertain",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Is rarely witnessed ... in recent years has a tense/time-frame mismatch; needs adjudication."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "3884f6fb83b0931dd338ad30",
+      "split": "train",
+      "original": "In this context, censorship is one of the most worrying impacts, with Agência Pública itself being among those affected.",
+      "corrupted": "In these context, censorship is one of the most worryinng impacts, with Agência Pública itself being among those affected.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2024/04/03/in-brazil-since-bolsonaro-attacks-on-journalists-fell-while-lawsuits-against-them-increased/",
+      "types": [
+        "demonstrative_number",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 8,
+          "corrupted_start": 3,
+          "corruption_type": "demonstrative_number",
+          "end": 7,
+          "original": "this",
+          "protected_tokens": [
+            16,
+            17
+          ],
+          "replacement": "these",
+          "rule_id": "demonstrative_number:this:these",
+          "start": 3
+        },
+        {
+          "corrupted_end": 57,
+          "corrupted_start": 48,
+          "corruption_type": "spelling",
+          "end": 55,
+          "original": "worrying",
+          "protected_tokens": [
+            25
+          ],
+          "replacement": "worryinng",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 47
+        }
+      ],
+      "sample_id": "en-013",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "1a17ab29ea6be659001c212f",
+      "split": "train",
+      "original": "A lot of fronts are open against us, and the information front is one of the most important ones.",
+      "corrupted": "A lot of fronts are open against us, and the informattion front is one of the most imoprtant ones.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2015/02/25/ministry-of-truth-recruits-ukrainians-for-internet-army/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 57,
+          "corrupted_start": 45,
+          "corruption_type": "spelling",
+          "end": 56,
+          "original": "information",
+          "protected_tokens": [
+            26
+          ],
+          "replacement": "informattion",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 45
+        },
+        {
+          "corrupted_end": 92,
+          "corrupted_start": 83,
+          "corruption_type": "spelling",
+          "end": 91,
+          "original": "important",
+          "protected_tokens": [
+            33
+          ],
+          "replacement": "imoprtant",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 82
+        }
+      ],
+      "sample_id": "en-014",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "df7a7e0ca6500e5eb5fd3f41",
+      "split": "train",
+      "original": "In less than three months in Mexico, eight local journalists have been murdered and multiple aggressions against communicators have been documented.",
+      "corrupted": "In less than three months in Mexico, eight local journalists have been murdered and mulltiple aggressions against communicators have been documented.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2022/04/04/mexico-in-crisis-with-eight-journalists-murdered-so-far-this-year/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 93,
+          "corrupted_start": 84,
+          "corruption_type": "spelling",
+          "end": 92,
+          "original": "multiple",
+          "protected_tokens": [
+            15
+          ],
+          "replacement": "mulltiple",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 84
+        }
+      ],
+      "sample_id": "en-015",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "aeca846ca10e175e6ea59083",
+      "split": "train",
+      "original": "The effect that Shakira’s latest song has had on the audience is perhaps the most controversial point of her career.",
+      "corrupted": "The effect that Shakira’s latest song has had on the audience is perhaps the most controversial point of her carreer.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2023/02/22/shakira-an-unexpected-feminist-icon/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 116,
+          "corrupted_start": 109,
+          "corruption_type": "spelling",
+          "end": 115,
+          "original": "career",
+          "protected_tokens": [
+            20
+          ],
+          "replacement": "carreer",
+          "rule_id": "spelling:career:carreer",
+          "start": 109
+        }
+      ],
+      "sample_id": "en-016",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "295b73ea40962a6cb4a1ea0e",
+      "split": "test",
+      "original": "People began gathering for the Solidarnost event at around 19:00 MSK.",
+      "corrupted": "People began gathreing for the Solidarnost event at around 19:00 MSK.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2011/12/05/russia-the-revolt-of-net-hamsters/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 22,
+          "corrupted_start": 13,
+          "corruption_type": "spelling",
+          "end": 22,
+          "original": "gathering",
+          "protected_tokens": [
+            2
+          ],
+          "replacement": "gathreing",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 13
+        }
+      ],
+      "sample_id": "en-017",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "458457a23c4c82ed10ca8538",
+      "split": "test",
+      "original": "It's good that it is neither 37 nor 68, and nor 86 now!",
+      "corrupted": "It's good taht it is neither 37 nor 68, and nor 86 now!",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2007/05/25/kazakhstan-against-bashization/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 14,
+          "corrupted_start": 10,
+          "corruption_type": "spelling",
+          "end": 14,
+          "original": "that",
+          "protected_tokens": [
+            3
+          ],
+          "replacement": "taht",
+          "rule_id": "spelling:that:taht",
+          "start": 10
+        }
+      ],
+      "sample_id": "en-018",
+      "source_judgment": "uncertain",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Neither ... nor ..., and nor ... is questionable coordination, possibly informal afterthought."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "76855bd28c8d611b45d78ee2",
+      "split": "train",
+      "original": "Increasingly expensive housing prices and severe air pollution at home have also driven many rich Chinese to look beyond China.",
+      "corrupted": "Increasingly expensive housing prices and severe air pollution at home have also drove many rich Chinese to look beyond China.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2017/02/08/chinese-say-authorities-are-going-after-the-little-guy-with-curbs-on-foreign-exchange/",
+      "types": [
+        "perfect_participle"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 86,
+          "corrupted_start": 81,
+          "corruption_type": "perfect_participle",
+          "end": 87,
+          "original": "driven",
+          "protected_tokens": [
+            10,
+            12
+          ],
+          "replacement": "drove",
+          "rule_id": "perfect_participle:productive",
+          "start": 81
+        }
+      ],
+      "sample_id": "en-019",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "eb0e2a748712cf6ebd1e9061",
+      "split": "train",
+      "original": "Plus there’s a lot of political chaos going on, with accusations of bribery, impeachments complaints, calls for resignation and large scale corruption charges being hurled everywhere.",
+      "corrupted": "Plus there’s a lot of political chaos going on, with accusations of bribery, impeachments complaints, calls for resignation and large scale corruption charges being hurrled everywhere.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2007/10/19/philippines-deadly-mall-blast-shocks-filipinos/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 172,
+          "corrupted_start": 165,
+          "corruption_type": "spelling",
+          "end": 171,
+          "original": "hurled",
+          "protected_tokens": [
+            55
+          ],
+          "replacement": "hurrled",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 165
+        }
+      ],
+      "sample_id": "en-020",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Plural attributive impeachments complaints; expected impeachment complaints."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "665bd507479c3e5ce6a1eb35",
+      "split": "test",
+      "original": "The game allowed them to know each other weirdness and habits which in turn helps unify the community and develop a better friendship between bloggers.",
+      "corrupted": "The game allowed them to know each other weirdness and habits which in turn helps unify the community and dveelop a better friensdhip between bloggers.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2007/04/30/weekly-roundup-of-myanmar-blogs/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 113,
+          "corrupted_start": 106,
+          "corruption_type": "spelling",
+          "end": 113,
+          "original": "develop",
+          "protected_tokens": [
+            76
+          ],
+          "replacement": "dveelop",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 106
+        },
+        {
+          "corrupted_end": 133,
+          "corrupted_start": 123,
+          "corruption_type": "spelling",
+          "end": 133,
+          "original": "friendship",
+          "protected_tokens": [
+            79
+          ],
+          "replacement": "friensdhip",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 123
+        }
+      ],
+      "sample_id": "en-021",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Missing possessive in each other weirdness; expected each other’s weirdness."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "324b65a2db9469b1bd2bbecd",
+      "split": "train",
+      "original": "Despite long-standing assurances of commitment from Ukraine’s allies in the West, the war has drained both military resources and the political appetite to maintain huge amounts of military aid.",
+      "corrupted": "Despite long-standing assurances of commitment from Ukraine’s allies in the West, the war has drained both military resources and the political appettie to maintain huge amounts of military aid.",
+      "source": "360info",
+      "url": "https://360info.org/no-end-in-sight-for-war-in-ukraine/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 152,
+          "corrupted_start": 144,
+          "corruption_type": "spelling",
+          "end": 152,
+          "original": "appetite",
+          "protected_tokens": [
+            25
+          ],
+          "replacement": "appettie",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 144
+        }
+      ],
+      "sample_id": "en-022",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "53b94f4a50f320a0420e8621",
+      "split": "train",
+      "original": "In fact we are bilingual and can speak Ukrainian fluently, which is a must for everyone living here.",
+      "corrupted": "In fact we are bilingual and can speaking Ukrainian fulently, which is a must for everyone living here.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2012/09/25/ukraine-localized-yes-butno-meme-highlights-most-popular-stereotypes/",
+      "types": [
+        "modal_verb_form",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 41,
+          "corrupted_start": 33,
+          "corruption_type": "modal_verb_form",
+          "end": 38,
+          "original": "speak",
+          "protected_tokens": [
+            26,
+            27
+          ],
+          "replacement": "speaking",
+          "rule_id": "modal_verb_form:productive",
+          "start": 33
+        },
+        {
+          "corrupted_end": 60,
+          "corrupted_start": 52,
+          "corruption_type": "spelling",
+          "end": 57,
+          "original": "fluently",
+          "protected_tokens": [
+            29
+          ],
+          "replacement": "fulently",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 49
+        }
+      ],
+      "sample_id": "en-023",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "ef4bf77c0b24887dca3720e6",
+      "split": "test",
+      "original": "Afghans around the world were proud of the six athletes representing Afghanistan at the London Olympics.",
+      "corrupted": "Afghans around the world were proud of the six atthletes represennting Afghanistan at the London Olympics.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2012/08/13/afghanistan-when-olympic-bronze-means-more-than-gold/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 56,
+          "corrupted_start": 47,
+          "corruption_type": "spelling",
+          "end": 55,
+          "original": "athletes",
+          "protected_tokens": [
+            10
+          ],
+          "replacement": "atthletes",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 47
+        },
+        {
+          "corrupted_end": 70,
+          "corrupted_start": 57,
+          "corruption_type": "spelling",
+          "end": 68,
+          "original": "representing",
+          "protected_tokens": [
+            12
+          ],
+          "replacement": "represennting",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 56
+        }
+      ],
+      "sample_id": "en-024",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "a6a2a42ae8378b3fff4cc027",
+      "split": "train",
+      "original": "It's a question, did the mother run away or was she murdered?",
+      "corrupted": "It's a qusetion, did the mother run away or was she murdered?",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2015/12/11/chinese-authorities-think-the-internet-could-use-more-positive-energy/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 15,
+          "corrupted_start": 7,
+          "corruption_type": "spelling",
+          "end": 15,
+          "original": "question",
+          "protected_tokens": [
+            3
+          ],
+          "replacement": "qusetion",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 7
+        }
+      ],
+      "sample_id": "en-025",
+      "source_judgment": "uncertain",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Comma before a direct question may represent informal question introduction; punctuation judgment uncertain."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "919b922f903c68b1f4a72f03",
+      "split": "train",
+      "original": "Unlike other Western countries, the habit of eating wild birds and animals in China has not changed with industrialization and modernization as civic activities such as environmental and animal rights advocacy are repressed.",
+      "corrupted": "Unlike other Western countries, the habit of eating wild birds and animals in China has not changed with industrialization and modernization as civic activities such as environmental and anmial rights advocacy are repressed.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2012/10/25/china-failure-to-end-the-slaughter-of-migratory-birds/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 193,
+          "corrupted_start": 187,
+          "corruption_type": "spelling",
+          "end": 193,
+          "original": "animal",
+          "protected_tokens": [
+            29
+          ],
+          "replacement": "anmial",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 187
+        }
+      ],
+      "sample_id": "en-026",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "48cb544ff150c5ea46705e5d",
+      "split": "train",
+      "original": "They see that we want a strong Poland—a strong Poland that's part of Europe.",
+      "corrupted": "They sees that we want a strong Poland—a strong Poland that's part of Europe.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2016/05/23/global-voices-interviews-activists-from-defense-of-democracy-committee-who-say-poland-is-in-peril/",
+      "types": [
+        "subject_verb_agreement"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 9,
+          "corrupted_start": 5,
+          "corruption_type": "subject_verb_agreement",
+          "end": 8,
+          "original": "see",
+          "protected_tokens": [
+            57,
+            58
+          ],
+          "replacement": "sees",
+          "rule_id": "subject_verb_agreement:productive",
+          "start": 5
+        }
+      ],
+      "sample_id": "en-027",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "0a99bdc313fc3891e75dd47f",
+      "split": "train",
+      "original": "Governments will be carefully balancing these competing factors when crafting their national space regulations.",
+      "corrupted": "Governments will be careffully balancing these cmopeting factors when crafting their national space regulations.",
+      "source": "360info",
+      "url": "https://360info.org/governing-space-for-the-benefit-of-humanity/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 30,
+          "corrupted_start": 20,
+          "corruption_type": "spelling",
+          "end": 29,
+          "original": "carefully",
+          "protected_tokens": [
+            62
+          ],
+          "replacement": "careffully",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 20
+        },
+        {
+          "corrupted_end": 56,
+          "corrupted_start": 47,
+          "corruption_type": "spelling",
+          "end": 55,
+          "original": "competing",
+          "protected_tokens": [
+            65
+          ],
+          "replacement": "cmopeting",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 46
+        }
+      ],
+      "sample_id": "en-028",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "9077ad340e449491bef8af44",
+      "split": "train",
+      "original": "DDoS attacks, infiltration techniques and blockage of dissident domain names were common during the Ben Ali era in Tunisia, and these types of attacks are increasingly becoming commonplace in Morocco.",
+      "corrupted": "DDoS attacks, infiltration techniques and blockage of dissident domian names were common during the Ben Ali era in Tunisia, and this types of attacks are increasingly becoming commonplace in Morocco.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2011/08/03/morocco-militant-website-sustains-ddos-attack/",
+      "types": [
+        "spelling",
+        "demonstrative_number"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 70,
+          "corrupted_start": 64,
+          "corruption_type": "spelling",
+          "end": 70,
+          "original": "domain",
+          "protected_tokens": [
+            9
+          ],
+          "replacement": "domian",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 64
+        },
+        {
+          "corrupted_end": 132,
+          "corrupted_start": 128,
+          "corruption_type": "demonstrative_number",
+          "end": 133,
+          "original": "these",
+          "protected_tokens": [
+            22,
+            23
+          ],
+          "replacement": "this",
+          "rule_id": "demonstrative_number:these:this",
+          "start": 128
+        }
+      ],
+      "sample_id": "en-029",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "38175e49bd8434bd35623792",
+      "split": "train",
+      "original": "So, what we know about 20 years of our history can be learned just looking his photos.",
+      "corrupted": "So, what we knows about 20 years of our history can be learned just lookinng his photos.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2005/09/08/brazils-famous-flickr-photographer/",
+      "types": [
+        "subject_verb_agreement",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 17,
+          "corrupted_start": 12,
+          "corruption_type": "subject_verb_agreement",
+          "end": 16,
+          "original": "know",
+          "protected_tokens": [
+            150,
+            151
+          ],
+          "replacement": "knows",
+          "rule_id": "subject_verb_agreement:productive",
+          "start": 12
+        },
+        {
+          "corrupted_end": 76,
+          "corrupted_start": 68,
+          "corruption_type": "spelling",
+          "end": 74,
+          "original": "looking",
+          "protected_tokens": [
+            162
+          ],
+          "replacement": "lookinng",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 67
+        }
+      ],
+      "sample_id": "en-030",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Missing at in looking his photos."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "c233258228cc62e557c0f127",
+      "split": "train",
+      "original": "I don’t think anywhere else in this world can order a woman's uterus to function through decades of policy meetings rather than incentives.",
+      "corrupted": "I don’t thought anywhere else in this world can order a woman's uterus to function through decades of policy meetings rather than incentives.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2021/06/02/chinas-new-three-child-policy-gives-birth-to-ironic-jokes-on-social-media/",
+      "types": [
+        "do_support_form"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 15,
+          "corrupted_start": 8,
+          "corruption_type": "do_support_form",
+          "end": 13,
+          "original": "think",
+          "protected_tokens": [
+            17,
+            19
+          ],
+          "replacement": "thought",
+          "rule_id": "do_support_form:productive",
+          "start": 8
+        }
+      ],
+      "sample_id": "en-031",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "57fa384376026a67ccbfbe61",
+      "split": "train",
+      "original": "Has the World Forum for Democracy reached maturity with this second event?",
+      "corrupted": "Has the World Forum for Democracy reached matturity with this second event?",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2013/12/22/world-forum-for-democracy-2013-connecting-citizens-and-institutions/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 51,
+          "corrupted_start": 42,
+          "corruption_type": "spelling",
+          "end": 50,
+          "original": "maturity",
+          "protected_tokens": [
+            7
+          ],
+          "replacement": "matturity",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 42
+        }
+      ],
+      "sample_id": "en-032",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "49d87b33827874bd7d2fcbe3",
+      "split": "train",
+      "original": "Shortly after someone copied the content of Mohamad's article online, the Lebanese LGBT Media Monitor put out a call on its Facebook page for bloggers to post their responses online, promising that it would publish them.",
+      "corrupted": "Shortly after someone copied the content of Mohamad's article online, the Lebanese LGBT Media Monitor put out a call on its Facebook page for bloggers to post their responses online, promising that it would publishing them.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2012/05/09/lebanon-uproar-over-homophobic-article-in-university-newspaper/",
+      "types": [
+        "modal_verb_form"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 217,
+          "corrupted_start": 207,
+          "corruption_type": "modal_verb_form",
+          "end": 214,
+          "original": "publish",
+          "protected_tokens": [
+            55,
+            56
+          ],
+          "replacement": "publishing",
+          "rule_id": "modal_verb_form:productive",
+          "start": 207
+        }
+      ],
+      "sample_id": "en-033",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "16c5698e9ba7a52caf8481a2",
+      "split": "train",
+      "original": "As I learn, fail in the learning, failing hopefully every time towards a better way of witnessing police brutality, violent and calculated racism against black citizens, and the horrors of the racist police industrial state, I recommit myself to listening.",
+      "corrupted": "As I learn, fail in learning the, failing hopefully every time towards a better way of witnessing police brutality, violent and calculated racism against black citizens, and the horrors of the racist police industrial state, I recommit myself to listening.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2020/06/03/to-speak-of-george-floyd-it-is-necessary-to-speak-of-my-own-failures/",
+      "types": [
+        "word_swap"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 32,
+          "corrupted_start": 20,
+          "corruption_type": "word_swap",
+          "end": 32,
+          "original": "the learning",
+          "protected_tokens": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "replacement": "learning the",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 20
+        }
+      ],
+      "sample_id": "en-034",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "fbe97fb07b3ea87546d30d4f",
+      "split": "train",
+      "original": "The gospels which reign over us are different and not found in the Bible.",
+      "corrupted": "The gsopels which reign over us are diferent and not found in the Bible.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2011/08/19/costa-rica-slut-walk-discussions-on-religion-and-womens-rights/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 11,
+          "corrupted_start": 4,
+          "corruption_type": "spelling",
+          "end": 11,
+          "original": "gospels",
+          "protected_tokens": [
+            1
+          ],
+          "replacement": "gsopels",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 4
+        },
+        {
+          "corrupted_end": 44,
+          "corrupted_start": 36,
+          "corruption_type": "spelling",
+          "end": 45,
+          "original": "different",
+          "protected_tokens": [
+            7
+          ],
+          "replacement": "diferent",
+          "rule_id": "spelling:different:diferent",
+          "start": 36
+        }
+      ],
+      "sample_id": "en-035",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "8117baa6a3a3420d639aee09",
+      "split": "test",
+      "original": "He wants us to become paralysed and exhausted from the lack of services.",
+      "corrupted": "He want us to become paralysed and exhausted from the lack of serrvices.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2014/04/19/syria-life-as-it-was-before-the-invention-of-the-light-bulb/",
+      "types": [
+        "subject_verb_agreement",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 7,
+          "corrupted_start": 3,
+          "corruption_type": "subject_verb_agreement",
+          "end": 8,
+          "original": "wants",
+          "protected_tokens": [
+            121,
+            122
+          ],
+          "replacement": "want",
+          "rule_id": "subject_verb_agreement:productive",
+          "start": 3
+        },
+        {
+          "corrupted_end": 71,
+          "corrupted_start": 62,
+          "corruption_type": "spelling",
+          "end": 71,
+          "original": "services",
+          "protected_tokens": [
+            133
+          ],
+          "replacement": "serrvices",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 63
+        }
+      ],
+      "sample_id": "en-036",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "3a624304451de0ac6b6dbae2",
+      "split": "train",
+      "original": "This time, 2,535 out of the 2,638 members of the CAL flight attendants union voted in support of the strike.",
+      "corrupted": "This time, 2,535 out of the 2,638 members of the CAL flight attendants union voted in support of strike the.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2016/06/30/taiwans-first-airline-strike-inspires-workers-in-other-sectors-to-reflect-on-their-rights/",
+      "types": [
+        "word_swap"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 107,
+          "corrupted_start": 97,
+          "corruption_type": "word_swap",
+          "end": 107,
+          "original": "the strike",
+          "protected_tokens": [
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78
+          ],
+          "replacement": "strike the",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 97
+        }
+      ],
+      "sample_id": "en-037",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "75a1634a8b501b530669caec",
+      "split": "train",
+      "original": "We should care that Keithisha's family already believes this killing will not be solved.",
+      "corrupted": "We should caring that Keithisha's family already believes this killing will not be solved.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2022/02/05/yet-another-trinidadian-woman-is-abducted-murdered-and-dumped-leaving-citizens-frustrated-and-fearful/",
+      "types": [
+        "modal_verb_form"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 16,
+          "corrupted_start": 10,
+          "corruption_type": "modal_verb_form",
+          "end": 14,
+          "original": "care",
+          "protected_tokens": [
+            32,
+            33
+          ],
+          "replacement": "caring",
+          "rule_id": "modal_verb_form:productive",
+          "start": 10
+        }
+      ],
+      "sample_id": "en-038",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "01ace634de9a7ecba087bd6c",
+      "split": "train",
+      "original": "Frank, LiveJournal's mascot, has now more reasons to cry.",
+      "corrupted": "Frank, LiveJournal's mascot, has now more reasnos to cry.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2011/04/08/russia-distributed-denial-of-livejournal/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 49,
+          "corrupted_start": 42,
+          "corruption_type": "spelling",
+          "end": 49,
+          "original": "reasons",
+          "protected_tokens": [
+            9
+          ],
+          "replacement": "reasnos",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 42
+        }
+      ],
+      "sample_id": "en-039",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "750159116f10083348f81e7e",
+      "split": "train",
+      "original": "Women’s sexuality as a whole is a completely side-lined and unacknowledged part of womanhood, where societies, cultures, traditions and religions refuse to recognize women’s sexual rights and bodily autonomy.",
+      "corrupted": "Women’s sexuality as a whole is a completely side-lined and unacknowledged part of womanhood, where societies, cultures, traditions and religions refuse to recognzie women’s sexual rights and bodily autonomy.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2014/01/27/prominent-kenyan-writer-binyavanga-wainaina-comes-out-as-gay/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 165,
+          "corrupted_start": 156,
+          "corruption_type": "spelling",
+          "end": 165,
+          "original": "recognize",
+          "protected_tokens": [
+            200
+          ],
+          "replacement": "recognzie",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 156
+        }
+      ],
+      "sample_id": "en-040",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "344233ed850981bf09fbfbf4",
+      "split": "train",
+      "original": "The statement generated concern in the local diplomatic circles.",
+      "corrupted": "The stattement generrated concern in the local diplomatic circles.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2015/10/25/new-nicaraguan-international-cooperation-policy-raises-questions-of-transparent-finances/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 14,
+          "corrupted_start": 4,
+          "corruption_type": "spelling",
+          "end": 13,
+          "original": "statement",
+          "protected_tokens": [
+            1
+          ],
+          "replacement": "stattement",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 4
+        },
+        {
+          "corrupted_end": 25,
+          "corrupted_start": 15,
+          "corruption_type": "spelling",
+          "end": 23,
+          "original": "generated",
+          "protected_tokens": [
+            2
+          ],
+          "replacement": "generrated",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 14
+        }
+      ],
+      "sample_id": "en-041",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "419d07ce6953e93556f088ea",
+      "split": "train",
+      "original": "In Hong Kong, the space for voicing out has shrunk.",
+      "corrupted": "In Hong Kong, the space for voicinng out has shrank.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2020/10/01/fearing-the-national-security-law-hongkongers-say-farewell-to-their-home-city/",
+      "types": [
+        "spelling",
+        "perfect_participle"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 36,
+          "corrupted_start": 28,
+          "corruption_type": "spelling",
+          "end": 35,
+          "original": "voicing",
+          "protected_tokens": [
+            43
+          ],
+          "replacement": "voicinng",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 28
+        },
+        {
+          "corrupted_end": 51,
+          "corrupted_start": 45,
+          "corruption_type": "perfect_participle",
+          "end": 50,
+          "original": "shrunk",
+          "protected_tokens": [
+            45,
+            46
+          ],
+          "replacement": "shrank",
+          "rule_id": "perfect_participle:productive",
+          "start": 44
+        }
+      ],
+      "sample_id": "en-042",
+      "source_judgment": "uncertain",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Voicing out without an object may be regional usage; avoid equating regional English with an error."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "a8f3f270066890aff47722b2",
+      "split": "train",
+      "original": "Come on, you seem like a serious guy, who, if I recall correctly, knows his journalism and political science, so you know what I mean.",
+      "corrupted": "Come on, you seem like a serious guy, who, if I recall correctly, knows his journalism and political sccience, so you knows what I mean.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2016/11/14/dear-young-progressive-annoyed-about-the-trump-victory/",
+      "types": [
+        "spelling",
+        "subject_verb_agreement"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 109,
+          "corrupted_start": 101,
+          "corruption_type": "spelling",
+          "end": 108,
+          "original": "science",
+          "protected_tokens": [
+            93
+          ],
+          "replacement": "sccience",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 101
+        },
+        {
+          "corrupted_end": 123,
+          "corrupted_start": 118,
+          "corruption_type": "subject_verb_agreement",
+          "end": 121,
+          "original": "know",
+          "protected_tokens": [
+            96,
+            97
+          ],
+          "replacement": "knows",
+          "rule_id": "subject_verb_agreement:productive",
+          "start": 117
+        }
+      ],
+      "sample_id": "en-043",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "c3813dfe6ca5684d0ab5cbcc",
+      "split": "train",
+      "original": "In the wake of the deportations, many Colombians have decided to leave voluntarily.",
+      "corrupted": "In the wake of deportations the, many Colombians have decided to leave voluntarily.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2015/09/02/as-colombians-are-deported-en-masse-venezuelans-speak-out-against-the-government/",
+      "types": [
+        "word_swap"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 31,
+          "corrupted_start": 15,
+          "corruption_type": "word_swap",
+          "end": 31,
+          "original": "the deportations",
+          "protected_tokens": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "replacement": "deportations the",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 15
+        }
+      ],
+      "sample_id": "en-044",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "b4a45ef87beede854273e9a8",
+      "split": "train",
+      "original": "But I think it is not with an evil intent that some principals and teachers try to implement these measures.",
+      "corrupted": "But I think it is not with an evil intent that some principals and teachers try to implement this measures.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2016/07/26/a-school-in-timor-leste-is-fining-students-for-speaking-one-of-the-countrys-two-official-languages/",
+      "types": [
+        "demonstrative_number"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 97,
+          "corrupted_start": 93,
+          "corruption_type": "demonstrative_number",
+          "end": 98,
+          "original": "these",
+          "protected_tokens": [
+            78,
+            79
+          ],
+          "replacement": "this",
+          "rule_id": "demonstrative_number:these:this",
+          "start": 93
+        }
+      ],
+      "sample_id": "en-045",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "1b1f5131c2eb64d2e6eb5b2a",
+      "split": "train",
+      "original": "She cites the carving of the lizard icon on doors in West Africa, saying that in some tribes, it represents household tranquility; in Cameroon, it represents fertility.",
+      "corrupted": "She cite the carving of the lizard icon on doors in West Africa, saying taht in some tribes, it represents household tranquility; in Cameroon, it represents fertility.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2015/06/08/where-de-lizard-why-the-caribbean-is-fascinated-with-them/",
+      "types": [
+        "subject_verb_agreement",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 8,
+          "corrupted_start": 4,
+          "corruption_type": "subject_verb_agreement",
+          "end": 9,
+          "original": "cites",
+          "protected_tokens": [
+            37,
+            38
+          ],
+          "replacement": "cite",
+          "rule_id": "subject_verb_agreement:productive",
+          "start": 4
+        },
+        {
+          "corrupted_end": 76,
+          "corrupted_start": 72,
+          "corruption_type": "spelling",
+          "end": 77,
+          "original": "that",
+          "protected_tokens": [
+            52
+          ],
+          "replacement": "taht",
+          "rule_id": "spelling:that:taht",
+          "start": 73
+        }
+      ],
+      "sample_id": "en-046",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "69b0facafb5b7310dcd2790c",
+      "split": "test",
+      "original": "Last week, Chinese cuisine made headlines in Trinidad and Tobago, not because of its tasty chicken recipes, but rather, because of a video that went viral on social media of a man — allegedly associated with a Chinese restaurant — skinning a dog.",
+      "corrupted": "Last week, Chinese cuisine made headlines in Trinidad and Tobago, not becouse of its tasty chicken recipes, but rather, beacuse of a video that went viral on social media of a man — allegedly associated with a Chinese restaurant — skinning a dog.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2015/07/16/trinidad-tobagos-chinese-community-is-dog-tired-of-racial-stereotyping/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 77,
+          "corrupted_start": 70,
+          "corruption_type": "spelling",
+          "end": 77,
+          "original": "because",
+          "protected_tokens": [
+            13
+          ],
+          "replacement": "becouse",
+          "rule_id": "spelling:because:becouse",
+          "start": 70
+        },
+        {
+          "corrupted_end": 127,
+          "corrupted_start": 120,
+          "corruption_type": "spelling",
+          "end": 127,
+          "original": "because",
+          "protected_tokens": [
+            23
+          ],
+          "replacement": "beacuse",
+          "rule_id": "spelling:because:beacuse",
+          "start": 120
+        }
+      ],
+      "sample_id": "en-047",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "09b3e320fb37088854a03dd6",
+      "split": "train",
+      "original": "Another important topic was the need for scientists to become better communicators and try to make their work more accessible and understandable to a wider audience.",
+      "corrupted": "Another important topic was the need for scientists to become bteter comunicators and try to make their work more accessible and understandable to a wider audience.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2010/09/14/usa-science-blogging-goes-global-gains-respect/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 68,
+          "corrupted_start": 62,
+          "corruption_type": "spelling",
+          "end": 68,
+          "original": "better",
+          "protected_tokens": [
+            75
+          ],
+          "replacement": "bteter",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 62
+        },
+        {
+          "corrupted_end": 81,
+          "corrupted_start": 69,
+          "corruption_type": "spelling",
+          "end": 82,
+          "original": "communicators",
+          "protected_tokens": [
+            76
+          ],
+          "replacement": "comunicators",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:delete_doubled_consonant",
+          "start": 69
+        }
+      ],
+      "sample_id": "en-048",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "6662ebe96444622c26c47542",
+      "split": "train",
+      "original": "I have never made a film to praise or to criticize something.",
+      "corrupted": "I has never made a film to praise or to criticize something.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2018/06/09/japans-hirokazu-koreeda-wins-big-at-cannes/",
+      "types": [
+        "subject_verb_agreement"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 5,
+          "corrupted_start": 2,
+          "corruption_type": "subject_verb_agreement",
+          "end": 6,
+          "original": "have",
+          "protected_tokens": [
+            36,
+            37
+          ],
+          "replacement": "has",
+          "rule_id": "subject_verb_agreement:productive",
+          "start": 2
+        }
+      ],
+      "sample_id": "en-049",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "528ba0dedbc17a668ea5aaf0",
+      "split": "test",
+      "original": "In another constituency, people held high regard for an MP who spent hours wearing a local costume and coordinating rescue operations during floods.",
+      "corrupted": "In another constituency, people held high regarrd for an MP who spent hours wearing a local cotsume and coordinating rescue operations during floods.",
+      "source": "360info",
+      "url": "https://360info.org/climate-change-hardly-a-burning-issue-for-indian-voters/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 49,
+          "corrupted_start": 42,
+          "corruption_type": "spelling",
+          "end": 48,
+          "original": "regard",
+          "protected_tokens": [
+            7
+          ],
+          "replacement": "regarrd",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 42
+        },
+        {
+          "corrupted_end": 99,
+          "corrupted_start": 92,
+          "corruption_type": "spelling",
+          "end": 98,
+          "original": "costume",
+          "protected_tokens": [
+            17
+          ],
+          "replacement": "cotsume",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 91
+        }
+      ],
+      "sample_id": "en-050",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "166ac476a5bf4e9fa5589163",
+      "split": "train",
+      "original": "OBAMA GOOD FOR CIVILIANS, BAD FOR MILITARY Obama’s support for Pakistan’s fledgling democracy and appropriation of the Biden plan, which calls for vastly increasing development aid, is excellent.",
+      "corrupted": "OBAMA GOOD FOR CIVILIANS, BAD FOR MILITARY Obama’s support for Pakistan’s fledgling democracy and appropriation of the Biden plan, which calls for vastly increasing development aid, is excelent.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2008/09/27/president-kirdari-mccain-obama-debate-on-pakistan/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 193,
+          "corrupted_start": 185,
+          "corruption_type": "spelling",
+          "end": 194,
+          "original": "excellent",
+          "protected_tokens": [
+            32
+          ],
+          "replacement": "excelent",
+          "rule_id": "spelling:excellent:excelent",
+          "start": 185
+        }
+      ],
+      "sample_id": "en-051",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "All-caps heading concatenated directly with prose without a boundary."
+      ],
+      "source_form": "extraction_damage",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "85d53380cf77b871d3371e8f",
+      "split": "train",
+      "original": "It’s a story that has been repeated in the media countless times across the world: unarmed Black man shot dead by police.",
+      "corrupted": "It’s a story taht has been repeated in the media countless times across the world: unarmed Black man shot dead by police.",
+      "source": "360info",
+      "url": "https://360info.org/special-report-militarisation-of-police/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 17,
+          "corrupted_start": 13,
+          "corruption_type": "spelling",
+          "end": 17,
+          "original": "that",
+          "protected_tokens": [
+            4
+          ],
+          "replacement": "taht",
+          "rule_id": "spelling:that:taht",
+          "start": 13
+        }
+      ],
+      "sample_id": "en-052",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "9fe60424344787620f9c9640",
+      "split": "train",
+      "original": "We honour them not only because they are undeniably brave, but because we recognise that their actions give a voice to the experiences of Zimbabwean woman struggling to survive on a daily basis.",
+      "corrupted": "We honour them not only because they are undeniably brave, but becouse we recognise that their actions give a voice to the experiences of Zimbabwean woman struggling to survive on a daily basis.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2006/03/08/iwd-honouring-african-women-part-1/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 70,
+          "corrupted_start": 63,
+          "corruption_type": "spelling",
+          "end": 70,
+          "original": "because",
+          "protected_tokens": [
+            52
+          ],
+          "replacement": "becouse",
+          "rule_id": "spelling:because:becouse",
+          "start": 63
+        }
+      ],
+      "sample_id": "en-053",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Bare singular Zimbabwean woman after experiences of; expected a woman or women."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "e8c8076be7fedefdb056495e",
+      "split": "validation",
+      "original": "Post-development, for business and creative reasons, I decided to go it alone and self-fund the series, which was initially released online as a digital download in 2011.",
+      "corrupted": "Post-development, for business and creative reasons, I decided to go it alone and self-fund series the, which was initially released online as a digital download in 2011.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2016/02/26/animator-chronicles-his-familys-experience-emigrating-with-the-caribbeans-windrush-generation/",
+      "types": [
+        "word_swap"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 102,
+          "corrupted_start": 92,
+          "corruption_type": "word_swap",
+          "end": 102,
+          "original": "the series",
+          "protected_tokens": [
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140
+          ],
+          "replacement": "series the",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 92
+        }
+      ],
+      "sample_id": "en-054",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "a61f1f14271155aee7fe3a5d",
+      "split": "train",
+      "original": "Sika is (a) young player, but also a great player as she showed in her 35 minutes against a leading team like France.",
+      "corrupted": "Sika is (a) young player, but also a great player as she showed in her 35 minutes against a leaidng team like France.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2022/05/26/meet-the-african-women-athletes-making-an-impact-in-international-basketball-leagues/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 99,
+          "corrupted_start": 92,
+          "corruption_type": "spelling",
+          "end": 99,
+          "original": "leading",
+          "protected_tokens": [
+            22
+          ],
+          "replacement": "leaidng",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 92
+        }
+      ],
+      "sample_id": "en-055",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "9d3599f87c4475eb5fba722f",
+      "split": "validation",
+      "original": "While many of Turkey's allies have responded to Ankara's call to close down the schools, Kyrgyzstan and Kazakhstan have sought a third way, allowing them to remain but renaming them and increasing government control over their management structures.",
+      "corrupted": "While many of Turkey's allies have respponded to Ankara's call to close down the schools, Kyrgyzstan and Kazakhstan have sought a third way, allowing them to remain but renaming them and increasing goverment control over their management structures.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2019/03/03/metoosebat-kyrgyz-take-to-social-media-to-debate-controversial-gulen-schools/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 45,
+          "corrupted_start": 35,
+          "corruption_type": "spelling",
+          "end": 44,
+          "original": "responded",
+          "protected_tokens": [
+            7
+          ],
+          "replacement": "respponded",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 35
+        },
+        {
+          "corrupted_end": 207,
+          "corrupted_start": 198,
+          "corruption_type": "spelling",
+          "end": 207,
+          "original": "government",
+          "protected_tokens": [
+            36
+          ],
+          "replacement": "goverment",
+          "rule_id": "spelling:government:goverment",
+          "start": 197
+        }
+      ],
+      "sample_id": "en-056",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "e8c334f2ec646000fda21078",
+      "split": "train",
+      "original": "They cite the lowering homicide rates and managing the COVID-19 pandemic as the top reasons for his popularity.",
+      "corrupted": "They cite the lowwering homicide rates and managing the COVID-19 pandemic as the top reasons for his populartiy.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2022/01/21/gang-truce-or-not-president-bukele-is-still-popular-in-el-salvador/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 23,
+          "corrupted_start": 14,
+          "corruption_type": "spelling",
+          "end": 22,
+          "original": "lowering",
+          "protected_tokens": [
+            46
+          ],
+          "replacement": "lowwering",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 14
+        },
+        {
+          "corrupted_end": 111,
+          "corrupted_start": 101,
+          "corruption_type": "spelling",
+          "end": 110,
+          "original": "popularity",
+          "protected_tokens": [
+            60
+          ],
+          "replacement": "populartiy",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 100
+        }
+      ],
+      "sample_id": "en-057",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "1deb43a4daf6c7842167859a",
+      "split": "train",
+      "original": "These European-based communities have been active in recent months, organizing marches and events in solidarity with their compatriots, which are mostly coordinated through social networks.",
+      "corrupted": "These European-based communities have were active in recent months, organizing marches and events in solidarity with their compatriots, which are mostly coordinated through social networks.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2018/08/27/nicaraguas-diaspora-activists-bear-a-double-burden/",
+      "types": [
+        "perfect_participle"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 42,
+          "corrupted_start": 38,
+          "corruption_type": "perfect_participle",
+          "end": 42,
+          "original": "been",
+          "protected_tokens": [
+            5,
+            6
+          ],
+          "replacement": "were",
+          "rule_id": "perfect_participle:productive",
+          "start": 38
+        }
+      ],
+      "sample_id": "en-058",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "3575659b626043bf8566e156",
+      "split": "train",
+      "original": "Those who own the information will continue to have power, but this has changed, now we hold the information while they are the same: those that desire to control information, those that offered it to us on a platter.",
+      "corrupted": "Those who own the information will continuing to have power, but this has changed, now we hold the information while they are the same: those that desire to control information, those that offered it to us on a platter.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2012/11/26/chris-moya-spainrevolt-and-cyberactivism/",
+      "types": [
+        "modal_verb_form"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 45,
+          "corrupted_start": 35,
+          "corruption_type": "modal_verb_form",
+          "end": 43,
+          "original": "continue",
+          "protected_tokens": [
+            38,
+            39
+          ],
+          "replacement": "continuing",
+          "rule_id": "modal_verb_form:productive",
+          "start": 35
+        }
+      ],
+      "sample_id": "en-059",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Comma splice at has changed, now we hold."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "80bb143bfdb6a726dda40594",
+      "split": "train",
+      "original": "In the morning of Thursday, 17 September, a number of social welfare organisations arranged a peaceful human chain in front of the press club in Dhaka.",
+      "corrupted": "In the morning of Thursday, 17 September, a number of scoial welfare organisations arranged a peaceful human chain in front of the press club in Dhaka.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2015/09/18/skepticism-follows-arrest-of-four-philanthropists-who-care-for-bangladeshi-street-children/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 60,
+          "corrupted_start": 54,
+          "corruption_type": "spelling",
+          "end": 60,
+          "original": "social",
+          "protected_tokens": [
+            13
+          ],
+          "replacement": "scoial",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 54
+        }
+      ],
+      "sample_id": "en-060",
+      "source_judgment": "uncertain",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "In the morning of Thursday is nonidiomatic in standard US/UK usage (on expected), but regional variation warrants uncertainty."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "9a4f43a2a687213ef5a32875",
+      "split": "train",
+      "original": "Our comprehensive package for clients now includes a psychologist, adherence counselor and nurses, working full-time; and a nutritionist and medical doctor, who come in part-time.",
+      "corrupted": "Our comprehensive package for clients now includes a psychoolgist, adherence counselor and nurses, working full-time; and a nutritionist and medical doctor, who come in part-time.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2017/02/13/jamaica-aids-support-for-life-looks-back-at-achievements-challenges-after-25-years/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 65,
+          "corrupted_start": 53,
+          "corruption_type": "spelling",
+          "end": 65,
+          "original": "psychologist",
+          "protected_tokens": [
+            76
+          ],
+          "replacement": "psychoolgist",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 53
+        }
+      ],
+      "sample_id": "en-061",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "1afcb29d3f4b902882fc522e",
+      "split": "test",
+      "original": "Barely three weeks before Raheem’s murder, 31-year-old Gafaru Buraimoh was shot dead by police officers from the same station in Lagos.",
+      "corrupted": "Barely three weeks before Raheem’s murder, 31-year-old Gafaru Buraimoh was shot dead by policce officers from the same station in Lagos.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2023/10/13/nigerian-policeman-sentenced-to-death-for-shooting-pregnant-lawyer-on-christmas-day/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 95,
+          "corrupted_start": 88,
+          "corruption_type": "spelling",
+          "end": 94,
+          "original": "police",
+          "protected_tokens": [
+            54
+          ],
+          "replacement": "policce",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 88
+        }
+      ],
+      "sample_id": "en-062",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "b490463240d0c6c6c71527b0",
+      "split": "train",
+      "original": "Kerslake argues that both PRC and ROC nationalist ideologies are based on the late 19th century concept of racialism.",
+      "corrupted": "Kerslake arggues taht both PRC and ROC nationalist ideologies are based on the late 19th century concept of racialism.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2009/07/29/taiwan-racist-cartoon-causes-controversy/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 16,
+          "corrupted_start": 9,
+          "corruption_type": "spelling",
+          "end": 15,
+          "original": "argues",
+          "protected_tokens": [
+            26
+          ],
+          "replacement": "arggues",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 9
+        },
+        {
+          "corrupted_end": 21,
+          "corrupted_start": 17,
+          "corruption_type": "spelling",
+          "end": 20,
+          "original": "that",
+          "protected_tokens": [
+            27
+          ],
+          "replacement": "taht",
+          "rule_id": "spelling:that:taht",
+          "start": 16
+        }
+      ],
+      "sample_id": "en-063",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "8b23025660d49bb580de933b",
+      "split": "train",
+      "original": "I think we just might have made one of the greatest literary mixtapes ever.",
+      "corrupted": "I thinks we just might have made one of the greatest literary mixtapes ever.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2012/08/03/puerto-rico-bloggers-book-doesnt-shy-away-from-a-good-brawl/",
+      "types": [
+        "subject_verb_agreement"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 8,
+          "corrupted_start": 2,
+          "corruption_type": "subject_verb_agreement",
+          "end": 7,
+          "original": "think",
+          "protected_tokens": [
+            47,
+            48
+          ],
+          "replacement": "thinks",
+          "rule_id": "subject_verb_agreement:productive",
+          "start": 2
+        }
+      ],
+      "sample_id": "en-064",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "d0c8aee33e1771cea141d05a",
+      "split": "train",
+      "original": "The collaboration among the moderates will become a more effective way to help the people (ummah) to stay on the basis of Ahlu Sunnah Wal Jamaah paradigm, which is characteristically tolerant, moderate and progressive for the sake of Indonesia’s democratic development.",
+      "corrupted": "The collaboration among the moderates will becoming a more effective way to help the people (ummah) to stay on the basis of Ahlu Sunnah Wal Jamaah paradigm, which is characteristiccally tolerant, moderate and progressive for the sake of Indonesia’s democratic development.",
+      "source": "360info",
+      "url": "https://360info.org/indonesias-anti-corruption-machine-is-under-attack/",
+      "types": [
+        "modal_verb_form",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 51,
+          "corrupted_start": 43,
+          "corruption_type": "modal_verb_form",
+          "end": 49,
+          "original": "become",
+          "protected_tokens": [
+            42,
+            43
+          ],
+          "replacement": "becoming",
+          "rule_id": "modal_verb_form:productive",
+          "start": 43
+        },
+        {
+          "corrupted_end": 185,
+          "corrupted_start": 166,
+          "corruption_type": "spelling",
+          "end": 182,
+          "original": "characteristically",
+          "protected_tokens": [
+            69
+          ],
+          "replacement": "characteristiccally",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 164
+        }
+      ],
+      "sample_id": "en-065",
+      "source_judgment": "uncertain",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "On the basis of Ahlu Sunnah Wal Jamaah paradigm may lack an article; proper-name modifier/terminology makes judgment uncertain."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "1fdaac1967db09de5b03301d",
+      "split": "train",
+      "original": "The Russian side has no reason not to trust close partners.",
+      "corrupted": "The Russian side has no reason not to trust close parttners.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2023/01/12/will-a-yurt-in-ukraine-cause-a-diplomatic-row-between-kazakhstan-and-russia/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 59,
+          "corrupted_start": 50,
+          "corruption_type": "spelling",
+          "end": 58,
+          "original": "partners",
+          "protected_tokens": [
+            97
+          ],
+          "replacement": "parttners",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 50
+        }
+      ],
+      "sample_id": "en-066",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "c7e7858649448a35e8336f84",
+      "split": "train",
+      "original": "Among them is the double identity of one of the Ukrainian persons of interest in the abduction case, who is known to have connections to Ukrainian intelligence.",
+      "corrupted": "Among them is the double identity of one of the Ukrainian persons of intterest in the abudction case, who is known to have connections to Ukrainian intelligence.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2021/04/28/a-runaway-judges-disappearance-could-mar-ukraine-moldova-relationship/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 78,
+          "corrupted_start": 69,
+          "corruption_type": "spelling",
+          "end": 77,
+          "original": "interest",
+          "protected_tokens": [
+            43
+          ],
+          "replacement": "intterest",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 69
+        },
+        {
+          "corrupted_end": 95,
+          "corrupted_start": 86,
+          "corruption_type": "spelling",
+          "end": 94,
+          "original": "abduction",
+          "protected_tokens": [
+            46
+          ],
+          "replacement": "abudction",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 85
+        }
+      ],
+      "sample_id": "en-067",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "cac376c8af549b09d61d1354",
+      "split": "train",
+      "original": "It's more than mere abuse – it's humiliation of the state employees using fake reasons.",
+      "corrupted": "It's more than mere abuse – it's humiliation of the state emmployees using fake reassons.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2006/10/04/russia-georgia-unfriendly-relationship/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 68,
+          "corrupted_start": 58,
+          "corruption_type": "spelling",
+          "end": 67,
+          "original": "employees",
+          "protected_tokens": [
+            51
+          ],
+          "replacement": "emmployees",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 58
+        },
+        {
+          "corrupted_end": 88,
+          "corrupted_start": 80,
+          "corruption_type": "spelling",
+          "end": 86,
+          "original": "reasons",
+          "protected_tokens": [
+            54
+          ],
+          "replacement": "reassons",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 79
+        }
+      ],
+      "sample_id": "en-068",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "05b011020c8dcf40c79bd913",
+      "split": "train",
+      "original": "Almost the entire media industry is now under government control.",
+      "corrupted": "Almost the entire media industry is now under goverment conrtol.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2022/08/25/unable-to-emigrate-and-not-welcome-at-home-the-azerbaijani-political-refugees-in-limbo/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 55,
+          "corrupted_start": 46,
+          "corruption_type": "spelling",
+          "end": 56,
+          "original": "government",
+          "protected_tokens": [
+            31
+          ],
+          "replacement": "goverment",
+          "rule_id": "spelling:government:goverment",
+          "start": 46
+        },
+        {
+          "corrupted_end": 63,
+          "corrupted_start": 56,
+          "corruption_type": "spelling",
+          "end": 64,
+          "original": "control",
+          "protected_tokens": [
+            32
+          ],
+          "replacement": "conrtol",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 57
+        }
+      ],
+      "sample_id": "en-069",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "e40644193ca4552a1cfb7dd6",
+      "split": "test",
+      "original": "Some debates will lead to a preference for freedom, while others will favour security.",
+      "corrupted": "Some debattes will lead to a preference for freedom, while others will favouring security.",
+      "source": "360info",
+      "url": "https://360info.org/what-is-the-nature-in-the-rights-of-nature/",
+      "types": [
+        "spelling",
+        "modal_verb_form"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 13,
+          "corrupted_start": 5,
+          "corruption_type": "spelling",
+          "end": 12,
+          "original": "debates",
+          "protected_tokens": [
+            44
+          ],
+          "replacement": "debattes",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 5
+        },
+        {
+          "corrupted_end": 80,
+          "corrupted_start": 71,
+          "corruption_type": "modal_verb_form",
+          "end": 76,
+          "original": "favour",
+          "protected_tokens": [
+            55,
+            56
+          ],
+          "replacement": "favouring",
+          "rule_id": "modal_verb_form:productive",
+          "start": 70
+        }
+      ],
+      "sample_id": "en-070",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "5b4a7f3a23fa7b3428412f61",
+      "split": "train",
+      "original": "Can a third political party realistically compete and thrive in Ghana?",
+      "corrupted": "Can a third political party relaistically copmete and thrive in Ghana?",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2024/01/17/can-a-third-political-party-realistically-compete-and-thrive-in-ghana/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 41,
+          "corrupted_start": 28,
+          "corruption_type": "spelling",
+          "end": 41,
+          "original": "realistically",
+          "protected_tokens": [
+            5
+          ],
+          "replacement": "relaistically",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 28
+        },
+        {
+          "corrupted_end": 49,
+          "corrupted_start": 42,
+          "corruption_type": "spelling",
+          "end": 49,
+          "original": "compete",
+          "protected_tokens": [
+            6
+          ],
+          "replacement": "copmete",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 42
+        }
+      ],
+      "sample_id": "en-071",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "84388249c86d66bc8e022c28",
+      "split": "train",
+      "original": "Even though more than 1,000 or 10,000 people are enjoying the music, one complaint would ruin the whole thing.",
+      "corrupted": "Even though more than 1,000 or 10,000 people are ennjoying the music, one complaint would ruining the whole thing.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2012/03/19/hong-kong-indie-music-made-illegal-by-contradictory-policies/",
+      "types": [
+        "spelling",
+        "modal_verb_form"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 58,
+          "corrupted_start": 49,
+          "corruption_type": "spelling",
+          "end": 57,
+          "original": "enjoying",
+          "protected_tokens": [
+            40
+          ],
+          "replacement": "ennjoying",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 49
+        },
+        {
+          "corrupted_end": 97,
+          "corrupted_start": 90,
+          "corruption_type": "modal_verb_form",
+          "end": 93,
+          "original": "ruin",
+          "protected_tokens": [
+            46,
+            47
+          ],
+          "replacement": "ruining",
+          "rule_id": "modal_verb_form:productive",
+          "start": 89
+        }
+      ],
+      "sample_id": "en-072",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "3024a2a18922dbbdaf5820d3",
+      "split": "train",
+      "original": "It is our life — and not only in Kingston, by the way.",
+      "corrupted": "It is our life — and not only in Kingston, by way the.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2022/11/02/many-jamaicans-are-nervous-heres-why/",
+      "types": [
+        "word_swap"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 53,
+          "corrupted_start": 46,
+          "corruption_type": "word_swap",
+          "end": 53,
+          "original": "the way",
+          "protected_tokens": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "replacement": "way the",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 46
+        }
+      ],
+      "sample_id": "en-073",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "94d5bdda1f34d22222b2220e",
+      "split": "test",
+      "original": "After the heavy fighting, defenders rejoiced — and slowly started putting their city back together.",
+      "corrupted": "After the heavy fighting, defenders rejoiced — and slowlly started putting their city back together.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2011/03/07/libya-the-freedom-flag-flies-over-misurata-videos/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 58,
+          "corrupted_start": 51,
+          "corruption_type": "spelling",
+          "end": 57,
+          "original": "slowly",
+          "protected_tokens": [
+            9
+          ],
+          "replacement": "slowlly",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 51
+        }
+      ],
+      "sample_id": "en-074",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "f61221112cd4b607d91bcd83",
+      "split": "train",
+      "original": "According to the reports, this serves criminal organizations and even the FARC guerrilla for money laundering purposes.",
+      "corrupted": "According to reports the, this serves criminal organizations and even the FARC guerrilla for money laundering purposes.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2014/03/25/paraguayan-president-faces-first-major-test-as-citizens-prepare-for-a-general-strike/",
+      "types": [
+        "word_swap"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 24,
+          "corrupted_start": 13,
+          "corruption_type": "word_swap",
+          "end": 24,
+          "original": "the reports",
+          "protected_tokens": [
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "replacement": "reports the",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 13
+        }
+      ],
+      "sample_id": "en-075",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "7a83e29b1ba91c64b3e82bb7",
+      "split": "train",
+      "original": "After the end of the war, the country’s Ministry of Defence appears to have maintained its strained relationship with the media — particularly through silence.",
+      "corrupted": "After the end of the war, the contry’s Ministry of Defence appears to have maintained its strained relationship with the media — partiuclarly through silence.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2021/02/25/in-post-war-armenia-legislators-take-aim-at-press-freedom/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 36,
+          "corrupted_start": 30,
+          "corruption_type": "spelling",
+          "end": 37,
+          "original": "country",
+          "protected_tokens": [
+            8
+          ],
+          "replacement": "contry",
+          "rule_id": "spelling:country:contry",
+          "start": 30
+        },
+        {
+          "corrupted_end": 141,
+          "corrupted_start": 129,
+          "corruption_type": "spelling",
+          "end": 142,
+          "original": "particularly",
+          "protected_tokens": [
+            24
+          ],
+          "replacement": "partiuclarly",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 130
+        }
+      ],
+      "sample_id": "en-076",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "a4f8bc8bf633dd2c0fe6ff40",
+      "split": "train",
+      "original": "Others love, admire, and see him as a hero, not for the weapons that he wielded, but for the capacity that he had to confront the oppressive system of Frelimo.",
+      "corrupted": "Others love, admire, and see him as a hero, not for the weapons taht he wielded, but for the capacity that he had to confront the oppressive system of Frelimo.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2018/06/08/the-death-of-afonso-dhlakama-mozambiques-legendary-politician-and-ex-guerilla-leaves-a-legacy/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 68,
+          "corrupted_start": 64,
+          "corruption_type": "spelling",
+          "end": 68,
+          "original": "that",
+          "protected_tokens": [
+            16
+          ],
+          "replacement": "taht",
+          "rule_id": "spelling:that:taht",
+          "start": 64
+        }
+      ],
+      "sample_id": "en-077",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "aec23a0d500f3c6e24c31c31",
+      "split": "test",
+      "original": "At the launch of the Healthy Lifestyle Programme in Port Shepston (what in God’s name was she even DOING there), she announced that alcoholic beverages will soon carry messages highlighting the negative effects of alcohol.",
+      "corrupted": "At the launch of the Healthy Lifestyle Programme in Port Shepston (what in God’s name was she even DOING there), she announced that alcoholic beverages will soon carrying messages highlighting the negative effects of alcohol.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2008/03/05/another-manto-blunder/",
+      "types": [
+        "modal_verb_form"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 170,
+          "corrupted_start": 162,
+          "corruption_type": "modal_verb_form",
+          "end": 167,
+          "original": "carry",
+          "protected_tokens": [
+            29,
+            31
+          ],
+          "replacement": "carrying",
+          "rule_id": "modal_verb_form:productive",
+          "start": 162
+        }
+      ],
+      "sample_id": "en-078",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "1eef02228753d01b36fbe72c",
+      "split": "test",
+      "original": "After looting weaponry, killing 1000s of troops in Saada, Amran, Sanaa and now in the South, Abdulmalek Al-Houthi asks to support the army.",
+      "corrupted": "After looting weaponry, killing 1000s of troops in Saada, Amran, Sanaa and now in the South, Abdulmalek Al-Houthi asks to support army the.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2015/03/27/who-to-follow-on-yemen-on-the-second-day-of-saudi-led-air-strikes/",
+      "types": [
+        "word_swap"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 138,
+          "corrupted_start": 130,
+          "corruption_type": "word_swap",
+          "end": 138,
+          "original": "the army",
+          "protected_tokens": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "replacement": "army the",
+          "rule_id": "fallback:swap_article_noun",
+          "start": 130
+        }
+      ],
+      "sample_id": "en-079",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "9f0e41a304effc43c60da528",
+      "split": "train",
+      "original": "My Manifesto is not necessarily just a critique of the King, it is a critique of how the monarchy system is used in Thailand.",
+      "corrupted": "My Manifesto is not necessarily just a critique of the King, it are a critique of how the monarchy system is used in Thailand.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2009/03/03/thailand-red-siam-manifesto/",
+      "types": [
+        "subject_verb_agreement"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 67,
+          "corrupted_start": 64,
+          "corruption_type": "subject_verb_agreement",
+          "end": 66,
+          "original": "is",
+          "protected_tokens": [
+            12,
+            13
+          ],
+          "replacement": "are",
+          "rule_id": "subject_verb_agreement:productive",
+          "start": 64
+        }
+      ],
+      "sample_id": "en-080",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Comma splice between two independent clauses: King, it is."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "1691002e66718004c9109d25",
+      "split": "train",
+      "original": "Charles never had a job the rest of his life, although he doggedly held out hopes of appointment as an official in one of Britain’s colonies — he would have loved to return to Ceylon as governor — but his poor health was against him.",
+      "corrupted": "Charles never had a job the rest of his life, allthought he doggedly held out hopes of appointment as an official in one of Britain’s colonies — he would have loved to return to Ceylon as governor — but his poor heallth was against him.",
+      "source": "public_domain_review_essays",
+      "url": "https://publicdomainreview.org/essay/julia-margaret-cameron-in-ceylon-idylls-of-freshwater-vs-idylls-of-rathoongodde/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 56,
+          "corrupted_start": 46,
+          "corruption_type": "spelling",
+          "end": 54,
+          "original": "although",
+          "protected_tokens": [
+            37
+          ],
+          "replacement": "allthought",
+          "rule_id": "spelling:although:allthought",
+          "start": 46
+        },
+        {
+          "corrupted_end": 219,
+          "corrupted_start": 212,
+          "corruption_type": "spelling",
+          "end": 216,
+          "original": "health",
+          "protected_tokens": [
+            69
+          ],
+          "replacement": "heallth",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 210
+        }
+      ],
+      "sample_id": "en-081",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "9eb38d4c9153d786cd261475",
+      "split": "train",
+      "original": "Bombs exploded in Jolo, Iligan City, Kauswagan, Cotabato City and Datu Piang.",
+      "corrupted": "Bombs exxploded in Jolo, Iligan City, Kauswagan, Cotabato City and Datu Piang.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2009/07/11/philippines-bomb-scare-grips-the-country/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 15,
+          "corrupted_start": 6,
+          "corruption_type": "spelling",
+          "end": 14,
+          "original": "exploded",
+          "protected_tokens": [
+            15
+          ],
+          "replacement": "exxploded",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 6
+        }
+      ],
+      "sample_id": "en-082",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "ed85aab7652caf95f9bc34bc",
+      "split": "train",
+      "original": "Meanwhile, local Kashmiris, who have borne the brunt of incarcerations, mass rapes of Kunan Poshpora and injuries through pellet guns for seeking a referendum as mandated by United Nations, are being subjected to curfews and internet shutdowns since August 5.",
+      "corrupted": "Meanwhile, local Kashmiris, who have bore the brunt of incarcerations, mass rapes of Kunan Poshpora and injuries through pellet guns for seeking a referendum as mandated by United Nations, are being subjected to curfews and internet shutdonws since August 5.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2019/08/06/indian-government-abolishes-kashmirs-special-status-announces-bifurcation/",
+      "types": [
+        "perfect_participle",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 41,
+          "corrupted_start": 37,
+          "corruption_type": "perfect_participle",
+          "end": 42,
+          "original": "borne",
+          "protected_tokens": [
+            6,
+            7
+          ],
+          "replacement": "bore",
+          "rule_id": "perfect_participle:productive",
+          "start": 37
+        },
+        {
+          "corrupted_end": 242,
+          "corrupted_start": 233,
+          "corruption_type": "spelling",
+          "end": 243,
+          "original": "shutdowns",
+          "protected_tokens": [
+            40
+          ],
+          "replacement": "shutdonws",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 234
+        }
+      ],
+      "sample_id": "en-083",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Ongoing since August 5 takes have been subjected; also missing the before United Nations."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "89fc02c0f012915097ab37af",
+      "split": "train",
+      "original": "It does not directly mention the climate crisis and makes no further commitments to reducing carbon emissions.",
+      "corrupted": "It does not directly mentioned the climate crisis and makes no further commitments to reducing carbon emsisions.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2022/02/01/mixed-response-to-australias-great-barrier-reef-funding-boost-in-lead-up-to-election/",
+      "types": [
+        "do_support_form",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 30,
+          "corrupted_start": 21,
+          "corruption_type": "do_support_form",
+          "end": 28,
+          "original": "mention",
+          "protected_tokens": [
+            33,
+            36
+          ],
+          "replacement": "mentioned",
+          "rule_id": "do_support_form:productive",
+          "start": 21
+        },
+        {
+          "corrupted_end": 111,
+          "corrupted_start": 102,
+          "corruption_type": "spelling",
+          "end": 109,
+          "original": "emissions",
+          "protected_tokens": [
+            48
+          ],
+          "replacement": "emsisions",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 100
+        }
+      ],
+      "sample_id": "en-084",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "86cd9881b5433008f3a84882",
+      "split": "train",
+      "original": "She is also one of my close friends because we became friends while studying at UWC Pearson College (Canada) and continued our friendship later at Westminster College (Missouri, US).",
+      "corrupted": "She are also one of my close friends because we became friends while studying at UWC Pearson College (Canada) and continued our friendship later at Westminster College (Missouri, US).",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2012/07/17/maldives-activists-arrest-during-protest-caught-on-video/",
+      "types": [
+        "subject_verb_agreement"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 7,
+          "corrupted_start": 4,
+          "corruption_type": "subject_verb_agreement",
+          "end": 6,
+          "original": "is",
+          "protected_tokens": [
+            31,
+            32
+          ],
+          "replacement": "are",
+          "rule_id": "subject_verb_agreement:productive",
+          "start": 4
+        }
+      ],
+      "sample_id": "en-085",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "e99e0ab36cbf6cccee657cf6",
+      "split": "train",
+      "original": "Fact; the quality of life of many of my countrymen improved drastically immediately after independence in 1980.",
+      "corrupted": "Fact; the quality of life of many of my countrymen impproved drastically immediately after indepenndence in 1980.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2007/05/01/zimbabwe-more-arrests-regional-neglect-and-western-duplicity/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 60,
+          "corrupted_start": 51,
+          "corruption_type": "spelling",
+          "end": 59,
+          "original": "improved",
+          "protected_tokens": [
+            52
+          ],
+          "replacement": "impproved",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 51
+        },
+        {
+          "corrupted_end": 104,
+          "corrupted_start": 91,
+          "corruption_type": "spelling",
+          "end": 102,
+          "original": "independence",
+          "protected_tokens": [
+            56
+          ],
+          "replacement": "indepenndence",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 90
+        }
+      ],
+      "sample_id": "en-086",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Semicolon after standalone label Fact does not join clauses; a colon would license this construction."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "d8d8e9f5eb3798ce95f2cd4e",
+      "split": "train",
+      "original": "If they had not heeded the police’s warnings, the courts would have had no choice but to prosecute them in order to protect the government.",
+      "corrupted": "If they had not heeded the police’s warnings, the courts would have had no choice but to prossecute them in order to protect the goverment.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2023/01/18/cambodia-bans-music-video-of-police-attacking-workers-in-2014/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 99,
+          "corrupted_start": 89,
+          "corruption_type": "spelling",
+          "end": 98,
+          "original": "prosecute",
+          "protected_tokens": [
+            39
+          ],
+          "replacement": "prossecute",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 89
+        },
+        {
+          "corrupted_end": 138,
+          "corrupted_start": 129,
+          "corruption_type": "spelling",
+          "end": 138,
+          "original": "government",
+          "protected_tokens": [
+            46
+          ],
+          "replacement": "goverment",
+          "rule_id": "spelling:government:goverment",
+          "start": 128
+        }
+      ],
+      "sample_id": "en-087",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "517682adce842f86af793b7b",
+      "split": "train",
+      "original": "Boca is itself one of the most successful clubs in South American and indeed world football, with six Copa Libertadores, four South American Super Cups, two South American Cups, and three Intercontinental Cups to their name.",
+      "corrupted": "Boca is itself one of the most succesfull clubs in South American and indeed world football, with six Copa Libertadores, four South American Super Cups, two South American Cups, and three Intercontinental Cups to their name.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2015/05/29/how-argentinian-football-club-boca-juniors-lost-out-to-violence/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 41,
+          "corrupted_start": 31,
+          "corruption_type": "spelling",
+          "end": 41,
+          "original": "successful",
+          "protected_tokens": [
+            38
+          ],
+          "replacement": "succesfull",
+          "rule_id": "spelling:successful:succesfull",
+          "start": 31
+        }
+      ],
+      "sample_id": "en-088",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "c0b32932a4b0365014be799b",
+      "split": "train",
+      "original": "The concept that some people may value their principles and their dignity over material well-being seems to be completely foreign to Putin.",
+      "corrupted": "The concept taht some people may valuing their principles and their dignity over material well-being seems to be completely foreign to Putin.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2012/02/29/russia-an-overview-of-the-pre-election-anglophone-blogging/",
+      "types": [
+        "spelling",
+        "modal_verb_form"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 16,
+          "corrupted_start": 12,
+          "corruption_type": "spelling",
+          "end": 16,
+          "original": "that",
+          "protected_tokens": [
+            74
+          ],
+          "replacement": "taht",
+          "rule_id": "spelling:that:taht",
+          "start": 12
+        },
+        {
+          "corrupted_end": 40,
+          "corrupted_start": 33,
+          "corruption_type": "modal_verb_form",
+          "end": 38,
+          "original": "value",
+          "protected_tokens": [
+            77,
+            78
+          ],
+          "replacement": "valuing",
+          "rule_id": "modal_verb_form:productive",
+          "start": 33
+        }
+      ],
+      "sample_id": "en-089",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "b5b1682b6a9b0d8ba7778353",
+      "split": "test",
+      "original": "The National Anti Drug Agency (BNN) said that there are 66 more drug prisoners who are facing the death penalty.",
+      "corrupted": "The National Anti Drug Agency (BNN) said taht there are 66 more drug prisoners who are facing the death pnealty.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2015/02/10/indonesians-take-a-hard-look-at-death-penalty-ahead-of-drug-trafficking-executions/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 45,
+          "corrupted_start": 41,
+          "corruption_type": "spelling",
+          "end": 45,
+          "original": "that",
+          "protected_tokens": [
+            9
+          ],
+          "replacement": "taht",
+          "rule_id": "spelling:that:taht",
+          "start": 41
+        },
+        {
+          "corrupted_end": 111,
+          "corrupted_start": 104,
+          "corruption_type": "spelling",
+          "end": 111,
+          "original": "penalty",
+          "protected_tokens": [
+            21
+          ],
+          "replacement": "pnealty",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 104
+        }
+      ],
+      "sample_id": "en-090",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "f2366e6cc77a7e2330b26d6e",
+      "split": "train",
+      "original": "The results will be published on their website, according to what they told me.",
+      "corrupted": "The rseults will be published on their website, according to what they told me.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2013/11/07/cuban-government-agency-investigates-incident-of-homophobic-violence-first-reported-online/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 11,
+          "corrupted_start": 4,
+          "corruption_type": "spelling",
+          "end": 11,
+          "original": "results",
+          "protected_tokens": [
+            32
+          ],
+          "replacement": "rseults",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 4
+        }
+      ],
+      "sample_id": "en-091",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "cbe8448e9e0fcda59685cf6a",
+      "split": "test",
+      "original": "The problem with everything is the funds and with the crisis enveloping every corner of the Earth, the implementation of technology in these centers goes from being extremely limited to totally absent.",
+      "corrupted": "The problem with everything is the funds and with the crisis enveloping every corner of the Earth, the implementation of technology in this centers goes from being extremely limited to totally absent.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2011/04/03/interview-with-milton-ramirez-global-voices-contributor/",
+      "types": [
+        "demonstrative_number"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 139,
+          "corrupted_start": 135,
+          "corruption_type": "demonstrative_number",
+          "end": 140,
+          "original": "these",
+          "protected_tokens": [
+            23,
+            24
+          ],
+          "replacement": "this",
+          "rule_id": "demonstrative_number:these:this",
+          "start": 135
+        }
+      ],
+      "sample_id": "en-092",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "3590ea4ced780cd5d87003bf",
+      "split": "train",
+      "original": "The elections scheduled for February 8 have already been marred by allegations of pre-poll rigging from the caretaker government and the military.",
+      "corrupted": "The elections scheduled for February 8 have already been marred by allegations of pre-poll rigginng from the caretaker goverment and the military.",
+      "source": "360info",
+      "url": "https://360info.org/electoral-musical-chairs-makes-a-mockery-of-democracy/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 99,
+          "corrupted_start": 91,
+          "corruption_type": "spelling",
+          "end": 98,
+          "original": "rigging",
+          "protected_tokens": [
+            29
+          ],
+          "replacement": "rigginng",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 91
+        },
+        {
+          "corrupted_end": 128,
+          "corrupted_start": 119,
+          "corruption_type": "spelling",
+          "end": 128,
+          "original": "government",
+          "protected_tokens": [
+            33
+          ],
+          "replacement": "goverment",
+          "rule_id": "spelling:government:goverment",
+          "start": 118
+        }
+      ],
+      "sample_id": "en-093",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "7db3036873422d32d9d42ae4",
+      "split": "test",
+      "original": "It was 1940s, the early war years, and Adam Smith Square across the avenue was littered with dozens of 6 ft deep air raid trenches.",
+      "corrupted": "It was 1940s, the early war years, and Adam Smith Square across the avvenue was littered with dozens of 6 ft deep air raid trneches.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2022/08/19/as-part-of-a-beloved-square-is-cordoned-off-for-construction-trinidadians-defend-their-right-to-green-space/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 75,
+          "corrupted_start": 68,
+          "corruption_type": "spelling",
+          "end": 74,
+          "original": "avenue",
+          "protected_tokens": [
+            15
+          ],
+          "replacement": "avvenue",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 68
+        },
+        {
+          "corrupted_end": 131,
+          "corrupted_start": 123,
+          "corruption_type": "spelling",
+          "end": 130,
+          "original": "trenches",
+          "protected_tokens": [
+            26
+          ],
+          "replacement": "trneches",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 122
+        }
+      ],
+      "sample_id": "en-094",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "Missing the in It was 1940s."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "6f9a38714d920b8a4a09605b",
+      "split": "train",
+      "original": "During the meeting, Senator João Capiberibe announced that the vote on the Code, set for December 10, has been moved to 2014.",
+      "corrupted": "During the meeting, Senator João Capiberibe announnced taht the vote on the Code, set for December 10, has been moved to 2014.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2013/12/18/documentary-minings-terrible-consequences-for-brazils-people-and-environment/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 54,
+          "corrupted_start": 44,
+          "corruption_type": "spelling",
+          "end": 53,
+          "original": "announced",
+          "protected_tokens": [
+            8
+          ],
+          "replacement": "announnced",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 44
+        },
+        {
+          "corrupted_end": 59,
+          "corrupted_start": 55,
+          "corruption_type": "spelling",
+          "end": 58,
+          "original": "that",
+          "protected_tokens": [
+            9
+          ],
+          "replacement": "taht",
+          "rule_id": "spelling:that:taht",
+          "start": 54
+        }
+      ],
+      "sample_id": "en-095",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "b41f38885bc13e3c48297e63",
+      "split": "test",
+      "original": "Unity would help mobilise action on Jakarta’s flood problem, but so too would increase spending and urgency on infrastructure.",
+      "corrupted": "Unity would helping mobilise acttion on Jakarta’s flood problem, but so too would increase spending and urgency on infrastructure.",
+      "source": "360info",
+      "url": "https://360info.org/jakartas-floods-are-devastating-they-dont-have-to-be/",
+      "types": [
+        "modal_verb_form",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 19,
+          "corrupted_start": 12,
+          "corruption_type": "modal_verb_form",
+          "end": 16,
+          "original": "help",
+          "protected_tokens": [
+            1,
+            2
+          ],
+          "replacement": "helping",
+          "rule_id": "modal_verb_form:productive",
+          "start": 12
+        },
+        {
+          "corrupted_end": 36,
+          "corrupted_start": 29,
+          "corruption_type": "spelling",
+          "end": 32,
+          "original": "action",
+          "protected_tokens": [
+            4
+          ],
+          "replacement": "acttion",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:duplicate_consonant",
+          "start": 26
+        }
+      ],
+      "sample_id": "en-096",
+      "source_judgment": "erroneous",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "So too would increase spending has neither a clear subject with increase as verb nor the required increased modifier with spending as subject."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": false
+    },
+    {
+      "pair_id": "46ef7d41d748b9c2cb78cd14",
+      "split": "train",
+      "original": "And now we're going to make you wait – a whole week, until the next round-up from Bahrain!",
+      "corrupted": "And now we're going to make you wait – a whole week, untill the next round-up from Bahrain!",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2007/06/08/bahrain-eat-shawarma-at-your-peril/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 59,
+          "corrupted_start": 53,
+          "corruption_type": "spelling",
+          "end": 58,
+          "original": "until",
+          "protected_tokens": [
+            14
+          ],
+          "replacement": "untill",
+          "rule_id": "spelling:until:untill",
+          "start": 53
+        }
+      ],
+      "sample_id": "en-097",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "18f954257356b270b6c78cec",
+      "split": "train",
+      "original": "We are poor, so dealing with all these financial difficulties is not easy.",
+      "corrupted": "We are poor, so dealing with all these fniancial difficulties is not easy.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2020/11/25/chronic-kidney-disease-affects-1-out-of-10-salvadorans-including-children/",
+      "types": [
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 48,
+          "corrupted_start": 39,
+          "corruption_type": "spelling",
+          "end": 48,
+          "original": "financial",
+          "protected_tokens": [
+            72
+          ],
+          "replacement": "fniancial",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling_pattern:transpose_internal",
+          "start": 39
+        }
+      ],
+      "sample_id": "en-098",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    },
+    {
+      "pair_id": "e042c470561e593125367f8e",
+      "split": "train",
+      "original": "It strengthened my conviction that torture in Bahrain is a matter that goes far beyond our imagination.",
+      "corrupted": "It strengthened my conviction taht torture in Bahrain is a matter taht goes far beyond our imagination.",
+      "source": "globalvoices",
+      "url": "https://globalvoices.org/2014/11/11/prison-in-bahrain-a-tale-of-torture/",
+      "types": [
+        "spelling",
+        "spelling"
+      ],
+      "edits": [
+        {
+          "corrupted_end": 34,
+          "corrupted_start": 30,
+          "corruption_type": "spelling",
+          "end": 34,
+          "original": "that",
+          "protected_tokens": [
+            71
+          ],
+          "replacement": "taht",
+          "rule_id": "spelling:that:taht",
+          "start": 30
+        },
+        {
+          "corrupted_end": 70,
+          "corrupted_start": 66,
+          "corruption_type": "spelling",
+          "end": 70,
+          "original": "that",
+          "protected_tokens": [
+            78
+          ],
+          "replacement": "taht",
+          "rule_id": "spelling:that:taht",
+          "start": 66
+        }
+      ],
+      "sample_id": "en-099",
+      "source_judgment": "acceptable",
+      "corruption_judgment": "clearly_erroneous",
+      "intended_edits_judgment": "all_introduce_errors",
+      "formatting_damage": false,
+      "notes": [
+        "No source or corruption issue identified on agent inspection; stylistic preferences and factual accuracy not evaluated."
+      ],
+      "source_form": "sentence",
+      "incidental_formatting_change": false,
+      "strict_usable_pair": true
+    }
+  ],
+  "review": {
+    "reviewer": "codex/gpt-6",
+    "kind": "agent linguistic inspection",
+    "date": "2026-09-21",
+    "independent_human_validation": false,
+    "standard": "Grammar/spelling; uncertainty retained; ordinary headlines/fragments are not automatically errors; factual changes alone are not grammatical errors."
+  }
+}

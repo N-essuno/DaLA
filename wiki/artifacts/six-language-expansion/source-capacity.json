@@ -1,0 +1,248 @@
+{
+  "pl": [
+    {
+      "source": "govpl",
+      "source_value": "govpl",
+      "rows": 88190,
+      "configured_source_matches": true
+    },
+    {
+      "source": "samorzad_gov_pl",
+      "source_value": "samorzad_gov_pl",
+      "rows": 72771,
+      "configured_source_matches": true
+    },
+    {
+      "source": "eurlex",
+      "source_value": "eurlex",
+      "rows": 243060,
+      "configured_source_matches": true
+    },
+    {
+      "source": "biblioteka_nauki",
+      "source_value": "biblioteka_nauki",
+      "rows": 42071,
+      "configured_source_matches": true
+    }
+  ],
+  "sv": [
+    {
+      "source": "akademiliv",
+      "source_value": "akademiliv",
+      "rows": 114916,
+      "configured_source_matches": true
+    },
+    {
+      "source": "forskning-framsteg",
+      "source_value": "forskning-framsteg",
+      "rows": 43791,
+      "configured_source_matches": true
+    },
+    {
+      "source": "cellar",
+      "source_value": "cellar",
+      "rows": 419340,
+      "configured_source_matches": true
+    }
+  ],
+  "nb": [
+    {
+      "source": "government-nob",
+      "source_value": "government-nob",
+      "rows": 3557,
+      "configured_source_matches": true,
+      "content_integrity": {
+        "complete": 3443,
+        "mostly_complete": 90,
+        "fragment": 24
+      },
+      "content_quality": {
+        "excellent": 3516,
+        "good": 37,
+        "adequate": 4
+      }
+    }
+  ],
+  "nn": [
+    {
+      "source": "government-nno",
+      "source_value": "government-nno",
+      "rows": 1091,
+      "configured_source_matches": true,
+      "content_integrity": {
+        "complete": 1077,
+        "fragment": 8,
+        "mostly_complete": 6
+      },
+      "content_quality": {
+        "excellent": 1056,
+        "good": 35
+      }
+    },
+    {
+      "source": "wikipedia-nno",
+      "source_value": "wikipedia-nno",
+      "rows": 146447,
+      "configured_source_matches": true,
+      "content_integrity": {
+        "complete": 138881,
+        "fragment": 6064,
+        "mostly_complete": 1502
+      },
+      "content_quality": {
+        "good": 139323,
+        "adequate": 5695,
+        "excellent": 559,
+        "poor": 860,
+        "unacceptable": 10
+      }
+    }
+  ],
+  "fo": [
+    {
+      "source": "faroese-blark-small",
+      "source_value": "faroese-blark-small",
+      "rows": 300819,
+      "configured_source_matches": true,
+      "content_integrity": {
+        "complete": 208170,
+        "fragment": 92264,
+        "severely_degraded": 383,
+        "mostly_complete": 2
+      },
+      "content_quality": {
+        "good": 220001,
+        "adequate": 53513,
+        "poor": 24541,
+        "excellent": 687,
+        "unacceptable": 2077
+      }
+    },
+    {
+      "source": "sosialurin-faroese-pos",
+      "source_value": "sosialurin-faroese-pos",
+      "rows": 6149,
+      "configured_source_matches": true,
+      "content_integrity": {
+        "fragment": 2151,
+        "complete": 3998
+      },
+      "content_quality": {
+        "adequate": 1478,
+        "good": 4162,
+        "poor": 356,
+        "unacceptable": 153
+      }
+    },
+    {
+      "source": "wikipedia",
+      "source_value": "wiki",
+      "rows": 12798,
+      "configured_source_matches": false,
+      "content_integrity": {
+        "complete": 12462,
+        "fragment": 325,
+        "mostly_complete": 11
+      },
+      "content_quality": {
+        "good": 11254,
+        "poor": 198,
+        "adequate": 1326,
+        "unacceptable": 9,
+        "excellent": 11
+      }
+    }
+  ],
+  "is": [
+    {
+      "source": "igc-adjud",
+      "source_value": "igc-adjud",
+      "rows": 33361,
+      "configured_source_matches": true,
+      "content_integrity": {
+        "complete": 33324,
+        "mostly_complete": 34,
+        "fragment": 3
+      },
+      "content_quality": {
+        "excellent": 30217,
+        "good": 2951,
+        "adequate": 136,
+        "poor": 57
+      }
+    },
+    {
+      "source": "igc-law",
+      "source_value": "igc-law",
+      "rows": 17414,
+      "configured_source_matches": true,
+      "content_integrity": {
+        "complete": 17273,
+        "mostly_complete": 2,
+        "fragment": 139
+      },
+      "content_quality": {
+        "excellent": 14389,
+        "good": 2956,
+        "poor": 40,
+        "adequate": 22,
+        "unacceptable": 7
+      }
+    },
+    {
+      "source": "stjornartidindi",
+      "source_value": "stjornartidindi",
+      "rows": 39757,
+      "configured_source_matches": true,
+      "content_integrity": {
+        "complete": 39716,
+        "fragment": 37,
+        "mostly_complete": 1,
+        "severely_degraded": 3
+      },
+      "content_quality": {
+        "excellent": 21163,
+        "good": 17687,
+        "adequate": 185,
+        "poor": 718,
+        "unacceptable": 4
+      }
+    },
+    {
+      "source": "igc-journals-22-10",
+      "source_value": "igc-journals-22-10",
+      "rows": 1051091,
+      "configured_source_matches": true,
+      "content_integrity": {
+        "complete": 543117,
+        "fragment": 507807,
+        "severely_degraded": 167
+      },
+      "content_quality": {
+        "good": 816625,
+        "poor": 46945,
+        "adequate": 175256,
+        "unacceptable": 8847,
+        "excellent": 3418
+      }
+    },
+    {
+      "source": "wikipedia",
+      "source_value": "wikipedia",
+      "rows": 61259,
+      "configured_source_matches": true,
+      "content_integrity": {
+        "complete": 60483,
+        "fragment": 729,
+        "mostly_complete": 47
+      },
+      "content_quality": {
+        "excellent": 428,
+        "adequate": 1163,
+        "good": 58381,
+        "poor": 1110,
+        "unacceptable": 177
+      }
+    }
+  ]
+}

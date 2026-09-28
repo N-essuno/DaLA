@@ -1,0 +1,13 @@
+{
+  "pairs": 1335,
+  "unique_documents": 5,
+  "exact_edit_reconstruction": true,
+  "correction_roundtrip": true,
+  "document_split_isolation": true,
+  "exported_text_unique": true,
+  "at_most_one_grammar_edit": true,
+  "artifact_checksums": true,
+  "task_views_match_pairs": true,
+  "balanced_labels": true,
+  "source_provenance_consistent": true
+}

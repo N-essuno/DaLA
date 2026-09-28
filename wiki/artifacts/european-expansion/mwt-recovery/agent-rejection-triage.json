@@ -1,0 +1,725 @@
+{
+  "qualification": "Agent triage of checker flags, not native validation or full-sentence acceptability judgments.",
+  "rows": [
+    {
+      "language": "fr",
+      "pair_id": "b8ee0cfe5a264a2806466602",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "123768cf301422c3312af39e",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "5878ca0a88ccab0b3eb0ae49",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "b4c3555cbf995a9144d960e8",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "4c4f5e752845c885c95a5a14",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "1222cff2f58550d94f4de0fe",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "7fe64b958a2a87aa7c61bfe1",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "0d1f0d7963ccb71fce4820ec",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "523dbfb1ffe6de2df9ee5772",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "91af3318ef23b36aac2955b0",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "cda70592e70a41b4754ceafc",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "7dfad2dd43f5c3e9e403c9a7",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "bd5b97c4b13df6194fea6438",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "15564769601f39b37d7fb3ca",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "9865244c816dd3118250f2f6",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "4c01fcb0a9f1600610067b68",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "f62424217d83d49565217c07",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "265b672f0479680f64c39269",
+      "category": "source_typo",
+      "note": "circulaore is a source typo; retain rejection."
+    },
+    {
+      "language": "fr",
+      "pair_id": "fed794ea0fad3b782a08bb98",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "4598572ccd991a45acb7cb65",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "6de9d760a7847417ed7cc221",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "35bd6e527d88f4aba1f215a1",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "dd43b448df9abd0989eaf3d6",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "02c371cdcf97e51f3a885d4b",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "b862f804ea0c4d43120cb434",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "3d43af375b4f19441ec2aa68",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "0322870b6b66ea5791932d98",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "de38a9214aa14d883c2db4de",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "2f6c271f7736cf1ca3af27de",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "fr",
+      "pair_id": "547fb18cb32d7bed751c666a",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "0c4bf027338b593059385e9d",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "ab31fee9f211d0adeab48ae6",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "b040ee480d0b4e47bf1d9c43",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "4f522989e824797b4a3e6488",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "51da5066990b126987519037",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "27bdd23894b90db2b960c687",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "4db356ce8abbc771b58bd00b",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "f02032306c607060ac71baec",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "2ccab8f886c38fa442f0828e",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "29945b270898d71696d26a75",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "dccd39bcd20ae455bcb57316",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "3d85972f4e1bfebb682ab896",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "8b4a357a61cda1bae1cabd63",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "f75feaa01844352202320bfc",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "49b71831e5ecd8b2c0e30266",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "f76097a30bdb6e9ed070dbba",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "830f06ee648a12dacb76b7db",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "dc477341015961b150567bcd",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "b3e92c87cb84c7eff66e74b2",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "01d12ec23c76bc34ccac2a1a",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "7fa2fbf93e995aa958634438",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "98be744738c2228f1004d8ea",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "d4d7e2513650c8796ad78eab",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "39ee469dee830bc07a0c2633",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "a08e5f33bf0ec2b97fba8903",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "a1304f28d41761f235190890",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "343a7744499e600b3f5c6f8f",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "ba30d421d2ca292428af8d06",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "79609efc242278db6748536a",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "it",
+      "pair_id": "18f4e3cc2fde1e8dd67088dc",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "d8e5ae19da73cc3e97ce624f",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "b61c63d17c9dab502f4f028a",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "dab1e9009d385aa525014286",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "e68fc67aeb4b1ad6d6a59d9e",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "a957660c5fd4c0b6e958f8d3",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "e3dd7cfb763c0cfc3de63d3c",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "ca1a5c56b2567985cd699575",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "1b53b4a78cacce011198ce06",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "ae2ca008b8960f5a60a95bdd",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "0afc2806ae9499c9e008181a",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "5b65b5e1697a94b51928e56d",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "9e5f6122a03c6c9cfbfd73ea",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "b8d6ea51b438f7e784a21094",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "428d0b0a1532485eea82c90a",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "61df54804a3824d69e8a9c6e",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "564e24ce158b16b4d048e016",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "f5ecc58e277fd13249358b8c",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "4d6d43ec6a358afe3a172c87",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "e1f4ead7401e2a47f5dfc8a2",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "c0bdef0e166a336b64516740",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "812792785b9329b862018713",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "1bcb71e47c66c0cb7e687233",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "754771f538b20cc5dd8eaa7a",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "ba3123d760a34404fe61622b",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "332f3513c0d05505b25f7c7a",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "8bcea3c2f04beae1c73ab317",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "51642ca88f7ca26414f56cff",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "b755c2646198c1240edbd10b",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "642bf79c464ff9e833932a83",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "es",
+      "pair_id": "1a23e32c76a33dc0bacdb872",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "b339b74dbc2f1d15556c9c4f",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "00273e08e1bb193062ff00db",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "ca3d8565e0f56c8796ffa25a",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "9f383639833a507c24543584",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "b9f348832d3ca71bc75d3f79",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "2557406a1017bb97f985014c",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "ddee4cd99d0354df765e9a53",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "9ed0b3dc3a7faa7a211937c6",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "da275f302d8b6e6697fc3b18",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "df853423eb1a32a62dd4eebe",
+      "category": "source_extraction_defect",
+      "note": "Source contains empty translation or missing percentage values; retain rejection independently of name flags."
+    },
+    {
+      "language": "ro",
+      "pair_id": "e9281f2e0040603c77fd8e19",
+      "category": "lexical_review_needed",
+      "note": "Technical/common or inflected lexical form requires language-specific review; do not automatically exempt."
+    },
+    {
+      "language": "ro",
+      "pair_id": "623b5797e00beca449db6b95",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "fe4286a80277c080ed039736",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "450a57ffca4b65d2f5fe3974",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "c1799ce4682dc88e1a864840",
+      "category": "source_extraction_defect",
+      "note": "Source contains empty translation or missing percentage values; retain rejection independently of name flags."
+    },
+    {
+      "language": "ro",
+      "pair_id": "4c6b73003a814073ea93eaeb",
+      "category": "lexical_review_needed",
+      "note": "Technical/common or inflected lexical form requires language-specific review; do not automatically exempt."
+    },
+    {
+      "language": "ro",
+      "pair_id": "5b4aa2068a7b87d6fd4442ac",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "9841db6c13ef0905005d7295",
+      "category": "source_extraction_defect",
+      "note": "Source contains empty translation or missing percentage values; retain rejection independently of name flags."
+    },
+    {
+      "language": "ro",
+      "pair_id": "a96185178ea452f49319890f",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "2c1bc86461b2ecabfdf8f004",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "04c676b32b8387a58ec4db31",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "121267e405df34c98eb97b3c",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "6655f72631fe6ca09888d0b0",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "673097413261b3d8fb71972f",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "04ee12a1140f6753d7cee425",
+      "category": "lexical_review_needed",
+      "note": "Technical/common or inflected lexical form requires language-specific review; do not automatically exempt."
+    },
+    {
+      "language": "ro",
+      "pair_id": "9d39139d2fb73f5a778575c8",
+      "category": "source_extraction_defect",
+      "note": "Source contains empty translation or missing percentage values; retain rejection independently of name flags."
+    },
+    {
+      "language": "ro",
+      "pair_id": "b6c4888ea9f96a0680e61ca4",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "1bee64020bc25cf6e8f073ae",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    },
+    {
+      "language": "ro",
+      "pair_id": "694b2f487ed1e302884a2b9d",
+      "category": "source_extraction_defect",
+      "note": "Source contains empty translation or missing percentage values; retain rejection independently of name flags."
+    },
+    {
+      "language": "ro",
+      "pair_id": "fac99e7e2b974841f22ba16a",
+      "category": "name_title_or_technical_term_flag",
+      "note": "Flagged spans appear to be names, titles, abbreviations or domain terms; this does not validate the complete sentence or the spelling of each name."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "pairs": 478916,
+  "rows_per_task": 957832,
+  "sources": {
+    "de_rechtspraak": 240251,
+    "eurlex": 107033,
+    "officiele_bekendmakingen": 50498,
+    "dienst_publiek_en_communicatie": 81134
+  },
+  "families": {
+    "article_gender": 205228,
+    "spelling": 241698,
+    "article_number": 9300,
+    "demonstrative_agreement": 5479,
+    "adjective_inflection": 13565,
+    "subject_verb_agreement": 2420,
+    "possessive_agreement": 1137,
+    "relative_pronoun_agreement": 45,
+    "verb_dt": 44
+  },
+  "active_rules": 64,
+  "distinct_substitutions": 31616,
+  "top_substitutions": [
+    {
+      "original": "de",
+      "replacement": "het",
+      "count": 162213
+    },
+    {
+      "original": "het",
+      "replacement": "de",
+      "count": 52315
+    },
+    {
+      "original": "dit",
+      "replacement": "deze",
+      "count": 4487
+    },
+    {
+      "original": "maken",
+      "replacement": "maaken",
+      "count": 4270
+    },
+    {
+      "original": "hebben",
+      "replacement": "heben",
+      "count": 3398
+    },
+    {
+      "original": "grond",
+      "replacement": "gront",
+      "count": 3356
+    },
+    {
+      "original": "eigen",
+      "replacement": "ijgen",
+      "count": 2821
+    },
+    {
+      "original": "aantal",
+      "replacement": "aantap",
+      "count": 2143
+    },
+    {
+      "original": "geven",
+      "replacement": "geefen",
+      "count": 2108
+    },
+    {
+      "original": "omstandigheden",
+      "replacement": "opstandigheden",
+      "count": 2029
+    }
+  ],
+  "validation": {
+    "pairs": 478916,
+    "unique_documents": 33494,
+    "exact_edit_reconstruction": true,
+    "correction_roundtrip": true,
+    "document_split_isolation": true,
+    "exported_text_unique": true,
+    "at_most_one_grammar_edit": true,
+    "artifact_checksums": true,
+    "task_views_match_pairs": true,
+    "balanced_labels": true,
+    "source_provenance_consistent": true
+  },
+  "unchanged_subset": true,
+  "removed_pairs": 14,
+  "manifest_sha256": "41fb35b5acf5e40e7149f58524c80a2f23ceeabc297e5c6a55aa815d337b6436",
+  "splits": {
+    "train": 383131,
+    "validation": 47892,
+    "test": 47893
+  }
+}

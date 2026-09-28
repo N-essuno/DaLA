@@ -1,0 +1,193 @@
+{
+  "language": "fi",
+  "name": "Finnish",
+  "treebank": "Finnish-TDT",
+  "prefix": "fi_tdt",
+  "dictionary": null,
+  "grammar": [
+    {
+      "family": "adjective_number",
+      "context": "nominal_agreement",
+      "feature": "Number",
+      "pos": [
+        "ADJ"
+      ],
+      "relations": [
+        "amod"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "adjective_case",
+      "context": "nominal_agreement",
+      "feature": "Case",
+      "pos": [
+        "ADJ"
+      ],
+      "relations": [
+        "amod"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "determiner_number",
+      "context": "nominal_agreement",
+      "feature": "Number",
+      "pos": [
+        "DET"
+      ],
+      "relations": [
+        "det"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "determiner_case",
+      "context": "nominal_agreement",
+      "feature": "Case",
+      "pos": [
+        "DET"
+      ],
+      "relations": [
+        "det"
+      ],
+      "excluded_features": {
+        "Poss": [
+          "Yes"
+        ]
+      }
+    },
+    {
+      "family": "verb_number_agreement",
+      "context": "finite_agreement",
+      "feature": "Number",
+      "pos": [
+        "VERB",
+        "AUX"
+      ],
+      "subjects": [
+        "minä",
+        "sinä",
+        "hän",
+        "me",
+        "te",
+        "he"
+      ]
+    },
+    {
+      "family": "verb_person_agreement",
+      "context": "finite_agreement",
+      "feature": "Person",
+      "pos": [
+        "VERB",
+        "AUX"
+      ],
+      "subjects": [
+        "minä",
+        "sinä",
+        "hän",
+        "me",
+        "te",
+        "he"
+      ]
+    }
+  ],
+  "spelling": [
+    {
+      "operation": "transpose_internal",
+      "min_length": 5,
+      "max_length": 24,
+      "unicode_letters": true
+    },
+    {
+      "operation": "delete_internal",
+      "min_length": 5,
+      "max_length": 24,
+      "unicode_letters": true
+    },
+    {
+      "operation": "substitute_character",
+      "min_length": 4,
+      "max_length": 24,
+      "unicode_letters": true,
+      "substitutions": {
+        "ä": [
+          "a"
+        ],
+        "ö": [
+          "o"
+        ]
+      }
+    }
+  ],
+  "compiler_options": {
+    "ignore_gender_animacy_features": [],
+    "preserve_all_features": true
+  },
+  "prompts": {
+    "acceptability": "Is this sentence grammatically correct and correctly spelled in Finnish? Reply only yes or no.",
+    "correction": "Correct grammatical and spelling errors in this Finnish sentence. Return correct input unchanged. Preserve Finnish, meaning and style. Return only the sentence."
+  },
+  "release_policy": {
+    "status": "candidate_only",
+    "pilot_target_pairs": 1000,
+    "production_target_pairs": 478930,
+    "require_audit_per_family": true
+  },
+  "limitations": [
+    "UD observed forms are not an exhaustive normative paradigm",
+    "Grammar constraints and spelling generators are synthetic; not observed-error frequencies"
+  ],
+  "treebank_readme": "README.txt",
+  "lexical_backend": {
+    "backend": "voikko",
+    "language": "fi",
+    "python_binding": "voikko/root/usr/lib/python3/dist-packages/libvoikko.py",
+    "library_directory": "voikko/root/usr/lib/x86_64-linux-gnu",
+    "dictionary_directory": "voikko/root/usr/lib/voikko",
+    "preload_libraries": [
+      "voikko/root/usr/lib/x86_64-linux-gnu/libhfstospell.so.11"
+    ]
+  },
+  "source_risk_patterns": [
+    "\\.\\.\\.|…"
+  ],
+  "morphology_options": {
+    "source_nominal_pos": [
+      "ADJ",
+      "DET"
+    ],
+    "source_nominal_relations": [
+      "amod",
+      "det"
+    ]
+  },
+  "resource_packages": [
+    "libvoikko1=4.3.2-1build1",
+    "voikko-fi=2.5-1build1",
+    "python3-libvoikko=4.3.2-1build1",
+    "libhfstospell11=0.5.4-1build3"
+  ],
+  "production_parser": {
+    "language": "fi",
+    "processors": {
+      "tokenize": "tdt",
+      "mwt": "tdt",
+      "lemma": "tdt_nocharlm",
+      "pos": "tdt_nocharlm",
+      "depparse": "tdt_nocharlm"
+    }
+  }
+}

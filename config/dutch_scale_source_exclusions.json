@@ -1,0 +1,232 @@
+[
+  {
+    "sentence_sha256": "a52b4eab3dd291ddb586b10177d39c11295ef9140f3ad6e2d4f58a6c3cf04a73",
+    "reason": "The uninflected adjective in het maximaal aantal needs native adjudication; do not certify this as a clean target.",
+    "evidence": "wiki/artifacts/dutch-pilot-assessment/sample.json#nl-000"
+  },
+  {
+    "sentence_sha256": "90dd5ca183aff333ca41cc04fe4f711ebf1744c21821b022b3a3d0ddc9a4298f",
+    "reason": "Sentence extraction leaves a closing quotation mark with no opening quotation boundary.",
+    "evidence": "wiki/artifacts/dutch-pilot-assessment/sample.json#nl-015"
+  },
+  {
+    "sentence_sha256": "9b32f4dfdf7ac149efeca487b8d5d4f3ee11289aaf5feb717a9eb95187a04e87",
+    "reason": "Standalone Of omdat subordinate clause; fails the complete-sentence source contract even if acceptable in discourse.",
+    "evidence": "wiki/artifacts/dutch-pilot-assessment/sample.json#nl-022"
+  },
+  {
+    "sentence_sha256": "bbf3fb50d6235f04418276c41af37af7c8af05b45c541be8c74572e3d0c298c3",
+    "reason": "Extraction debris Voor meer is joined to U moet ... at the start.",
+    "evidence": "wiki/artifacts/dutch-pilot-assessment/sample.json#nl-027"
+  },
+  {
+    "sentence_sha256": "222153647020d9fee1046ef7d72dc98a7319e3c4d177064d27a512f070ce9d68",
+    "reason": "The compound reserveofficieren is incorrectly separated as reserve officieren.",
+    "evidence": "wiki/artifacts/dutch-pilot-assessment/sample.json#nl-051"
+  },
+  {
+    "sentence_sha256": "de06120847eb3fb1916c466e321a77ce71ac5ee109e7c7043a2e9013875ce32a",
+    "reason": "Standalone Zonder dat subordinate clause; fails the complete-sentence source contract.",
+    "evidence": "wiki/artifacts/dutch-pilot-assessment/sample.json#nl-075"
+  },
+  {
+    "sentence_sha256": "9784760d490e785442c1875c6aa87fcabe44dcebe470975b8791c9368e11f636",
+    "reason": "Spelling/spacing problems: ziet er op toe should be ziet erop toe; (zorg) partijen also splits the compound.",
+    "evidence": "wiki/artifacts/dutch-pilot-assessment/sample.json#nl-081"
+  },
+  {
+    "sentence_sha256": "c014c2100e8c6612d16af968594ea8fde2b99e48d51ca64b113f7589a0cfa7f3",
+    "reason": "Missing space in COA,legt.",
+    "evidence": "wiki/artifacts/dutch-pilot-assessment/sample.json#nl-083"
+  },
+  {
+    "sentence_sha256": "cab50054abea22d4038faf5c5ddaa63fcb934bd46dcc1f978b2bd1a1ea87db52",
+    "reason": "tussen 1926-1928 mixes tussen ... en ... with a dash range; acceptability of this date notation needs adjudication.",
+    "evidence": "wiki/artifacts/dutch-pilot-assessment/sample.json#nl-092"
+  },
+  {
+    "sentence_sha256": "0c5989325e28df59586eede712883eb87818f92b0c50791ad6a238c35792bba5",
+    "reason": "vanaf het begin dit jaar lacks van after het begin; vanaf begin dit jaar would also be possible.",
+    "evidence": "wiki/artifacts/dutch-pilot-assessment/sample.json#nl-096"
+  },
+  {
+    "sentence_sha256": "23985112d4878a6d5355e4ff0f387c0a20cd2cd8c144b18a295b323c7d33548c",
+    "reason": "begeleide should be past-tense begeleidde. Also strekdam is singular: de→het introduces a real gender error but its article_number label is wrong; tighten plural guard.",
+    "evidence": "wiki/artifacts/dutch-pilot-assessment/family-supplement.json#nl-extra-004"
+  },
+  {
+    "sentence_sha256": "72e9b8d544ad4fb56bea9dbcbdfc1c9586f5b0507be01e085d93129bf5e7debf",
+    "reason": "Dat maakt dat de ... zwaar lacks the subordinate finite verb zijn (or should omit the second dat).",
+    "evidence": "wiki/artifacts/dutch-final-assessment/sample.json#nl-012"
+  },
+  {
+    "sentence_sha256": "a65c5ba94e471b2e003b5f031a2f4c0aca566cdf7e6ff87038a9f96e85855eaa",
+    "reason": "het stelsel een dwingend is malformed: the article een has no following noun.",
+    "evidence": "wiki/artifacts/dutch-final-assessment/sample.json#nl-017"
+  },
+  {
+    "sentence_sha256": "a549ccf608853ba75662a6ad61853bd7e12daddaf774ef9f390a88400aac4c29",
+    "reason": "Extraneous space/comma in Deze ligt , aan ... .",
+    "evidence": "wiki/artifacts/dutch-final-assessment/sample.json#nl-020"
+  },
+  {
+    "sentence_sha256": "677371193fc59080492680858b080281c6052fb91611f4d26c9c54af90f3163a",
+    "reason": "Malformed transcript: die ... programmeert en het erin zetten, en even gewoon has broken coordination and an unfinished ending.",
+    "evidence": "wiki/artifacts/dutch-final-assessment/sample.json#nl-021"
+  },
+  {
+    "sentence_sha256": "a901cb8b2f5555d67d6dce3f3eba6bff1299ae100497e46b375980da49f4ee5c",
+    "reason": "Standalone Over hoe ... phrase has no independent main clause; fails the complete-sentence source contract.",
+    "evidence": "wiki/artifacts/dutch-final-assessment/sample.json#nl-046"
+  },
+  {
+    "sentence_sha256": "156ab20008139e8a80afb9faa8ca00cf9d15e240b30aac13ce6738418edf066e",
+    "reason": "Malformed transcript with repeated die and missing in in die je eigen telefoon kan drukken; standalone inverted clause ends in a full stop.",
+    "evidence": "wiki/artifacts/dutch-final-assessment/sample.json#nl-051"
+  },
+  {
+    "sentence_sha256": "6a293218642b73c3220a2ab7ac7be17ba9fdb03070482c5b0dfee65946881f4a",
+    "reason": "postharvest verliezen may be an incorrectly separated Dutch compound, but the status of postharvest as a borrowed technical adjective needs adjudication.",
+    "evidence": "wiki/artifacts/dutch-final-assessment/sample.json#nl-062"
+  },
+  {
+    "sentence_sha256": "84be032b20353913240117aee8f367daa55919d5847195ce44dcbd22e241297c",
+    "reason": "The coordinated plural subject Diverse Nederlandse bedrijven, kennisinstellingen en de Nederlandse ambassade requires helpen, not helpt.",
+    "evidence": "wiki/artifacts/dutch-final-assessment/sample.json#nl-078"
+  },
+  {
+    "sentence_sha256": "38b701e0355e44c471893b711e6cc464eaa3ed6d5593186764ac902efe74a385",
+    "reason": "het cognitief appears to truncate the nominal adjective het cognitieve; conversational ellipsis needs adjudication.",
+    "evidence": "wiki/artifacts/dutch-final-assessment/sample.json#nl-099"
+  },
+  {
+    "sentence_sha256": "7d2ecf0b271c3c1ce6a8554b86bdae98c1d2ff647499badcfe817343511ecf12",
+    "reason": "Comma separates the temporal adjunct from the direct object without an evident parenthetical construction.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-014"
+  },
+  {
+    "sentence_sha256": "6e6aabf08313c854c7d855e556627c134a96070540e74e336c495b5ee3263903",
+    "reason": "Stray leading I. is a list/heading artifact inside the sentence record.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-043"
+  },
+  {
+    "sentence_sha256": "f023dd433b4bee425832c4d46a8bbc8e33f44673dc9381959bfeb4818ce1d828",
+    "reason": "Parenthetical met inbegrip van de bijlagen opens with a comma but has no closing comma before vallen.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-044"
+  },
+  {
+    "sentence_sha256": "9a1d02523748c2e59029df0ac0ddb10d8e2205d65ca10775362202073e96f2f5",
+    "reason": "Nemen verantwoording appears to mix verantwoordelijkheid nemen and verantwoording afleggen; uncertain lexical acceptability.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-047"
+  },
+  {
+    "sentence_sha256": "391cdad5bde4eb36efb9b7cb9424df081b3608f31758008c58aa2eacbd4c3e6e",
+    "reason": "Het leger en politie coordinates nouns with different article genders but omits de before politie.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-050"
+  },
+  {
+    "sentence_sha256": "95f658aae61d37d777601f0b652dd1bc730932c39dc1d67bcd6d5dc77e4fd985",
+    "reason": "Live programma's should be the compound liveprogramma's.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-053"
+  },
+  {
+    "sentence_sha256": "dcc97d5e79b7b5e632952e606625f736c8ec4df229c505497e62f9a1bbce6d6b",
+    "reason": "We hebben stoppen met roken in het basispakket is compressed coverage wording; uncertain as a standalone clean target.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-075"
+  },
+  {
+    "sentence_sha256": "89faeb08b22f74bb649dd10d6b0a2114e88482f5762d2e76ef6e5ee1352fac83",
+    "reason": "Heading Waarborgsom is concatenated with the following sentence Partijen moeten ...",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-104"
+  },
+  {
+    "sentence_sha256": "80712752ffff24713903b53f3834ba023ba25afd0aadbed7602c75380905988f",
+    "reason": "De samenstellende onderdelen nog lacks a predicate before en de reden tot inrichting ...",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-121"
+  },
+  {
+    "sentence_sha256": "0a68aba59a9754e791664356b938dea73657b73786dc0f84676ffe8b7d93354e",
+    "reason": "Wij ... kende requires plural kenden.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-122"
+  },
+  {
+    "sentence_sha256": "094088a66446f82a5b943db9e6a85c34bb710f07436b13f94848e21390d375d3",
+    "reason": "De contracteren is malformed; intended nominalized infinitive would require het contracteren.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-145"
+  },
+  {
+    "sentence_sha256": "65d14fb48225057b37e202ce4ce04c571a3b4e1b711ee4fcd03add1f19331b59",
+    "reason": "(Her)beoor-deeld retains an internal line-break hyphen splitting beoordeeld.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-148"
+  },
+  {
+    "sentence_sha256": "0fc803ed8baf6f1908da9e77d7429aa9825fbf628a90fc83bb1c715be78a0545",
+    "reason": "K.N.I.L. kazerne contains a separated abbreviation compound; requires a joining hyphen.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-175"
+  },
+  {
+    "sentence_sha256": "977bacb1fd17f40999412020134d35c11357d248e3131fa73227c82094f0fbad",
+    "reason": "Duplicated demonstrative in Dit leidt dit niet ...; source is malformed before corruption.",
+    "evidence": "wiki/artifacts/dutch-validation-assessment/sample.json#nl-003"
+  },
+  {
+    "sentence_sha256": "1a18936e0f73b00e7f8d02edde88319a8dd8240a37748cd3293963e0f0aff87b",
+    "reason": "EDDS does not match the initials of the expanded name Expanded Disability Status Scale; possible pre-existing abbreviation typo, not certified clean.",
+    "evidence": "wiki/artifacts/dutch-validation-assessment/sample.json#nl-014"
+  },
+  {
+    "sentence_sha256": "4f4013afa3f1c2aa8a7113b7cf322449627e5c0ec1813f92da2dd74946cd5f8a",
+    "reason": "Twee keer zo vaak dan requires the equative comparator als rather than dan.",
+    "evidence": "wiki/artifacts/dutch-validation-assessment/sample.json#nl-018"
+  },
+  {
+    "sentence_sha256": "1e9c66daef97491bcd2df0ecb1fbba9e1ed996e5026345f4b303e0265e99e8e3",
+    "reason": "Rotsvast Breda en Rotsvast Middelburg with singular heeft may denote two entities or the single parent office specified in apposition; standalone subject agreement is uncertain.",
+    "evidence": "wiki/artifacts/dutch-validation-assessment/sample.json#nl-022"
+  },
+  {
+    "sentence_sha256": "6b846f2af2a3add26589edc57091e9909fa8d7532dfbd01e819c181877b0cd99",
+    "reason": "Kunnen zij in the relative clause is missing the final n of the required infinitive zijn.",
+    "evidence": "wiki/artifacts/dutch-validation-assessment/sample.json#nl-026"
+  },
+  {
+    "sentence_sha256": "cb7f7271c12a09a0165576ceb315495acf2cb64d639cfba46121e6607bc74476",
+    "reason": "In the deterioration sense, the participle is achteruitgegaan; achteruit gegaan is incorrectly split.",
+    "evidence": "wiki/artifacts/dutch-validation-assessment/sample.json#nl-028"
+  },
+  {
+    "sentence_sha256": "6223faa401fc88d48dfe06876b408f87bd7eb7185aa60ef1ba4bfb1e9fb1e1c4",
+    "reason": "Studie is a non-person de-word and requires menige: menig lange ... studie is malformed. Normative evidence: https://taaladvies.net/menig-of-menige-politicus/",
+    "evidence": "wiki/artifacts/dutch-validation-assessment/sample.json#nl-058"
+  },
+  {
+    "sentence_sha256": "1926039e52c90766a2135f5f924c69427b5eae20db640a697f61330315e940c2",
+    "reason": "Unmarked spoken/thought quotation with several comma-joined independent clauses; uncertain as a standalone clean written target.",
+    "evidence": "wiki/artifacts/dutch-validation-assessment/sample.json#nl-094"
+  },
+  {
+    "sentence_sha256": "428800c9aa23b65a72eb50b70ca30625744fa9c8c315d950f3fae922256bfd00",
+    "reason": "Kan het niet anders dat is malformed; the construction requires dan dat or an equivalent complete construction.",
+    "evidence": "wiki/artifacts/dutch-validation-assessment/sample.json#nl-097"
+  },
+  {
+    "sentence_sha256": "ba2c43bbbf1ed2f3090d228f1709b3ebca4818b6f34094be9a2198fdf0e61baf",
+    "reason": "Date range in de periode 13 maart 2013 en 1 december 2013 lacks a clear van ... tot/tussen ... en frame; not certified clean.",
+    "evidence": "wiki/artifacts/dutch-validation-assessment/sample.json#nl-104"
+  },
+  {
+    "sentence_sha256": "487702a5dec530b5a927374f04e097a3339d308d0a1fb115187d0fca0d0eae93",
+    "reason": "Gevaar bestaat op overschrijding appears to mix gevaar voor with kans/risico op; uncertain preposition choice.",
+    "evidence": "wiki/artifacts/dutch-validation-assessment/sample.json#nl-172"
+  },
+  {
+    "sentence_sha256": "ef3878fa88da771ce961d4ab10feff6502b0b4068d3177299a9bdb76bf1cae8e",
+    "reason": "Door andere used independently for people requires anderen; missing final n.",
+    "evidence": "wiki/artifacts/dutch-validation-assessment/sample.json#nl-190"
+  },
+  {
+    "sentence_sha256": "29e6a5b82bee73127cdfa833a18b0def178ed37d2e1b56a2f1ad425ddeaa2861",
+    "reason": "Invalid coordination: Onze infrastructuur is the object of onderhouden we and then an omitted subject of is/sluit. Source changes grammatical function without an explicit resumed subject. Normative evidence: https://onzetaal.nl/taalloket/samentrekking-algemeen",
+    "evidence": "wiki/artifacts/dutch-validation-assessment/family-supplement.json#nl-extra-005"
+  }
+]

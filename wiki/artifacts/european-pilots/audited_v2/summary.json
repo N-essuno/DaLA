@@ -1,0 +1,178 @@
+{
+  "at": "2026-09-26T06:29:53.028942+00:00",
+  "status": "candidate_pilots_complete_require_linguistic_review",
+  "total_pairs": 9346,
+  "languages": [
+    {
+      "language": "ca",
+      "pairs": 1367,
+      "grammar_pairs": 1202,
+      "spelling_pairs": 165,
+      "selected_grammar_families": 8,
+      "configured_active_grammar_families": 8,
+      "splits": {
+        "train": 1045,
+        "validation": 181,
+        "test": 141
+      },
+      "output": "la_output/european_pilots/audited_v2/ca"
+    },
+    {
+      "language": "cs",
+      "pairs": 880,
+      "grammar_pairs": 531,
+      "spelling_pairs": 349,
+      "selected_grammar_families": 9,
+      "configured_active_grammar_families": 10,
+      "splits": {
+        "train": 700,
+        "validation": 68,
+        "test": 112
+      },
+      "output": "la_output/european_pilots/audited_v2/cs"
+    },
+    {
+      "language": "de",
+      "pairs": 1264,
+      "grammar_pairs": 830,
+      "spelling_pairs": 434,
+      "selected_grammar_families": 11,
+      "configured_active_grammar_families": 11,
+      "splits": {
+        "train": 1264,
+        "validation": 0,
+        "test": 0
+      },
+      "output": "la_output/european_pilots/audited_v2/de"
+    },
+    {
+      "language": "el",
+      "pairs": 34,
+      "grammar_pairs": 29,
+      "spelling_pairs": 5,
+      "selected_grammar_families": 4,
+      "configured_active_grammar_families": 8,
+      "splits": {
+        "train": 29,
+        "validation": 5,
+        "test": 0
+      },
+      "output": "la_output/european_pilots/audited_v2/el"
+    },
+    {
+      "language": "es",
+      "pairs": 1099,
+      "grammar_pairs": 959,
+      "spelling_pairs": 140,
+      "selected_grammar_families": 7,
+      "configured_active_grammar_families": 8,
+      "splits": {
+        "train": 866,
+        "validation": 120,
+        "test": 113
+      },
+      "output": "la_output/european_pilots/audited_v2/es"
+    },
+    {
+      "language": "et",
+      "pairs": 957,
+      "grammar_pairs": 345,
+      "spelling_pairs": 612,
+      "selected_grammar_families": 6,
+      "configured_active_grammar_families": 6,
+      "splits": {
+        "train": 772,
+        "validation": 79,
+        "test": 106
+      },
+      "output": "la_output/european_pilots/audited_v2/et"
+    },
+    {
+      "language": "fi",
+      "pairs": 1064,
+      "grammar_pairs": 207,
+      "spelling_pairs": 857,
+      "selected_grammar_families": 4,
+      "configured_active_grammar_families": 4,
+      "splits": {
+        "train": 1064,
+        "validation": 0,
+        "test": 0
+      },
+      "output": "la_output/european_pilots/audited_v2/fi"
+    },
+    {
+      "language": "fr",
+      "pairs": 449,
+      "grammar_pairs": 125,
+      "spelling_pairs": 324,
+      "selected_grammar_families": 6,
+      "configured_active_grammar_families": 8,
+      "splits": {
+        "train": 449,
+        "validation": 0,
+        "test": 0
+      },
+      "output": "la_output/european_pilots/audited_v2/fr"
+    },
+    {
+      "language": "it",
+      "pairs": 649,
+      "grammar_pairs": 565,
+      "spelling_pairs": 84,
+      "selected_grammar_families": 8,
+      "configured_active_grammar_families": 8,
+      "splits": {
+        "train": 623,
+        "validation": 13,
+        "test": 13
+      },
+      "output": "la_output/european_pilots/audited_v2/it"
+    },
+    {
+      "language": "pt-PT",
+      "pairs": 142,
+      "grammar_pairs": 116,
+      "spelling_pairs": 26,
+      "selected_grammar_families": 3,
+      "configured_active_grammar_families": 8,
+      "splits": {
+        "train": 107,
+        "validation": 17,
+        "test": 18
+      },
+      "output": "la_output/european_pilots/audited_v2/pt-PT"
+    },
+    {
+      "language": "ro",
+      "pairs": 626,
+      "grammar_pairs": 272,
+      "spelling_pairs": 354,
+      "selected_grammar_families": 6,
+      "configured_active_grammar_families": 6,
+      "splits": {
+        "train": 539,
+        "validation": 49,
+        "test": 38
+      },
+      "output": "la_output/european_pilots/audited_v2/ro"
+    },
+    {
+      "language": "uk",
+      "pairs": 815,
+      "grammar_pairs": 261,
+      "spelling_pairs": 554,
+      "selected_grammar_families": 7,
+      "configured_active_grammar_families": 7,
+      "splits": {
+        "train": 732,
+        "validation": 70,
+        "test": 13
+      },
+      "output": "la_output/european_pilots/audited_v2/uk"
+    }
+  ],
+  "automatic_validation": "wiki/artifacts/european-pilots/audited_v2/validation.json",
+  "human_linguistic_validation": false,
+  "uploads": false
+}

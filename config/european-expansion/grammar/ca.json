@@ -1,0 +1,65 @@
+{
+  "language": "ca",
+  "rule_overrides": {
+    "verb_number_agreement": {
+      "noun_subject": {
+        "lemmas": [
+          "nen",
+          "nena",
+          "home",
+          "dona",
+          "professor",
+          "estudiant",
+          "autor",
+          "escriptor",
+          "ciutat",
+          "escola",
+          "empresa",
+          "edifici",
+          "llibre",
+          "arbre"
+        ],
+        "review": "agent conservative count-noun inventory; no native validation"
+      }
+    }
+  },
+  "status": "candidate_only_agent_reviewed",
+  "reason": "Explicit conservative coverage extensions; shared code, isolated linguistic constraints",
+  "profile_overrides": {
+    "personal_pronoun_features": {
+      "jo": {
+        "Number": "Sing",
+        "Person": "1"
+      },
+      "tu": {
+        "Number": "Sing",
+        "Person": "2"
+      },
+      "ell": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "ella": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "nosaltres": {
+        "Number": "Plur",
+        "Person": "1"
+      },
+      "vosaltres": {
+        "Number": "Plur",
+        "Person": "2"
+      },
+      "ells": {
+        "Number": "Plur",
+        "Person": "3"
+      },
+      "elles": {
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    "personal_pronoun_by_dependency": true
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "language": "nb",
+  "passed": true,
+  "fixtures": [
+    {
+      "text": "En liten gutt leser en spennende bok på skolen.",
+      "rejection": null,
+      "families": [
+        "adjective_definite",
+        "adjective_gender",
+        "adjective_number",
+        "determiner_gender",
+        "spelling"
+      ],
+      "missing": [],
+      "forbidden": [],
+      "passed": true,
+      "lexical_conflicts": []
+    },
+    {
+      "text": "Hun leser en bok på bussen hver morgen.",
+      "rejection": null,
+      "families": [
+        "determiner_gender",
+        "spelling"
+      ],
+      "missing": [],
+      "forbidden": [],
+      "passed": true,
+      "lexical_conflicts": []
+    },
+    {
+      "text": "Vi har skrevet et langt brev til den nye skolen.",
+      "rejection": null,
+      "families": [
+        "adjective_definite",
+        "adjective_gender",
+        "determiner_gender",
+        "perfect_verb_form",
+        "pronoun_case",
+        "spelling"
+      ],
+      "missing": [],
+      "forbidden": [],
+      "passed": true,
+      "lexical_conflicts": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "language": "uk",
+  "source_sha256": [
+    "a9fec89f6347546abbf943e64b0e68c45d3bba6bca6420407bc01a56083c8a22"
+  ],
+  "review_type": "automatic source-boundary risk filter plus explicitly recorded agent judgments; not native validation",
+  "source_risk_patterns": [
+    "[!?]"
+  ],
+  "judgments": [
+    {
+      "pair_id": "3e0e277a1765c0397ac8eb99",
+      "original": "За словами старшого прокурора Вінницької області Петра Петренка (Звідки ми знаємо?), зараз обробляються різні версії того, що сталося, а також версія, що пов'язана з професійною діяльністю убитого.",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    }
+  ]
+}

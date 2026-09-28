@@ -1,0 +1,95 @@
+[
+  {
+    "sentence_sha256": "34669803cd1a088811c613b8089fd307dd5c977da7dada44ab65df68124ccd61",
+    "document_id": "de5c1818d6ec145a6c1b0a81f3b9dce7a37ae65f674f4e3ac7086a17b14076e2",
+    "url": "https://360info.org/hunger-in-india-likely-to-grow-again/",
+    "reason": "Malformed causal clause: because of followed by incompatible clause.",
+    "review_type": "agent_spot_check"
+  },
+  {
+    "sentence_sha256": "b550fea312cb95541155c6ccb13d49b83dc247ba1ffbdfb01f8ec87d4d7bed81",
+    "document_id": "d0d7e376040d62083516554e22a9264514579fdc84c6555bfef0efce51c836b5",
+    "url": "https://360info.org/video-what-do-people-want-out-of-hiv-prep/",
+    "reason": "Malformed sequence of subject and temporal expressions.",
+    "review_type": "agent_spot_check"
+  },
+  {
+    "sentence_sha256": "b03158d34dff2ffec7f17f81ac2c706904c1dd7cb99352d34c962c5480803c16",
+    "document_id": "09d4402bb645b4775346b222a1fb7eccd9741a0529cc39d720e7dec2b88f2c4b",
+    "url": "https://360info.org/driving-towards-dubais-cop28/",
+    "reason": "Suspect source noun phrase: sea surface temperatures records; conservative exclusion pending linguistic review.",
+    "review_type": "agent_spot_check"
+  },
+  {
+    "sentence_sha256": "3e3e5ca04b132cd4d4f2e69ea65e6aa9d1d72bd4e717f0e7deed1df73d2fe538",
+    "document_id": "b2a160d4d0243d2443131013dbaa12662db909f67737a3d606391106f545ff20",
+    "url": "https://360info.org/the-race-to-improve-dna-sequencing/",
+    "reason": "Comma-splice/malformed transition: introductory disadvantages clause joined directly to a new finite clause about sequence length.",
+    "review_type": "agent_stratified_inspection",
+    "judgment": "reject"
+  },
+  {
+    "sentence_sha256": "04caea903bbb9fb5dec5edb42415bf2fe7a62b16844a62755207d122540b8450",
+    "document_id": "27df2596a3fba1f26e2ec71e968094801097997895d286acf5165e14311854b9",
+    "url": "https://360info.org/the-plastics-and-fish-dilemma-to-eat-or-not-to-eat/",
+    "reason": "Missing noun after \"a common\" in the intended occurrence/frequency construction.",
+    "review_type": "agent_stratified_inspection",
+    "judgment": "reject"
+  },
+  {
+    "sentence_sha256": "5ac5789276f2e37d7b835cd371e857873f8f6416a8a2ae0175eeb2fc4ad81393",
+    "document_id": "b705b74ebec9694b9de44f8914a2a81a4b53a67ecb92b1b1b4900388e169bfa9",
+    "url": "https://360info.org/special-report-changing-climate-changing-diseases/",
+    "reason": "Locative \"where\" combined with stranded \"native to\" is suspect in the intended standard written register; conservatively exclude.",
+    "review_type": "agent_stratified_inspection",
+    "judgment": "uncertain"
+  },
+  {
+    "sentence_sha256": "0c2003ee33a6366136d65bc85d11edea43434c5b7127df52842d632c9834e5eb",
+    "document_id": "ccdfa523b49780a06056005afa568467cf6837a47cfa077d142f742f9015b33d",
+    "url": "https://360info.org/growing-concerns-over-billion-dollar-baby-industry/",
+    "reason": "Subject\u2013verb comma separating system from may.",
+    "review_type": "agent_generator_probe",
+    "judgment": "reject"
+  },
+  {
+    "sentence_sha256": "35f7a7fa47e9117ab7d77aa5f38538df929987b79f4b219e4fb6920a659a6619",
+    "document_id": "235077d053f52eb1a36f25e66e75a05fec1502f2f5302a8c8a2bdb14b27954dd",
+    "url": "https://publicdomainreview.org/essay/fallen-angels-birds-of-paradise-in-early-modern-europe/",
+    "reason": "Historical prose fragment with malformed spaced terminal ellipsis.",
+    "review_type": "agent_generator_probe",
+    "judgment": "reject"
+  },
+  {
+    "sentence_sha256": "61644e4cc0bfa7cbe78511554e33dfcbdc1ed45a2e9a732d64c794939d3fbda4",
+    "document_id": "c808bfd023378820add8a2fda89def34c2c15506274719fb47b30209b81497ff",
+    "url": "https://360info.org/when-choice-saves-lives/",
+    "reason": "Mostly commonly is a malformed degree expression.",
+    "review_type": "agent_new_operator_stratified_inspection",
+    "judgment": "reject"
+  },
+  {
+    "sentence_sha256": "6f49a89f78619e224dcf443fc945284efa89c500221e331ccff704f0826564a8",
+    "document_id": "8c605c06e6ef29cc890dbdc127a1f6428da857579f0c7b14400b5e6428da8f49",
+    "url": "https://360info.org/what-jetskis-horses-and-gun-toting-leaders-have-to-do-with-international-peace/",
+    "reason": "Semicolon introduces a dependent while clause; exclude uncertain punctuation rather than certify the original.",
+    "review_type": "agent_new_operator_stratified_inspection",
+    "judgment": "uncertain"
+  },
+  {
+    "sentence_sha256": "d2687ee9f167c39f90ae046eb104e7d5e1c86a615974575f53ce339e47c216ba",
+    "document_id": "c0e370500499110641e0ad1e85fb275b60440f108b2a9fa22c5856e899e72e68",
+    "url": "https://360info.org/how-acupuncture-works/",
+    "reason": "Unclear non-idiomatic construction better effects of the visceral pain alleviation; exclude from clean-source pool without labeling it a definite grammatical error.",
+    "review_type": "agent_new_operator_stratified_inspection",
+    "judgment": "uncertain"
+  },
+  {
+    "sentence_sha256": "5b468512fb5ba6f5c4e82caa3eca41c520d14710ebfe16239f2351e7eefdfe6e",
+    "document_id": "ac3c60c4990eea919c81e27b4d8939a747715505d21b8b5a98c9a2bba656a605",
+    "url": "https://360info.org/six-myths-about-the-economy/",
+    "reason": "Multiple finite clauses joined with commas inside the while construction; parenthetical reading is possible but clean-source status is uncertain.",
+    "review_type": "agent_new_operator_stratified_inspection",
+    "judgment": "uncertain"
+  }
+]

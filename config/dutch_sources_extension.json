@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "name": "de_rechtspraak",
+      "source_value": "de_rechtspraak",
+      "repo_id": "danish-foundation-models/dutch-dynaword",
+      "revision": "d0158defd949699532e59dea5978c5542afb0400",
+      "data_file": "data/de_rechtspraak/data.parquet",
+      "metadata_file": "data/de_rechtspraak/metadata.parquet",
+      "license": "CC0 1.0 - https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_evidence_url": "https://huggingface.co/datasets/danish-foundation-models/dutch-dynaword/blob/d0158defd949699532e59dea5978c5542afb0400/data/de_rechtspraak/de_rechtspraak.md",
+      "min_document_chars": 400,
+      "annotation_filters": {
+        "content_integrity": [
+          "complete"
+        ],
+        "content_ratio": [
+          "complete_content",
+          "mostly_content"
+        ],
+        "content_length": [
+          "moderate",
+          "substantial"
+        ],
+        "content_quality": [
+          "excellent"
+        ]
+      },
+      "data_sha256": "a322d7c54ee834119919d631781bfc37a0065217ab7da28b697b95b2b0bd2139",
+      "metadata_sha256": "0b7acf463ddfeeab4f5154aa5f6d03daf0795b28be8c09f4d97108330bbf1d18",
+      "annotation_exclusions": {
+        "content_type": [
+          "conversational"
+        ]
+      },
+      "annotation_text_exclusions": {
+        "one_sentence_description": "\\b(?:interview|podcast|speech|transcript|conversation|dialogue|debate|debates)\\b"
+      }
+    },
+    {
+      "name": "officiele_bekendmakingen",
+      "source_value": "officiele_bekendmakingen",
+      "repo_id": "danish-foundation-models/dutch-dynaword",
+      "revision": "d0158defd949699532e59dea5978c5542afb0400",
+      "data_file": "data/officiele_bekendmakingen/data.parquet",
+      "metadata_file": "data/officiele_bekendmakingen/metadata.parquet",
+      "license": "CC0 1.0 - https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_evidence_url": "https://huggingface.co/datasets/danish-foundation-models/dutch-dynaword/blob/d0158defd949699532e59dea5978c5542afb0400/data/officiele_bekendmakingen/officiele_bekendmakingen.md",
+      "min_document_chars": 400,
+      "annotation_filters": {
+        "content_integrity": [
+          "complete"
+        ],
+        "content_ratio": [
+          "complete_content",
+          "mostly_content"
+        ],
+        "content_length": [
+          "moderate",
+          "substantial"
+        ],
+        "content_quality": [
+          "excellent"
+        ]
+      },
+      "data_sha256": "f7c021d44bbf6397b5f01a42b4188ae280edd6da8ae03c3fa23e8438e2622a4a",
+      "metadata_sha256": "adbe8f2df8494db3210f788b4b1edadb95386e2698a0746298d99835dae51d5c",
+      "annotation_exclusions": {
+        "content_type": [
+          "conversational"
+        ]
+      },
+      "annotation_text_exclusions": {
+        "one_sentence_description": "\\b(?:interview|podcast|speech|transcript|conversation|dialogue|debate|debates)\\b"
+      },
+      "document_year_regex": "(?:Gepubliceerd op\\s+|Jaargang\\s+)(20\\d{2})",
+      "min_document_year": 2000
+    }
+  ]
+}

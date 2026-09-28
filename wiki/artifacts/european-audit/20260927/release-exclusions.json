@@ -1,0 +1,840 @@
+{
+  "at": "2026-09-28T14:41:38.279603+00:00",
+  "excluded_pairs": 3922,
+  "reason": "audit_unresolved",
+  "scope": "The 3922 persistent truncation/JSON failures discussed with user; excludes later disconnect-recovery outcomes",
+  "counts_by_language": {
+    "ca": 1523,
+    "cs": 403,
+    "de": 83,
+    "el": 208,
+    "es": 28,
+    "et": 328,
+    "fi": 337,
+    "fr": 63,
+    "it": 185,
+    "pt-PT": 32,
+    "ro": 428,
+    "uk": 304
+  },
+  "all_source_pairs": 5602597,
+  "remaining_after_this_exclusion": 5598675,
+  "not_release_accepted": true,
+  "manifest_sha256": "2e40453712e8c71381d550dae675a67206b716891d2295bf8852781ff4663149",
+  "coverage": [
+    {
+      "language": "ca",
+      "rule_id": "ca_adjective_gender_ud",
+      "before": 12916,
+      "excluded": 33,
+      "remaining": 12883
+    },
+    {
+      "language": "ca",
+      "rule_id": "ca_adjective_number_ud",
+      "before": 28261,
+      "excluded": 79,
+      "remaining": 28182
+    },
+    {
+      "language": "ca",
+      "rule_id": "ca_determiner_gender_ud",
+      "before": 125295,
+      "excluded": 442,
+      "remaining": 124853
+    },
+    {
+      "language": "ca",
+      "rule_id": "ca_determiner_number_ud",
+      "before": 176866,
+      "excluded": 591,
+      "remaining": 176275
+    },
+    {
+      "language": "ca",
+      "rule_id": "ca_governed_infinitive_ud",
+      "before": 5829,
+      "excluded": 15,
+      "remaining": 5814
+    },
+    {
+      "language": "ca",
+      "rule_id": "ca_perfect_verb_form_ud",
+      "before": 9018,
+      "excluded": 27,
+      "remaining": 8991
+    },
+    {
+      "language": "ca",
+      "rule_id": "ca_spelling_delete_internal",
+      "before": 55777,
+      "excluded": 165,
+      "remaining": 55612
+    },
+    {
+      "language": "ca",
+      "rule_id": "ca_spelling_substitute_character",
+      "before": 5284,
+      "excluded": 10,
+      "remaining": 5274
+    },
+    {
+      "language": "ca",
+      "rule_id": "ca_spelling_transpose_internal",
+      "before": 56057,
+      "excluded": 152,
+      "remaining": 55905
+    },
+    {
+      "language": "ca",
+      "rule_id": "ca_verb_number_agreement_ud",
+      "before": 3102,
+      "excluded": 8,
+      "remaining": 3094
+    },
+    {
+      "language": "ca",
+      "rule_id": "ca_verb_person_agreement_ud",
+      "before": 525,
+      "excluded": 1,
+      "remaining": 524
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_adjective_case_ud",
+      "before": 95073,
+      "excluded": 64,
+      "remaining": 95009
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_adjective_gender_ud",
+      "before": 9890,
+      "excluded": 3,
+      "remaining": 9887
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_adjective_number_ud",
+      "before": 15454,
+      "excluded": 7,
+      "remaining": 15447
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_determiner_case_ud",
+      "before": 22944,
+      "excluded": 14,
+      "remaining": 22930
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_determiner_gender_ud",
+      "before": 2845,
+      "excluded": 5,
+      "remaining": 2840
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_governed_infinitive_ud",
+      "before": 5773,
+      "excluded": 3,
+      "remaining": 5770
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_observed_spelling_001",
+      "before": 10741,
+      "excluded": 9,
+      "remaining": 10732
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_observed_spelling_005",
+      "before": 1639,
+      "excluded": 2,
+      "remaining": 1637
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_observed_spelling_006",
+      "before": 22,
+      "excluded": 1,
+      "remaining": 21
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_observed_spelling_008",
+      "before": 2964,
+      "excluded": 2,
+      "remaining": 2962
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_observed_spelling_012",
+      "before": 483,
+      "excluded": 2,
+      "remaining": 481
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_observed_spelling_019",
+      "before": 183,
+      "excluded": 1,
+      "remaining": 182
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_observed_spelling_022",
+      "before": 188,
+      "excluded": 1,
+      "remaining": 187
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_observed_spelling_029",
+      "before": 1110,
+      "excluded": 1,
+      "remaining": 1109
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_observed_spelling_033",
+      "before": 101,
+      "excluded": 1,
+      "remaining": 100
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_observed_spelling_040",
+      "before": 3902,
+      "excluded": 4,
+      "remaining": 3898
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_preposition_case_dat",
+      "before": 7278,
+      "excluded": 2,
+      "remaining": 7276
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_preposition_case_gen",
+      "before": 30845,
+      "excluded": 27,
+      "remaining": 30818
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_preposition_case_ins",
+      "before": 12706,
+      "excluded": 7,
+      "remaining": 12699
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_spelling_delete_internal",
+      "before": 96210,
+      "excluded": 101,
+      "remaining": 96109
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_spelling_substitute_character",
+      "before": 52073,
+      "excluded": 63,
+      "remaining": 52010
+    },
+    {
+      "language": "cs",
+      "rule_id": "cs_spelling_transpose_internal",
+      "before": 96108,
+      "excluded": 83,
+      "remaining": 96025
+    },
+    {
+      "language": "de",
+      "rule_id": "de_adjective_number_ud",
+      "before": 1219,
+      "excluded": 1,
+      "remaining": 1218
+    },
+    {
+      "language": "de",
+      "rule_id": "de_determiner_gender_ud",
+      "before": 113008,
+      "excluded": 19,
+      "remaining": 112989
+    },
+    {
+      "language": "de",
+      "rule_id": "de_spelling_delete_internal",
+      "before": 122311,
+      "excluded": 23,
+      "remaining": 122288
+    },
+    {
+      "language": "de",
+      "rule_id": "de_spelling_substitute_character",
+      "before": 14544,
+      "excluded": 3,
+      "remaining": 14541
+    },
+    {
+      "language": "de",
+      "rule_id": "de_spelling_transpose_internal",
+      "before": 122633,
+      "excluded": 36,
+      "remaining": 122597
+    },
+    {
+      "language": "de",
+      "rule_id": "de_verb_person_agreement_ud",
+      "before": 18388,
+      "excluded": 1,
+      "remaining": 18387
+    },
+    {
+      "language": "el",
+      "rule_id": "el_adjective_case_ud",
+      "before": 9703,
+      "excluded": 6,
+      "remaining": 9697
+    },
+    {
+      "language": "el",
+      "rule_id": "el_adjective_number_ud",
+      "before": 9224,
+      "excluded": 6,
+      "remaining": 9218
+    },
+    {
+      "language": "el",
+      "rule_id": "el_determiner_case_ud",
+      "before": 125282,
+      "excluded": 55,
+      "remaining": 125227
+    },
+    {
+      "language": "el",
+      "rule_id": "el_determiner_gender_ud",
+      "before": 29936,
+      "excluded": 18,
+      "remaining": 29918
+    },
+    {
+      "language": "el",
+      "rule_id": "el_determiner_number_ud",
+      "before": 116924,
+      "excluded": 51,
+      "remaining": 116873
+    },
+    {
+      "language": "el",
+      "rule_id": "el_spelling_delete_internal",
+      "before": 65727,
+      "excluded": 29,
+      "remaining": 65698
+    },
+    {
+      "language": "el",
+      "rule_id": "el_spelling_substitute_character",
+      "before": 54090,
+      "excluded": 21,
+      "remaining": 54069
+    },
+    {
+      "language": "el",
+      "rule_id": "el_spelling_transpose_internal",
+      "before": 65741,
+      "excluded": 22,
+      "remaining": 65719
+    },
+    {
+      "language": "es",
+      "rule_id": "es_adjective_number_ud",
+      "before": 45299,
+      "excluded": 3,
+      "remaining": 45296
+    },
+    {
+      "language": "es",
+      "rule_id": "es_determiner_gender_ud",
+      "before": 132338,
+      "excluded": 6,
+      "remaining": 132332
+    },
+    {
+      "language": "es",
+      "rule_id": "es_determiner_number_ud",
+      "before": 187876,
+      "excluded": 16,
+      "remaining": 187860
+    },
+    {
+      "language": "es",
+      "rule_id": "es_spelling_delete_internal",
+      "before": 40744,
+      "excluded": 1,
+      "remaining": 40743
+    },
+    {
+      "language": "es",
+      "rule_id": "es_spelling_transpose_internal",
+      "before": 41121,
+      "excluded": 2,
+      "remaining": 41119
+    },
+    {
+      "language": "et",
+      "rule_id": "et_adjective_case_ud",
+      "before": 30674,
+      "excluded": 26,
+      "remaining": 30648
+    },
+    {
+      "language": "et",
+      "rule_id": "et_adjective_number_ud",
+      "before": 16147,
+      "excluded": 9,
+      "remaining": 16138
+    },
+    {
+      "language": "et",
+      "rule_id": "et_determiner_case_ud",
+      "before": 24153,
+      "excluded": 23,
+      "remaining": 24130
+    },
+    {
+      "language": "et",
+      "rule_id": "et_determiner_number_ud",
+      "before": 11972,
+      "excluded": 8,
+      "remaining": 11964
+    },
+    {
+      "language": "et",
+      "rule_id": "et_spelling_delete_internal",
+      "before": 172749,
+      "excluded": 116,
+      "remaining": 172633
+    },
+    {
+      "language": "et",
+      "rule_id": "et_spelling_substitute_character",
+      "before": 26292,
+      "excluded": 28,
+      "remaining": 26264
+    },
+    {
+      "language": "et",
+      "rule_id": "et_spelling_transpose_internal",
+      "before": 173133,
+      "excluded": 104,
+      "remaining": 173029
+    },
+    {
+      "language": "et",
+      "rule_id": "et_verb_number_agreement_ud",
+      "before": 10305,
+      "excluded": 7,
+      "remaining": 10298
+    },
+    {
+      "language": "et",
+      "rule_id": "et_verb_person_agreement_ud",
+      "before": 13505,
+      "excluded": 7,
+      "remaining": 13498
+    },
+    {
+      "language": "fi",
+      "rule_id": "fi_adjective_case_ud",
+      "before": 38841,
+      "excluded": 19,
+      "remaining": 38822
+    },
+    {
+      "language": "fi",
+      "rule_id": "fi_adjective_number_ud",
+      "before": 30364,
+      "excluded": 14,
+      "remaining": 30350
+    },
+    {
+      "language": "fi",
+      "rule_id": "fi_determiner_case_ud",
+      "before": 3503,
+      "excluded": 2,
+      "remaining": 3501
+    },
+    {
+      "language": "fi",
+      "rule_id": "fi_spelling_delete_internal",
+      "before": 174307,
+      "excluded": 145,
+      "remaining": 174162
+    },
+    {
+      "language": "fi",
+      "rule_id": "fi_spelling_substitute_character",
+      "before": 30872,
+      "excluded": 20,
+      "remaining": 30852
+    },
+    {
+      "language": "fi",
+      "rule_id": "fi_spelling_transpose_internal",
+      "before": 174016,
+      "excluded": 126,
+      "remaining": 173890
+    },
+    {
+      "language": "fi",
+      "rule_id": "fi_verb_number_agreement_ud",
+      "before": 13292,
+      "excluded": 4,
+      "remaining": 13288
+    },
+    {
+      "language": "fi",
+      "rule_id": "fi_verb_person_agreement_ud",
+      "before": 10177,
+      "excluded": 7,
+      "remaining": 10170
+    },
+    {
+      "language": "fr",
+      "rule_id": "fr_adjective_number_ud",
+      "before": 85208,
+      "excluded": 1,
+      "remaining": 85207
+    },
+    {
+      "language": "fr",
+      "rule_id": "fr_determiner_gender_ud",
+      "before": 18183,
+      "excluded": 1,
+      "remaining": 18182
+    },
+    {
+      "language": "fr",
+      "rule_id": "fr_determiner_number_ud",
+      "before": 5413,
+      "excluded": 3,
+      "remaining": 5410
+    },
+    {
+      "language": "fr",
+      "rule_id": "fr_governed_infinitive_ud",
+      "before": 5494,
+      "excluded": 1,
+      "remaining": 5493
+    },
+    {
+      "language": "fr",
+      "rule_id": "fr_perfect_verb_form_ud",
+      "before": 14776,
+      "excluded": 2,
+      "remaining": 14774
+    },
+    {
+      "language": "fr",
+      "rule_id": "fr_spelling_delete_internal",
+      "before": 124878,
+      "excluded": 13,
+      "remaining": 124865
+    },
+    {
+      "language": "fr",
+      "rule_id": "fr_spelling_substitute_character",
+      "before": 29540,
+      "excluded": 3,
+      "remaining": 29537
+    },
+    {
+      "language": "fr",
+      "rule_id": "fr_spelling_transpose_internal",
+      "before": 125325,
+      "excluded": 33,
+      "remaining": 125292
+    },
+    {
+      "language": "fr",
+      "rule_id": "fr_verb_number_agreement_ud",
+      "before": 36587,
+      "excluded": 5,
+      "remaining": 36582
+    },
+    {
+      "language": "fr",
+      "rule_id": "fr_verb_person_agreement_ud",
+      "before": 31929,
+      "excluded": 1,
+      "remaining": 31928
+    },
+    {
+      "language": "it",
+      "rule_id": "it_adjective_gender_ud",
+      "before": 12935,
+      "excluded": 1,
+      "remaining": 12934
+    },
+    {
+      "language": "it",
+      "rule_id": "it_adjective_number_ud",
+      "before": 22457,
+      "excluded": 8,
+      "remaining": 22449
+    },
+    {
+      "language": "it",
+      "rule_id": "it_determiner_gender_ud",
+      "before": 163067,
+      "excluded": 38,
+      "remaining": 163029
+    },
+    {
+      "language": "it",
+      "rule_id": "it_determiner_number_ud",
+      "before": 108435,
+      "excluded": 32,
+      "remaining": 108403
+    },
+    {
+      "language": "it",
+      "rule_id": "it_governed_infinitive_ud",
+      "before": 2526,
+      "excluded": 1,
+      "remaining": 2525
+    },
+    {
+      "language": "it",
+      "rule_id": "it_perfect_verb_form_ud",
+      "before": 6438,
+      "excluded": 3,
+      "remaining": 6435
+    },
+    {
+      "language": "it",
+      "rule_id": "it_spelling_delete_internal",
+      "before": 80673,
+      "excluded": 41,
+      "remaining": 80632
+    },
+    {
+      "language": "it",
+      "rule_id": "it_spelling_transpose_internal",
+      "before": 80649,
+      "excluded": 60,
+      "remaining": 80589
+    },
+    {
+      "language": "it",
+      "rule_id": "it_verb_number_agreement_ud",
+      "before": 1471,
+      "excluded": 1,
+      "remaining": 1470
+    },
+    {
+      "language": "pt-PT",
+      "rule_id": "pt-PT_adjective_number_ud",
+      "before": 14589,
+      "excluded": 1,
+      "remaining": 14588
+    },
+    {
+      "language": "pt-PT",
+      "rule_id": "pt-PT_determiner_gender_ud",
+      "before": 93487,
+      "excluded": 2,
+      "remaining": 93485
+    },
+    {
+      "language": "pt-PT",
+      "rule_id": "pt-PT_determiner_number_ud",
+      "before": 135391,
+      "excluded": 8,
+      "remaining": 135383
+    },
+    {
+      "language": "pt-PT",
+      "rule_id": "pt-PT_spelling_delete_internal",
+      "before": 78493,
+      "excluded": 5,
+      "remaining": 78488
+    },
+    {
+      "language": "pt-PT",
+      "rule_id": "pt-PT_spelling_transpose_internal",
+      "before": 78794,
+      "excluded": 16,
+      "remaining": 78778
+    },
+    {
+      "language": "ro",
+      "rule_id": "ro_adjective_case_ud",
+      "before": 1496,
+      "excluded": 3,
+      "remaining": 1493
+    },
+    {
+      "language": "ro",
+      "rule_id": "ro_adjective_gender_ud",
+      "before": 5153,
+      "excluded": 5,
+      "remaining": 5148
+    },
+    {
+      "language": "ro",
+      "rule_id": "ro_adjective_number_ud",
+      "before": 5414,
+      "excluded": 8,
+      "remaining": 5406
+    },
+    {
+      "language": "ro",
+      "rule_id": "ro_determiner_case_ud",
+      "before": 34664,
+      "excluded": 51,
+      "remaining": 34613
+    },
+    {
+      "language": "ro",
+      "rule_id": "ro_determiner_gender_ud",
+      "before": 67589,
+      "excluded": 36,
+      "remaining": 67553
+    },
+    {
+      "language": "ro",
+      "rule_id": "ro_determiner_number_ud",
+      "before": 21227,
+      "excluded": 19,
+      "remaining": 21208
+    },
+    {
+      "language": "ro",
+      "rule_id": "ro_spelling_delete_internal",
+      "before": 106032,
+      "excluded": 132,
+      "remaining": 105900
+    },
+    {
+      "language": "ro",
+      "rule_id": "ro_spelling_substitute_character",
+      "before": 22962,
+      "excluded": 37,
+      "remaining": 22925
+    },
+    {
+      "language": "ro",
+      "rule_id": "ro_spelling_transpose_internal",
+      "before": 106242,
+      "excluded": 132,
+      "remaining": 106110
+    },
+    {
+      "language": "ro",
+      "rule_id": "ro_verb_number_agreement_ud",
+      "before": 1923,
+      "excluded": 3,
+      "remaining": 1920
+    },
+    {
+      "language": "ro",
+      "rule_id": "ro_verb_person_agreement_ud",
+      "before": 4544,
+      "excluded": 2,
+      "remaining": 4542
+    },
+    {
+      "language": "uk",
+      "rule_id": "uk_adjective_case_ud",
+      "before": 19377,
+      "excluded": 9,
+      "remaining": 19368
+    },
+    {
+      "language": "uk",
+      "rule_id": "uk_adjective_number_ud",
+      "before": 9908,
+      "excluded": 5,
+      "remaining": 9903
+    },
+    {
+      "language": "uk",
+      "rule_id": "uk_determiner_case_ud",
+      "before": 27918,
+      "excluded": 14,
+      "remaining": 27904
+    },
+    {
+      "language": "uk",
+      "rule_id": "uk_determiner_gender_ud",
+      "before": 4479,
+      "excluded": 1,
+      "remaining": 4478
+    },
+    {
+      "language": "uk",
+      "rule_id": "uk_determiner_number_ud",
+      "before": 23306,
+      "excluded": 12,
+      "remaining": 23294
+    },
+    {
+      "language": "uk",
+      "rule_id": "uk_observed_spelling_001",
+      "before": 791,
+      "excluded": 2,
+      "remaining": 789
+    },
+    {
+      "language": "uk",
+      "rule_id": "uk_preposition_case_gen",
+      "before": 29151,
+      "excluded": 12,
+      "remaining": 29139
+    },
+    {
+      "language": "uk",
+      "rule_id": "uk_spelling_delete_internal",
+      "before": 172915,
+      "excluded": 103,
+      "remaining": 172812
+    },
+    {
+      "language": "uk",
+      "rule_id": "uk_spelling_substitute_character",
+      "before": 8105,
+      "excluded": 5,
+      "remaining": 8100
+    },
+    {
+      "language": "uk",
+      "rule_id": "uk_spelling_transpose_internal",
+      "before": 172259,
+      "excluded": 138,
+      "remaining": 172121
+    },
+    {
+      "language": "uk",
+      "rule_id": "uk_verb_number_agreement_ud",
+      "before": 4167,
+      "excluded": 1,
+      "remaining": 4166
+    },
+    {
+      "language": "uk",
+      "rule_id": "uk_verb_person_agreement_ud",
+      "before": 2563,
+      "excluded": 2,
+      "remaining": 2561
+    }
+  ],
+  "lost_rules": [],
+  "original_datasets_preserved": true
+}

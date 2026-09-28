@@ -1,0 +1,58 @@
+{
+  "False": {
+    "counts": {
+      "sentences": 491,
+      "eligible_sources": 7,
+      "candidate_pairs": 7
+    },
+    "families": {
+      "spelling": 5,
+      "determiner_number": 1,
+      "determiner_case": 1
+    },
+    "rejections": {
+      "source_dictionary_unknown": 76,
+      "length": 298,
+      "source_morphology_conflict": 27,
+      "fragment_or_format": 25,
+      "nonprose_or_quotation": 11,
+      "no_main_subject": 29,
+      "source_extraction_risk": 9,
+      "source_nominal_agreement_conflict": 7,
+      "punctuation_spacing": 2
+    },
+    "seconds": 23.211522804107517
+  },
+  "True": {
+    "counts": {
+      "sentences": 491,
+      "eligible_sources": 12,
+      "candidate_pairs": 12,
+      "recovered_candidate_pairs": 5
+    },
+    "families": {
+      "spelling": 7,
+      "determiner_number": 1,
+      "determiner_case": 3,
+      "determiner_gender": 1
+    },
+    "rejections": {
+      "source_dictionary_unknown": 169,
+      "length": 67,
+      "source_morphology_conflict": 65,
+      "source_nominal_agreement_conflict": 22,
+      "fragment_or_format": 39,
+      "source_extraction_risk": 20,
+      "nonprose_or_quotation": 34,
+      "no_main_subject": 60,
+      "punctuation_spacing": 3
+    },
+    "seconds": 22.10900351498276
+  },
+  "recovered_screening": {
+    "independent_source_checker_error": 2,
+    "accepted": 3
+  },
+  "language": "el",
+  "paragraphs": 150
+}

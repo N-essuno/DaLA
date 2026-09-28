@@ -1,0 +1,67 @@
+[
+  {
+    "sentence_sha256": "7d2ecf0b271c3c1ce6a8554b86bdae98c1d2ff647499badcfe817343511ecf12",
+    "reason": "Comma separates the temporal adjunct from the direct object without an evident parenthetical construction.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-014"
+  },
+  {
+    "sentence_sha256": "6e6aabf08313c854c7d855e556627c134a96070540e74e336c495b5ee3263903",
+    "reason": "Stray leading I. is a list/heading artifact inside the sentence record.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-043"
+  },
+  {
+    "sentence_sha256": "f023dd433b4bee425832c4d46a8bbc8e33f44673dc9381959bfeb4818ce1d828",
+    "reason": "Parenthetical met inbegrip van de bijlagen opens with a comma but has no closing comma before vallen.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-044"
+  },
+  {
+    "sentence_sha256": "9a1d02523748c2e59029df0ac0ddb10d8e2205d65ca10775362202073e96f2f5",
+    "reason": "Nemen verantwoording appears to mix verantwoordelijkheid nemen and verantwoording afleggen; uncertain lexical acceptability.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-047"
+  },
+  {
+    "sentence_sha256": "391cdad5bde4eb36efb9b7cb9424df081b3608f31758008c58aa2eacbd4c3e6e",
+    "reason": "Het leger en politie coordinates nouns with different article genders but omits de before politie.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-050"
+  },
+  {
+    "sentence_sha256": "95f658aae61d37d777601f0b652dd1bc730932c39dc1d67bcd6d5dc77e4fd985",
+    "reason": "Live programma's should be the compound liveprogramma's.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-053"
+  },
+  {
+    "sentence_sha256": "dcc97d5e79b7b5e632952e606625f736c8ec4df229c505497e62f9a1bbce6d6b",
+    "reason": "We hebben stoppen met roken in het basispakket is compressed coverage wording; uncertain as a standalone clean target.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-075"
+  },
+  {
+    "sentence_sha256": "89faeb08b22f74bb649dd10d6b0a2114e88482f5762d2e76ef6e5ee1352fac83",
+    "reason": "Heading Waarborgsom is concatenated with the following sentence Partijen moeten ...",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-104"
+  },
+  {
+    "sentence_sha256": "80712752ffff24713903b53f3834ba023ba25afd0aadbed7602c75380905988f",
+    "reason": "De samenstellende onderdelen nog lacks a predicate before en de reden tot inrichting ...",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-121"
+  },
+  {
+    "sentence_sha256": "0a68aba59a9754e791664356b938dea73657b73786dc0f84676ffe8b7d93354e",
+    "reason": "Wij ... kende requires plural kenden.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-122"
+  },
+  {
+    "sentence_sha256": "094088a66446f82a5b943db9e6a85c34bb710f07436b13f94848e21390d375d3",
+    "reason": "De contracteren is malformed; intended nominalized infinitive would require het contracteren.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-145"
+  },
+  {
+    "sentence_sha256": "65d14fb48225057b37e202ce4ce04c571a3b4e1b711ee4fcd03add1f19331b59",
+    "reason": "(Her)beoor-deeld retains an internal line-break hyphen splitting beoordeeld.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-148"
+  },
+  {
+    "sentence_sha256": "0fc803ed8baf6f1908da9e77d7429aa9825fbf628a90fc83bb1c715be78a0545",
+    "reason": "K.N.I.L. kazerne contains a separated abbreviation compound; requires a joining hyphen.",
+    "evidence": "wiki/artifacts/dutch-curated-assessment/sample.json#nl-175"
+  }
+]

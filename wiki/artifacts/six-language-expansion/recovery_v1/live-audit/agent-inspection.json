@@ -1,0 +1,468 @@
+{
+  "at": "2026-09-24T08:19:58.771227+00:00",
+  "sampling": "First of two seeded reservoir samples per realized family; screened checkpoints before global selection. Not a random final-dataset sample.",
+  "human_linguistic_validation": false,
+  "precision_estimate": false,
+  "counts": {
+    "provisionally_acceptable": 58,
+    "reject": 5,
+    "uncertain": 2
+  },
+  "rows": [
+    {
+      "language": "pl",
+      "pair_id": "2d2f182d540fb8ed252af164",
+      "family": "adjective_case",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "pl",
+      "pair_id": "e5b9389bb0e7b2cbb97b905b",
+      "family": "adjective_gender",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "pl",
+      "pair_id": "26372a77fac8e48689c954aa",
+      "family": "adjective_number",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "pl",
+      "pair_id": "ad3f80ff24f8d2b49d8e7374",
+      "family": "determiner_case",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "pl",
+      "pair_id": "0a5917597401d4b4db0cb071",
+      "family": "determiner_gender",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "pl",
+      "pair_id": "76cbf5808e827b8ca65b355e",
+      "family": "determiner_number",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "pl",
+      "pair_id": "6af833ba9ac3f1e3c56ae7ff",
+      "family": "governed_infinitive",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "pl",
+      "pair_id": "27b795283d5b2c67c068492c",
+      "family": "preposition_case",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "pl",
+      "pair_id": "7a90dd0bb9ab164df33415c8",
+      "family": "pronoun_case",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "pl",
+      "pair_id": "1f277dd8df4eea1621173fd7",
+      "family": "spelling",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "pl",
+      "pair_id": "ffeea772de930d3fc8f4c8a4",
+      "family": "verb_number_agreement",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "pl",
+      "pair_id": "3ae1dc75cb1ad742d160e7eb",
+      "family": "verb_person_agreement",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "sv",
+      "pair_id": "782ae8031dc50813961233db",
+      "family": "adjective_definite",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "sv",
+      "pair_id": "8f1a48c43edfd3ec9346f936",
+      "family": "adjective_gender",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "sv",
+      "pair_id": "200e6816f07f883cb2b7dc54",
+      "family": "adjective_number",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "sv",
+      "pair_id": "3e6bd82901a1447313bda142",
+      "family": "determiner_gender",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "sv",
+      "pair_id": "1b126a66f0e0c2bbc7964828",
+      "family": "determiner_number",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "sv",
+      "pair_id": "eb2687d1ceecc927bf7d7b79",
+      "family": "governed_infinitive",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "sv",
+      "pair_id": "c18314412e6fd8b659a26eb7",
+      "family": "perfect_verb_form",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "sv",
+      "pair_id": "3f75045b4c5773f80fef5146",
+      "family": "pronoun_case",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "sv",
+      "pair_id": "324c38a8a7031640fdaecffd",
+      "family": "spelling",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "90381a288843b60b38f06023",
+      "family": "adjective_definite",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "5cce2471ec43c42cbdd39867",
+      "family": "adjective_gender",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "caa0a95f20bb8e93ae281044",
+      "family": "adjective_number",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "22d2db930cf15a4fe7752da1",
+      "family": "determiner_gender",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "23501b8b2360332fd688981e",
+      "family": "determiner_number",
+      "judgment": "reject",
+      "reason": "Source: på hver på sin måte kunne appears to be a damaged modal construction."
+    },
+    {
+      "language": "nb",
+      "pair_id": "88ecaa1adffe50ff2731fda4",
+      "family": "governed_infinitive",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "afac0cf3a371fb0ee3bbe0cf",
+      "family": "perfect_verb_form",
+      "judgment": "reject",
+      "reason": "Source: Tilsammen and idag are joined spellings unsuitable for a modern clean control."
+    },
+    {
+      "language": "nb",
+      "pair_id": "19b6cf22db55ddb1de3a479f",
+      "family": "pronoun_case",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nb",
+      "pair_id": "c77fbef84e56782247494b19",
+      "family": "spelling",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nn",
+      "pair_id": "dd427dde6be0cf90e89ffd4f",
+      "family": "adjective_definite",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nn",
+      "pair_id": "5e5d6aa49718974b2221cb1d",
+      "family": "adjective_gender",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nn",
+      "pair_id": "0a48552338767ac35e30cc00",
+      "family": "adjective_number",
+      "judgment": "uncertain",
+      "reason": "Source standard/wording around sektoren samla dekker requires normative review."
+    },
+    {
+      "language": "nn",
+      "pair_id": "fbe92835479b4ff508e75e59",
+      "family": "determiner_gender",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nn",
+      "pair_id": "d4ed19937a37f2864bb141f4",
+      "family": "determiner_number",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nn",
+      "pair_id": "71c2d5ab193bc62a4529fef5",
+      "family": "governed_infinitive",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nn",
+      "pair_id": "f390fb581fb9bb97b047d4e2",
+      "family": "perfect_verb_form",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nn",
+      "pair_id": "a49315354c22bce9ebd7fef7",
+      "family": "pronoun_case",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "nn",
+      "pair_id": "a56850b9bebc1ec71645eb24",
+      "family": "spelling",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "8a212c55a0b1b337e0a066b5",
+      "family": "adjective_case",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "ee28ff6b81c07af2f9e6ce29",
+      "family": "adjective_definite",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "789395e6010e7393855b8089",
+      "family": "adjective_gender",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "8f9a562b75099494c892edd1",
+      "family": "adjective_number",
+      "judgment": "reject",
+      "reason": "Source extraction splits Starvs- mannafelagnum without a coordinating conjunction."
+    },
+    {
+      "language": "fo",
+      "pair_id": "d07bcdd2178e7de418d935ef",
+      "family": "determiner_case",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "df9cea68daa23cfc2b0f1934",
+      "family": "determiner_gender",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "68ad75d0a2fb9760e8730efc",
+      "family": "determiner_number",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "048dc868a5a3c86910b9dde8",
+      "family": "governed_infinitive",
+      "judgment": "reject",
+      "reason": "Source contains apparent Endamálinini typo; not a reliable clean control."
+    },
+    {
+      "language": "fo",
+      "pair_id": "6205ebc16b0aee36561c2fc8",
+      "family": "perfect_verb_form",
+      "judgment": "uncertain",
+      "reason": "Source list after av appears to mix cases (fulltrúar, stjórar); exclude pending native review."
+    },
+    {
+      "language": "fo",
+      "pair_id": "ae44784ab4c37ca64fc5f8da",
+      "family": "preposition_case",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "d3b1a9c3b0458dc1c1716ffe",
+      "family": "spelling",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "35692edabfb3d91166d9c984",
+      "family": "verb_number_agreement",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "fo",
+      "pair_id": "a32e4df695c1cced9a9c842a",
+      "family": "verb_person_agreement",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "is",
+      "pair_id": "9b1ab51b69fadda789554b3c",
+      "family": "adjective_case",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "is",
+      "pair_id": "c4bda32465fcd715226486d4",
+      "family": "adjective_definite",
+      "judgment": "reject",
+      "reason": "Edit is ungrammatical but family is misclassified: einfalda is infinitival here, not an attributive adjective."
+    },
+    {
+      "language": "is",
+      "pair_id": "5d2fc1ea15ca2e66dcdf250f",
+      "family": "adjective_gender",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "is",
+      "pair_id": "34ae8de83d16fb53e3181eb6",
+      "family": "adjective_number",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "is",
+      "pair_id": "70bcee92e8902d98442f5bef",
+      "family": "determiner_case",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "is",
+      "pair_id": "2175738667cbbff8af0e91fd",
+      "family": "determiner_gender",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "is",
+      "pair_id": "0ff87e331bc64175ff36a95e",
+      "family": "determiner_number",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "is",
+      "pair_id": "ab6a25f61f5e6575acf81d5a",
+      "family": "governed_infinitive",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "is",
+      "pair_id": "ac1a88fe37140ddc409e4e5b",
+      "family": "perfect_verb_form",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "is",
+      "pair_id": "0a66c545b2dd9e550aa23ae5",
+      "family": "preposition_case",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "is",
+      "pair_id": "02d177d8e8564202a9a61c8c",
+      "family": "spelling",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "is",
+      "pair_id": "8b56f90c19ab2a02f8bb3e6f",
+      "family": "verb_number_agreement",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    },
+    {
+      "language": "is",
+      "pair_id": "ebfc9f7a35fc94dd1fef999e",
+      "family": "verb_person_agreement",
+      "judgment": "provisionally_acceptable",
+      "reason": "No clear defect found by agent; not native-speaker validation."
+    }
+  ]
+}

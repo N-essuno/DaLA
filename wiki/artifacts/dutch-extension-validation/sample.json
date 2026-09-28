@@ -1,0 +1,2818 @@
+{
+  "method": "Uniform 50 per source from unchanged filtered pilot subset, excluding all previously reviewed originals; stratified, not an overall uniform sample.",
+  "seed": "dutch-extension-validation-v1",
+  "populations": {
+    "de_rechtspraak": 2174,
+    "officiele_bekendmakingen": 5176
+  },
+  "rows": [
+    {
+      "sample_id": "ev-000",
+      "pair_id": "9a520b55f931268de09fca41",
+      "split": "train",
+      "document_id": "f2aeea7d880efb45aec357e57f6a387bc5af947888471499e2f7c61ab1e183f1",
+      "source_name": "de_rechtspraak",
+      "original": "Zij heeft van haar bevindingen op 12 februari 2021 rapport uitgebracht.",
+      "corrupted": "Zij heeft van haar bevindingen op 12 februari 2021 rapport uittgebracht.",
+      "edits": [
+        {
+          "corrupted_end": 71,
+          "corrupted_start": 59,
+          "corruption_type": "spelling",
+          "end": 70,
+          "original": "uitgebracht",
+          "protected_tokens": [
+            1391
+          ],
+          "replacement": "uittgebracht",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 59
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-001",
+      "pair_id": "c93a5c148419b285d24dca9a",
+      "split": "train",
+      "document_id": "6f903c28a2fb1979950b1845479f036057ce8a6e2dc925bbb30bbb06cc3972a5",
+      "source_name": "de_rechtspraak",
+      "original": "De zaak is op 28 november 2006 ter zitting van een meervoudige kamer behandeld.",
+      "corrupted": "Het zaak is op 28 november 2006 ter zitting van een meervoudige kamer behandeld.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_gender",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            222,
+            223
+          ],
+          "replacement": "Het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-002",
+      "pair_id": "9b77c527d1c826698e2cfbee",
+      "split": "test",
+      "document_id": "7d208228ffadea37175771111a8f4ed8bccf4f149a60fdab07d2fec7ed9be287",
+      "source_name": "de_rechtspraak",
+      "original": "De tenlastelegging is gewijzigd overeenkomstig artikel 314a van het Wetboek van Strafvordering.",
+      "corrupted": "Het tenlastelegging is gewijzigd overeenkomstig artikel 314a van het Wetboek van Strafvordering.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_gender",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            120,
+            121
+          ],
+          "replacement": "Het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-003",
+      "pair_id": "19b4667626de7fa7981ca6d4",
+      "split": "train",
+      "document_id": "45d267ce203bdb45068c1d6c99444db73af766d5cfb701117635aa410e7be4e7",
+      "source_name": "de_rechtspraak",
+      "original": "Indien het een besluit op aanvraag betreft, neemt het bestuursorgaan het besluit zo spoedig mogelijk, doch uiterlijk zes maanden na ontvangst van de aanvraag.",
+      "corrupted": "Indien het een besluit op aanvraag betreft, neemt de bestuursorgaan het besluit zo spoedig mogelijk, doch uiterlijk zes maanden na ontvangst van de aanvraag.",
+      "edits": [
+        {
+          "corrupted_end": 52,
+          "corrupted_start": 50,
+          "corruption_type": "article_gender",
+          "end": 53,
+          "original": "het",
+          "protected_tokens": [
+            1584,
+            1585
+          ],
+          "replacement": "de",
+          "rule_id": "article_gender:het:het>de",
+          "start": 50
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-004",
+      "pair_id": "27a926ccca19db79e187111c",
+      "split": "train",
+      "document_id": "09db1e227291780ca3cfc582c31823c8df91c8c68f6f3cd259e60358d78295d1",
+      "source_name": "de_rechtspraak",
+      "original": "Zij heeft daarmee gehandeld in strijd met hetgeen naar maatstaven van zorgvuldigheid als verkeersdeelnemer van haar verwacht mocht worden.",
+      "corrupted": "Zij heeft daarmee gehandeld in stirjd met hetgeen naar maatstaven van zorgvuldigheid als verkeersdeelnemer van haar verwacht mocht worden.",
+      "edits": [
+        {
+          "corrupted_end": 37,
+          "corrupted_start": 31,
+          "corruption_type": "spelling",
+          "end": 37,
+          "original": "strijd",
+          "protected_tokens": [
+            1613
+          ],
+          "replacement": "stirjd",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 31
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-005",
+      "pair_id": "dabebfe2ee5f94c1245feab6",
+      "split": "train",
+      "document_id": "f2aeea7d880efb45aec357e57f6a387bc5af947888471499e2f7c61ab1e183f1",
+      "source_name": "de_rechtspraak",
+      "original": "Ten aanzien van gebreken die aan dit gebruik in de weg staan, sluit de koopovereenkomst derhalve aan bij artikel 7:17 BW.",
+      "corrupted": "Ten aanzien van gebreken die aan dit gebruik in de weg staan, sluit het koopovereenkomst derhalve aan bij artikel 7:17 BW.",
+      "edits": [
+        {
+          "corrupted_end": 71,
+          "corrupted_start": 68,
+          "corruption_type": "article_gender",
+          "end": 70,
+          "original": "de",
+          "protected_tokens": [
+            2703,
+            2704
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 68
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-006",
+      "pair_id": "976878501af7060a69d280e3",
+      "split": "train",
+      "document_id": "95da4ff4f06d345258737dc4c9c538c5d3b444a8f428b6a021786c99e9094b65",
+      "source_name": "de_rechtspraak",
+      "original": "Ook de verdeling van de buit is van tevoren besproken.",
+      "corrupted": "Ook het verdeling van de buit is van tevoren besproken.",
+      "edits": [
+        {
+          "corrupted_end": 7,
+          "corrupted_start": 4,
+          "corruption_type": "article_gender",
+          "end": 6,
+          "original": "de",
+          "protected_tokens": [
+            1953,
+            1954
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 4
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-007",
+      "pair_id": "0e93093347ce177fa6d51743",
+      "split": "train",
+      "document_id": "371a7371ca2df330d30776146f4d2fbc7cb6396509c89ab7fee74ae6f10cb5e1",
+      "source_name": "de_rechtspraak",
+      "original": "Appellante heeft gedurende de herplaatsingsperiode opleidingen gevolgd op het gebied van archivering en documentbeheer.",
+      "corrupted": "Appellante heeft gedurende de herplaatsingsperiode opleidingen gevolgd op het gebbied van archivering en documentbeheer.",
+      "edits": [
+        {
+          "corrupted_end": 85,
+          "corrupted_start": 78,
+          "corruption_type": "spelling",
+          "end": 84,
+          "original": "gebied",
+          "protected_tokens": [
+            448
+          ],
+          "replacement": "gebbied",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 78
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-008",
+      "pair_id": "d454f578c19798a2e5dbbf35",
+      "split": "train",
+      "document_id": "2c62a496db09b0473546ac6df9949fa3d99b287233d5f46c1ce41e31c8672907",
+      "source_name": "de_rechtspraak",
+      "original": "De herstructureringsdeskundige stelt dat zonder afkoelingsperiode het risico bestaat dat debiteuren verhaal zullen zoeken voor hun vordering.",
+      "corrupted": "De herstructureringsdeskundige stelt dat zonder afkoelingsperiode het rsiico bestaat dat debiteuren verhaal zullen zoeken voor hun vordering.",
+      "edits": [
+        {
+          "corrupted_end": 76,
+          "corrupted_start": 70,
+          "corruption_type": "spelling",
+          "end": 76,
+          "original": "risico",
+          "protected_tokens": [
+            636
+          ],
+          "replacement": "rsiico",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 70
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-009",
+      "pair_id": "3e0bd0ab193078599aa020f0",
+      "split": "train",
+      "document_id": "a8a35f82151257f1ef7a47a57d5a6e167097515f5329270f551d4f2285e06aca",
+      "source_name": "de_rechtspraak",
+      "original": "De tot op heden gemaakte kosten worden begroot op nihil.",
+      "corrupted": "De tot op heden gemaakte kosten worden begroot op niihl.",
+      "edits": [
+        {
+          "corrupted_end": 55,
+          "corrupted_start": 50,
+          "corruption_type": "spelling",
+          "end": 55,
+          "original": "nihil",
+          "protected_tokens": [
+            5654
+          ],
+          "replacement": "niihl",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 50
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-010",
+      "pair_id": "1d9436851e99d1ba849220d4",
+      "split": "train",
+      "document_id": "95da4ff4f06d345258737dc4c9c538c5d3b444a8f428b6a021786c99e9094b65",
+      "source_name": "de_rechtspraak",
+      "original": "De derde persoon roept iets naar binnen en de twee personen met de bivakmutsen komen naar buiten gerend en verlaten het winkelcentrum.",
+      "corrupted": "De derde persoon roept iets naar binnen en de twee personen met de bivakmutsen komen naar buiten gerend en verlaten de winkelcentrum.",
+      "edits": [
+        {
+          "corrupted_end": 118,
+          "corrupted_start": 116,
+          "corruption_type": "article_gender",
+          "end": 119,
+          "original": "het",
+          "protected_tokens": [
+            1040,
+            1041
+          ],
+          "replacement": "de",
+          "rule_id": "article_gender:het:het>de",
+          "start": 116
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-011",
+      "pair_id": "14913eff8b9c40313b13db0d",
+      "split": "test",
+      "document_id": "a38486c0726f8c07ac64874f813990d908790a030a34c3e29de114ef658409a1",
+      "source_name": "de_rechtspraak",
+      "original": "Eiser kon zich immers niet uit eigen beweging laten vervangen door een derde.",
+      "corrupted": "Eiser kon zich immers niet uit ijgen beweging laten vervangen door een derde.",
+      "edits": [
+        {
+          "corrupted_end": 36,
+          "corrupted_start": 31,
+          "corruption_type": "spelling",
+          "end": 36,
+          "original": "eigen",
+          "protected_tokens": [
+            7137
+          ],
+          "replacement": "ijgen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:curated:eigen>ijgen",
+          "start": 31
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-012",
+      "pair_id": "02f492562d16a25abc0a7149",
+      "split": "train",
+      "document_id": "8636cdc8a66d2fa0b4ab3202ed93cb2b1c82b960838909a025c4b291d26f957a",
+      "source_name": "de_rechtspraak",
+      "original": "Op 28 september 2009 heeft appellante zich met psychische klachten ziek gemeld.",
+      "corrupted": "Op 28 september 2009 heeft appellante zich met pssychische klachten ziek gemeld.",
+      "edits": [
+        {
+          "corrupted_end": 58,
+          "corrupted_start": 47,
+          "corruption_type": "spelling",
+          "end": 57,
+          "original": "psychische",
+          "protected_tokens": [
+            145
+          ],
+          "replacement": "pssychische",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 47
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-013",
+      "pair_id": "17c9e7593cf663169aa99a9a",
+      "split": "train",
+      "document_id": "13a6350d74ed94c4f839607988d24c0041b8c8c99d2e8cd0d93aab7d7bb3788d",
+      "source_name": "de_rechtspraak",
+      "original": "Zij neemt dus als vaststaand aan dat het verschuiven van activiteiten geen optie is.",
+      "corrupted": "Zij neemt dus als vaststtaand aan dat het verschuiven van activiteiten geen optie is.",
+      "edits": [
+        {
+          "corrupted_end": 29,
+          "corrupted_start": 18,
+          "corruption_type": "spelling",
+          "end": 28,
+          "original": "vaststaand",
+          "protected_tokens": [
+            3768
+          ],
+          "replacement": "vaststtaand",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 18
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-014",
+      "pair_id": "5eeac427da23ffc79d80ca4e",
+      "split": "train",
+      "document_id": "13a6350d74ed94c4f839607988d24c0041b8c8c99d2e8cd0d93aab7d7bb3788d",
+      "source_name": "de_rechtspraak",
+      "original": "De rechtbank begrijpt niet waarom dat dan nog steeds niet is gebeurd.",
+      "corrupted": "Het rechtbank begrijpt niet waarom dat dan nog steeds niet is gebeurd.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_gender",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            8741,
+            8742
+          ],
+          "replacement": "Het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-015",
+      "pair_id": "d37daa162c928e9d0534263a",
+      "split": "train",
+      "document_id": "760de8d5b5e7e209174ab2ac449fdf90388a1570d9b807702e54950c07a6cd45",
+      "source_name": "de_rechtspraak",
+      "original": "Een andersluidende vaststelling van genoemde referteperiode kan aangewezen zijn indien daarvoor praktische gronden bestaan, bijvoorbeeld in geval de zelfstandige korter dan drie jaar als zodanig heeft gewerkt.",
+      "corrupted": "Een andersluidende vaststelling van genoemde referteperiode kan aangewezen zijn indien daarvoor praktische gronden bestaan, bijvoorbeeld in geval de zelfstandige korrter dan drie jaar als zodanig heeft gewerkt.",
+      "edits": [
+        {
+          "corrupted_end": 169,
+          "corrupted_start": 162,
+          "corruption_type": "spelling",
+          "end": 168,
+          "original": "korter",
+          "protected_tokens": [
+            1607
+          ],
+          "replacement": "korrter",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 162
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-016",
+      "pair_id": "bf61241ae366ad931c40e596",
+      "split": "train",
+      "document_id": "760de8d5b5e7e209174ab2ac449fdf90388a1570d9b807702e54950c07a6cd45",
+      "source_name": "de_rechtspraak",
+      "original": "Ook deze namens appellant naar voren gebrachte beroepsgrond slaagt derhalve niet.",
+      "corrupted": "Ook deze namens appellant naar voren gebrachte beroepssgrond slaagt derhalve niet.",
+      "edits": [
+        {
+          "corrupted_end": 60,
+          "corrupted_start": 47,
+          "corruption_type": "spelling",
+          "end": 59,
+          "original": "beroepsgrond",
+          "protected_tokens": [
+            2315
+          ],
+          "replacement": "beroepssgrond",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 47
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-017",
+      "pair_id": "700616d052edf47c0f429a20",
+      "split": "train",
+      "document_id": "2c62a496db09b0473546ac6df9949fa3d99b287233d5f46c1ce41e31c8672907",
+      "source_name": "de_rechtspraak",
+      "original": "Op 27 juli 2021 heeft mr. de Hoog, als herstructureringsdeskundige, een verzoekschrift ingediend waarin wordt verzocht om verlenging van de afkoelingsperiode met vier maanden, dus tot en met 30 november 2021.",
+      "corrupted": "Op 27 juli 2021 heeft mr. de Hoog, als herstructureringsdeskundige, een verzoekschrift ingediend waarin wordt verzocht om verlenging van het afkoelingsperiode met vier maanden, dus tot en met 30 november 2021.",
+      "edits": [
+        {
+          "corrupted_end": 140,
+          "corrupted_start": 137,
+          "corruption_type": "article_gender",
+          "end": 139,
+          "original": "de",
+          "protected_tokens": [
+            281,
+            282
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 137
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-018",
+      "pair_id": "7a2c66e090d4800fa79c6ab9",
+      "split": "train",
+      "document_id": "13a6350d74ed94c4f839607988d24c0041b8c8c99d2e8cd0d93aab7d7bb3788d",
+      "source_name": "de_rechtspraak",
+      "original": "Bovendien volgt daaruit voor wat betreft de vordering op Molegraaf dat de vordering niet zonder die nadere werkzaamheden geïnd kon worden, hetgeen zonder meer strijd met de garantie oplevert.",
+      "corrupted": "Bovendien volgt daaruit voor wat betreft het vordering op Molegraaf dat de vordering niet zonder die nadere werkzaamheden geïnd kon worden, hetgeen zonder meer strijd met de garantie oplevert.",
+      "edits": [
+        {
+          "corrupted_end": 44,
+          "corrupted_start": 41,
+          "corruption_type": "article_gender",
+          "end": 43,
+          "original": "de",
+          "protected_tokens": [
+            6785,
+            6786
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 41
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-019",
+      "pair_id": "77ec8025c7b1126b925a6c48",
+      "split": "test",
+      "document_id": "37a9883af49451f81f3627e5eaff084a9e318c3acb1072dec5af3212945cc5dd",
+      "source_name": "de_rechtspraak",
+      "original": "Op 22 augustus 2002 heeft betrokkene zijn aangepaste werkzaamheden in zijn geheel gestaakt.",
+      "corrupted": "Op 22 augustus 2002 heeft betrokkene zijn aangepaste werkzaamheden in zijn geheel gestakat.",
+      "edits": [
+        {
+          "corrupted_end": 90,
+          "corrupted_start": 82,
+          "corruption_type": "spelling",
+          "end": 90,
+          "original": "gestaakt",
+          "protected_tokens": [
+            451
+          ],
+          "replacement": "gestakat",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 82
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-020",
+      "pair_id": "7721d76fef6f38721e214f34",
+      "split": "test",
+      "document_id": "5c2ea9f2867975319738e023bea314c986fcb3c492facc5060bf2c851592cfb3",
+      "source_name": "de_rechtspraak",
+      "original": "Eisers sluiten zich aan bij hetgeen door de commissie in haar advies van 27 oktober 2015 hieromtrent is gesteld.",
+      "corrupted": "Eisers sluiten zich aan bij hetgeen door het commissie in haar advies van 27 oktober 2015 hieromtrent is gesteld.",
+      "edits": [
+        {
+          "corrupted_end": 44,
+          "corrupted_start": 41,
+          "corruption_type": "article_gender",
+          "end": 43,
+          "original": "de",
+          "protected_tokens": [
+            2172,
+            2173
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 41
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-021",
+      "pair_id": "f819fe70ed6ddf4fbe4a6d50",
+      "split": "train",
+      "document_id": "47acb4fd03d22bf9dbc66e86fbf25463b12c27a081b6fab12a30cf7c6a96fcc5",
+      "source_name": "de_rechtspraak",
+      "original": "Het lag op de weg van Land Aruba als werkgever om binnen een redelijke termijn op de gebeurtenissen te reageren.",
+      "corrupted": "Het lag op de weg van Land Aruba als werkgever om binnen een redelijkke termijn op de gebeurtenissen te reageren.",
+      "edits": [
+        {
+          "corrupted_end": 71,
+          "corrupted_start": 61,
+          "corruption_type": "spelling",
+          "end": 70,
+          "original": "redelijke",
+          "protected_tokens": [
+            1058
+          ],
+          "replacement": "redelijkke",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 61
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-022",
+      "pair_id": "63119f2ca8a23b38401de499",
+      "split": "train",
+      "document_id": "4e51cd02f5f3c8119484515e833ff03718431bd198925da97b95e3b5e48de029",
+      "source_name": "de_rechtspraak",
+      "original": "Verklaring verdachte Verdachte heeft ontkend aangever te hebben bedreigd met geweld of op andere wijze.",
+      "corrupted": "Verklaring verdachte Verdachte heeft ontkend aangever te hebben bedreigd met geweld of op adnere wijze.",
+      "edits": [
+        {
+          "corrupted_end": 96,
+          "corrupted_start": 90,
+          "corruption_type": "spelling",
+          "end": 96,
+          "original": "andere",
+          "protected_tokens": [
+            1535
+          ],
+          "replacement": "adnere",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 90
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid",
+      "notes": "Merged heading Verklaring verdachte directly precedes Verdachte heeft ... ."
+    },
+    {
+      "sample_id": "ev-023",
+      "pair_id": "3c3ffe641ef9471ecdd8868f",
+      "split": "train",
+      "document_id": "09db1e227291780ca3cfc582c31823c8df91c8c68f6f3cd259e60358d78295d1",
+      "source_name": "de_rechtspraak",
+      "original": "De conclusie is dan ook dat de door haar geleden schade mede is ontstaan door een omstandigheid die aan haar kan worden toegerekend als bedoeld in artikel 6:101 BW.",
+      "corrupted": "Het conclusie is dan ook dat de door haar geleden schade mede is ontstaan door een omstandigheid die aan haar kan worden toegerekend als bedoeld in artikel 6:101 BW.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_gender",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            3190,
+            3191
+          ],
+          "replacement": "Het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-024",
+      "pair_id": "78c77d1ed7e89868c870c08f",
+      "split": "train",
+      "document_id": "2e85b0debeb62fcfc7fa8c27e3181782466012b9b344751721778c6bf584cb70",
+      "source_name": "de_rechtspraak",
+      "original": "Die bijlage bevat salarisschalen voor functiegroepen I tot en met V.",
+      "corrupted": "Die bijlage beavt salarisschalen voor functiegroepen I tot en met V.",
+      "edits": [
+        {
+          "corrupted_end": 17,
+          "corrupted_start": 12,
+          "corruption_type": "spelling",
+          "end": 17,
+          "original": "bevat",
+          "protected_tokens": [
+            808
+          ],
+          "replacement": "beavt",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 12
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-025",
+      "pair_id": "a7cd62aa59c9b2212cc9c5b3",
+      "split": "train",
+      "document_id": "2d171260a644f553dbd50e9511ddff197f12c193f54451fb56aeadcb687d4f56",
+      "source_name": "de_rechtspraak",
+      "original": "De benadeelde partij heeft gevorderd het te vergoeden bedrag te vermeerderen met wettelijke rente.",
+      "corrupted": "De benadeelde partij heeft gevorderd het te vergoeden bedrag te vermerederen met wettelijke rente.",
+      "edits": [
+        {
+          "corrupted_end": 76,
+          "corrupted_start": 64,
+          "corruption_type": "spelling",
+          "end": 76,
+          "original": "vermeerderen",
+          "protected_tokens": [
+            1302
+          ],
+          "replacement": "vermerederen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 64
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-026",
+      "pair_id": "1686cd6ae2b3c865d5b3283b",
+      "split": "train",
+      "document_id": "fcaf142deacd48949ed954249ee90bd5bdeaaf8fc8844dc84f869a332418d5a6",
+      "source_name": "de_rechtspraak",
+      "original": "De voorzieningenrechter wijst daarbij tevens op de bestaande onzekerheid over de afloop van de bezwaarschriftprocedure en op wat partijen ter zitting naar voren hebben gebracht (zie onder 6).",
+      "corrupted": "Het voorzieningenrechter wijst daarbij tevens op de bestaande onzekerheid over de afloop van de bezwaarschriftprocedure en op wat partijen ter zitting naar voren hebben gebracht (zie onder 6).",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_gender",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            1692,
+            1693
+          ],
+          "replacement": "Het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-027",
+      "pair_id": "43784e009345d0f80aca2ce8",
+      "split": "test",
+      "document_id": "c5dafedbbd4ade0cca9e208bff2049b525c54b0b885bd375eb4f853fdf60e02e",
+      "source_name": "de_rechtspraak",
+      "original": "De verdediging heeft aangevoerd dat de echtheid van de goederen niet is onderzocht.",
+      "corrupted": "Het verdediging heeft aangevoerd dat de echtheid van de goederen niet is onderzocht.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_gender",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            6903,
+            6904
+          ],
+          "replacement": "Het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-028",
+      "pair_id": "218347212d60f1d6256e0d55",
+      "split": "train",
+      "document_id": "8636cdc8a66d2fa0b4ab3202ed93cb2b1c82b960838909a025c4b291d26f957a",
+      "source_name": "de_rechtspraak",
+      "original": "Die ruimte heeft zij ook benut, zodat van bewijsnood geen sprake is.",
+      "corrupted": "Die ruimte heeft zij ook benut, zodat van bewijsnood geen spprake is.",
+      "edits": [
+        {
+          "corrupted_end": 65,
+          "corrupted_start": 58,
+          "corruption_type": "spelling",
+          "end": 64,
+          "original": "sprake",
+          "protected_tokens": [
+            1221
+          ],
+          "replacement": "spprake",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 58
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-029",
+      "pair_id": "cdeac31f82906633589bf5ca",
+      "split": "train",
+      "document_id": "9195abe32b4db09d25567160d028333e7385020b273c9ec0d8014f93a7f6eed6",
+      "source_name": "de_rechtspraak",
+      "original": "De rechtbank heeft de verdachte ter zake van doodslag en openlijke geweldpleging veroordeeld tot een gevangenisstraf voor de duur van acht jaren met aftrek van voorarrest.",
+      "corrupted": "Het rechtbank heeft de verdachte ter zake van doodslag en openlijke geweldpleging veroordeeld tot een gevangenisstraf voor de duur van acht jaren met aftrek van voorarrest.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_gender",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            2308,
+            2309
+          ],
+          "replacement": "Het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-030",
+      "pair_id": "6ed9fccee096eba82abecb0d",
+      "split": "train",
+      "document_id": "0ae5691435e2abd54392129323be6d9f6c9796d3a7f9cc92bfc8d44fc68b275a",
+      "source_name": "de_rechtspraak",
+      "original": "Verweerder heeft in de maatregel vermeld dat eiser heeft verklaard dat hij last heeft van astma, slaapproblemen en paniekaanvallen.",
+      "corrupted": "Verweerder heeft in het maatregel vermeld dat eiser heeft verklaard dat hij last heeft van astma, slaapproblemen en paniekaanvallen.",
+      "edits": [
+        {
+          "corrupted_end": 23,
+          "corrupted_start": 20,
+          "corruption_type": "article_gender",
+          "end": 22,
+          "original": "de",
+          "protected_tokens": [
+            769,
+            770
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 20
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-031",
+      "pair_id": "e5e15f67be1cfb2474e35919",
+      "split": "train",
+      "document_id": "8636cdc8a66d2fa0b4ab3202ed93cb2b1c82b960838909a025c4b291d26f957a",
+      "source_name": "de_rechtspraak",
+      "original": "Er bestaat geen aanleiding om aan deze bevindingen van de verzekeringsarts bezwaar en beroep te twijfelen.",
+      "corrupted": "Er bestaat geen aanleiding om aan deze bevindingen van het verzekeringsarts bezwaar en beroep te twijfelen.",
+      "edits": [
+        {
+          "corrupted_end": 58,
+          "corrupted_start": 55,
+          "corruption_type": "article_gender",
+          "end": 57,
+          "original": "de",
+          "protected_tokens": [
+            1777,
+            1778
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 55
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-032",
+      "pair_id": "b4aa2f8324fb4a4472c0dfc8",
+      "split": "train",
+      "document_id": "332291e4742f9463a91f9008514179cafd54dc1d33818a1df6b70588a8ba911e",
+      "source_name": "de_rechtspraak",
+      "original": "De rechtbank zal de beslissing over de proceskosten in het incident aanhouden tot het eindvonnis in de hoofdzaak.",
+      "corrupted": "De rechtbank zal de beslissing over de proceskosten in het incident aanhouden tot het eindvonnis in het hoofdzaak.",
+      "edits": [
+        {
+          "corrupted_end": 103,
+          "corrupted_start": 100,
+          "corruption_type": "article_gender",
+          "end": 102,
+          "original": "de",
+          "protected_tokens": [
+            1480,
+            1481
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 100
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-033",
+      "pair_id": "d28f416fb3461f81f94e245c",
+      "split": "train",
+      "document_id": "6946b17d07f66152a43b577f3e8089f64f5c73d09a6fdfd22b84eceb56c9a1f7",
+      "source_name": "de_rechtspraak",
+      "original": "Verder is een aannemer op grond van de wet ontslagen van de aansprakelijkheid voor gebreken die de opdrachtgever op het tijdstip van de oplevering redelijkerwijs had moeten ontdekken.",
+      "corrupted": "Verder is een aannemer op grond van het wet ontslagen van de aansprakelijkheid voor gebreken die de opdrachtgever op het tijdstip van de oplevering redelijkerwijs had moeten ontdekken.",
+      "edits": [
+        {
+          "corrupted_end": 39,
+          "corrupted_start": 36,
+          "corruption_type": "article_gender",
+          "end": 38,
+          "original": "de",
+          "protected_tokens": [
+            2964,
+            2965
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 36
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-034",
+      "pair_id": "7e5e9d244893cccd323797d1",
+      "split": "test",
+      "document_id": "df6b294f9a7f87040def4ac1459c77ff7d30434aeea3d48af60b810e7048b707",
+      "source_name": "de_rechtspraak",
+      "original": "Cliënt is in het kader van de Wet poortwachter gehouden het advies van de bedrijfsarts op te volgen.",
+      "corrupted": "Cliënt is in het kader van de Wet poortwachter gehouden het advies van het bedrijfsarts op te volgen.",
+      "edits": [
+        {
+          "corrupted_end": 74,
+          "corrupted_start": 71,
+          "corruption_type": "article_gender",
+          "end": 73,
+          "original": "de",
+          "protected_tokens": [
+            751,
+            752
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 71
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-035",
+      "pair_id": "214b0d07c16446c67b45cf4e",
+      "split": "train",
+      "document_id": "c848f85d39f8230974f4fbc3e43f57e979593a9698261692969d8d801e0e31cb",
+      "source_name": "de_rechtspraak",
+      "original": "De werkgever heeft haar overzicht van de aan de werknemer toekomende provisie over 2016 vergeleken met het overzicht volgens de werknemer.",
+      "corrupted": "Het werkgever heeft haar overzicht van de aan de werknemer toekomende provisie over 2016 vergeleken met het overzicht volgens de werknemer.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_gender",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            1754,
+            1755
+          ],
+          "replacement": "Het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-036",
+      "pair_id": "11dc53baee1860cff3a75e8f",
+      "split": "train",
+      "document_id": "6f903c28a2fb1979950b1845479f036057ce8a6e2dc925bbb30bbb06cc3972a5",
+      "source_name": "de_rechtspraak",
+      "original": "Eiser ontkent de juistheid van de inhoud van het ambtsbericht van de AIVD.",
+      "corrupted": "Eiser ontkent het juistheid van de inhoud van het ambtsbericht van de AIVD.",
+      "edits": [
+        {
+          "corrupted_end": 17,
+          "corrupted_start": 14,
+          "corruption_type": "article_gender",
+          "end": 16,
+          "original": "de",
+          "protected_tokens": [
+            1532,
+            1533
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 14
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-037",
+      "pair_id": "9bebad9ec8a3dda3881fa384",
+      "split": "test",
+      "document_id": "9cdf47cf26faaa462a11d90d0056f60599dd07d6d7889a2e567b7a69bf7b417a",
+      "source_name": "de_rechtspraak",
+      "original": "Eiseres voert aan dat zij wel degelijk onmiddellijk maatregelen heeft genomen om de goede werking van het luchtwassysteem te waarborgen.",
+      "corrupted": "Eiseres voert aan dat zij wel degelijk onmiddellijk maatregelen heeft genomen om de goede werking van de luchtwassysteem te waarborgen.",
+      "edits": [
+        {
+          "corrupted_end": 104,
+          "corrupted_start": 102,
+          "corruption_type": "article_gender",
+          "end": 105,
+          "original": "het",
+          "protected_tokens": [
+            2891,
+            2892
+          ],
+          "replacement": "de",
+          "rule_id": "article_gender:het:het>de",
+          "start": 102
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-038",
+      "pair_id": "1449b6526e232f613a2264a1",
+      "split": "test",
+      "document_id": "9cdf47cf26faaa462a11d90d0056f60599dd07d6d7889a2e567b7a69bf7b417a",
+      "source_name": "de_rechtspraak",
+      "original": "Indien uit de registratie, bedoeld in het vijfde lid, blijkt dat de parameters worden overschreden, worden onmiddellijk maatregelen getroffen om een goede werking van het luchtwassysteem te waarborgen.",
+      "corrupted": "Indien uit het registratie, bedoeld in het vijfde lid, blijkt dat de parameters worden overschreden, worden onmiddellijk maatregelen getroffen om een goede werking van het luchtwassysteem te waarborgen.",
+      "edits": [
+        {
+          "corrupted_end": 14,
+          "corrupted_start": 11,
+          "corruption_type": "article_gender",
+          "end": 13,
+          "original": "de",
+          "protected_tokens": [
+            4043,
+            4044
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 11
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-039",
+      "pair_id": "f6cdcb8a949c422712aecc96",
+      "split": "train",
+      "document_id": "ccd04b3d341d5c1ed0c0b8877cbe375d73c145b390579af2e9b8ee61d0247b8a",
+      "source_name": "de_rechtspraak",
+      "original": "Daarnaast is het gesprek (deels) in het Somalisch en is verdachte ook van Somalische afkomst.",
+      "corrupted": "Daarnaast is het gespprek (deels) in het Somalisch en is verdachte ook van Somalische afkomst.",
+      "edits": [
+        {
+          "corrupted_end": 25,
+          "corrupted_start": 17,
+          "corruption_type": "spelling",
+          "end": 24,
+          "original": "gesprek",
+          "protected_tokens": [
+            866
+          ],
+          "replacement": "gespprek",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 17
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-040",
+      "pair_id": "9bdf2a1c51558b03d2363027",
+      "split": "train",
+      "document_id": "7f6a6ff5dd4fc16db817d44a9b72e8ca12309542cb102847d00ed13399505e53",
+      "source_name": "de_rechtspraak",
+      "original": "Evenmin kan wettig en overtuigend bewezen worden dat verdachte zich aan andere geweldshandelingen heeft schuldig gemaakt jegens het slachtoffer.",
+      "corrupted": "Evenmin kan wettig en overtuigend bewezen worden dat verdachte zich aan andere geweldshandelingen heeft schuldig gemaakt jegens de slachtoffer.",
+      "edits": [
+        {
+          "corrupted_end": 130,
+          "corrupted_start": 128,
+          "corruption_type": "article_gender",
+          "end": 131,
+          "original": "het",
+          "protected_tokens": [
+            4576,
+            4577
+          ],
+          "replacement": "de",
+          "rule_id": "article_gender:het:het>de",
+          "start": 128
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-041",
+      "pair_id": "0b12db161979948bbde83556",
+      "split": "validation",
+      "document_id": "ca4ab0640f6efd55c4325c391237c7b8327e5639b2764b32d7d1461da56fe69c",
+      "source_name": "de_rechtspraak",
+      "original": "Een eerdere daad van bekendheid als bedoeld in artikel 143 lid 2 Wetboek van Burgerlijke rechtsvordering is door Ridder niet gesteld en is evenmin overigens gebleken.",
+      "corrupted": "Een eerderre daad van bekendheid als bedoeld in artikel 143 lid 2 Wetboek van Burgerlijke rechtsvordering is door Ridder niet gesteld en is evenmin overigens gebleken.",
+      "edits": [
+        {
+          "corrupted_end": 12,
+          "corrupted_start": 4,
+          "corruption_type": "spelling",
+          "end": 11,
+          "original": "eerdere",
+          "protected_tokens": [
+            929
+          ],
+          "replacement": "eerderre",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 4
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-042",
+      "pair_id": "0d7922cd194058240e7d3b8b",
+      "split": "train",
+      "document_id": "f09ea152acb354c90baeaa4fdebb987ed19704ade99434f1f8fe5bf5a9d240f1",
+      "source_name": "de_rechtspraak",
+      "original": "De wijze waarop rekening en verantwoording moet worden afgelegd, is door de wetgever niet nader geconcretiseerd.",
+      "corrupted": "De wijze waarop rekening en verantwoording moet worden afgelegd, is door het wetgever niet nader geconcretiseerd.",
+      "edits": [
+        {
+          "corrupted_end": 76,
+          "corrupted_start": 73,
+          "corruption_type": "article_gender",
+          "end": 75,
+          "original": "de",
+          "protected_tokens": [
+            1663,
+            1664
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 73
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-043",
+      "pair_id": "36a0e373c311f9aa311528bb",
+      "split": "train",
+      "document_id": "f5300faafae0f68791851c6543d3d6b24e6f27ed2359898255393de104800461",
+      "source_name": "de_rechtspraak",
+      "original": "Deze postblokkade geldt gedurende de materiële looptijd van de schuldsaneringsregeling.",
+      "corrupted": "Deze postblokkade geldt gedurende de materiële looptijd van het schuldsaneringsregeling.",
+      "edits": [
+        {
+          "corrupted_end": 63,
+          "corrupted_start": 60,
+          "corruption_type": "article_gender",
+          "end": 62,
+          "original": "de",
+          "protected_tokens": [
+            318,
+            319
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 60
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-044",
+      "pair_id": "1951ba88efae4c8d0d8acd6a",
+      "split": "train",
+      "document_id": "6f903c28a2fb1979950b1845479f036057ce8a6e2dc925bbb30bbb06cc3972a5",
+      "source_name": "de_rechtspraak",
+      "original": "Men dient een afschrift van de uitspraak mee te zenden.",
+      "corrupted": "Men dient een afschrift van het uitspraak mee te zenden.",
+      "edits": [
+        {
+          "corrupted_end": 31,
+          "corrupted_start": 28,
+          "corruption_type": "article_gender",
+          "end": 30,
+          "original": "de",
+          "protected_tokens": [
+            7,
+            8
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 28
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-045",
+      "pair_id": "00ed646226518285843e2467",
+      "split": "train",
+      "document_id": "29d21e306c210247740a036650eb3acfa89f004dd66157716e3448c9850a35c1",
+      "source_name": "de_rechtspraak",
+      "original": "Eiser kan zich niet verenigen met het bestreden besluit.",
+      "corrupted": "Eiser kan zich niet verrenigen met het bestreden besluit.",
+      "edits": [
+        {
+          "corrupted_end": 30,
+          "corrupted_start": 20,
+          "corruption_type": "spelling",
+          "end": 29,
+          "original": "verenigen",
+          "protected_tokens": [
+            902
+          ],
+          "replacement": "verrenigen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 20
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-046",
+      "pair_id": "43fe366278e7381a39de529a",
+      "split": "train",
+      "document_id": "65be15d5d6a859b55475bf35711c481253d76b264b8951697d4a5c1227df2736",
+      "source_name": "de_rechtspraak",
+      "original": "De man heeft verder verzocht hem te machtigen de beschikking ten uitvoer te leggen met behulp van de sterke arm, als de vrouw deze twee dagen na betekening niet nakomt.",
+      "corrupted": "Het man heeft verder verzocht hem te machtigen de beschikking ten uitvoer te leggen met behulp van de sterke arm, als de vrouw deze twee dagen na betekening niet nakomt.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_gender",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            1046,
+            1047
+          ],
+          "replacement": "Het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-047",
+      "pair_id": "ccddae531233e8d42f0a0464",
+      "split": "validation",
+      "document_id": "a9b11d3595946c3c609fdc5a783a4d7241f90dbbe10e463ba226083014069aef",
+      "source_name": "de_rechtspraak",
+      "original": "De vordering is behandeld op de openbare zitting van 28 augustus 2020.",
+      "corrupted": "Het vordering is behandeld op de openbare zitting van 28 augustus 2020.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_gender",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            140,
+            141
+          ],
+          "replacement": "Het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-048",
+      "pair_id": "d5a5a3ae06f7727ed13e1c9f",
+      "split": "train",
+      "document_id": "0161791c5e7428d6e906c74a904ee067c5a69a7c64e70f2c2a0f1b911be0276a",
+      "source_name": "de_rechtspraak",
+      "original": "Dit betekent dat het bestreden eindvonnis zal worden bekrachtigd.",
+      "corrupted": "Dit betekent dat het bestreden eindvonis zal worden bekrachtigd.",
+      "edits": [
+        {
+          "corrupted_end": 40,
+          "corrupted_start": 31,
+          "corruption_type": "spelling",
+          "end": 41,
+          "original": "eindvonnis",
+          "protected_tokens": [
+            7280
+          ],
+          "replacement": "eindvonis",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:delete_doubled_consonant",
+          "start": 31
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-049",
+      "pair_id": "50f41e876a16c01b85f0122a",
+      "split": "train",
+      "document_id": "32c1d37ce8f0a6a68ca55c076bca9c07c31901859bbb58169f80bb5951d5098c",
+      "source_name": "de_rechtspraak",
+      "original": "De curator heeft erop gewezen, dat de jaarrekening over het boekjaar 1998 43 dagen te laat is gedeponeerd.",
+      "corrupted": "De curator heeft erop gewezen, dat de jaarrekening over de boekjaar 1998 43 dagen te laat is gedeponeerd.",
+      "edits": [
+        {
+          "corrupted_end": 58,
+          "corrupted_start": 56,
+          "corruption_type": "article_gender",
+          "end": 59,
+          "original": "het",
+          "protected_tokens": [
+            1432,
+            1433
+          ],
+          "replacement": "de",
+          "rule_id": "article_gender:het:het>de",
+          "start": 56
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-050",
+      "pair_id": "568ff33fce47c70d7216437f",
+      "split": "validation",
+      "document_id": "99d6a751cb3656312dc287465d0a0951f7ac61eab03d0d8c317dacfc5a44e194",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Daarmee kan het bijdragen in het terugdringen van de zorgkosten, maar kan het ook de verbondenheid tussen mensen vergroten.",
+      "corrupted": "Daarmee kan het bijdragen in het terugdringen van de zorgkosten, maar kan het ook het verbondenheid tussen mensen vergroten.",
+      "edits": [
+        {
+          "corrupted_end": 85,
+          "corrupted_start": 82,
+          "corruption_type": "article_gender",
+          "end": 84,
+          "original": "de",
+          "protected_tokens": [
+            28,
+            29
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 82
+        }
+      ],
+      "source_judgment": "uncertain",
+      "intended_edits_judgment": "valid",
+      "notes": "Bijdragen in het terugdringen has questionable prepositional selection; standard bijdragen aan expected."
+    },
+    {
+      "sample_id": "ev-051",
+      "pair_id": "92115dad4477a8d01d44bba0",
+      "split": "train",
+      "document_id": "eb2941813932180c7b4c967e8f35c69bf1087d8045eeb5edfac86d8dd0fdbc8d",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Onder spoed wordt een onverwachte situatie verstaan waarbij ernstiger problemen voorkomen dienen te worden.",
+      "corrupted": "Onder spoed wordt een onverwachte situatie verstaan waarbij ernstiger problemen voorkomen dienen te woredn.",
+      "edits": [
+        {
+          "corrupted_end": 106,
+          "corrupted_start": 100,
+          "corruption_type": "spelling",
+          "end": 106,
+          "original": "worden",
+          "protected_tokens": [
+            34
+          ],
+          "replacement": "woredn",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 100
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-052",
+      "pair_id": "ee11fc4f81bacc05a9db6389",
+      "split": "train",
+      "document_id": "a97c9f3ff195b95440771fbe648b522475bb60604d781ce2775b307639f72d1f",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Betrokkenen hebben het recht om in heldere taal informatie te ontvangen over het hoe en waarom van de gegevensverwerking.",
+      "corrupted": "Betrokkenen hebben het recht om in heldere taal informatie te ontvangen over het hoe en waarom van het gegevensverwerking.",
+      "edits": [
+        {
+          "corrupted_end": 102,
+          "corrupted_start": 99,
+          "corruption_type": "article_gender",
+          "end": 101,
+          "original": "de",
+          "protected_tokens": [
+            17,
+            18
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 99
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-053",
+      "pair_id": "8af5297e848a04133fe7da01",
+      "split": "train",
+      "document_id": "2666fc6512a0f3f73c0a62f5bccef6763751a6f593f19103123b1115a99535aa",
+      "source_name": "officiele_bekendmakingen",
+      "original": "De Rechtbank spreekt bewindvoering (of curatele of mentorschap) uit, waarmee het recht tot het nemen van financiële beslissingen of beslissingen over iemands verzorging wordt overgedragen naar een bewindvoerder, curator of mentor.",
+      "corrupted": "De Rechtbank spreekt bewindvoering (of curatele of mentorschap) uit, waarmee het recht tot het nemen van financiële beslissingen of beslissingen over iemands verzorging wordt overgedragen naar een bewindvoerder, curtaor of mentor.",
+      "edits": [
+        {
+          "corrupted_end": 219,
+          "corrupted_start": 212,
+          "corruption_type": "spelling",
+          "end": 219,
+          "original": "curator",
+          "protected_tokens": [
+            72
+          ],
+          "replacement": "curtaor",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 212
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-054",
+      "pair_id": "c9c23b9006fe1823406e12b2",
+      "split": "train",
+      "document_id": "e76c338f83e8d3f790626f2a8b186c230487ac2144a1116af924357b88ab8113",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Informatie over deze wateren, zoals ligging, vorm en afmeting, staat in de legger wateren.",
+      "corrupted": "Informatie over deze wateren, zoals ligging, vorm en afmeting, staat in de legger watreen.",
+      "edits": [
+        {
+          "corrupted_end": 89,
+          "corrupted_start": 82,
+          "corruption_type": "spelling",
+          "end": 89,
+          "original": "wateren",
+          "protected_tokens": [
+            78
+          ],
+          "replacement": "watreen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 82
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-055",
+      "pair_id": "9eca02e78715931cc486e9bf",
+      "split": "validation",
+      "document_id": "0bb382cf909e10f5a9094e565076ff14a51c085e59e9c5bad3e84c0f5d98f2f3",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Het gaat hier om een zogenaamde oplevercontrole, waarbij wordt nagegaan of aan de voorschriften en eisen wordt voldaan, zoals opgenomen in de vergunning en/of regelgeving.",
+      "corrupted": "Het gaat hier om een zogenaamde oplevercontrole, waarbij wordt naeggaan of aan de voorschriften en eisen wordt voldaan, zoals opgenomen in de vergunning en/of regelgeving.",
+      "edits": [
+        {
+          "corrupted_end": 71,
+          "corrupted_start": 63,
+          "corruption_type": "spelling",
+          "end": 71,
+          "original": "nagegaan",
+          "protected_tokens": [
+            33
+          ],
+          "replacement": "naeggaan",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 63
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-056",
+      "pair_id": "2d6781754d1c10b93e59e349",
+      "split": "train",
+      "document_id": "a093bb65712d6e4ffeca32650824baf5d55209e28059d07db4269e1435cf134e",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Bijvoorbeeld: een museum wil haar tentoonstellingsruimte verbeteren door het verplaatsen van een aantal wanden en het maken van extra ramen.",
+      "corrupted": "Bijvoorbeeld: een museum wil haar tentoonstellingsruimte verbeteren door het verplaatsen van een aantal wanden en het maaken van extra ramen.",
+      "edits": [
+        {
+          "corrupted_end": 124,
+          "corrupted_start": 118,
+          "corruption_type": "spelling",
+          "end": 123,
+          "original": "maken",
+          "protected_tokens": [
+            73
+          ],
+          "replacement": "maaken",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:curated:maken>maaken",
+          "start": 118
+        }
+      ],
+      "source_judgment": "uncertain",
+      "intended_edits_judgment": "valid",
+      "notes": "Haar refers to neuter museum; possible institutional collective usage, but not unambiguously standard."
+    },
+    {
+      "sample_id": "ev-057",
+      "pair_id": "1f20897357f941bfb9945934",
+      "split": "train",
+      "document_id": "09aad0157b171b7e80df1b4b35858839a0993c0dcc70ff8f80192c20b3128c21",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Binnen het CCO wordt het erfgoed van Ommen, op grond van de Canon, op een eigentijdse manier inzichtelijk gemaakt.",
+      "corrupted": "Binnen het CCO wordt de erfgoed van Ommen, op grond van de Canon, op een eigentijdse manier inzichtelijk gemaakt.",
+      "edits": [
+        {
+          "corrupted_end": 23,
+          "corrupted_start": 21,
+          "corruption_type": "article_gender",
+          "end": 24,
+          "original": "het",
+          "protected_tokens": [
+            21,
+            22
+          ],
+          "replacement": "de",
+          "rule_id": "article_gender:het:het>de",
+          "start": 21
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-058",
+      "pair_id": "8165df0268098fa95759a781",
+      "split": "train",
+      "document_id": "29d237fc22eaca90ae38fb8334d1ca49724f9e8c0deafe40b60bf36cf6925bea",
+      "source_name": "officiele_bekendmakingen",
+      "original": "De periode begint bij de constatering van de eerste overtreding.",
+      "corrupted": "De periode begint bij het constatering van de eerste overtreding.",
+      "edits": [
+        {
+          "corrupted_end": 25,
+          "corrupted_start": 22,
+          "corruption_type": "article_gender",
+          "end": 24,
+          "original": "de",
+          "protected_tokens": [
+            50,
+            51
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 22
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-059",
+      "pair_id": "4e0f4c8ae403168176637a08",
+      "split": "train",
+      "document_id": "ee11b13550c2ba29ddc46dfae166d4e65429b42a90af5b810162ae5f14458a7d",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Uw bezwaarschrift dient ondertekend te zijn en voorzien van uw naam en adres, de datum, een omschrijving van het besluit waartegen het bezwaar is gericht en de gronden van het bezwaar.",
+      "corrupted": "Uw bezwaarschrift dient ondertekend te zijn en voorzien van uw naam en adres, de datum, een omschrijving van het besluit waartegen de bezwaar is gericht en de gronden van het bezwaar.",
+      "edits": [
+        {
+          "corrupted_end": 133,
+          "corrupted_start": 131,
+          "corruption_type": "article_gender",
+          "end": 134,
+          "original": "het",
+          "protected_tokens": [
+            41,
+            42
+          ],
+          "replacement": "de",
+          "rule_id": "article_gender:het:het>de",
+          "start": 131
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-060",
+      "pair_id": "0cdd0f7bc2e894460052f0d5",
+      "split": "train",
+      "document_id": "e2ff53c7cce642a17dffa68aa8da885ee769e6ec17cc176adab2e27eeb3025a5",
+      "source_name": "officiele_bekendmakingen",
+      "original": "De ondernemingsraad wordt bij elke stap uitgenodigd om mee te praten of om zich te laten informeren.",
+      "corrupted": "Het ondernemingsraad wordt bij elke stap uitgenodigd om mee te praten of om zich te laten informeren.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_gender",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            2,
+            3
+          ],
+          "replacement": "Het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-061",
+      "pair_id": "046be9d07ea0a3dcbcc48133",
+      "split": "train",
+      "document_id": "4e0aaec9533ea3bc0841565fb284a77689e8a0f1d8c2f18542eb5b84250ee5e4",
+      "source_name": "officiele_bekendmakingen",
+      "original": "De linten kennen gemengde functies, waaronder wonen, agrarische percelen en bedrijven, vaak aan weerszijden van de weg.",
+      "corrupted": "Het linten kennen gemengde functies, waaronder wonen, agrarische percelen en bedrijven, vaak aan weerszijden van de weg.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_number",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            0,
+            1
+          ],
+          "replacement": "Het",
+          "rule_id": "article_number:plural:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-062",
+      "pair_id": "31b2a65a867f4f312e20a861",
+      "split": "train",
+      "document_id": "36c1b5320930c501365199f3151a52162f4f224f31fdff4cab37d16f19434728",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Alle vergoedingen en verstrekkingen betreffende een dienstbetrekking worden tot het loon van de medewerker gerekend.",
+      "corrupted": "Alle vergoedingen en verstrekkingen betreffende een dienstbetrekking worden tot de loon van de medewerker gerekend.",
+      "edits": [
+        {
+          "corrupted_end": 82,
+          "corrupted_start": 80,
+          "corruption_type": "article_gender",
+          "end": 83,
+          "original": "het",
+          "protected_tokens": [
+            22,
+            23
+          ],
+          "replacement": "de",
+          "rule_id": "article_gender:het:het>de",
+          "start": 80
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-063",
+      "pair_id": "f3c68f905ffacbe9e8e5d001",
+      "split": "train",
+      "document_id": "80add097d6ed9b8b07cea729b014ed279df464958f49a78bbef18c8af0650b58",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Ook bij gehuwden waarvan beide partners in een inrichting verblijven kan voor de genoemde kosten bijzondere bijstand worden verleend.",
+      "corrupted": "Ook bij gheuwden waarvan beide partners in een inrichting verblijven kan voor de genoemde kosten bijzondere bijstand worden verleend.",
+      "edits": [
+        {
+          "corrupted_end": 16,
+          "corrupted_start": 8,
+          "corruption_type": "spelling",
+          "end": 16,
+          "original": "gehuwden",
+          "protected_tokens": [
+            24
+          ],
+          "replacement": "gheuwden",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 8
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-064",
+      "pair_id": "d7e9958b2905b5c6a44aa5c0",
+      "split": "validation",
+      "document_id": "99d6a751cb3656312dc287465d0a0951f7ac61eab03d0d8c317dacfc5a44e194",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Daarnaast kunnen zij eventuele jongere gezinsleden verzorgen en begeleiden.",
+      "corrupted": "Daarnaast kunnen zij eventuele jongree gezinsleden verzorgen en begeleiden.",
+      "edits": [
+        {
+          "corrupted_end": 38,
+          "corrupted_start": 31,
+          "corruption_type": "spelling",
+          "end": 38,
+          "original": "jongere",
+          "protected_tokens": [
+            4
+          ],
+          "replacement": "jongree",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 31
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-065",
+      "pair_id": "dc5538a819d0324e9a463f19",
+      "split": "train",
+      "document_id": "54e842f2576b6dab1028c25233109087572fde546cee896c6cb50a3a1c52db87",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Het college kan nadere regels stellen voor de hoogte van de tarieven van het pgb voor formele zorg voor maatwerkvoorzieningen en materiële voorzieningen.",
+      "corrupted": "Het collegge kan nadere regels stellen voor de hoogte van de tarieven van het pgb voor formele zorg voor maatwerkvoorzieningen en materiële voorzieningen.",
+      "edits": [
+        {
+          "corrupted_end": 12,
+          "corrupted_start": 4,
+          "corruption_type": "spelling",
+          "end": 11,
+          "original": "college",
+          "protected_tokens": [
+            2
+          ],
+          "replacement": "collegge",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 4
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-066",
+      "pair_id": "7200d54587d3d4c41165f34c",
+      "split": "train",
+      "document_id": "0473222337306400b6b33613a9b21bd5b78ab0c1ca05dbb48e5d0756ce1debf0",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Waterschap de Dommel hanteert een zelfde wijze van beheer en onderhoud waarbij maatwerk op het onderhoudsregime mogelijk blijft.",
+      "corrupted": "Waterschap de Dommel hanteert een zelfde wijze van beheer en onderhoud waarbij maatwerk op het onderhoudsregime mogelijk blijfft.",
+      "edits": [
+        {
+          "corrupted_end": 128,
+          "corrupted_start": 121,
+          "corruption_type": "spelling",
+          "end": 127,
+          "original": "blijft",
+          "protected_tokens": [
+            62
+          ],
+          "replacement": "blijfft",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 121
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid",
+      "notes": "The compound eenzelfde is incorrectly split as een zelfde."
+    },
+    {
+      "sample_id": "ev-067",
+      "pair_id": "c27b5427d0c8b2e5fcdc6a69",
+      "split": "train",
+      "document_id": "8b404304e48bbfac34e83dacf43f4e6f20c68cab3300b48e40bacd396f247a7e",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Voor leveringen en diensten geldt een drempel van € 30.000,-- waaronder kan worden volstaan met een verkorte inkoopstrategie.",
+      "corrupted": "Voor leveringen en diensten geldt een drempel van € 30.000,-- waaronder kan worden volstaan met een verkotre inkoopstrategie.",
+      "edits": [
+        {
+          "corrupted_end": 108,
+          "corrupted_start": 100,
+          "corruption_type": "spelling",
+          "end": 108,
+          "original": "verkorte",
+          "protected_tokens": [
+            16
+          ],
+          "replacement": "verkotre",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 100
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-068",
+      "pair_id": "21f3339bd589035494f39f20",
+      "split": "test",
+      "document_id": "01e724838a46bc2a1539fe7c415bdd47dfff980940a68747d3e7f991acda55a5",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Ouders worden bij inschrijving op peutergroep, kinderdagverblijf of gastouderbureau op de hoogte gebracht van de overdracht naar het basisonderwijs.",
+      "corrupted": "Ouders worden bij inschrijving op peutergroep, kinderdagverblijf of gastouderbureau op de hoogte gebracht van het overdracht naar het basisonderwijs.",
+      "edits": [
+        {
+          "corrupted_end": 113,
+          "corrupted_start": 110,
+          "corruption_type": "article_gender",
+          "end": 112,
+          "original": "de",
+          "protected_tokens": [
+            15,
+            16
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 110
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-069",
+      "pair_id": "416ddf9a9ea7981c9f9ebd92",
+      "split": "train",
+      "document_id": "e99791fb5f4a2ec525b1d2b95d27fb9b5a0afccc8d04c2c2bea6c9734e2b5ab6",
+      "source_name": "officiele_bekendmakingen",
+      "original": "In totaal moet de binnendijkse EHS zich uitbreiden naar 622 ha.",
+      "corrupted": "In totaal moet de binnendijkse EHS zich uibtreiden naar 622 ha.",
+      "edits": [
+        {
+          "corrupted_end": 50,
+          "corrupted_start": 40,
+          "corruption_type": "spelling",
+          "end": 50,
+          "original": "uitbreiden",
+          "protected_tokens": [
+            78
+          ],
+          "replacement": "uibtreiden",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 40
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-070",
+      "pair_id": "b8391c708a7c8679c21d54d0",
+      "split": "train",
+      "document_id": "f67d057fded04b92aa7472994fe04a666e2504f91d7c20f65454e896a166165f",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Dit geldt niet als de aanvraag zich richt op een klein initiatief in een BSD.",
+      "corrupted": "Dit geldt niet als de aanvraag zich richt op een kleine initiatief in een BSD.",
+      "edits": [
+        {
+          "corrupted_end": 55,
+          "corrupted_start": 49,
+          "corruption_type": "adjective_inflection",
+          "end": 54,
+          "original": "klein",
+          "protected_tokens": [
+            22,
+            23,
+            24
+          ],
+          "replacement": "kleine",
+          "rule_id": "adjective_inflection:indefinite_neuter",
+          "start": 49
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-071",
+      "pair_id": "18368bd625da9e87d7c06292",
+      "split": "test",
+      "document_id": "32e95d087070bbea7058ea9973d67b0cb40dc3eada505beb9e9e729129ec40b1",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Parkeren wordt conform de hoofdfunctie meegenomen tenzij we hierover andere afspraken maken.",
+      "corrupted": "Parkeren wordt conform het hoofdfunctie meegenomen tenzij we hierover andere afspraken maken.",
+      "edits": [
+        {
+          "corrupted_end": 26,
+          "corrupted_start": 23,
+          "corruption_type": "article_gender",
+          "end": 25,
+          "original": "de",
+          "protected_tokens": [
+            4,
+            5
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 23
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-072",
+      "pair_id": "13fd357aa7eecdc196dae81d",
+      "split": "train",
+      "document_id": "8a98c4e6ff00f383478038aa7782a672219c197c05b5b9ba31704adc24343af1",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Bij dergelijke type bouwwerken kunnen geen vergunningsvrije bijbehorende bouwwerken worden gebouwd.",
+      "corrupted": "Bij dergelijke type bouwwerken kunnen geen verguningsvrije bijbehorende bouwwerken worden gebouwd.",
+      "edits": [
+        {
+          "corrupted_end": 58,
+          "corrupted_start": 43,
+          "corruption_type": "spelling",
+          "end": 59,
+          "original": "vergunningsvrije",
+          "protected_tokens": [
+            164
+          ],
+          "replacement": "verguningsvrije",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:delete_doubled_consonant",
+          "start": 43
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid",
+      "notes": "Dergelijke type mismatches determiner/adjective and singular neuter noun; expected dergelijk type or dergelijke typen."
+    },
+    {
+      "sample_id": "ev-073",
+      "pair_id": "5769226bc2557bedc1885db8",
+      "split": "train",
+      "document_id": "53f208d2b870f6cc20a170d53c562057f2ce331b2253e92906a1d2b46b2d4d7f",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Mogelijk ligt de oorzaak in de vernatting van het gebied.",
+      "corrupted": "Mogelijk ligt het oorzaak in de vernatting van het gebied.",
+      "edits": [
+        {
+          "corrupted_end": 17,
+          "corrupted_start": 14,
+          "corruption_type": "article_gender",
+          "end": 16,
+          "original": "de",
+          "protected_tokens": [
+            4,
+            5
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 14
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-074",
+      "pair_id": "b1c0cfceba13676dbb3b8742",
+      "split": "train",
+      "document_id": "a97c9f3ff195b95440771fbe648b522475bb60604d781ce2775b307639f72d1f",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Noordenveld blijft verantwoordelijk voor de gegevensverwerkingen die deze partijen namens ons uitvoeren, dat betekent dat boetes en aansprakelijkheid in eerste instantie bij ons komen te liggen.",
+      "corrupted": "Noordenveld blijft verantwoordelijk voor de gegevensverwerkingen die deze partijen namens ons uitvoeren, dat betekent dat boetes en aansprakelijkheid in eerste instantie bij ons kmoen te liggen.",
+      "edits": [
+        {
+          "corrupted_end": 183,
+          "corrupted_start": 178,
+          "corruption_type": "spelling",
+          "end": 183,
+          "original": "komen",
+          "protected_tokens": [
+            117
+          ],
+          "replacement": "kmoen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 178
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-075",
+      "pair_id": "6ec6b9797dbf9e3f709244e1",
+      "split": "train",
+      "document_id": "4e0aaec9533ea3bc0841565fb284a77689e8a0f1d8c2f18542eb5b84250ee5e4",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Een leverancier van een windmolen kan dit onderzoek aanleveren.",
+      "corrupted": "Een leveranccier van een windmolen kan dit onderzoek aanleveren.",
+      "edits": [
+        {
+          "corrupted_end": 16,
+          "corrupted_start": 4,
+          "corruption_type": "spelling",
+          "end": 15,
+          "original": "leverancier",
+          "protected_tokens": [
+            31
+          ],
+          "replacement": "leveranccier",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 4
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-076",
+      "pair_id": "26931131a36b08a022895379",
+      "split": "train",
+      "document_id": "e99791fb5f4a2ec525b1d2b95d27fb9b5a0afccc8d04c2c2bea6c9734e2b5ab6",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Als deze is beplant met geriefhout is sprake van een houtkade.",
+      "corrupted": "Als deze is beplant met geriefhout is srpake van een houtkade.",
+      "edits": [
+        {
+          "corrupted_end": 44,
+          "corrupted_start": 38,
+          "corruption_type": "spelling",
+          "end": 44,
+          "original": "sprake",
+          "protected_tokens": [
+            20
+          ],
+          "replacement": "srpake",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 38
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-077",
+      "pair_id": "c00f5092a8f830abf5683259",
+      "split": "train",
+      "document_id": "8a98c4e6ff00f383478038aa7782a672219c197c05b5b9ba31704adc24343af1",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Zonder hoofdgebouw kan er op het perceel dus ook geen sprake zijn van een bijbehorend bouwwerk.",
+      "corrupted": "Zonder hoofdgebouw kan er op de perceel dus ook geen sprake zijn van een bijbehorend bouwwerk.",
+      "edits": [
+        {
+          "corrupted_end": 31,
+          "corrupted_start": 29,
+          "corruption_type": "article_gender",
+          "end": 32,
+          "original": "het",
+          "protected_tokens": [
+            240,
+            241
+          ],
+          "replacement": "de",
+          "rule_id": "article_gender:het:het>de",
+          "start": 29
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-078",
+      "pair_id": "8f69f679411bdd7966645703",
+      "split": "train",
+      "document_id": "4e0aaec9533ea3bc0841565fb284a77689e8a0f1d8c2f18542eb5b84250ee5e4",
+      "source_name": "officiele_bekendmakingen",
+      "original": "In de regio is bijna 7.800 ha aangewezen als onderdeel van het Nationaal Natuurnetwerk Nederland (NNN) en ruim 7.250 ha als Natura 2000-gebied.",
+      "corrupted": "In het regio is bijna 7.800 ha aangewezen als onderdeel van het Nationaal Natuurnetwerk Nederland (NNN) en ruim 7.250 ha als Natura 2000-gebied.",
+      "edits": [
+        {
+          "corrupted_end": 6,
+          "corrupted_start": 3,
+          "corruption_type": "article_gender",
+          "end": 5,
+          "original": "de",
+          "protected_tokens": [
+            1,
+            2
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-079",
+      "pair_id": "12c8edef423d24f35c5f7fb5",
+      "split": "train",
+      "document_id": "2c9c486ec2b5c7a9286545000abf350772bac71d446388b2c84b4703ca28a9fc",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Daarnaast zijn de criteria voor zonnepanelen achterhaald door ontwikkelingen en de actualiteit.",
+      "corrupted": "Daarnaast zijn de criteria voor zonnepanelen achterhaald door ontwikkelinngen en de actualiteit.",
+      "edits": [
+        {
+          "corrupted_end": 77,
+          "corrupted_start": 62,
+          "corruption_type": "spelling",
+          "end": 76,
+          "original": "ontwikkelingen",
+          "protected_tokens": [
+            57
+          ],
+          "replacement": "ontwikkelinngen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 62
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-080",
+      "pair_id": "4f166cc212bbe7e5879d74ae",
+      "split": "train",
+      "document_id": "8b404304e48bbfac34e83dacf43f4e6f20c68cab3300b48e40bacd396f247a7e",
+      "source_name": "officiele_bekendmakingen",
+      "original": "De gemeente hanteert een drempel van € 5.000 voor werken, leveringen en diensten waaronder geen inkoopstrategie wordt opgesteld.",
+      "corrupted": "Het gemeente hanteert een drempel van € 5.000 voor werken, leveringen en diensten waaronder geen inkoopstrategie wordt opgesteld.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_gender",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            0,
+            1
+          ],
+          "replacement": "Het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-081",
+      "pair_id": "8f144b2755c5b61844f9d4b4",
+      "split": "train",
+      "document_id": "360f1dd39c58e285194bed6f9080caca7530a9fdae3d3af6a262ec973bb8e70e",
+      "source_name": "officiele_bekendmakingen",
+      "original": "De adviesraad vergadert minimaal zes keer per jaar.",
+      "corrupted": "Het adviesraad vergadert minimaal zes keer per jaar.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_gender",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            2,
+            3
+          ],
+          "replacement": "Het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-082",
+      "pair_id": "925054a060e37160c992fb83",
+      "split": "train",
+      "document_id": "3581689007cb2b5a8ea9cf5439acf800d6cbabcd4e1560e3e06aa7540fc4750d",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Om andere redenen kan de vergunning dan ook niet worden ingetrokken of gewijzigd.",
+      "corrupted": "Om andere redenen kan het vergunning dan ook niet worden ingetrokken of gewijzigd.",
+      "edits": [
+        {
+          "corrupted_end": 25,
+          "corrupted_start": 22,
+          "corruption_type": "article_gender",
+          "end": 24,
+          "original": "de",
+          "protected_tokens": [
+            63,
+            64
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 22
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-083",
+      "pair_id": "078b98ac478332ada6022ecd",
+      "split": "train",
+      "document_id": "e99791fb5f4a2ec525b1d2b95d27fb9b5a0afccc8d04c2c2bea6c9734e2b5ab6",
+      "source_name": "officiele_bekendmakingen",
+      "original": "In het buitengebied liggen verder enkele sportcomplexen, maneges en zwembaden met een lokale functie.",
+      "corrupted": "In de buitengebied liggen verder enkele sportcomplexen, maneges en zwembaden met een lokale functie.",
+      "edits": [
+        {
+          "corrupted_end": 5,
+          "corrupted_start": 3,
+          "corruption_type": "article_gender",
+          "end": 6,
+          "original": "het",
+          "protected_tokens": [
+            1,
+            2
+          ],
+          "replacement": "de",
+          "rule_id": "article_gender:het:het>de",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-084",
+      "pair_id": "a8babfeb831510f344affaaa",
+      "split": "train",
+      "document_id": "54e842f2576b6dab1028c25233109087572fde546cee896c6cb50a3a1c52db87",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Tevens wijst het college op de mogelijkheid om gedurende zeven dagen na de melding een persoonlijk plan als bedoeld in artikel 2.3.2, tweede lid, van de wet te overhandigen.",
+      "corrupted": "Tevens wijst het college op de mogelijkheid om gedurende zeven dagen na de melding een persoonlijke plan als bedoeld in artikel 2.3.2, tweede lid, van de wet te overhandigen.",
+      "edits": [
+        {
+          "corrupted_end": 99,
+          "corrupted_start": 87,
+          "corruption_type": "adjective_inflection",
+          "end": 98,
+          "original": "persoonlijk",
+          "protected_tokens": [
+            105,
+            106,
+            107
+          ],
+          "replacement": "persoonlijke",
+          "rule_id": "adjective_inflection:indefinite_neuter",
+          "start": 87
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-085",
+      "pair_id": "66141cc2880c24d7dfbd9801",
+      "split": "train",
+      "document_id": "2c65a40c30b99c57decdaddc01ec26ec7bac024102d50b6b3f9cf9e8e80563e6",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Het gesprek wordt in de wet niet expliciet genoemd, maar impliciet wordt er vanuit gegaan dat persoonlijk contact tussen gemeente en cliënt plaatsvindt.",
+      "corrupted": "De gesprek wordt in de wet niet expliciet genoemd, maar impliciet wordt er vanuit gegaan dat persoonlijk contact tussen gemeente en cliënt plaatsvindt.",
+      "edits": [
+        {
+          "corrupted_end": 2,
+          "corrupted_start": 0,
+          "corruption_type": "article_gender",
+          "end": 3,
+          "original": "Het",
+          "protected_tokens": [
+            28,
+            29
+          ],
+          "replacement": "De",
+          "rule_id": "article_gender:het:het>de",
+          "start": 0
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid",
+      "notes": "Er vanuit gegaan is incorrectly segmented; expected ervan uitgegaan."
+    },
+    {
+      "sample_id": "ev-086",
+      "pair_id": "1671d3ce7c10ea0046d01ff5",
+      "split": "train",
+      "document_id": "0b7ab441870389bc0b4aa29776bafaa2ee68267b9db1a717503d757a7c2f2937",
+      "source_name": "officiele_bekendmakingen",
+      "original": "De Omgevingswet speelt hierop in en stimuleert vroegtijdige participatie om tijdig belangen, meningen en creativiteit op tafel te krijgen.",
+      "corrupted": "De Omgevingswet speelt hierop in en stimuleert vroegtijdige participatie om tijdig belangen, meningen en creativiteit op tafel te kijgen.",
+      "edits": [
+        {
+          "corrupted_end": 136,
+          "corrupted_start": 130,
+          "corruption_type": "spelling",
+          "end": 137,
+          "original": "krijgen",
+          "protected_tokens": [
+            96
+          ],
+          "replacement": "kijgen",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:curated:krijgen>kijgen",
+          "start": 130
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-087",
+      "pair_id": "4b1fa0f72f2d0771aabcbc20",
+      "split": "train",
+      "document_id": "09aad0157b171b7e80df1b4b35858839a0993c0dcc70ff8f80192c20b3128c21",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Ommen kent een kwalitatief goed aanbod van kunst en cultuur, waarbij alle scholen zijn betrokken.",
+      "corrupted": "Ommen kent een kwalitatief goed aanbod van kusnt en cultuur, waarbij alle scholen zijn betrokken.",
+      "edits": [
+        {
+          "corrupted_end": 48,
+          "corrupted_start": 43,
+          "corruption_type": "spelling",
+          "end": 48,
+          "original": "kunst",
+          "protected_tokens": [
+            7
+          ],
+          "replacement": "kusnt",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 43
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-088",
+      "pair_id": "3e55f8be7da0b1f1d86dd198",
+      "split": "train",
+      "document_id": "ea7c9e6f2aa43640124359b902b48102df8ab5e1adeadc3762bca088c01c9cbc",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Rondom de boerderij en het koetshuis staan enkele monumentale bomen.",
+      "corrupted": "Rondom de boerderij en het koettshuis staan enkele monumentale bomen.",
+      "edits": [
+        {
+          "corrupted_end": 37,
+          "corrupted_start": 27,
+          "corruption_type": "spelling",
+          "end": 36,
+          "original": "koetshuis",
+          "protected_tokens": [
+            5
+          ],
+          "replacement": "koettshuis",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:duplicate_consonant",
+          "start": 27
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-089",
+      "pair_id": "9e179d9658975be7b20114c7",
+      "split": "train",
+      "document_id": "0b7ab441870389bc0b4aa29776bafaa2ee68267b9db1a717503d757a7c2f2937",
+      "source_name": "officiele_bekendmakingen",
+      "original": "We richten ons in dat geval op informeren via goede en tijdige communicatie.",
+      "corrupted": "We richt ons in dat geval op informeren via goede en tijdige communicatie.",
+      "edits": [
+        {
+          "corrupted_end": 8,
+          "corrupted_start": 3,
+          "corruption_type": "subject_verb_agreement",
+          "end": 10,
+          "original": "richten",
+          "protected_tokens": [
+            101,
+            102
+          ],
+          "replacement": "richt",
+          "rule_id": "subject_verb_agreement:dictionary:plural",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-090",
+      "pair_id": "6b98f40938775cea081cfd4c",
+      "split": "train",
+      "document_id": "0860093c7fd8f3ec0a97e8d075dd5121f3ae1079d9f84c3337cf20f1ffb4fc5e",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Volgens de commissie BBV moeten gelijksoortige activa wel volgens dezelfde methode worden afgeschreven, onafhankelijk van het moment van investeren.",
+      "corrupted": "Volgens de commissie BBV moeten gelijksoortige activa wel volgens dezelfde methode worden afgeschreven, onafhankelijk van de moment van investeren.",
+      "edits": [
+        {
+          "corrupted_end": 124,
+          "corrupted_start": 122,
+          "corruption_type": "article_gender",
+          "end": 125,
+          "original": "het",
+          "protected_tokens": [
+            67,
+            68
+          ],
+          "replacement": "de",
+          "rule_id": "article_gender:het:het>de",
+          "start": 122
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-091",
+      "pair_id": "a900a7c5892d3bd4c5f8de44",
+      "split": "train",
+      "document_id": "e32e6622e280ecc90b3db463e3cd91625bb85da5188d0b8e4b39e30aa8e21877",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Zijn er geen geschikte/ passende kandidaten binnen categorie 1, dan wordt de standplaats aan de langst wachtende binnen categorie 2 aangeboden.",
+      "corrupted": "Zijn er geen geschikte/ passende kandidaten binnen categorie 1, dan wordt het standplaats aan de langst wachtende binnen categorie 2 aangeboden.",
+      "edits": [
+        {
+          "corrupted_end": 77,
+          "corrupted_start": 74,
+          "corruption_type": "article_gender",
+          "end": 76,
+          "original": "de",
+          "protected_tokens": [
+            53,
+            54
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 74
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-092",
+      "pair_id": "86c88c7f9e55d3de033c56ae",
+      "split": "train",
+      "document_id": "0473222337306400b6b33613a9b21bd5b78ab0c1ca05dbb48e5d0756ce1debf0",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Dit vraagt tijd waardoor niet alles dat gepland was om op te pakken ook daadwerkelijk is uitgevoerd.",
+      "corrupted": "Dit fraagt tijd waardoor niet alles dat gepland was om op te pakken ook daadwerkelijk is uitgevoerd.",
+      "edits": [
+        {
+          "corrupted_end": 10,
+          "corrupted_start": 4,
+          "corruption_type": "spelling",
+          "end": 10,
+          "original": "vraagt",
+          "protected_tokens": [
+            51
+          ],
+          "replacement": "fraagt",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:curated:vraagt>fraagt",
+          "start": 4
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-093",
+      "pair_id": "a32c96e4db10d2fbf20b23ef",
+      "split": "train",
+      "document_id": "0473222337306400b6b33613a9b21bd5b78ab0c1ca05dbb48e5d0756ce1debf0",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Bij ontwikkelingen zorgen we ervoor dat er geen structurele verandering van de grondwaterstand optreedt.",
+      "corrupted": "Bij ontwikkelingen zorgen we ervoor dat er geen structurele verandering van het grondwaterstand optreedt.",
+      "edits": [
+        {
+          "corrupted_end": 79,
+          "corrupted_start": 76,
+          "corruption_type": "article_gender",
+          "end": 78,
+          "original": "de",
+          "protected_tokens": [
+            11,
+            12
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 76
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-094",
+      "pair_id": "abea4889a41182255239dae1",
+      "split": "train",
+      "document_id": "0473222337306400b6b33613a9b21bd5b78ab0c1ca05dbb48e5d0756ce1debf0",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Zo worden in sommige situaties inloopsessies gehouden om een wat bredere input op te halen en vinden in andere situaties inspraak avonden plaats waarbij de omgeving kan reageren op de ontwerpen/plannen.",
+      "corrupted": "Zo worden in sommige siutaties inloopsessies gehouden om een wat bredere input op te halen en vinden in andere situaties inspraak avonden plaats waarbij de omgeving kan reageren op de ontwerpen/plannen.",
+      "edits": [
+        {
+          "corrupted_end": 30,
+          "corrupted_start": 21,
+          "corruption_type": "spelling",
+          "end": 30,
+          "original": "situaties",
+          "protected_tokens": [
+            48
+          ],
+          "replacement": "siutaties",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 21
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid",
+      "notes": "The compound inspraakavonden is incorrectly split as inspraak avonden."
+    },
+    {
+      "sample_id": "ev-095",
+      "pair_id": "892afee4c39498ffbae43b44",
+      "split": "validation",
+      "document_id": "0bb382cf909e10f5a9094e565076ff14a51c085e59e9c5bad3e84c0f5d98f2f3",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Aan de voorkant is dit klantgericht en waar mogelijk flexibel georganiseerd.",
+      "corrupted": "Aan de voorknat is dit klantgericht en waar mogelijk flexibel georganiseerd.",
+      "edits": [
+        {
+          "corrupted_end": 15,
+          "corrupted_start": 7,
+          "corruption_type": "spelling",
+          "end": 15,
+          "original": "voorkant",
+          "protected_tokens": [
+            59
+          ],
+          "replacement": "voorknat",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 7
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-096",
+      "pair_id": "27fc6da83555afc0833ba3c3",
+      "split": "train",
+      "document_id": "54e842f2576b6dab1028c25233109087572fde546cee896c6cb50a3a1c52db87",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Die nadere criteria kunnen onder meer prijs en kwaliteit betreffen.",
+      "corrupted": "Die nadere criteria kunnen onder meer prijs en kwlaiteit betreffen.",
+      "edits": [
+        {
+          "corrupted_end": 56,
+          "corrupted_start": 47,
+          "corruption_type": "spelling",
+          "end": 56,
+          "original": "kwaliteit",
+          "protected_tokens": [
+            223
+          ],
+          "replacement": "kwlaiteit",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 47
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-097",
+      "pair_id": "5e5d4c5d5a5d815a4bae440b",
+      "split": "validation",
+      "document_id": "b6097f7ac7d77c2c62d22019052857dc724b7945b6bc6c6ce2d2063f55e919f9",
+      "source_name": "officiele_bekendmakingen",
+      "original": "De klant moet de lening terugbetalen aan het eind van het traject van schuldsanering.",
+      "corrupted": "De klant moet de lening terugbetalen aan het eind van de traject van schuldsanering.",
+      "edits": [
+        {
+          "corrupted_end": 56,
+          "corrupted_start": 54,
+          "corruption_type": "article_gender",
+          "end": 57,
+          "original": "het",
+          "protected_tokens": [
+            66,
+            67
+          ],
+          "replacement": "de",
+          "rule_id": "article_gender:het:het>de",
+          "start": 54
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-098",
+      "pair_id": "77fc4b0919b20542a70ba407",
+      "split": "train",
+      "document_id": "e99791fb5f4a2ec525b1d2b95d27fb9b5a0afccc8d04c2c2bea6c9734e2b5ab6",
+      "source_name": "officiele_bekendmakingen",
+      "original": "De maatregelen staan in dienst van behoud en verbreding van de landbouwsector.",
+      "corrupted": "Het maatregelen staan in dienst van behoud en verbreding van de landbouwsector.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_number",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            61,
+            62
+          ],
+          "replacement": "Het",
+          "rule_id": "article_number:plural:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    },
+    {
+      "sample_id": "ev-099",
+      "pair_id": "9b69254822d2df33f55040f3",
+      "split": "validation",
+      "document_id": "8abcd7d0d0bfffca91f5caeb2d8f1f3a233cb629ea2cfb2e22b0f9c680c1b586",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Om dat te voorkomen, werkt de gemeente zoveel mogelijk met uniforme tarieven.",
+      "corrupted": "Om dat te voorkomen, werkt het gemeente zoveel mogelijk met uniforme tarieven.",
+      "edits": [
+        {
+          "corrupted_end": 30,
+          "corrupted_start": 27,
+          "corruption_type": "article_gender",
+          "end": 29,
+          "original": "de",
+          "protected_tokens": [
+            26,
+            27
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 27
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source and clear injected grammar/spelling error."
+    }
+  ],
+  "review": {
+    "reviewer": "Codex agent",
+    "native_speaker_gold": false,
+    "completed_at": "2026-09-22T06:10:56.355475+00:00",
+    "scope": "All 100 previously unreviewed originals and edits, including full grammar-corrupted sentences; 50 independent draws per source. Not factual verification."
+  }
+}

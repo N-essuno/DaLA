@@ -1,0 +1,719 @@
+{
+  "method": "Separate coverage supplement: up to five reviewed examples per family including the uniform sample; do not pool for precision estimates",
+  "rows": [
+    {
+      "sample_id": "nl-extra-000",
+      "pair_id": "76c31d409299bf6cca47075d",
+      "split": "train",
+      "document_id": "f82d038ee9d6ca8cb4e97692accacbcca89c3092b33a8d4037b5e5b91dc8f514",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Er komt een ambitieus klimaatdoel voor de circulaire economie en een uitvoeringsprogramma.",
+      "corrupted": "Er komt een ambitieuze klimaatdoel voor de circulaire economie en een uitvoeringsprogramma.",
+      "edits": [
+        {
+          "corrupted_end": 22,
+          "corrupted_start": 12,
+          "corruption_type": "adjective_inflection",
+          "end": 21,
+          "original": "ambitieus",
+          "protected_tokens": [
+            104,
+            105,
+            106
+          ],
+          "replacement": "ambitieuze",
+          "rule_id": "adjective_inflection:indefinite_neuter",
+          "start": 12
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-001",
+      "pair_id": "87e8e0fd3ecfc60db2987a66",
+      "split": "train",
+      "document_id": "68370c2d6d28045f41d63cc094a4db36eea50f5ce565bd6442e419970804974c",
+      "source_name": "eurlex",
+      "original": "Er is een onderling verband waarbij ontwikkelingen buiten de Gemeenschap een effect hebben op de ontwikkelingen binnen de Gemeenschap en omgekeerd.",
+      "corrupted": "Er is een onderlinge verband waarbij ontwikkelingen buiten de Gemeenschap een effect hebben op de ontwikkelingen binnen de Gemeenschap en omgekeerd.",
+      "edits": [
+        {
+          "corrupted_end": 20,
+          "corrupted_start": 10,
+          "corruption_type": "adjective_inflection",
+          "end": 19,
+          "original": "onderling",
+          "protected_tokens": [
+            78,
+            79,
+            80
+          ],
+          "replacement": "onderlinge",
+          "rule_id": "adjective_inflection:indefinite_neuter",
+          "start": 10
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-002",
+      "pair_id": "30e8f08b6903d9f0bc316212",
+      "split": "train",
+      "document_id": "2666fc6512a0f3f73c0a62f5bccef6763751a6f593f19103123b1115a99535aa",
+      "source_name": "officiele_bekendmakingen",
+      "original": "De wijzigingen hebben invloed op de kosten voor de essentiële 5 duurzame gebruiksgoederen, de overige gebruiksgoederen en de volledige woninginrichting.",
+      "corrupted": "Het wijzigingen hebben invloed op de kosten voor de essentiële 5 duurzame gebruiksgoederen, de overige gebruiksgoederen en de volledige woninginrichting.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_number",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            12,
+            13
+          ],
+          "replacement": "Het",
+          "rule_id": "article_number:plural:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "uncertain",
+      "intended_edits_judgment": "valid",
+      "notes": "The 5 between essentiele and duurzame gebruiksgoederen may be an attached footnote or a literal count; not an unambiguous clean extraction."
+    },
+    {
+      "sample_id": "nl-extra-003",
+      "pair_id": "3049e6c344b5b9a6472e5e2f",
+      "split": "test",
+      "document_id": "c5aba6ae777ce8de9eb7371255e56ce9d4301dbb167062dc2cf924241b674062",
+      "source_name": "eurlex",
+      "original": "Allereerst dienen dus de kosten voor de NMBS van deze twee scenario's, herstructurering en liquidatie van IFB, te worden vastgesteld.",
+      "corrupted": "Allereerst dienen dus het kosten voor de NMBS van deze twee scenario's, herstructurering en liquidatie van IFB, te worden vastgesteld.",
+      "edits": [
+        {
+          "corrupted_end": 25,
+          "corrupted_start": 22,
+          "corruption_type": "article_number",
+          "end": 24,
+          "original": "de",
+          "protected_tokens": [
+            3,
+            4
+          ],
+          "replacement": "het",
+          "rule_id": "article_number:plural:de>het",
+          "start": 22
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-004",
+      "pair_id": "bc17f3a6f0c2743c076ff385",
+      "split": "validation",
+      "document_id": "c5e995426090aeb61a9c9ffbf735e9e4b00fd437593b4272ad8aa298f72ab235",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Dit toezicht is gebaseerd op diverse (internationale) verplichtingen.",
+      "corrupted": "Deze toezicht is gebaseerd op diverse (internationale) verplichtingen.",
+      "edits": [
+        {
+          "corrupted_end": 4,
+          "corrupted_start": 0,
+          "corruption_type": "demonstrative_agreement",
+          "end": 3,
+          "original": "Dit",
+          "protected_tokens": [
+            9,
+            10
+          ],
+          "replacement": "Deze",
+          "rule_id": "demonstrative_agreement:het:dit>deze",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-005",
+      "pair_id": "ce871015dbb9fe858e711b82",
+      "split": "train",
+      "document_id": "2ebaa9b8750f706c1b7a74c7d74c89cc55d051df60d36b94f089ff433febd411",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Dat eindresultaat is bereikt in een jaar waarin het OM, en ook de politie, te maken had met grote veranderingen en bezuinigingen.",
+      "corrupted": "Die eindresultaat is bereikt in een jaar waarin het OM, en ook de politie, te maken had met grote veranderingen en bezuinigingen.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "demonstrative_agreement",
+          "end": 3,
+          "original": "Dat",
+          "protected_tokens": [
+            21,
+            22
+          ],
+          "replacement": "Die",
+          "rule_id": "demonstrative_agreement:het:dat>die",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-006",
+      "pair_id": "600c3f1d4cfed25a3c054f00",
+      "split": "validation",
+      "document_id": "0264f45254fc5659f0e6262b80708a16451dd5876bce3f6efc340cebe444f376",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Het gaat niet om landelijk of internationaal opererende bedrijven die vanuit andere delen van het land op zoek zijn naar een kantoorlocatie in onze gemeente.",
+      "corrupted": "Het gaat niet om landelijk of internationaal opererende bedrijven die vanuit andere delen van het land op zoek zijn naar een kantoorlocatie in ons gemeente.",
+      "edits": [
+        {
+          "corrupted_end": 146,
+          "corrupted_start": 143,
+          "corruption_type": "possessive_agreement",
+          "end": 147,
+          "original": "onze",
+          "protected_tokens": [
+            62,
+            63
+          ],
+          "replacement": "ons",
+          "rule_id": "possessive_agreement:onze>ons",
+          "start": 143
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-007",
+      "pair_id": "d307892580cf5a6fc4aa7f3a",
+      "split": "train",
+      "document_id": "90962bfc202a907eaa39a9643e7c78b2e47dc39c8f52088bbaa2f4a659f5ee7e",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Het in ons land gevestigde platform waarbinnen gegevens over jihadstrijders direct met elkaar worden gedeeld, vereenvoudigt de samenwerking en draagt bij aan het krijgen van beter zicht in transnationale en internationale verbanden.",
+      "corrupted": "Het in onze land gevestigde platform waarbinnen gegevens over jihadstrijders direct met elkaar worden gedeeld, vereenvoudigt de samenwerking en draagt bij aan het krijgen van beter zicht in transnationale en internationale verbanden.",
+      "edits": [
+        {
+          "corrupted_end": 11,
+          "corrupted_start": 7,
+          "corruption_type": "possessive_agreement",
+          "end": 10,
+          "original": "ons",
+          "protected_tokens": [
+            52,
+            53
+          ],
+          "replacement": "onze",
+          "rule_id": "possessive_agreement:ons>onze",
+          "start": 7
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-008",
+      "pair_id": "686330acc06c87457c3f4dd8",
+      "split": "train",
+      "document_id": "76672d78b36cfa0262b58b2e3da5f5c92ca3dbb62ec0e6f1801b5350b80cfa67",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "In de jeugdzorg werken ruim 36.000 professionals samen aan de best mogelijke toekomst voor onze jeugd.",
+      "corrupted": "In de jeugdzorg werken ruim 36.000 professionals samen aan de best mogelijke toekomst voor ons jeugd.",
+      "edits": [
+        {
+          "corrupted_end": 94,
+          "corrupted_start": 91,
+          "corruption_type": "possessive_agreement",
+          "end": 95,
+          "original": "onze",
+          "protected_tokens": [
+            14,
+            15
+          ],
+          "replacement": "ons",
+          "rule_id": "possessive_agreement:onze>ons",
+          "start": 91
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-009",
+      "pair_id": "5488ed6edf824bcef23e4848",
+      "split": "validation",
+      "document_id": "4ab93f501fb1bf63a39e067795c2f6f213a0fcbefa301296384cae9a19fc8a08",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Onze website had in 2019 in totaal circa 1.154.000 pageviews door ruim 145.000 bezoekers.",
+      "corrupted": "Ons website had in 2019 in totaal circa 1.154.000 pageviews door ruim 145.000 bezoekers.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "possessive_agreement",
+          "end": 4,
+          "original": "Onze",
+          "protected_tokens": [
+            0,
+            1
+          ],
+          "replacement": "Ons",
+          "rule_id": "possessive_agreement:onze>ons",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-010",
+      "pair_id": "0ec4ba91ffc26a46bc6df6fc",
+      "split": "train",
+      "document_id": "d5abc9c3bebcbf522c2be045a1fdd77fd2e45c95cbac6076635be56815d0cdbe",
+      "source_name": "de_rechtspraak",
+      "original": "Het bedrag dat de zorgaanbieder maandelijks verstrekte voor het kopen van eten en drinken moet als middel worden aangemerkt.",
+      "corrupted": "Het bedrag die de zorgaanbieder maandelijks verstrekte voor het kopen van eten en drinken moet als middel worden aangemerkt.",
+      "edits": [
+        {
+          "corrupted_end": 14,
+          "corrupted_start": 11,
+          "corruption_type": "relative_pronoun_agreement",
+          "end": 14,
+          "original": "dat",
+          "protected_tokens": [
+            1376,
+            1377,
+            1381
+          ],
+          "replacement": "die",
+          "rule_id": "relative_pronoun_agreement:inanimate_het",
+          "start": 11
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-011",
+      "pair_id": "14663fc5d5aaeae72ab09467",
+      "split": "test",
+      "document_id": "8d9d582d29e7206a549013febec8f2b6ce6db040f0060971e508520a4e0744ea",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Het beleid dat aan de vergunningverlening ten grondslag ligt, dient nauw samen te hangen met het planologisch beleid.",
+      "corrupted": "Het beleid die aan de vergunningverlening ten grondslag ligt, dient nauw samen te hangen met het planologisch beleid.",
+      "edits": [
+        {
+          "corrupted_end": 14,
+          "corrupted_start": 11,
+          "corruption_type": "relative_pronoun_agreement",
+          "end": 14,
+          "original": "dat",
+          "protected_tokens": [
+            1,
+            2,
+            8
+          ],
+          "replacement": "die",
+          "rule_id": "relative_pronoun_agreement:inanimate_het",
+          "start": 11
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-012",
+      "pair_id": "81ac80c97d9e8eb9ef39786f",
+      "split": "train",
+      "document_id": "76f5ee23af711af4bf8da773e080632e202c6ff40eb7da0ffb0229e42e41beaa",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Het rapport dat verslag doet van deze inspraakprocedure is als bijlage bij dit besluit gevoegd.",
+      "corrupted": "Het rapport die verslag doet van deze inspraakprocedure is als bijlage bij dit besluit gevoegd.",
+      "edits": [
+        {
+          "corrupted_end": 15,
+          "corrupted_start": 12,
+          "corruption_type": "relative_pronoun_agreement",
+          "end": 15,
+          "original": "dat",
+          "protected_tokens": [
+            58,
+            59,
+            61
+          ],
+          "replacement": "die",
+          "rule_id": "relative_pronoun_agreement:inanimate_het",
+          "start": 12
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-013",
+      "pair_id": "11a0d86fdf61ae1fe23f8603",
+      "split": "train",
+      "document_id": "aedc27f706c1f0c7b832ef0a8fbc249f4e909de12045309f1ac526c2a88913ab",
+      "source_name": "de_rechtspraak",
+      "original": "Het onderzoek dat aan het bestreden besluit ten grondslag ligt, berust volgens verzoekster bovendien op verouderde informatie.",
+      "corrupted": "Het onderzoek die aan het bestreden besluit ten grondslag ligt, berust volgens verzoekster bovendien op verouderde informatie.",
+      "edits": [
+        {
+          "corrupted_end": 17,
+          "corrupted_start": 14,
+          "corruption_type": "relative_pronoun_agreement",
+          "end": 17,
+          "original": "dat",
+          "protected_tokens": [
+            279,
+            280,
+            287
+          ],
+          "replacement": "die",
+          "rule_id": "relative_pronoun_agreement:inanimate_het",
+          "start": 14
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-014",
+      "pair_id": "57051d8fce8fad24bb36e4f0",
+      "split": "train",
+      "document_id": "25a705181df3d0b82d5cdd0daf399bf696809915b44baae60dbd4ff2d57acd95",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Het beleid dat wij daarvoor maken, past binnen de kaders van de rechtsstaat en draagt waar nodig ook bij aan de verdere vorming hiervan.",
+      "corrupted": "Het beleid die wij daarvoor maken, past binnen de kaders van de rechtsstaat en draagt waar nodig ook bij aan de verdere vorming hiervan.",
+      "edits": [
+        {
+          "corrupted_end": 14,
+          "corrupted_start": 11,
+          "corruption_type": "relative_pronoun_agreement",
+          "end": 14,
+          "original": "dat",
+          "protected_tokens": [
+            66,
+            67,
+            70
+          ],
+          "replacement": "die",
+          "rule_id": "relative_pronoun_agreement:inanimate_het",
+          "start": 11
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-015",
+      "pair_id": "6e09bff27702ad4567e46866",
+      "split": "train",
+      "document_id": "694fcd2010ae58f0fc7404dc585b0bccc42eeea66e39c04ae09e2aa3f7bea75a",
+      "source_name": "officiele_bekendmakingen",
+      "original": "Wij geven openbaar groen uit op basis van uitgiftecriteria die in 2006 zijn opgesteld en in 2008 zijn geëvalueerd.",
+      "corrupted": "Wij geeft openbaar groen uit op basis van uitgiftecriteria die in 2006 zijn opgesteld en in 2008 zijn geëvalueerd.",
+      "edits": [
+        {
+          "corrupted_end": 9,
+          "corrupted_start": 4,
+          "corruption_type": "subject_verb_agreement",
+          "end": 9,
+          "original": "geven",
+          "protected_tokens": [
+            0,
+            1
+          ],
+          "replacement": "geeft",
+          "rule_id": "subject_verb_agreement:dictionary:plural",
+          "start": 4
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-016",
+      "pair_id": "e1cb918f3e3496d1dbfb0c8e",
+      "split": "validation",
+      "document_id": "e1d75a5d6d6c84cea471c31bc5b1599c5e63fd51ff6f4a6a4d8218614a4a2c59",
+      "source_name": "de_rechtspraak",
+      "original": "Wij achten het in ieder geval van belang dat betrokkene deze behandeling ondergaat en toegeleid wordt naar (zelfstandig) begeleid wonen, zodat hij leert om op eigen benen te staan.",
+      "corrupted": "Wij acht het in ieder geval van belang dat betrokkene deze behandeling ondergaat en toegeleid wordt naar (zelfstandig) begeleid wonen, zodat hij leert om op eigen benen te staan.",
+      "edits": [
+        {
+          "corrupted_end": 8,
+          "corrupted_start": 4,
+          "corruption_type": "subject_verb_agreement",
+          "end": 10,
+          "original": "achten",
+          "protected_tokens": [
+            2474,
+            2475
+          ],
+          "replacement": "acht",
+          "rule_id": "subject_verb_agreement:dictionary:plural",
+          "start": 4
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-017",
+      "pair_id": "653864d73079ca02637b191c",
+      "split": "train",
+      "document_id": "5801f3aed4bc0d6fe4168237d3285702bc6428320caa26bd963dadd779d40d63",
+      "source_name": "de_rechtspraak",
+      "original": "We komen in vicieuze en negatieve gesprekscirkels terecht.",
+      "corrupted": "We komt in vicieuze en negatieve gesprekscirkels terecht.",
+      "edits": [
+        {
+          "corrupted_end": 7,
+          "corrupted_start": 3,
+          "corruption_type": "subject_verb_agreement",
+          "end": 8,
+          "original": "komen",
+          "protected_tokens": [
+            1538,
+            1539
+          ],
+          "replacement": "komt",
+          "rule_id": "subject_verb_agreement:dictionary:plural",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-018",
+      "pair_id": "7f3773d55491c65e92cdc47e",
+      "split": "train",
+      "document_id": "3ae87c7c6f64e1ff83d5fc7210a24dde2cd8f35089d06c1251053bb799fb2c21",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "We doen onderzoek naar gezondheidseffecten bij boeren en omwonenden.",
+      "corrupted": "We doet onderzoek naar gezondheidseffecten bij boeren en omwonenden.",
+      "edits": [
+        {
+          "corrupted_end": 7,
+          "corrupted_start": 3,
+          "corruption_type": "subject_verb_agreement",
+          "end": 7,
+          "original": "doen",
+          "protected_tokens": [
+            47,
+            48
+          ],
+          "replacement": "doet",
+          "rule_id": "subject_verb_agreement:dictionary:plural",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-019",
+      "pair_id": "0c64a8c038b2ac7bc04352ec",
+      "split": "train",
+      "document_id": "3cf182cc6c4a4535c6929cec8dd5a6058d27f963d496b9b391d0eb41e123bf6a",
+      "source_name": "officiele_bekendmakingen",
+      "original": "We vragen hierbij een open houding en medewerking vanuit de eigenaar ten aanzien van functieverbreding voor openbare maatschappelijke en/of commerciële activiteiten.",
+      "corrupted": "We vraagt hierbij een open houding en medewerking vanuit de eigenaar ten aanzien van functieverbreding voor openbare maatschappelijke en/of commerciële activiteiten.",
+      "edits": [
+        {
+          "corrupted_end": 9,
+          "corrupted_start": 3,
+          "corruption_type": "subject_verb_agreement",
+          "end": 9,
+          "original": "vragen",
+          "protected_tokens": [
+            85,
+            86
+          ],
+          "replacement": "vraagt",
+          "rule_id": "subject_verb_agreement:dictionary:plural",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-020",
+      "pair_id": "6f182893e30369bc06602678",
+      "split": "train",
+      "document_id": "a3c01734ce84e038ccc2b60436e152eac0eda4ba84d9b87cfae586210d3b9ff8",
+      "source_name": "de_rechtspraak",
+      "original": "Hij wordt hierdoor ook niet financieel geraakt, omdat de dwangsom slechts verbeurt indien hij nogmaals dezelfde overtreding begaat.",
+      "corrupted": "Hij word hierdoor ook niet financieel geraakt, omdat de dwangsom slechts verbeurt indien hij nogmaals dezelfde overtreding begaat.",
+      "edits": [
+        {
+          "corrupted_end": 8,
+          "corrupted_start": 4,
+          "corruption_type": "verb_dt",
+          "end": 9,
+          "original": "wordt",
+          "protected_tokens": [
+            861,
+            862
+          ],
+          "replacement": "word",
+          "rule_id": "verb_dt:hij:wordt>word",
+          "start": 4
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-021",
+      "pair_id": "e03419c33db0cf4aa6c2efc5",
+      "split": "test",
+      "document_id": "c78368cb01c8a72858383cad1b710a5c310c3e88957e869f07ce833f46502b91",
+      "source_name": "de_rechtspraak",
+      "original": "Ik vind het erg moeilijk om een percentage aan te geven.",
+      "corrupted": "Ik vindt het erg moeilijk om een percentage aan te geven.",
+      "edits": [
+        {
+          "corrupted_end": 8,
+          "corrupted_start": 3,
+          "corruption_type": "verb_dt",
+          "end": 7,
+          "original": "vind",
+          "protected_tokens": [
+            2449,
+            2450
+          ],
+          "replacement": "vindt",
+          "rule_id": "verb_dt:ik:vind>vindt",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-022",
+      "pair_id": "321d10874bcf9d1dc518089e",
+      "split": "train",
+      "document_id": "3a866ccb227529d9ca62cb0e7c51c31724cd140ed556c213335dea5a6cdffdb7",
+      "source_name": "de_rechtspraak",
+      "original": "Ik vind de gebeurtenis zeer aangrijpend en mijn veiligheidsgevoel is aangetast.",
+      "corrupted": "Ik vindt de gebeurtenis zeer aangrijpend en mijn veiligheidsgevoel is aangetast.",
+      "edits": [
+        {
+          "corrupted_end": 8,
+          "corrupted_start": 3,
+          "corruption_type": "verb_dt",
+          "end": 7,
+          "original": "vind",
+          "protected_tokens": [
+            1154,
+            1155
+          ],
+          "replacement": "vindt",
+          "rule_id": "verb_dt:ik:vind>vindt",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-023",
+      "pair_id": "a225c6b8512aa61aeba82c69",
+      "split": "train",
+      "document_id": "bfd61ff3e892db7d3d8a8df5c1a981d2f6df3d997e1b04956e279ced0554a418",
+      "source_name": "de_rechtspraak",
+      "original": "Ik vind deze idee niet terug in het vonnis van de kamer.",
+      "corrupted": "Ik vindt deze idee niet terug in het vonnis van de kamer.",
+      "edits": [
+        {
+          "corrupted_end": 8,
+          "corrupted_start": 3,
+          "corruption_type": "verb_dt",
+          "end": 7,
+          "original": "vind",
+          "protected_tokens": [
+            2268,
+            2269
+          ],
+          "replacement": "vindt",
+          "rule_id": "verb_dt:ik:vind>vindt",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    },
+    {
+      "sample_id": "nl-extra-024",
+      "pair_id": "64aa1d2b773b2931bc35f37c",
+      "split": "train",
+      "document_id": "13a017e51eff761fd8769af89caa2a5d6293fad52c5d7860aad9c7ee1f12a232",
+      "source_name": "de_rechtspraak",
+      "original": "Ik vind het raar dat de schriftelijke waarschuwing op zo een manier vermomd was.",
+      "corrupted": "Ik vindt het raar dat de schriftelijke waarschuwing op zo een manier vermomd was.",
+      "edits": [
+        {
+          "corrupted_end": 8,
+          "corrupted_start": 3,
+          "corruption_type": "verb_dt",
+          "end": 7,
+          "original": "vind",
+          "protected_tokens": [
+            3767,
+            3768
+          ],
+          "replacement": "vindt",
+          "rule_id": "verb_dt:ik:vind>vindt",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Acceptable source; recorded substitution introduces a clear grammar or spelling error."
+    }
+  ],
+  "review": {
+    "reviewer": "Codex agent",
+    "native_speaker_gold": false,
+    "completed_at": "2026-09-22T07:43:30.824003+00:00",
+    "scope": "All 200 sampled originals and all recorded substitutions inspected, including grammar edit contexts; separate 25-family supplement. Grammar/spelling/extraction quality, not factual/legal verification."
+  },
+  "release_action": "Exclude flagged originals from a separately exported release; preserve these pre-exclusion judgments."
+}

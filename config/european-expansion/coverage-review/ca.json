@@ -1,0 +1,20 @@
+{
+  "language": "ca",
+  "source_sha256": [
+    "a819303055bb7a13da507a3540d5b3b5aa1f25d8861f65fde9c05799aed3ea94",
+    "0e19f2ba067c5a0592649d285d98cbce7dd02bfcf1ab12cde17a91e92fe2f7fe"
+  ],
+  "review_type": "agent inspection, not native validation",
+  "judgments": [
+    {
+      "original": "Es va produir un gran trànsit de missatges, a través d'emissaris coreans, i mongols.",
+      "judgment": "uncertain",
+      "reason": "Source comma separating coordinated modifiers; retain only after linguistic review."
+    },
+    {
+      "original": "Quan O'Connor no ràpel sota de la línia prou ràpid, ell va colpejar un pont a gran velocitat i va morir instantàniament.",
+      "judgment": "reject",
+      "reason": "Malformed Catalan source clause no ràpel sota de la línia."
+    }
+  ]
+}

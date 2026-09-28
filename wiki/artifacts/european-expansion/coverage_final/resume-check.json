@@ -1,0 +1,10 @@
+{
+  "language": "fi",
+  "exact_pair_artifact_equality": true,
+  "checks": {
+    "train/pairs.jsonl": true,
+    "validation/pairs.jsonl": true,
+    "test/pairs.jsonl": true
+  },
+  "scope": "Completed checkpoint replay into a new export; no parser work was resubmitted"
+}

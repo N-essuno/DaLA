@@ -1,0 +1,829 @@
+{
+  "_id": "69e9cd4c8514d6e011b47313",
+  "id": "danish-foundation-models/icelandic-dynaword",
+  "author": "danish-foundation-models",
+  "sha": "0bb26f027648c465d8bdcf6262c6ebab97f2d1ee",
+  "lastModified": "2026-09-07T07:24:14.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:text-generation",
+    "task_ids:language-modeling",
+    "annotations_creators:machine-generated",
+    "language_creators:crowdsourced",
+    "multilinguality:monolingual",
+    "source_datasets:original",
+    "language:is",
+    "language:isl",
+    "license:cc0-1.0",
+    "size_categories:100M<n<1B",
+    "format:parquet",
+    "modality:image",
+    "modality:text",
+    "library:datasets",
+    "library:dask",
+    "library:polars",
+    "library:mlcroissant",
+    "arxiv:2508.02271",
+    "region:us",
+    "text-corpus",
+    "continual-development",
+    "community-collaboration",
+    "synthetic-annotations"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\t\ud83e\udde8 Icelandic Dynaword\n\t\n\n\n\n\t\n\t\t\n\n\n\n\n\t\t\nVersion\n0.0.15 (Changelog)\n\n\nLanguage\nIcelandic (is, isl)\n\n\nLicense\nOpenly Licensed, See the respective dataset\n\n\nModels\nCurrently there is no models trained on this dataset\n\n\nContact\nIf you have question about this project please create an issue here\n\n\n\t\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nNumber of samples: 39.85M\nNumber of tokens (Llama 3): 2.67B\nAverage document length in tokens (min, max): 66.98 (3, 1.03M)\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Summary\u2026 See the full description on the dataset page: https://huggingface.co/datasets/danish-foundation-models/icelandic-dynaword.",
+  "downloads": 799,
+  "likes": 4,
+  "cardData": {
+    "annotations_creators": [
+      "machine-generated"
+    ],
+    "language_creators": [
+      "crowdsourced"
+    ],
+    "language": [
+      "is",
+      "isl"
+    ],
+    "license": "cc0-1.0",
+    "multilinguality": [
+      "monolingual"
+    ],
+    "source_datasets": [
+      "original"
+    ],
+    "task_categories": [
+      "text-generation"
+    ],
+    "task_ids": [
+      "language-modeling"
+    ],
+    "tags": [
+      "text-corpus",
+      "continual-development",
+      "community-collaboration",
+      "synthetic-annotations"
+    ],
+    "pretty_name": "Icelandic Dynaword",
+    "configs": [
+      {
+        "config_name": "default",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/*/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "meta",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/*/metadata.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "igc-parla",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/igc-parla/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "igc-journals-22-10",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/igc-journals-22-10/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "igc-adjud",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/igc-adjud/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "igc-law",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/igc-law/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "saga",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/saga/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "igc-social-blogs",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/igc-social-blogs/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "igc-social-bland",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/igc-social-bland/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "igc-social-hugi",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/igc-social-hugi/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "igc-social-malefnin",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/igc-social-malefnin/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "wikipedia",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/wikipedia/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "hjh-corpus",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/hjh-corpus/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "wiki-comments",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/wiki-comments/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "wikisource",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/wikisource/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "wikibooks",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/wikibooks/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "stjornartidindi",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/stjornartidindi/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "icepahc",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/icepahc/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "gutenberg",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/gutenberg/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "rafbokavefur",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/rafbokavefur/data.parquet"
+          }
+        ]
+      }
+    ],
+    "language_bcp47": [
+      "isl"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": ".gitignore"
+    },
+    {
+      "rfilename": ".vscode/settings.json"
+    },
+    {
+      "rfilename": "CHANGELOG.md"
+    },
+    {
+      "rfilename": "CONTRIBUTING.md"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "data/.gitkeep"
+    },
+    {
+      "rfilename": "data/gutenberg/create.py"
+    },
+    {
+      "rfilename": "data/gutenberg/data.parquet"
+    },
+    {
+      "rfilename": "data/gutenberg/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/gutenberg/gutenberg.md"
+    },
+    {
+      "rfilename": "data/gutenberg/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/gutenberg/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/gutenberg/metadata.parquet"
+    },
+    {
+      "rfilename": "data/hjh-corpus/create.py"
+    },
+    {
+      "rfilename": "data/hjh-corpus/data.parquet"
+    },
+    {
+      "rfilename": "data/hjh-corpus/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/hjh-corpus/hjh-corpus.md"
+    },
+    {
+      "rfilename": "data/hjh-corpus/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/hjh-corpus/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/hjh-corpus/metadata.parquet"
+    },
+    {
+      "rfilename": "data/icepahc/create.py"
+    },
+    {
+      "rfilename": "data/icepahc/data.parquet"
+    },
+    {
+      "rfilename": "data/icepahc/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/icepahc/icepahc.md"
+    },
+    {
+      "rfilename": "data/icepahc/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/icepahc/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/icepahc/metadata.parquet"
+    },
+    {
+      "rfilename": "data/igc-adjud/create.py"
+    },
+    {
+      "rfilename": "data/igc-adjud/data.parquet"
+    },
+    {
+      "rfilename": "data/igc-adjud/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/igc-adjud/igc-adjud.md"
+    },
+    {
+      "rfilename": "data/igc-adjud/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/igc-adjud/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/igc-adjud/metadata.parquet"
+    },
+    {
+      "rfilename": "data/igc-journals-22-10/create.py"
+    },
+    {
+      "rfilename": "data/igc-journals-22-10/data.parquet"
+    },
+    {
+      "rfilename": "data/igc-journals-22-10/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/igc-journals-22-10/igc-journals-22-10.md"
+    },
+    {
+      "rfilename": "data/igc-journals-22-10/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/igc-journals-22-10/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/igc-journals-22-10/metadata.parquet"
+    },
+    {
+      "rfilename": "data/igc-law/create.py"
+    },
+    {
+      "rfilename": "data/igc-law/data.parquet"
+    },
+    {
+      "rfilename": "data/igc-law/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/igc-law/igc-law.md"
+    },
+    {
+      "rfilename": "data/igc-law/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/igc-law/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/igc-law/metadata.parquet"
+    },
+    {
+      "rfilename": "data/igc-parla/create.py"
+    },
+    {
+      "rfilename": "data/igc-parla/data.parquet"
+    },
+    {
+      "rfilename": "data/igc-parla/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/igc-parla/igc-parla.md"
+    },
+    {
+      "rfilename": "data/igc-parla/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/igc-parla/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/igc-parla/metadata.parquet"
+    },
+    {
+      "rfilename": "data/igc-social-bland/create.py"
+    },
+    {
+      "rfilename": "data/igc-social-bland/data.parquet"
+    },
+    {
+      "rfilename": "data/igc-social-bland/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/igc-social-bland/igc-social-bland.md"
+    },
+    {
+      "rfilename": "data/igc-social-bland/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/igc-social-bland/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/igc-social-bland/metadata.parquet"
+    },
+    {
+      "rfilename": "data/igc-social-blogs/create.py"
+    },
+    {
+      "rfilename": "data/igc-social-blogs/data.parquet"
+    },
+    {
+      "rfilename": "data/igc-social-blogs/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/igc-social-blogs/igc-social-blogs.md"
+    },
+    {
+      "rfilename": "data/igc-social-blogs/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/igc-social-blogs/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/igc-social-blogs/metadata.parquet"
+    },
+    {
+      "rfilename": "data/igc-social-hugi/create.py"
+    },
+    {
+      "rfilename": "data/igc-social-hugi/data.parquet"
+    },
+    {
+      "rfilename": "data/igc-social-hugi/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/igc-social-hugi/igc-social-hugi.md"
+    },
+    {
+      "rfilename": "data/igc-social-hugi/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/igc-social-hugi/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/igc-social-hugi/metadata.parquet"
+    },
+    {
+      "rfilename": "data/igc-social-malefnin/create.py"
+    },
+    {
+      "rfilename": "data/igc-social-malefnin/data.parquet"
+    },
+    {
+      "rfilename": "data/igc-social-malefnin/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/igc-social-malefnin/igc-social-malefnin.md"
+    },
+    {
+      "rfilename": "data/igc-social-malefnin/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/igc-social-malefnin/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/igc-social-malefnin/metadata.parquet"
+    },
+    {
+      "rfilename": "data/rafbokavefur/create.py"
+    },
+    {
+      "rfilename": "data/rafbokavefur/data.parquet"
+    },
+    {
+      "rfilename": "data/rafbokavefur/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/rafbokavefur/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/rafbokavefur/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/rafbokavefur/metadata.parquet"
+    },
+    {
+      "rfilename": "data/rafbokavefur/rafbokavefur.md"
+    },
+    {
+      "rfilename": "data/saga/create.py"
+    },
+    {
+      "rfilename": "data/saga/data.parquet"
+    },
+    {
+      "rfilename": "data/saga/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/saga/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/saga/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/saga/metadata.parquet"
+    },
+    {
+      "rfilename": "data/saga/saga.md"
+    },
+    {
+      "rfilename": "data/stjornartidindi/create.py"
+    },
+    {
+      "rfilename": "data/stjornartidindi/data.parquet"
+    },
+    {
+      "rfilename": "data/stjornartidindi/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/stjornartidindi/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/stjornartidindi/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/stjornartidindi/metadata.parquet"
+    },
+    {
+      "rfilename": "data/stjornartidindi/stjornartidindi.md"
+    },
+    {
+      "rfilename": "data/wiki-comments/create.py"
+    },
+    {
+      "rfilename": "data/wiki-comments/data.parquet"
+    },
+    {
+      "rfilename": "data/wiki-comments/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/wiki-comments/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/wiki-comments/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/wiki-comments/metadata.parquet"
+    },
+    {
+      "rfilename": "data/wiki-comments/parser/package-lock.json"
+    },
+    {
+      "rfilename": "data/wiki-comments/parser/package.json"
+    },
+    {
+      "rfilename": "data/wiki-comments/parser/wtf_bridge.js"
+    },
+    {
+      "rfilename": "data/wiki-comments/wiki-comments.md"
+    },
+    {
+      "rfilename": "data/wikibooks/create.py"
+    },
+    {
+      "rfilename": "data/wikibooks/data.parquet"
+    },
+    {
+      "rfilename": "data/wikibooks/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/wikibooks/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/wikibooks/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/wikibooks/metadata.parquet"
+    },
+    {
+      "rfilename": "data/wikibooks/parser/package-lock.json"
+    },
+    {
+      "rfilename": "data/wikibooks/parser/package.json"
+    },
+    {
+      "rfilename": "data/wikibooks/parser/wtf_bridge.js"
+    },
+    {
+      "rfilename": "data/wikibooks/wikibooks.md"
+    },
+    {
+      "rfilename": "data/wikipedia/create.py"
+    },
+    {
+      "rfilename": "data/wikipedia/data.parquet"
+    },
+    {
+      "rfilename": "data/wikipedia/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/wikipedia/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/wikipedia/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/wikipedia/metadata.parquet"
+    },
+    {
+      "rfilename": "data/wikipedia/parser/package-lock.json"
+    },
+    {
+      "rfilename": "data/wikipedia/parser/package.json"
+    },
+    {
+      "rfilename": "data/wikipedia/parser/wtf_bridge.js"
+    },
+    {
+      "rfilename": "data/wikipedia/wikipedia.md"
+    },
+    {
+      "rfilename": "data/wikisource/create.py"
+    },
+    {
+      "rfilename": "data/wikisource/data.parquet"
+    },
+    {
+      "rfilename": "data/wikisource/descriptive_stats.json"
+    },
+    {
+      "rfilename": "data/wikisource/images/annotation_profile.png"
+    },
+    {
+      "rfilename": "data/wikisource/images/dist_document_length.png"
+    },
+    {
+      "rfilename": "data/wikisource/metadata.parquet"
+    },
+    {
+      "rfilename": "data/wikisource/parser/package-lock.json"
+    },
+    {
+      "rfilename": "data/wikisource/parser/package.json"
+    },
+    {
+      "rfilename": "data/wikisource/parser/wtf_bridge.js"
+    },
+    {
+      "rfilename": "data/wikisource/wikisource.md"
+    },
+    {
+      "rfilename": "descriptive_stats.json"
+    },
+    {
+      "rfilename": "docs/icon.png"
+    },
+    {
+      "rfilename": "images/.gitkeep"
+    },
+    {
+      "rfilename": "images/annotation_profile.png"
+    },
+    {
+      "rfilename": "images/dataset_size_plot.html"
+    },
+    {
+      "rfilename": "images/dataset_size_plot.svg"
+    },
+    {
+      "rfilename": "images/domain_distribution.png"
+    },
+    {
+      "rfilename": "images/language_distribution.html"
+    },
+    {
+      "rfilename": "images/language_distribution.svg"
+    },
+    {
+      "rfilename": "images/tokens_over_time.html"
+    },
+    {
+      "rfilename": "images/tokens_over_time.svg"
+    },
+    {
+      "rfilename": "makefile"
+    },
+    {
+      "rfilename": "pyproject.toml"
+    },
+    {
+      "rfilename": "skills.md"
+    },
+    {
+      "rfilename": "src/dynaword/__init__.py"
+    },
+    {
+      "rfilename": "src/dynaword/annotations/__init__.py"
+    },
+    {
+      "rfilename": "src/dynaword/annotations/annotation_stats.py"
+    },
+    {
+      "rfilename": "src/dynaword/annotations/inference.py"
+    },
+    {
+      "rfilename": "src/dynaword/annotations/propella.py"
+    },
+    {
+      "rfilename": "src/dynaword/annotations/property_descriptions.md"
+    },
+    {
+      "rfilename": "src/dynaword/bump_version.py"
+    },
+    {
+      "rfilename": "src/dynaword/dataset_structure.py"
+    },
+    {
+      "rfilename": "src/dynaword/datasheet.py"
+    },
+    {
+      "rfilename": "src/dynaword/descriptive_stats.py"
+    },
+    {
+      "rfilename": "src/dynaword/paths.py"
+    },
+    {
+      "rfilename": "src/dynaword/plots/annotation_profile_plots.py"
+    },
+    {
+      "rfilename": "src/dynaword/plots/descriptive_statistics_plots.py"
+    },
+    {
+      "rfilename": "src/dynaword/plots/plot_language_distribution.py"
+    },
+    {
+      "rfilename": "src/dynaword/plots/plot_tokens_over_time.py"
+    },
+    {
+      "rfilename": "src/dynaword/plots/plots_dataset_size.py"
+    },
+    {
+      "rfilename": "src/dynaword/process_dataset.py"
+    },
+    {
+      "rfilename": "src/dynaword/tables.py"
+    },
+    {
+      "rfilename": "src/dynaword/typings.py"
+    },
+    {
+      "rfilename": "src/dynaword/update_descriptive_statistics.py"
+    },
+    {
+      "rfilename": "src/tests/__init__.py"
+    },
+    {
+      "rfilename": "src/tests/conftest.py"
+    },
+    {
+      "rfilename": "src/tests/test_annotations.py"
+    },
+    {
+      "rfilename": "src/tests/test_dataset_schema.py"
+    },
+    {
+      "rfilename": "src/tests/test_datasheets.py"
+    },
+    {
+      "rfilename": "src/tests/test_load.py"
+    },
+    {
+      "rfilename": "src/tests/test_quality/__init__.py"
+    },
+    {
+      "rfilename": "src/tests/test_quality/test_duplicates.py"
+    },
+    {
+      "rfilename": "src/tests/test_quality/test_short_texts.py"
+    },
+    {
+      "rfilename": "src/tests/test_unique_ids.py"
+    },
+    {
+      "rfilename": "uv.lock"
+    }
+  ],
+  "createdAt": "2026-04-23T07:42:04.000Z",
+  "usedStorage": 13139482557
+}

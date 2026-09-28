@@ -1,0 +1,90 @@
+{
+  "language": "fi",
+  "rule_overrides": {
+    "verb_number_agreement": {
+      "noun_subject": {
+        "lemmas": [
+          "mies",
+          "nainen",
+          "opettaja",
+          "opiskelija",
+          "kirjailija",
+          "kaupunki",
+          "koulu",
+          "yritys",
+          "rakennus",
+          "kirja",
+          "puu"
+        ],
+        "review": "agent conservative count-noun inventory; no native validation"
+      }
+    },
+    "determiner_case": {
+      "pos": [
+        "PRON"
+      ],
+      "lemmas": [
+        "tämä",
+        "tuo",
+        "se"
+      ],
+      "relations": [
+        "det"
+      ],
+      "required_features": {
+        "PronType": [
+          "Dem"
+        ]
+      }
+    },
+    "determiner_number": {
+      "pos": [
+        "PRON"
+      ],
+      "lemmas": [
+        "tämä",
+        "tuo",
+        "se"
+      ],
+      "relations": [
+        "det"
+      ],
+      "required_features": {
+        "PronType": [
+          "Dem"
+        ]
+      }
+    }
+  },
+  "status": "candidate_only_agent_reviewed",
+  "reason": "Explicit conservative coverage extensions; shared code, isolated linguistic constraints",
+  "profile_overrides": {
+    "personal_pronoun_features": {
+      "minä": {
+        "Number": "Sing",
+        "Person": "1"
+      },
+      "sinä": {
+        "Number": "Sing",
+        "Person": "2"
+      },
+      "hän": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "me": {
+        "Number": "Plur",
+        "Person": "1"
+      },
+      "te": {
+        "Number": "Plur",
+        "Person": "2"
+      },
+      "he": {
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    "personal_pronoun_by_dependency": true
+  }
+}

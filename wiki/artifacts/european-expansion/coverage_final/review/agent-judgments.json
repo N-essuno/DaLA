@@ -1,0 +1,1055 @@
+[
+  {
+    "language": "ca",
+    "pair_id": "194acfe702f8179d19fa36f8",
+    "family": "adjective_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ca",
+    "pair_id": "cb24091ea092f8a3436c57ea",
+    "family": "adjective_number",
+    "judgment": "uncertain",
+    "reason": "Source comma separating coordinated modifiers; retain only after linguistic review.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ca",
+    "pair_id": "544ffdd4027fa82718d9ca64",
+    "family": "determiner_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ca",
+    "pair_id": "89018b15e8edf19df2857d76",
+    "family": "determiner_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ca",
+    "pair_id": "6867f5d72be8799adf8d1b99",
+    "family": "governed_infinitive",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ca",
+    "pair_id": "76c06501861a21639a5804c9",
+    "family": "perfect_verb_form",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ca",
+    "pair_id": "0aced1cc9d847f751baf8f84",
+    "family": "spelling",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ca",
+    "pair_id": "760d6b54e19e328211b4dff7",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ca",
+    "pair_id": "5c46fdc35ff73317fe177c6f",
+    "family": "verb_person_agreement",
+    "judgment": "reject",
+    "reason": "Malformed Catalan source clause no ràpel sota de la línia.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ca",
+    "pair_id": "d75624d728ba20e8a1938d36",
+    "family": "verb_person_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ca",
+    "pair_id": "2174dc398980cd4f4a04c2f4",
+    "family": "verb_person_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "6d312e150676dc9b8ef96fa9",
+    "family": "adjective_case",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "a992f0c67fc88a559a0139dc",
+    "family": "adjective_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "b02752f12d9fe60200ce5863",
+    "family": "adjective_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "80ff2fb9db27bb747e7f3b1b",
+    "family": "determiner_case",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "5dd7c606d5455caad751a52e",
+    "family": "determiner_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "517025e943eadb6b4e83a9ea",
+    "family": "determiner_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "bad56e5540de1e5746de5463",
+    "family": "governed_infinitive",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "2f49251d20c42c1031c874b8",
+    "family": "preposition_case",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "316febca182f5b9717b24234",
+    "family": "spelling",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "767a867d59865afa9bd18af5",
+    "family": "verb_number_agreement",
+    "judgment": "reject",
+    "reason": "Source ji should be dative jí in být jí nablízku.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "cs",
+    "pair_id": "14b14e40a6b72d2925f85b4a",
+    "family": "verb_person_agreement",
+    "judgment": "uncertain",
+    "reason": "Unmarked school-magazine title and following nominal fragment; not ordinary clean declarative prose.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "de",
+    "pair_id": "89adcef9005c3842b88c3a41",
+    "family": "adjective_case",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "de",
+    "pair_id": "66b54ff966e0507954f7b6f6",
+    "family": "adjective_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "de",
+    "pair_id": "24a6a3e36936590e4f2e2fd0",
+    "family": "adjective_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "de",
+    "pair_id": "5eef74d3efb2997f0187ccaf",
+    "family": "determiner_case",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "de",
+    "pair_id": "b2a7a06cb622bbc0ad4942ad",
+    "family": "determiner_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "de",
+    "pair_id": "8ff64289b9d4adaa72f8774b",
+    "family": "determiner_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "de",
+    "pair_id": "c35ecfd740c4f4b88101f464",
+    "family": "governed_infinitive",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "de",
+    "pair_id": "0db0043a5812d3ff759e9990",
+    "family": "perfect_verb_form",
+    "judgment": "uncertain",
+    "reason": "Possible sentence truncation at v. Chr.; reject until original boundary is checked.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "de",
+    "pair_id": "be23267e9a6adfa38b65f8ce",
+    "family": "perfect_verb_form",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "de",
+    "pair_id": "006a200824a9bd6bfee881dc",
+    "family": "perfect_verb_form",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "de",
+    "pair_id": "b678bb05ab847332d93ca02e",
+    "family": "perfect_verb_form",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "de",
+    "pair_id": "de8d6f6621cbd7baaeaad4cf",
+    "family": "perfect_verb_form",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "de",
+    "pair_id": "63938fc44d02482edb9002fa",
+    "family": "preposition_case",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "de",
+    "pair_id": "44673893d4ae3c8cbaa961ff",
+    "family": "spelling",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "de",
+    "pair_id": "eec6e6caf666ed9faf0f68b7",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "de",
+    "pair_id": "f5264c3193e2d4ed90c61241",
+    "family": "verb_person_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fr",
+    "pair_id": "9cd63191494ba1247c28e8ae",
+    "family": "adjective_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fr",
+    "pair_id": "963837590f3ecb4a35dba9fb",
+    "family": "adjective_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fr",
+    "pair_id": "eb124de53f2737ebe7a4303e",
+    "family": "determiner_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fr",
+    "pair_id": "a2753025e6e90d93f6383b19",
+    "family": "determiner_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fr",
+    "pair_id": "878fb8f477bf16aeda0e67e6",
+    "family": "governed_infinitive",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fr",
+    "pair_id": "e1637d8cabae9eada4f00907",
+    "family": "perfect_verb_form",
+    "judgment": "reject",
+    "reason": "Malformed French source à collège instead of au collège.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fr",
+    "pair_id": "df7bbe63574b6e630f98ffd9",
+    "family": "perfect_verb_form",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fr",
+    "pair_id": "8fc70dbf7252b65cbff31535",
+    "family": "perfect_verb_form",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fr",
+    "pair_id": "30e63df3e41317fafe6386da",
+    "family": "perfect_verb_form",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fr",
+    "pair_id": "b5c3346df41ba635a9bc8d37",
+    "family": "perfect_verb_form",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fr",
+    "pair_id": "9f5f2bb7df174ed3eef5fc4c",
+    "family": "spelling",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fr",
+    "pair_id": "3ee44b1c932a437b4434a882",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fr",
+    "pair_id": "b101dece849416416dc63150",
+    "family": "verb_person_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "it",
+    "pair_id": "eceea9a406455b40eca03f49",
+    "family": "adjective_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "it",
+    "pair_id": "aa039b02eb49efbd07b94db1",
+    "family": "adjective_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "it",
+    "pair_id": "c516853ff77839ef7c564707",
+    "family": "determiner_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "it",
+    "pair_id": "349430f2e5f569960d547423",
+    "family": "determiner_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "it",
+    "pair_id": "7f493fb1227fe2fddb40bece",
+    "family": "governed_infinitive",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "it",
+    "pair_id": "14688385740f51d518ad8167",
+    "family": "perfect_verb_form",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "it",
+    "pair_id": "878072e6d196b27f5fad265d",
+    "family": "spelling",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "it",
+    "pair_id": "fc89566795ec40490f2ff600",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "it",
+    "pair_id": "68ec0c68148b13862fd31c41",
+    "family": "verb_person_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "et",
+    "pair_id": "4acf8ee45bb508c83232afb1",
+    "family": "adjective_case",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "et",
+    "pair_id": "5001a1a79f9aeff241738402",
+    "family": "adjective_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "et",
+    "pair_id": "2ac46ee9e6872cd2922be3a2",
+    "family": "determiner_case",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "et",
+    "pair_id": "31ebef8ecb08ff54ff0c0bc6",
+    "family": "determiner_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "et",
+    "pair_id": "3a851f5a970fa9836808a019",
+    "family": "spelling",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "et",
+    "pair_id": "dc2a6100008175226b8a0125",
+    "family": "verb_number_agreement",
+    "judgment": "uncertain",
+    "reason": "Source NHL-is üks aste madalamal appears to need comparative-source case NHL-ist.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "et",
+    "pair_id": "4484d79090c94f9023ce3f71",
+    "family": "verb_person_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ro",
+    "pair_id": "fedd04150d43112079b973b1",
+    "family": "adjective_case",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ro",
+    "pair_id": "c90e9c4438b4b42fa86bd383",
+    "family": "adjective_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ro",
+    "pair_id": "b97bc56626f52e55df84f906",
+    "family": "adjective_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ro",
+    "pair_id": "08bf6da7ec3953416e1a1e16",
+    "family": "determiner_case",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ro",
+    "pair_id": "b15f657e29e9ae62114fb45a",
+    "family": "determiner_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ro",
+    "pair_id": "f31d55db0534a4db2e070db4",
+    "family": "determiner_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ro",
+    "pair_id": "6dfbea4f5cdf2144cd453fe3",
+    "family": "spelling",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ro",
+    "pair_id": "19fabf67b104a398c42baa35",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "ro",
+    "pair_id": "704b785ee52e65a3fc5c571d",
+    "family": "verb_person_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "uk",
+    "pair_id": "fadc62697d45d8f4238e1384",
+    "family": "adjective_case",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "uk",
+    "pair_id": "c2b9f080f245ac55932913d3",
+    "family": "adjective_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "uk",
+    "pair_id": "688d23e3c890ce84824f59e0",
+    "family": "adjective_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "uk",
+    "pair_id": "2ddf5ee6dc60b561baf19015",
+    "family": "determiner_case",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "uk",
+    "pair_id": "e79c757f301edd0aa716d649",
+    "family": "determiner_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "uk",
+    "pair_id": "cbc2deed72d7fe7bdebf54a2",
+    "family": "determiner_number",
+    "judgment": "uncertain",
+    "reason": "Fractional-subject agreement in original needs native review.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "uk",
+    "pair_id": "9b5cc73357684b6c77c40eb2",
+    "family": "preposition_case",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "uk",
+    "pair_id": "b05070131b1ef8cd581069e5",
+    "family": "spelling",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "uk",
+    "pair_id": "6d35057ca43df7b186a4be7d",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "uk",
+    "pair_id": "99d1da950b655a25fc34f8e0",
+    "family": "verb_person_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fi",
+    "pair_id": "9efba80462edd26dc89af04a",
+    "family": "adjective_case",
+    "judgment": "uncertain",
+    "reason": "Finnish original joissain alueilla mixes local-case forms; requires review.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fi",
+    "pair_id": "4903365b6ada7d447708a8ff",
+    "family": "adjective_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fi",
+    "pair_id": "1960c1818ca73fe648d7d9d7",
+    "family": "determiner_case",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fi",
+    "pair_id": "7314ae29aabb73f067af4274",
+    "family": "determiner_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fi",
+    "pair_id": "a79dc4b4d9e383a59150da41",
+    "family": "spelling",
+    "judgment": "uncertain",
+    "reason": "Inverted Finnish copular agreement requires native source judgment.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fi",
+    "pair_id": "eac0d6f5c016e69a2cd0373b",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "fi",
+    "pair_id": "47a72c0c456ade7354a2458f",
+    "family": "verb_person_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "pt-PT",
+    "pair_id": "48660394e8d035789e4888d9",
+    "family": "adjective_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "pt-PT",
+    "pair_id": "c5362674baa86d3fd61c63f0",
+    "family": "adjective_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "pt-PT",
+    "pair_id": "8f1d6439490a070f6c3368b0",
+    "family": "determiner_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "pt-PT",
+    "pair_id": "8d4972d3d9581f7b691be673",
+    "family": "determiner_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "pt-PT",
+    "pair_id": "bac14bfe16b0c9462683af68",
+    "family": "governed_infinitive",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "pt-PT",
+    "pair_id": "436511fcafb67e87ca7fde0e",
+    "family": "perfect_verb_form",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "pt-PT",
+    "pair_id": "4df1897a6db63a9de671b511",
+    "family": "spelling",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "pt-PT",
+    "pair_id": "0b66d217eaa062e88107d564",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "pt-PT",
+    "pair_id": "448509820f0293ec90caabfd",
+    "family": "verb_person_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "es",
+    "pair_id": "d1622aca636bb155595f8fc9",
+    "family": "adjective_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "es",
+    "pair_id": "b543067538992e7423be0a88",
+    "family": "adjective_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "es",
+    "pair_id": "cbcd184aac94b55c1fcc285e",
+    "family": "determiner_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "es",
+    "pair_id": "7cdaae804aaa0c7633004e83",
+    "family": "determiner_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "es",
+    "pair_id": "d8894bf9cdccc224b195f4dc",
+    "family": "governed_infinitive",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "es",
+    "pair_id": "54087d02aff9a666c266bf75",
+    "family": "perfect_verb_form",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "es",
+    "pair_id": "42b9f798da681838a3b17beb",
+    "family": "spelling",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "es",
+    "pair_id": "95fcede42367ed854a6dff18",
+    "family": "verb_number_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "es",
+    "pair_id": "3ef2bd3e16d59223fe01b0bb",
+    "family": "verb_person_agreement",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "el",
+    "pair_id": "1bcb1ddce4bda5cc7b41a995",
+    "family": "adjective_case",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "el",
+    "pair_id": "05983af96c9346862f9ce542",
+    "family": "adjective_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "el",
+    "pair_id": "c3eb6c819c58af47810ba04d",
+    "family": "determiner_case",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "el",
+    "pair_id": "5fbfaceae2082cd843dbacec",
+    "family": "determiner_gender",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "el",
+    "pair_id": "e41011e7ae9ef25e7598c679",
+    "family": "determiner_number",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  },
+  {
+    "language": "el",
+    "pair_id": "85186c8e60c49e8a195a3662",
+    "family": "spelling",
+    "judgment": "provisional_accept",
+    "reason": "Agent inspection: source and intended local corruption appear plausible; not native validation.",
+    "reviewer": "agent",
+    "native_validation": false
+  }
+]

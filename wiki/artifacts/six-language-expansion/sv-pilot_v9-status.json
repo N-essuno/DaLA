@@ -1,0 +1,6 @@
+{
+  "language": "sv",
+  "exit_code": 0,
+  "log": "wiki/artifacts/six-language-expansion/sv-pilot_v9.log",
+  "output": "la_output/sv_dynaword_pilot_v9"
+}

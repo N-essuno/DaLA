@@ -1,0 +1,25 @@
+{
+  "language": "es",
+  "source_sha256": [
+    "0f21859b0bd29578e29be7ca29fff559e1d560291f5675b305bd98c676fafbc1",
+    "cb4dd053692f15d4f59a2537ac2462955c82e740bbc502d9168758055b578d3f"
+  ],
+  "review_type": "automatic source-boundary risk filter plus explicitly recorded agent judgments; not native validation",
+  "source_risk_patterns": [
+    "[!?]"
+  ],
+  "judgments": [
+    {
+      "pair_id": "14ac73e8e93586e6b32631b3",
+      "original": "Su primer documental data de 1993, ¿En qué estación estamos?, y obtiene el premio especial de la Unesco.",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    },
+    {
+      "pair_id": "e8ddd777f57353c2dbe358b6",
+      "original": "Los europeos comprobaron entonces que éstas eran, precisamente, las características, ¡oh gran señor!, de todas las láminas usadas en el Islam en tiempos de Saladino.",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "families_preserved": [
+    "adjective_definite",
+    "adjective_gender",
+    "adjective_number",
+    "determiner_gender",
+    "determiner_number",
+    "governed_infinitive",
+    "perfect_verb_form",
+    "pronoun_case",
+    "spelling"
+  ],
+  "full_pair_count": 871199,
+  "capped_pair_count": 478930,
+  "selected_edits_by_type": {
+    "adjective_definite": 8278,
+    "adjective_gender": 17543,
+    "adjective_number": 35913,
+    "determiner_gender": 54625,
+    "determiner_number": 6692,
+    "governed_infinitive": 83145,
+    "perfect_verb_form": 20262,
+    "pronoun_case": 1871,
+    "spelling": 250601
+  },
+  "split_pairs": {
+    "train": 383144,
+    "validation": 47893,
+    "test": 47893
+  },
+  "full_input_manifest_sha256": "eb571b70610909a6f044f6b7001b2bb1c3a5de856c767deacee375a4becfb2ee"
+}

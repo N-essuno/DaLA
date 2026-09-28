@@ -1,0 +1,8 @@
+{
+  "language": "nn",
+  "rules": 13,
+  "exact_mapping_equality": true,
+  "rule_semantics_equal": true,
+  "only_serialization_difference": "governed-infinitive controllers sorted; runtime uses membership, not order",
+  "scope": "Existing Nynorsk rulebook recompiled with extracted shared compiler; resource files unchanged"
+}

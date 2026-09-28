@@ -1,0 +1,17 @@
+{
+  "language": "cs",
+  "split": "train",
+  "format": "m2",
+  "min_support": 3,
+  "spelling_categories": [
+    "R:SPELL",
+    "R:DIACR"
+  ],
+  "files": {
+    "/work/mimir/DaLA/la_output/resources/european-expansion/evidence/GECCC/data/train/sentence.m2": "bbce971c9636e6b7683b9f819d0355448fda396c8cd34a7ee0ec5a0529bd9448"
+  },
+  "taxonomy": "Automatic ERRANT categories over human corrections",
+  "url": "https://github.com/ufal/GECCC",
+  "revision": "257381c8cb0f9855c0c5b2680691c0a1ac18e48f",
+  "license": "CC-BY-SA-4.0"
+}

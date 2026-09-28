@@ -1,0 +1,14 @@
+{
+  "language": "et",
+  "source_sha256": [
+    "0f3727fa076b24d8f292ce8e8ff6427094b2116d2956e7efbe6ae2bfbfa6f670"
+  ],
+  "review_type": "agent inspection, not native validation",
+  "judgments": [
+    {
+      "original": "Aastatel 2011–2013 mängis ta NHL-is üks aste madalamal American Hockey League'is, kuuludes Adirondack Phantomsi meeskonda.",
+      "judgment": "uncertain",
+      "reason": "Source NHL-is üks aste madalamal appears to need comparative-source case NHL-ist."
+    }
+  ]
+}

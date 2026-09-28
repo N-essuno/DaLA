@@ -1,0 +1,174 @@
+{
+  "status": "passed",
+  "sources": {
+    "revision": "5880293fa36da950fa833fe0b52cb7d21882c481",
+    "files": {
+      "train": {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Danish-DDT/5880293fa36da950fa833fe0b52cb7d21882c481/da_ddt-ud-train.conllu",
+        "sha256": "65730e35b07d1e944ee9ae1d344b5c84746cf0aeadf5faf0550059b4ded86fb6"
+      },
+      "dev": {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Danish-DDT/5880293fa36da950fa833fe0b52cb7d21882c481/da_ddt-ud-dev.conllu",
+        "sha256": "d714b22776ad60fbdb6e4ffc15a5c3ffc162705617567d3cf2b09cc6b51e800a"
+      },
+      "test": {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Danish-DDT/5880293fa36da950fa833fe0b52cb7d21882c481/da_ddt-ud-test.conllu",
+        "sha256": "2232ee43dcd35dba32b476534d230edf1aa26d4bd830813f452fd829c276f737"
+      }
+    }
+  },
+  "parser": "core_news_md",
+  "parser_package": "da_core_news_md",
+  "implementation_sha256": {
+    "dala/rule_engine.py": "29852af224feb4b345a9197034c1e6a2af8b7787855ce6e1d1a7021065ca4cb4",
+    "dala/token_operations.py": "28c60cae53335830955d8bacedc7f7bf02fbe691c18f7e7030bbeac31a1680c5",
+    "dala/text.py": "ee4962aa2842a20a05366af06a85ae17df088e4ee5f401b5f6e4c7f733fd3caa",
+    "dala/legacy_pipeline.py": "13744c02ebb56f79a58b9ff1e64e95793801a5ab48bf50895403ed3e0a40da26",
+    "dala/pipeline.py": "f3ac3831dded1957fdfc648a824695bea4c51ca721127702291e4a93142b4d46",
+    "dala/profiles.py": "1f7587a6d189d6ca6f7f7ebfa3e2999e73a55fa89327d8de839541a07c919060"
+  },
+  "parser_version": "3.8.0",
+  "spacy": "3.8.16",
+  "unique_sentences": 5501,
+  "rule_comparisons": 77014,
+  "rule_positive_counts": {
+    "corrupt_genitive": 43,
+    "flip_som_der": 74,
+    "flip_nogle_nogen": 83,
+    "flip_ligge_laegge": 87,
+    "corrupt_spelling": 187,
+    "flip_han_hun_to_det": 180,
+    "corrupt_adjective_r": 267,
+    "corrupt_verb_r": 515,
+    "corrupt_ende_ene": 615,
+    "corrupt_noun_r": 932,
+    "flip_far_for": 1036,
+    "flip_indefinite_article": 1605,
+    "flip_pronouns": 2039,
+    "flip_en_et_suffix": 2476
+  },
+  "full_pipeline_comparisons": [
+    {
+      "proportional": false,
+      "seed": 4242,
+      "rows": {
+        "train": 1024,
+        "val": 256,
+        "test": 2048,
+        "full_train": 5352
+      },
+      "corruptions": {
+        "flip_pronouns": 47,
+        "flip_indefinite_article": 61,
+        "corrupt_noun_r": 67,
+        "corrupt_verb_r": 52,
+        "flip_han_hun_to_det": 15,
+        "corrupt_ende_ene": 54,
+        "flip_en_et_suffix": 47,
+        "flip_far_for": 50,
+        "delete": 19,
+        "corrupt_adjective_r": 20,
+        "flip_neighbours": 31,
+        "corrupt_genitive": 7,
+        "flip_ligge_laegge": 7,
+        "corrupt_spelling": 17,
+        "flip_nogle_nogen": 8,
+        "flip_som_der": 10
+      }
+    },
+    {
+      "proportional": false,
+      "seed": 73,
+      "rows": {
+        "train": 1024,
+        "val": 256,
+        "test": 2048,
+        "full_train": 5352
+      },
+      "corruptions": {
+        "flip_pronouns": 47,
+        "flip_indefinite_article": 61,
+        "corrupt_noun_r": 67,
+        "corrupt_verb_r": 52,
+        "flip_han_hun_to_det": 15,
+        "corrupt_ende_ene": 54,
+        "flip_en_et_suffix": 47,
+        "flip_far_for": 50,
+        "flip_neighbours": 33,
+        "corrupt_adjective_r": 20,
+        "delete": 17,
+        "corrupt_genitive": 7,
+        "flip_ligge_laegge": 7,
+        "corrupt_spelling": 17,
+        "flip_nogle_nogen": 8,
+        "flip_som_der": 10
+      }
+    },
+    {
+      "proportional": true,
+      "seed": 4242,
+      "rows": {
+        "train": 4592,
+        "val": 386,
+        "test": 2678
+      },
+      "corruptions": {
+        "corrupt_noun_r": 268,
+        "delete": 112,
+        "corrupt_ende_ene": 223,
+        "flip_en_et_suffix": 239,
+        "flip_far_for": 228,
+        "flip_indefinite_article": 325,
+        "corrupt_verb_r": 194,
+        "flip_han_hun_to_det": 76,
+        "corrupt_adjective_r": 106,
+        "flip_pronouns": 220,
+        "flip_neighbours": 98,
+        "flip_nogle_nogen": 31,
+        "corrupt_spelling": 76,
+        "flip_ligge_laegge": 42,
+        "flip_som_der": 35,
+        "corrupt_genitive": 23
+      }
+    },
+    {
+      "proportional": true,
+      "seed": 73,
+      "rows": {
+        "train": 4592,
+        "val": 386,
+        "test": 2678
+      },
+      "corruptions": {
+        "corrupt_noun_r": 268,
+        "flip_neighbours": 116,
+        "corrupt_ende_ene": 223,
+        "flip_en_et_suffix": 239,
+        "flip_far_for": 228,
+        "flip_indefinite_article": 325,
+        "corrupt_verb_r": 194,
+        "flip_han_hun_to_det": 76,
+        "corrupt_adjective_r": 106,
+        "flip_pronouns": 220,
+        "delete": 94,
+        "flip_nogle_nogen": 31,
+        "corrupt_spelling": 76,
+        "flip_ligge_laegge": 42,
+        "flip_som_der": 35,
+        "corrupt_genitive": 23
+      }
+    }
+  ],
+  "exact_row_and_csv_equality": true,
+  "exact_rng_state_equality": true,
+  "scope": "All active rules at default probability, all DDT sentences; both split modes and two seeds. Same cached parser annotations on both sides.",
+  "profile_sha256": "fe24455158a954dbc5b6ce403787d4c77b6b3f32127f950350bd594b334f0648",
+  "reference_sha256": {
+    "dala_corrupt.py": "dbaf38e4a76594103c052cc964b9fb2bce54a477e465e102c2cbf3cb4836d490",
+    "dala_enums.py": "41b38265e6f834bc81a53810984de1cc68b64e0832239b0b3bccd3e03a1f4536",
+    "create_dala.py": "33f82287c20968cbffe53d1a82feb5076d3f922d519adffc537a8e9896c1396d",
+    "load_ud.py": "9fe33a2a1c46d5a50bf1d3c564c6cd1be4c5e4defeabe3d468e62a5344f983a6",
+    "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "dala_utils.py": "b332ef772be7e7d32bd15cac5896fca34ec4e6cce4606f83be6f95aa57a586ee"
+  }
+}

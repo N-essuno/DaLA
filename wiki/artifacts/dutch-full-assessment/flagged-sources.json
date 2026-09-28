@@ -1,0 +1,297 @@
+{
+  "parent_manifest_sha256": "96f9606e0b5e9a0ad0ce183b1f4a2303bec277a12710c10480b1c2e702e81e76",
+  "action": "Audit flags only; frozen dataset unchanged. Exclude these original hashes from a future release.",
+  "rows": [
+    {
+      "original_sha256": "9628c7a0039e49502df8d6ca20ecdde61cf6d8f2574f9e2710d6b01679842bd4",
+      "sample_id": "nl-015",
+      "pair_id": "cca22c5db097ddb68689e7f6",
+      "split": "train",
+      "document_id": "5aba535a6c7520454bd836ab63aebe5e1cd80c772e5ad0fa2b8c76aa057d9bd5",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Ook komt ons Informatie en contactcentrum (ICC) meer in stelling.",
+      "corrupted": "Ook komt ons Informatie en contactcentrum (ICC) meer in setlling.",
+      "edits": [
+        {
+          "corrupted_end": 64,
+          "corrupted_start": 56,
+          "corruption_type": "spelling",
+          "end": 64,
+          "original": "stelling",
+          "protected_tokens": [
+            149
+          ],
+          "replacement": "setlling",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 56
+        }
+      ],
+      "source_judgment": "uncertain",
+      "intended_edits_judgment": "valid",
+      "notes": "Informatie en contactcentrum appears to omit the suspended-compound hyphen; capitalization suggests an institutional name, so flag as uncertain rather than silently normalizing it."
+    },
+    {
+      "original_sha256": "9a11a4cf99dd351009cb99e43c9dd947c9e7c3f45459f65e3f5d416256194ce7",
+      "sample_id": "nl-017",
+      "pair_id": "433036b9337897117193bb13",
+      "split": "train",
+      "document_id": "f6da900b285133033bc1470c165bf454826aef61a09713b89f04998df40a2e97",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Het resulteerde in een plan, waarbij stapsgewijs verschillende antidepressiva werd voorgeschreven, dan wel afgebouwd.",
+      "corrupted": "Het resulteerde in een plan, waarbij stapsgewijs verschillende antidepressiva werd voorgescrheven, dan wel afgebouwd.",
+      "edits": [
+        {
+          "corrupted_end": 97,
+          "corrupted_start": 83,
+          "corruption_type": "spelling",
+          "end": 97,
+          "original": "voorgeschreven",
+          "protected_tokens": [
+            11
+          ],
+          "replacement": "voorgescrheven",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 83
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid",
+      "notes": "Plural subject verschillende antidepressiva takes werden, not werd."
+    },
+    {
+      "original_sha256": "d25c889afdd54aecba8d5c8022201cc7e356c4e2eeebf61b326f61b477b7047a",
+      "sample_id": "nl-041",
+      "pair_id": "3b7047c253c17801cf502a76",
+      "split": "train",
+      "document_id": "54c607c9077e5730a42b9c70d70079f1ec6e922b110735018649c937b7895217",
+      "source_name": "eurlex",
+      "original": "Reeds langer opgerichte ondernemingen kunnen glasvezel met zoveel mogelijk verkeer opladen om de huur en belastingen over zoveel mogelijk klanten af te lossen.",
+      "corrupted": "Reeds langer opgerichte ondernemingen kunnen glasvezel met zoveel mogelijk verkeer opladen om de huur en belastinegn over zoveel mogelijk klanten af te lossen.",
+      "edits": [
+        {
+          "corrupted_end": 116,
+          "corrupted_start": 105,
+          "corruption_type": "spelling",
+          "end": 116,
+          "original": "belastingen",
+          "protected_tokens": [
+            31
+          ],
+          "replacement": "belastinegn",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 105
+        }
+      ],
+      "source_judgment": "uncertain",
+      "intended_edits_judgment": "valid",
+      "notes": "The combinations glasvezel ... opladen and huur en belastingen ... af te lossen suggest a defective translation or word choice. Not accepted as an unambiguously clean source; no style rewrite proposed."
+    },
+    {
+      "original_sha256": "70e9ebf21265e1e63ee934b3146624553b93309c98be3a118247f74127cbf2d5",
+      "sample_id": "nl-060",
+      "pair_id": "d6c36a10fd07c1e0973547a4",
+      "split": "validation",
+      "document_id": "bef214da40e41ce5974199e7c1b31ba798757a7178463347bdc564adac5454c1",
+      "source_name": "eurlex",
+      "original": "Alle in de steekproef opgenomen bedrijven ontvingen een vragenlijst die zij allen binnen de gestelde termijn beantwoordden, op één Chinees bedrijf na.",
+      "corrupted": "Alle in het steekproef opgenomen bedrijven ontvingen een vragenlijst die zij allen binnen de gestelde termijn beantwoordden, op één Chinees bedrijf na.",
+      "edits": [
+        {
+          "corrupted_end": 11,
+          "corrupted_start": 8,
+          "corruption_type": "article_gender",
+          "end": 10,
+          "original": "de",
+          "protected_tokens": [
+            2,
+            3
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 8
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid",
+      "notes": "Allen refers to bedrijven, not individual persons; standard spelling is alle. See recorded language-advice source."
+    },
+    {
+      "original_sha256": "b554ef4b93be081780d71281088e7fe1dfc474ac17052c34e2714d89415b6bbe",
+      "sample_id": "nl-064",
+      "pair_id": "2759455625b48d78c59f123a",
+      "split": "test",
+      "document_id": "0a27ad49a8ca740ed32a74b9d6a1f00ec3e7e8226771f1e37ffc898c6052b834",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Taken van docent, de school en jeugdhulpverlening kennen.",
+      "corrupted": "Taken van dcoent, de school en jeugdhulpverlening kennen.",
+      "edits": [
+        {
+          "corrupted_end": 16,
+          "corrupted_start": 10,
+          "corruption_type": "spelling",
+          "end": 16,
+          "original": "docent",
+          "protected_tokens": [
+            2
+          ],
+          "replacement": "dcoent",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 10
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid",
+      "notes": "Infinitival list item Taken ... kennen, without a finite clause; not a complete prose sentence."
+    },
+    {
+      "original_sha256": "2582d7cd7b514bf8eabac456a9614e75d1f6015f590122565a7c9cbcfc9975fe",
+      "sample_id": "nl-091",
+      "pair_id": "9398caf8ada08392af697a00",
+      "split": "train",
+      "document_id": "9b470d0837906df75a547b98805f2ecc460b95660b328e88e5281d571dda88c2",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Meubelbekleding Gestoffeerde meubels maken een belangrijk onderdeel uit van historische interieurs.",
+      "corrupted": "Meubelbekleding Gestoffeerde meubels maken een belangrijke onderdeel uit van historische interieurs.",
+      "edits": [
+        {
+          "corrupted_end": 58,
+          "corrupted_start": 47,
+          "corruption_type": "adjective_inflection",
+          "end": 57,
+          "original": "belangrijk",
+          "protected_tokens": [
+            4,
+            5,
+            6
+          ],
+          "replacement": "belangrijke",
+          "rule_id": "adjective_inflection:indefinite_neuter",
+          "start": 47
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid",
+      "notes": "Extraction joins heading Meubelbekleding directly to Gestoffeerde meubels maken ... ."
+    },
+    {
+      "original_sha256": "e77d912df2708afd75a715f20624ad729c8e75908924f11d4e245f8d8d5c2bd7",
+      "sample_id": "nl-096",
+      "pair_id": "d0f298eeecbd8b9c83354427",
+      "split": "validation",
+      "document_id": "05934fff78d4d25ff82148dcd670d61bb618117970abe3165cb9104c780d80b9",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Nieuwe kanalen, zoals het Hoendiep werden door of met steun van het klooster gegraven.",
+      "corrupted": "Nieuwe kanalen, zoals het Hoendiep werden door of met steun van het klooster gergaven.",
+      "edits": [
+        {
+          "corrupted_end": 85,
+          "corrupted_start": 77,
+          "corruption_type": "spelling",
+          "end": 85,
+          "original": "gegraven",
+          "protected_tokens": [
+            64
+          ],
+          "replacement": "gergaven",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 77
+        }
+      ],
+      "source_judgment": "uncertain",
+      "intended_edits_judgment": "valid",
+      "notes": "Comma before zoals opens an example insertion but no closing comma follows Hoendiep; flag punctuation uncertainty."
+    },
+    {
+      "original_sha256": "1d5d282c1ae558e87b5b3d3281d794c8f41264f74996d8ff3a3380adc7a76b5d",
+      "sample_id": "nl-128",
+      "pair_id": "dd1bfe0a431911ac99f89801",
+      "split": "train",
+      "document_id": "2115bc435abc03c7d6210f9e662a08aa6557f36384354e48a8caf59fb34cfd00",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Een mediaproductie kenmerkt zich door het lang(er)durend(e) karakter.",
+      "corrupted": "Een mediaprodcutie kenmerkt zich door het lang(er)durend(e) karakter.",
+      "edits": [
+        {
+          "corrupted_end": 18,
+          "corrupted_start": 4,
+          "corruption_type": "spelling",
+          "end": 18,
+          "original": "mediaproductie",
+          "protected_tokens": [
+            16
+          ],
+          "replacement": "mediaprodcutie",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 4
+        }
+      ],
+      "source_judgment": "uncertain",
+      "intended_edits_judgment": "valid",
+      "notes": "Parenthetical lang(er)durend(e) notation leaves multiple adjective realizations and is unsuitable as an unambiguous clean sentence."
+    },
+    {
+      "original_sha256": "1759e860279a5839c872ca2dc60da5a94ed97e32272a5f11199c70e6ee03131c",
+      "sample_id": "nl-176",
+      "pair_id": "dd3316ed642b3739a7b2abaa",
+      "split": "train",
+      "document_id": "b2500abc0d240cc477e081655e0254fc51b6a2a71411edd0a309e18149b84059",
+      "source_name": "eurlex",
+      "original": "Zij beweerden met name niet of de uitvoer van de bedrijfstak van de Gemeenschap in omvang of in waarde of in beide was afgenomen.",
+      "corrupted": "Zij beweerden met name niet of de uitvoer van het bedrijfstak van de Gemeenschap in omvang of in waarde of in beide was afgenomen.",
+      "edits": [
+        {
+          "corrupted_end": 49,
+          "corrupted_start": 46,
+          "corruption_type": "article_gender",
+          "end": 48,
+          "original": "de",
+          "protected_tokens": [
+            33,
+            34
+          ],
+          "replacement": "het",
+          "rule_id": "article_gender:de:de>het",
+          "start": 46
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid",
+      "notes": "Beweerden ... of is an ill-formed complement here; a claim takes dat, whereas an indirect question needs a different governing verb."
+    },
+    {
+      "original_sha256": "69d0cedb2baee2046b9d2dcc0af37722900ad3830ace5fceed03f32dee17693b",
+      "sample_id": "nl-183",
+      "pair_id": "c40e5d1c4d32cc96c1847007",
+      "split": "train",
+      "document_id": "eee6d9fd514411bd7d922f24fb0da6196bb1d0421500189721335f5e8a06a489",
+      "source_name": "eurlex",
+      "original": "De installatie en de werking van de geautomatiseerde meetsystemen zijn onderworpen aan controles en aan jaarlijkse verificatietest als omschreven in bijlage VI, deel 6, punt 1.",
+      "corrupted": "De installatie en de werking van de geautomatiseerde meetsystemen zijn onderworpen aan controels en aan jaarlijkse verificatietest als omschreven in bijlage VI, deel 6, punt 1.",
+      "edits": [
+        {
+          "corrupted_end": 96,
+          "corrupted_start": 87,
+          "corruption_type": "spelling",
+          "end": 96,
+          "original": "controles",
+          "protected_tokens": [
+            14
+          ],
+          "replacement": "controels",
+          "requires_lexical_screen": true,
+          "rule_id": "spelling:productive:transpose_internal",
+          "start": 87
+        }
+      ],
+      "source_judgment": "erroneous",
+      "intended_edits_judgment": "valid",
+      "notes": "Aan jaarlijkse verificatietest lacks a determiner for singular count noun; expected aan een jaarlijkse verificatietest or plural verificatietests."
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "dataset": "la_output/dutch_dynaword_pilot_final",
+  "manifest_sha256": "e2374ee4055f538c52425962e01345c39396ec14484fc369e3689e458e329413",
+  "pairs": 2552,
+  "task_rows_each": 5104,
+  "contributing_documents": 149,
+  "max_pairs_per_document": 42,
+  "families": {
+    "subject_verb_agreement": 25,
+    "spelling": 2475,
+    "article_gender": 24,
+    "article_number": 19,
+    "verb_dt": 8,
+    "demonstrative_agreement": 1
+  },
+  "active_rules": 20,
+  "configured_rules": 50,
+  "rule_counts": {
+    "subject_verb_agreement:we:zijn>is": 1,
+    "spelling:productive:transpose_internal": 1264,
+    "spelling:productive:duplicate_consonant": 1136,
+    "spelling:productive:delete_doubled_consonant": 69,
+    "subject_verb_agreement:ik:ben>is": 1,
+    "article_gender:het:het>de": 10,
+    "article_number:plural:de>het": 19,
+    "subject_verb_agreement:we:hebben>heeft": 4,
+    "subject_verb_agreement:we:kunnen>kan": 1,
+    "subject_verb_agreement:ik:heb>heeft": 7,
+    "article_gender:de:de>het": 14,
+    "subject_verb_agreement:we:werken>werkt": 4,
+    "subject_verb_agreement:we:gaan>gaat": 3,
+    "verb_dt:ik:vind>vindt": 8,
+    "spelling:lexical:openlijk>openelijk": 4,
+    "subject_verb_agreement:we:moeten>moet": 3,
+    "demonstrative_agreement:het:dit>deze": 1,
+    "spelling:lexical:hogedrukgebied>hoogdrukgebied": 1,
+    "spelling:lexical:sowieso>zowiezo": 1,
+    "subject_verb_agreement:wij:zijn>is": 1
+  },
+  "distinct_substitutions": 1976,
+  "top_substitutions": [
+    {
+      "original": "de",
+      "replacement": "het",
+      "count": 33
+    },
+    {
+      "original": "het",
+      "replacement": "de",
+      "count": 10
+    },
+    {
+      "original": "maken",
+      "replacement": "mkaen",
+      "count": 10
+    },
+    {
+      "original": "nieuwe",
+      "replacement": "niuewe",
+      "count": 9
+    },
+    {
+      "original": "andere",
+      "replacement": "adnere",
+      "count": 8
+    },
+    {
+      "original": "vind",
+      "replacement": "vindt",
+      "count": 8
+    },
+    {
+      "original": "andere",
+      "replacement": "anddere",
+      "count": 7
+    },
+    {
+      "original": "alleen",
+      "replacement": "alelen",
+      "count": 7
+    },
+    {
+      "original": "heb",
+      "replacement": "heeft",
+      "count": 7
+    },
+    {
+      "original": "houden",
+      "replacement": "houedn",
+      "count": 6
+    },
+    {
+      "original": "vooral",
+      "replacement": "voorral",
+      "count": 6
+    },
+    {
+      "original": "komen",
+      "replacement": "kmoen",
+      "count": 6
+    },
+    {
+      "original": "nodig",
+      "replacement": "noidg",
+      "count": 6
+    },
+    {
+      "original": "ontvangen",
+      "replacement": "otnvangen",
+      "count": 5
+    },
+    {
+      "original": "samen",
+      "replacement": "saemn",
+      "count": 5
+    },
+    {
+      "original": "nieuwe",
+      "replacement": "nieuwwe",
+      "count": 5
+    },
+    {
+      "original": "verschillende",
+      "replacement": "vreschillende",
+      "count": 5
+    },
+    {
+      "original": "heeft",
+      "replacement": "heefft",
+      "count": 5
+    },
+    {
+      "original": "onderzoek",
+      "replacement": "onderrzoek",
+      "count": 5
+    },
+    {
+      "original": "bijvoorbeeld",
+      "replacement": "bijvoorrbeeld",
+      "count": 5
+    }
+  ],
+  "validation": {
+    "pairs": 2552,
+    "unique_documents": 149,
+    "exact_edit_reconstruction": true,
+    "correction_roundtrip": true,
+    "document_split_isolation": true,
+    "exported_text_unique": true,
+    "at_most_one_grammar_edit": true,
+    "artifact_checksums": true,
+    "task_views_match_pairs": true,
+    "balanced_labels": true,
+    "source_provenance_consistent": true
+  },
+  "source_text_roundtrips": 2552,
+  "opentaal_spelling_checks": 2475,
+  "splits": {
+    "train": {
+      "pairs": 2034,
+      "acceptability_rows": 4068,
+      "correction_rows": 4068,
+      "edits_by_type": {
+        "article_gender": 19,
+        "article_number": 16,
+        "demonstrative_agreement": 1,
+        "spelling": 1972,
+        "subject_verb_agreement": 20,
+        "verb_dt": 6
+      },
+      "pairs_by_error_count": {
+        "1": 2034
+      },
+      "pairs_by_source": {
+        "dienst_publiek_en_communicatie": 2034
+      }
+    },
+    "validation": {
+      "pairs": 213,
+      "acceptability_rows": 426,
+      "correction_rows": 426,
+      "edits_by_type": {
+        "article_number": 1,
+        "spelling": 211,
+        "subject_verb_agreement": 1
+      },
+      "pairs_by_error_count": {
+        "1": 213
+      },
+      "pairs_by_source": {
+        "dienst_publiek_en_communicatie": 213
+      }
+    },
+    "test": {
+      "pairs": 305,
+      "acceptability_rows": 610,
+      "correction_rows": 610,
+      "edits_by_type": {
+        "article_gender": 5,
+        "article_number": 2,
+        "spelling": 292,
+        "subject_verb_agreement": 4,
+        "verb_dt": 2
+      },
+      "pairs_by_error_count": {
+        "1": 305
+      },
+      "pairs_by_source": {
+        "dienst_publiek_en_communicatie": 305
+      }
+    }
+  },
+  "rejections": {
+    "audited_source_exclusion": 11,
+    "boilerplate": 8,
+    "checker_lexical_guard": 11,
+    "checker_missed_edit": 95,
+    "checker_source_error": 209,
+    "fragment_or_format": 1298,
+    "length": 2400,
+    "no_finite_main_verb": 61,
+    "no_licensed_corruption": 13,
+    "no_main_subject": 347,
+    "no_verbal_root": 865,
+    "nonprose": 340,
+    "punctuation_spacing": 2,
+    "quotation_or_ellipsis": 256,
+    "standalone_subordinate_clause": 237,
+    "text_collision": 8
+  },
+  "agent_audit": {
+    "uniform_sample": 100,
+    "source_acceptable": 91,
+    "source_erroneous": 7,
+    "source_uncertain": 2,
+    "intended_errors_valid": 100,
+    "strict_usable_pairs": 91,
+    "supplement": 17,
+    "supplement_source_acceptable": 17,
+    "supplement_intended_errors_valid": 17,
+    "previously_reviewed_originals_in_uniform_sample": 5,
+    "note": "New seeded uniform sample after earlier fixes; overlap is reported explicitly. Not native-speaker gold. Remaining problems are retained and flagged in this diagnostic pilot; no claim that source-quality issues are solved."
+  }
+}

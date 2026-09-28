@@ -1,0 +1,35 @@
+{
+  "seconds": 10.007962503936142,
+  "results": {
+    "fr": {
+      "parser_processes": 16,
+      "parser_cpu_cores": 2.21,
+      "checker_processes": 1,
+      "checker_cpu_cores": 7.3
+    },
+    "it": {
+      "parser_processes": 16,
+      "parser_cpu_cores": 7.94,
+      "checker_processes": 1,
+      "checker_cpu_cores": 0.0
+    },
+    "el": {
+      "parser_processes": 16,
+      "parser_cpu_cores": 7.87,
+      "checker_processes": 1,
+      "checker_cpu_cores": 0.0
+    },
+    "pt-PT": {
+      "parser_processes": 16,
+      "parser_cpu_cores": 14.17,
+      "checker_processes": 1,
+      "checker_cpu_cores": 9.62
+    },
+    "de": {
+      "parser_processes": 16,
+      "parser_cpu_cores": 8.15,
+      "checker_processes": 1,
+      "checker_cpu_cores": 0.46
+    }
+  }
+}

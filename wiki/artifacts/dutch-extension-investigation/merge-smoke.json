@@ -1,0 +1,37 @@
+{
+  "verification": {
+    "pairs": 30,
+    "unique_documents": 29,
+    "exact_edit_reconstruction": true,
+    "correction_roundtrip": true,
+    "document_split_isolation": true,
+    "exported_text_unique": true,
+    "at_most_one_grammar_edit": true
+  },
+  "extension": {
+    "selection": {
+      "retained_base_pairs": 3,
+      "retained_extension_pairs": 27,
+      "rejections": {
+        "split_target": 36
+      },
+      "targets": {
+        "train": 24,
+        "validation": 3,
+        "test": 3
+      }
+    },
+    "merger_sha256": "742e69bbd768cf9020f835785985bacb5ff89b5134fc6dd63fa369c439f4c3c8",
+    "parents": [
+      {
+        "path": "la_output/dutch_extension_merge_smoke/base",
+        "manifest_sha256": "4867c29b3a971e856e245de111a369027e662fd750bc70458b9f8ff7315fb6b6"
+      },
+      {
+        "path": "la_output/dutch_extension_merge_smoke/addition",
+        "manifest_sha256": "f9605337cf736d0dd04d1621aa13e9f645baa336473b586959ccca6a3640f1e1"
+      }
+    ],
+    "method": "Unchanged base pairs except attributed source exclusions; unchanged new pairs; global text/near-duplicate filtering; 80/10/10 document-preserving targets; no family caps."
+  }
+}

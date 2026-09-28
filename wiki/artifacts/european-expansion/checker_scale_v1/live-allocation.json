@@ -1,0 +1,26 @@
+{
+  "fr": {
+    "phase": "generating",
+    "pairs": 290398,
+    "parser_workers": 20,
+    "live_checker_instances": 4,
+    "configured_checker_instances": 4,
+    "screening_threads": 32
+  },
+  "uk": {
+    "phase": "generating",
+    "pairs": 221378,
+    "parser_workers": 72,
+    "live_checker_instances": 6,
+    "configured_checker_instances": 6,
+    "screening_threads": 48
+  },
+  "el": {
+    "phase": "generating",
+    "pairs": 145532,
+    "parser_workers": 40,
+    "live_checker_instances": 4,
+    "configured_checker_instances": 4,
+    "screening_threads": 32
+  }
+}

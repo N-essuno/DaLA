@@ -1,0 +1,514 @@
+{
+  "el": {
+    "repo_id": "wikimedia/wikipedia",
+    "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "files": [
+      {
+        "file": "20231101.el/train-00000-of-00003.parquet",
+        "bytes": 258845818,
+        "sha256": "936c2a1305ef426662ae8e0df2fa6c7bb9db4481c1cadafd7af18c19b2803005"
+      },
+      {
+        "file": "20231101.el/train-00001-of-00003.parquet",
+        "bytes": 191321813,
+        "sha256": "08b4083f7ce45c48cb76c7661ef6f24f5d7896e1ec80273394308fb9ec275439"
+      },
+      {
+        "file": "20231101.el/train-00002-of-00003.parquet",
+        "bytes": 187204858,
+        "sha256": "691862a68967f686155d3b8682b0c86b27e0292f5664b33bd6e873fb83e2b81c"
+      }
+    ],
+    "bytes": 637372489
+  },
+  "de": {
+    "repo_id": "wikimedia/wikipedia",
+    "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "files": [
+      {
+        "file": "20231101.de/train-00000-of-00020.parquet",
+        "bytes": 781271996,
+        "sha256": "8778fa2f0907e4eb65917b27092a911a400f9f2ee2eea4271423b706c29249a6"
+      },
+      {
+        "file": "20231101.de/train-00001-of-00020.parquet",
+        "bytes": 449031657,
+        "sha256": "6b9dd626f85fd6afc2b90bc70320b33fce0133c4b0a62ccc20c361b42e3d3fad"
+      },
+      {
+        "file": "20231101.de/train-00002-of-00020.parquet",
+        "bytes": 369390685,
+        "sha256": "5018eb7891cc4611b28986fba27f58856d4d48c630e42bcd99c2a2dacea00687"
+      },
+      {
+        "file": "20231101.de/train-00003-of-00020.parquet",
+        "bytes": 293379596,
+        "sha256": "7b2dcfa2db420deab41bf5b9068d2caf0ff01222699219f7a72dc7018c3a331e"
+      },
+      {
+        "file": "20231101.de/train-00004-of-00020.parquet",
+        "bytes": 295769901,
+        "sha256": "a8a4e6b346c20c97382edc5f8970cb170c9bbbf5f80f50c647ee10c6d6d2cfd5"
+      },
+      {
+        "file": "20231101.de/train-00005-of-00020.parquet",
+        "bytes": 282471699,
+        "sha256": "0886be69e263d142e45f1642b0db460e52ff8ef2b29fe516da2aa7cc8e20d7dc"
+      },
+      {
+        "file": "20231101.de/train-00006-of-00020.parquet",
+        "bytes": 270941688,
+        "sha256": "e4f8cc60de8b5d02f090733d373f76618e390ae3f9185b1450e470d92232a655"
+      },
+      {
+        "file": "20231101.de/train-00007-of-00020.parquet",
+        "bytes": 258122020,
+        "sha256": "e35fec0fe1ca3614b2a44c53db7251e94863cb3c72a20b7cce73ede0bd4fae96"
+      },
+      {
+        "file": "20231101.de/train-00008-of-00020.parquet",
+        "bytes": 246485860,
+        "sha256": "f5d1788b6c7ea5b60088757fbb776b3c05180f236d5dec739ee276942afed1e5"
+      },
+      {
+        "file": "20231101.de/train-00009-of-00020.parquet",
+        "bytes": 230478777,
+        "sha256": "6b8b19b3d4375afc6b4e517af3d341369506ab696e9be5856abecf5d896ebefd"
+      },
+      {
+        "file": "20231101.de/train-00010-of-00020.parquet",
+        "bytes": 227716047,
+        "sha256": "58f0a9421d3b7095c2d7f945410470e3cd7135eae97cf4f901a9e821110d54df"
+      },
+      {
+        "file": "20231101.de/train-00011-of-00020.parquet",
+        "bytes": 243876143,
+        "sha256": "4342bd02fd69529afee18b4de6f368f0f1b6ff5cbd709d20ec09e661b4960d28"
+      },
+      {
+        "file": "20231101.de/train-00012-of-00020.parquet",
+        "bytes": 243845233,
+        "sha256": "e1990751c658987f0a60b2371cd19abf59cdf490567b5cd6aadb2e433a4c7e0e"
+      },
+      {
+        "file": "20231101.de/train-00013-of-00020.parquet",
+        "bytes": 228591696,
+        "sha256": "69d92a94ba4b28a9ea38311a33070b7f9cebf31f0bea51ba13e4e2ef9867409f"
+      },
+      {
+        "file": "20231101.de/train-00014-of-00020.parquet",
+        "bytes": 220167348,
+        "sha256": "5bc699c4870a406c678350a3969981764e75b9fc37b550ef82e84dcc6345c58a"
+      },
+      {
+        "file": "20231101.de/train-00015-of-00020.parquet",
+        "bytes": 221554197,
+        "sha256": "750fb6827eeef3a5eaff7129186439d228068c8bbd3d9d08e8fd4ea005bda0e1"
+      },
+      {
+        "file": "20231101.de/train-00016-of-00020.parquet",
+        "bytes": 226430464,
+        "sha256": "50440e29a165efbada2693377128e24e498ecb51c9c0cb0a6fc3b52cf7780d81"
+      },
+      {
+        "file": "20231101.de/train-00017-of-00020.parquet",
+        "bytes": 226930070,
+        "sha256": "0034e99ba4ad56dc089f9a37d300d7c1537408612c7ece19d9bb02113dba1321"
+      },
+      {
+        "file": "20231101.de/train-00018-of-00020.parquet",
+        "bytes": 226364283,
+        "sha256": "8d6e3cce61969d57ae07a6bb8855239eedf09c5d4bb0facf8de07f5a07223e88"
+      },
+      {
+        "file": "20231101.de/train-00019-of-00020.parquet",
+        "bytes": 228498582,
+        "sha256": "380fdb4baf70df935d3fec62761d36c8bff2f000a2cc7b720ebde743a8352e18"
+      }
+    ],
+    "bytes": 5771317942
+  },
+  "ca": {
+    "repo_id": "wikimedia/wikipedia",
+    "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "files": [
+      {
+        "file": "20231101.ca/train-00000-of-00004.parquet",
+        "bytes": 342646797,
+        "sha256": "8fd19fd918db7422682885713b919a284caa192ad572ac2a5afa5493e5b0e717"
+      },
+      {
+        "file": "20231101.ca/train-00001-of-00004.parquet",
+        "bytes": 209405132,
+        "sha256": "4b89679cf8869d83a59da3a57bc5011b55b530350d1eb60adefc92836baedee7"
+      },
+      {
+        "file": "20231101.ca/train-00002-of-00004.parquet",
+        "bytes": 270523222,
+        "sha256": "df1f891c48c4579f3e7555efe2ec0f0faeee08c45a3d429ec22b715ab0e2dbfc"
+      },
+      {
+        "file": "20231101.ca/train-00003-of-00004.parquet",
+        "bytes": 294224192,
+        "sha256": "391b685d5d0e7a1ad3e6020edf2251d03c6c310901ee48b0dc73600013d737b5"
+      }
+    ],
+    "bytes": 1116799343
+  },
+  "it": {
+    "repo_id": "wikimedia/wikipedia",
+    "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "files": [
+      {
+        "file": "20231101.it/train-00000-of-00010.parquet",
+        "bytes": 529078601,
+        "sha256": "141d43f22f8843dcdcabcd956a408a03621bcb5acae550d87e26430425f476b6"
+      },
+      {
+        "file": "20231101.it/train-00001-of-00010.parquet",
+        "bytes": 375946735,
+        "sha256": "458435409dc9df8f8dd6f51502c6b6877089cf5ee78ea6987f91507612dd1f3c"
+      },
+      {
+        "file": "20231101.it/train-00002-of-00010.parquet",
+        "bytes": 339687970,
+        "sha256": "4f05732b78b0dcb869687f29e561d16e0cafebbab77a48962f921c731dd40b43"
+      },
+      {
+        "file": "20231101.it/train-00003-of-00010.parquet",
+        "bytes": 286910900,
+        "sha256": "c6bdf8c884cee4c8c20056aed28727cf66b125738d058b0c1d43d8412ff15d45"
+      },
+      {
+        "file": "20231101.it/train-00004-of-00010.parquet",
+        "bytes": 241436500,
+        "sha256": "8964416878fb2262789e87769122ad8146d3dcbba81c40ff26dda85ace77668f"
+      },
+      {
+        "file": "20231101.it/train-00005-of-00010.parquet",
+        "bytes": 240738097,
+        "sha256": "08ee23717a024510177589a2a57cb96d414d697f541d9bf95aae6301a7ab96c7"
+      },
+      {
+        "file": "20231101.it/train-00006-of-00010.parquet",
+        "bytes": 222080770,
+        "sha256": "45b893cf64800d232b6472fb6085e45eb3cf61d6e2d818fc84205e196df0a679"
+      },
+      {
+        "file": "20231101.it/train-00007-of-00010.parquet",
+        "bytes": 218263485,
+        "sha256": "bfbaddb27bc2cd96c793491f3537f9baabc8de7845bfb7d63e43e09632f2bdf8"
+      },
+      {
+        "file": "20231101.it/train-00008-of-00010.parquet",
+        "bytes": 219968666,
+        "sha256": "06165d76ccd5749b3499cfe1c3f87c6112c6d7c8753677755e6ea9264a07d876"
+      },
+      {
+        "file": "20231101.it/train-00009-of-00010.parquet",
+        "bytes": 257153795,
+        "sha256": "57d5b315a0fd44619c272e56228613307a122dac4c168dfd4566313661334d21"
+      }
+    ],
+    "bytes": 2931265519
+  },
+  "fi": {
+    "repo_id": "wikimedia/wikipedia",
+    "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "files": [
+      {
+        "file": "20231101.fi/train-00000-of-00003.parquet",
+        "bytes": 321879588,
+        "sha256": "feef3951a9600b8e281e3c3b6d65688a9b754f1f237b206b0c9e3935e2af8252"
+      },
+      {
+        "file": "20231101.fi/train-00001-of-00003.parquet",
+        "bytes": 187972317,
+        "sha256": "b53e568b9b9dc815d6aadc32c3ad414043cec52f6d16b660c4e00a5109cd3bac"
+      },
+      {
+        "file": "20231101.fi/train-00002-of-00003.parquet",
+        "bytes": 170660325,
+        "sha256": "71cb20e869ceeca09c966a83a48a9d957a51f19ffa47ebc90f8ac439397cdae1"
+      }
+    ],
+    "bytes": 680512230
+  },
+  "et": {
+    "repo_id": "wikimedia/wikipedia",
+    "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "files": [
+      {
+        "file": "20231101.et/train-00000-of-00001.parquet",
+        "bytes": 265444734,
+        "sha256": "abc2154ae2ece66dd9417714ed09b3c2f98d6bc43e802ce0af2859a8abe3dcf3"
+      }
+    ],
+    "bytes": 265444734
+  },
+  "uk": {
+    "repo_id": "wikimedia/wikipedia",
+    "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "files": [
+      {
+        "file": "20231101.uk/train-00000-of-00010.parquet",
+        "bytes": 382143946,
+        "sha256": "8e7e98f6b80d0e391adcfee52779f50bd09e2821d17a9019b01879ddbbd975b8"
+      },
+      {
+        "file": "20231101.uk/train-00001-of-00010.parquet",
+        "bytes": 229878847,
+        "sha256": "a5afbdc55c68a0208e9c8140f8f2531ebf4a2e15a7bf96805cc7b353303f7a0e"
+      },
+      {
+        "file": "20231101.uk/train-00002-of-00010.parquet",
+        "bytes": 181511029,
+        "sha256": "11f25bf916b71e9030626104542acbe298b0ee1bfc394444928253d91a4095a2"
+      },
+      {
+        "file": "20231101.uk/train-00003-of-00010.parquet",
+        "bytes": 241875718,
+        "sha256": "59c354cb3b4c16672c9e19779a643c93aa34272787a183b16b98aefb239e71da"
+      },
+      {
+        "file": "20231101.uk/train-00004-of-00010.parquet",
+        "bytes": 242111629,
+        "sha256": "1aac06d418a854c38f28e5056540c87e0671865bea40283ea714e2b77ad53d0c"
+      },
+      {
+        "file": "20231101.uk/train-00005-of-00010.parquet",
+        "bytes": 220076054,
+        "sha256": "da9af0f4741c5a0795455a3eb92788265e9c8094ae64270d488dab2a64c19e0d"
+      },
+      {
+        "file": "20231101.uk/train-00006-of-00010.parquet",
+        "bytes": 144975568,
+        "sha256": "2ae625a0f27c62a2f7407f53340cd5448506c8190431b22dbe70ab1e9328dcf0"
+      },
+      {
+        "file": "20231101.uk/train-00007-of-00010.parquet",
+        "bytes": 185885564,
+        "sha256": "a090ff42627abf450f9d850a8a96702745bcec5118a1ee0a980a3b36c578c5ba"
+      },
+      {
+        "file": "20231101.uk/train-00008-of-00010.parquet",
+        "bytes": 250835980,
+        "sha256": "c04955164631469fdda1b1f875308daa42b57ca664cb7089481a9a79a3b92e01"
+      },
+      {
+        "file": "20231101.uk/train-00009-of-00010.parquet",
+        "bytes": 197475048,
+        "sha256": "6dd7171e04b8d69020498d1e7d051b4897935964cdb5b282fa8abb26c645a0e4"
+      }
+    ],
+    "bytes": 2276769383
+  },
+  "fr": {
+    "repo_id": "wikimedia/wikipedia",
+    "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "files": [
+      {
+        "file": "20231101.fr/train-00000-of-00017.parquet",
+        "bytes": 769165548,
+        "sha256": "da77fab28b8ce151ebe14d5af0099270b73f54853993f1d4fe980b6b6fc0645b"
+      },
+      {
+        "file": "20231101.fr/train-00001-of-00017.parquet",
+        "bytes": 421583910,
+        "sha256": "ca9b223e6c3c34042100b04586e025ead68c5eedad3ec5cf1bb85dfb24f91ffb"
+      },
+      {
+        "file": "20231101.fr/train-00002-of-00017.parquet",
+        "bytes": 348323642,
+        "sha256": "b051aa3da29efdb86285fc3409320b04241955d318719a561d21a92eac91b36e"
+      },
+      {
+        "file": "20231101.fr/train-00003-of-00017.parquet",
+        "bytes": 296428023,
+        "sha256": "be440861a953f608ea70155d9d6de8a7dc8a2070ce6e0ba98f8a6d770cd36c7a"
+      },
+      {
+        "file": "20231101.fr/train-00004-of-00017.parquet",
+        "bytes": 283697339,
+        "sha256": "0b4eecda234b178cb4fa8bdcbfffae431cfb4e46543b0234707005ba55749074"
+      },
+      {
+        "file": "20231101.fr/train-00005-of-00017.parquet",
+        "bytes": 258843380,
+        "sha256": "a2c85232223a3da7a0230ba964b166bd72eda0df66651b1a215e03555433f40b"
+      },
+      {
+        "file": "20231101.fr/train-00006-of-00017.parquet",
+        "bytes": 219187256,
+        "sha256": "ddf770d278f935ebae0c76702b544fb6fc55c2e8e3d198a1a31a3cc8432e5b64"
+      },
+      {
+        "file": "20231101.fr/train-00007-of-00017.parquet",
+        "bytes": 216022856,
+        "sha256": "baff43aa5235c09b128915062f2865d3fcef29973423f388b155de1add7588df"
+      },
+      {
+        "file": "20231101.fr/train-00008-of-00017.parquet",
+        "bytes": 204905052,
+        "sha256": "8016348933803a1e9b67b4ccbdc52418edf88b5b64b63b570ff9698a0d21b44f"
+      },
+      {
+        "file": "20231101.fr/train-00009-of-00017.parquet",
+        "bytes": 205056704,
+        "sha256": "6a8ceb194b77396d41178fd2275e997f6de4d93c243032289f85d22787610158"
+      },
+      {
+        "file": "20231101.fr/train-00010-of-00017.parquet",
+        "bytes": 204977310,
+        "sha256": "d1ddb117c735b0fb5682db3fecf8f0210e5e9bfbcdfbed139961ac4e9f7e2dfa"
+      },
+      {
+        "file": "20231101.fr/train-00011-of-00017.parquet",
+        "bytes": 168714731,
+        "sha256": "9f22117719b41a8b4fbf08ba02112fb5395335822904850619a7bbbeedf16512"
+      },
+      {
+        "file": "20231101.fr/train-00012-of-00017.parquet",
+        "bytes": 210280297,
+        "sha256": "9d7a9094c3623f7d3da87cd63a6e15987e018ee3daf842467dd8a1f7dcd15993"
+      },
+      {
+        "file": "20231101.fr/train-00013-of-00017.parquet",
+        "bytes": 214272535,
+        "sha256": "108ff7e8cf6cbf638ce0c6579673c4628333612c4ddafd2ec5e715014310c518"
+      },
+      {
+        "file": "20231101.fr/train-00014-of-00017.parquet",
+        "bytes": 221881001,
+        "sha256": "ee0b40acc439f1103f2c38fca057a7f7b094c5f2e13cf1a15c3677ef66bc841d"
+      },
+      {
+        "file": "20231101.fr/train-00015-of-00017.parquet",
+        "bytes": 185553661,
+        "sha256": "6fd9b03e0ac2849574d8fd73b4222c972d2d1e2ab589c374a069f7b11cd1ad89"
+      },
+      {
+        "file": "20231101.fr/train-00016-of-00017.parquet",
+        "bytes": 185595041,
+        "sha256": "2a9a349f8afa8a2010caf9c2c3471dc6c22f4c724bb6190b85b2e1790dd9358c"
+      }
+    ],
+    "bytes": 4614488286
+  },
+  "cs": {
+    "repo_id": "wikimedia/wikipedia",
+    "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "files": [
+      {
+        "file": "20231101.cs/train-00000-of-00004.parquet",
+        "bytes": 352892672,
+        "sha256": "b076e6240f38f889ee12018d7240b1bed8a2cf6487bc4b57dccc48ee85818e52"
+      },
+      {
+        "file": "20231101.cs/train-00001-of-00004.parquet",
+        "bytes": 203219275,
+        "sha256": "f75ed1c2b46f24dd8c1c0047e78b054f80e412f67ca259be3ac40343303aaf5c"
+      },
+      {
+        "file": "20231101.cs/train-00002-of-00004.parquet",
+        "bytes": 195312277,
+        "sha256": "4c45c292fa007363f393b1eacee2eb9d8f803436247c42625e8570354c36937e"
+      },
+      {
+        "file": "20231101.cs/train-00003-of-00004.parquet",
+        "bytes": 225060025,
+        "sha256": "a1fdcc48aafb22ade1b5bd0579ea4138fbf8dbe29a70edbc151123c45e9c1230"
+      }
+    ],
+    "bytes": 976484249
+  },
+  "ro": {
+    "repo_id": "wikimedia/wikipedia",
+    "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "files": [
+      {
+        "file": "20231101.ro/train-00000-of-00002.parquet",
+        "bytes": 272311539,
+        "sha256": "3caae45c692dfa9b205225d2700ab756922700e522c9824aefeb43a075ce653a"
+      },
+      {
+        "file": "20231101.ro/train-00001-of-00002.parquet",
+        "bytes": 194625841,
+        "sha256": "c8ee8de1caeac0abd6895db203c740fec4e699f54a3734239a4ec23bceaad565"
+      }
+    ],
+    "bytes": 466937380
+  },
+  "es": {
+    "repo_id": "wikimedia/wikipedia",
+    "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "files": [
+      {
+        "file": "20231101.es/train-00000-of-00013.parquet",
+        "bytes": 688430059,
+        "sha256": "905d5162b5b8fa45f50ea8371cd1b7f4c6510b43ab2e5e8f0fd247462d0be1cc"
+      },
+      {
+        "file": "20231101.es/train-00001-of-00013.parquet",
+        "bytes": 375587361,
+        "sha256": "54b0a61b89dd9f3040a237486bb7c170d1a678435c6c85caa342fb631bc742b3"
+      },
+      {
+        "file": "20231101.es/train-00002-of-00013.parquet",
+        "bytes": 286530984,
+        "sha256": "38c2c9211f54d9cfd9181af1a6eff9fcca05b3466826a4ef18288ec2ae17664d"
+      },
+      {
+        "file": "20231101.es/train-00003-of-00013.parquet",
+        "bytes": 244961668,
+        "sha256": "27a3cb7712920c27a86dbf4dbe533e269415c36e93fa9921d39b350c7f7b72f6"
+      },
+      {
+        "file": "20231101.es/train-00004-of-00013.parquet",
+        "bytes": 167675285,
+        "sha256": "09fcc5eb122edc35fb507935643995999e01cc286f1968d14a5a71f24d2a7cf8"
+      },
+      {
+        "file": "20231101.es/train-00005-of-00013.parquet",
+        "bytes": 177861407,
+        "sha256": "f62215c55935e6e0d4df9c0b4dd35be38899126457f233d229119c35bec749ae"
+      },
+      {
+        "file": "20231101.es/train-00006-of-00013.parquet",
+        "bytes": 215694480,
+        "sha256": "2e3543788d1cf3c3cadfd800cbea1c0f6d76a2bb639455825e368f25fb47de9d"
+      },
+      {
+        "file": "20231101.es/train-00007-of-00013.parquet",
+        "bytes": 240632863,
+        "sha256": "c06381d85f59475df9e4ffbb3f6fd0d61f6ed619fb7d26a81ad8974c51c0252c"
+      },
+      {
+        "file": "20231101.es/train-00008-of-00013.parquet",
+        "bytes": 226569219,
+        "sha256": "043e0142ee086474104ee82387580ff8063512b5ff8135cc4f5ea1a4c72926a7"
+      },
+      {
+        "file": "20231101.es/train-00009-of-00013.parquet",
+        "bytes": 223013059,
+        "sha256": "9134c2d9519f338e0526f2dc23e84b6d474d1fdce8a74a2f220ec1ab1240c31d"
+      },
+      {
+        "file": "20231101.es/train-00010-of-00013.parquet",
+        "bytes": 166744631,
+        "sha256": "48f8b81fdbab9008c0634b52abb0818f6732bfdbd1b289f526075bd935aa8c38"
+      },
+      {
+        "file": "20231101.es/train-00011-of-00013.parquet",
+        "bytes": 253719261,
+        "sha256": "7e8b6ed969bf9f3749bc4696f86ffbca341066b63fceca9d384ee51eb940a916"
+      },
+      {
+        "file": "20231101.es/train-00012-of-00013.parquet",
+        "bytes": 226175592,
+        "sha256": "372a1b30cbf5446219dc0150257e013e69371de3cb87dc7645f5344a126e0eda"
+      }
+    ],
+    "bytes": 3493595869
+  }
+}

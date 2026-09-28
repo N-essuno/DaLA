@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "pilot_max_sentences": 3000,
+      "name": "UD_Catalan-AnCora",
+      "language": "ca",
+      "path": "/work/mimir/DaLA/la_output/resources/european/ca/ca_ancora-ud-train.conllu",
+      "revision": "527740248222587b4def5350838f3fb8004acd8c",
+      "sha256": "52ffaf585c93f381caa17ca4da97132376d1c94cb2abaf29b3970190e8aebd76",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Catalan-AnCora/527740248222587b4def5350838f3fb8004acd8c/ca_ancora-ud-train.conllu",
+      "license": "CC BY 4.0"
+    }
+  ]
+}

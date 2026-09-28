@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "configurations": {
+    "acceptability": {
+      "train": 766288,
+      "validation": 47892,
+      "test": 143680
+    },
+    "correction": {
+      "train": 766288,
+      "validation": 47892,
+      "test": 143680
+    }
+  }
+}

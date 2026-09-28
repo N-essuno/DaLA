@@ -1,0 +1,61 @@
+{
+  "language": "it",
+  "rule_overrides": {
+    "verb_number_agreement": {
+      "noun_subject": {
+        "lemmas": [
+          "bambino",
+          "bambina",
+          "uomo",
+          "donna",
+          "professore",
+          "studente",
+          "autore",
+          "scrittore",
+          "città",
+          "scuola",
+          "impresa",
+          "edificio",
+          "libro",
+          "albero"
+        ],
+        "review": "agent conservative count-noun inventory; no native validation"
+      }
+    }
+  },
+  "status": "candidate_only_agent_reviewed",
+  "reason": "Explicit conservative coverage extensions; shared code, isolated linguistic constraints",
+  "profile_overrides": {
+    "personal_pronoun_features": {
+      "io": {
+        "Number": "Sing",
+        "Person": "1"
+      },
+      "tu": {
+        "Number": "Sing",
+        "Person": "2"
+      },
+      "lui": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "lei": {
+        "Number": "Sing",
+        "Person": "3"
+      },
+      "noi": {
+        "Number": "Plur",
+        "Person": "1"
+      },
+      "voi": {
+        "Number": "Plur",
+        "Person": "2"
+      },
+      "loro": {
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    "personal_pronoun_by_dependency": true
+  }
+}

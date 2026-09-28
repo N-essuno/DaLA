@@ -1,0 +1,170 @@
+{
+  "fr": {
+    "checked": 2498,
+    "uncached": 0,
+    "rejected": 890,
+    "rules": [
+      [
+        "FR_SPELLING_RULE",
+        1537
+      ],
+      [
+        "PAS_DE_TRAIT_UNION",
+        6
+      ],
+      [
+        "ESPACE_UNITES",
+        5
+      ],
+      [
+        "FR_MULTITOKEN_SPELLING_TWO",
+        5
+      ],
+      [
+        "TIRET",
+        4
+      ],
+      [
+        "FR_COMPOUNDS_QUART_TEMPS",
+        4
+      ],
+      [
+        "FR_SPLIT_WORDS_HYPHEN",
+        3
+      ],
+      [
+        "TRAIT_UNION",
+        2
+      ],
+      [
+        "APOS_ESPACE",
+        2
+      ],
+      [
+        "FR_MULTITOKEN_SPELLING_HYPHEN",
+        2
+      ],
+      [
+        "FR_COMPOUNDS_NOUVELLE_GUINÉE",
+        1
+      ],
+      [
+        "DOUBLES_ESPACES",
+        1
+      ],
+      [
+        "UPPERCASE_SENTENCE_START",
+        1
+      ],
+      [
+        "UNPAIRED_BRACKETS",
+        1
+      ],
+      [
+        "QUASI_NOM",
+        1
+      ]
+    ],
+    "sampled": 30
+  },
+  "it": {
+    "checked": 527,
+    "uncached": 0,
+    "rejected": 247,
+    "rules": [
+      [
+        "MORFOLOGIK_RULE_IT_IT",
+        564
+      ],
+      [
+        "UPPERCASE_SENTENCE_START",
+        2
+      ]
+    ],
+    "sampled": 30
+  },
+  "es": {
+    "checked": 2079,
+    "uncached": 9,
+    "rejected": 879,
+    "rules": [
+      [
+        "MORFOLOGIK_RULE_ES",
+        1597
+      ],
+      [
+        "ES_MULTITOKEN_SPELLING_TWO",
+        5
+      ],
+      [
+        "PUNTO_EN_ABREVIATURAS",
+        4
+      ],
+      [
+        "SUPER",
+        4
+      ],
+      [
+        "EL_TILDE",
+        3
+      ],
+      [
+        "SUBJUNTIVO_INCORRECTO",
+        3
+      ],
+      [
+        "ES_MULTITOKEN_SPELLING_HYPHEN",
+        2
+      ],
+      [
+        "NO_SEPARADO",
+        2
+      ],
+      [
+        "ALREDEDOR",
+        1
+      ],
+      [
+        "EL_NO_TILDE",
+        1
+      ],
+      [
+        "Y_E_O_U",
+        1
+      ],
+      [
+        "SI",
+        1
+      ],
+      [
+        "ORDINAL_CHAR",
+        1
+      ],
+      [
+        "MAS",
+        1
+      ],
+      [
+        "MIN_MESES",
+        1
+      ]
+    ],
+    "sampled": 30
+  },
+  "ro": {
+    "checked": 1151,
+    "uncached": 0,
+    "rejected": 563,
+    "rules": [
+      [
+        "MORFOLOGIK_RULE_RO_RO",
+        1221
+      ],
+      [
+        "UPPERCASE_SENTENCE_START",
+        1
+      ]
+    ],
+    "sampled": 30
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "pilot_max_sentences": 3000,
+      "name": "UD_Italian-ISDT",
+      "language": "it",
+      "path": "/work/mimir/DaLA/la_output/resources/european/it/it_isdt-ud-train.conllu",
+      "revision": "4852011b996b9ec30d884a7a48e1118d0ce928f6",
+      "sha256": "7c3e32d7f296c877387a0c805c3ae8c471e2b5e8df97f5e3da810834b50566ab",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Italian-ISDT/4852011b996b9ec30d884a7a48e1118d0ce928f6/it_isdt-ud-train.conllu",
+      "license": "CC BY-NC-SA 3.0"
+    }
+  ]
+}

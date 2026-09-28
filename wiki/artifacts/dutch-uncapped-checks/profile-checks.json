@@ -1,0 +1,30 @@
+{
+  "profile_sha256": "ba01ba20ef723741b427a4d655e4a59bb5d457e454966b4f141f4bdd475ca9d6",
+  "eligible_paragraphs": 30,
+  "returned_paragraphs": 30,
+  "source_offsets_preserved": true,
+  "selection_cases": [
+    {
+      "original": "Dit voorstel geeft de regering meer ruimte voor nieuwe maatregelen.",
+      "old_family": "article_gender",
+      "new_family": "demonstrative_agreement"
+    },
+    {
+      "original": "De bedrijven bespreken het voorstel tijdens de vergadering van morgen.",
+      "old_family": "article_gender",
+      "new_family": "article_number"
+    },
+    {
+      "original": "Het systeem werkt vandaag gelukkig weer zonder problemen.",
+      "old_family": "article_gender",
+      "new_family": "article_gender"
+    },
+    {
+      "original": "Wij beoordelen morgen het nieuwe voorstel van de regering.",
+      "old_family": "subject_verb_agreement",
+      "new_family": "subject_verb_agreement"
+    }
+  ],
+  "audited_exclusions": 46,
+  "percentage_downsampling": false
+}

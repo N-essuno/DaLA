@@ -1,0 +1,75 @@
+{
+  "language": "es",
+  "source_counts": {
+    "total": 14287,
+    "eligible": 7683
+  },
+  "rules": [
+    {
+      "id": "es_adjective_number_ud",
+      "family": "adjective_number",
+      "active": true,
+      "mappings": 498
+    },
+    {
+      "id": "es_adjective_gender_ud",
+      "family": "adjective_gender",
+      "active": true,
+      "mappings": 346
+    },
+    {
+      "id": "es_determiner_number_ud",
+      "family": "determiner_number",
+      "active": true,
+      "mappings": 54
+    },
+    {
+      "id": "es_determiner_gender_ud",
+      "family": "determiner_gender",
+      "active": true,
+      "mappings": 60
+    },
+    {
+      "id": "es_verb_number_agreement_ud",
+      "family": "verb_number_agreement",
+      "active": true,
+      "mappings": 466
+    },
+    {
+      "id": "es_verb_person_agreement_ud",
+      "family": "verb_person_agreement",
+      "active": true,
+      "mappings": 137
+    },
+    {
+      "id": "es_governed_infinitive_ud",
+      "family": "governed_infinitive",
+      "active": true,
+      "mappings": 644
+    },
+    {
+      "id": "es_perfect_verb_form_ud",
+      "family": "perfect_verb_form",
+      "active": true,
+      "mappings": 137
+    },
+    {
+      "id": "es_spelling_transpose_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0
+    },
+    {
+      "id": "es_spelling_delete_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0
+    },
+    {
+      "id": "es_spelling_substitute_character",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0
+    }
+  ]
+}

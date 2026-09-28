@@ -1,0 +1,131 @@
+{
+  "at": "2026-09-24T08:18:58.392720+00:00",
+  "not_final_selected_counts": true,
+  "languages": {
+    "pl": {
+      "screened_before_global_selection": 12431,
+      "families": {
+        "adjective_case": 2668,
+        "spelling": 2328,
+        "adjective_gender": 1692,
+        "adjective_number": 2151,
+        "determiner_case": 985,
+        "preposition_case": 954,
+        "verb_number_agreement": 110,
+        "determiner_gender": 427,
+        "determiner_number": 721,
+        "governed_infinitive": 346,
+        "verb_person_agreement": 48,
+        "pronoun_case": 1
+      },
+      "sources": {
+        "eurlex": 7470,
+        "govpl": 2188,
+        "samorzad_gov_pl": 1082,
+        "biblioteka_nauki": 1691
+      }
+    },
+    "sv": {
+      "screened_before_global_selection": 7058,
+      "families": {
+        "spelling": 1118,
+        "governed_infinitive": 2536,
+        "adjective_gender": 479,
+        "adjective_number": 506,
+        "perfect_verb_form": 248,
+        "determiner_gender": 894,
+        "determiner_number": 1126,
+        "adjective_definite": 110,
+        "pronoun_case": 41
+      },
+      "sources": {
+        "akademiliv": 64,
+        "cellar": 6899,
+        "forskning-framsteg": 95
+      }
+    },
+    "nb": {
+      "screened_before_global_selection": 444518,
+      "families": {
+        "determiner_gender": 73302,
+        "perfect_verb_form": 21559,
+        "spelling": 111660,
+        "governed_infinitive": 124369,
+        "adjective_number": 49828,
+        "pronoun_case": 2758,
+        "adjective_gender": 26660,
+        "adjective_definite": 18432,
+        "determiner_number": 15950
+      },
+      "sources": {
+        "government-nob": 444518
+      }
+    },
+    "nn": {
+      "screened_before_global_selection": 467760,
+      "families": {
+        "spelling": 190612,
+        "adjective_gender": 21792,
+        "adjective_number": 41006,
+        "perfect_verb_form": 24703,
+        "determiner_gender": 51546,
+        "adjective_definite": 5145,
+        "governed_infinitive": 122397,
+        "pronoun_case": 2789,
+        "determiner_number": 7770
+      },
+      "sources": {
+        "government-nno": 396059,
+        "wikipedia-nno": 71701
+      }
+    },
+    "fo": {
+      "screened_before_global_selection": 62741,
+      "families": {
+        "spelling": 30258,
+        "perfect_verb_form": 3145,
+        "determiner_gender": 2256,
+        "governed_infinitive": 8972,
+        "verb_number_agreement": 7366,
+        "verb_person_agreement": 3248,
+        "determiner_number": 1600,
+        "adjective_number": 146,
+        "determiner_case": 2700,
+        "preposition_case": 1734,
+        "adjective_gender": 399,
+        "adjective_case": 698,
+        "adjective_definite": 219
+      },
+      "sources": {
+        "wikipedia": 17404,
+        "faroese-blark-small": 44486,
+        "sosialurin-faroese-pos": 851
+      }
+    },
+    "is": {
+      "screened_before_global_selection": 43382,
+      "families": {
+        "spelling": 16725,
+        "preposition_case": 2601,
+        "governed_infinitive": 7687,
+        "adjective_case": 2077,
+        "adjective_number": 1396,
+        "determiner_case": 3264,
+        "adjective_gender": 1191,
+        "perfect_verb_form": 1965,
+        "adjective_definite": 134,
+        "determiner_number": 1518,
+        "verb_number_agreement": 2858,
+        "determiner_gender": 1922,
+        "verb_person_agreement": 44
+      },
+      "sources": {
+        "igc-adjud": 14322,
+        "igc-law": 22458,
+        "stjornartidindi": 3837,
+        "wikipedia": 2580,
+        "igc-journals-22-10": 185
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "pairs": 363,
+  "parallel": {
+    "None": 363
+  },
+  "serial": {
+    "None": 363
+  },
+  "disagreements": 0,
+  "fix": "per-native-handle lock"
+}

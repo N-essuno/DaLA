@@ -1,0 +1,2 @@
+# Preserve captured upstream text and audit evidence byte-for-byte.
+wiki/artifacts/** -text -whitespace

@@ -1,0 +1,7 @@
+{
+  "language": "it",
+  "source_sha256": [
+    "5aafa161fafe2647e5af5db35827d27fcf6a0db97266826fbbe78b0a639861e1"
+  ],
+  "reason": "Agent-inspected missing predicate in original source. Applies to future recovery profiles; active profiles unchanged."
+}

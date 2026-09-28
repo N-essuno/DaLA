@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "pilot_max_sentences": 3000,
+      "name": "UD_Finnish-TDT",
+      "language": "fi",
+      "path": "/work/mimir/DaLA/la_output/resources/european/fi/fi_tdt-ud-train.conllu",
+      "revision": "fe6aa8816f18dd021f86c3d579c6b31acf7afb23",
+      "sha256": "40ba7afc03560a71fcd05dfa7a2102d132315dacdeaec7f55f0f871e7f155299",
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Finnish-TDT/fe6aa8816f18dd021f86c3d579c6b31acf7afb23/fi_tdt-ud-train.conllu",
+      "license": "CC BY-SA 4.0"
+    }
+  ]
+}

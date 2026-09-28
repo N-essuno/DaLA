@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "name": "faroese-blark-small",
+      "source_value": "faroese-blark-small",
+      "repo_id": "danish-foundation-models/faroese-dynaword",
+      "revision": "41cdd41007ff3d787beb6e602bdbac131a2cd3ee",
+      "data_file": "data/faroese-blark-small/data.parquet",
+      "metadata_file": "data/faroese-blark-small/metadata.parquet",
+      "license": "CC-BY 4.0",
+      "license_evidence_url": "https://huggingface.co/datasets/danish-foundation-models/faroese-dynaword/blob/41cdd41007ff3d787beb6e602bdbac131a2cd3ee/data/faroese-blark-small/faroese-blark-small.md",
+      "min_document_chars": 35,
+      "annotation_filters": {
+        "content_integrity": [
+          "complete"
+        ],
+        "content_quality": [
+          "excellent",
+          "good"
+        ]
+      },
+      "quality_policy": "source_and_sentence_screening",
+      "language": "fo",
+      "annotation_exclusions": {
+        "content_type": [
+          "conversational"
+        ]
+      }
+    },
+    {
+      "name": "sosialurin-faroese-pos",
+      "source_value": "sosialurin-faroese-pos",
+      "repo_id": "danish-foundation-models/faroese-dynaword",
+      "revision": "41cdd41007ff3d787beb6e602bdbac131a2cd3ee",
+      "data_file": "data/sosialurin-faroese-pos/data.parquet",
+      "metadata_file": "data/sosialurin-faroese-pos/metadata.parquet",
+      "license": "CC-BY 4.0",
+      "license_evidence_url": "https://huggingface.co/datasets/danish-foundation-models/faroese-dynaword/blob/41cdd41007ff3d787beb6e602bdbac131a2cd3ee/data/sosialurin-faroese-pos/sosialurin-faroese-pos.md",
+      "min_document_chars": 35,
+      "annotation_filters": {
+        "content_integrity": [
+          "complete"
+        ],
+        "content_quality": [
+          "excellent",
+          "good"
+        ]
+      },
+      "quality_policy": "source_and_sentence_screening",
+      "language": "fo",
+      "annotation_exclusions": {
+        "content_type": [
+          "conversational"
+        ]
+      }
+    },
+    {
+      "name": "wikipedia",
+      "source_value": "wiki",
+      "repo_id": "danish-foundation-models/faroese-dynaword",
+      "revision": "41cdd41007ff3d787beb6e602bdbac131a2cd3ee",
+      "data_file": "data/wikipedia/data.parquet",
+      "metadata_file": "data/wikipedia/metadata.parquet",
+      "license": "CC-BY-SA 4.0",
+      "license_evidence_url": "https://huggingface.co/datasets/danish-foundation-models/faroese-dynaword/blob/41cdd41007ff3d787beb6e602bdbac131a2cd3ee/data/wikipedia/wikipedia.md",
+      "min_document_chars": 35,
+      "annotation_filters": {
+        "content_integrity": [
+          "complete"
+        ],
+        "content_quality": [
+          "excellent",
+          "good"
+        ]
+      },
+      "quality_policy": "source_and_sentence_screening",
+      "language": "fo",
+      "annotation_exclusions": {
+        "content_type": [
+          "conversational"
+        ]
+      }
+    }
+  ]
+}

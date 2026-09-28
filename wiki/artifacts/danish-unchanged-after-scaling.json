@@ -1,0 +1,13 @@
+{
+  "reference_receipt_sha256": "06b23aa64841656a94eb57ae185b22e17348e14db65eb4cadad0af057addc5e9",
+  "checks": {
+    "dala/rule_engine.py": true,
+    "dala/token_operations.py": true,
+    "dala/text.py": true,
+    "dala/legacy_pipeline.py": true,
+    "dala/pipeline.py": true,
+    "dala/profiles.py": true,
+    "config/languages/da.json": true
+  },
+  "scope": "Hash comparison against successful 77014-rule/four-full-build equivalence receipt; not a rerun"
+}

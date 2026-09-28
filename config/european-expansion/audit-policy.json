@@ -1,0 +1,207 @@
+{
+  "languages": [
+    {
+      "language": "ca",
+      "source_risk_patterns": [
+        "\\(\\s*\\)",
+        "\\.{2,}",
+        " {2,}",
+        "[^\\W\\d_]+\\d+",
+        "[!?]"
+      ],
+      "protect_capitalized_lemmas": true,
+      "source_languagetool": true,
+      "exclusions": [
+        "3fb56a3f5644c49caca75b9f73ebb5424226bf9f4920ade4445fb9620214b8ec",
+        "5137fb5432d9de387efecce22060be3cf979428e1de1fd48e7c9d6fc6c37ba7f"
+      ]
+    },
+    {
+      "language": "cs",
+      "source_risk_patterns": [
+        "\\(\\s*\\)",
+        "\\.{2,}",
+        " {2,}",
+        "[^\\W\\d_]+\\d+",
+        "[!?]"
+      ],
+      "protect_capitalized_lemmas": true,
+      "source_languagetool": false,
+      "exclusions": [
+        "0225a4511bd7b27b5769841d12b192528b38e651f94c4d663e89dfae3ae0e921",
+        "3245710f9425bd424ae36efced78583583a0d97d5eb6286361d13063b532d968",
+        "8dacb4fab0c93bd78bf9275087e36dd9912ee5026d18e73e904b2f7e93c1e5a9",
+        "93dda0aeaf8de82a1286e040fbee342a7cecd59f845901c63c34d3cecf45401d",
+        "ac05e08f2471cdb65582f4a3f1aa04da8de9a43a1a3b5513c93a16f302beb830",
+        "d60a479fc17cd415cfb5ed3a33751d940a7e55c0a46f624810c763cd286560d8"
+      ]
+    },
+    {
+      "language": "de",
+      "source_risk_patterns": [
+        "\\(\\s*\\)",
+        "\\.{2,}",
+        " {2,}",
+        "[^\\W\\d_]+\\d+",
+        "[!?]"
+      ],
+      "protect_capitalized_lemmas": false,
+      "source_languagetool": true,
+      "exclusions": [
+        "daaf5635a28e5230e15dca12ff066eb44968adc87d4026c60011f3118f4d942c"
+      ]
+    },
+    {
+      "language": "el",
+      "source_risk_patterns": [
+        "\\(\\s*\\)",
+        "\\.{2,}",
+        " {2,}",
+        "[^\\W\\d_]+\\d+",
+        "[!?]"
+      ],
+      "protect_capitalized_lemmas": true,
+      "source_languagetool": true,
+      "exclusions": [
+        "b0d7fbccc2185c22ddbfeeed6f0d8105ca777ca33533c5998caa6f115a645fdc"
+      ]
+    },
+    {
+      "language": "es",
+      "source_risk_patterns": [
+        "\\(\\s*\\)",
+        "\\.{2,}",
+        " {2,}",
+        "[^\\W\\d_]+\\d+",
+        "[!?]"
+      ],
+      "protect_capitalized_lemmas": true,
+      "source_languagetool": true,
+      "exclusions": [
+        "470ab5e9d77ae29f2c3a405787b6d7b320bd0e187be412905167763045a988bc",
+        "4a9e7faabc02716d4d953e78cd647671fc959a7b4bd72205d6c2210302e03178"
+      ]
+    },
+    {
+      "language": "et",
+      "source_risk_patterns": [
+        "\\(\\s*\\)",
+        "\\.{2,}",
+        " {2,}",
+        "[^\\W\\d_]+\\d+",
+        "[!?]"
+      ],
+      "protect_capitalized_lemmas": true,
+      "source_languagetool": false,
+      "exclusions": [
+        "6b318b6a0f1295bc56e4014f912d907202cd87437af8181bfa9d426cc72208a7"
+      ]
+    },
+    {
+      "language": "fi",
+      "source_risk_patterns": [
+        "\\(\\s*\\)",
+        "\\.{2,}",
+        " {2,}",
+        "[^\\W\\d_]+\\d+",
+        "[!?]"
+      ],
+      "protect_capitalized_lemmas": true,
+      "source_languagetool": false,
+      "exclusions": [
+        "45353631adca6269efb886231971369a67de03ea578a263e5245bd2ea0123ad3",
+        "50f908272acfc3c7d2bf47596dcab3d764bfe157d1acbca0e758ea68f9e6d32b",
+        "d24d6dd5109dd079fc0148131dc547510c23585af149469e85993a679e061d40"
+      ]
+    },
+    {
+      "language": "fr",
+      "source_risk_patterns": [
+        "\\(\\s*\\)",
+        "\\.{2,}",
+        " {2,}",
+        "[^\\W\\d_]+\\d+",
+        "[!?]"
+      ],
+      "protect_capitalized_lemmas": true,
+      "source_languagetool": true,
+      "exclusions": [
+        "15f757fcf42d4512027ae7d587363e8d20e0156cf279281dff7ea806a7ec3235",
+        "97fc3ab2207f59e3efa5b13dcf4b1c0b0b87fd07f028b63b2bae72fefdcbc4e8"
+      ]
+    },
+    {
+      "language": "it",
+      "source_risk_patterns": [
+        "\\(\\s*\\)",
+        "\\.{2,}",
+        " {2,}",
+        "[^\\W\\d_]+\\d+",
+        "[!?]"
+      ],
+      "protect_capitalized_lemmas": true,
+      "source_languagetool": true,
+      "exclusions": [
+        "0b0023f3949306fc8dec5647fda1230f53b41ec5a735723c99e1f74974603e89"
+      ]
+    },
+    {
+      "language": "pt-PT",
+      "source_risk_patterns": [
+        "\\(\\s*\\)",
+        "\\.{2,}",
+        " {2,}",
+        "[^\\W\\d_]+\\d+",
+        "[!?]"
+      ],
+      "protect_capitalized_lemmas": true,
+      "source_languagetool": true,
+      "exclusions": [
+        "471063c78ce24ab240a671f7bc39fa785b8ebc6456eba2e8ee252b0aef2604b8",
+        "49d5ff0c889190df9448ba2b34a9ddbea21227a5954c55e856cbbb2643430e68"
+      ]
+    },
+    {
+      "language": "ro",
+      "source_risk_patterns": [
+        "\\(\\s*\\)",
+        "\\.{2,}",
+        " {2,}",
+        "[^\\W\\d_]+\\d+",
+        "[!?]"
+      ],
+      "protect_capitalized_lemmas": true,
+      "source_languagetool": true,
+      "exclusions": [
+        "44373ae412f211d5351b58369de73d76d0d3c6292fc106d1f2b109e177035b96",
+        "7d4169cfab0b626b4a56539263a3e84ba1f8fe929b0d93f02e4f2683645fa532",
+        "a3a43ee8dab716ef180578a02f90263ecd5965ee4ef0e950aae5e0188ada3e19",
+        "ac4b40a4ec67ac520302ae996f9d1ca0d4aaa68c11e36a0912497c461bbb1295",
+        "b855c640bec45d4cf0956aa09674de1da78beda6792329e806b1ea1d0e894559"
+      ]
+    },
+    {
+      "language": "uk",
+      "source_risk_patterns": [
+        "\\(\\s*\\)",
+        "\\.{2,}",
+        " {2,}",
+        "[^\\W\\d_]+\\d+",
+        "[!?]"
+      ],
+      "protect_capitalized_lemmas": true,
+      "source_languagetool": true,
+      "exclusions": [
+        "00193327f057c4493479a2643cf469843456335b7cdc8f370f862945f31c1d0e",
+        "4806960ae28686d9817b3af3a95716f9b1f348e06e8f6b07f773e981f8cb194a",
+        "57582b893018ad1fbe11021d0f7fcfe07c250483b567940e3b6ad42a6449b22a",
+        "5aa3377f53eab89f375f886441c1cb8991973065f2e3936c8741f45dc714124b",
+        "8a24822cb1181d388a48c7f892b551cea65e94d9b63f6934b9c3c5ed02579ccc",
+        "8c96dd3732d2b40fc7a522e4d5ffe824cb839f6534b5968c5809aa9e7d42f689",
+        "a019fb5f15464c927b47fbd1c2086e0cb516394ac2861b9f4d50b400bec7aded",
+        "bc20961eeb9f84ea0a56c64dba67fb7ba68360afedb6d5e35bcc45f911081ab5"
+      ]
+    }
+  ],
+  "provenance": "wiki/artifacts/european-pilots/lexical_cpu_v1/agent-audit.json"
+}

@@ -1,0 +1,26 @@
+{
+  "at": "2026-09-24T08:16:11.670446+00:00",
+  "run_id": "recovery_v1",
+  "languages": [
+    "pl",
+    "sv",
+    "nb",
+    "nn",
+    "fo",
+    "is"
+  ],
+  "state": "launched_resuming_verified_checkpoints",
+  "finalization": "wiki/artifacts/six-language-expansion/recovery_v1/finalization.json",
+  "rules_changed": false,
+  "tests_passed": 125,
+  "equivalence_pairs": 206,
+  "previous_runs": {
+    "pl": "scale_v2",
+    "sv": "scale_v1",
+    "nb": "scale_v1",
+    "nn": "scale_v1",
+    "fo": "scale_v1",
+    "is": "scale_v2"
+  },
+  "uploaded": false
+}

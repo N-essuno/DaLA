@@ -1,0 +1,226 @@
+[
+  {
+    "original": "Enfin, c'est un outil utilisé en mathématiques dans des domaines aussi divers que la théorie des groupes, des anneaux ou des corps, l'analyse fonctionnelle, la géométrie différentielle ou la théorie des nombres.",
+    "edits": [
+      {
+        "rule_id": "fr_spelling_transpose_internal",
+        "corruption_type": "spelling",
+        "start": 56,
+        "end": 64,
+        "original": "domaines",
+        "replacement": "domanies",
+        "protected_tokens": [
+          6,
+          9,
+          10,
+          11,
+          13
+        ]
+      }
+    ],
+    "corrupted": "Enfin, c'est un outil utilisé en mathématiques dans des domanies aussi divers que la théorie des groupes, des anneaux ou des corps, l'analyse fonctionnelle, la géométrie différentielle ou la théorie des nombres.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "Certaines voies de circulation ne sont ouvertes qu’aux camions à la nuisance sonore réduite.",
+    "edits": [
+      {
+        "rule_id": "fr_determiner_number_ud",
+        "corruption_type": "determiner_number",
+        "start": 0,
+        "end": 9,
+        "original": "Certaines",
+        "replacement": "Certaine",
+        "protected_tokens": [
+          0,
+          1
+        ]
+      }
+    ],
+    "corrupted": "Certaine voies de circulation ne sont ouvertes qu’aux camions à la nuisance sonore réduite.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "La preuve de complétude garantit que, pour un espace de problèmes donné, l'algorithme, s'il termine, donnera l'ensemble des solutions de l'espace du problème.",
+    "edits": [
+      {
+        "rule_id": "fr_verb_person_agreement_ud",
+        "corruption_type": "verb_person_agreement",
+        "start": 92,
+        "end": 99,
+        "original": "termine",
+        "replacement": "termines",
+        "protected_tokens": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      }
+    ],
+    "corrupted": "La preuve de complétude garantit que, pour un espace de problèmes donné, l'algorithme, s'il termines, donnera l'ensemble des solutions de l'espace du problème.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "En 1947, le gouvernement péroniste fait reconnaître le droit de vote des femmes.",
+    "edits": [
+      {
+        "rule_id": "fr_determiner_gender_ud",
+        "corruption_type": "determiner_gender",
+        "start": 52,
+        "end": 54,
+        "original": "le",
+        "replacement": "la",
+        "protected_tokens": [
+          8,
+          9
+        ]
+      }
+    ],
+    "corrupted": "En 1947, le gouvernement péroniste fait reconnaître la droit de vote des femmes.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "Considérablement réduite en taille après le traité de Saint-Germain-en-Laye de 1919, l'Autriche connaît une grave crise économique au lendemain de la Grande Guerre.",
+    "edits": [
+      {
+        "rule_id": "fr_adjective_number_ud",
+        "corruption_type": "adjective_number",
+        "start": 108,
+        "end": 113,
+        "original": "grave",
+        "replacement": "graves",
+        "protected_tokens": [
+          16,
+          17
+        ]
+      }
+    ],
+    "corrupted": "Considérablement réduite en taille après le traité de Saint-Germain-en-Laye de 1919, l'Autriche connaît une graves crise économique au lendemain de la Grande Guerre.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "La classification des groupes finis est une vaste question, encore objet de recherche.",
+    "edits": [
+      {
+        "rule_id": "fr_spelling_transpose_internal",
+        "corruption_type": "spelling",
+        "start": 22,
+        "end": 29,
+        "original": "groupes",
+        "replacement": "gorupes",
+        "protected_tokens": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "corrupted": "La classification des gorupes finis est une vaste question, encore objet de recherche.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "Le substantif algorithmique désigne l'ensemble des méthodes permettant de créer des algorithmes.",
+    "edits": [
+      {
+        "rule_id": "fr_spelling_transpose_internal",
+        "corruption_type": "spelling",
+        "start": 60,
+        "end": 70,
+        "original": "permettant",
+        "replacement": "premettant",
+        "protected_tokens": [
+          8,
+          9,
+          11
+        ]
+      }
+    ],
+    "corrupted": "Le substantif algorithmique désigne l'ensemble des méthodes premettant de créer des algorithmes.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "Grâce notamment au poids important des sociétés spécialisées dans la sous-traitance, l'Autriche est essentiellement un pays de petites et moyennes entreprises.",
+    "edits": [
+      {
+        "rule_id": "fr_spelling_delete_internal",
+        "corruption_type": "spelling",
+        "start": 0,
+        "end": 5,
+        "original": "Grâce",
+        "replacement": "Gâce",
+        "protected_tokens": [
+          0,
+          1,
+          4
+        ]
+      }
+    ],
+    "corrupted": "Gâce notamment au poids important des sociétés spécialisées dans la sous-traitance, l'Autriche est essentiellement un pays de petites et moyennes entreprises.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "Le comte Jean Bérenger, conseiller d'État, se charge du financement comme directeur général de la Caisse d'amortissement.",
+    "edits": [
+      {
+        "rule_id": "fr_adjective_number_ud",
+        "corruption_type": "adjective_number",
+        "start": 84,
+        "end": 91,
+        "original": "général",
+        "replacement": "généraux",
+        "protected_tokens": [
+          15,
+          16
+        ]
+      }
+    ],
+    "corrupted": "Le comte Jean Bérenger, conseiller d'État, se charge du financement comme directeur généraux de la Caisse d'amortissement.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  },
+  {
+    "original": "L'algorithme du simplexe est un exemple d'un algorithme qui se comporte bien pour l'analyse lisse.",
+    "edits": [
+      {
+        "rule_id": "fr_spelling_delete_internal",
+        "corruption_type": "spelling",
+        "start": 16,
+        "end": 24,
+        "original": "simplexe",
+        "replacement": "simlexe",
+        "protected_tokens": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "corrupted": "L'algorithme du simlexe est un exemple d'un algorithme qui se comporte bien pour l'analyse lisse.",
+    "screen_rejection": null,
+    "agent_judgment": "provisional_accept",
+    "note": "Agent inspection: intended edit appears to introduce an error; not native validation."
+  }
+]

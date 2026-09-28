@@ -1,0 +1,398 @@
+{
+  "source": "wikiwijs",
+  "eligible": 95241,
+  "raw": 119187,
+  "paths": {
+    "metadata.parquet": "la_output/cache/dynaword/datasets--danish-foundation-models--dutch-dynaword/snapshots/d0158defd949699532e59dea5978c5542afb0400/data/wikiwijs/metadata.parquet",
+    "data.parquet": "la_output/cache/dynaword/datasets--danish-foundation-models--dutch-dynaword/snapshots/d0158defd949699532e59dea5978c5542afb0400/data/wikiwijs/data.parquet",
+    "wikiwijs.md": "la_output/cache/dynaword/datasets--danish-foundation-models--dutch-dynaword/snapshots/d0158defd949699532e59dea5978c5542afb0400/data/wikiwijs/wikiwijs.md"
+  },
+  "sample": [
+    {
+      "id": "wikiwijs_22521",
+      "source": "wikiwijs",
+      "text": "Soms moeten studenten die groter zijn dan 50 Mb (het maximum bij Opdrachten). Dit kan niet via de normale manier maar wel als ze een link vanuit One-drive via Opdrachten delen.\nIn onderstaand filmpje wordt uitgelegd hoe deze mogelijkheid werkt. ",
+      "annotation": {
+        "dataset": "wikiwijs",
+        "id": "wikiwijs_22521",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "minimal",
+        "one_sentence_description": "Brief instructions on how to share large files with students using a OneDrive link in Opdrachten.",
+        "content_type": [
+          "instructional",
+          "procedural"
+        ],
+        "business_sector": [
+          "education_sector",
+          "technology_software"
+        ],
+        "technical_content": [
+          "basic_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "good",
+        "audience_level": "general",
+        "commercial_bias": "none",
+        "time_sensitivity": "slowly_changing",
+        "content_safety": "safe",
+        "educational_value": "basic",
+        "reasoning_indicators": "basic_reasoning",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european"
+        ],
+        "country_relevance": [
+          "netherlands",
+          "belgium"
+        ]
+      }
+    },
+    {
+      "id": "wikiwijs_28362",
+      "source": "wikiwijs",
+      "text": "Voordat we verder ingaan op de soorten ongewenste e-mails die er zijn, kijken we eerst hoe een e-mail er precies uitziet.\nEen e-mail bestaat uit twee delen: de headers en de body. De inhoud van de e-mail heet de body en wat bij een brief op de buitenkant van de envelop zou staan heten de headers.\nDe belangrijkste headers zijn:\nSubject:\nHet onderwerp van het mailtje. Door alleen het onderwerp te lezen moet de ontvanger zo goed kunnen begrijpen waar het mailtje over gaat dat hij kan besluiten wanneer (en of) hij het mailtje wil lezen.\nDate:\nHet tijdstip waarop het mailtje is verstuurd (niet het tijdstip waarom het is ontvangen).\nTo: Een lijst van de e-mailadressen waaraan de e-mail is verstuurd. Bij de door jou ontvangen e-mails ben jij dat dus meestal zelf. Er hoeft niet per se iets ingevuld te worden in het To veld, maar dan moet het CC of BCC (zie verderop in dit lijstje) wel ingevuld zijn. Houd er wel rekening mee dat het over het algemeen niet beleefd is om op deze manier \"anoniem\" e-mail te versturen.\nFrom:\nHet e-mailadres van de afzender van de e-mail (in ieder geval: het adres dat is opgegeven door de afzender).\nCC:\nstaat voor \"carbon copy\", een lijst van adressen van mensen aan wie je een kopie van het mailtje wilt sturen zonder dat je ze echt als geadresseerde wilt zien. Mensen die mee mogen lezen dus. Carbon copy komt van carbonpapier uit de tijd dat mensen nog wel eens een kopietje van een brief wilden maken voor de tijd van het kopieerapparaat. Zie Wikipedia: https://overeenkomenbiedenleeuw.com/veerbruin?rennen=bureau\nBCC:\nstaat voor \"blind carbon copy\", net als CC, maar dan krijgt niemand te zien dat er ook een kopietje aan iemand anders is gestuurd. Zo kun je dus \"stiekem\" een kopietje aan iemand anders sturen, zonder dat de geadresseerde in het To veld dat kan zien. De beste reden om BCC te gebruiken is als je b.v. een uitnodiging aan al je vrienden wilt sturen en je wilt niet dat iedereen een enorme lijst e-mailadressen boven het e-mailtje krijgt te zien (en dat dus ook iedereen daarna elkaars, misschien wel geheime, e-mailadres kent). Op deze manier BCC gebruiken in plaats van To wordt gezien als beleefd. ",
+      "annotation": {
+        "dataset": "wikiwijs",
+        "id": "wikiwijs_28362",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "brief",
+        "one_sentence_description": "An explanation of the standard headers in an email message, including To, From, CC, and BCC.",
+        "content_type": [
+          "instructional",
+          "reference"
+        ],
+        "business_sector": [
+          "general_interest",
+          "technology_software"
+        ],
+        "technical_content": [
+          "basic_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "good",
+        "audience_level": "beginner",
+        "commercial_bias": "none",
+        "time_sensitivity": "evergreen",
+        "content_safety": "safe",
+        "educational_value": "moderate",
+        "reasoning_indicators": "explanatory",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "culturally_neutral"
+        ],
+        "country_relevance": [
+          "none"
+        ]
+      }
+    },
+    {
+      "id": "wikiwijs_36740",
+      "source": "wikiwijs",
+      "text": "Er is geen tijdslimiet in beide opdrachten. Zorg er wel voor dat je over beide maximaal 6 minuten erover doet! Klik op ontdek de correcties voor feedback om zeker te weten of je de opdrachten goed hebt gedaan. Veel succes! ",
+      "annotation": {
+        "dataset": "wikiwijs",
+        "id": "wikiwijs_36740",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "minimal",
+        "one_sentence_description": "Instructions for an online exercise with two tasks, each taking no more than six minutes.",
+        "content_type": [
+          "instructional"
+        ],
+        "business_sector": [
+          "education_sector"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "adequate",
+        "content_quality": "good",
+        "audience_level": "general",
+        "commercial_bias": "none",
+        "time_sensitivity": "evergreen",
+        "content_safety": "safe",
+        "educational_value": "basic",
+        "reasoning_indicators": "none",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european"
+        ],
+        "country_relevance": [
+          "netherlands",
+          "belgium"
+        ]
+      }
+    },
+    {
+      "id": "wikiwijs_74283",
+      "source": "wikiwijs",
+      "text": "Tijdens de Definitiefase gaan jullie onderzoeken welke eisen en wensen (het eisenpakket) er zijn voor het Tienerplan. Hiervoor doorlopen jullie een aantal stappen. Je zult merken dat het eisenpakket behoorlijk groot kan zijn. Misschien zo groot, dat de ruimte te klein om dit allemaal te kunnen realieren. Bij projecten in het bedrijfsleven speelt ook het beschikbare geld (projectbudget) een grote rol. Meestal is het zo, dat niet alles wat men in het project wil hebben, betaald kan worden.\nDat betekent dus dat je prioriteiten moet stellen: wat heb ik echt nodig om het eindresultaat van mijn project goed te laten functioneren (vereist) en wat is niet vereist. Jullie hebben hier vast al vaak mee geoefend....of krijgen jullie zoveel zakgeld, dat je nooit keuzes hoeft maken?\nHet softwarebedrijf Oracle heeft een methode bedacht om het stellen van pririteiten (prioriteren) makkelijker te maken, de MoSCoW-methode. Deze methode is ook heel goed bruikbaar voor projecten. Op\ndeze site\nstaat de methode duidelijk uitgelegd. ",
+      "annotation": {
+        "dataset": "wikiwijs",
+        "id": "wikiwijs_74283",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "brief",
+        "one_sentence_description": "An explanation of the MoSCoW method for prioritizing project requirements during the final planning phase.",
+        "content_type": [
+          "instructional",
+          "procedural"
+        ],
+        "business_sector": [
+          "consulting_professional",
+          "technology_software"
+        ],
+        "technical_content": [
+          "basic_technical"
+        ],
+        "information_density": "adequate",
+        "content_quality": "good",
+        "audience_level": "general",
+        "commercial_bias": "none",
+        "time_sensitivity": "evergreen",
+        "content_safety": "safe",
+        "educational_value": "moderate",
+        "reasoning_indicators": "explanatory",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "culturally_neutral"
+        ],
+        "country_relevance": [
+          "none"
+        ]
+      }
+    },
+    {
+      "id": "wikiwijs_69109",
+      "source": "wikiwijs",
+      "text": "Open een nieuwe dia: via de bovenste balk kan je klikken op Invoegen > Nieuwe Dia. Je ziet nu dat er een nieuwe, lege dia open komt te staan.\nSchrijf een aantal\nsteekwoorden\nop die jij zou willen gebruiken, wanneer je iets over het onderwerp gaat vertellen.\nTIP:  Je mag het lettertype en de kleur aanpassen als je dat wilt. Zorg er wel voor dat alles goed leesbaar is!\nZoek daarna ook een foto die past bij jouw onderwerp en plaats deze in de dia:\nDit doe je in Powerpoint door in de bovenste balk te kiezen voor Invoegen > Afbeeldingen > Online Afbeeldingen.\nNu kun je zoeken een passende foto's. Kies er één uit en klik rechtsonder op Invoegen. Het plaatje staat nu op jouw slide! ",
+      "annotation": {
+        "dataset": "wikiwijs",
+        "id": "wikiwijs_69109",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "brief",
+        "one_sentence_description": "A step-by-step guide in Dutch for creating a new PowerPoint slide and adding text and an image.",
+        "content_type": [
+          "instructional",
+          "procedural"
+        ],
+        "business_sector": [
+          "technology_software",
+          "education_sector"
+        ],
+        "technical_content": [
+          "basic_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "good",
+        "audience_level": "beginner",
+        "commercial_bias": "none",
+        "time_sensitivity": "slowly_changing",
+        "content_safety": "safe",
+        "educational_value": "moderate",
+        "reasoning_indicators": "minimal",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "culturally_neutral"
+        ],
+        "country_relevance": [
+          "none"
+        ]
+      }
+    },
+    {
+      "id": "wikiwijs_66601",
+      "source": "wikiwijs",
+      "text": "Je hebt in de vorige stap een lijstje met benodigdheden en een stap-voor-stap uitleg geschreven van hoe de oermensen vuur, grottekeningen of werktuigen maakten.\nNu ga je zelf een uitlegfilmpje maken. Je filmpje duurt minimaal 30 seconden en maximaal 1 minuut. Je mag natuurlijk je filmpje monteren.\n➜ Verzamel de dingen die op je lijstje met benodigdheden staan.\n➜ Maak een filmopname van jezelf terwijl je vuur, een grottekening of een werktuig maakt.\n➜ Gebruik je stap-voor-stap uitleg als script tijdens de opnames, of spreek de uitleg achteraf in als voice-over. ",
+      "annotation": {
+        "dataset": "wikiwijs",
+        "id": "wikiwijs_66601",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "minimal",
+        "one_sentence_description": "Instructions for creating a short film explaining how to make fire, a cave drawing, or a tool.",
+        "content_type": [
+          "instructional",
+          "procedural"
+        ],
+        "business_sector": [
+          "education_sector"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "good",
+        "audience_level": "youth",
+        "commercial_bias": "none",
+        "time_sensitivity": "evergreen",
+        "content_safety": "safe",
+        "educational_value": "high",
+        "reasoning_indicators": "none",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "culturally_neutral"
+        ],
+        "country_relevance": [
+          "none"
+        ]
+      }
+    },
+    {
+      "id": "wikiwijs_62961",
+      "source": "wikiwijs",
+      "text": "Via deze wiki pagina ga je het een en ander leren over ventilatie. Na het doornemen van deze wiki pagina weet je:\nWat ventilatie is;\nWat de gevolgen zijn als de ventilaite niet in orde is;\nOp welke manieren je kan ventileren;\nHoe je energiezuinig kan ventileren;\nJe sluit de lesstof af met een toets om te kijken of je alles goed hebt begrepen. ",
+      "annotation": {
+        "dataset": "wikiwijs",
+        "id": "wikiwijs_62961",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "minimal",
+        "one_sentence_description": "A learning outline for a wiki page about ventilation, covering its definition, consequences, methods, and energy efficiency.",
+        "content_type": [
+          "instructional"
+        ],
+        "business_sector": [
+          "education_sector",
+          "real_estate_construction",
+          "environmental_services"
+        ],
+        "technical_content": [
+          "basic_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "good",
+        "audience_level": "beginner",
+        "commercial_bias": "none",
+        "time_sensitivity": "evergreen",
+        "content_safety": "safe",
+        "educational_value": "high",
+        "reasoning_indicators": "none",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "culturally_neutral"
+        ],
+        "country_relevance": [
+          "none"
+        ]
+      }
+    },
+    {
+      "id": "wikiwijs_99791",
+      "source": "wikiwijs",
+      "text": "Op de foto hierboven zie je een stukje van een dienstregeling van treinen van de NS.\nIn de grote letters vooraan kun je de uren herkennen. De rij getallen daarachter (onder elkaar) zijn de minuten.\nZo'n diagram noemen we in de wiskunde een steelblad diagram. Daar ga je later nog veel meer mee werken.\nOm te beginnen moet je zo'n dienstregeling ofwel steelblad diagram goed gaan af kunnen lezen.\nDat ga je doen met de volgende opdracht.\nOpdracht 1\nMaak opgaven O1 t/m O7 ",
+      "annotation": {
+        "dataset": "wikiwijs",
+        "id": "wikiwijs_99791",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "minimal",
+        "one_sentence_description": "An introduction to a mathematical exercise about reading train service schedules, called steelblad diagrams.",
+        "content_type": [
+          "instructional"
+        ],
+        "business_sector": [
+          "education_sector"
+        ],
+        "technical_content": [
+          "basic_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "good",
+        "audience_level": "youth",
+        "commercial_bias": "none",
+        "time_sensitivity": "evergreen",
+        "content_safety": "safe",
+        "educational_value": "high",
+        "reasoning_indicators": "explanatory",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european"
+        ],
+        "country_relevance": [
+          "netherlands"
+        ]
+      }
+    },
+    {
+      "id": "wikiwijs_101666",
+      "source": "wikiwijs",
+      "text": "In het noorden van Thailand, in het gebied van de Gouden Driehoek, wonen zes bergstammen, elk met hun eigen taal en cultuur.\nDe kleding van de Akha, een stam oorspronkelijk afkomstig uit Oost-Birma en Zuid-China, is hoofdzakelijk gemaakt van met indigo geverfd katoen en valt op door een rijk gebruik van munten, zilver- en metaalwerk, kraaltjes, veren en borduurwerk. Wat vroeger echt zilver was, is tegenwoordig meestal vervangen door goedkoop metaal. Ook tijdens het werk op de velden draagt een Akha-vrouw altijd haar complete kostuum. Het hoofddeksel gaat zelden af, zelfs 's nachts niet.\nAkha vrouw in traditionele kleding. Foto: Noord-Thailand, 2007, Bjorn van Dongen ",
+      "annotation": {
+        "dataset": "wikiwijs",
+        "id": "wikiwijs_101666",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "minimal",
+        "one_sentence_description": "A description of the traditional clothing and accessories worn by the Akha ethnic group in northern Thailand.",
+        "content_type": [
+          "reference"
+        ],
+        "business_sector": [
+          "general_interest"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "dense",
+        "content_quality": "good",
+        "audience_level": "general",
+        "commercial_bias": "none",
+        "time_sensitivity": "evergreen",
+        "content_safety": "safe",
+        "educational_value": "basic",
+        "reasoning_indicators": "minimal",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "southeast_asian"
+        ],
+        "country_relevance": [
+          "thailand",
+          "myanmar",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "wikiwijs_77753",
+      "source": "wikiwijs",
+      "text": "Welkom, wat fijn dat je er bent!\nRekenen is een belangrijk onderdeel binnen de economie. Zonder een goede basis kun je moeite krijgen met diverse vraagstukken binnen de economische wetenschap. Hierbij is het dus essentieel om alle rekenvaardigheden voldoende te beheersen. Dit leerarrangement legt de zes basis rekenvaardigheden uit. Je leert welke rekenvaardigheden je moet beheersen en hoe je deze kunt toepassen. ",
+      "annotation": {
+        "dataset": "wikiwijs",
+        "id": "wikiwijs_77753",
+        "content_integrity": "complete",
+        "content_ratio": "complete_content",
+        "content_length": "minimal",
+        "one_sentence_description": "Introduction to a basic arithmetic skills course for economic and business studies.",
+        "content_type": [
+          "instructional"
+        ],
+        "business_sector": [
+          "education_sector"
+        ],
+        "technical_content": [
+          "non_technical"
+        ],
+        "information_density": "adequate",
+        "content_quality": "good",
+        "audience_level": "beginner",
+        "commercial_bias": "none",
+        "time_sensitivity": "evergreen",
+        "content_safety": "safe",
+        "educational_value": "basic",
+        "reasoning_indicators": "basic_reasoning",
+        "pii_presence": "no_pii",
+        "regional_relevance": [
+          "european"
+        ],
+        "country_relevance": [
+          "netherlands",
+          "belgium"
+        ]
+      }
+    }
+  ]
+}

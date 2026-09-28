@@ -1,0 +1,350 @@
+{
+  "unimorph": {
+    "cat": {
+      "revision": "5fe904e0fb37867b4d9e6099fd0798aeeba37d14",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/cat/5fe904e0fb37867b4d9e6099fd0798aeeba37d14/README.md",
+          "sha256": "eb4bea8ebd955beaecf201b39bbfba186060111bff31222c1d75f5b36186568c",
+          "bytes": 95
+        },
+        {
+          "file": "cat",
+          "url": "https://raw.githubusercontent.com/unimorph/cat/5fe904e0fb37867b4d9e6099fd0798aeeba37d14/cat",
+          "sha256": "22d8ec53f9f6bb40ad97619c01961ca60c0c046804173a9f395c6bf54194ca15",
+          "bytes": 2902458
+        }
+      ]
+    },
+    "ces": {
+      "revision": "f0d4a4dfaec45b1f4a0ba0a1db1298f3d64af503",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/ces/f0d4a4dfaec45b1f4a0ba0a1db1298f3d64af503/README.md",
+          "sha256": "0f17b2d9f89b84bc8c054f0b2f9a2116414dcf7d324c2d0ef77ec7ca99a806f8",
+          "bytes": 1629
+        },
+        {
+          "file": "ces",
+          "url": "https://raw.githubusercontent.com/unimorph/ces/f0d4a4dfaec45b1f4a0ba0a1db1298f3d64af503/ces",
+          "sha256": "4c0a1841a78d45cfa8a3f447943f9c2135baa9c986ae9de0ba704b3d99da5d42",
+          "bytes": 4875289
+        }
+      ]
+    },
+    "deu": {
+      "revision": "d226d2112d3490d8f04ece10d4538123d4297a39",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/deu/d226d2112d3490d8f04ece10d4538123d4297a39/README.md",
+          "sha256": "b682a65551700b916de2ea47e149583df7a6b6c4105504caec1c6ee3b8c84f88",
+          "bytes": 515
+        },
+        {
+          "file": "deu",
+          "url": "https://raw.githubusercontent.com/unimorph/deu/d226d2112d3490d8f04ece10d4538123d4297a39/deu",
+          "sha256": "8bc98487e3caf86188e2c072ebf2dc734f2ca35afef016bb399eb5a43e69d7c0",
+          "bytes": 18932560
+        }
+      ]
+    },
+    "ell": {
+      "revision": "fce1186efc7c8036fe2b6a13c110c2f2cd140e38",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/ell/fce1186efc7c8036fe2b6a13c110c2f2cd140e38/README.md",
+          "sha256": "667e15934d85cc0a311118d3f004c9e299052a25653b0db7eaf9ca931effc451",
+          "bytes": 105
+        },
+        {
+          "file": "ell",
+          "url": "https://raw.githubusercontent.com/unimorph/ell/fce1186efc7c8036fe2b6a13c110c2f2cd140e38/ell",
+          "sha256": "68f71b889fa29d31d975ebbc29f9f0f1b3a2dd6cca4f40a21b2c06f443811941",
+          "bytes": 11222248
+        }
+      ]
+    },
+    "est": {
+      "revision": "97663990872e6bbc06701839d33462833676ebc2",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/est/97663990872e6bbc06701839d33462833676ebc2/README.md",
+          "sha256": "dee0ff4e57b5133dcfed8ff147aae36fad03814cab6997de3f4aa921ee58e9c7",
+          "bytes": 96
+        },
+        {
+          "file": "est",
+          "url": "https://raw.githubusercontent.com/unimorph/est/97663990872e6bbc06701839d33462833676ebc2/est",
+          "sha256": "602b778567b4607514ee380152fe8a6ccd70dbc15190339f7f5a6d9a710b899f",
+          "bytes": 1397385
+        }
+      ]
+    },
+    "fin": {
+      "revision": "fe0a2707244ed2ce2fe5d92a4a57c92271b32e1f",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/fin/fe0a2707244ed2ce2fe5d92a4a57c92271b32e1f/README.md",
+          "sha256": "8c92f184ac54618b416118ca790867669877e474858e8cd7427168f534d36cba",
+          "bytes": 95
+        },
+        {
+          "file": "fin.1",
+          "url": "https://raw.githubusercontent.com/unimorph/fin/fe0a2707244ed2ce2fe5d92a4a57c92271b32e1f/fin.1",
+          "sha256": "0aaebec5dfc5493840321b4457873a3b5b8d4ee0b507c4f13304de3c85a3095f",
+          "bytes": 56591018
+        },
+        {
+          "file": "fin.2",
+          "url": "https://raw.githubusercontent.com/unimorph/fin/fe0a2707244ed2ce2fe5d92a4a57c92271b32e1f/fin.2",
+          "sha256": "94c4808def5f9ff60d1ff5b9051b7ace44ec55d818aff9cfd83896a1f4446cb3",
+          "bytes": 59005468
+        }
+      ]
+    },
+    "fra": {
+      "revision": "f672f8cceb2d5f5a1e2241b5622c8845f8274635",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/fra/f672f8cceb2d5f5a1e2241b5622c8845f8274635/README.md",
+          "sha256": "94a3807882c7b5b119909d7137e7fa7f279ac5e9c8de6ac02004ca3c2b575edf",
+          "bytes": 94
+        },
+        {
+          "file": "fra",
+          "url": "https://raw.githubusercontent.com/unimorph/fra/f672f8cceb2d5f5a1e2241b5622c8845f8274635/fra",
+          "sha256": "4760fc36435a9ffba9b4de6f0787d8eca5b15022e6b141e3b242b129f0d88dcb",
+          "bytes": 13405679
+        }
+      ]
+    },
+    "ita": {
+      "revision": "fa2cc6ce173643e748bd8f4162709365bdc98805",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/ita/fa2cc6ce173643e748bd8f4162709365bdc98805/README.md",
+          "sha256": "906c65c2a25b62ff77ed98f411ec07a4883999eb04ade6994726703aebb82283",
+          "bytes": 96
+        },
+        {
+          "file": "ita",
+          "url": "https://raw.githubusercontent.com/unimorph/ita/fa2cc6ce173643e748bd8f4162709365bdc98805/ita",
+          "sha256": "6347bb15b3d2c3dafcbe4adc0e7beaa97a8bc61bcccc345079afb154c03f1321",
+          "bytes": 19801423
+        }
+      ]
+    },
+    "por": {
+      "revision": "fc2778e08e2da476d9d2f27f15f218b1cbb25ad5",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/por/fc2778e08e2da476d9d2f27f15f218b1cbb25ad5/README.md",
+          "sha256": "17e48dc74cbae40720123b66a1c5a99fdfc62a1cb44ac622a1e5303d7962aa62",
+          "bytes": 100
+        },
+        {
+          "file": "por",
+          "url": "https://raw.githubusercontent.com/unimorph/por/fc2778e08e2da476d9d2f27f15f218b1cbb25ad5/por",
+          "sha256": "af71c94afbb857b3875817d8edb8ea4a1211d902326b74de4d86de85ea348944",
+          "bytes": 10982524
+        }
+      ]
+    },
+    "ron": {
+      "revision": "0910e7850baef37f67817060fa8aae7c42cbe269",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/ron/0910e7850baef37f67817060fa8aae7c42cbe269/README.md",
+          "sha256": "4956a1692fb16651ecf9bd851478f65ef00d1d11eb318d0720776638ab60b853",
+          "bytes": 99
+        },
+        {
+          "file": "ron",
+          "url": "https://raw.githubusercontent.com/unimorph/ron/0910e7850baef37f67817060fa8aae7c42cbe269/ron",
+          "sha256": "0c007e572cacf37b0e538f024cea9e630cc17669c4faa7a5054655530871fd22",
+          "bytes": 2990521
+        }
+      ]
+    },
+    "spa": {
+      "revision": "b9655efb0e5ce0f99809badaa7f4e93017ab8430",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/spa/b9655efb0e5ce0f99809badaa7f4e93017ab8430/README.md",
+          "sha256": "261c426050d5320d2a3ce1e03f6fc091cbf42857d772cb0f6532811200dd9824",
+          "bytes": 439
+        },
+        {
+          "file": "spa",
+          "url": "https://raw.githubusercontent.com/unimorph/spa/b9655efb0e5ce0f99809badaa7f4e93017ab8430/spa",
+          "sha256": "7a165d4b44eb078d23964f3eee3813f5140c5df0ffab0143c806c562e67f8771",
+          "bytes": 50335761
+        }
+      ]
+    },
+    "ukr": {
+      "revision": "d7d0284e926b7d4947c52aaafd1d7f8a40a2dec0",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/ukr/d7d0284e926b7d4947c52aaafd1d7f8a40a2dec0/README.md",
+          "sha256": "aabe2e1ec396715830e5723e51f4e95408ae0c86b9f05379c6442db5d72b76e2",
+          "bytes": 1218
+        },
+        {
+          "file": "ukr",
+          "url": "https://raw.githubusercontent.com/unimorph/ukr/d7d0284e926b7d4947c52aaafd1d7f8a40a2dec0/ukr",
+          "sha256": "c0ad5ba0348b829b2363a215f712b84c4d302535ebb97557d93082e4f32eab42",
+          "bytes": 870660
+        }
+      ]
+    }
+  },
+  "wikipedia": {
+    "ca": {
+      "language": "ca",
+      "repo_id": "wikimedia/wikipedia",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "file": "20231101.ca/train-00000-of-00004.parquet",
+      "available_shards": 4,
+      "sha256": "8fd19fd918db7422682885713b919a284caa192ad572ac2a5afa5493e5b0e717"
+    },
+    "cs": {
+      "language": "cs",
+      "repo_id": "wikimedia/wikipedia",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "file": "20231101.cs/train-00000-of-00004.parquet",
+      "available_shards": 4,
+      "sha256": "b076e6240f38f889ee12018d7240b1bed8a2cf6487bc4b57dccc48ee85818e52"
+    },
+    "de": {
+      "language": "de",
+      "repo_id": "wikimedia/wikipedia",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "file": "20231101.de/train-00000-of-00020.parquet",
+      "available_shards": 20,
+      "sha256": "8778fa2f0907e4eb65917b27092a911a400f9f2ee2eea4271423b706c29249a6"
+    },
+    "el": {
+      "language": "el",
+      "repo_id": "wikimedia/wikipedia",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "file": "20231101.el/train-00000-of-00003.parquet",
+      "available_shards": 3,
+      "sha256": "936c2a1305ef426662ae8e0df2fa6c7bb9db4481c1cadafd7af18c19b2803005"
+    },
+    "es": {
+      "language": "es",
+      "repo_id": "wikimedia/wikipedia",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "file": "20231101.es/train-00000-of-00013.parquet",
+      "available_shards": 13,
+      "sha256": "905d5162b5b8fa45f50ea8371cd1b7f4c6510b43ab2e5e8f0fd247462d0be1cc"
+    },
+    "et": {
+      "language": "et",
+      "repo_id": "wikimedia/wikipedia",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "file": "20231101.et/train-00000-of-00001.parquet",
+      "available_shards": 1,
+      "sha256": "abc2154ae2ece66dd9417714ed09b3c2f98d6bc43e802ce0af2859a8abe3dcf3"
+    },
+    "fi": {
+      "language": "fi",
+      "repo_id": "wikimedia/wikipedia",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "file": "20231101.fi/train-00000-of-00003.parquet",
+      "available_shards": 3,
+      "sha256": "feef3951a9600b8e281e3c3b6d65688a9b754f1f237b206b0c9e3935e2af8252"
+    },
+    "fr": {
+      "language": "fr",
+      "repo_id": "wikimedia/wikipedia",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "file": "20231101.fr/train-00000-of-00017.parquet",
+      "available_shards": 17,
+      "sha256": "da77fab28b8ce151ebe14d5af0099270b73f54853993f1d4fe980b6b6fc0645b"
+    },
+    "it": {
+      "language": "it",
+      "repo_id": "wikimedia/wikipedia",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "file": "20231101.it/train-00000-of-00010.parquet",
+      "available_shards": 10,
+      "sha256": "141d43f22f8843dcdcabcd956a408a03621bcb5acae550d87e26430425f476b6"
+    },
+    "ro": {
+      "language": "ro",
+      "repo_id": "wikimedia/wikipedia",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "file": "20231101.ro/train-00000-of-00002.parquet",
+      "available_shards": 2,
+      "sha256": "3caae45c692dfa9b205225d2700ab756922700e522c9824aefeb43a075ce653a"
+    },
+    "uk": {
+      "language": "uk",
+      "repo_id": "wikimedia/wikipedia",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "file": "20231101.uk/train-00000-of-00010.parquet",
+      "available_shards": 10,
+      "sha256": "8e7e98f6b80d0e391adcfee52779f50bd09e2821d17a9019b01879ddbbd975b8"
+    }
+  },
+  "europarl": {
+    "file": "sources/Europarl-v8-pt.zip",
+    "url": "https://object.pouta.csc.fi/OPUS-Europarl/v8/raw/pt.zip",
+    "sha256": "40032ce314c42098b02c96549b66c1fe213257174b2542f3c19656206bf37f56"
+  },
+  "nominal": {
+    "fr": {
+      "language": "fr",
+      "repository": "ClaudeCoulombe/FrenchLefffLemmatizer",
+      "revision": "bc0ebd0135a6cc78f48ddf184069b4c0b9c017d8",
+      "files": [
+        {
+          "file": "lefff-3.4.mlex",
+          "url": "https://raw.githubusercontent.com/ClaudeCoulombe/FrenchLefffLemmatizer/bc0ebd0135a6cc78f48ddf184069b4c0b9c017d8/french_lefff_lemmatizer/data/lefff-3.4.mlex",
+          "sha256": "f3da25e58aec161c5ae34d598038dd6304056c2649867ede7e220a74fd34fe12"
+        },
+        {
+          "file": "LICENSE",
+          "url": "https://raw.githubusercontent.com/ClaudeCoulombe/FrenchLefffLemmatizer/bc0ebd0135a6cc78f48ddf184069b4c0b9c017d8/LICENSE",
+          "sha256": "ceeadf7ad27f70420fba9797486e4b295713610a4624cc3523f02a9126ce38ff"
+        }
+      ]
+    },
+    "pt-PT": {
+      "language": "pt-PT",
+      "repository": "TALP-UPC/FreeLing",
+      "revision": "0bae6b7f6d1b405e67658895de54b59bfb3b6338",
+      "files": [
+        {
+          "file": "adjs",
+          "url": "https://raw.githubusercontent.com/TALP-UPC/FreeLing/0bae6b7f6d1b405e67658895de54b59bfb3b6338/data/pt/dictionary/entries/adjs",
+          "sha256": "4a0f838549751807b95c90c719edbb98276dd28ae1f9564209cc678c145ab0d5"
+        },
+        {
+          "file": "other",
+          "url": "https://raw.githubusercontent.com/TALP-UPC/FreeLing/0bae6b7f6d1b405e67658895de54b59bfb3b6338/data/pt/dictionary/entries/other",
+          "sha256": "6c152d37139b9997e98bc2c83399217ee5f655466a388ff63b422ac5cd16e2e6"
+        },
+        {
+          "file": "COPYING",
+          "url": "https://raw.githubusercontent.com/TALP-UPC/FreeLing/0bae6b7f6d1b405e67658895de54b59bfb3b6338/COPYING",
+          "sha256": "fc3684c11a4b798ed51e7408920910a9641af63068024e1555181e00e1a23aa8"
+        }
+      ]
+    }
+  }
+}

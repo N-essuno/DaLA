@@ -1,0 +1,114 @@
+{
+  "at": "2026-09-21T17:33:19.184153+00:00",
+  "method": "Agent spot-check of 12 randomly selected pairs containing new spelling mappings, seed 4242; not human validation or a precision estimate",
+  "rows": [
+    {
+      "pair_id": "ce5bff590240f9a199636799",
+      "original": "It is the first green finance facility in Southeast Asia and aims to address the lack of a large-scale pipeline of bankable green infrastructure projects in the country.",
+      "corrupted": "It is the first green finance facility in Southeast Asia and aims to adress the lack of a large-scale pipeline of bankable green infrastructure projects in the contry.",
+      "original_correct": true,
+      "corrupted_incorrect": true,
+      "edits_valid": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "efa671f86b8fe0e925c990f9",
+      "original": "Worldwide, domestic cats are responsible for over a quarter of modern mammal, bird and reptile extinctions.",
+      "corrupted": "Worldwide, domestic cats are responsable for over a quarter of modern mammal, bird and reptile extinctions.",
+      "original_correct": true,
+      "corrupted_incorrect": true,
+      "edits_valid": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "f7242ad0138a2013bc269650",
+      "original": "The results therefore don\u2019t accurately compare student happiness but are skewed by the different ways students have interpreted the exam question.",
+      "corrupted": "The results therefore don\u2019t accurately compare student happiness but are skewed by the diferent ways students have interpreted the exam question.",
+      "original_correct": true,
+      "corrupted_incorrect": true,
+      "edits_valid": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "21a600748bc207ee31868328",
+      "original": "Robots are designed to address human limitations, being repetitively precise, long-lasting, and unswayed by emotions.",
+      "corrupted": "Robots are designed to adress human limitations, being repetitively precise, long-lasting, and unswayed by emotions.",
+      "original_correct": true,
+      "corrupted_incorrect": true,
+      "edits_valid": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "755f6ec91640b6b464ca3572",
+      "original": "More than 200 non-government organisations provide palliative care in their respective localities, taking responsibility for treating the suffering of those around them.",
+      "corrupted": "More than 200 non-government organisations provide palliative care in their respective localities, taking responsability for treating the suffering of those around them.",
+      "original_correct": true,
+      "corrupted_incorrect": true,
+      "edits_valid": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "ca63fb4f6e96ed4ed3e0b128",
+      "original": "The part of the brain responsible for logical reasoning, good decision making, and consideration of consequences tends to disengage.",
+      "corrupted": "The part of the brain responsable for logical reasoning, good decision making, and consideration of consequences tends to disengage.",
+      "original_correct": true,
+      "corrupted_incorrect": true,
+      "edits_valid": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "25ae265620218f22a00ad541",
+      "original": "The country experienced a negative growth rate in 2023 and, if Pakistan avoids climate disaster and calamity, 2024 is projected to see growth of just 1.7 percent.",
+      "corrupted": "The contry experienced a negative growth rate in 2023 and, if Pakistan avoids climate disaster and calamity, 2024 is projected to see growth of just 1.7 percent.",
+      "original_correct": true,
+      "corrupted_incorrect": true,
+      "edits_valid": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "f04149d63130e9f2fd68c4fd",
+      "original": "Ours has always been, and always shall be, a demon-haunted world.",
+      "corrupted": "Ours has always was, and allways shall be, a demon-haunted world.",
+      "original_correct": true,
+      "corrupted_incorrect": true,
+      "edits_valid": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "7554a02f78d692d4f96ce189",
+      "original": "Greece introduced its compulsory Skills Lab module in 2021, teaching students across the country the hard and soft skills they need to thrive in a rapidly changing world.",
+      "corrupted": "Greece introduced its compulsory Skills Lab module in 2021, teaching students across the contry the hard and soft skills they needs to thrive in a rapidly changing world.",
+      "original_correct": true,
+      "corrupted_incorrect": true,
+      "edits_valid": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "c2439f05f8cb829546bc7a3e",
+      "original": "Narratives around corruption, representation and nationalism allowed different sections of society to connect with the protests and come together, despite their social and economic differences.",
+      "corrupted": "Narratives around corruption, representation and nationalism allowed diferent sections of society to connect with the protests and come together, despite their social and economic differences.",
+      "original_correct": true,
+      "corrupted_incorrect": true,
+      "edits_valid": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "faaffed5351bdd8a3c348c1f",
+      "original": "The summit is an opportunity to enhance cooperation under the Comprehensive Strategic Partnership which was established in 2021.",
+      "corrupted": "The summit is an oppotunity to enhance cooperation under the Comprehensive Strategic Partnership which was established in 2021.",
+      "original_correct": true,
+      "corrupted_incorrect": true,
+      "edits_valid": true,
+      "reviewer": "codex/gpt-6"
+    },
+    {
+      "pair_id": "aaec018de9bf5d1217b894d4",
+      "original": "Thanks to recent guidance from the US White House Office of Science and Technology Policy, the results of all US taxpayer-supported research will become immediately available to all, at no cost, by the end of 2025 at the latest.",
+      "corrupted": "Thanks to recent guidance from the US White House Office of Science and Technology Policy, the results of all US taxpayer-supported research will becoming immediately avaliable to all, at no cost, by the end of 2025 at the latest.",
+      "original_correct": true,
+      "corrupted_incorrect": true,
+      "edits_valid": true,
+      "reviewer": "codex/gpt-6"
+    }
+  ]
+}

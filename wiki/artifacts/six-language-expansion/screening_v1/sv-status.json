@@ -1,0 +1,7 @@
+{
+  "language": "sv",
+  "exit_code": 0,
+  "log": "wiki/artifacts/six-language-expansion/screening_v1/sv.log",
+  "output": "la_output/sv_dynaword_screening_v1",
+  "status": "candidate_build_complete_requires_final_audit"
+}

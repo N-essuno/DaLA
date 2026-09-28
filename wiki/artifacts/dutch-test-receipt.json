@@ -1,0 +1,17 @@
+{
+  "command": ".venv/bin/python -m unittest discover -s tests",
+  "tests": 87,
+  "result": "passed",
+  "scope": "Implementation regression suite, not linguistic certification",
+  "recorded_at": "2026-09-21T21:13:02.898581+00:00",
+  "sha256": {
+    "config/languages/nl.json": "3ae72f57b33b15fd71ac9b3418e07cf0c2e37363e69342f6530ae2fbafa0d29c",
+    "config/dutch_rules.json": "a5e092ded4f3d13d6342af020021cec6696b8635b506b62d6413e63b823faa8f",
+    "config/dutch_sources.json": "825a1b915b0932ad61bed5cd690226e93e54618cfd0f005d9aa5cb93a20fb88b",
+    "dala/language_packs/dutch.py": "53c8e4fa2827504d7cc1f77c3d4eae15e59bb85dc666acd302453a8906ed2a2e",
+    "dala/dynaword.py": "77a7515d5d9737010aa804440df2fd4d8e465ba4d90fea133964d4652493b4ba",
+    "dala/pair_pipeline.py": "e453542889b1b939476fc91f3acd6743ee7344a32897cf0a2c59a64239cdf7b4",
+    "dala/language_check.py": "e49ddf84c58a8504a86a68ec259a0ead04782f946ef6756ed4c9f6e04645faca",
+    "tests/test_dutch.py": "51981b2c9d38cc35c01c4069fb7c43a45d2fe050a42b76ec4988f020ba75aec3"
+  }
+}

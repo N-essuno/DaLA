@@ -1,0 +1,37 @@
+{
+  "language": "it",
+  "paragraphs": 40,
+  "accepted_sources_equal": true,
+  "grammar_candidates_equal": true,
+  "runs": [
+    {
+      "accepted_sources": 17,
+      "grammar_candidates": 32,
+      "candidates": 340,
+      "seconds": 6.1837688179221,
+      "timings": {
+        "tokenize": 1.1534001748077571,
+        "syntax": 4.750517194159329
+      },
+      "rejections": {
+        "parser_overlength_sentence": 6
+      }
+    },
+    {
+      "accepted_sources": 17,
+      "grammar_candidates": 32,
+      "candidates": 340,
+      "seconds": 4.67786982213147,
+      "timings": {
+        "tokenize": 1.1926512878853828,
+        "syntax": 3.4194313171319664
+      },
+      "rejections": {
+        "parser_prefilter_truncated_initial_reference": 1,
+        "parser_overlength_sentence": 6,
+        "parser_prefilter_length": 10,
+        "parser_prefilter_fragment_or_format": 12
+      }
+    }
+  ]
+}

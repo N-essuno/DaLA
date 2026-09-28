@@ -1,0 +1,38 @@
+{
+  "language": "ro",
+  "paragraphs": 40,
+  "accepted_sources_equal": true,
+  "grammar_candidates_equal": true,
+  "runs": [
+    {
+      "accepted_sources": 21,
+      "grammar_candidates": 9,
+      "candidates": 343,
+      "seconds": 4.326102694030851,
+      "timings": {
+        "tokenize": 0.5415982634294778,
+        "syntax": 3.5084329550154507
+      },
+      "rejections": {
+        "parser_overlength_sentence": 1
+      }
+    },
+    {
+      "accepted_sources": 21,
+      "grammar_candidates": 9,
+      "candidates": 343,
+      "seconds": 3.0686128069646657,
+      "timings": {
+        "tokenize": 0.5014785740058869,
+        "syntax": 2.5169877842999995
+      },
+      "rejections": {
+        "parser_prefilter_length": 6,
+        "parser_overlength_sentence": 1,
+        "parser_prefilter_fragment_or_format": 13,
+        "parser_prefilter_source_extraction_risk": 1,
+        "parser_prefilter_punctuation_spacing": 1
+      }
+    }
+  ]
+}

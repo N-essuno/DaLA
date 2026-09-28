@@ -1,0 +1,14 @@
+{
+  "languages": {
+    "cs": [
+      {
+        "family": "verb_person_agreement"
+      }
+    ],
+    "el": [
+      {
+        "family": "verb_person_agreement"
+      }
+    ]
+  }
+}

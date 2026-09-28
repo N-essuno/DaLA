@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-24T10:36:59.370681+00:00",
+  "pid": 1020494,
+  "command": [
+    "/tmp/dala-six-venv/bin/python",
+    "-u",
+    "-m",
+    "scripts.finish_six_language_scale",
+    "--run-id",
+    "recovery_v1",
+    "--review-exclusions",
+    "wiki/artifacts/six-language-expansion/scale_v1/late-review-exclusions.json",
+    "--pair-caps",
+    "nn=478930"
+  ]
+}

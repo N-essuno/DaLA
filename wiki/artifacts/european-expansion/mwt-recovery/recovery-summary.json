@@ -1,0 +1,22 @@
+{
+  "fr": {
+    "recovered_candidates": 83,
+    "checker_passed": 69,
+    "after_agent_source_exclusions": 69
+  },
+  "it": {
+    "recovered_candidates": 111,
+    "checker_passed": 86,
+    "after_agent_source_exclusions": 85
+  },
+  "el": {
+    "recovered_candidates": 5,
+    "checker_passed": 3,
+    "after_agent_source_exclusions": 3
+  },
+  "pt-PT": {
+    "recovered_candidates": 57,
+    "checker_passed": 44,
+    "after_agent_source_exclusions": 42
+  }
+}

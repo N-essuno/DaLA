@@ -1,0 +1,99 @@
+{
+  "language": "de",
+  "source_counts": {
+    "total": 38102,
+    "eligible": 25631
+  },
+  "rules": [
+    {
+      "id": "de_adjective_number_ud",
+      "family": "adjective_number",
+      "active": true,
+      "mappings": 28
+    },
+    {
+      "id": "de_adjective_gender_ud",
+      "family": "adjective_gender",
+      "active": true,
+      "mappings": 102
+    },
+    {
+      "id": "de_adjective_case_ud",
+      "family": "adjective_case",
+      "active": true,
+      "mappings": 17
+    },
+    {
+      "id": "de_determiner_number_ud",
+      "family": "determiner_number",
+      "active": true,
+      "mappings": 2
+    },
+    {
+      "id": "de_determiner_gender_ud",
+      "family": "determiner_gender",
+      "active": true,
+      "mappings": 40
+    },
+    {
+      "id": "de_determiner_case_ud",
+      "family": "determiner_case",
+      "active": true,
+      "mappings": 112
+    },
+    {
+      "id": "de_verb_number_agreement_ud",
+      "family": "verb_number_agreement",
+      "active": true,
+      "mappings": 914
+    },
+    {
+      "id": "de_verb_person_agreement_ud",
+      "family": "verb_person_agreement",
+      "active": true,
+      "mappings": 28
+    },
+    {
+      "id": "de_governed_infinitive_ud",
+      "family": "governed_infinitive",
+      "active": true,
+      "mappings": 564
+    },
+    {
+      "id": "de_perfect_verb_form_ud",
+      "family": "perfect_verb_form",
+      "active": true,
+      "mappings": 417
+    },
+    {
+      "id": "de_preposition_case_dat",
+      "family": "preposition_case",
+      "active": true,
+      "mappings": 8
+    },
+    {
+      "id": "de_preposition_case_acc",
+      "family": "preposition_case",
+      "active": true,
+      "mappings": 2
+    },
+    {
+      "id": "de_spelling_transpose_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0
+    },
+    {
+      "id": "de_spelling_delete_internal",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0
+    },
+    {
+      "id": "de_spelling_substitute_character",
+      "family": "spelling",
+      "active": true,
+      "mappings": 0
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "language": "pl",
+  "exit_code": 0,
+  "log": "wiki/artifacts/six-language-expansion/scaled128_v1/pl.log",
+  "output": "la_output/pl_dynaword_scaled128_v1",
+  "status": "candidate_build_complete_requires_final_audit"
+}

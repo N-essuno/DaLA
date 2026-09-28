@@ -1,0 +1,7 @@
+{
+  "language": "fo",
+  "exit_code": 0,
+  "log": "wiki/artifacts/six-language-expansion/recovery_v1/fo.log",
+  "output": "la_output/fo_dynaword_recovery_v1",
+  "status": "candidate_build_complete_requires_final_audit"
+}

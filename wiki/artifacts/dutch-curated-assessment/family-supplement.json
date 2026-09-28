@@ -1,0 +1,460 @@
+{
+  "method": "Separate coverage supplement: up to five reviewed examples per family including the uniform sample; do not pool for precision estimates",
+  "rows": [
+    {
+      "sample_id": "nl-extra-000",
+      "pair_id": "e6e783100d901e68e671cc0f",
+      "split": "train",
+      "document_id": "68c50f1a6dcf24b65a15ba8f6c6edb748226ec08fd36b1c565d057a9107cc609",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "De normen voor de financiële ratio's van WSW en Aw zijn gericht op behoud van financiële continuïteit en financierbaarheid.",
+      "corrupted": "Het normen voor de financiële ratio's van WSW en Aw zijn gericht op behoud van financiële continuïteit en financierbaarheid.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_number",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            26,
+            27
+          ],
+          "replacement": "Het",
+          "rule_id": "article_number:plural:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: no clear source defect; intended agreement error is valid."
+    },
+    {
+      "sample_id": "nl-extra-001",
+      "pair_id": "7b1dea5a50e91868014fd651",
+      "split": "train",
+      "document_id": "68c50f1a6dcf24b65a15ba8f6c6edb748226ec08fd36b1c565d057a9107cc609",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "De IBW-bedragen geven dus de maximale bedragen per doel weer voor een corporatie.",
+      "corrupted": "Het IBW-bedragen geven dus de maximale bedragen per doel weer voor een corporatie.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_number",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            74,
+            75
+          ],
+          "replacement": "Het",
+          "rule_id": "article_number:plural:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: no clear source defect; intended agreement error is valid."
+    },
+    {
+      "sample_id": "nl-extra-002",
+      "pair_id": "75b1a8459a33fea0ff3b171d",
+      "split": "train",
+      "document_id": "204267323793df1448fc62c2fb5dfc2ff03c7536de71035e490d42cc693abab9",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "De hygiënecodes geven geen instructies voor detaillisten en horeca hoe een dergelijke risicoanalyse uit te voeren.",
+      "corrupted": "Het hygiënecodes geven geen instructies voor detaillisten en horeca hoe een dergelijke risicoanalyse uit te voeren.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_number",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            106,
+            107
+          ],
+          "replacement": "Het",
+          "rule_id": "article_number:plural:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: no clear source defect; intended agreement error is valid."
+    },
+    {
+      "sample_id": "nl-extra-003",
+      "pair_id": "5276be6cd106d97cb53e35a3",
+      "split": "train",
+      "document_id": "7590db4e719ffab0cfe25ad3bcb3efcf9ceea33d7f70d9633e77894130f93026",
+      "source_name": "eurlex",
+      "original": "De evaluatieverslagen zijn door de lidstaten en de Commissie onderzocht in het kader van het Permanent Comité voor de voedselketen en de diergezondheid.",
+      "corrupted": "Het evaluatieverslagen zijn door de lidstaten en de Commissie onderzocht in het kader van het Permanent Comité voor de voedselketen en de diergezondheid.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_number",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            3,
+            4
+          ],
+          "replacement": "Het",
+          "rule_id": "article_number:plural:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: no clear source defect; intended agreement error is valid."
+    },
+    {
+      "sample_id": "nl-extra-004",
+      "pair_id": "80f6775e9bff55df96ee3e97",
+      "split": "train",
+      "document_id": "b287e8092b6aa87d576bab42cb30eb1316b84d327d8b69aad0e742a4740b29e4",
+      "source_name": "eurlex",
+      "original": "De lidstaten passen die bepalingen toe met ingang van 1 april 2001.",
+      "corrupted": "Het lidstaten passen die bepalingen toe met ingang van 1 april 2001.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "article_number",
+          "end": 2,
+          "original": "De",
+          "protected_tokens": [
+            0,
+            1
+          ],
+          "replacement": "Het",
+          "rule_id": "article_number:plural:de>het",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: no clear source defect; intended agreement error is valid."
+    },
+    {
+      "sample_id": "nl-extra-005",
+      "pair_id": "5fe98648ce771246bfe7481a",
+      "split": "train",
+      "document_id": "5c921398c5b7f82f6f4fc4e68a7bcdda9710364c34f21bf12ff9d951326da3c2",
+      "source_name": "eurlex",
+      "original": "Dit verslag is door de lidstaten en de Commissie onderzocht in het kader van het Permanent Comité voor de voedselketen en de diergezondheid.",
+      "corrupted": "Deze verslag is door de lidstaten en de Commissie onderzocht in het kader van het Permanent Comité voor de voedselketen en de diergezondheid.",
+      "edits": [
+        {
+          "corrupted_end": 4,
+          "corrupted_start": 0,
+          "corruption_type": "demonstrative_agreement",
+          "end": 3,
+          "original": "Dit",
+          "protected_tokens": [
+            42,
+            43
+          ],
+          "replacement": "Deze",
+          "rule_id": "demonstrative_agreement:het:dit>deze",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: no clear source defect; intended agreement error is valid."
+    },
+    {
+      "sample_id": "nl-extra-006",
+      "pair_id": "2669b6d01fd887e9a24f6d57",
+      "split": "train",
+      "document_id": "d78918ce5b21b9ba920f815740bdf5004b9a22c9393cb61ba369547801e38f16",
+      "source_name": "eurlex",
+      "original": "Dit criterium is vervuld omdat de concernfinancieringsmaatschappijen actief moeten zijn in een multinationale context, waarbij sprake is van intracommunautair handelsverkeer.",
+      "corrupted": "Deze criterium is vervuld omdat de concernfinancieringsmaatschappijen actief moeten zijn in een multinationale context, waarbij sprake is van intracommunautair handelsverkeer.",
+      "edits": [
+        {
+          "corrupted_end": 4,
+          "corrupted_start": 0,
+          "corruption_type": "demonstrative_agreement",
+          "end": 3,
+          "original": "Dit",
+          "protected_tokens": [
+            23,
+            24
+          ],
+          "replacement": "Deze",
+          "rule_id": "demonstrative_agreement:het:dit>deze",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: no clear source defect; intended agreement error is valid."
+    },
+    {
+      "sample_id": "nl-extra-007",
+      "pair_id": "683916df745392b2e01e7e92",
+      "split": "train",
+      "document_id": "c0a258db75fc82f0715d7c9a3675c4373d1ad5b646389dfc69f8bf39d76cb4d5",
+      "source_name": "eurlex",
+      "original": "Dit standpunt werd niet door het Hof betwist.",
+      "corrupted": "Deze standpunt werd niet door het Hof betwist.",
+      "edits": [
+        {
+          "corrupted_end": 4,
+          "corrupted_start": 0,
+          "corruption_type": "demonstrative_agreement",
+          "end": 3,
+          "original": "Dit",
+          "protected_tokens": [
+            118,
+            119
+          ],
+          "replacement": "Deze",
+          "rule_id": "demonstrative_agreement:het:dit>deze",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: no clear source defect; intended agreement error is valid."
+    },
+    {
+      "sample_id": "nl-extra-008",
+      "pair_id": "1c0aee98011bb12b6635c2a6",
+      "split": "train",
+      "document_id": "b759f116f331778ec557df140dfca5d55731fedea2cadb6705ce20c2dd75bbce",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Dit bedrag heeft impact op de verdachte en doet recht aan de structurele wetsovertredingen.",
+      "corrupted": "Deze bedrag heeft impact op de verdachte en doet recht aan de structurele wetsovertredingen.",
+      "edits": [
+        {
+          "corrupted_end": 4,
+          "corrupted_start": 0,
+          "corruption_type": "demonstrative_agreement",
+          "end": 3,
+          "original": "Dit",
+          "protected_tokens": [
+            12,
+            13
+          ],
+          "replacement": "Deze",
+          "rule_id": "demonstrative_agreement:het:dit>deze",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: no clear source defect; intended agreement error is valid."
+    },
+    {
+      "sample_id": "nl-extra-009",
+      "pair_id": "2b4d5756c64b83ea40dff6dd",
+      "split": "train",
+      "document_id": "58a027fe9b56d3506ff61b495bb8b58f141a847beaf8686181458fde44c45222",
+      "source_name": "eurlex",
+      "original": "Dat verslag gaat in voorkomend geval vergezeld van een voorstel tot wijziging van deze verordening.",
+      "corrupted": "Die verslag gaat in voorkomend geval vergezeld van een voorstel tot wijziging van deze verordening.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "demonstrative_agreement",
+          "end": 3,
+          "original": "Dat",
+          "protected_tokens": [
+            25,
+            26
+          ],
+          "replacement": "Die",
+          "rule_id": "demonstrative_agreement:het:dat>die",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: no clear source defect; intended agreement error is valid."
+    },
+    {
+      "sample_id": "nl-extra-010",
+      "pair_id": "1d414a0a945d04e5233f4ecb",
+      "split": "validation",
+      "document_id": "6e59cd1e6fbf1b816a1b434fe6374695e876c5dd6fe52c5546203d981f983dba",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "In ons onderzoek naar brexit dat we op 10 december 2018 publiceerden, gaven we een overzicht van de verschillende kosten van brexit voor Nederland (stand medio 2018).",
+      "corrupted": "In onze onderzoek naar brexit dat we op 10 december 2018 publiceerden, gaven we een overzicht van de verschillende kosten van brexit voor Nederland (stand medio 2018).",
+      "edits": [
+        {
+          "corrupted_end": 7,
+          "corrupted_start": 3,
+          "corruption_type": "possessive_agreement",
+          "end": 6,
+          "original": "ons",
+          "protected_tokens": [
+            6,
+            7
+          ],
+          "replacement": "onze",
+          "rule_id": "possessive_agreement:ons>onze",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: no clear source defect; intended agreement error is valid."
+    },
+    {
+      "sample_id": "nl-extra-011",
+      "pair_id": "026a18c33221d1e97fd41557",
+      "split": "test",
+      "document_id": "c9e10bd88951c6b9d953c1f6599f28f7c19ecfb3975a94b328ad427515fb6111",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Tegelijkertijd neemt het aantal mensen af dat zich in ons land bezighoudt met het saneren en beheren van verontreinigde locaties.",
+      "corrupted": "Tegelijkertijd neemt het aantal mensen af dat zich in onze land bezighoudt met het saneren en beheren van verontreinigde locaties.",
+      "edits": [
+        {
+          "corrupted_end": 58,
+          "corrupted_start": 54,
+          "corruption_type": "possessive_agreement",
+          "end": 57,
+          "original": "ons",
+          "protected_tokens": [
+            87,
+            88
+          ],
+          "replacement": "onze",
+          "rule_id": "possessive_agreement:ons>onze",
+          "start": 54
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: no clear source defect; intended agreement error is valid."
+    },
+    {
+      "sample_id": "nl-extra-012",
+      "pair_id": "4a82fb29d0196105b36f4be4",
+      "split": "train",
+      "document_id": "64ae4b2bf70ee3300ab0350fd136eefff3081366a38de8ae33f3d2ae5cd4f65b",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Tot besluit onderstrepen wij nog eens onze waardering voor het voornemen van het kabinet om op korte termijn een voorstel te doen voor een Wet op de rijksinspecties.",
+      "corrupted": "Tot besluit onderstrepen wij nog eens ons waardering voor het voornemen van het kabinet om op korte termijn een voorstel te doen voor een Wet op de rijksinspecties.",
+      "edits": [
+        {
+          "corrupted_end": 41,
+          "corrupted_start": 38,
+          "corruption_type": "possessive_agreement",
+          "end": 42,
+          "original": "onze",
+          "protected_tokens": [
+            8,
+            9
+          ],
+          "replacement": "ons",
+          "rule_id": "possessive_agreement:onze>ons",
+          "start": 38
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: no clear source defect; intended agreement error is valid."
+    },
+    {
+      "sample_id": "nl-extra-013",
+      "pair_id": "3929713eb8418f0c1cda22f7",
+      "split": "test",
+      "document_id": "c9e10bd88951c6b9d953c1f6599f28f7c19ecfb3975a94b328ad427515fb6111",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Onze bijdrage aan het Deltaprogramma spoor Ruimtelijke Adaptatie bouwen we uit.",
+      "corrupted": "Ons bijdrage aan het Deltaprogramma spoor Ruimtelijke Adaptatie bouwen we uit.",
+      "edits": [
+        {
+          "corrupted_end": 3,
+          "corrupted_start": 0,
+          "corruption_type": "possessive_agreement",
+          "end": 4,
+          "original": "Onze",
+          "protected_tokens": [
+            162,
+            163
+          ],
+          "replacement": "Ons",
+          "rule_id": "possessive_agreement:onze>ons",
+          "start": 0
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: no clear source defect; intended agreement error is valid."
+    },
+    {
+      "sample_id": "nl-extra-014",
+      "pair_id": "0c028a29b7bc738c884f052a",
+      "split": "train",
+      "document_id": "b759f116f331778ec557df140dfca5d55731fedea2cadb6705ce20c2dd75bbce",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Het bedrag dat ABN AMRO hiermee ten onrechte heeft bespaard, is door het OM bepaald op 180 miljoen euro.",
+      "corrupted": "Het bedrag die ABN AMRO hiermee ten onrechte heeft bespaard, is door het OM bepaald op 180 miljoen euro.",
+      "edits": [
+        {
+          "corrupted_end": 14,
+          "corrupted_start": 11,
+          "corruption_type": "relative_pronoun_agreement",
+          "end": 14,
+          "original": "dat",
+          "protected_tokens": [
+            1,
+            2,
+            9
+          ],
+          "replacement": "die",
+          "rule_id": "relative_pronoun_agreement:inanimate_het",
+          "start": 11
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: no clear source defect; intended agreement error is valid."
+    },
+    {
+      "sample_id": "nl-extra-015",
+      "pair_id": "9d9a420ded023bee0002c9cf",
+      "split": "train",
+      "document_id": "ac67473e7e1f5d5bc0c35f1189dcb881a99b905362fed5f244fb20e1fa90289d",
+      "source_name": "dienst_publiek_en_communicatie",
+      "original": "Ik vind dat preventie ook veel meer onderdeel moet worden van de zorg.",
+      "corrupted": "Ik vindt dat preventie ook veel meer onderdeel moet worden van de zorg.",
+      "edits": [
+        {
+          "corrupted_end": 8,
+          "corrupted_start": 3,
+          "corruption_type": "verb_dt",
+          "end": 7,
+          "original": "vind",
+          "protected_tokens": [
+            0,
+            1
+          ],
+          "replacement": "vindt",
+          "rule_id": "verb_dt:ik:vind>vindt",
+          "start": 3
+        }
+      ],
+      "source_judgment": "acceptable",
+      "intended_edits_judgment": "valid",
+      "notes": "Agent inspection: no clear source defect; intended agreement error is valid."
+    }
+  ],
+  "review": {
+    "reviewer": "Codex agent",
+    "native_speaker_gold": false,
+    "completed_at": "2026-09-22T02:45:03.710211+00:00",
+    "scope": "All 16 supplementary pairs inspected, separately from the uniform sample."
+  }
+}

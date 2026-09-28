@@ -1,0 +1,981 @@
+{
+  "repo": "danish-foundation-models/dutch-dynaword",
+  "revision": "d0158defd949699532e59dea5978c5542afb0400",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 2419
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 261
+    },
+    {
+      "path": ".vscode/settings.json",
+      "bytes": 152
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 827
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 7015
+    },
+    {
+      "path": "README.md",
+      "bytes": 29264
+    },
+    {
+      "path": "data/auditdienstrijk/auditdienstrijk.md",
+      "bytes": 3128
+    },
+    {
+      "path": "data/auditdienstrijk/create.py",
+      "bytes": 4350
+    },
+    {
+      "path": "data/auditdienstrijk/data.parquet",
+      "bytes": 11030765
+    },
+    {
+      "path": "data/auditdienstrijk/descriptive_stats.json",
+      "bytes": 1624
+    },
+    {
+      "path": "data/auditdienstrijk/images/annotation_profile.png",
+      "bytes": 105037
+    },
+    {
+      "path": "data/auditdienstrijk/images/dist_document_length.png",
+      "bytes": 549810
+    },
+    {
+      "path": "data/auditdienstrijk/metadata.parquet",
+      "bytes": 47092
+    },
+    {
+      "path": "data/belgian_journal/belgian_journal.md",
+      "bytes": 4366
+    },
+    {
+      "path": "data/belgian_journal/create.py",
+      "bytes": 4694
+    },
+    {
+      "path": "data/belgian_journal/data.parquet",
+      "bytes": 1495728868
+    },
+    {
+      "path": "data/belgian_journal/descriptive_stats.json",
+      "bytes": 1704
+    },
+    {
+      "path": "data/belgian_journal/images/annotation_profile.png",
+      "bytes": 109156
+    },
+    {
+      "path": "data/belgian_journal/images/dist_document_length.png",
+      "bytes": 189627
+    },
+    {
+      "path": "data/belgian_journal/metadata.parquet",
+      "bytes": 9492732
+    },
+    {
+      "path": "data/c5_filtered/c5_filtered.md",
+      "bytes": 4208
+    },
+    {
+      "path": "data/c5_filtered/create.py",
+      "bytes": 4790
+    },
+    {
+      "path": "data/c5_filtered/data.parquet",
+      "bytes": 97414238
+    },
+    {
+      "path": "data/c5_filtered/descriptive_stats.json",
+      "bytes": 1716
+    },
+    {
+      "path": "data/c5_filtered/images/annotation_profile.png",
+      "bytes": 124869
+    },
+    {
+      "path": "data/c5_filtered/images/dist_document_length.png",
+      "bytes": 188672
+    },
+    {
+      "path": "data/c5_filtered/metadata.parquet",
+      "bytes": 4372686
+    },
+    {
+      "path": "data/dans_knaw/create.py",
+      "bytes": 4772
+    },
+    {
+      "path": "data/dans_knaw/dans_knaw.md",
+      "bytes": 4441
+    },
+    {
+      "path": "data/dans_knaw/data.parquet",
+      "bytes": 48266776
+    },
+    {
+      "path": "data/dans_knaw/descriptive_stats.json",
+      "bytes": 1685
+    },
+    {
+      "path": "data/dans_knaw/images/annotation_profile.png",
+      "bytes": 109768
+    },
+    {
+      "path": "data/dans_knaw/images/dist_document_length.png",
+      "bytes": 193509
+    },
+    {
+      "path": "data/dans_knaw/metadata.parquet",
+      "bytes": 2904641
+    },
+    {
+      "path": "data/de_rechtspraak/create.py",
+      "bytes": 4793
+    },
+    {
+      "path": "data/de_rechtspraak/data.parquet",
+      "bytes": 4430218159
+    },
+    {
+      "path": "data/de_rechtspraak/de_rechtspraak.md",
+      "bytes": 4361
+    },
+    {
+      "path": "data/de_rechtspraak/descriptive_stats.json",
+      "bytes": 1738
+    },
+    {
+      "path": "data/de_rechtspraak/images/annotation_profile.png",
+      "bytes": 113274
+    },
+    {
+      "path": "data/de_rechtspraak/images/dist_document_length.png",
+      "bytes": 192704
+    },
+    {
+      "path": "data/de_rechtspraak/metadata.parquet",
+      "bytes": 47511944
+    },
+    {
+      "path": "data/dienst_publiek_en_communicatie/create.py",
+      "bytes": 4808
+    },
+    {
+      "path": "data/dienst_publiek_en_communicatie/data.parquet",
+      "bytes": 193598039
+    },
+    {
+      "path": "data/dienst_publiek_en_communicatie/descriptive_stats.json",
+      "bytes": 1724
+    },
+    {
+      "path": "data/dienst_publiek_en_communicatie/dienst_publiek_en_communicatie.md",
+      "bytes": 4547
+    },
+    {
+      "path": "data/dienst_publiek_en_communicatie/images/annotation_profile.png",
+      "bytes": 123847
+    },
+    {
+      "path": "data/dienst_publiek_en_communicatie/images/dist_document_length.png",
+      "bytes": 202650
+    },
+    {
+      "path": "data/dienst_publiek_en_communicatie/metadata.parquet",
+      "bytes": 8282546
+    },
+    {
+      "path": "data/eurlex/create.py",
+      "bytes": 4683
+    },
+    {
+      "path": "data/eurlex/data.parquet",
+      "bytes": 176972783
+    },
+    {
+      "path": "data/eurlex/descriptive_stats.json",
+      "bytes": 1671
+    },
+    {
+      "path": "data/eurlex/eurlex.md",
+      "bytes": 4426
+    },
+    {
+      "path": "data/eurlex/images/annotation_profile.png",
+      "bytes": 104831
+    },
+    {
+      "path": "data/eurlex/images/dist_document_length.png",
+      "bytes": 186203
+    },
+    {
+      "path": "data/eurlex/metadata.parquet",
+      "bytes": 2360662
+    },
+    {
+      "path": "data/european_parliament/create.py",
+      "bytes": 4770
+    },
+    {
+      "path": "data/european_parliament/data.parquet",
+      "bytes": 130537623
+    },
+    {
+      "path": "data/european_parliament/descriptive_stats.json",
+      "bytes": 1630
+    },
+    {
+      "path": "data/european_parliament/european_parliament.md",
+      "bytes": 4528
+    },
+    {
+      "path": "data/european_parliament/images/annotation_profile.png",
+      "bytes": 105755
+    },
+    {
+      "path": "data/european_parliament/images/dist_document_length.png",
+      "bytes": 190794
+    },
+    {
+      "path": "data/european_parliament/metadata.parquet",
+      "bytes": 55115
+    },
+    {
+      "path": "data/koninklijke_bibliotheek/create.py",
+      "bytes": 4851
+    },
+    {
+      "path": "data/koninklijke_bibliotheek/data.parquet",
+      "bytes": 5982295445
+    },
+    {
+      "path": "data/koninklijke_bibliotheek/descriptive_stats.json",
+      "bytes": 1778
+    },
+    {
+      "path": "data/koninklijke_bibliotheek/images/annotation_profile.png",
+      "bytes": 125993
+    },
+    {
+      "path": "data/koninklijke_bibliotheek/images/dist_document_length.png",
+      "bytes": 189410
+    },
+    {
+      "path": "data/koninklijke_bibliotheek/koninklijke_bibliotheek.md",
+      "bytes": 4913
+    },
+    {
+      "path": "data/koninklijke_bibliotheek/metadata.parquet",
+      "bytes": 100816792
+    },
+    {
+      "path": "data/nationaal_archief/create.py",
+      "bytes": 4810
+    },
+    {
+      "path": "data/nationaal_archief/data.parquet",
+      "bytes": 2130794703
+    },
+    {
+      "path": "data/nationaal_archief/descriptive_stats.json",
+      "bytes": 1767
+    },
+    {
+      "path": "data/nationaal_archief/images/annotation_profile.png",
+      "bytes": 116773
+    },
+    {
+      "path": "data/nationaal_archief/images/dist_document_length.png",
+      "bytes": 190257
+    },
+    {
+      "path": "data/nationaal_archief/metadata.parquet",
+      "bytes": 79305031
+    },
+    {
+      "path": "data/nationaal_archief/nationaal_archief.md",
+      "bytes": 4381
+    },
+    {
+      "path": "data/naturalis/create.py",
+      "bytes": 4728
+    },
+    {
+      "path": "data/naturalis/data.parquet",
+      "bytes": 32996643
+    },
+    {
+      "path": "data/naturalis/descriptive_stats.json",
+      "bytes": 1660
+    },
+    {
+      "path": "data/naturalis/images/annotation_profile.png",
+      "bytes": 114928
+    },
+    {
+      "path": "data/naturalis/images/dist_document_length.png",
+      "bytes": 189560
+    },
+    {
+      "path": "data/naturalis/metadata.parquet",
+      "bytes": 193727
+    },
+    {
+      "path": "data/naturalis/naturalis.md",
+      "bytes": 4312
+    },
+    {
+      "path": "data/noord_hollands_archief/create.py",
+      "bytes": 4827
+    },
+    {
+      "path": "data/noord_hollands_archief/data.parquet",
+      "bytes": 52210063
+    },
+    {
+      "path": "data/noord_hollands_archief/descriptive_stats.json",
+      "bytes": 1691
+    },
+    {
+      "path": "data/noord_hollands_archief/images/annotation_profile.png",
+      "bytes": 107552
+    },
+    {
+      "path": "data/noord_hollands_archief/images/dist_document_length.png",
+      "bytes": 196208
+    },
+    {
+      "path": "data/noord_hollands_archief/metadata.parquet",
+      "bytes": 2105201
+    },
+    {
+      "path": "data/noord_hollands_archief/noord_hollands_archief.md",
+      "bytes": 4382
+    },
+    {
+      "path": "data/officiele_bekendmakingen/create.py",
+      "bytes": 4900
+    },
+    {
+      "path": "data/officiele_bekendmakingen/data.parquet",
+      "bytes": 6208673298
+    },
+    {
+      "path": "data/officiele_bekendmakingen/descriptive_stats.json",
+      "bytes": 1781
+    },
+    {
+      "path": "data/officiele_bekendmakingen/images/annotation_profile.png",
+      "bytes": 122106
+    },
+    {
+      "path": "data/officiele_bekendmakingen/images/dist_document_length.png",
+      "bytes": 198587
+    },
+    {
+      "path": "data/officiele_bekendmakingen/metadata.parquet",
+      "bytes": 104180504
+    },
+    {
+      "path": "data/officiele_bekendmakingen/officiele_bekendmakingen.md",
+      "bytes": 4810
+    },
+    {
+      "path": "data/openraadsinformatie/create.py",
+      "bytes": 4792
+    },
+    {
+      "path": "data/openraadsinformatie/data.parquet",
+      "bytes": 28756637250
+    },
+    {
+      "path": "data/openraadsinformatie/descriptive_stats.json",
+      "bytes": 1788
+    },
+    {
+      "path": "data/openraadsinformatie/images/annotation_profile.png",
+      "bytes": 124627
+    },
+    {
+      "path": "data/openraadsinformatie/images/dist_document_length.png",
+      "bytes": 188629
+    },
+    {
+      "path": "data/openraadsinformatie/metadata.parquet",
+      "bytes": 157595374
+    },
+    {
+      "path": "data/openraadsinformatie/openraadsinformatie.md",
+      "bytes": 4838
+    },
+    {
+      "path": "data/pbl/create.py",
+      "bytes": 4732
+    },
+    {
+      "path": "data/pbl/data.parquet",
+      "bytes": 30239004
+    },
+    {
+      "path": "data/pbl/descriptive_stats.json",
+      "bytes": 1623
+    },
+    {
+      "path": "data/pbl/images/annotation_profile.png",
+      "bytes": 98504
+    },
+    {
+      "path": "data/pbl/images/dist_document_length.png",
+      "bytes": 179345
+    },
+    {
+      "path": "data/pbl/metadata.parquet",
+      "bytes": 36468
+    },
+    {
+      "path": "data/pbl/pbl.md",
+      "bytes": 4325
+    },
+    {
+      "path": "data/tweede_kamer/create.py",
+      "bytes": 4793
+    },
+    {
+      "path": "data/tweede_kamer/data.parquet",
+      "bytes": 2884520301
+    },
+    {
+      "path": "data/tweede_kamer/descriptive_stats.json",
+      "bytes": 1735
+    },
+    {
+      "path": "data/tweede_kamer/images/annotation_profile.png",
+      "bytes": 120383
+    },
+    {
+      "path": "data/tweede_kamer/images/dist_document_length.png",
+      "bytes": 193893
+    },
+    {
+      "path": "data/tweede_kamer/metadata.parquet",
+      "bytes": 15729490
+    },
+    {
+      "path": "data/tweede_kamer/tweede_kamer.md",
+      "bytes": 4425
+    },
+    {
+      "path": "data/utrechts_archief/create.py",
+      "bytes": 4797
+    },
+    {
+      "path": "data/utrechts_archief/data.parquet",
+      "bytes": 422630876
+    },
+    {
+      "path": "data/utrechts_archief/descriptive_stats.json",
+      "bytes": 1743
+    },
+    {
+      "path": "data/utrechts_archief/images/annotation_profile.png",
+      "bytes": 117714
+    },
+    {
+      "path": "data/utrechts_archief/images/dist_document_length.png",
+      "bytes": 194179
+    },
+    {
+      "path": "data/utrechts_archief/metadata.parquet",
+      "bytes": 25990006
+    },
+    {
+      "path": "data/utrechts_archief/utrechts_archief.md",
+      "bytes": 4549
+    },
+    {
+      "path": "data/wikiwijs/create.py",
+      "bytes": 4682
+    },
+    {
+      "path": "data/wikiwijs/data.parquet",
+      "bytes": 62765348
+    },
+    {
+      "path": "data/wikiwijs/descriptive_stats.json",
+      "bytes": 1716
+    },
+    {
+      "path": "data/wikiwijs/images/annotation_profile.png",
+      "bytes": 115487
+    },
+    {
+      "path": "data/wikiwijs/images/dist_document_length.png",
+      "bytes": 182409
+    },
+    {
+      "path": "data/wikiwijs/metadata.parquet",
+      "bytes": 7213743
+    },
+    {
+      "path": "data/wikiwijs/wikiwijs.md",
+      "bytes": 4462
+    },
+    {
+      "path": "data/woogle/create.py",
+      "bytes": 4708
+    },
+    {
+      "path": "data/woogle/data.parquet",
+      "bytes": 6295913850
+    },
+    {
+      "path": "data/woogle/descriptive_stats.json",
+      "bytes": 1793
+    },
+    {
+      "path": "data/woogle/images/annotation_profile.png",
+      "bytes": 120131
+    },
+    {
+      "path": "data/woogle/images/dist_document_length.png",
+      "bytes": 192022
+    },
+    {
+      "path": "data/woogle/metadata.parquet",
+      "bytes": 230136049
+    },
+    {
+      "path": "data/woogle/woogle.md",
+      "bytes": 4538
+    },
+    {
+      "path": "data/zeeuws_archief/create.py",
+      "bytes": 4703
+    },
+    {
+      "path": "data/zeeuws_archief/data.parquet",
+      "bytes": 81438631
+    },
+    {
+      "path": "data/zeeuws_archief/descriptive_stats.json",
+      "bytes": 1696
+    },
+    {
+      "path": "data/zeeuws_archief/images/annotation_profile.png",
+      "bytes": 113696
+    },
+    {
+      "path": "data/zeeuws_archief/images/dist_document_length.png",
+      "bytes": 197952
+    },
+    {
+      "path": "data/zeeuws_archief/metadata.parquet",
+      "bytes": 1750086
+    },
+    {
+      "path": "data/zeeuws_archief/zeeuws_archief.md",
+      "bytes": 4360
+    },
+    {
+      "path": "descriptive_stats.json",
+      "bytes": 1828
+    },
+    {
+      "path": "docs/icon.png",
+      "bytes": 56349
+    },
+    {
+      "path": "images/annotation_profile.png",
+      "bytes": 130479
+    },
+    {
+      "path": "images/dataset_size_plot.html",
+      "bytes": 4307934
+    },
+    {
+      "path": "images/dataset_size_plot.svg",
+      "bytes": 33868
+    },
+    {
+      "path": "images/domain_distribution.png",
+      "bytes": 278578
+    },
+    {
+      "path": "images/tokens_over_time.html",
+      "bytes": 8631
+    },
+    {
+      "path": "images/tokens_over_time.svg",
+      "bytes": 8857
+    },
+    {
+      "path": "makefile",
+      "bytes": 721
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 1048
+    },
+    {
+      "path": "src/dynaword/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "src/dynaword/annotations/__init__.py",
+      "bytes": 62
+    },
+    {
+      "path": "src/dynaword/annotations/annotation_stats.py",
+      "bytes": 2481
+    },
+    {
+      "path": "src/dynaword/annotations/inference.py",
+      "bytes": 926
+    },
+    {
+      "path": "src/dynaword/annotations/propella.py",
+      "bytes": 37977
+    },
+    {
+      "path": "src/dynaword/annotations/property_descriptions.md",
+      "bytes": 58883
+    },
+    {
+      "path": "src/dynaword/bump_version.py",
+      "bytes": 1699
+    },
+    {
+      "path": "src/dynaword/dataset_structure.py",
+      "bytes": 729
+    },
+    {
+      "path": "src/dynaword/datasheet.py",
+      "bytes": 10851
+    },
+    {
+      "path": "src/dynaword/descriptive_stats.py",
+      "bytes": 3660
+    },
+    {
+      "path": "src/dynaword/paths.py",
+      "bytes": 189
+    },
+    {
+      "path": "src/dynaword/plots/annotation_profile_plots.py",
+      "bytes": 6736
+    },
+    {
+      "path": "src/dynaword/plots/descriptive_statistics_plots.py",
+      "bytes": 1120
+    },
+    {
+      "path": "src/dynaword/plots/plot_tokens_over_time.py",
+      "bytes": 7665
+    },
+    {
+      "path": "src/dynaword/plots/plots_dataset_size.py",
+      "bytes": 4314
+    },
+    {
+      "path": "src/dynaword/process_dataset.py",
+      "bytes": 2105
+    },
+    {
+      "path": "src/dynaword/tables.py",
+      "bytes": 6841
+    },
+    {
+      "path": "src/dynaword/typings.py",
+      "bytes": 495
+    },
+    {
+      "path": "src/dynaword/update_descriptive_statistics.py",
+      "bytes": 6092
+    },
+    {
+      "path": "src/tests/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "src/tests/conftest.py",
+      "bytes": 352
+    },
+    {
+      "path": "src/tests/test_annotations.py",
+      "bytes": 2050
+    },
+    {
+      "path": "src/tests/test_dataset_schema.py",
+      "bytes": 1922
+    },
+    {
+      "path": "src/tests/test_datasheets.py",
+      "bytes": 2048
+    },
+    {
+      "path": "src/tests/test_load.py",
+      "bytes": 916
+    },
+    {
+      "path": "src/tests/test_quality/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "src/tests/test_quality/test_duplicates.py",
+      "bytes": 688
+    },
+    {
+      "path": "src/tests/test_quality/test_short_texts.py",
+      "bytes": 615
+    },
+    {
+      "path": "src/tests/test_unique_ids.py",
+      "bytes": 454
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 199651
+    }
+  ],
+  "card_data": {
+    "annotations_creators": [
+      "machine-generated"
+    ],
+    "language_creators": [
+      "crowdsourced"
+    ],
+    "language": [
+      "nl"
+    ],
+    "license": "cc0-1.0",
+    "multilinguality": [
+      "monolingual"
+    ],
+    "source_datasets": [
+      "original"
+    ],
+    "task_categories": [
+      "text-generation"
+    ],
+    "task_ids": [
+      "language-modeling"
+    ],
+    "pretty_name": "Dutch Dynaword",
+    "tags": [
+      "text-corpus",
+      "continual-development",
+      "community-collaboration",
+      "synthetic-annotations"
+    ],
+    "configs": [
+      {
+        "config_name": "default",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/*/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "meta",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/*/metadata.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "auditdienstrijk",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/auditdienstrijk/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "pbl",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/pbl/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "naturalis",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/naturalis/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "european_parliament",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/european_parliament/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "zeeuws_archief",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/zeeuws_archief/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "noord_hollands_archief",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/noord_hollands_archief/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "utrechts_archief",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/utrechts_archief/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "dans_knaw",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/dans_knaw/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "wikiwijs",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/wikiwijs/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "c5_filtered",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/c5_filtered/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "eurlex",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/eurlex/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "dienst_publiek_en_communicatie",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/dienst_publiek_en_communicatie/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "belgian_journal",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/belgian_journal/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "nationaal_archief",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/nationaal_archief/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "tweede_kamer",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/tweede_kamer/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "de_rechtspraak",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/de_rechtspraak/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "koninklijke_bibliotheek",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/koninklijke_bibliotheek/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "officiele_bekendmakingen",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/officiele_bekendmakingen/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "woogle",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/woogle/data.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "openraadsinformatie",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/openraadsinformatie/data.parquet"
+          }
+        ]
+      }
+    ]
+  }
+}

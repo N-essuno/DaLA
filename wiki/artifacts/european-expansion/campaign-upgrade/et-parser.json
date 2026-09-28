@@ -1,0 +1,34 @@
+{
+  "language": "et",
+  "paragraphs": 40,
+  "accepted_sources_equal": true,
+  "grammar_candidates_equal": true,
+  "runs": [
+    {
+      "accepted_sources": 24,
+      "grammar_candidates": 21,
+      "candidates": 428,
+      "seconds": 3.7906164810992777,
+      "timings": {
+        "tokenize": 0.5014994570519775,
+        "syntax": 2.923029845347628
+      },
+      "rejections": {}
+    },
+    {
+      "accepted_sources": 24,
+      "grammar_candidates": 21,
+      "candidates": 428,
+      "seconds": 2.7526286949869245,
+      "timings": {
+        "tokenize": 0.449760596267879,
+        "syntax": 2.253751471173018
+      },
+      "rejections": {
+        "parser_prefilter_fragment_or_format": 6,
+        "parser_prefilter_source_extraction_risk": 3,
+        "parser_prefilter_length": 19
+      }
+    }
+  ]
+}

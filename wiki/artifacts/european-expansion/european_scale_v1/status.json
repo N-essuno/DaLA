@@ -1,0 +1,287 @@
+{
+  "timestamp": "2026-09-26T13:12:37.151635+00:00",
+  "epoch": 1790428357.1146567,
+  "supervisor_pid": 2754181,
+  "parser_workers": 160,
+  "configured_parser_workers": 192,
+  "pairs": 1735863,
+  "languages": {
+    "ca": {
+      "phase": "generating",
+      "pid": 2754196,
+      "parser_workers": 16,
+      "configured_parser_workers": 16,
+      "pairs": 101433,
+      "splits": {
+        "train": 80121,
+        "validation": 10656,
+        "test": 10656
+      },
+      "processed_batches": 8502,
+      "counts": {
+        "documents": 67560,
+        "paragraphs": 668245,
+        "sentences": 1337122,
+        "candidates": 185885,
+        "document_fragments": 68016
+      },
+      "exit_code": null,
+      "interval_retained_pairs": 15096,
+      "pairs_per_second": 12.237
+    },
+    "cs": {
+      "phase": "generating",
+      "pid": 2754197,
+      "parser_workers": 16,
+      "configured_parser_workers": 16,
+      "pairs": 123504,
+      "splits": {
+        "train": 98605,
+        "validation": 12519,
+        "test": 12380
+      },
+      "processed_batches": 7862,
+      "counts": {
+        "documents": 62520,
+        "paragraphs": 672904,
+        "sentences": 1493078,
+        "candidates": 125698,
+        "document_fragments": 62896
+      },
+      "exit_code": null,
+      "interval_retained_pairs": 17042,
+      "pairs_per_second": 13.815
+    },
+    "de": {
+      "phase": "generating",
+      "pid": 2754198,
+      "parser_workers": 16,
+      "configured_parser_workers": 16,
+      "pairs": 219834,
+      "splits": {
+        "train": 175269,
+        "test": 22182,
+        "validation": 22383
+      },
+      "processed_batches": 5828,
+      "counts": {
+        "documents": 46195,
+        "paragraphs": 622260,
+        "sentences": 1405903,
+        "candidates": 223546,
+        "document_fragments": 46624
+      },
+      "exit_code": null,
+      "interval_retained_pairs": 32529,
+      "pairs_per_second": 26.369
+    },
+    "el": {
+      "phase": "generating",
+      "pid": 2754199,
+      "parser_workers": 16,
+      "configured_parser_workers": 16,
+      "pairs": 14954,
+      "splits": {
+        "train": 11943,
+        "test": 1466,
+        "validation": 1545
+      },
+      "processed_batches": 8362,
+      "counts": {
+        "documents": 66206,
+        "paragraphs": 765124,
+        "sentences": 1696511,
+        "candidates": 20529,
+        "document_fragments": 66896
+      },
+      "exit_code": null,
+      "interval_retained_pairs": 2007,
+      "pairs_per_second": 1.627
+    },
+    "es": {
+      "phase": "generating",
+      "pid": 2754200,
+      "parser_workers": 16,
+      "configured_parser_workers": 16,
+      "pairs": 120002,
+      "splits": {
+        "validation": 12069,
+        "train": 96246,
+        "test": 11687
+      },
+      "processed_batches": 7732,
+      "counts": {
+        "documents": 61203,
+        "paragraphs": 729418,
+        "sentences": 1402232,
+        "candidates": 206809,
+        "document_fragments": 61856
+      },
+      "exit_code": null,
+      "interval_retained_pairs": 18605,
+      "pairs_per_second": 15.082
+    },
+    "et": {
+      "phase": "generating",
+      "pid": 2754201,
+      "parser_workers": 16,
+      "configured_parser_workers": 16,
+      "pairs": 368902,
+      "splits": {
+        "train": 292732,
+        "validation": 38556,
+        "test": 37614
+      },
+      "processed_batches": 11472,
+      "counts": {
+        "documents": 91368,
+        "paragraphs": 816193,
+        "sentences": 1552076,
+        "candidates": 374360,
+        "document_fragments": 91776
+      },
+      "exit_code": null,
+      "interval_retained_pairs": 53384,
+      "pairs_per_second": 43.275
+    },
+    "fi": {
+      "phase": "complete",
+      "pid": null,
+      "parser_workers": 0,
+      "configured_parser_workers": 16,
+      "pairs": 478930,
+      "splits": {
+        "train": 383144,
+        "validation": 47893,
+        "test": 47893
+      },
+      "processed_batches": 9877,
+      "counts": {
+        "documents": 78807,
+        "paragraphs": 579061,
+        "sentences": 1344155,
+        "candidates": 486347,
+        "document_fragments": 79016
+      },
+      "exit_code": 0,
+      "interval_retained_pairs": 0,
+      "pairs_per_second": 0.0
+    },
+    "fr": {
+      "phase": "generating",
+      "pid": 2754203,
+      "parser_workers": 16,
+      "configured_parser_workers": 16,
+      "pairs": 46010,
+      "splits": {
+        "train": 36238,
+        "test": 5052,
+        "validation": 4720
+      },
+      "processed_batches": 2313,
+      "counts": {
+        "documents": 18310,
+        "paragraphs": 251089,
+        "sentences": 439472,
+        "candidates": 74505,
+        "document_fragments": 18504
+      },
+      "exit_code": null,
+      "interval_retained_pairs": 6446,
+      "pairs_per_second": 5.225
+    },
+    "it": {
+      "phase": "generating",
+      "pid": 2754204,
+      "parser_workers": 16,
+      "configured_parser_workers": 16,
+      "pairs": 31043,
+      "splits": {
+        "train": 24752,
+        "test": 3173,
+        "validation": 3118
+      },
+      "processed_batches": 7943,
+      "counts": {
+        "documents": 62946,
+        "paragraphs": 698135,
+        "sentences": 1185676,
+        "candidates": 57209,
+        "document_fragments": 63544
+      },
+      "exit_code": null,
+      "interval_retained_pairs": 4111,
+      "pairs_per_second": 3.333
+    },
+    "ro": {
+      "phase": "generating",
+      "pid": 2754206,
+      "parser_workers": 16,
+      "configured_parser_workers": 16,
+      "pairs": 63213,
+      "splits": {
+        "train": 51000,
+        "validation": 5675,
+        "test": 6538
+      },
+      "processed_batches": 9198,
+      "counts": {
+        "documents": 73106,
+        "paragraphs": 596116,
+        "sentences": 1019746,
+        "candidates": 134544,
+        "document_fragments": 73584
+      },
+      "exit_code": null,
+      "interval_retained_pairs": 9163,
+      "pairs_per_second": 7.428
+    },
+    "uk": {
+      "phase": "generating",
+      "pid": 2754207,
+      "parser_workers": 16,
+      "configured_parser_workers": 16,
+      "pairs": 63326,
+      "splits": {
+        "train": 50003,
+        "validation": 6467,
+        "test": 6856
+      },
+      "processed_batches": 3621,
+      "counts": {
+        "documents": 28844,
+        "paragraphs": 290755,
+        "sentences": 551000,
+        "candidates": 82439,
+        "document_fragments": 28968
+      },
+      "exit_code": null,
+      "interval_retained_pairs": 8165,
+      "pairs_per_second": 6.619
+    },
+    "pt-PT": {
+      "phase": "complete",
+      "pid": null,
+      "parser_workers": 0,
+      "configured_parser_workers": 16,
+      "pairs": 104712,
+      "splits": {
+        "train": 85494,
+        "test": 8984,
+        "validation": 10234
+      },
+      "processed_batches": 1490,
+      "counts": {
+        "documents": 991,
+        "paragraphs": 703359,
+        "sentences": 2209072,
+        "candidates": 117512,
+        "document_fragments": 11917
+      },
+      "exit_code": 0,
+      "interval_retained_pairs": 3244,
+      "pairs_per_second": 2.63
+    }
+  },
+  "interval_seconds": 1233.5859932899475
+}

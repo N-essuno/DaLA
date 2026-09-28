@@ -1,0 +1,47 @@
+{
+  "sha": "f0d4a4dfaec45b1f4a0ba0a1db1298f3d64af503",
+  "url": "https://api.github.com/repos/unimorph/ces/git/trees/f0d4a4dfaec45b1f4a0ba0a1db1298f3d64af503",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faa339d74cdc6299441c892b32d561dffa32118e",
+      "size": 1629,
+      "url": "https://api.github.com/repos/unimorph/ces/git/blobs/faa339d74cdc6299441c892b32d561dffa32118e"
+    },
+    {
+      "path": "ces",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35cd593ca12b871b05e6f616e18af99990b4bbb1",
+      "size": 4875289,
+      "url": "https://api.github.com/repos/unimorph/ces/git/blobs/35cd593ca12b871b05e6f616e18af99990b4bbb1"
+    },
+    {
+      "path": "ces.derivations",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2af5e879b5e50d3e69d57f8e1c6fd2475b3d9a6",
+      "size": 960590,
+      "url": "https://api.github.com/repos/unimorph/ces/git/blobs/f2af5e879b5e50d3e69d57f8e1c6fd2475b3d9a6"
+    },
+    {
+      "path": "ces.segmentations",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94e210fd03bc7a4dfe4b46c72a6d130689381744",
+      "size": 42449858,
+      "url": "https://api.github.com/repos/unimorph/ces/git/blobs/94e210fd03bc7a4dfe4b46c72a6d130689381744"
+    },
+    {
+      "path": "ces.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67ce426b4d6e4b511497b51f8302f0a60d6b1b90",
+      "size": 134,
+      "url": "https://api.github.com/repos/unimorph/ces/git/blobs/67ce426b4d6e4b511497b51f8302f0a60d6b1b90"
+    }
+  ],
+  "truncated": false
+}

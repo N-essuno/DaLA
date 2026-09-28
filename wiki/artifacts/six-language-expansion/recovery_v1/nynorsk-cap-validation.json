@@ -1,0 +1,26 @@
+{
+  "at": "2026-09-24T10:40:52.179995+00:00",
+  "pairs": 478930,
+  "split_pairs": {
+    "train": 383144,
+    "validation": 47893,
+    "test": 47893
+  },
+  "full_pool_pairs": 871199,
+  "full_pool": "la_output/nn_dynaword_recovery_v1",
+  "full_pool_manifest_unchanged": true,
+  "capped_output": "la_output/nynorsk_capped_478930/nn",
+  "validation": {
+    "pairs": 478930,
+    "unique_documents": 87041,
+    "exact_edit_reconstruction": true,
+    "correction_roundtrip": true,
+    "document_split_isolation": true,
+    "exported_text_unique": true,
+    "at_most_one_grammar_edit": true,
+    "artifact_checksums": true,
+    "task_views_match_pairs": true,
+    "balanced_labels": true,
+    "source_provenance_consistent": true
+  }
+}

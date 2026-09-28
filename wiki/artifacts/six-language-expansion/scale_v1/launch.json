@@ -1,0 +1,16 @@
+{
+  "pid": 527516,
+  "started_at": "2026-09-24T06:31:26.811785+00:00",
+  "log": "/tmp/dala-six-scale-v1.log",
+  "parser_processes": 100,
+  "languages": [
+    "pl",
+    "sv",
+    "nb",
+    "nn",
+    "fo",
+    "is"
+  ],
+  "quality_status": "candidate_rule_and_dictionary_screened",
+  "uploaded": false
+}

@@ -1,0 +1,21 @@
+{
+  "method": "Exact paragraph eligibility under current source and paragraph filters; no sentence/checker eligibility claim. No corpus text rewritten.",
+  "counts": {
+    "dienst_publiek_en_communicatie": {
+      "documents": 2969,
+      "eligible_paragraphs_uncapped": 101185,
+      "eligible_paragraphs_cap12": 32862,
+      "eligible_paragraphs_cap24": 53318,
+      "eligible_paragraphs_cap48": 70463,
+      "documents_above12": 2221
+    },
+    "eurlex": {
+      "documents": 7304,
+      "eligible_paragraphs_uncapped": 632390,
+      "eligible_paragraphs_cap12": 87639,
+      "eligible_paragraphs_cap24": 169753,
+      "eligible_paragraphs_cap48": 277777,
+      "documents_above12": 7296
+    }
+  }
+}

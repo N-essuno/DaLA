@@ -1,0 +1,60 @@
+{
+  "root": "/work/mimir/DaLA/la_output/tools/LanguageTool-6.6/org/languagetool/rules",
+  "languages": [
+    {
+      "language": "de",
+      "source_language": "de",
+      "file": "de/grammar.xml",
+      "sha256": "405d14a0b92454abb0c6a02ef1b9ec5d543f4373305ddb3bbfbc4a47f8e49b64"
+    },
+    {
+      "language": "fr",
+      "source_language": "fr",
+      "file": "fr/grammar.xml",
+      "sha256": "6b17081d9ebfeb25ad034e666949e82c11f198aa5b8ba3e98eddc37aa650c7cf"
+    },
+    {
+      "language": "es",
+      "source_language": "es",
+      "file": "es/grammar.xml",
+      "sha256": "5ed8940aa786a0357fff5616cb3332a623d1ca8114b898a24f8bb76e61e30ae2"
+    },
+    {
+      "language": "it",
+      "source_language": "it",
+      "file": "it/grammar.xml",
+      "sha256": "df860863c51949b141c69149518914e7e1d3c36fc590f7c1a3817374cdfd7ffb"
+    },
+    {
+      "language": "pt-PT",
+      "source_language": "pt",
+      "file": "pt/grammar.xml",
+      "sha256": "02636232d3fb2bd15adc9be26506ef6abf4d8ac2ab59e2dd23f99ed4f6f77407"
+    },
+    {
+      "language": "ca",
+      "source_language": "ca",
+      "file": "ca/grammar.xml",
+      "sha256": "d1b18b77d4d5200c881ea1c8f2b9bc010d38f64e7e0b58e45b3a0241e02ad7be"
+    },
+    {
+      "language": "el",
+      "source_language": "el",
+      "file": "el/grammar.xml",
+      "sha256": "4b74b9e37c8a9f23266ad9547641781732dcc7bf4e60b94622c322dd45bfe249"
+    },
+    {
+      "language": "ro",
+      "source_language": "ro",
+      "file": "ro/grammar.xml",
+      "sha256": "924650ae0517eb008bb25d8692afff355d9f5f374a0e77a323716ae6813cf145"
+    },
+    {
+      "language": "uk",
+      "source_language": "uk",
+      "file": "uk/grammar.xml",
+      "sha256": "4e3a74d9e7f275ca5a66bfeff48312d52293e7007eaeda7565455b48e3735675"
+    }
+  ],
+  "runtime_receipt": "la_output/tools/runtime.json"
+}

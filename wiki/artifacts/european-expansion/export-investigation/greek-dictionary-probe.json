@@ -1,0 +1,69 @@
+{
+  "recorded_at": "2026-09-26T18:28:07.996225+00:00",
+  "method": "MorphologyPack with european_scale_v2/el/profile.json; direct dictionary.lookup(surface) versus dictionary.lookup(surface.casefold()); results transcribed from completed diagnostic process",
+  "results": [
+    {
+      "surface": "της",
+      "casefold": "τησ",
+      "surface_dictionary": true,
+      "casefold_dictionary": false,
+      "current_recognized_casefold": false
+    },
+    {
+      "surface": "τις",
+      "casefold": "τισ",
+      "surface_dictionary": true,
+      "casefold_dictionary": false,
+      "current_recognized_casefold": false
+    },
+    {
+      "surface": "τους",
+      "casefold": "τουσ",
+      "surface_dictionary": true,
+      "casefold_dictionary": false,
+      "current_recognized_casefold": false
+    },
+    {
+      "surface": "ως",
+      "casefold": "ωσ",
+      "surface_dictionary": true,
+      "casefold_dictionary": false,
+      "current_recognized_casefold": false
+    },
+    {
+      "surface": "επίσης",
+      "casefold": "επίσησ",
+      "surface_dictionary": true,
+      "casefold_dictionary": false,
+      "current_recognized_casefold": false
+    },
+    {
+      "surface": "όπως",
+      "casefold": "όπωσ",
+      "surface_dictionary": true,
+      "casefold_dictionary": false,
+      "current_recognized_casefold": false
+    },
+    {
+      "surface": "καθώς",
+      "casefold": "καθώσ",
+      "surface_dictionary": true,
+      "casefold_dictionary": false,
+      "current_recognized_casefold": false
+    },
+    {
+      "surface": "προς",
+      "casefold": "προσ",
+      "surface_dictionary": true,
+      "casefold_dictionary": false,
+      "current_recognized_casefold": false
+    },
+    {
+      "surface": "πόλης",
+      "casefold": "πόλησ",
+      "surface_dictionary": true,
+      "casefold_dictionary": false,
+      "current_recognized_casefold": false
+    }
+  ]
+}

@@ -1,0 +1,2656 @@
+{
+  "ca": {
+    "language": "ca",
+    "recipe": {
+      "language": "ca",
+      "resource": "cat",
+      "files": [
+        "cat"
+      ],
+      "tags": {
+        "N": {
+          "pos": "NOUN"
+        },
+        "ADJ": {
+          "pos": "ADJ"
+        },
+        "V": {
+          "pos": "VERB"
+        },
+        "V.PTCP": {
+          "pos": "VERB",
+          "VerbForm": "Part"
+        },
+        "V.CVB": {
+          "pos": "VERB",
+          "VerbForm": "Conv"
+        },
+        "PTCP": {
+          "VerbForm": "Part"
+        },
+        "NFIN": {
+          "VerbForm": "Inf"
+        },
+        "SG": {
+          "Number": "Sing"
+        },
+        "PL": {
+          "Number": "Plur"
+        },
+        "MASC": {
+          "Gender": "Masc"
+        },
+        "FEM": {
+          "Gender": "Fem"
+        },
+        "NEUT": {
+          "Gender": "Neut"
+        },
+        "MASC+NEUT": {
+          "Gender": "Masc,Neut"
+        },
+        "MASC+FEM": {
+          "Gender": "Fem,Masc"
+        },
+        "FEM+NEUT": {
+          "Gender": "Fem,Neut"
+        },
+        "MASC+FEM+NEUT": {
+          "Gender": "Fem,Masc,Neut"
+        },
+        "FEM+MASC": {
+          "Gender": "Fem,Masc"
+        },
+        "NOM": {
+          "Case": "Nom"
+        },
+        "ACC": {
+          "Case": "Acc"
+        },
+        "GEN": {
+          "Case": "Gen"
+        },
+        "DAT": {
+          "Case": "Dat"
+        },
+        "VOC": {
+          "Case": "Voc"
+        },
+        "1": {
+          "Person": "1"
+        },
+        "2": {
+          "Person": "2"
+        },
+        "3": {
+          "Person": "3"
+        },
+        "IND": {
+          "Mood": "Ind"
+        },
+        "SBJV": {
+          "Mood": "Sub"
+        },
+        "COND": {
+          "Mood": "Cnd"
+        },
+        "IMP": {
+          "Mood": "Imp"
+        },
+        "QUOT": {
+          "Mood": "Qot"
+        },
+        "PRS": {
+          "Tense": "Pres"
+        },
+        "PST": {
+          "Tense": "Past"
+        },
+        "FUT": {
+          "Tense": "Fut"
+        },
+        "IPFV": {
+          "Aspect": "Imp"
+        },
+        "PFV": {
+          "Aspect": "Perf"
+        },
+        "PRF": {
+          "Aspect": "Perf"
+        },
+        "ACT": {
+          "Voice": "Act"
+        },
+        "PASS": {
+          "Voice": "Pass"
+        },
+        "POS": {
+          "Polarity": "Pos"
+        },
+        "NEG": {
+          "Polarity": "Neg"
+        },
+        "DEF": {
+          "Definite": "Def"
+        },
+        "INDF": {
+          "Definite": "Ind"
+        },
+        "CMPR": {
+          "Degree": "Cmp"
+        },
+        "SPRL": {
+          "Degree": "Sup"
+        },
+        "ANIM": {
+          "Animacy": "Anim"
+        },
+        "INAN": {
+          "Animacy": "Inan"
+        }
+      },
+      "conditions": [
+        {
+          "all": [
+            "V"
+          ],
+          "none": [
+            "NFIN",
+            "PTCP"
+          ],
+          "set": {
+            "VerbForm": "Fin"
+          }
+        }
+      ],
+      "defaults": {
+        "ADJ": {
+          "Degree": "Pos"
+        }
+      },
+      "scope": "UD training lemmas only; dictionary screening remains mandatory; unknown tags veto-only",
+      "references": [
+        "https://unimorph.github.io/doc/unimorph-schema.pdf",
+        "https://github.com/unimorph/cat",
+        "https://universaldependencies.org/ca/index.html"
+      ]
+    },
+    "upstream": {
+      "revision": "5fe904e0fb37867b4d9e6099fd0798aeeba37d14",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/cat/5fe904e0fb37867b4d9e6099fd0798aeeba37d14/README.md",
+          "sha256": "eb4bea8ebd955beaecf201b39bbfba186060111bff31222c1d75f5b36186568c",
+          "bytes": 95
+        },
+        {
+          "file": "cat",
+          "url": "https://raw.githubusercontent.com/unimorph/cat/5fe904e0fb37867b4d9e6099fd0798aeeba37d14/cat",
+          "sha256": "22d8ec53f9f6bb40ad97619c01961ca60c0c046804173a9f395c6bf54194ca15",
+          "bytes": 2902458
+        }
+      ]
+    },
+    "counts": {
+      "blank_or_nonrecord_lines": 1,
+      "rows": 81576,
+      "generation_eligible": 41474,
+      "outside_training_lemma_inventory": 40101,
+      "not_single_alphabetic_word": 1
+    },
+    "unmapped_tags": {},
+    "distinct_lemmas": 788,
+    "sha256": "8dc9915ec9d206981ee9f273f8baa67b913b9e89a1aac740bbc0e7b6fd7ccbef",
+    "status": "descriptive lexical evidence; not normative or human validated"
+  },
+  "cs": {
+    "language": "cs",
+    "recipe": {
+      "language": "cs",
+      "resource": "ces",
+      "files": [
+        "ces"
+      ],
+      "tags": {
+        "N": {
+          "pos": "NOUN"
+        },
+        "ADJ": {
+          "pos": "ADJ"
+        },
+        "V": {
+          "pos": "VERB"
+        },
+        "V.PTCP": {
+          "pos": "VERB",
+          "VerbForm": "Part"
+        },
+        "V.CVB": {
+          "pos": "VERB",
+          "VerbForm": "Conv"
+        },
+        "PTCP": {
+          "VerbForm": "Part"
+        },
+        "NFIN": {
+          "VerbForm": "Inf"
+        },
+        "SG": {
+          "Number": "Sing"
+        },
+        "PL": {
+          "Number": "Plur"
+        },
+        "MASC": {
+          "Gender": "Masc"
+        },
+        "FEM": {
+          "Gender": "Fem"
+        },
+        "NEUT": {
+          "Gender": "Neut"
+        },
+        "MASC+NEUT": {
+          "Gender": "Masc,Neut"
+        },
+        "MASC+FEM": {
+          "Gender": "Fem,Masc"
+        },
+        "FEM+NEUT": {
+          "Gender": "Fem,Neut"
+        },
+        "MASC+FEM+NEUT": {
+          "Gender": "Fem,Masc,Neut"
+        },
+        "FEM+MASC": {
+          "Gender": "Fem,Masc"
+        },
+        "NOM": {
+          "Case": "Nom"
+        },
+        "ACC": {
+          "Case": "Acc"
+        },
+        "GEN": {
+          "Case": "Gen"
+        },
+        "DAT": {
+          "Case": "Dat"
+        },
+        "VOC": {
+          "Case": "Voc"
+        },
+        "1": {
+          "Person": "1"
+        },
+        "2": {
+          "Person": "2"
+        },
+        "3": {
+          "Person": "3"
+        },
+        "IND": {
+          "Mood": "Ind"
+        },
+        "SBJV": {
+          "Mood": "Sub"
+        },
+        "COND": {
+          "Mood": "Cnd"
+        },
+        "IMP": {
+          "Mood": "Imp"
+        },
+        "QUOT": {
+          "Mood": "Qot"
+        },
+        "PRS": {
+          "Tense": "Pres"
+        },
+        "PST": {
+          "Tense": "Past"
+        },
+        "FUT": {
+          "Tense": "Fut"
+        },
+        "IPFV": {
+          "Aspect": "Imp"
+        },
+        "PFV": {
+          "Aspect": "Perf"
+        },
+        "PRF": {
+          "Aspect": "Perf"
+        },
+        "ACT": {
+          "Voice": "Act"
+        },
+        "PASS": {
+          "Voice": "Pass"
+        },
+        "POS": {
+          "Polarity": "Pos"
+        },
+        "NEG": {
+          "Polarity": "Neg"
+        },
+        "DEF": {
+          "Definite": "Def"
+        },
+        "INDF": {
+          "Definite": "Ind"
+        },
+        "CMPR": {
+          "Degree": "Cmp"
+        },
+        "SPRL": {
+          "Degree": "Sup"
+        },
+        "ANIM": {
+          "Animacy": "Anim"
+        },
+        "INAN": {
+          "Animacy": "Inan"
+        },
+        "ESS": {
+          "Case": "Loc"
+        },
+        "INS": {
+          "Case": "Ins"
+        }
+      },
+      "conditions": [
+        {
+          "all": [
+            "V"
+          ],
+          "none": [
+            "NFIN",
+            "PTCP"
+          ],
+          "set": {
+            "VerbForm": "Fin"
+          }
+        }
+      ],
+      "defaults": {
+        "ADJ": {
+          "Degree": "Pos"
+        }
+      },
+      "scope": "UD training lemmas only; dictionary screening remains mandatory; unknown tags veto-only",
+      "references": [
+        "https://unimorph.github.io/doc/unimorph-schema.pdf",
+        "https://github.com/unimorph/ces",
+        "https://universaldependencies.org/cs/index.html"
+      ]
+    },
+    "upstream": {
+      "revision": "f0d4a4dfaec45b1f4a0ba0a1db1298f3d64af503",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/ces/f0d4a4dfaec45b1f4a0ba0a1db1298f3d64af503/README.md",
+          "sha256": "0f17b2d9f89b84bc8c054f0b2f9a2116414dcf7d324c2d0ef77ec7ca99a806f8",
+          "bytes": 1629
+        },
+        {
+          "file": "ces",
+          "url": "https://raw.githubusercontent.com/unimorph/ces/f0d4a4dfaec45b1f4a0ba0a1db1298f3d64af503/ces",
+          "sha256": "4c0a1841a78d45cfa8a3f447943f9c2135baa9c986ae9de0ba704b3d99da5d42",
+          "bytes": 4875289
+        }
+      ]
+    },
+    "counts": {
+      "blank_or_nonrecord_lines": 1,
+      "rows": 134527,
+      "generation_eligible": 62820,
+      "outside_training_lemma_inventory": 57060,
+      "not_single_alphabetic_word": 14247,
+      "veto_only_unknown_tags": 400
+    },
+    "unmapped_tags": {
+      "FORM": 400
+    },
+    "distinct_lemmas": 3013,
+    "sha256": "c38c44e267e897a755f323b6fbb99427e5977dae935315a8e09b7af9a01ec1ab",
+    "status": "descriptive lexical evidence; not normative or human validated"
+  },
+  "de": {
+    "language": "de",
+    "recipe": {
+      "language": "de",
+      "resource": "deu",
+      "files": [
+        "deu"
+      ],
+      "tags": {
+        "N": {
+          "pos": "NOUN"
+        },
+        "ADJ": {
+          "pos": "ADJ"
+        },
+        "V": {
+          "pos": "VERB"
+        },
+        "V.PTCP": {
+          "pos": "VERB",
+          "VerbForm": "Part"
+        },
+        "V.CVB": {
+          "pos": "VERB",
+          "VerbForm": "Conv"
+        },
+        "PTCP": {
+          "VerbForm": "Part"
+        },
+        "NFIN": {
+          "VerbForm": "Inf"
+        },
+        "SG": {
+          "Number": "Sing"
+        },
+        "PL": {
+          "Number": "Plur"
+        },
+        "MASC": {
+          "Gender": "Masc"
+        },
+        "FEM": {
+          "Gender": "Fem"
+        },
+        "NEUT": {
+          "Gender": "Neut"
+        },
+        "MASC+NEUT": {
+          "Gender": "Masc,Neut"
+        },
+        "MASC+FEM": {
+          "Gender": "Fem,Masc"
+        },
+        "FEM+NEUT": {
+          "Gender": "Fem,Neut"
+        },
+        "MASC+FEM+NEUT": {
+          "Gender": "Fem,Masc,Neut"
+        },
+        "FEM+MASC": {
+          "Gender": "Fem,Masc"
+        },
+        "NOM": {
+          "Case": "Nom"
+        },
+        "ACC": {
+          "Case": "Acc"
+        },
+        "GEN": {
+          "Case": "Gen"
+        },
+        "DAT": {
+          "Case": "Dat"
+        },
+        "VOC": {
+          "Case": "Voc"
+        },
+        "1": {
+          "Person": "1"
+        },
+        "2": {
+          "Person": "2"
+        },
+        "3": {
+          "Person": "3"
+        },
+        "IND": {
+          "Mood": "Ind"
+        },
+        "SBJV": {
+          "Mood": "Sub"
+        },
+        "COND": {
+          "Mood": "Cnd"
+        },
+        "IMP": {
+          "Mood": "Imp"
+        },
+        "QUOT": {
+          "Mood": "Qot"
+        },
+        "PRS": {
+          "Tense": "Pres"
+        },
+        "PST": {
+          "Tense": "Past"
+        },
+        "FUT": {
+          "Tense": "Fut"
+        },
+        "IPFV": {
+          "Aspect": "Imp"
+        },
+        "PFV": {
+          "Aspect": "Perf"
+        },
+        "PRF": {
+          "Aspect": "Perf"
+        },
+        "ACT": {
+          "Voice": "Act"
+        },
+        "PASS": {
+          "Voice": "Pass"
+        },
+        "POS": {
+          "Polarity": "Pos"
+        },
+        "NEG": {
+          "Polarity": "Neg"
+        },
+        "DEF": {
+          "Definite": "Def"
+        },
+        "INDF": {
+          "Definite": "Ind"
+        },
+        "CMPR": {
+          "Degree": "Cmp"
+        },
+        "SPRL": {
+          "Degree": "Sup"
+        },
+        "ANIM": {
+          "Animacy": "Anim"
+        },
+        "INAN": {
+          "Animacy": "Inan"
+        }
+      },
+      "conditions": [
+        {
+          "all": [
+            "V"
+          ],
+          "none": [
+            "NFIN",
+            "PTCP"
+          ],
+          "set": {
+            "VerbForm": "Fin"
+          }
+        }
+      ],
+      "defaults": {
+        "ADJ": {
+          "Degree": "Pos"
+        }
+      },
+      "scope": "UD training lemmas only; dictionary screening remains mandatory; unknown tags veto-only",
+      "references": [
+        "https://unimorph.github.io/doc/unimorph-schema.pdf",
+        "https://github.com/unimorph/deu",
+        "https://universaldependencies.org/de/index.html"
+      ]
+    },
+    "upstream": {
+      "revision": "d226d2112d3490d8f04ece10d4538123d4297a39",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/deu/d226d2112d3490d8f04ece10d4538123d4297a39/README.md",
+          "sha256": "b682a65551700b916de2ea47e149583df7a6b6c4105504caec1c6ee3b8c84f88",
+          "bytes": 515
+        },
+        {
+          "file": "deu",
+          "url": "https://raw.githubusercontent.com/unimorph/deu/d226d2112d3490d8f04ece10d4538123d4297a39/deu",
+          "sha256": "8bc98487e3caf86188e2c072ebf2dc734f2ca35afef016bb399eb5a43e69d7c0",
+          "bytes": 18932560
+        }
+      ]
+    },
+    "counts": {
+      "rows": 519143,
+      "outside_training_lemma_inventory": 389632,
+      "generation_eligible": 105193,
+      "not_single_alphabetic_word": 23542,
+      "veto_only_unknown_tags": 776
+    },
+    "unmapped_tags": {
+      "LGSPEC01": 776
+    },
+    "distinct_lemmas": 7039,
+    "sha256": "0f7be0c7383e668667aa3fe187efa77e2299bfc35f8d34391da287199a0ff377",
+    "status": "descriptive lexical evidence; not normative or human validated"
+  },
+  "el": {
+    "language": "el",
+    "recipe": {
+      "language": "el",
+      "resource": "ell",
+      "files": [
+        "ell"
+      ],
+      "tags": {
+        "N": {
+          "pos": "NOUN"
+        },
+        "ADJ": {
+          "pos": "ADJ"
+        },
+        "V": {
+          "pos": "VERB"
+        },
+        "V.PTCP": {
+          "pos": "VERB",
+          "VerbForm": "Part"
+        },
+        "V.CVB": {
+          "pos": "VERB",
+          "VerbForm": "Conv"
+        },
+        "PTCP": {
+          "VerbForm": "Part"
+        },
+        "NFIN": {
+          "VerbForm": "Inf"
+        },
+        "SG": {
+          "Number": "Sing"
+        },
+        "PL": {
+          "Number": "Plur"
+        },
+        "MASC": {
+          "Gender": "Masc"
+        },
+        "FEM": {
+          "Gender": "Fem"
+        },
+        "NEUT": {
+          "Gender": "Neut"
+        },
+        "MASC+NEUT": {
+          "Gender": "Masc,Neut"
+        },
+        "MASC+FEM": {
+          "Gender": "Fem,Masc"
+        },
+        "FEM+NEUT": {
+          "Gender": "Fem,Neut"
+        },
+        "MASC+FEM+NEUT": {
+          "Gender": "Fem,Masc,Neut"
+        },
+        "FEM+MASC": {
+          "Gender": "Fem,Masc"
+        },
+        "NOM": {
+          "Case": "Nom"
+        },
+        "ACC": {
+          "Case": "Acc"
+        },
+        "GEN": {
+          "Case": "Gen"
+        },
+        "DAT": {
+          "Case": "Dat"
+        },
+        "VOC": {
+          "Case": "Voc"
+        },
+        "1": {
+          "Person": "1"
+        },
+        "2": {
+          "Person": "2"
+        },
+        "3": {
+          "Person": "3"
+        },
+        "IND": {
+          "Mood": "Ind"
+        },
+        "SBJV": {
+          "Mood": "Sub"
+        },
+        "COND": {
+          "Mood": "Cnd"
+        },
+        "IMP": {
+          "Mood": "Imp"
+        },
+        "QUOT": {
+          "Mood": "Qot"
+        },
+        "PRS": {
+          "Tense": "Pres"
+        },
+        "PST": {
+          "Tense": "Past"
+        },
+        "FUT": {
+          "Tense": "Fut"
+        },
+        "IPFV": {
+          "Aspect": "Imp"
+        },
+        "PFV": {
+          "Aspect": "Perf"
+        },
+        "PRF": {
+          "Aspect": "Perf"
+        },
+        "ACT": {
+          "Voice": "Act"
+        },
+        "PASS": {
+          "Voice": "Pass"
+        },
+        "POS": {
+          "Polarity": "Pos"
+        },
+        "NEG": {
+          "Polarity": "Neg"
+        },
+        "DEF": {
+          "Definite": "Def"
+        },
+        "INDF": {
+          "Definite": "Ind"
+        },
+        "CMPR": {
+          "Degree": "Cmp"
+        },
+        "SPRL": {
+          "Degree": "Sup"
+        },
+        "ANIM": {
+          "Animacy": "Anim"
+        },
+        "INAN": {
+          "Animacy": "Inan"
+        }
+      },
+      "conditions": [
+        {
+          "all": [
+            "V"
+          ],
+          "none": [
+            "NFIN",
+            "PTCP"
+          ],
+          "set": {
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "all": [
+            "V"
+          ],
+          "none": [
+            "NFIN",
+            "PTCP",
+            "SBJV",
+            "IMP",
+            "COND"
+          ],
+          "set": {
+            "Mood": "Ind"
+          }
+        }
+      ],
+      "defaults": {
+        "ADJ": {
+          "Degree": "Pos"
+        }
+      },
+      "scope": "UD training lemmas only; dictionary screening remains mandatory; unknown tags veto-only",
+      "references": [
+        "https://unimorph.github.io/doc/unimorph-schema.pdf",
+        "https://github.com/unimorph/ell",
+        "https://universaldependencies.org/el/index.html"
+      ]
+    },
+    "upstream": {
+      "revision": "fce1186efc7c8036fe2b6a13c110c2f2cd140e38",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/ell/fce1186efc7c8036fe2b6a13c110c2f2cd140e38/README.md",
+          "sha256": "667e15934d85cc0a311118d3f004c9e299052a25653b0db7eaf9ca931effc451",
+          "bytes": 105
+        },
+        {
+          "file": "ell",
+          "url": "https://raw.githubusercontent.com/unimorph/ell/fce1186efc7c8036fe2b6a13c110c2f2cd140e38/ell",
+          "sha256": "68f71b889fa29d31d975ebbc29f9f0f1b3a2dd6cca4f40a21b2c06f443811941",
+          "bytes": 11222248
+        }
+      ]
+    },
+    "counts": {
+      "rows": 199757,
+      "outside_training_lemma_inventory": 176536,
+      "blank_or_nonrecord_lines": 12166,
+      "generation_eligible": 12911,
+      "not_single_alphabetic_word": 9254,
+      "veto_only_unknown_tags": 1056
+    },
+    "unmapped_tags": {
+      "AB": 1056
+    },
+    "distinct_lemmas": 931,
+    "sha256": "805f9e55a12a5ced53664d35a293480f6476fed5a6080aaa02c29c36c1e52e95",
+    "status": "descriptive lexical evidence; not normative or human validated"
+  },
+  "es": {
+    "language": "es",
+    "recipe": {
+      "language": "es",
+      "resource": "spa",
+      "files": [
+        "spa"
+      ],
+      "tags": {
+        "N": {
+          "pos": "NOUN"
+        },
+        "ADJ": {
+          "pos": "ADJ"
+        },
+        "V": {
+          "pos": "VERB"
+        },
+        "V.PTCP": {
+          "pos": "VERB",
+          "VerbForm": "Part"
+        },
+        "V.CVB": {
+          "pos": "VERB",
+          "VerbForm": "Conv"
+        },
+        "PTCP": {
+          "VerbForm": "Part"
+        },
+        "NFIN": {
+          "VerbForm": "Inf"
+        },
+        "SG": {
+          "Number": "Sing"
+        },
+        "PL": {
+          "Number": "Plur"
+        },
+        "MASC": {
+          "Gender": "Masc"
+        },
+        "FEM": {
+          "Gender": "Fem"
+        },
+        "NEUT": {
+          "Gender": "Neut"
+        },
+        "MASC+NEUT": {
+          "Gender": "Masc,Neut"
+        },
+        "MASC+FEM": {
+          "Gender": "Fem,Masc"
+        },
+        "FEM+NEUT": {
+          "Gender": "Fem,Neut"
+        },
+        "MASC+FEM+NEUT": {
+          "Gender": "Fem,Masc,Neut"
+        },
+        "FEM+MASC": {
+          "Gender": "Fem,Masc"
+        },
+        "NOM": {
+          "Case": "Nom"
+        },
+        "ACC": {
+          "Case": "Acc"
+        },
+        "GEN": {
+          "Case": "Gen"
+        },
+        "DAT": {
+          "Case": "Dat"
+        },
+        "VOC": {
+          "Case": "Voc"
+        },
+        "1": {
+          "Person": "1"
+        },
+        "2": {
+          "Person": "2"
+        },
+        "3": {
+          "Person": "3"
+        },
+        "IND": {
+          "Mood": "Ind"
+        },
+        "SBJV": {
+          "Mood": "Sub"
+        },
+        "COND": {
+          "Mood": "Cnd"
+        },
+        "IMP": {
+          "Mood": "Imp"
+        },
+        "QUOT": {
+          "Mood": "Qot"
+        },
+        "PRS": {
+          "Tense": "Pres"
+        },
+        "PST": {
+          "Tense": "Past"
+        },
+        "FUT": {
+          "Tense": "Fut"
+        },
+        "IPFV": {
+          "Aspect": "Imp"
+        },
+        "PFV": {
+          "Aspect": "Perf"
+        },
+        "PRF": {
+          "Aspect": "Perf"
+        },
+        "ACT": {
+          "Voice": "Act"
+        },
+        "PASS": {
+          "Voice": "Pass"
+        },
+        "POS": {
+          "Polarity": "Pos"
+        },
+        "NEG": {
+          "Polarity": "Neg"
+        },
+        "DEF": {
+          "Definite": "Def"
+        },
+        "INDF": {
+          "Definite": "Ind"
+        },
+        "CMPR": {
+          "Degree": "Cmp"
+        },
+        "SPRL": {
+          "Degree": "Sup"
+        },
+        "ANIM": {
+          "Animacy": "Anim"
+        },
+        "INAN": {
+          "Animacy": "Inan"
+        }
+      },
+      "conditions": [
+        {
+          "all": [
+            "V"
+          ],
+          "none": [
+            "NFIN",
+            "PTCP"
+          ],
+          "set": {
+            "VerbForm": "Fin"
+          }
+        }
+      ],
+      "defaults": {
+        "ADJ": {
+          "Degree": "Pos"
+        }
+      },
+      "scope": "UD training lemmas only; dictionary screening remains mandatory; unknown tags veto-only",
+      "references": [
+        "https://unimorph.github.io/doc/unimorph-schema.pdf",
+        "https://github.com/unimorph/spa",
+        "https://universaldependencies.org/es/index.html"
+      ]
+    },
+    "upstream": {
+      "revision": "b9655efb0e5ce0f99809badaa7f4e93017ab8430",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/spa/b9655efb0e5ce0f99809badaa7f4e93017ab8430/README.md",
+          "sha256": "261c426050d5320d2a3ce1e03f6fc091cbf42857d772cb0f6532811200dd9824",
+          "bytes": 439
+        },
+        {
+          "file": "spa",
+          "url": "https://raw.githubusercontent.com/unimorph/spa/b9655efb0e5ce0f99809badaa7f4e93017ab8430/spa",
+          "sha256": "7a165d4b44eb078d23964f3eee3813f5140c5df0ffab0143c806c562e67f8771",
+          "bytes": 50335761
+        }
+      ]
+    },
+    "counts": {
+      "rows": 1196245,
+      "outside_training_lemma_inventory": 900971,
+      "generation_eligible": 85541,
+      "veto_only_unknown_tags": 201771,
+      "not_single_alphabetic_word": 7962
+    },
+    "unmapped_tags": {
+      "INFM": 58740,
+      "FORM": 54139,
+      "LGSPEC1": 11082,
+      "LGSPEC2": 11082,
+      "PRO": 146311,
+      "MASC+MASC": 1
+    },
+    "distinct_lemmas": 8655,
+    "sha256": "efdaac0bde8c8a235e8a125c8872bdad10f73782faa5be245da28d1501cee78c",
+    "status": "descriptive lexical evidence; not normative or human validated"
+  },
+  "et": {
+    "language": "et",
+    "recipe": {
+      "language": "et",
+      "resource": "est",
+      "files": [
+        "est"
+      ],
+      "tags": {
+        "N": {
+          "pos": "NOUN"
+        },
+        "ADJ": {
+          "pos": "ADJ"
+        },
+        "V": {
+          "pos": "VERB"
+        },
+        "V.PTCP": {
+          "pos": "VERB",
+          "VerbForm": "Part"
+        },
+        "V.CVB": {
+          "pos": "VERB",
+          "VerbForm": "Conv"
+        },
+        "PTCP": {
+          "VerbForm": "Part"
+        },
+        "NFIN": {
+          "VerbForm": "Inf"
+        },
+        "SG": {
+          "Number": "Sing"
+        },
+        "PL": {
+          "Number": "Plur"
+        },
+        "MASC": {
+          "Gender": "Masc"
+        },
+        "FEM": {
+          "Gender": "Fem"
+        },
+        "NEUT": {
+          "Gender": "Neut"
+        },
+        "MASC+NEUT": {
+          "Gender": "Masc,Neut"
+        },
+        "MASC+FEM": {
+          "Gender": "Fem,Masc"
+        },
+        "FEM+NEUT": {
+          "Gender": "Fem,Neut"
+        },
+        "MASC+FEM+NEUT": {
+          "Gender": "Fem,Masc,Neut"
+        },
+        "FEM+MASC": {
+          "Gender": "Fem,Masc"
+        },
+        "NOM": {
+          "Case": "Nom"
+        },
+        "ACC": {
+          "Case": "Acc"
+        },
+        "GEN": {
+          "Case": "Gen"
+        },
+        "DAT": {
+          "Case": "Dat"
+        },
+        "VOC": {
+          "Case": "Voc"
+        },
+        "1": {
+          "Person": "1"
+        },
+        "2": {
+          "Person": "2"
+        },
+        "3": {
+          "Person": "3"
+        },
+        "IND": {
+          "Mood": "Ind"
+        },
+        "SBJV": {
+          "Mood": "Sub"
+        },
+        "COND": {
+          "Mood": "Cnd"
+        },
+        "IMP": {
+          "Mood": "Imp"
+        },
+        "QUOT": {
+          "Mood": "Qot"
+        },
+        "PRS": {
+          "Tense": "Pres"
+        },
+        "PST": {
+          "Tense": "Past"
+        },
+        "FUT": {
+          "Tense": "Fut"
+        },
+        "IPFV": {
+          "Aspect": "Imp"
+        },
+        "PFV": {
+          "Aspect": "Perf"
+        },
+        "PRF": {
+          "Aspect": "Perf"
+        },
+        "ACT": {
+          "Voice": "Act"
+        },
+        "PASS": {
+          "Voice": "Pass"
+        },
+        "POS": {
+          "Polarity": "Pos"
+        },
+        "NEG": {
+          "Polarity": "Neg"
+        },
+        "DEF": {
+          "Definite": "Def"
+        },
+        "INDF": {
+          "Definite": "Ind"
+        },
+        "CMPR": {
+          "Degree": "Cmp"
+        },
+        "SPRL": {
+          "Degree": "Sup"
+        },
+        "ANIM": {
+          "Animacy": "Anim"
+        },
+        "INAN": {
+          "Animacy": "Inan"
+        },
+        "IN+ESS": {
+          "Case": "Ine"
+        },
+        "IN+ALL": {
+          "Case": "Ill"
+        },
+        "IN+ABL": {
+          "Case": "Ela"
+        },
+        "AT+ESS": {
+          "Case": "Ade"
+        },
+        "AT+ALL": {
+          "Case": "All"
+        },
+        "AT+ABL": {
+          "Case": "Abl"
+        },
+        "PRT": {
+          "Case": "Par"
+        },
+        "FRML": {
+          "Case": "Ess"
+        },
+        "PRIV": {
+          "Case": "Abe"
+        },
+        "TERM": {
+          "Case": "Ter"
+        },
+        "TRANS": {
+          "Case": "Tra"
+        },
+        "COM": {
+          "Case": "Com"
+        },
+        "INS": {
+          "Case": "Ins"
+        },
+        "PSS1S": {
+          "Person[psor]": "1",
+          "Number[psor]": "Sing"
+        },
+        "PSS2S": {
+          "Person[psor]": "2",
+          "Number[psor]": "Sing"
+        },
+        "PSS1P": {
+          "Person[psor]": "1",
+          "Number[psor]": "Plur"
+        },
+        "PSS2P": {
+          "Person[psor]": "2",
+          "Number[psor]": "Plur"
+        },
+        "PSS3": {
+          "Person[psor]": "3"
+        }
+      },
+      "conditions": [
+        {
+          "all": [
+            "V"
+          ],
+          "none": [
+            "NFIN",
+            "PTCP"
+          ],
+          "set": {
+            "VerbForm": "Fin"
+          }
+        }
+      ],
+      "defaults": {
+        "ADJ": {
+          "Degree": "Pos"
+        }
+      },
+      "scope": "UD training lemmas only; dictionary screening remains mandatory; unknown tags veto-only",
+      "references": [
+        "https://unimorph.github.io/doc/unimorph-schema.pdf",
+        "https://github.com/unimorph/est",
+        "https://universaldependencies.org/et/index.html"
+      ]
+    },
+    "upstream": {
+      "revision": "97663990872e6bbc06701839d33462833676ebc2",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/est/97663990872e6bbc06701839d33462833676ebc2/README.md",
+          "sha256": "dee0ff4e57b5133dcfed8ff147aae36fad03814cab6997de3f4aa921ee58e9c7",
+          "bytes": 96
+        },
+        {
+          "file": "est",
+          "url": "https://raw.githubusercontent.com/unimorph/est/97663990872e6bbc06701839d33462833676ebc2/est",
+          "sha256": "602b778567b4607514ee380152fe8a6ccd70dbc15190339f7f5a6d9a710b899f",
+          "bytes": 1397385
+        }
+      ]
+    },
+    "counts": {
+      "rows": 38215,
+      "not_single_alphabetic_word": 9333,
+      "generation_eligible": 16992,
+      "blank_or_nonrecord_lines": 890,
+      "outside_training_lemma_inventory": 11890
+    },
+    "unmapped_tags": {},
+    "distinct_lemmas": 541,
+    "sha256": "2d34bcf3bcfd94498d02593fb036f5689b079a9bb4fb1f369734cccd5cabe40f",
+    "status": "descriptive lexical evidence; not normative or human validated"
+  },
+  "fi": {
+    "language": "fi",
+    "recipe": {
+      "language": "fi",
+      "resource": "fin",
+      "files": [
+        "fin.1",
+        "fin.2"
+      ],
+      "tags": {
+        "N": {
+          "pos": "NOUN"
+        },
+        "ADJ": {
+          "pos": "ADJ"
+        },
+        "V": {
+          "pos": "VERB"
+        },
+        "V.PTCP": {
+          "pos": "VERB",
+          "VerbForm": "Part"
+        },
+        "V.CVB": {
+          "pos": "VERB",
+          "VerbForm": "Conv"
+        },
+        "PTCP": {
+          "VerbForm": "Part"
+        },
+        "NFIN": {
+          "VerbForm": "Inf"
+        },
+        "SG": {
+          "Number": "Sing"
+        },
+        "PL": {
+          "Number": "Plur"
+        },
+        "MASC": {
+          "Gender": "Masc"
+        },
+        "FEM": {
+          "Gender": "Fem"
+        },
+        "NEUT": {
+          "Gender": "Neut"
+        },
+        "MASC+NEUT": {
+          "Gender": "Masc,Neut"
+        },
+        "MASC+FEM": {
+          "Gender": "Fem,Masc"
+        },
+        "FEM+NEUT": {
+          "Gender": "Fem,Neut"
+        },
+        "MASC+FEM+NEUT": {
+          "Gender": "Fem,Masc,Neut"
+        },
+        "FEM+MASC": {
+          "Gender": "Fem,Masc"
+        },
+        "NOM": {
+          "Case": "Nom"
+        },
+        "ACC": {
+          "Case": "Acc"
+        },
+        "GEN": {
+          "Case": "Gen"
+        },
+        "DAT": {
+          "Case": "Dat"
+        },
+        "VOC": {
+          "Case": "Voc"
+        },
+        "1": {
+          "Person": "1"
+        },
+        "2": {
+          "Person": "2"
+        },
+        "3": {
+          "Person": "3"
+        },
+        "IND": {
+          "Mood": "Ind"
+        },
+        "SBJV": {
+          "Mood": "Sub"
+        },
+        "COND": {
+          "Mood": "Cnd"
+        },
+        "IMP": {
+          "Mood": "Imp"
+        },
+        "QUOT": {
+          "Mood": "Qot"
+        },
+        "PRS": {
+          "Tense": "Pres"
+        },
+        "PST": {
+          "Tense": "Past"
+        },
+        "FUT": {
+          "Tense": "Fut"
+        },
+        "IPFV": {
+          "Aspect": "Imp"
+        },
+        "PFV": {
+          "Aspect": "Perf"
+        },
+        "PRF": {
+          "Aspect": "Perf"
+        },
+        "ACT": {
+          "Voice": "Act"
+        },
+        "PASS": {
+          "Voice": "Pass"
+        },
+        "POS": {
+          "Polarity": "Pos"
+        },
+        "NEG": {
+          "Polarity": "Neg"
+        },
+        "DEF": {
+          "Definite": "Def"
+        },
+        "INDF": {
+          "Definite": "Ind"
+        },
+        "CMPR": {
+          "Degree": "Cmp"
+        },
+        "SPRL": {
+          "Degree": "Sup"
+        },
+        "ANIM": {
+          "Animacy": "Anim"
+        },
+        "INAN": {
+          "Animacy": "Inan"
+        },
+        "IN+ESS": {
+          "Case": "Ine"
+        },
+        "IN+ALL": {
+          "Case": "Ill"
+        },
+        "IN+ABL": {
+          "Case": "Ela"
+        },
+        "AT+ESS": {
+          "Case": "Ade"
+        },
+        "AT+ALL": {
+          "Case": "All"
+        },
+        "AT+ABL": {
+          "Case": "Abl"
+        },
+        "PRT": {
+          "Case": "Par"
+        },
+        "FRML": {
+          "Case": "Ess"
+        },
+        "PRIV": {
+          "Case": "Abe"
+        },
+        "TERM": {
+          "Case": "Ter"
+        },
+        "TRANS": {
+          "Case": "Tra"
+        },
+        "COM": {
+          "Case": "Com"
+        },
+        "INS": {
+          "Case": "Ins"
+        },
+        "PSS1S": {
+          "Person[psor]": "1",
+          "Number[psor]": "Sing"
+        },
+        "PSS2S": {
+          "Person[psor]": "2",
+          "Number[psor]": "Sing"
+        },
+        "PSS1P": {
+          "Person[psor]": "1",
+          "Number[psor]": "Plur"
+        },
+        "PSS2P": {
+          "Person[psor]": "2",
+          "Number[psor]": "Plur"
+        },
+        "PSS3": {
+          "Person[psor]": "3"
+        }
+      },
+      "conditions": [
+        {
+          "all": [
+            "V"
+          ],
+          "none": [
+            "NFIN",
+            "PTCP"
+          ],
+          "set": {
+            "VerbForm": "Fin"
+          }
+        }
+      ],
+      "defaults": {
+        "ADJ": {
+          "Degree": "Pos"
+        }
+      },
+      "scope": "UD training lemmas only; dictionary screening remains mandatory; unknown tags veto-only",
+      "references": [
+        "https://unimorph.github.io/doc/unimorph-schema.pdf",
+        "https://github.com/unimorph/fin",
+        "https://universaldependencies.org/fi/index.html"
+      ]
+    },
+    "upstream": {
+      "revision": "fe0a2707244ed2ce2fe5d92a4a57c92271b32e1f",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/fin/fe0a2707244ed2ce2fe5d92a4a57c92271b32e1f/README.md",
+          "sha256": "8c92f184ac54618b416118ca790867669877e474858e8cd7427168f534d36cba",
+          "bytes": 95
+        },
+        {
+          "file": "fin.1",
+          "url": "https://raw.githubusercontent.com/unimorph/fin/fe0a2707244ed2ce2fe5d92a4a57c92271b32e1f/fin.1",
+          "sha256": "0aaebec5dfc5493840321b4457873a3b5b8d4ee0b507c4f13304de3c85a3095f",
+          "bytes": 56591018
+        },
+        {
+          "file": "fin.2",
+          "url": "https://raw.githubusercontent.com/unimorph/fin/fe0a2707244ed2ce2fe5d92a4a57c92271b32e1f/fin.2",
+          "sha256": "94c4808def5f9ff60d1ff5b9051b7ace44ec55d818aff9cfd83896a1f4446cb3",
+          "bytes": 59005468
+        }
+      ]
+    },
+    "counts": {
+      "rows": 2737048,
+      "generation_eligible": 224830,
+      "outside_training_lemma_inventory": 2314852,
+      "not_single_alphabetic_word": 172078,
+      "veto_only_unknown_tags": 25288
+    },
+    "unmapped_tags": {
+      "POT": 11800,
+      "ACT+PASS": 1686,
+      "AG": 1686,
+      "4": 6744,
+      "5": 3372
+    },
+    "distinct_lemmas": 5884,
+    "sha256": "8c0da6c40cb7b73970d424e60b2529cd508e7cdab98a491aeaf5230d595d1e93",
+    "status": "descriptive lexical evidence; not normative or human validated"
+  },
+  "fr": {
+    "language": "fr",
+    "recipe": {
+      "language": "fr",
+      "resource": "fra",
+      "files": [
+        "fra"
+      ],
+      "tags": {
+        "N": {
+          "pos": "NOUN"
+        },
+        "ADJ": {
+          "pos": "ADJ"
+        },
+        "V": {
+          "pos": "VERB"
+        },
+        "V.PTCP": {
+          "pos": "VERB",
+          "VerbForm": "Part"
+        },
+        "V.CVB": {
+          "pos": "VERB",
+          "VerbForm": "Conv"
+        },
+        "PTCP": {
+          "VerbForm": "Part"
+        },
+        "NFIN": {
+          "VerbForm": "Inf"
+        },
+        "SG": {
+          "Number": "Sing"
+        },
+        "PL": {
+          "Number": "Plur"
+        },
+        "MASC": {
+          "Gender": "Masc"
+        },
+        "FEM": {
+          "Gender": "Fem"
+        },
+        "NEUT": {
+          "Gender": "Neut"
+        },
+        "MASC+NEUT": {
+          "Gender": "Masc,Neut"
+        },
+        "MASC+FEM": {
+          "Gender": "Fem,Masc"
+        },
+        "FEM+NEUT": {
+          "Gender": "Fem,Neut"
+        },
+        "MASC+FEM+NEUT": {
+          "Gender": "Fem,Masc,Neut"
+        },
+        "FEM+MASC": {
+          "Gender": "Fem,Masc"
+        },
+        "NOM": {
+          "Case": "Nom"
+        },
+        "ACC": {
+          "Case": "Acc"
+        },
+        "GEN": {
+          "Case": "Gen"
+        },
+        "DAT": {
+          "Case": "Dat"
+        },
+        "VOC": {
+          "Case": "Voc"
+        },
+        "1": {
+          "Person": "1"
+        },
+        "2": {
+          "Person": "2"
+        },
+        "3": {
+          "Person": "3"
+        },
+        "IND": {
+          "Mood": "Ind"
+        },
+        "SBJV": {
+          "Mood": "Sub"
+        },
+        "COND": {
+          "Mood": "Cnd"
+        },
+        "IMP": {
+          "Mood": "Imp"
+        },
+        "QUOT": {
+          "Mood": "Qot"
+        },
+        "PRS": {
+          "Tense": "Pres"
+        },
+        "PST": {
+          "Tense": "Past"
+        },
+        "FUT": {
+          "Tense": "Fut"
+        },
+        "IPFV": {
+          "Aspect": "Imp"
+        },
+        "PFV": {
+          "Aspect": "Perf"
+        },
+        "PRF": {
+          "Aspect": "Perf"
+        },
+        "ACT": {
+          "Voice": "Act"
+        },
+        "PASS": {
+          "Voice": "Pass"
+        },
+        "POS": {
+          "Polarity": "Pos"
+        },
+        "NEG": {
+          "Polarity": "Neg"
+        },
+        "DEF": {
+          "Definite": "Def"
+        },
+        "INDF": {
+          "Definite": "Ind"
+        },
+        "CMPR": {
+          "Degree": "Cmp"
+        },
+        "SPRL": {
+          "Degree": "Sup"
+        },
+        "ANIM": {
+          "Animacy": "Anim"
+        },
+        "INAN": {
+          "Animacy": "Inan"
+        }
+      },
+      "conditions": [
+        {
+          "all": [
+            "V"
+          ],
+          "none": [
+            "NFIN",
+            "PTCP"
+          ],
+          "set": {
+            "VerbForm": "Fin"
+          }
+        }
+      ],
+      "defaults": {
+        "ADJ": {
+          "Degree": "Pos"
+        }
+      },
+      "scope": "UD training lemmas only; dictionary screening remains mandatory; unknown tags veto-only",
+      "references": [
+        "https://unimorph.github.io/doc/unimorph-schema.pdf",
+        "https://github.com/unimorph/fra",
+        "https://universaldependencies.org/fr/index.html"
+      ]
+    },
+    "upstream": {
+      "revision": "f672f8cceb2d5f5a1e2241b5622c8845f8274635",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/fra/f672f8cceb2d5f5a1e2241b5622c8845f8274635/README.md",
+          "sha256": "94a3807882c7b5b119909d7137e7fa7f279ac5e9c8de6ac02004ca3c2b575edf",
+          "bytes": 94
+        },
+        {
+          "file": "fra",
+          "url": "https://raw.githubusercontent.com/unimorph/fra/f672f8cceb2d5f5a1e2241b5622c8845f8274635/fra",
+          "sha256": "4760fc36435a9ffba9b4de6f0787d8eca5b15022e6b141e3b242b129f0d88dcb",
+          "bytes": 13405679
+        }
+      ]
+    },
+    "counts": {
+      "blank_or_nonrecord_lines": 1,
+      "rows": 367732,
+      "outside_training_lemma_inventory": 340042,
+      "generation_eligible": 27077,
+      "not_single_alphabetic_word": 613
+    },
+    "unmapped_tags": {},
+    "distinct_lemmas": 567,
+    "sha256": "d4bfadb8cd9004757dc04378d9494abd90cc5a2699d5aceefbc879b2b2e551d8",
+    "status": "descriptive lexical evidence; not normative or human validated"
+  },
+  "it": {
+    "language": "it",
+    "recipe": {
+      "language": "it",
+      "resource": "ita",
+      "files": [
+        "ita"
+      ],
+      "tags": {
+        "N": {
+          "pos": "NOUN"
+        },
+        "ADJ": {
+          "pos": "ADJ"
+        },
+        "V": {
+          "pos": "VERB"
+        },
+        "V.PTCP": {
+          "pos": "VERB",
+          "VerbForm": "Part"
+        },
+        "V.CVB": {
+          "pos": "VERB",
+          "VerbForm": "Conv"
+        },
+        "PTCP": {
+          "VerbForm": "Part"
+        },
+        "NFIN": {
+          "VerbForm": "Inf"
+        },
+        "SG": {
+          "Number": "Sing"
+        },
+        "PL": {
+          "Number": "Plur"
+        },
+        "MASC": {
+          "Gender": "Masc"
+        },
+        "FEM": {
+          "Gender": "Fem"
+        },
+        "NEUT": {
+          "Gender": "Neut"
+        },
+        "MASC+NEUT": {
+          "Gender": "Masc,Neut"
+        },
+        "MASC+FEM": {
+          "Gender": "Fem,Masc"
+        },
+        "FEM+NEUT": {
+          "Gender": "Fem,Neut"
+        },
+        "MASC+FEM+NEUT": {
+          "Gender": "Fem,Masc,Neut"
+        },
+        "FEM+MASC": {
+          "Gender": "Fem,Masc"
+        },
+        "NOM": {
+          "Case": "Nom"
+        },
+        "ACC": {
+          "Case": "Acc"
+        },
+        "GEN": {
+          "Case": "Gen"
+        },
+        "DAT": {
+          "Case": "Dat"
+        },
+        "VOC": {
+          "Case": "Voc"
+        },
+        "1": {
+          "Person": "1"
+        },
+        "2": {
+          "Person": "2"
+        },
+        "3": {
+          "Person": "3"
+        },
+        "IND": {
+          "Mood": "Ind"
+        },
+        "SBJV": {
+          "Mood": "Sub"
+        },
+        "COND": {
+          "Mood": "Cnd"
+        },
+        "IMP": {
+          "Mood": "Imp"
+        },
+        "QUOT": {
+          "Mood": "Qot"
+        },
+        "PRS": {
+          "Tense": "Pres"
+        },
+        "PST": {
+          "Tense": "Past"
+        },
+        "FUT": {
+          "Tense": "Fut"
+        },
+        "IPFV": {
+          "Aspect": "Imp"
+        },
+        "PFV": {
+          "Aspect": "Perf"
+        },
+        "PRF": {
+          "Aspect": "Perf"
+        },
+        "ACT": {
+          "Voice": "Act"
+        },
+        "PASS": {
+          "Voice": "Pass"
+        },
+        "POS": {
+          "Polarity": "Pos"
+        },
+        "NEG": {
+          "Polarity": "Neg"
+        },
+        "DEF": {
+          "Definite": "Def"
+        },
+        "INDF": {
+          "Definite": "Ind"
+        },
+        "CMPR": {
+          "Degree": "Cmp"
+        },
+        "SPRL": {
+          "Degree": "Sup"
+        },
+        "ANIM": {
+          "Animacy": "Anim"
+        },
+        "INAN": {
+          "Animacy": "Inan"
+        }
+      },
+      "conditions": [
+        {
+          "all": [
+            "V"
+          ],
+          "none": [
+            "NFIN",
+            "PTCP"
+          ],
+          "set": {
+            "VerbForm": "Fin"
+          }
+        }
+      ],
+      "defaults": {
+        "ADJ": {
+          "Degree": "Pos"
+        }
+      },
+      "scope": "UD training lemmas only; dictionary screening remains mandatory; unknown tags veto-only",
+      "references": [
+        "https://unimorph.github.io/doc/unimorph-schema.pdf",
+        "https://github.com/unimorph/ita",
+        "https://universaldependencies.org/it/index.html"
+      ]
+    },
+    "upstream": {
+      "revision": "fa2cc6ce173643e748bd8f4162709365bdc98805",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/ita/fa2cc6ce173643e748bd8f4162709365bdc98805/README.md",
+          "sha256": "906c65c2a25b62ff77ed98f411ec07a4883999eb04ade6994726703aebb82283",
+          "bytes": 96
+        },
+        {
+          "file": "ita",
+          "url": "https://raw.githubusercontent.com/unimorph/ita/fa2cc6ce173643e748bd8f4162709365bdc98805/ita",
+          "sha256": "6347bb15b3d2c3dafcbe4adc0e7beaa97a8bc61bcccc345079afb154c03f1321",
+          "bytes": 19801423
+        }
+      ]
+    },
+    "counts": {
+      "blank_or_nonrecord_lines": 1,
+      "rows": 509574,
+      "outside_training_lemma_inventory": 459775,
+      "generation_eligible": 49797,
+      "not_single_alphabetic_word": 2
+    },
+    "unmapped_tags": {},
+    "distinct_lemmas": 979,
+    "sha256": "aed08a0d0014c78565710ee1e7a476b05cc815ece0f577f08968486a3db614d5",
+    "status": "descriptive lexical evidence; not normative or human validated"
+  },
+  "pt-PT": {
+    "language": "pt-PT",
+    "recipe": {
+      "language": "pt-PT",
+      "resource": "por",
+      "files": [
+        "por"
+      ],
+      "tags": {
+        "N": {
+          "pos": "NOUN"
+        },
+        "ADJ": {
+          "pos": "ADJ"
+        },
+        "V": {
+          "pos": "VERB"
+        },
+        "V.PTCP": {
+          "pos": "VERB",
+          "VerbForm": "Part"
+        },
+        "V.CVB": {
+          "pos": "VERB",
+          "VerbForm": "Conv"
+        },
+        "PTCP": {
+          "VerbForm": "Part"
+        },
+        "NFIN": {
+          "VerbForm": "Inf"
+        },
+        "SG": {
+          "Number": "Sing"
+        },
+        "PL": {
+          "Number": "Plur"
+        },
+        "MASC": {
+          "Gender": "Masc"
+        },
+        "FEM": {
+          "Gender": "Fem"
+        },
+        "NEUT": {
+          "Gender": "Neut"
+        },
+        "MASC+NEUT": {
+          "Gender": "Masc,Neut"
+        },
+        "MASC+FEM": {
+          "Gender": "Fem,Masc"
+        },
+        "FEM+NEUT": {
+          "Gender": "Fem,Neut"
+        },
+        "MASC+FEM+NEUT": {
+          "Gender": "Fem,Masc,Neut"
+        },
+        "FEM+MASC": {
+          "Gender": "Fem,Masc"
+        },
+        "NOM": {
+          "Case": "Nom"
+        },
+        "ACC": {
+          "Case": "Acc"
+        },
+        "GEN": {
+          "Case": "Gen"
+        },
+        "DAT": {
+          "Case": "Dat"
+        },
+        "VOC": {
+          "Case": "Voc"
+        },
+        "1": {
+          "Person": "1"
+        },
+        "2": {
+          "Person": "2"
+        },
+        "3": {
+          "Person": "3"
+        },
+        "IND": {
+          "Mood": "Ind"
+        },
+        "SBJV": {
+          "Mood": "Sub"
+        },
+        "COND": {
+          "Mood": "Cnd"
+        },
+        "IMP": {
+          "Mood": "Imp"
+        },
+        "QUOT": {
+          "Mood": "Qot"
+        },
+        "PRS": {
+          "Tense": "Pres"
+        },
+        "PST": {
+          "Tense": "Past"
+        },
+        "FUT": {
+          "Tense": "Fut"
+        },
+        "IPFV": {
+          "Aspect": "Imp"
+        },
+        "PFV": {
+          "Aspect": "Perf"
+        },
+        "PRF": {
+          "Aspect": "Perf"
+        },
+        "ACT": {
+          "Voice": "Act"
+        },
+        "PASS": {
+          "Voice": "Pass"
+        },
+        "POS": {
+          "Polarity": "Pos"
+        },
+        "NEG": {
+          "Polarity": "Neg"
+        },
+        "DEF": {
+          "Definite": "Def"
+        },
+        "INDF": {
+          "Definite": "Ind"
+        },
+        "CMPR": {
+          "Degree": "Cmp"
+        },
+        "SPRL": {
+          "Degree": "Sup"
+        },
+        "ANIM": {
+          "Animacy": "Anim"
+        },
+        "INAN": {
+          "Animacy": "Inan"
+        }
+      },
+      "conditions": [
+        {
+          "all": [
+            "V"
+          ],
+          "none": [
+            "NFIN",
+            "PTCP"
+          ],
+          "set": {
+            "VerbForm": "Fin"
+          }
+        }
+      ],
+      "defaults": {
+        "ADJ": {
+          "Degree": "Pos"
+        }
+      },
+      "scope": "UD training lemmas only; dictionary screening remains mandatory; unknown tags veto-only",
+      "references": [
+        "https://unimorph.github.io/doc/unimorph-schema.pdf",
+        "https://github.com/unimorph/por",
+        "https://universaldependencies.org/pt/index.html"
+      ]
+    },
+    "upstream": {
+      "revision": "fc2778e08e2da476d9d2f27f15f218b1cbb25ad5",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/por/fc2778e08e2da476d9d2f27f15f218b1cbb25ad5/README.md",
+          "sha256": "17e48dc74cbae40720123b66a1c5a99fdfc62a1cb44ac622a1e5303d7962aa62",
+          "bytes": 100
+        },
+        {
+          "file": "por",
+          "url": "https://raw.githubusercontent.com/unimorph/por/fc2778e08e2da476d9d2f27f15f218b1cbb25ad5/por",
+          "sha256": "af71c94afbb857b3875817d8edb8ea4a1211d902326b74de4d86de85ea348944",
+          "bytes": 10982524
+        }
+      ]
+    },
+    "counts": {
+      "blank_or_nonrecord_lines": 1,
+      "rows": 303996,
+      "outside_training_lemma_inventory": 266134,
+      "generation_eligible": 37862
+    },
+    "unmapped_tags": {},
+    "distinct_lemmas": 498,
+    "sha256": "3302332538bff414d26601bc73ea807f67e0e273300fb19bff50c8e0542b38cd",
+    "status": "descriptive lexical evidence; not normative or human validated"
+  },
+  "ro": {
+    "language": "ro",
+    "recipe": {
+      "language": "ro",
+      "resource": "ron",
+      "files": [
+        "ron"
+      ],
+      "tags": {
+        "N": {
+          "pos": "NOUN"
+        },
+        "ADJ": {
+          "pos": "ADJ"
+        },
+        "V": {
+          "pos": "VERB"
+        },
+        "V.PTCP": {
+          "pos": "VERB",
+          "VerbForm": "Part"
+        },
+        "V.CVB": {
+          "pos": "VERB",
+          "VerbForm": "Conv"
+        },
+        "PTCP": {
+          "VerbForm": "Part"
+        },
+        "NFIN": {
+          "VerbForm": "Inf"
+        },
+        "SG": {
+          "Number": "Sing"
+        },
+        "PL": {
+          "Number": "Plur"
+        },
+        "MASC": {
+          "Gender": "Masc"
+        },
+        "FEM": {
+          "Gender": "Fem"
+        },
+        "NEUT": {
+          "Gender": "Neut"
+        },
+        "MASC+NEUT": {
+          "Gender": "Masc,Neut"
+        },
+        "MASC+FEM": {
+          "Gender": "Fem,Masc"
+        },
+        "FEM+NEUT": {
+          "Gender": "Fem,Neut"
+        },
+        "MASC+FEM+NEUT": {
+          "Gender": "Fem,Masc,Neut"
+        },
+        "FEM+MASC": {
+          "Gender": "Fem,Masc"
+        },
+        "NOM": {
+          "Case": "Nom"
+        },
+        "ACC": {
+          "Case": "Acc"
+        },
+        "GEN": {
+          "Case": "Gen"
+        },
+        "DAT": {
+          "Case": "Dat"
+        },
+        "VOC": {
+          "Case": "Voc"
+        },
+        "1": {
+          "Person": "1"
+        },
+        "2": {
+          "Person": "2"
+        },
+        "3": {
+          "Person": "3"
+        },
+        "IND": {
+          "Mood": "Ind"
+        },
+        "SBJV": {
+          "Mood": "Sub"
+        },
+        "COND": {
+          "Mood": "Cnd"
+        },
+        "IMP": {
+          "Mood": "Imp"
+        },
+        "QUOT": {
+          "Mood": "Qot"
+        },
+        "PRS": {
+          "Tense": "Pres"
+        },
+        "PST": {
+          "Tense": "Past"
+        },
+        "FUT": {
+          "Tense": "Fut"
+        },
+        "IPFV": {
+          "Aspect": "Imp"
+        },
+        "PFV": {
+          "Aspect": "Perf"
+        },
+        "PRF": {
+          "Aspect": "Perf"
+        },
+        "ACT": {
+          "Voice": "Act"
+        },
+        "PASS": {
+          "Voice": "Pass"
+        },
+        "POS": {
+          "Polarity": "Pos"
+        },
+        "NEG": {
+          "Polarity": "Neg"
+        },
+        "DEF": {
+          "Definite": "Def"
+        },
+        "INDF": {
+          "Definite": "Ind"
+        },
+        "CMPR": {
+          "Degree": "Cmp"
+        },
+        "SPRL": {
+          "Degree": "Sup"
+        },
+        "ANIM": {
+          "Animacy": "Anim"
+        },
+        "INAN": {
+          "Animacy": "Inan"
+        },
+        "NOM/ACC": {
+          "Case": "Acc,Nom"
+        },
+        "DAT/GEN": {
+          "Case": "Dat,Gen"
+        },
+        "GEN/DAT": {
+          "Case": "Dat,Gen"
+        }
+      },
+      "conditions": [
+        {
+          "all": [
+            "V"
+          ],
+          "none": [
+            "NFIN",
+            "PTCP"
+          ],
+          "set": {
+            "VerbForm": "Fin"
+          }
+        }
+      ],
+      "defaults": {
+        "ADJ": {
+          "Degree": "Pos"
+        }
+      },
+      "scope": "UD training lemmas only; dictionary screening remains mandatory; unknown tags veto-only",
+      "references": [
+        "https://unimorph.github.io/doc/unimorph-schema.pdf",
+        "https://github.com/unimorph/ron",
+        "https://universaldependencies.org/ro/index.html"
+      ]
+    },
+    "upstream": {
+      "revision": "0910e7850baef37f67817060fa8aae7c42cbe269",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/ron/0910e7850baef37f67817060fa8aae7c42cbe269/README.md",
+          "sha256": "4956a1692fb16651ecf9bd851478f65ef00d1d11eb318d0720776638ab60b853",
+          "bytes": 99
+        },
+        {
+          "file": "ron",
+          "url": "https://raw.githubusercontent.com/unimorph/ron/0910e7850baef37f67817060fa8aae7c42cbe269/ron",
+          "sha256": "0c007e572cacf37b0e538f024cea9e630cc17669c4faa7a5054655530871fd22",
+          "bytes": 2990521
+        }
+      ]
+    },
+    "counts": {
+      "rows": 80266,
+      "outside_training_lemma_inventory": 34812,
+      "blank_or_nonrecord_lines": 4407,
+      "generation_eligible": 34054,
+      "not_single_alphabetic_word": 11400
+    },
+    "unmapped_tags": {},
+    "distinct_lemmas": 2310,
+    "sha256": "5182f9be3e625872fbe7ddea03721e89ed4ac362c2b62686a87264a7de76e028",
+    "status": "descriptive lexical evidence; not normative or human validated"
+  },
+  "uk": {
+    "language": "uk",
+    "recipe": {
+      "language": "uk",
+      "resource": "ukr",
+      "files": [
+        "ukr"
+      ],
+      "tags": {
+        "N": {
+          "pos": "NOUN"
+        },
+        "ADJ": {
+          "pos": "ADJ"
+        },
+        "V": {
+          "pos": "VERB"
+        },
+        "V.PTCP": {
+          "pos": "VERB",
+          "VerbForm": "Part"
+        },
+        "V.CVB": {
+          "pos": "VERB",
+          "VerbForm": "Conv"
+        },
+        "PTCP": {
+          "VerbForm": "Part"
+        },
+        "NFIN": {
+          "VerbForm": "Inf"
+        },
+        "SG": {
+          "Number": "Sing"
+        },
+        "PL": {
+          "Number": "Plur"
+        },
+        "MASC": {
+          "Gender": "Masc"
+        },
+        "FEM": {
+          "Gender": "Fem"
+        },
+        "NEUT": {
+          "Gender": "Neut"
+        },
+        "MASC+NEUT": {
+          "Gender": "Masc,Neut"
+        },
+        "MASC+FEM": {
+          "Gender": "Fem,Masc"
+        },
+        "FEM+NEUT": {
+          "Gender": "Fem,Neut"
+        },
+        "MASC+FEM+NEUT": {
+          "Gender": "Fem,Masc,Neut"
+        },
+        "FEM+MASC": {
+          "Gender": "Fem,Masc"
+        },
+        "NOM": {
+          "Case": "Nom"
+        },
+        "ACC": {
+          "Case": "Acc"
+        },
+        "GEN": {
+          "Case": "Gen"
+        },
+        "DAT": {
+          "Case": "Dat"
+        },
+        "VOC": {
+          "Case": "Voc"
+        },
+        "1": {
+          "Person": "1"
+        },
+        "2": {
+          "Person": "2"
+        },
+        "3": {
+          "Person": "3"
+        },
+        "IND": {
+          "Mood": "Ind"
+        },
+        "SBJV": {
+          "Mood": "Sub"
+        },
+        "COND": {
+          "Mood": "Cnd"
+        },
+        "IMP": {
+          "Mood": "Imp"
+        },
+        "QUOT": {
+          "Mood": "Qot"
+        },
+        "PRS": {
+          "Tense": "Pres"
+        },
+        "PST": {
+          "Tense": "Past"
+        },
+        "FUT": {
+          "Tense": "Fut"
+        },
+        "IPFV": {
+          "Aspect": "Imp"
+        },
+        "PFV": {
+          "Aspect": "Perf"
+        },
+        "PRF": {
+          "Aspect": "Perf"
+        },
+        "ACT": {
+          "Voice": "Act"
+        },
+        "PASS": {
+          "Voice": "Pass"
+        },
+        "POS": {
+          "Polarity": "Pos"
+        },
+        "NEG": {
+          "Polarity": "Neg"
+        },
+        "DEF": {
+          "Definite": "Def"
+        },
+        "INDF": {
+          "Definite": "Ind"
+        },
+        "CMPR": {
+          "Degree": "Cmp"
+        },
+        "SPRL": {
+          "Degree": "Sup"
+        },
+        "ANIM": {
+          "Animacy": "Anim"
+        },
+        "INAN": {
+          "Animacy": "Inan"
+        },
+        "ESS": {
+          "Case": "Loc"
+        },
+        "INS": {
+          "Case": "Ins"
+        }
+      },
+      "conditions": [
+        {
+          "all": [
+            "V"
+          ],
+          "none": [
+            "NFIN",
+            "PTCP"
+          ],
+          "set": {
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "all": [
+            "V"
+          ],
+          "none": [
+            "NFIN",
+            "PTCP",
+            "SBJV",
+            "IMP",
+            "COND"
+          ],
+          "set": {
+            "Mood": "Ind"
+          }
+        }
+      ],
+      "defaults": {
+        "ADJ": {
+          "Degree": "Pos"
+        }
+      },
+      "scope": "UD training lemmas only; dictionary screening remains mandatory; unknown tags veto-only",
+      "references": [
+        "https://unimorph.github.io/doc/unimorph-schema.pdf",
+        "https://github.com/unimorph/ukr",
+        "https://universaldependencies.org/uk/index.html"
+      ]
+    },
+    "upstream": {
+      "revision": "d7d0284e926b7d4947c52aaafd1d7f8a40a2dec0",
+      "files": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/unimorph/ukr/d7d0284e926b7d4947c52aaafd1d7f8a40a2dec0/README.md",
+          "sha256": "aabe2e1ec396715830e5723e51f4e95408ae0c86b9f05379c6442db5d72b76e2",
+          "bytes": 1218
+        },
+        {
+          "file": "ukr",
+          "url": "https://raw.githubusercontent.com/unimorph/ukr/d7d0284e926b7d4947c52aaafd1d7f8a40a2dec0/ukr",
+          "sha256": "c0ad5ba0348b829b2363a215f712b84c4d302535ebb97557d93082e4f32eab42",
+          "bytes": 870660
+        }
+      ]
+    },
+    "counts": {
+      "blank_or_nonrecord_lines": 1,
+      "rows": 20904,
+      "outside_training_lemma_inventory": 9067,
+      "generation_eligible": 11516,
+      "not_single_alphabetic_word": 321
+    },
+    "unmapped_tags": {},
+    "distinct_lemmas": 798,
+    "sha256": "4a061b703ad68c805affe1e28f388fc4e4d7c5e7a4cda7f65310422dc3c46039",
+    "status": "descriptive lexical evidence; not normative or human validated"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "language": "fo",
+  "exit_code": 1,
+  "log": "wiki/artifacts/six-language-expansion/scale_v1/fo.log",
+  "output": "la_output/fo_dynaword_scale_v1",
+  "status": "failed_checkpoints_preserved"
+}

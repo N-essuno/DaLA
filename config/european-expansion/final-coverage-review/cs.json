@@ -1,0 +1,67 @@
+{
+  "language": "cs",
+  "source_sha256": [
+    "227d0b5a28041de0bb07212888f098438aa8364f3f084d68188300ac6ac90c3d",
+    "45e8fbab5f0a06638358d9c6cd82ca8a4e0252686e6ea30b3a0dee3266a54c04",
+    "83246a384ca40a0a62b01b6ebac9ed3929072651761602c76085652321b84200",
+    "9b92693287af21703deaf5b8a83194538612cff95c31e734fd35bca8876c8942",
+    "9c0b04e04ed401423486c65c63f41217a3da598f5a1bb64425f3b7a458f9197e",
+    "a20489d6655802adfe026f653b898ed4110c1fdc51b866abc7529e83971e7b18",
+    "c413878a68132825e4eceaa660e89846667a7aed0c871c0ad871c707b6c72fab",
+    "e3ad60b773f3101a7c610c45bcf330a45bffaf001923ef51e16b6275e73c1dfe"
+  ],
+  "review_type": "automatic source-boundary risk filter plus explicitly recorded agent judgments; not native validation",
+  "source_risk_patterns": [
+    "[!?]"
+  ],
+  "judgments": [
+    {
+      "pair_id": "f086f8628da25c55e26edb40",
+      "original": "Když on přijde, ona se umývá v řece, a každou nohu má na jiné straně řeky Unius.",
+      "reason": "Source comma before additive a needs native judgment; exclude conservatively.",
+      "method": "agent"
+    },
+    {
+      "pair_id": "d45588263ec6d9eaa3ef6ff9",
+      "original": "Zaujaly i některé jeho repliky z filmu Jáchyme, hoď ho do stroje!, kde ztvárnil trenéra juda Tulpacha.",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    },
+    {
+      "pair_id": "bef45f483c40de2d05c6244d",
+      "original": "Zuří bouře a vesničané s hrůzou sledují, jak u břehu troskotá koráb (sbor Strašlivo! Strašlivo!).",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    },
+    {
+      "pair_id": "88679ba4843ba53b76576684",
+      "original": "Já jsem se začalo rapidně rozrůstat již v se třicátých letech 20. století.",
+      "reason": "Malformed Czech source Já jsem se začalo ... v se třicátých letech.",
+      "method": "agent"
+    },
+    {
+      "pair_id": "dfe0162352955f95e701cded",
+      "original": "Čína zahyne, bude-li takto bezbožně hynout láska! - Proměna: Na náměstí před císařským palácem přihlíží lid, jak se nový nápadník hlásí ke zkoušce.",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    },
+    {
+      "pair_id": "deb788af3ba38d50e538c5c3",
+      "original": "Viktor Hujer je postava večerního studenta z československého komediálního filmu Marečku, podejte mi pero! z roku 1976, ztvárněná Václavem Lohniským.",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    },
+    {
+      "pair_id": "130d42e077b4bdbde14de577",
+      "original": "Pane, vy jste vdova! je česká filmová komedie režiséra Václava Vorlíčka z roku 1970.",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    },
+    {
+      "pair_id": "f1ed415c4b877c42e9f32a0f",
+      "original": "Pane, vy jste vdova! na Filmová místa.",
+      "reason": "Unquoted internal question/exclamation punctuation: title, fragment or uncertain boundary risk.",
+      "method": "automatic"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "name": "govpl",
+      "source_value": "govpl",
+      "repo_id": "SlayerLab/polish-dynaword",
+      "revision": "1564cb054434ba049cbd0d355a9bfaf044b6a852",
+      "data_file": "data/govpl/govpl.parquet",
+      "metadata_file": null,
+      "license": "per-record",
+      "license_evidence_url": "https://huggingface.co/datasets/SlayerLab/polish-dynaword/blob/1564cb054434ba049cbd0d355a9bfaf044b6a852/data/govpl/govpl.md",
+      "min_document_chars": 35,
+      "annotation_filters": {},
+      "quality_policy": "source_and_sentence_screening",
+      "language": "pl"
+    }
+  ]
+}

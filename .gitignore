@@ -25,3 +25,18 @@ data_proportion_2.ipynb
 
 dala/upload_to_hf.py
 requirements_2.txt
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Hugging Face staging
+export-upload/
+
+# Local run output; retain JSON receipts and review evidence in the wiki
+wiki/artifacts/**/*.log
+wiki/artifacts/**/*.log.*
+wiki/artifacts/**/*.sqlite*
+wiki/artifacts/**/*.pid
+.pytest_cache/
+wiki/artifacts/**/status-history.jsonl
+wiki/artifacts/**/*.ready
